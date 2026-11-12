@@ -1,0 +1,198 @@
+{
+  "audit_id": "first12_delivery_correspondence_20261101",
+  "scope": "First12 variants, descriptive source rows, summary correspondence, main report meaning and all88 original snapshots; no model result recomputation",
+  "all_checks_passed": true,
+  "passed": 30,
+  "total": 30,
+  "checks": [
+    {
+      "check": "16_total_12_descriptive_4_model_counting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "first12_id_fixed_order_and_registered_names",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_1_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_2_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_3_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_4_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_5_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_6_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_7_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_8_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_9_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_10_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_11_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "variant_12_definitions_eligibility_and_all_saved_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "full_all_price_window_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "88_unique_originals_and_unique_snapshots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all88_source_snapshot_size_hash_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "summary_sqlite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sqlite_variants_exact_ledger",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "d12_sqlite_all13_original_statistics_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "d12_sqlite_469_existing_labels_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "d12_sqlite_15_existing_exclusions_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "d12_sqlite_statistics_still_nonpredictive_and_unapproved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "index_d12_all_existing_result_table_counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_states_actual_composition_and_source_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_table_first12_exact_display",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_denominator_and_sparse_cautions_clear",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_no_validation_overclaim",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_target_scoring_and_forecast_flags_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "first_review_sources_still_unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "first12_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "all88_snapshot_hashes_verified": true,
+  "source_record_count": 88,
+  "source_sha256": {
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/开发期描述统计_非预测概率.csv": "d0e4b94834ac3a0fc71d7ec0db286e2a6cccfd8db29ca7579930e28746e39eda",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/验证结果.json": "7bc62c633c76a5bd8527cbead3dcba7d036830f33381dc4beef98be985bf093b",
+    "outputs/三线研究启动_20261025/量价基线/独立来源复核.json": "0801e1b6f546877d3ebd071d094ee3fd4961d16f89175402fa4cf62d9badf626",
+    "outputs/三线研究启动_20261025/量价基线/重跑产物核验.json": "87c4527246c0a16951dee0884f5d493f8eba3bf7a119bf83b8d9d9bb2aadf1c2",
+    "outputs/三线研究启动_20261025/量价基线/量价基线报告.md": "eda18677cd8f3fe370377d1ea24560b04eccfb282b376c0093ebe0684857d456",
+    "outputs/三线研究启动_20261025/量价基线/指标可计算覆盖.csv": "280179949a9466c75eada796b3062044d00f601707f497cb8d5cb49079bb3ce7"
+  },
+  "delivery_sha256": {
+    "16项研究变体完整台账.json": "c27b115b8ec5d59ea3d9dd8a149919de9dadd298207e1fbfc04f84d176c51f5b",
+    "研究证据与覆盖审查_v1.md": "3a7ba240075df9e53823cd86590d286e777e6d9761caeeb93dba891e3123434b",
+    "研究证据汇总.sqlite": "d8ea556e157d47cc474fccaa863c1435f4f092938a476afad5a84ee75ee94331",
+    "原有结果文件清单与SHA256.json": "5fc8133bade1b817ba8cbe8e888d4df3c49c42d441120b58d5cff58d107f68b9",
+    "全部结果表与样本索引.json": "1ded8af19311bced9c360e6ee17d0ae4ef7a7fe0b2fc606e7bfadeb1107f6d13"
+  },
+  "new_target_labels_generated": false,
+  "new_models_scored": 0,
+  "outcomes_2025_2026_opened": false,
+  "blockers": []
+}

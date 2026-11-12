@@ -1,0 +1,51 @@
+{
+  "as_of_client_date": "2026-10-22",
+  "research_cutoff": "2026-10-16",
+  "scope": "third_priority_historical_trade_conditions_only",
+  "daily_rows": 915,
+  "monthly_suspension_reports": 45,
+  "monthly_stats_reports": 45,
+  "monthly_suspension_target_rows": 0,
+  "monthly_stats_target_rows": 45,
+  "monthly_names_all_normal": true,
+  "months_first": "2023-01",
+  "months_last": "2026-09",
+  "days_with_monthly_scope_evidence": 908,
+  "days_with_unadjusted_bars": 914,
+  "actual_daily_verified_normal_count": 0,
+  "official_daily_limit_price_count": 0,
+  "execution_eligible_count": 0,
+  "complete_account_cost_model_count": 0,
+  "rule_regimes": 3,
+  "ex_dates_protected_from_naive_limit_calculation": [
+    "2023-06-20",
+    "2024-05-24",
+    "2026-09-22"
+  ],
+  "source_identity_corrections": 2,
+  "main_database_readonly": true,
+  "main_database_sha256_before": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+  "main_database_sha256_after": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+  "main_database_quick_check": "ok",
+  "tests": [
+    "915_dates_exact_unique_sorted",
+    "45_monthly_tables_each_type_header_and_rows_valid",
+    "suspension_no_002414_rows_not_upgraded_to_daily_status",
+    "45_monthly_names_高德红外_not_carried_as_daily_st_proof",
+    "2026_07_06_ST_boundary_5_to_10",
+    "2023_08_28_stamp_and_exchange_fee_boundary",
+    "three_ex_dates_no_naive_limit_prices",
+    "all_915_execution_eligible_false_and_total_cost_incomplete",
+    "main_database_hash_unchanged"
+  ],
+  "unresolved": [
+    "2023规则原始PDF及中间修订完整链",
+    "逐日ST/特殊状态及停复牌事件原始清单",
+    "官方逐日涨跌停价格与除权参考价",
+    "2026年10月停牌和证券统计月报尚未取得",
+    "账户佣金、包费内容、最低收费及成交级舍入",
+    "历史证管费连续性及2022过户费原始发布件",
+    "分红税所需持仓与个人税务信息",
+    "研究截止后2026-10-19至22日另列待补，不混入915日"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "date_local": "2026-10-31",
+  "timezone": "America/Toronto",
+  "scope": "Lightweight final frozen-source confirmation only; no new feature/market result or outcome labels read, producer not executed",
+  "status": "confirmed_final_frozen_semantics_match_prior_review",
+  "original_industry_review_contract_sha256": "8f8dcf4a820ecf3433157367bb45a74fa8a869ee1abc5f7a76a7ffac4d95a02b",
+  "final_contract_sha256": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+  "final_code_sha256": "5400205e4968252a5a821ad9bbd9adc211b6b82922b487cb297a6972f250e833",
+  "final_receipt_sha256": "755f6c214a396a52903d7fa27ec9abd0652a470066218c1eb9c938a06690692b",
+  "prior_static_review_contract_sha256": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+  "prior_static_review_code_sha256": "5400205e4968252a5a821ad9bbd9adc211b6b82922b487cb297a6972f250e833",
+  "field_changes": {
+    "added": {
+      "invalid_source_close_policy": "Any missing, nonpositive or nonfinite source close rejects the entire preparation batch before feature calculation; ordinary insufficient history remains per-feature NULL"
+    },
+    "removed": [],
+    "modified_existing_fields": []
+  },
+  "diff_evidence": "Removing the single invalid_source_close_policy line from final raw contract reconstructs the exact hash recorded by original industry review, confirming there were no other byte changes. Current code hash equals prior static-review hash.",
+  "invalid_source_price_behavior": "Missing/nonpositive/nonfinite close rejects whole batch before feature catalog/calculation; ordinary insufficient history remains per-feature NULL. Missing close key raises immediately rather than producing a feature.",
+  "checks": [
+    {
+      "name": "earlier_contract_reconstructed_exactly_by_removing_added_field",
+      "passed": true
+    },
+    {
+      "name": "only_added_semantic_field",
+      "passed": true
+    },
+    {
+      "name": "final_contract_matches_receipt",
+      "passed": true
+    },
+    {
+      "name": "final_code_matches_receipt_and_prior_static_review",
+      "passed": true
+    },
+    {
+      "name": "prior_static_contract_already_equals_final",
+      "passed": true
+    },
+    {
+      "name": "added_invalid_price_policy_is_implemented_before_calculation",
+      "passed": true
+    },
+    {
+      "name": "formal_and_runtime_gates_still_closed",
+      "passed": true
+    },
+    {
+      "name": "definition_counts_and_experiment_counts_unchanged",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "check_count": 8,
+  "label_values_accessed": false,
+  "new_feature_values_accessed": false,
+  "producer_executed": false,
+  "prior_reviews_overwritten": false,
+  "files_read": [
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/industry_readiness_oct31/行业代理准入审查.json",
+      "sha256": "74e1d24908bc9e5ff16ed110c4074e123756ad7f876154163954a257be0372e0"
+    },
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/industry_readiness_oct31/实现静态审查.json",
+      "sha256": "6c47d35a6107e9a33e10050bcc292029040df31306670362a8e0c51ba859ad97"
+    },
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_context_oct31/contract.json",
+      "sha256": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3"
+    },
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_context_oct31/build_context.py",
+      "sha256": "5400205e4968252a5a821ad9bbd9adc211b6b82922b487cb297a6972f250e833"
+    },
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_context_oct31/registration_receipt.json",
+      "sha256": "755f6c214a396a52903d7fa27ec9abd0652a470066218c1eb9c938a06690692b"
+    }
+  ]
+}

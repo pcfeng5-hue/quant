@@ -1,0 +1,858 @@
+{
+  "all_checks_passed": true,
+  "passed": 156,
+  "total": 156,
+  "checks": [
+    {
+      "check": "previous_independent_54_checks_and_sources_still_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "16_counting_and_unique_definitions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_entries13to16_exactly_M0_M1_M2_M3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_three_round_records_equal_independent_inventory",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_13_repeated_comparator_rounds_and_all_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_13_not_current_forecast",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_14_repeated_comparator_rounds_and_all_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_14_not_current_forecast",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_15_repeated_comparator_rounds_and_all_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_15_not_current_forecast",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_16_repeated_comparator_rounds_and_all_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_16_not_current_forecast",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_new_model_score_target_or_runtime",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "88_snapshot_rows_and_unique_sources",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/固定信号_不含未来结果.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/开发期价格结果_仅2023至2024.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/开发期剔除记录.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/开发期描述统计_非预测概率.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/指标可计算覆盖.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/日线指标_1160日含预热.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/独立来源复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/独立来源复核.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/运行合同.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/重跑产物核验.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/量价基线报告.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/三线研究启动_20261025/量价基线/验证结果.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/与常数基准对照.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/剔除与弃答台账.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/固定分箱校准诊断.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/时间分折与覆盖.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/概率评分.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/每折训练模型.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/滚动验证概率与结果_仅开发期.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/独立来源复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/独立来源复核.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/研究验证协议_v1.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/训练样本成员.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/运行与输入合同.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/重跑产物核验.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/首版时间验证报告.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/初始化与验证推进_20261026/时间验证/验证结果.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/与上轮覆盖对账.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/六折训练与覆盖.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/共同训练样本成员.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/冻结前实现审查.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/冻结前设计说明.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/同日模型对照.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/固定分箱校准诊断.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/复算与文件说明.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/完整重跑核验.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/实现验证结果.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/本轮交付核验.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/本轮推进报告.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/本轮状态与续作断点.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/概率评分.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/独立模型复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/独立模型复核.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/独立量价特征核查.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/独立量价特征核查.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/累计研究试验台账.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/训练与验证弃答台账.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/较上轮减少的评分日期.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/运行与输入合同.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/逐折模型与全部九格.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/逐日概率与实际结果_仅开发期.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/逐日配对误差差.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/量价增量开发验证.sqlite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/预登记凭证.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/量价增量验证_20261026/预登记研究协议.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/六折训练与覆盖.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/共同训练成员.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/冻结前设计核查.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/冻结前设计核查.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/同日模型对照.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/后续研究审查建议.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/固定分箱校准诊断.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/复算说明.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/实现验证结果.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/市场状态候选开发验证.sqlite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/描述性开发筛选.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/本轮交付核验.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/本轮推进报告.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/本轮状态与续作断点.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/概率评分.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/每折模型与两组参数.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/沿用标签预排除.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/独立复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/独立复核.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/登记回执.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/筛选身份与完整性严格复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/累计研究与本轮结论台账.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/训练与验证弃答台账.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/运行与输入记录.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/选定市场输入_仅开发期.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/选定市场输入独立核查.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/选定市场输入独立核查.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/逐日概率与实际结果_仅开发期.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/逐日配对误差差.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "snapshot_exact_outputs/市场环境候选验证_20261031/预登记研究协议.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "summary_sqlite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sqlite_16_variant_records_equal_json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_D12_20261025_descriptive_statistics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_D12_20261025_development_price_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_D12_20261025_excluded_anchors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_D12_20261025_metadata",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_calibration",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_comparisons",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_folds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_ledger",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_membership",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_metadata",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_models",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M1_round_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "M1_round_all_saved_prediction_outcome_dates_bounded_2024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_calibration",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_comparisons",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_fitted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_folds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_ledger",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_lost_prior_scoring_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_membership",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_metadata",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_paired_loss",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "M2_round_all_saved_prediction_outcome_dates_bounded_2024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M2_round_prior_coverage_comparison",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_calibration",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_comparisons",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_fitted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_folds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_ledger",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_membership",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_metadata",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_paired_loss",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "M3_round_all_saved_prediction_outcome_dates_bounded_2024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_registered_source_exclusions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_table_exact_M3_round_selected_input_features",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all37_tables13369_rows_no_unindexed_extras",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all2172_original_model_prediction_rows_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "98_metrics70_comparisons18_folds_in_db",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_sample_date_indexes_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "M1toM2_coverage_and_lost_dates_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "markdown_all12_json_blocks_exact_and_unselected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "markdown_all98_rounded_score_lines_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_counts_negative_results_and_technical_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_all14_pooled_score_lines_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_all_three_coverage_lines",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "model_formulas_and_fixed_parameters_documented",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_manifest_source_and_snapshot_hashes_unchanged_at_end",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "old_source_sha256": {
+    "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+    "outputs/初始化与验证推进_20261026/时间验证/滚动验证概率与结果_仅开发期.csv": "85043cc7c64a22fab74a7487cd52c11adba9ee460d48ee1520c119d8c56e237b",
+    "outputs/初始化与验证推进_20261026/时间验证/与常数基准对照.csv": "084a0da69bf956c6b097acfb99d1d760d5beafbbe38463210e3ab1e0bd389ca8",
+    "outputs/初始化与验证推进_20261026/时间验证/时间分折与覆盖.csv": "f99eec359e93066482e847cb940750312ca43a7a14df93fe59e3c9737747f805",
+    "outputs/初始化与验证推进_20261026/时间验证/每折训练模型.csv": "04f84c85cedaacc78334804d6bc38dbf3086ff3a7395dcfd549c14c0689437fc",
+    "outputs/初始化与验证推进_20261026/时间验证/训练样本成员.csv": "ab58e9cb14d04df6fbb822d73ce64fe2d237080a714d16bf5e439c304cf6ee34",
+    "outputs/初始化与验证推进_20261026/时间验证/剔除与弃答台账.csv": "db21575fe7f840a802580bcf9de933003b896b0940440534151f255ded7e9ca0",
+    "outputs/初始化与验证推进_20261026/时间验证/固定分箱校准诊断.csv": "d4eee71ebc5422dab7644c400eff6c41668c20af5453f69fec621ed7e782d099",
+    "outputs/初始化与验证推进_20261026/时间验证/概率评分.csv": "0365e6c9da9a858ca1788a6e81aa1cdeac35a374fa98308ff0ef8d0ae0d9a9fb",
+    "work/incremental_validation_oct26/contract.json": "73ce2b2b85be6a4d4b1d59307487bbe4760ef91692413c9e38c7828b19e79d6e",
+    "work/incremental_validation_oct26/registration_receipt.json": "65a2e119ec9b73047b46126afd607870bf4bedbf0d62f329c33a4b4a2768eb22",
+    "outputs/量价增量验证_20261026/逐日概率与实际结果_仅开发期.csv": "70476cc136254752366b7834912cfcf09ae2e51a1ed0e7ae1fbff21376949cdc",
+    "outputs/量价增量验证_20261026/同日模型对照.csv": "7b8f02b3a7c0f3658b8157c3e61b18bcd5183a8766fb23b5ac658f8b53ec3371",
+    "outputs/量价增量验证_20261026/六折训练与覆盖.csv": "01b8d08c0cc8db9ad85e591d20228ba397c47c9e5f1eb78cc31b1bccf9cd2ac1",
+    "outputs/量价增量验证_20261026/逐折模型与全部九格.csv": "c31908f64feb6b1c65586a0858e809bc844f5b3679212ccd67ef33bd14d462ef",
+    "outputs/量价增量验证_20261026/共同训练样本成员.csv": "afc39fe2cce94c02e8cdaa1d280833a41682d8a9005ac3c2b3659af8d74703a1",
+    "outputs/量价增量验证_20261026/训练与验证弃答台账.csv": "4436b04e4d0a4e7acc5d6832d72c6d36b51020f4c4b0db3a8a9b5f348f33d5a5",
+    "outputs/量价增量验证_20261026/固定分箱校准诊断.csv": "aa4901b2ba14fd730da28139341dcd2bda11c82d61731a1c3107455185cea3cc",
+    "outputs/量价增量验证_20261026/概率评分.csv": "432874919b5c0663d8c8416a0de270723b5aef9bf3ad09425331e1fe8859e434",
+    "work/market_model_oct31/contract.json": "fab9092c429298b020037a6c62277b059bf6de15d75d361572f73aadc7bf21e8",
+    "work/market_model_oct31/registration_receipt.json": "2d05fe8b84ab06a96374264ab38892dcb0ec6bfee04184af6da04f35e07b2afe",
+    "outputs/市场环境候选验证_20261031/逐日概率与实际结果_仅开发期.csv": "370b8d0de519657f367b19676a84e62c95a377336da16cbfc0ea683c71a833ec",
+    "outputs/市场环境候选验证_20261031/同日模型对照.csv": "e96e638650a99141b070e5613464b191e09e106cc77e6cae310ee0db6e4a5d80",
+    "outputs/市场环境候选验证_20261031/六折训练与覆盖.csv": "048e6e91e8a8fa44719d0ae7f9318e387fa77a8e99117c69cfd98041b8537867",
+    "outputs/市场环境候选验证_20261031/每折模型与两组参数.csv": "e9c460152ca0dab3aa15e9fa0b81f6b510b1d82352aa6001fd9da2def986032f",
+    "outputs/市场环境候选验证_20261031/共同训练成员.csv": "9ccd75dd45a84df6266148672643388d95597ab69e3bc11375ace5544d67ce12",
+    "outputs/市场环境候选验证_20261031/训练与验证弃答台账.csv": "2e93c02acd8b56b2dbb2b5a310b248fd355d33f95d8a1a5b63464e42363e0b8c",
+    "outputs/市场环境候选验证_20261031/固定分箱校准诊断.csv": "b6a4244ed73e3272c38337c06a3d6b02717cafcefddbf632a26290761936abea",
+    "outputs/市场环境候选验证_20261031/概率评分.csv": "f3aa92488c229842aa9e4f4313161b7266ad8f026942ca668729fe0246cecffe",
+    "outputs/量价增量验证_20261026/与上轮覆盖对账.csv": "4c3011e0a84514241631dfcc029f5c5790789d0fbd9ebd857a30042dcded2be9",
+    "outputs/量价增量验证_20261026/较上轮减少的评分日期.csv": "17ce140f0314bcac43cc2ac2db8be96031cc977fc3f45b4f494abd65e4d59e7d",
+    "outputs/市场环境候选验证_20261031/累计研究与本轮结论台账.json": "0b4523ad2a4c3dfec831fe2420e4afc7c7e2fd91efbc3408cc2e865f0a15b7f5",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "outputs/市场环境输入准备_20261031/本轮状态与续作断点.json": "c8bd152684438400d13914bccb8cb01447d4f5f62420b73e9afe8a3a0090276a",
+    "outputs/初始化与验证推进_20261026/时间验证/验证结果.json": "8a3370c3f1043f7c7547a388dd492a540a2cf68eca7bd43ee0260941a2c7f34f",
+    "outputs/初始化与验证推进_20261026/时间验证/独立来源复核.json": "5c7adcdde4e315d4be53f9cf4b4347c27b29372c5b8a1b4d4548340605828178",
+    "outputs/初始化与验证推进_20261026/时间验证/重跑产物核验.json": "caed6b239e798b56cd63ded50065f932617da93538e7279c886f06ba57f21ba4",
+    "outputs/量价增量验证_20261026/实现验证结果.json": "67bbe3f23c7ab1d73d52734f58e3847e3c39524e5de6414e675ca813b073231e",
+    "outputs/量价增量验证_20261026/独立模型复核.json": "049b9ae871dc6da34ae1ed84f13a2518b33d5d4617554f0782823dbf6d5dec8a",
+    "outputs/量价增量验证_20261026/独立量价特征核查.json": "14156d62b1344126e129f4fafdec5dd8a0fa5c2a8a9e95856a6c728dc6d40b58",
+    "outputs/量价增量验证_20261026/完整重跑核验.json": "2718be41d232f5a20d632ad9ee5b521d135a3649e1e53e4695f4bfed300fa9cd",
+    "outputs/量价增量验证_20261026/本轮交付核验.json": "21bbf60f6e4ccdd9091cc8e953edf5867563d2a37d02b56c49d62b4ae57986ec",
+    "outputs/市场环境候选验证_20261031/实现验证结果.json": "43c41bd267d127cfa4cd46a4e01559e2bc39b78550b673cbcf05f174c0d524c5",
+    "outputs/市场环境候选验证_20261031/选定市场输入独立核查.json": "decfa5457fc2f694622d8d3b1986a7f99ebd0450fe7b6d5036cca72c76c3977b",
+    "outputs/市场环境候选验证_20261031/独立复核.json": "698a7ee0cfc45bb4124b2538fdf422247d4507af6160b16588fa57e16a1d7eb9",
+    "outputs/市场环境候选验证_20261031/筛选身份与完整性严格复核.json": "4d9e1f49caf893f5eb5fe4237cdcdf6b157af71bbbc0ff6ca822d314d4ed67a9",
+    "outputs/市场环境候选验证_20261031/本轮交付核验.json": "3ad917320b3d17e34d616157955ca37b9d3a28d8905610466bf789f8a3cef7be",
+    "outputs/市场环境候选验证_20261031/描述性开发筛选.json": "466bdc1fab0ab99b5af9382c48114de5676459eb6e72ceb4489ad94294f1f961",
+    "work/market_model_oct31/strict_screen_review.py": "0b6fc0e78dbf105ec11708cb2a384a87cb71913411d790ef9fa1e55230527ab4"
+  },
+  "delivery_sha256": {
+    "16项研究变体完整台账.json": "c27b115b8ec5d59ea3d9dd8a149919de9dadd298207e1fbfc04f84d176c51f5b",
+    "研究证据与覆盖审查_v1.md": "3a7ba240075df9e53823cd86590d286e777e6d9761caeeb93dba891e3123434b",
+    "全部既有评分与覆盖.md": "703f60f5d8e29866e6565ab6377d3b11ac9eff7488adb64d4489ac17bc6d0f34",
+    "研究证据汇总.sqlite": "d8ea556e157d47cc474fccaa863c1435f4f092938a476afad5a84ee75ee94331",
+    "原有结果文件清单与SHA256.json": "5fc8133bade1b817ba8cbe8e888d4df3c49c42d441120b58d5cff58d107f68b9",
+    "全部结果表与样本索引.json": "1ded8af19311bced9c360e6ee17d0ae4ef7a7fe0b2fc606e7bfadeb1107f6d13"
+  },
+  "verified_tables": 37,
+  "verified_saved_result_rows": 13369,
+  "verified_model_prediction_rows": 2172,
+  "verified_metric_rows": 98,
+  "verified_comparison_rows": 70,
+  "verified_fold_rows": 18,
+  "verified_snapshot_files": 88,
+  "new_model_fits": 0,
+  "new_loss_scores_computed": 0,
+  "later_targets_read": false,
+  "report_no_upgrade_evidence_preserved": true
+}

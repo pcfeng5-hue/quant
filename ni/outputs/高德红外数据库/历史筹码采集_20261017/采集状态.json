@@ -1,0 +1,33 @@
+{
+  "symbol": "002414.SZ",
+  "collection_date_client": "2026-10-17",
+  "range": [
+    "2023-01-03",
+    "2026-10-16"
+  ],
+  "target_dates": 915,
+  "summary_dates": 915,
+  "missing_summary_dates": [],
+  "attempts": 932,
+  "accepted_observations": 923,
+  "rejected_observations_preserved": 9,
+  "duplicate_control_observations": 8,
+  "duplicate_control_differences": 0,
+  "main_database_date_baseline": 914,
+  "main_database_unchanged": true,
+  "main_database_ohlc_compared_dates": 914,
+  "ohlc_mismatched_fields": 0,
+  "complete_numerical_price_bin_days": 0,
+  "historical_input_eligible": false,
+  "full_chip_dataset_complete": false,
+  "completed_scope": "Rendered daily summaries and dated screenshots only",
+  "outstanding": [
+    "完整逐价档数值",
+    "筹码复权口径",
+    "初始化与历史加载依赖",
+    "历史时点可获得性"
+  ],
+  "raw_source_root": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/chip_full_capture_oct17",
+  "archive_raw_prefix": "current_capture/",
+  "note": "前复权OHLC匹配不认证筹码算法；截图仅为当时可见价格轴下的页面绘图，不保证全部筹码价位可见。"
+}

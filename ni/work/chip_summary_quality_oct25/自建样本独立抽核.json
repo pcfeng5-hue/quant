@@ -1,0 +1,255 @@
+{
+  "audit_date": "2026-10-25",
+  "created_at_utc": "2026-10-25T17:39:16.045752+00:00",
+  "scope": "Independent one-date reconstruction, hand boundaries, read-only stored invariants; not a full 84-run recalculation. No audited source/artifact changed by this audit.",
+  "conclusion": "No current numerical or native-supplier-claim error found within limited audit. P3 unsupported-origin parameter issue fixed by author during review; nonzero values now rejected.",
+  "checks": {
+    "fixed_zero_origin_all_saved_runs": true,
+    "all_84_runs_unapproved_and_non_native": true,
+    "all_persisted_mass_sums_within_1e_12": true,
+    "all_persisted_masses_nonnegative": true,
+    "independent_date_max_bin_error_below_1e_12": true,
+    "independent_summary_errors_below_1e_11": true,
+    "real_day_pdf_integral_vs_cdf_below_1e_12": true,
+    "one_price_hand_check_below_1e_10": true,
+    "action_hand_check_below_1e_10": true,
+    "three_action_units_correct": true,
+    "selected_date_prefix_identical": true,
+    "selected_date_future_poison_identical": true,
+    "selected_window_and_seed_recorded": true,
+    "known_240d_gap_preserved": true,
+    "all_first_seen_and_complete_action_coverage_uncertified": true,
+    "nonzero_origin_explicitly_rejected": true,
+    "audited_inputs_unchanged_during_numeric_check": true,
+    "final_code_copy_metadata_and_announced_hashes_match": true
+  },
+  "checks_passed": 18,
+  "checks_failed": 0,
+  "issues": [
+    {
+      "id": "grid_origin_parameter_ignored_before_guard",
+      "priority": "P3",
+      "status": "fixed_during_review",
+      "current_saved_output_affected": false,
+      "finding": "Original Params exposed grid_origin_cny but calculations always used zero-origin; current code now rejects nonzero origin explicitly. All saved scenarios are zero-origin.",
+      "current_probe_error": "grid_origin_cny must be 0.0; nonzero grid origins are unsupported"
+    }
+  ],
+  "selected_date": {
+    "asof": "2023-06-20",
+    "estimate_id": "base_120d_1cent_tri_seed:2023-06-20",
+    "window_start": "2022-12-21",
+    "window_days": 120,
+    "raw_OHLC": {
+      "open": 7.74,
+      "high": 7.82,
+      "low": 7.72,
+      "close": 7.79,
+      "turnover_pct": 0.54
+    },
+    "independent_method": "Direct triangular PDF trapezoidal integration, splitting each cell at the mode; sparse dictionary mass recursion; Decimal action-coordinate barycentric split. Independent calculation did not call auditee CDF/allocation/transform.",
+    "independent_summary": {
+      "mass_sum": 0.9999999999999999,
+      "mean_cost_cny": 8.523459900361123,
+      "median_cost_cny": 8.36,
+      "cost70_low_cny": 8.22,
+      "cost70_high_cny": 9.17,
+      "cost90_low_cny": 7.74,
+      "cost90_high_cny": 9.370000000000001,
+      "profit_mass_fraction_cost_le_close": 0.06159334545751146,
+      "seed_mass_remaining_fraction": 0.510613457846926
+    },
+    "saved_summary_corresponding": {
+      "mass_sum": 0.9999999999999999,
+      "mean_cost_cny": 8.523459900361122,
+      "median_cost_cny": 8.36,
+      "cost70_low_cny": 8.22,
+      "cost70_high_cny": 9.17,
+      "cost90_low_cny": 7.74,
+      "cost90_high_cny": 9.370000000000001,
+      "profit_mass_fraction_cost_le_close": 0.061593345457511675,
+      "seed_mass_remaining_fraction": 0.510613457846926
+    },
+    "absolute_summary_errors": {
+      "mass_sum": 0.0,
+      "mean_cost_cny": 1.7763568394002505e-15,
+      "median_cost_cny": 0.0,
+      "cost70_low_cny": 0.0,
+      "cost70_high_cny": 0.0,
+      "cost90_low_cny": 0.0,
+      "cost90_high_cny": 0.0,
+      "profit_mass_fraction_cost_le_close": 2.1510571102112408e-16,
+      "seed_mass_remaining_fraction": 0.0
+    },
+    "max_absolute_bin_error": 5.245803791353865e-15,
+    "L1_bin_error": 8.662866710662542e-14,
+    "daily_allocation_max_error": 1.942890293094024e-16,
+    "action_audits_independent": [
+      {
+        "event_id": "002414.SZ_distribution_20230620",
+        "pre_mean": 11.215821713738688,
+        "post_mean": 8.527555164414375,
+        "expected_post_mean": 8.527555164414375
+      }
+    ]
+  },
+  "boundary_hand_checks": {
+    "one_price_offgrid": {
+      "OHLC": {
+        "open": 10.003,
+        "high": 10.003,
+        "low": 10.003,
+        "close": 10.003
+      },
+      "grid_step": 0.01,
+      "expected_nonzero_bins": {
+        "1000": 0.7,
+        "1001": 0.3
+      },
+      "observed_nonzero_bins": [
+        [
+          1000,
+          0.7000000000000455
+        ],
+        [
+          1001,
+          0.2999999999999545
+        ]
+      ],
+      "mean_expected": 10.003,
+      "mean_observed": 10.003,
+      "max_mass_error": 4.551914400963142e-14
+    },
+    "action_10_cny_point": {
+      "rule": "(10-0.13)/(1+0.3)",
+      "expected_price_decimal": "7.592307692307692307692307692",
+      "expected_grid_bins": {
+        "759": 0.7692307692307692,
+        "760": 0.23076923076923078
+      },
+      "max_mass_error": 1.7497114868092467e-13,
+      "auditee_audit": {
+        "event_id": "002414.SZ_distribution_20230620",
+        "ex_date": "2023-06-20",
+        "cash_cny_per_share_gross": 0.13,
+        "transfer_per_share": 0.3,
+        "pre_action_mean_cny": 10.0,
+        "post_action_old_mass_mean_cny": 7.59230769230769,
+        "expected_mean_cny": 7.592307692307691,
+        "mass_before": 1.0,
+        "mass_after": 1.0,
+        "absolute_mean_error_cny": 8.881784197001252e-16,
+        "share_mass_reason": "uniform_transfer_scales_all_holders_equally; normalized_weights_unchanged"
+      }
+    }
+  },
+  "persisted_invariants": {
+    "runs": 84,
+    "dates": 12,
+    "variants": [
+      "base_120d_1cent_tri_seed",
+      "grid_five_cents",
+      "grid_half_cent",
+      "seed_first_close",
+      "turnover_half",
+      "turnover_one_and_half",
+      "window_240d"
+    ],
+    "bin_rows": 111873,
+    "mass_sum_min": 0.9999999999999997,
+    "mass_sum_max": 1.0000000000000002,
+    "minimum_mass": 0.0,
+    "diagnostic_gap_runs": [
+      {
+        "estimate_id": "window_240d:2023-01-03",
+        "summary": {
+          "actual_window_days": 240,
+          "asof_date": "2023-01-03",
+          "available_prefix_days": 243,
+          "bin_count_including_zeros": 2511,
+          "close_raw_cny": 11.22,
+          "complete_corporate_action_coverage_certified": false,
+          "concentration70_fraction": 0.18708781673030198,
+          "concentration90_fraction": 0.3393691588785046,
+          "cost70_high_cny": 17.1,
+          "cost70_low_cny": 11.71,
+          "cost90_high_cny": 22.93,
+          "cost90_low_cny": 11.31,
+          "estimate_status": "diagnostic_scale_bridge_unresolved",
+          "grid_domain_high_cny": 25.1,
+          "grid_domain_low_cny": 0.0,
+          "known_coordinate_events_applied_and_no_flagged_gap": false,
+          "mass_sum": 1.0,
+          "mean_cost_cny": 14.313880425229208,
+          "median_cost_cny": 12.82,
+          "model_input_approved": false,
+          "native_supplier_bins_acquired": false,
+          "outside_saved_domain_mass": 0.0,
+          "prehistoric_holder_costs_observed": false,
+          "profit_mass_fraction_cost_le_close": 0.04102709537226045,
+          "requested_window_days": 240,
+          "seed_mass_remaining_fraction": 0.09792315678145572,
+          "unbridged_large_gap_count": 1,
+          "variant": "window_240d",
+          "warmup_insufficient": false,
+          "window_end": "2023-01-03",
+          "window_start": "2022-01-07"
+        }
+      }
+    ]
+  },
+  "semantic_review": {
+    "native_supplier_claim_found": false,
+    "all_native_and_approved_flags_false": true,
+    "future_returns_or_prediction_probabilities_computed": false,
+    "vendor_summary_used_for_fit_found": false,
+    "prefix_causality_not_historical_availability": true,
+    "turnover_definition_unverified_preserved": true,
+    "initialization_residual_unknown_prehistory_preserved": true,
+    "dividend_coordinate_model_not_true_holder_ledger_certification": true,
+    "fixed_window_rebuild_not_continuous_holder_ledger": true,
+    "diagnostic_gap_not_treated_as_valid_initialization_improvement": true
+  },
+  "final_artifact_hash_sync": {
+    "source_code_sha256": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "exported_code_sha256": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "sample_sqlite_sha256": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+    "sample_metadata_implementation_sha256": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "fully_synchronized": true
+  },
+  "fingerprints_before": {
+    "work/local_chip_estimate_oct25/build_chip_sample.py": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/三线研究启动_20261025/自建筹码样本/基准摘要.csv": "3d24e4c81a643bf175980a53eda5a104ef8620989a951a40bc770e7e28bcea94",
+    "outputs/三线研究启动_20261025/自建筹码样本/敏感性.json": "e8f403bea9ab675548aa7b83555fdae935cbdeb405097930333a66fab811db7a",
+    "outputs/三线研究启动_20261025/自建筹码样本/来源与参数.json": "38e0027eb3728b1f41d7bc08e6d11325a0f40bac72e676bc2d400529440c1e5a",
+    "outputs/三线研究启动_20261025/自建筹码样本/样本摘要.json": "468796de95fd0518c468fd086ab39c54ca3bc83a9281ce56bd7997109ba38748",
+    "outputs/三线研究启动_20261025/自建筹码样本/算法实现.py": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "outputs/三线研究启动_20261025/自建筹码样本/自建筹码估计报告.md": "97df04ef238a91b52d729e81a933ba37f8e9f1689d33aa8804622bf9e13d2e75",
+    "outputs/三线研究启动_20261025/自建筹码样本/自建筹码小样本.sqlite": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+    "outputs/三线研究启动_20261025/自建筹码样本/重建说明.md": "4474c6f9e4891ae47b9d69fb5e043cddbbe28d77a7994b004f1fb6a2fb0fad86",
+    "outputs/三线研究启动_20261025/自建筹码样本/重跑产物核验.json": "231dd285e7c2be6aa9a34a9843c677ff7912def002685c072343803b3831a3bc",
+    "outputs/三线研究启动_20261025/自建筹码样本/验证结果.json": "aab2a987dfc710f8b4b3b3ee8655c24d7e51d6bebe304816559941c347828b6b"
+  },
+  "fingerprints_after": {
+    "work/local_chip_estimate_oct25/build_chip_sample.py": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/三线研究启动_20261025/自建筹码样本/基准摘要.csv": "3d24e4c81a643bf175980a53eda5a104ef8620989a951a40bc770e7e28bcea94",
+    "outputs/三线研究启动_20261025/自建筹码样本/敏感性.json": "e8f403bea9ab675548aa7b83555fdae935cbdeb405097930333a66fab811db7a",
+    "outputs/三线研究启动_20261025/自建筹码样本/来源与参数.json": "38e0027eb3728b1f41d7bc08e6d11325a0f40bac72e676bc2d400529440c1e5a",
+    "outputs/三线研究启动_20261025/自建筹码样本/样本摘要.json": "468796de95fd0518c468fd086ab39c54ca3bc83a9281ce56bd7997109ba38748",
+    "outputs/三线研究启动_20261025/自建筹码样本/算法实现.py": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "outputs/三线研究启动_20261025/自建筹码样本/自建筹码估计报告.md": "97df04ef238a91b52d729e81a933ba37f8e9f1689d33aa8804622bf9e13d2e75",
+    "outputs/三线研究启动_20261025/自建筹码样本/自建筹码小样本.sqlite": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+    "outputs/三线研究启动_20261025/自建筹码样本/重建说明.md": "4474c6f9e4891ae47b9d69fb5e043cddbbe28d77a7994b004f1fb6a2fb0fad86",
+    "outputs/三线研究启动_20261025/自建筹码样本/重跑产物核验.json": "231dd285e7c2be6aa9a34a9843c677ff7912def002685c072343803b3831a3bc",
+    "outputs/三线研究启动_20261025/自建筹码样本/验证结果.json": "aab2a987dfc710f8b4b3b3ee8655c24d7e51d6bebe304816559941c347828b6b"
+  },
+  "files_written_only": [
+    "work/chip_summary_quality_oct25/自建样本独立抽核.json",
+    "work/chip_summary_quality_oct25/自建样本独立抽核.md"
+  ],
+  "all_checks_passed": true,
+  "passed": 18,
+  "total": 18
+}

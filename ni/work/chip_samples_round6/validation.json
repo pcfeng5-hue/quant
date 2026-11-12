@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-10-15T21:13:01.540458+00:00",
+  "checks": [
+    {
+      "name": "raw_sha256_bigquant_chips_doc",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_tushare_distribution_doc",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_tushare_summary_doc",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_tushare_permission_doc",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_quantcoda_docs",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_quantcoda_capabilities",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_quantcoda_methodology",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_quantcoda_terms",
+      "passed": true
+    },
+    {
+      "name": "raw_sha256_quantcoda_anonymous_002414_sample",
+      "passed": true
+    },
+    {
+      "name": "tushare_fields_and_wrong_symbol_sample",
+      "passed": true
+    },
+    {
+      "name": "tushare_points_conflict_still_documented",
+      "passed": true
+    },
+    {
+      "name": "bigquant_native_estimate_doc_not_002414_sample",
+      "passed": true
+    },
+    {
+      "name": "quantcoda_endpoint_is_summary_not_price_bins",
+      "passed": true
+    },
+    {
+      "name": "anonymous_002414_request_did_not_bypass_key",
+      "passed": true
+    },
+    {
+      "name": "main_chip_table_remains_empty",
+      "passed": true,
+      "rows": 0
+    }
+  ],
+  "all_passed": true,
+  "acquired_002414_chip_dates": 0,
+  "target_trading_dates": 914,
+  "purpose": "Source/access evidence checks, not certification of market completeness, values, license or strategy."
+}

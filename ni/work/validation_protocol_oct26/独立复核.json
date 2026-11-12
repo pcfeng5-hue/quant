@@ -1,0 +1,411 @@
+{
+  "audit_id": "002414_oct26_independent_protocol_and_producer_audit_v1",
+  "method": "Read-only independent date masks, all predictions, group arithmetic and probability metrics; Production evaluate/fit/scores not used for expected results. Guards and evaluate imported only for contract mutations and invalid-date rejection before fit.",
+  "all_checks_passed": true,
+  "passed": 20,
+  "total": 20,
+  "checks": [
+    {
+      "check": "all_616_prediction_rows_match_independent_reference",
+      "passed": true,
+      "details": {
+        "unique_dates": 308,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "both_models_identical_dates_no_future_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_18_fold_group_models_match_independent_counts_and_formula",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_training_member_rows_match_and_mature_before_fold",
+      "passed": true,
+      "details": {
+        "training_member_rows": 1447
+      }
+    },
+    {
+      "check": "all_fold_coverage_and_purge_rows_match",
+      "passed": true,
+      "details": {
+        "ledger_rows": 396,
+        "fold_mismatches": [],
+        "validation_reason_counts": {
+          "MA_FEATURE_NOT_READY": 23,
+          "EVALUATED": 308,
+          "VALIDATION_LABEL_END_AFTER_FOLD_END": 25,
+          "NO_REGISTERED_MATURE_DEVELOPMENT_LABEL": 10
+        }
+      }
+    },
+    {
+      "check": "all_28_metric_rows_independently_recomputed",
+      "passed": true,
+      "details": {
+        "mismatches": []
+      }
+    },
+    {
+      "check": "all_14_baseline_comparisons_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_70_calibration_rows_match_fixed_five_bins",
+      "passed": true,
+      "details": {
+        "sparse_nonempty_bins": [
+          {
+            "fold_id": "F2_2023Q4",
+            "model_id": "M1_ma_group_shrinkage",
+            "bin_low": 0.2,
+            "bin_high": 0.4,
+            "n": 17
+          },
+          {
+            "fold_id": "POOLED",
+            "model_id": "M1_ma_group_shrinkage",
+            "bin_low": 0.2,
+            "bin_high": 0.4,
+            "n": 17
+          }
+        ]
+      }
+    },
+    {
+      "check": "all_eight_delivered_csvs_equal_sqlite_tables",
+      "passed": true,
+      "details": {
+        "mismatches": []
+      }
+    },
+    {
+      "check": "all_469_source_labels_match_raw_next_open_fifth_close_sign_and_exdate_bounds",
+      "passed": true,
+      "details": {
+        "mismatches": []
+      }
+    },
+    {
+      "check": "source_artifact_keeps_three_resets_130_30_warmup_and_closed_gates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_seven_protected_hashes_match_both_manifest_and_current_files",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_reference_and_producer_used_same_contract_and_two_sources",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old_protocol_pending_fields_still_null_and_no_runtime_forecast",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "27_independent_formula_and_core_numeric_contract_mutations_rejected",
+      "passed": true,
+      "details": [
+        {
+          "field": "macd.fast",
+          "rejected": true
+        },
+        {
+          "field": "macd.slow",
+          "rejected": true
+        },
+        {
+          "field": "macd.signal",
+          "rejected": true
+        },
+        {
+          "field": "macd.ema_seed",
+          "rejected": true
+        },
+        {
+          "field": "macd.adjust",
+          "rejected": true
+        },
+        {
+          "field": "macd.histogram_multiplier",
+          "rejected": true
+        },
+        {
+          "field": "macd.minimum_segment_bars",
+          "rejected": true
+        },
+        {
+          "field": "kdj.window",
+          "rejected": true
+        },
+        {
+          "field": "kdj.k_alpha",
+          "rejected": true
+        },
+        {
+          "field": "kdj.d_alpha",
+          "rejected": true
+        },
+        {
+          "field": "kdj.seed_k",
+          "rejected": true
+        },
+        {
+          "field": "kdj.seed_d",
+          "rejected": true
+        },
+        {
+          "field": "kdj.flat_range_rsv",
+          "rejected": true
+        },
+        {
+          "field": "kdj.minimum_segment_bars",
+          "rejected": true
+        },
+        {
+          "field": "kdj.j_clipped",
+          "rejected": true
+        },
+        {
+          "field": "volume.ratios",
+          "rejected": true
+        },
+        {
+          "field": "volume.denominator",
+          "rejected": true
+        },
+        {
+          "field": "volume.spike_threshold",
+          "rejected": true
+        },
+        {
+          "field": "volume.unit",
+          "rejected": true
+        },
+        {
+          "field": "calculation_start",
+          "rejected": true
+        },
+        {
+          "field": "development_start",
+          "rejected": true
+        },
+        {
+          "field": "development_end",
+          "rejected": true
+        },
+        {
+          "field": "horizon_observed_sessions",
+          "rejected": true
+        },
+        {
+          "field": "ma_windows",
+          "rejected": true
+        },
+        {
+          "field": "registered_signals",
+          "rejected": true
+        },
+        {
+          "field": "source_database",
+          "rejected": true
+        },
+        {
+          "field": "source_view",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "check": "old_complete_contract_hash_locked_to_prior_independent_audit",
+      "passed": true,
+      "details": {
+        "semantic_strings_not_rejected_by_subguard_are_protected_by_full_hash": [
+          {
+            "field": "price_change_definition",
+            "rejected": false
+          },
+          {
+            "field": "price_handling",
+            "rejected": false
+          },
+          {
+            "field": "label_exclusion",
+            "rejected": false
+          }
+        ]
+      }
+    },
+    {
+      "check": "14_independent_run_target_source_release_score_mutations_rejected",
+      "passed": true,
+      "details": [
+        {
+          "field": "development_start",
+          "rejected": true
+        },
+        {
+          "field": "development_end",
+          "rejected": true
+        },
+        {
+          "field": "horizon_observed_sessions",
+          "rejected": true
+        },
+        {
+          "field": "models",
+          "rejected": true
+        },
+        {
+          "field": "shrinkage_lambda",
+          "rejected": true
+        },
+        {
+          "field": "minimum_training_rows",
+          "rejected": true
+        },
+        {
+          "field": "event",
+          "rejected": true
+        },
+        {
+          "field": "input_features",
+          "rejected": true
+        },
+        {
+          "field": "input_labels",
+          "rejected": true
+        },
+        {
+          "field": "runtime_usable",
+          "rejected": true
+        },
+        {
+          "field": "model_input_approved",
+          "rejected": true
+        },
+        {
+          "field": "current_forecast_generated",
+          "rejected": true
+        },
+        {
+          "field": "calibration_bin_edges",
+          "rejected": true
+        },
+        {
+          "field": "log_loss_epsilon",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "check": "four_independent_duplicate_and_unordered_date_cases_rejected_before_fit",
+      "passed": true,
+      "details": [
+        {
+          "case": "duplicate_label_dates",
+          "rejected_before_fit": true,
+          "message": "Duplicate label dates"
+        },
+        {
+          "case": "duplicate_signal_dates",
+          "rejected_before_fit": true,
+          "message": "Duplicate signal dates"
+        },
+        {
+          "case": "duplicate_anchor_dates",
+          "rejected_before_fit": true,
+          "message": "Duplicate or unordered anchor dates"
+        },
+        {
+          "case": "unordered_anchor_dates",
+          "rejected_before_fit": true,
+          "message": "Duplicate or unordered anchor dates"
+        }
+      ]
+    },
+    {
+      "check": "final_producer_24_builtin_checks_pass",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "producer_code_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "blocking_findings": [],
+  "resolved_review_items": [
+    {
+      "id": "sparse_calibration_display",
+      "finding": "Final production table includes sparse flags, positive/zero/negative counts and observed-minus-predicted. All 70 rows match independent reconstruction.",
+      "sparse_rows": [
+        {
+          "fold_id": "F2_2023Q4",
+          "model_id": "M1_ma_group_shrinkage",
+          "bin_low": 0.2,
+          "bin_high": 0.4,
+          "n": 17
+        },
+        {
+          "fold_id": "POOLED",
+          "model_id": "M1_ma_group_shrinkage",
+          "bin_low": 0.2,
+          "bin_high": 0.4,
+          "n": 17
+        }
+      ]
+    },
+    {
+      "id": "legacy_semantic_guard_scope",
+      "finding": "Final entrypoint locks full old contract hash to prior independent review, covering semantic text outside the numeric subguard; current hash verified."
+    },
+    {
+      "id": "unknown_label_definition",
+      "finding": "Final evaluate rejects unknown outcome_sign and non-h5 labels before fit; built-in negative tests pass and all actual source rows were independently reconstructed."
+    }
+  ],
+  "advisories": [],
+  "research_conclusion": "M1 development Brier and log-loss are slightly higher than M0. Keep the registered result; no lambda optimization, group reselection, confidence claim or current forecast follows.",
+  "source_uniqueness_review_resolved": {
+    "status": "resolved",
+    "independent_cases": [
+      {
+        "case": "duplicate_label_dates",
+        "rejected_before_fit": true,
+        "message": "Duplicate label dates"
+      },
+      {
+        "case": "duplicate_signal_dates",
+        "rejected_before_fit": true,
+        "message": "Duplicate signal dates"
+      },
+      {
+        "case": "duplicate_anchor_dates",
+        "rejected_before_fit": true,
+        "message": "Duplicate or unordered anchor dates"
+      },
+      {
+        "case": "unordered_anchor_dates",
+        "rejected_before_fit": true,
+        "message": "Duplicate or unordered anchor dates"
+      }
+    ],
+    "finding": "Final evaluate rejects duplicate label dates, duplicate signal dates, duplicate anchor dates and unordered anchors before any fit."
+  },
+  "source_outcome_period": "2023-2024 only",
+  "source_feature_boundary_rows_inspected": "All feature reset/warmup/gate rows including the known 2026 reset; no 2025/2026 outcomes read or generated.",
+  "producer_code_sha256": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+  "contract_sha256": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c"
+}

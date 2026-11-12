@@ -1,0 +1,362 @@
+[
+  {
+    "name": "em_0_20220101_20261016",
+    "provider": "eastmoney",
+    "adjustment_flag": "0",
+    "base_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+    "parameters": {
+      "secid": "0.002414",
+      "klt": 101,
+      "fqt": "0",
+      "beg": "20220101",
+      "end": "20261016",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    },
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=0&beg=20220101&end=20261016&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.270855+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285733+00:00"
+  },
+  {
+    "name": "em_1_20220101_20261016",
+    "provider": "eastmoney",
+    "adjustment_flag": "1",
+    "base_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+    "parameters": {
+      "secid": "0.002414",
+      "klt": 101,
+      "fqt": "1",
+      "beg": "20220101",
+      "end": "20261016",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    },
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=1&beg=20220101&end=20261016&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.271079+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285571+00:00"
+  },
+  {
+    "name": "em_2_20220101_20261016",
+    "provider": "eastmoney",
+    "adjustment_flag": "2",
+    "base_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+    "parameters": {
+      "secid": "0.002414",
+      "klt": 101,
+      "fqt": "2",
+      "beg": "20220101",
+      "end": "20261016",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    },
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=2&beg=20220101&end=20261016&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.271145+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285773+00:00"
+  },
+  {
+    "name": "tencent_0_2022",
+    "provider": "tencent",
+    "adjustment_flag": "0",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2022-01-01,2022-12-31,640,"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2C",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.271203+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285631+00:00"
+  },
+  {
+    "name": "tencent_0_2023",
+    "provider": "tencent",
+    "adjustment_flag": "0",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2023-01-01,2023-12-31,640,"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2C",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285738+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285973+00:00"
+  },
+  {
+    "name": "tencent_0_2024",
+    "provider": "tencent",
+    "adjustment_flag": "0",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2024-01-01,2024-12-31,640,"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2C",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285884+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286005+00:00"
+  },
+  {
+    "name": "tencent_0_2025",
+    "provider": "tencent",
+    "adjustment_flag": "0",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2025-01-01,2025-12-31,640,"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2025-01-01%2C2025-12-31%2C640%2C",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.286009+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286173+00:00"
+  },
+  {
+    "name": "tencent_0_2026",
+    "provider": "tencent",
+    "adjustment_flag": "0",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2026-01-01,2026-10-16,640,"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-16%2C640%2C",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.286148+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286283+00:00"
+  },
+  {
+    "name": "tencent_1_2022",
+    "provider": "tencent",
+    "adjustment_flag": "1",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2022-01-01,2022-12-31,640,qfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2Cqfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285583+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285828+00:00"
+  },
+  {
+    "name": "tencent_1_2023",
+    "provider": "tencent",
+    "adjustment_flag": "1",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2023-01-01,2023-12-31,640,qfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2Cqfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285781+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285934+00:00"
+  },
+  {
+    "name": "tencent_1_2024",
+    "provider": "tencent",
+    "adjustment_flag": "1",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2024-01-01,2024-12-31,640,qfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2Cqfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285940+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286097+00:00"
+  },
+  {
+    "name": "tencent_1_2025",
+    "provider": "tencent",
+    "adjustment_flag": "1",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2025-01-01,2025-12-31,640,qfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2025-01-01%2C2025-12-31%2C640%2Cqfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.286042+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286238+00:00"
+  },
+  {
+    "name": "tencent_1_2026",
+    "provider": "tencent",
+    "adjustment_flag": "1",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2026-01-01,2026-10-16,640,qfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-16%2C640%2Cqfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.286177+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286296+00:00"
+  },
+  {
+    "name": "tencent_2_2022",
+    "provider": "tencent",
+    "adjustment_flag": "2",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2022-01-01,2022-12-31,640,hfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2Chfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285640+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.285878+00:00"
+  },
+  {
+    "name": "tencent_2_2023",
+    "provider": "tencent",
+    "adjustment_flag": "2",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2023-01-01,2023-12-31,640,hfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2Chfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285835+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286037+00:00"
+  },
+  {
+    "name": "tencent_2_2024",
+    "provider": "tencent",
+    "adjustment_flag": "2",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2024-01-01,2024-12-31,640,hfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2Chfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.285978+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286144+00:00"
+  },
+  {
+    "name": "tencent_2_2025",
+    "provider": "tencent",
+    "adjustment_flag": "2",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2025-01-01,2025-12-31,640,hfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2025-01-01%2C2025-12-31%2C640%2Chfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.286101+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286269+00:00"
+  },
+  {
+    "name": "tencent_2_2026",
+    "provider": "tencent",
+    "adjustment_flag": "2",
+    "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "parameters": {
+      "param": "sz002414,day,2026-01-01,2026-10-16,640,hfq"
+    },
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-16%2C640%2Chfq",
+    "method": "GET",
+    "requested_range": {
+      "start": "2022-01-01",
+      "end": "2026-10-16"
+    },
+    "retrieved_at_utc": "2026-10-18T03:11:04.286242+00:00",
+    "personal_account_used": false,
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "finished_at_utc": "2026-10-18T03:11:04.286349+00:00"
+  }
+]

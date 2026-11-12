@@ -1,0 +1,146 @@
+{
+  "created_at_utc": "2026-10-14T03:58:47.826663+00:00",
+  "files": [
+    {
+      "relative_path": "README.md",
+      "bytes": 2731,
+      "sha256": "a36c10f093035832bfd0a3810e6a1204f55b72696b1094a209df864fc95f0ca1"
+    },
+    {
+      "relative_path": "dependency_sources.json",
+      "bytes": 11433,
+      "sha256": "bfe25d22a43c16a0067348be976ee557360dfbd174624ed677b79a77ca854900"
+    },
+    {
+      "relative_path": "duplicate_text_groups.json",
+      "bytes": 9679,
+      "sha256": "f3f92c2f9f66d4c009e4b3d36bda5834dddb5d67b7d82299e9f236a73aab871a"
+    },
+    {
+      "relative_path": "environment.json",
+      "bytes": 1245,
+      "sha256": "96f62cab02405623c325bb5753b18dbf3bdf803bbea9dba3f13a00db7292089a"
+    },
+    {
+      "relative_path": "install_report.json",
+      "bytes": 280207,
+      "sha256": "1b012c4d7f2771c314533e2566ad427c7536fcaadece5b3f2159f18293907521"
+    },
+    {
+      "relative_path": "jobs.json",
+      "bytes": 104972,
+      "sha256": "9e609ffa664a083accefd8896acb93d7a2a035756b9646b88f6ec73bc1a898b7"
+    },
+    {
+      "relative_path": "licenses_manifest.json",
+      "bytes": 817,
+      "sha256": "d955d3d950fd0533cdec13fcde7a73c2cb7b4ef8e95654e5d0d312354c9bddfe"
+    },
+    {
+      "relative_path": "model_sources.json",
+      "bytes": 1425,
+      "sha256": "7a4d8a40a1fc99369b1fb62ec03b2bd879b799616f19d2a75a92d338bb6e5036"
+    },
+    {
+      "relative_path": "ocr_local.py",
+      "bytes": 6508,
+      "sha256": "3db2afaed94f9078e67a74ba65fe07382b558b28675ac217d2a64cb68f35c526"
+    },
+    {
+      "relative_path": "original_document_map.json",
+      "bytes": 9533,
+      "sha256": "2b790a99e92cfe7ccf03c2c82ea28a3633c362ca4546e54b0df91e06c13496aa"
+    },
+    {
+      "relative_path": "pages.jsonl",
+      "bytes": 2806322,
+      "sha256": "11b359db2472018c4374ba61db7bbc8e92e23283b5116f549c9c540cbaf8854c"
+    },
+    {
+      "relative_path": "pages_summary.json",
+      "bytes": 583,
+      "sha256": "0cc29cfd194ce0c579a5bb4eaa55ed77267b28189330586d1a4a62119cc1dd5f"
+    },
+    {
+      "relative_path": "pilot.jsonl",
+      "bytes": 16425,
+      "sha256": "3249e05258f533fd5c900687feb9f157f2f8bff2db436139c5ea5cc94d1ef3ba"
+    },
+    {
+      "relative_path": "pilot_summary.json",
+      "bytes": 578,
+      "sha256": "878fb418a243e976dc16ebdc0e3711ecbc69aa1878d3d5dd3f7294180317e048"
+    },
+    {
+      "relative_path": "pilot_validation.json",
+      "bytes": 1128,
+      "sha256": "2b2c9795c0fd3a681adfee5ed00b62069cb87a3ff9006ea35afe6b32d8d8eb78"
+    },
+    {
+      "relative_path": "requirements.lock",
+      "bytes": 2405,
+      "sha256": "6c7366c1b371a32554cc4eafd0d883c95637eae58ee66491b3920fb5f248085b"
+    },
+    {
+      "relative_path": "review_queue.json",
+      "bytes": 78258,
+      "sha256": "d974e05f66a482adeceb4a7843283d3d2d338c3be072c6beae760dc6f3d8c953"
+    },
+    {
+      "relative_path": "verification.json",
+      "bytes": 1588,
+      "sha256": "bf318b24a3387e0e936a215bc7f4419dc2d2e88e5495bee97f6358ca35fe8075"
+    },
+    {
+      "relative_path": "verify_results.py",
+      "bytes": 4894,
+      "sha256": "3df8533032caa2a7f61cf397dd168ad9daf8e6a3d29b16292f4ff6272a63e9e2"
+    },
+    {
+      "relative_path": "licenses/onnxruntime_LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "relative_path": "licenses/paddleocr_LICENSE.txt",
+      "bytes": 11376,
+      "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e"
+    },
+    {
+      "relative_path": "licenses/rapidocr_LICENSE.txt",
+      "bytes": 11422,
+      "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333"
+    },
+    {
+      "relative_path": "deps/rapidocr/models/PP-OCRv6_det_small.onnx",
+      "bytes": 9929594,
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    {
+      "relative_path": "deps/rapidocr/models/PP-OCRv6_rec_small.onnx",
+      "bytes": 21234383,
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    {
+      "relative_path": "deps/rapidocr/models/ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "bytes": 585532,
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  ],
+  "scope": "Reproducibility and data handoff; source PDFs stay in original archive. Installed dependency folder excluded except 3 model hashes.",
+  "checks": {
+    "185_original_gap_pages": true,
+    "185_page_results": true,
+    "no_duplicate_page_identity": true,
+    "all_original_gap_pages_have_result": true,
+    "all_original_pdf_hashes_unchanged": true,
+    "source_hash_checked_before_each_ocr": true,
+    "all_page_outputs_link_original_url_title_notice_date": true,
+    "each_observation_has_coordinates_and_confidence": true,
+    "observation_text_matches_page_text": true,
+    "all_numeric_and_historical_inputs_unapproved": true,
+    "no_failure_labeled_blank": true,
+    "no_page_manually_certified": true,
+    "model_file_hashes_still_match": true
+  }
+}

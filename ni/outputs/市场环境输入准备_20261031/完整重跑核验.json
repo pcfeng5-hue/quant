@@ -1,0 +1,18 @@
+{
+  "all_core_files_byte_identical": true,
+  "core_files": 12,
+  "file_sha256": {
+    "输入收盘及来源.csv": "3267cc4f10a75f26d6ed03d08468570a2dbf8cdda3aeb0b10225fb18b1dd09c1",
+    "特征公式字典.csv": "77bbe47ad33139c175796d12ed767d58d2399885adc3a8b01e1b901976694337",
+    "收盘差异台账.csv": "8e8ccb2cdd21acd878abcd9896c24d7ba566c245695d10bc8556a650363d4452",
+    "逐日市场环境特征_工程准备.csv": "95419f135f9f17e411d9447e76170c32479340f99ff7932afc4ee83a44e25f6a",
+    "逐值计算依赖.csv": "74adefaa771e04151b1f03b22e413abf651b61dc284d0bf8681538fba3be4b3e",
+    "个股价格分段.csv": "b0e043ca55562f7145e0d98eee55cf20a8e90eb4e4614ba213898b15c08bf58e",
+    "日期宽表_未获正式准入.csv": "106aa6a391220eb28dc6bcb5318b4eb80d5c56e2f83cfe8f227acee115aa984c",
+    "特征覆盖与隔离.csv": "61e45423e26f055a6b9c2b1e5984c83be6b5b8e6676a3baf39384fc0e8be727c",
+    "市场环境工程输入.sqlite": "22cdff5f265bb24bb16f6d009882a8c493fdfdd268ac434b120919479c3b1b60",
+    "冻结工程规格.json": "83fb2995ad7cf6727b681338e078e86357e2e410be08e807abe1fd9c255a7b19",
+    "运行与来源记录.json": "483b296a9152d3a398873e6d73e3931740e3b9ebf310079d8744c2b6528c8506",
+    "实现核验.json": "f733542291b27b1e43363f1edd027b2d819ef2ed84632de6b89467ca58ff3906"
+  }
+}

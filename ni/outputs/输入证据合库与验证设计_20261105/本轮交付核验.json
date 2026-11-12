@@ -1,0 +1,155 @@
+{
+  "all_checks_passed": true,
+  "passed": 22,
+  "total": 22,
+  "checks": [
+    {
+      "check": "independent_pass_元数据独立复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "copy_identical_元数据独立复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_pass_协议交付对应复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "copy_identical_协议交付对应复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_pass_数学与状态独立复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "copy_identical_数学与状态独立复核.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "root_build_checks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "15_original_sources_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "protocol_frozen_file_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "frozen5source_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "H10confirmed14pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "choices16plus1equals17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_experiment_use_gates_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_metadata_DB_matches_independent_digest",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "backup_not_overwrite_最新续作指针.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "backup_not_overwrite_项目进度与交易需求档案.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "backup_not_overwrite_本轮状态与续作断点.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "backup_not_overwrite_本轮推进报告.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "manual_batch_does_not_increment_nightly",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_release_files_present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_SQLite_temporary_file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old_input_hashes_final",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "independent_checks_separate": {
+    "元数据独立复核.json": 83,
+    "协议交付对应复核.json": 31,
+    "数学与状态独立复核.json": 44
+  },
+  "artifact_sha256": {
+    "买入还是等待_研究候选BW17_冻结v1.json": "294f39937e30632451a1293ff7f27c1e4c4b71fa7c83944934a4fc79b552159b",
+    "买入还是等待_研究候选BW17_冻结说明.md": "5a5d4d147b2e9cbcfcafb3b55f0b104a7b4d867dc2abf9b069ad96880aea4266",
+    "元数据独立复核.json": "1dcc68a75c348cff2d79bd5aa0e8ca98ecf691f1c4103a68759114bbf2d6150a",
+    "元数据独立复核.md": "a61d6aab9b86a6c4ae634942ed88de91505e455ed465b0b48917bf7ed6b961d5",
+    "前向首收与版本补证设计.json": "90f3d26a0d95fe556654369e4071e3adf2d750a613d05eeb56fdfa99c3c3683c",
+    "协议交付对应复核.json": "7acb1c4a96a7ac84f85590e3a800ff5e8b48a6a2c16dd0ce05688f228b0c2576",
+    "协议交付对应复核.md": "695c285942985df93bc09c11e2d0d636b6ea3342fbcc273878b95f26359e2659",
+    "历史研究用途与缺证据矩阵.json": "41ed1f159b62d84ba198b035c788783ee7c026a7e3a86f4a28a92a3ec97483f3",
+    "历史研究用途与缺证据结论.md": "2afd8793142a4e720d8f98e8cc253dca38323cd168a9a4cdea3059acc6bec372",
+    "只读查询示例.sql": "31e5a8edf304bb7330c3bc5e25a74aa5e0f12f8e63378308699dac83a5e5433b",
+    "字段提取核查.json": "1c9bf0e6b143961f7b9ea1edbc9ea0d3bee8bedaa4d4d11f5787640226125133",
+    "字段时点与版本台账.json": "09e9b20e31ed1aa47b7ada6e0f09fd63b86bc550e932c5d700a8409b24eff404",
+    "数学与状态独立复核.json": "837f0975aa21cfc35cfea8c17e760bde57e4eec09364bdae6c9135a7ebdfa295",
+    "数学与状态独立复核.md": "398216239ac6df072bacb1ca2edb21dbe543cfa10e994c12cb269e6a9b31d402",
+    "日历提取核查.json": "3dc8baa2d628a757fb616ef279e2b7ac7220a96d92a7bbf7016375ad226350f1",
+    "最小输入证据台账.sqlite": "72e41c86997ad21fedc19d266c9ca8b16746d0fdae52d45408642fcfc01530c6",
+    "有限来源可恢复性结论.json": "e270eb6b37142ab66a9a3a6cb056cacb3833e28cce7684b1531efcfe6718a2e1",
+    "本轮推进报告.md": "58202dd3752c6f482649835a954a1432f9ff042ee61f68a6effa5ccef823999b",
+    "本轮构建核验.json": "a344a04a2024161faf718c37da05218bf7b8aa627c910283f24f8d43913025cc",
+    "本轮状态与续作断点.json": "6bbfafaa690a7b39a467018515871b8cdb5609713a869d3e743d89f083d4e176",
+    "本轮用户确认与参数状态.json": "0ba3c82dfb901a3bcb529151d082b9b490f5b02547bbedd2614d4f941a790019",
+    "研究与预测放行检查.json": "b038ea068f02081088b5d41eaaabde2c85fea52dfc62b273f0b14942f4f88cb4",
+    "累计研究选择登记_增补BW17.json": "a2126c583c8ec972d36da9f19ee16a6bccae877c4592449e47c7366fbeee5a62",
+    "自动任务取消状态记录.json": "736319cb620f9d02243a66d6dd99a7337dd3a51c4f244e31672cf76898f72a95",
+    "计划日与状态来源索引.json": "a73af41e1c7bb26dc00c46da48c88ce9d894b354d78a3f4d567b41783cacb7a7",
+    "设计冻结与来源指纹.json": "7a7990fae3ca1b2ad93fc6a50a2a6352a4754281087d42cb5fc9547ceaf0ba1f",
+    "设计构建核验.json": "66b322caa9f621fda72290a50de891b9937023d70c75fe4dca12f429bfe61bb1",
+    "访问范围登记.json": "4fc8418351f53b9c794f70d3ee07f458d700dbc6ebd897d1ac3b31fa916d17b1"
+  },
+  "new_real_labels_models_scores": 0,
+  "phase_promotion_approved": false,
+  "archive_verification_is_external_and_separate": true
+}

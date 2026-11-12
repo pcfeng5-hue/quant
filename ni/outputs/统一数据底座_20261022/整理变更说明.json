@@ -1,0 +1,22 @@
+{
+  "baseline_untouched": true,
+  "main_sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+  "historical_builds": [
+    "work/unified_data_oct22/build_v1",
+    "work/unified_data_oct22/build_v2",
+    "work/unified_data_oct22/build_v3"
+  ],
+  "current_version": "unified-observation-v4",
+  "repairs": [
+    "manifest completion times mapped; requested_at remains separate",
+    "38 source literal retrieved_at fields mapped",
+    "four round1 chip observations typed with exact original fields retained",
+    "chip proof paths explicitly indexed; rejected attempt gap retained",
+    "legacy index providers mapped from request host",
+    "canonical instrument IDs and price units explicit",
+    "metadata counts reflect actual stored rows",
+    "trade condition current-bar join repaired without overwriting original payload"
+  ],
+  "maintenance_log": "work/unified_data_oct22/maintenance_changes.json",
+  "new_external_collection_this_round": false
+}

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+<title>主板注册制首批5家企业在深交所上市</title>
+<script>
+  if(location.protocol == 'https:'){
+    document.write('<link href="https://res.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }else{
+    document.write('<link href="http://res.static.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta http-equiv="cache-control" content="max-age=0">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="expires" content="Web, 26 Feb 1997 08:21:57 GMT">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="author" content="www.szse.cn">
+<meta name="description" content="深交所官网">
+<meta name="keywords" content="深交所,深交所官网,深圳证券交易所,交易所,交易所官网,深圳证券交易所官网">
+<meta name="renderer" content=webkit>
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google" value="notranslate"> 
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta name="browermode" content="application">
+<meta name="x5-orientation" content="portrait">
+<meta name="HandheldFriendly" content="true">
+<script type="text/javascript">
+	var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;//android终端
+
+	function addElementMeta(name,  content) {
+		var head = document.getElementsByTagName('head')[0];
+		var meta = document.createElement('meta');
+
+		meta.setAttribute('name', name);
+		meta.setAttribute('content', content);
+		head.appendChild(meta);
+	}
+	if(isAndroid) {
+		addElementMeta('x5-fullscreen', 'true');
+		addElementMeta('x5-page-mode', 'app');
+	}
+</script> 
+    <script>
+  (function () {
+    var _versionDate = new Date().getTime();
+    if (location.protocol == 'https:') {
+      var _path = 'https://res.szse.cn';
+    } else {
+      var _path = 'http://res.static.szse.cn';
+    }
+    // _path = _path.replace(".static.", ".");
+    //var _path = 'http://res.szse.cn';
+    //document.write( " <script src='" + _path + "/common/js/first.js?random=" + _versionDate + "'> <\/script> ");
+    var _host = 'http://www.szse.cn';
+    if (location.protocol == 'https:') {
+      _host = 'https://www.szse.cn';
+    }
+
+
+    var backDomain = 'http://www.sse.org.cn'
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    if (backDomain && window.location.host.match(reg)[2] === backDomain.match(reg)[2]) {
+      _host = 'http://www.sse.org.cn';
+      _path = 'http://res.static.sse.org.cn';
+      if (location.protocol == 'https:') {
+        _host = 'https://www.sse.org.cn';
+        _path = 'https://res.static.sse.org.cn';
+      }
+
+    }
+
+    _path = _path.replace(".static.", ".");
+
+    document.write(" <script src='" + _host + "/szsePath.js?random=" + _versionDate + "'> <\/script> "
+      + " <script src='" + _path + "/common/js/concatversion.js?random=" + _versionDate + "'> <\/script> ");
+  }());
+</script>
+
+<script>
+
+  function backDomainLinkSwitch(value, type) {
+    var _port = location.port ? (":" + location.port) : "";
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    var urlRegx = /(.*)(http:|https:)(\/\/)(([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+))\.?(:\d+)?(.*)/;
+
+    // html字符串替换
+    if (type == 'str') {
+      var strArr = value.split("=");
+      strArr = strArr.map(function (v) {
+        var host = reg.test(v) ? v.match(reg)[0] : null;
+        if (pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:' && urlRegx.test(v)) {
+            v = v.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            v = v.replace(pathObj.main_host, pathObj.back_host);
+          }
+        }
+        return v
+      });
+      value = strArr.join("=");
+      return value;
+    }
+
+    // a标签地址替换
+    if (type === 'A') {
+      var eleA = document.querySelectorAll(value);
+      for (var i = 0; i < eleA.length; i++) {
+        var href = eleA[i].getAttribute("href");
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:') {
+            href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleA[i].setAttribute('href', href);
+        }
+      }
+    }
+
+    // 单链接替换
+    if (type === "link") {
+      if (window.location.protocol == 'https:' && !!value) {
+        value = value.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+      };
+      if (pathObj.current_host === pathObj.back_host) {
+        var host = reg.test(value) ? value.match(reg)[0] : null;
+        if (value && pathObj.szseHosts.indexOf(host) > -1) {
+          value = value.replace(pathObj.main_host, pathObj.back_host);
+        }
+      }
+      return value;
+    }
+
+    // 背景图地址更换
+    if (type === "background") {
+      var eleBg = document.querySelectorAll(value);
+      for (var i = 0; i < eleBg.length; i++) {
+        var href = eleBg[i].style.backgroundImage;
+        if (window.location.protocol == 'https:' && !!href) {
+          href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+        };
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleBg[i].style.backgroundImage = href;
+        }
+      }
+    }
+
+  }
+
+</script>
+
+<script>
+   if(document.cookie.indexOf('ft_language=1')>-1){
+    var style = document.createElement('style');
+    style.textContent='body{visibility:hidden;}';
+    document.head.appendChild(style);
+  }
+</script>
+<script>
+    addComCssFile()
+</script>
+<script>
+        changeVertion('/modules/report/css/report.css', 'css');
+        changeVertion('/modules/aboutus_column/introduction/css/journal.css', 'css');
+    </script>
+    <script>
+  changeVertion('/lib/validator/validator.min.css', 'css');
+  changeVertion('/common/plugins/css/index.min.css', 'css');
+  changeVertion('/common/css/form.css', 'css');
+  changeVertion('/common/css/articleDetailUtil.css','css');
+</script>
+</head>
+  <body class="article-body">
+    <script>
+  navMenuAJAX('/application/publicindex/header/index.html', '/application/publicindex/header/index.html', 'header', 'www');
+</script>
+<div class="g-locationnav">
+    <div class="banner-wrap">
+      <img src="http://res.static.szse.cn/common/images/legalrules-banner.jpg" />
+    </div>
+    <div class="g-container">
+      <div class="g-banner-txt">
+            <h2 class="hidden-xs">本所要闻</h2>
+            <p>
+              <img src="http://res.static.szse.cn/common/icon/er-banneradr.png" />位置：<a href="../../" class="CurrChnlCls">关于本所</a>/<a href="../" class="CurrChnlCls">本所动态</a>/<a href="./" class="CurrChnlCls">本所要闻</a>
+            </p>
+          </div>
+    </div>
+</div>
+  
+      <div class="g-container-wrap">
+            <div class="g-container">
+<!--startprint-->
+                <div class="news-detail-con g-conbox"> 
+                	<div class="des-header">
+                  <h2 class="title">主板注册制首批5家企业在深交所上市</h2>
+                  		<script>
+                  			var curSubTitle ='';
+                  			if(curSubTitle != ''){
+                  				document.write('<h4 style="text-align: center;" class="sub-title"><i class=""></i><span class="">'+curSubTitle+'</span></h4>')
+                  			}                  		
+                  		</script>
+              <div class="time">时间：<span>2023-04-10</span></div>
+              <div class="des-switchsize">
+                字体：
+                <span class="bigger">大</span>
+                <span class="medium">中</span>
+                <span class="smaller">小</span>
+              </div>
+    					
+        	</div>
+    				 <div class="des-content" id="desContent">
+                       <p class="MsoNormal" style="text-indent: 24.0pt; mso-char-indent-count: 2.0; line-height: 200%; mso-pagination: widow-orphan;"><span style="font-family: 宋体; color: #000000; font-size: 12pt;">陕西能源（证券代码：<span lang="EN-US">001286</span>）、中电港（证券代码：<span lang="EN-US">001287</span>）、登康口腔（证券代码：<span lang="EN-US">001328</span>）、南矿集团（证券代码：<span lang="EN-US">001360</span>）、海森药业（证券代码：<span lang="EN-US">001367</span>）于<span lang="EN-US">2023</span>年<span lang="EN-US">4</span>月<span lang="EN-US">10</span>日登陆深交所主板。沪深交易所主板注册制首批企业上市，标志着股票发行注册制改革全面落地，这是中国资本市场改革发展进程中的又一个重要里程碑。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent: 24.0pt; mso-char-indent-count: 2.0; line-height: 200%; mso-pagination: widow-orphan;"><span style="font-family: 宋体; color: #000000; font-size: 12pt;">陕西能源本次公开发行股票<span lang="EN-US">75,000</span>万股，其中公开发行新股<span lang="EN-US">75,000</span>万股，发行价格<span lang="EN-US">9.60</span>元<span lang="EN-US">/</span>股，新股募集资金<span lang="EN-US">72</span>亿元，发行后总股本<span lang="EN-US">375,000</span>万股。陕西能源主要从事火力发电、煤炭生产和销售，主要产品包括电力、热力和煤炭。<span lang="EN-US">2021</span>年度，公司实现营业收入<span lang="EN-US">154.77</span>亿元，净利润<span lang="EN-US">40,387.57</span>万元。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent: 24.0pt; mso-char-indent-count: 2.0; line-height: 200%; mso-pagination: widow-orphan;"><span style="font-family: 宋体; color: #000000; font-size: 12pt;">中电港本次公开发行股票<span lang="EN-US">18,997.5024</span>万股，其中公开发行新股<span lang="EN-US">18,997.5024</span>万股，发行价格<span lang="EN-US">11.88</span>元<span lang="EN-US">/</span>股，新股募集资金<span lang="EN-US">22.57</span>亿元，发行后总股本<span lang="EN-US">75,990.0097</span>万股。中电港主要从事提供电子元器件分销、设计链服务、供应链协同配套和产业数据服务。<span lang="EN-US">2021</span>年度，公司实现营业收入<span lang="EN-US">38.39</span>亿元，净利润<span lang="EN-US">33,675.42</span>万元。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent: 24.0pt; mso-char-indent-count: 2.0; line-height: 200%; mso-pagination: widow-orphan;"><span style="font-family: 宋体; color: #000000; font-size: 12pt;">登康口腔本次公开发行股票<span lang="EN-US">4,304.35</span>万股，其中公开发行新股<span lang="EN-US">4,304.35</span>万股，发行价格<span lang="EN-US">20.68</span>元<span lang="EN-US">/</span>股，新股募集资金<span lang="EN-US">8.90</span>亿元，发行后总股本<span lang="EN-US">17,217.38</span>万股。登康口腔主要从事口腔护理用品的研发、生产与销售。<span lang="EN-US">2021</span>年度，公司实现营业收入<span lang="EN-US">11.42</span>亿元，净利润<span lang="EN-US">11,885.91</span>万元。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent: 24.0pt; mso-char-indent-count: 2.0; line-height: 200%; mso-pagination: widow-orphan;"><span style="font-family: 宋体; color: #000000; font-size: 12pt;">南矿集团本次公开发行股票<span lang="EN-US">5,100</span>万股，其中公开发行新股<span lang="EN-US">5,100</span>万股，发行价格<span lang="EN-US">15.38</span>元<span lang="EN-US">/</span>股，新股募集资金<span lang="EN-US">7.84</span>亿元，发行后总股本<span lang="EN-US">20,400</span>万股。南矿集团主要从事砂石骨料和金属矿山相关的破碎、筛分成套设备的研发、设计、生产、销售及后市场服务。<span lang="EN-US">2021</span>年度，公司实现营业收入<span lang="EN-US">7.25</span>亿元，净利润<span lang="EN-US">10,956.94</span>万元。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p class="MsoNormal" style="text-indent: 24.0pt; mso-char-indent-count: 2.0; line-height: 200%; mso-pagination: widow-orphan;"><span style="font-family: 宋体; color: #000000; font-size: 12pt;">海森药业本次公开发行股票<span lang="EN-US">1,700</span>万股，其中公开发行新股<span lang="EN-US">1,700</span>万股，发行价格<span lang="EN-US">44.48</span>元<span lang="EN-US">/</span>股，新股募集资金<span lang="EN-US">7.56</span>亿元，发行后总股本<span lang="EN-US">6,800</span>万股。海森药业主要从事化学药品原料药及中间体研发、生产和销售。<span lang="EN-US">2021</span>年度，公司实现营业收入<span lang="EN-US">3.89</span>亿元，净利润<span lang="EN-US">9,399.96</span>万元。<span lang="EN-US"><o:p></o:p></span></span></p>
+                    </div>
+                    <script>
+                        var oldCon = document.getElementById("desContent").innerHTML;
+                        oldCon = oldCon.replace(/(o:p)|(u:p)/gi,'span');
+                        oldCon = oldCon.replace(/&lt;!--\[endif\]--&gt;/g,"");
+                        document.getElementById("desContent").innerHTML = oldCon;
+                    </script>
+<!--endprint-->
+    				<div class="des-footer">
+    					<div class="article-page display-none">
+                   
+    						
+    					</div>
+    					<div class="article-btn">
+    						<a href="javascript:void(0);" class="btn btn-gray art-print">打印</a>
+        						<a href="javascript:void(0);" target="_blank" class="btn btn-gray ml10 art-collect">收藏</a>
+        						<a href="javascript:void(0);" class="btn btn-gray ml10 art-close">关闭</a>
+    					</div>
+    				</div>  
+				</div>
+     
+            </div>
+      </div>
+
+    <script>
+  changeVertion('/common/js/toggleBig5.js', 'js');
+  navMenuAJAX('/application/publicindex/footer/index.html','/application/publicindex/footer/index.html', 'footer','www');
+  addComJsFile();
+</script>
+    <script>
+  (function () {
+    var _versionDate = new Date().getTime();
+
+    var _host = 'http://www.szse.cn';
+    if (location.protocol == 'https:') {
+      _host = 'https://www.szse.cn';
+    }
+
+    var backDomain = 'http://www.sse.org.cn'
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    if (backDomain && window.location.host.match(reg)[2] === backDomain.match(reg)[2]) {
+      _host = 'http://www.sse.org.cn';
+      if (location.protocol == 'https:') {
+        _host = 'https://www.sse.org.cn';
+      }
+
+    }
+    document.write(" <script src='" + _host + "/dynamicmodule/index/sysconfig.js?random=" + _versionDate + "'> <\/script> ");
+
+  }());
+</script>
+    <script>
+    	var articleDetail = {
+    		docTitle:'主板注册制首批5家企业在深交所上市',
+    		subDocTitle:'',
+    		docAbstract:'',
+                articleId:'599854',
+		channelCode:'newstroduction_news',
+    channelId : '469'
+    	}
+    </script>
+    <script>
+    	changeVertion('/common/js/articleDetail.js','js');
+    </script>
+    <script>
+  changeVertion('/lib/validator/jquery.validate.js', 'js');
+  changeVertion('/common/js/jquery.validate_extend.js', 'js');
+  changeVertion('/lib/webuploader-0.1.5/webuploader.js', 'js');
+  changeVertion('/common/plugins/index.min.js', 'js');
+  changeVertion('/common/js/articleDetailUtil.js','js');
+</script>
+  </body>
+</html>
+
+
+

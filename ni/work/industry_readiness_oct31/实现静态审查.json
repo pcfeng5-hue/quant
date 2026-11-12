@@ -1,0 +1,65 @@
+{
+  "review_date_local": "2026-10-31",
+  "scope": "Readonly static source review; producer not executed; no market feature results or outcome labels read",
+  "status": "no_material_bug_found_for_current_contract",
+  "sources": [
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_context_oct31/build_context.py",
+      "sha256": "5400205e4968252a5a821ad9bbd9adc211b6b82922b487cb297a6972f250e833",
+      "bytes": 19659
+    },
+    {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_context_oct31/contract.json",
+      "sha256": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+      "bytes": 4754
+    }
+  ],
+  "checks": [
+    {
+      "topic": "exact_close_dependencies",
+      "finding": "past_return_k uses t-k and t only; MA20 uses current-inclusive 20 observations"
+    },
+    {
+      "topic": "conflict_isolation",
+      "finding": "emit tests bad primary observation IDs in exact dependencies, preserves diagnostic and sets engineering NULL with ready=0"
+    },
+    {
+      "topic": "relative_transitive_dependencies",
+      "finding": "relative combines two component dependency lists and rechecks bad IDs; component conflicts are propagated despite using diagnostic values"
+    },
+    {
+      "topic": "stock_segments",
+      "finding": "ex-date resets segment before appending current close; past5 requires 6 same-segment observations; indices never inherit stock resets"
+    },
+    {
+      "topic": "date_and_source_domain",
+      "finding": "eight source-symbol date lists must be nonempty, unique, sorted and identical; collection/adjustment/unit/positive finite prices checked"
+    },
+    {
+      "topic": "prefix_and_future",
+      "finding": "producer includes prefix reconstruction on five fixed dates and post-2024 price-poison check; static loop reads no future closes for earlier feature values"
+    },
+    {
+      "topic": "parameter_guards",
+      "finding": "prepare compares cfg to current contract; main also verifies registration contract/code hashes and protected input hashes, preventing silent contract or implementation change"
+    },
+    {
+      "topic": "outcome_isolation",
+      "finding": "main SELECT explicitly reads market_daily close/source fields and corporate_actions ex-dates only; no outcome table reads, fit or scoring"
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "note": "The test named no_price_conflict_silently_promoted currently iterates rows already labelled CLOSE_SOURCE_CONFLICT; adding the reverse implication for every row with conflict_n>0 would make testing stronger. The emit implementation itself currently handles this correctly.",
+      "severity": "test_strengthening"
+    },
+    {
+      "note": "prepare rejects the entire batch if any input close is nonpositive/nonfinite. This is stricter than per-feature missing-value NULL handling and should be stated in documentation; it does not alter current frozen valid source data.",
+      "severity": "documentation_clarity"
+    }
+  ],
+  "producer_executed_by_this_review": false,
+  "market_result_read": false,
+  "outcome_label_accessed": false,
+  "old_files_modified": false
+}

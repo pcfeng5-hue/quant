@@ -1,0 +1,147 @@
+{
+  "checks": [
+    {
+      "check": "source_dates_sorted_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_source_ohlc_valid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "research_918_warmup_242",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefix_invariance_2022-12-30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefix_invariance_2023-06-19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefix_invariance_2023-06-20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefix_invariance_2024-05-24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefix_invariance_2026-09-22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefix_invariance_2026-10-21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_pandas_ma_ema_equivalence",
+      "passed": true,
+      "details": {
+        "differences": []
+      }
+    },
+    {
+      "check": "kdj_manual_step",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "kdj_flat_seed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ex_dates_reset_all_states",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "macd_warmup_130",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "kdj_warmup_30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_labels_development_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_labels_for_2025_2026",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "label_exact_next_to_fifth_observation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_label_window_crosses_known_ex_date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "label_sign_partition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "development_anchor_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_formal_gates_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "future_price_volume_mutation_does_not_change_development_features",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "future_mutation_does_not_change_development_labels",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_databases_and_original_forecast_protocol_unchanged",
+      "passed": true,
+      "details": {
+        "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+        "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+        "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee"
+      }
+    }
+  ],
+  "passed": 25,
+  "total": 25,
+  "source_hashes_before": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee"
+  },
+  "source_hashes_after": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee"
+  }
+}

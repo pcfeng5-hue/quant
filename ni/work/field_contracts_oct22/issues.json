@@ -1,0 +1,135 @@
+{
+  "status": "read_only_review_no_source_edits",
+  "issues": [
+    {
+      "issue_id": "REPORT_GENERATOR_AMOUNT_COUNT_HARDCODE",
+      "severity": "reproducibility",
+      "source": "work/market_warmup_finalize_oct22/verify_and_supplement.py",
+      "line": 224,
+      "observed": "生成报告模板硬编码研究3日/预热5日；当前实际报告已手工纠正为2/6。",
+      "verified_counts": {
+        "warmup_2022": 6,
+        "research_2023_onward": 2
+      },
+      "actual_dates": [
+        {
+          "date": "2022-03-02",
+          "scope": "warmup_2022",
+          "eastmoney": 203552249.0,
+          "tencent_new": 203552300.0,
+          "absolute_difference": 51.0,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2022-04-27",
+          "scope": "warmup_2022",
+          "eastmoney": 238457949.0,
+          "tencent_new": 238458000.0,
+          "absolute_difference": 51.0,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2022-05-19",
+          "scope": "warmup_2022",
+          "eastmoney": 303636048.0,
+          "tencent_new": 303636100.0,
+          "absolute_difference": 52.0,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2022-06-17",
+          "scope": "warmup_2022",
+          "eastmoney": 247983049.0,
+          "tencent_new": 247983100.0,
+          "absolute_difference": 51.0,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2022-06-20",
+          "scope": "warmup_2022",
+          "eastmoney": 284127152.0,
+          "tencent_new": 284127100.0,
+          "absolute_difference": 52.0,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2022-12-19",
+          "scope": "warmup_2022",
+          "eastmoney": 111362449.62,
+          "tencent_new": 111362500.0,
+          "absolute_difference": 50.38,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2023-12-15",
+          "scope": "research_2023_onward",
+          "eastmoney": 87931049.5,
+          "tencent_new": 87931100.0,
+          "absolute_difference": 50.5,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        },
+        {
+          "date": "2025-09-25",
+          "scope": "research_2023_onward",
+          "eastmoney": 668177649.82,
+          "tencent_new": 668177700.0,
+          "absolute_difference": 50.18,
+          "tolerance": 50.005,
+          "pass_check": false,
+          "tolerance_basis": "Tencent native amount printed to .01 ten-thousand CNY (=100 CNY); half-width50 plus Eastmoney .01 CNY half-width .005. Boundary check only, not proof of common upstream precision."
+        }
+      ],
+      "affected_current_reports": [
+        "outputs/五项数据补缺_20261022/行情预热核对.md",
+        "work/market_warmup_finalize_oct22/行情预热与末日核对.md"
+      ],
+      "current_report_status": "currently_correct_2_and_6; generator_can_reintroduce_error",
+      "count_source_path": "work/market_warmup_finalize_oct22/tencent_new_cross_source_daily_comparison.json",
+      "count_predicate": "not row['fields']['amount_cny']['pass_check']",
+      "scope_predicate": "row['date'] < '2023-01-01' means warmup_2022, else research_2023_onward",
+      "summary_alternative": "summary['new_endpoint_cross_source'][scope]['fields']['amount_cny']['strict_mismatch_dates'] after selecting scope; do not use numeric list position",
+      "minimal_fix": "从已有比较行或按scope查找summary聚合，分别格式化研究计数和预热计数进报告模板；不改原50.005元比较边界。",
+      "recommended_action": "后续由根代理把模板改为从比较行聚合计数；本子任务不修改既有文件。",
+      "changed": false
+    },
+    {
+      "issue_id": "REPORT_RAW_COLUMN_INDEX_AMBIGUITY",
+      "severity": "documentation",
+      "source": "outputs/五项数据补缺_20261022/行情预热核对.md",
+      "line": 22,
+      "observed": "“原始第5列/第7列/第8列”实际对应数组row[5]/row[7]/row[8]（零基）。",
+      "recommended_action": "写为零基索引5/7/8，或一基第6/8/9列；数值解析本身当前正确。",
+      "changed": false
+    },
+    {
+      "issue_id": "LEGACY_FALSE_CERTIFICATION_NOT_FALSE_FACT",
+      "severity": "semantic_contract",
+      "source": "work/conditions_finish_oct22/daily_trade_conditions_915.json",
+      "observed": "daily_status_verified_normal全部false与ST/日内状态unknown并存，直接转is_normal=false会误称全部异常。",
+      "recommended_action": "保留原字段并拆日级状态unknown和未认证false，拒绝执行准入独立保存。",
+      "changed": false
+    },
+    {
+      "issue_id": "LEGACY_DAILY_TURNOVER_UNIT_LABEL_NEEDS_MAPPING",
+      "severity": "unit_contract",
+      "source": "main:daily_bars",
+      "observed": "同名turnover与volume在旧主库和新阶段文件具有不同单位说明和端点可用性；不能只凭列名通用合并。",
+      "recommended_action": "按snapshot/endpoint附单位和原数映射；腾讯旧端点的缺失金额/换手保留null。",
+      "changed": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "origin": "direct_human_request",
+  "client_date": "2026-11-01",
+  "status": "step_1_existing_research_evidence_review_complete_independently_checked",
+  "counts_as_completed_nightly_batch": false,
+  "report": "outputs/研究证据与覆盖审查_20261101/研究证据与覆盖审查_v1.md",
+  "state": "outputs/研究证据与覆盖审查_20261101/本轮状态与续作断点.json",
+  "new_models_scored": 0,
+  "new_scores_calculated": 0,
+  "cumulative_registered_variants": 16,
+  "outcomes_2025_2026_opened": false,
+  "user_requested_save_before_token_end": true
+}

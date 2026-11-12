@@ -1,0 +1,81 @@
+{
+  "review_id": "002414_prediction_question_and_label_review_20261101_v1",
+  "client_date": "2026-11-01",
+  "status": "design_review_not_a_new_market_experiment",
+  "user_confirmed": {
+    "first_use_case": "收盘后判断回落时该买入还是继续等待",
+    "confirmation_source": "本聊天2026-11-01用户选择，原文保留于本字段",
+    "first_mode": "completed_daily_information_after_close",
+    "is_trading_or_capital_authorization": false
+  },
+  "existing_engineering_label": {
+    "formula": "C[t+5]/O[t+1]-1",
+    "horizon": 5,
+    "clock": "observed_stock_bars_not_certified_planned_exchange_sessions",
+    "positive_event": "raw_price_change > 0",
+    "nonpositive_event": "raw_price_change <= 0, including zero",
+    "net_profit_or_action_advantage": false,
+    "old_contract_labels_results_unchanged": true
+  },
+  "proposed_primary_question": "At the same decision-time information and starting cash, does a prespecified wait-for-confirmation policy improve common-endpoint net wealth and downside risk relative to buying at the next allowed window?",
+  "primary_comparison": {
+    "A": "next-allowed-window entry under a frozen execution policy",
+    "B": "wait for a frozen observable confirmation, then enter at its next allowed window, or stay in cash if no eligible entry occurs",
+    "C": "cash-only reference under the same declared cash-return assumption",
+    "initial_wealth_equal": true,
+    "common_terminal_time_required": true,
+    "allocation_rule_equal_and_prespecified": true,
+    "late_confirmation_cannot_extend_terminal_time": true,
+    "wait_is_not_hindsight_minimum_price": true,
+    "advantage_formula": "Delta_W = W_wait(T) - W_now(T)",
+    "strict_advantage_event_for_definition_only": "Delta_W > 0, ties separate; not an action threshold",
+    "counterfactual_fills_identified_from_daily_prices": false
+  },
+  "wealth_conventions": {
+    "cash_after_filled_round_trip": "B - q*P_entry - F_entry + q*P_exit - F_exit, absent corporate actions and cash interest",
+    "terminal_NAV": "cash_T + q_T*validated_mark_T + separately valued rights_and_receivables_T - unpaid_taxes_fees_and_other_liabilities_T; cash already reflects paid charges; no cash/receivable double counting",
+    "NAV_is_realized_profit": false,
+    "cash_only_path_is_zero_return_trade": false,
+    "not_filled_trade_return": null,
+    "partial_fill_requires_actual_quantity_and_remaining_cash": true,
+    "fees_include_no_double_counting": true,
+    "unknown_fee_or_fill_is_zero": false
+  },
+  "pending_freeze": {
+    "pullback_eligibility_rule": null,
+    "confirmation_rule": null,
+    "main_horizon_planned_exchange_sessions": null,
+    "decision_datetime_and_information_cutoff": null,
+    "validated_exchange_planned_calendar": null,
+    "maximum_wait_sessions": null,
+    "last_confirmation_and_last_entry": null,
+    "entry_order_price_validity_and_cancellation_policy": null,
+    "terminal_NAV_or_executable_cash_policy": null,
+    "allocation_quantity_and_cash_interest_policy": null,
+    "fees_slippage_and_dividend_tax": null,
+    "economic_neutral_band_and_material_advantage": null,
+    "risk_barriers_and_action_thresholds": null,
+    "statistical_and_economic_acceptance": null,
+    "user_risk_limits_beyond_existing_realized_pause": null
+  },
+  "assistant_design_recommendations_not_frozen": {
+    "starting_comparison_state": "flat_cash_research_sleeve_only_proposed; not a statement that the actual account is flat",
+    "focus": "one cash-entry comparison first; held-position exits and intraday T separate",
+    "clock": "one horizon fixed on a planned exchange calendar known at the decision time; missing or suspended bars do not silently shift T",
+    "horizon_discussion_example": "5 planned exchange sessions is an option for discussion, not confirmed and not selected from scores",
+    "entry_window": "next planned permitted window; no assumed close-price fill or after-hours channel",
+    "endpoint": "report NAV and sellability separately; if a cash-liquidation experiment is later chosen, keep failed liquidation unresolved rather than pretending NAV is cash",
+    "review_scope": "definitions, timeline and synthetic counterexamples only"
+  },
+  "guardrails": {
+    "new_real_target_labels": false,
+    "new_models_or_real_probability_scores": false,
+    "outcomes_2025_2026_opened": false,
+    "cumulative_research_variants_unchanged": 16,
+    "old_forecast_draft_modified": false,
+    "confirmed_risk_settings_modified": false,
+    "formal_input_approved": false,
+    "runtime_usable": false,
+    "current_forecast_generated": false
+  }
+}

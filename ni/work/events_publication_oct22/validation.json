@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "name": "three_catalogues_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "312_announcement_rows_mapped_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "official_catalogue_ids_match_mapped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_catalogue_raw_hashes_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_new_official_html_hashes_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_announcement_originals_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three_new_policy_originals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "october_delivery_official_original_verified",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "46_expiry_months_5_official_41_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_unknown_first_publication_backfilled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_normalized_event_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_existing_and_new_event_raw_hashes_match",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_passed": true
+}

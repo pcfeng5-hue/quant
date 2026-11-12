@@ -1,0 +1,37 @@
+{
+  "batch_id": "a_20261104_input_evidence_b2",
+  "materialized_registry_at_utc": "2026-11-04T06:04:09.427425+00:00",
+  "scope_preexisted_in_charter": true,
+  "charter_path": "outputs/下一阶段路线决策_20261104/下一批有限工程任务书.json",
+  "charter_sha256": "9c6c4db7e99b55ecd64b94e98aca2cf6c6b01441063e87a9a54631cc04b83f64",
+  "fixed_content_source_paths": [
+    "work/market_industry_oct22/manifest.json",
+    "work/market_industry_oct22/input_admission.json",
+    "work/market_context_oct31/contract.json",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json",
+    "work/market_warmup_finalize_oct22/manifest.json",
+    "work/market_warmup_finalize_oct22/summary.json",
+    "outputs/高德红外数据库/calendar_audit_result.json",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json",
+    "work/conditions_finish_oct22/summary.json",
+    "work/conditions_finish_oct22/rule_regimes.json",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json",
+    "work/corporate_actions_refine_oct17/corporate_actions.json",
+    "work/baseline_oct25/engineering_contract.json",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json",
+    "outputs/时间执行与数据准入缺口矩阵_20261102/来源索引与SHA256.json"
+  ],
+  "approved_extra_content_paths": [],
+  "denied_extra_requests": [
+    {
+      "paths": [
+        "work/market_industry_oct22/raw/em_002414.SZ_0_c22d08e4c578e500.json",
+        "work/market_industry_oct22/raw/tencent_002414.SZ_0_75e505ffd64e0eca.json"
+      ],
+      "reason": "Raw price response files outside metadata/official extra-source kind; do not read even for a fresh raw-file hash under this batch"
+    }
+  ],
+  "integrity_and_operational_reads": "Charter/checkpoint/release QA and immutable source hashes are controls, not new scientific content sources; generated work products and independent audits may be read",
+  "extraction_is_one_logical_fixed_source_pass": true,
+  "no_new_network_or_target_or_price_value_export": true
+}

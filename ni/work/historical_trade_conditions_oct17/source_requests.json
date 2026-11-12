@@ -1,0 +1,122 @@
+[
+  {
+    "name": "rules_2021_pdf",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020210331716400647184.pdf",
+    "retrieved_at": "2026-10-18T03:10:48.262541+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020210331716400647184.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 540362,
+    "sha256": "2540ea6c44b6c624089bbac4ea08d161e88dde929858db68caf7282733521632",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2021_pdf_2540ea6c44b6c624.pdf"
+  },
+  {
+    "name": "rules_2023_notice",
+    "url": "https://investor.szse.cn/lawrules/index/rule/t20230217_598773.html",
+    "retrieved_at": "2026-10-18T03:10:48.262912+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(ConnectionResetError(54, 'Connection reset by peer'))"
+  },
+  {
+    "name": "rules_2026_notice",
+    "url": "https://investor.szse.cn/lawrules/rule/trade/t20260424_620190.html",
+    "retrieved_at": "2026-10-18T03:10:48.263049+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(ConnectionResetError(54, 'Connection reset by peer'))"
+  },
+  {
+    "name": "rules_2026_pdf",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+    "retrieved_at": "2026-10-18T03:10:48.263155+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 282084,
+    "sha256": "9b66f8b0db70f84a25ef1ccb4ee2351001724e408117552d75f6d8993483c586",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2026_pdf_9b66f8b0db70f84a.pdf"
+  },
+  {
+    "name": "fee_reduction_2023",
+    "url": "https://www.szse.cn/disclosure/notice/t20230818_602805.html",
+    "retrieved_at": "2026-10-18T03:10:48.911322+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.szse.cn/disclosure/notice/t20230818_602805.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 19662,
+    "sha256": "e281273a3bb3d06903831049ffbc0d38c5d735627e98a6dbf9f3d05cc6af56e0",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/fee_reduction_2023_e281273a3bb3d069.html"
+  },
+  {
+    "name": "fees_current",
+    "url": "https://investor.szse.cn/marketServices/deal/payFees/index.html",
+    "retrieved_at": "2026-10-18T03:10:49.004790+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://investor.szse.cn/marketServices/deal/payFees/index.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 90980,
+    "sha256": "fbd7df3dfa07778b1318564563d22992f19d06bde415144fef248f27674f03c7",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/fees_current_fbd7df3dfa07778b.html"
+  },
+  {
+    "name": "stamp_reduction_2023",
+    "url": "https://shanxi.chinatax.gov.cn/web/detail/sx-11400-545-1780448",
+    "retrieved_at": "2026-10-18T03:10:50.043953+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://shanxi.chinatax.gov.cn/web/detail/sx-11400-545-1780448",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 27794,
+    "sha256": "bacf8e1dc1ee1ac11ca8df7d60ec2db6edb581c40aa7f08735e1ea6657c38323",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/stamp_reduction_2023_bacf8e1dc1ee1ac1.html"
+  },
+  {
+    "name": "szse_suspension_202301",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230202548759938270.html",
+    "retrieved_at": "2026-10-18T03:10:50.044603+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://docs.static.szse.cn/www/market/periodical/month/W020230202548759938270.html",
+    "http_status": 200,
+    "content_type": "text/html; charset=GBK",
+    "bytes": 5921,
+    "sha256": "c90dc57432c96e5efcc6794e58200d6b1f51aa36aeb6d6f06248575c20c7a4f3",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/szse_suspension_202301_c90dc57432c96e5e.html"
+  },
+  {
+    "name": "szse_month_index",
+    "url": "https://www.szse.cn/market/periodical/month/index.html",
+    "retrieved_at": "2026-10-18T03:10:51.096691+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.szse.cn/market/periodical/month/index.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 122297,
+    "sha256": "7b362a54f891546b1cec476a5562e425c2f7459c79a37c2d62717b94552600a2",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/szse_month_index_7b362a54f891546b.html"
+  },
+  {
+    "name": "chinaclear_history",
+    "url": "https://m.chinaclear.cn/zdjs/dsj/about_dsj.shtml",
+    "retrieved_at": "2026-10-18T03:10:51.145954+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://m.chinaclear.cn/zdjs/dsj/about_dsj.shtml",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 815671,
+    "sha256": "9e094cdae3f75a3da33945f653e7c87a03bc676b614a71549091e547e1b3093c",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_history_9e094cdae3f75a3d.html"
+  }
+]

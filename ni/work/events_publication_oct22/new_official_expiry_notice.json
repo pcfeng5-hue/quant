@@ -1,0 +1,34 @@
+[
+  {
+    "month": "2026-10",
+    "event_date": "2026-10-16",
+    "event_type": "CFFEX_index_derivatives_expiry_delivery",
+    "applicable_instruments": [
+      "IF",
+      "IH",
+      "IC",
+      "IM",
+      "IO",
+      "MO",
+      "HO"
+    ],
+    "notice_kind": "actual_delivery_result",
+    "source_level": "official_monthly_notice",
+    "source_url": "http://www.cffex.com.cn/cn/jystz/20261016/48692.html",
+    "publication_date": "2026-10-16",
+    "publication_time": null,
+    "first_publication_time_certified": false,
+    "retrieved_at": "2026-10-22T16:21:31.923953+00:00",
+    "source_sha256": "df10cc50af92574c9a5513266f79510df6ac08ca3b38b4106d3e39755dfe5b6e",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/events_publication_oct22/event_raw/cffex_october_1_df10cc50af92574c.html",
+    "historical_input_eligible": false,
+    "delivery_settlement_prices": {
+      "IF_IO": "4162.02",
+      "IC": "6805.74",
+      "IM_MO": "6716.62",
+      "IH_HO": "2755.35"
+    },
+    "settlement_price_unit": "index_points",
+    "availability_note": "Actual result publication is post-event evidence; not an advance expiry reminder."
+  }
+]

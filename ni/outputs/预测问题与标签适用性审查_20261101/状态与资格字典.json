@@ -1,0 +1,43 @@
+{
+  "status": "design_not_runtime",
+  "independent_axes": {
+    "data": [
+      "AVAILABLE_WITH_VERSION_AND_TIME",
+      "MISSING",
+      "SOURCE_CONFLICT",
+      "FIRST_AVAILABILITY_UNKNOWN"
+    ],
+    "policy": [
+      "ELIGIBLE",
+      "NO_PULLBACK",
+      "WAITING_NO_CONFIRMATION",
+      "CONFIRMATION_EXPIRED",
+      "RISK_BLOCKED"
+    ],
+    "execution": [
+      "NO_ORDER",
+      "KNOWN_UNFILLED",
+      "PARTIAL_FILL",
+      "FILLED",
+      "FILL_UNKNOWN",
+      "SELLABILITY_BLOCKED"
+    ],
+    "maturity": [
+      "NOT_MATURE",
+      "MATURE",
+      "UNRESOLVED"
+    ],
+    "terminal": [
+      "VALID_NAV_NOT_REALIZED",
+      "VERIFIED_LIQUIDATION_CASH",
+      "LIQUIDATION_UNFILLED",
+      "TERMINAL_MARK_MISSING"
+    ]
+  },
+  "missing_or_unfilled_trade_return": null,
+  "unknown_is_not_zero": true,
+  "partially_filled": "按实际数量、剩余现金与适用费用核算，未成交部分不能假作满额",
+  "future_training_policy": "须事先登记每类状态的目标资格和分母；无触发/未成交可进入有定义的策略财富路径，交易收益子集另报；未知不得静默剔除或填零",
+  "formal_model_input_approved": false,
+  "runtime_usable": false
+}

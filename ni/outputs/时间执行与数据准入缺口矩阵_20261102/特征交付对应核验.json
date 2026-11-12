@@ -1,0 +1,1212 @@
+{
+  "audit_id": "gap_features_delivery_correspondence_20261102",
+  "created_at_utc": "2026-11-02T12:25:41.115056+00:00",
+  "all_checks_passed": true,
+  "passed": 232,
+  "total": 232,
+  "checks": [
+    {
+      "check": "all_7_delivery_files_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_feature_source_review_passed_12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_36_unique_rows_three_groups",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "count_fields_match_actual_groups",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_original_15_ids_present_in_same_order",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_21_original_source_hashes_match_now",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F01_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F02_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F03_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F04_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F05_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F06_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F07_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F08_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F09_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F10_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F11_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F12_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F13_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F14_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_source_record_exactly_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_title_and_current_evidence_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_missing_and_affected_uses_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_minimum_evidence_and_workflow_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_criterion_and_independent_work_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_alternative_not_promoted_to_equivalent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_owner_and_user_requirement_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_source_path_set_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_namespaced_source_references_and_SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_conditional_not_blocking_all_research",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_formal_gates_still_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_T01_dependency_for_admission_not_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_readable_tables_include_evidence_and_criterion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "F15_detail_page_preserves_actions_and_limits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_36_records_have_actionable_required_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_dependencies_reference_known_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_source_ref_keys_resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_rows_no_global_block_or_new_closure",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matrix_counts_not_new_experiments",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_distinguishes_unadmitted_from_failed_test",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_optional_coverage_facts_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "current_snapshot_not_claimed_refreshed_to_nov02",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "six_followup_work_groups_are_not_completed_data_collection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "template_does_not_require_material_now",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_future_private_and_preference_template_values_NULL",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "template_excludes_credentials_and_control",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "report_does_not_request_new_user_work_now",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_protected_source_hashes_match_now",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_7_delivered_artifacts_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_21_feature_sources_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "feature_gap_rows": 15,
+  "total_matrix_rows": 36,
+  "old_source_sha256": {
+    "outputs/市场环境输入准备_20261031/本轮推进报告.md": "8b066c79bda3ab4ff1a86d1220b87516195727a3bf510d577b90b2ee3b7fbb57",
+    "outputs/市场环境输入准备_20261031/本轮状态与续作断点.json": "c8bd152684438400d13914bccb8cb01447d4f5f62420b73e9afe8a3a0090276a",
+    "outputs/市场环境输入准备_20261031/市场来源独立核对.md": "b6705cb173db0562d1af4bd746dd2d72879350c0c8fd7900b03d82cd35e35c7d",
+    "outputs/市场环境输入准备_20261031/行业代理准入审查.json": "74e1d24908bc9e5ff16ed110c4074e123756ad7f876154163954a257be0372e0",
+    "outputs/市场环境输入准备_20261031/事件时间准入审查.json": "0e0b82afdc3e9aafb72999e00fb5cd31e490478af6556cdcf092e6efa3ad9796",
+    "outputs/五项数据补缺_20261022/市场行业核对.md": "c9f0c72fcdad5ddd044ae08ae1331eff30c2a7fcdcb72ffb1f0f2487a6292189",
+    "outputs/五项数据补缺_20261022/公告政策事件核对.md": "c9581945fdb6430839f3ac284a547d284c5c6413cf23c38a6b287e099473242f",
+    "outputs/五项数据补缺_20261022/阶段报告.md": "4621ae50f12cfa0b4c6aea811aad334f47b664ad8f53b365f83d92b6b7bffc3e",
+    "outputs/三线研究启动_20261025/筹码摘要核查/筹码摘要质量报告.md": "7570e3dbb35240c41ff961587c4ea7764e15947f3bd59c58020c545af5a920da",
+    "outputs/三线研究启动_20261025/筹码摘要核查/筹码摘要质量台账.json": "7d562d33631e1edfe0726bf510375c0682e424a7b1ec7431ad0b89ee501b0537",
+    "outputs/初始化与验证推进_20261026/筹码初始化/筹码初始化改进v2报告.md": "efc9a8b029f22663f4b39467f7c2a5bf775871f8ccfa21f0cbf07ae7c4beb6e6",
+    "outputs/高德红外数据库/财务原件核对报告.md": "6e7e7b4fd5683a270a7817a195a218d5d5f9bc378295e7d5bd4066212ed8c61b",
+    "outputs/高德红外数据库/会计修订核对说明.md": "14edb663b0c24fdfb4a9dfe94cb3bb965849760b95b7112579895111521802b1",
+    "outputs/高德红外数据库/查漏补缺报告.md": "015ad6f1e05d79826c4f5e30362c64f7bb82fb58512a11ff797b19c06c8d7b55",
+    "outputs/高德红外数据库/查漏补缺报告_v0.4.md": "8cbca61eff2a65b100dfafee6db8fbe5a767e1376994814f44dd8e7308c7d7fd",
+    "outputs/高德红外数据库/股本与状态核对说明.md": "0e20a3e19c53ae21ba591b103a6aead4704fd4d15e3250f10be6ff4f8b764818",
+    "outputs/统一数据底座_20261022/本轮数据整理报告.md": "8885184bd770714b19e42df8aabb637364dd00af05f1a7a1edfac057add10d13",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776",
+    "outputs/研究证据与覆盖审查_20261101/本轮状态与续作断点.json": "e03670e07e899c041a61c03f29145884495a2079a8b8f886dfccbd83c4bc9b19"
+  },
+  "delivery_sha256": {
+    "时间执行与数据准入缺口矩阵_v1.md": "be94e87c19435aaae7e2e808db0e2b2d1b43119499b0b8d27e8ded2ec9d1d92b",
+    "完整缺口矩阵_v1.json": "96d40f9ed19fdf937c9514436c429c3cc2dd73e7b5411600b110835a45707c7e",
+    "缺口矩阵总表.md": "2f869399c7efaa7a0c2560397b76d9ba5e26740fb3fbaf308679f97dd8b6ce3a",
+    "逐项补证与验收细则.md": "e26c4fea778a99c2f3fc24cc6a5f671367bd28b5d35a70d0b799dd42c3dbd62c",
+    "最小补证作业清单_v1.md": "7e727b9654aeb78b56c638188350a1cc76712503431d83d09b3c1f6faf6d9567",
+    "后续脱敏资料字段模板.json": "4765e85b842b32a616443f00398bc44324f7326a1443e3d4f2b2ac5c1910ce1c",
+    "来源索引与SHA256.json": "a236d9bbcb1f350e8a9ae0aae542bcf8c8cc9d63c7c248538ef3e316e09a238e"
+  },
+  "original_feature_records_exact": true,
+  "all_source_namespaces_resolve": true,
+  "source_facts_not_fresh_collection": true,
+  "new_market_data": false,
+  "new_actual_target_labels": false,
+  "new_models_or_scores": 0,
+  "outcomes_2025_2026_opened": false,
+  "formal_input_approved": false,
+  "runtime_usable": false
+}

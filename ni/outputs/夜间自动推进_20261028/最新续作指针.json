@@ -1,0 +1,33 @@
+{
+  "configured_client_date": "2026-10-28",
+  "timezone": "America/Toronto",
+  "last_verified_research_state": "outputs/输入证据合库与验证设计_20261105/本轮状态与续作断点.json",
+  "last_verified_research_report": "outputs/输入证据合库与验证设计_20261105/本轮推进报告.md",
+  "research_stage": 5,
+  "research_variants_so_far": 17,
+  "nightly_batches_completed_since_setup": 1,
+  "setup_is_not_research_completion": true,
+  "next_action": "Implement bounded offline first-receipt/version/rejection schema and list minimum selected-input evidence acquisition; no schedule, real targets, model fit/score, forecast or simulation; preserve BW17 H10/W2 and14 user pending groups",
+  "prepared_unscored_candidate_definitions": 14,
+  "latest_batch_origin": "manual_user_authorized",
+  "latest_batch_client_date": "2026-11-05",
+  "prepared_candidate_definitions": 15,
+  "prepared_definitions_scored": 1,
+  "review_package_steps_completed": 4,
+  "review_package_steps_remaining": 0,
+  "confirmed_first_use_case": "收盘后判断回落时该买入还是继续等待",
+  "latest_batch_id": "manual_20261105_metadata_and_BW17",
+  "next_engineering_charter": "outputs/下一阶段路线决策_20261104/下一批有限工程任务书.json",
+  "confirmed_horizon_planned_sessions": 10,
+  "pending_user_parameter_groups": 14,
+  "new_policy_definitions_frozen_unrun": 1,
+  "fully_executable_prediction_protocol": false,
+  "automatic_execution_cancelled": true,
+  "automation_id_deleted": "a",
+  "old_pending_resolved": {
+    "pending_batch_id": "a_20261104_input_evidence_b2",
+    "pending_work_state": "outputs/最小输入证据台账_20261104_批次02/本轮状态与续作断点.json",
+    "pending_work_report": "outputs/最小输入证据台账_20261104_批次02/本轮部分进度说明.md",
+    "pending_work_status": "partially_complete_saved_after_batch_deadline"
+  }
+}

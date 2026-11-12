@@ -1,0 +1,1636 @@
+Browser tab: 1, Title: "高德红外 10.55 -0.34(-3.12%)最新价格_行情_走势图—东方财富网", URL: "https://quote.eastmoney.com/concept/sz002414.html#fschart-r".
+1 AXWebArea 高德红外 10.55 -0.34(-3.12%)最新价格_行情_走势图—东方财富网, URL: quote.eastmoney.com…
+	2 container
+		3 container app
+			4 container
+				5 link Description: 东方财富网, Value: eastmoney.com/
+				6 link Description: 行情中心, Value: quote.eastmoney.com…
+				7 text 概念版
+				8 link Description: 经典版, Value: quote.eastmoney.com…
+				9 text field (settable) hqb_t_search_input
+				10 button
+			11 container
+				567 link Description: 上证指数 3658.03 -55.00-1.48%, Value: quote.eastmoney.com…
+				568 link quote.eastmoney.com…
+				569 link Description: 深证成指 11357.32 -347.03-2.96%, Value: quote.eastmoney.com…
+				570 link quote.eastmoney.com…
+				571 link Description: 创业板指 2576.90 -117.81-4.37%, Value: quote.eastmoney.com…
+				572 link quote.eastmoney.com…
+				573 link Description: 北证50 966.74 -9.04-0.93%, Value: quote.eastmoney.com…
+				574 link quote.eastmoney.com…
+				575 link Description: 军工电子Ⅱ 5718.94 -181.02-3.07%, Value: quote.eastmoney.com…
+				576 link quote.eastmoney.com…
+			577 container
+				578 link Description: 盘口异动, Value: quote.eastmoney.com…
+				579 container
+					580 link Description: 14:56:57 华天科技 打开涨停 15.66元, Value: quote.eastmoney.com…
+					581 link Description: 14:56:58 博汇股份 打开涨停 19.87元, Value: quote.eastmoney.com…
+					582 link Description: 14:56:58 新亚强 封跌停板 13.20元, Value: quote.eastmoney.com…
+					583 link Description: 15:00:00 *ST正平 打开跌停 4.85元, Value: quote.eastmoney.com…
+					584 link Description: 15:00:00 恒大高新 打开跌停 6.19元, Value: quote.eastmoney.com…
+					585 link Description: 15:00:00 永吉股份 打开跌停 9.00元, Value: quote.eastmoney.com…
+					586 link Description: 15:00:00 星光股份 封涨停板 2.70元, Value: quote.eastmoney.com…
+					587 link Description: 15:00:00 近岸蛋白 封跌停板 106.80元, Value: quote.eastmoney.com…
+					588 link Description: 15:00:00 博汇股份 封涨停板 19.92元, Value: quote.eastmoney.com…
+					589 link Description: 15:00:00 森鹰窗业 打开跌停 26.24元, Value: quote.eastmoney.com…
+					590 link Description: 14:56:57 华天科技 打开涨停 15.66元, Value: quote.eastmoney.com…
+					591 link Description: 14:56:58 博汇股份 打开涨停 19.87元, Value: quote.eastmoney.com…
+					592 link Description: 14:56:58 新亚强 封跌停板 13.20元, Value: quote.eastmoney.com…
+					593 link Description: 15:00:00 *ST正平 打开跌停 4.85元, Value: quote.eastmoney.com…
+					594 link Description: 15:00:00 恒大高新 打开跌停 6.19元, Value: quote.eastmoney.com…
+					595 link Description: 15:00:00 永吉股份 打开跌停 9.00元, Value: quote.eastmoney.com…
+					596 link Description: 15:00:00 星光股份 封涨停板 2.70元, Value: quote.eastmoney.com…
+					597 link Description: 15:00:00 近岸蛋白 封跌停板 106.80元, Value: quote.eastmoney.com…
+					598 link Description: 15:00:00 博汇股份 封涨停板 19.92元, Value: quote.eastmoney.com…
+					599 link Description: 15:00:00 森鹰窗业 打开跌停 26.24元, Value: quote.eastmoney.com…
+			20 link Description: 沪深港通, Value: quote.eastmoney.com…
+			600 table
+				601 row
+					602 cell
+						603 link Description: 沪股通, Value: quote.eastmoney.com…
+						604 text 收盘
+						605 link Description: 当日额度充足, Value: data.eastmoney.com/…
+					606 cell
+						607 link Description: 深股通, Value: quote.eastmoney.com…
+						608 text 收盘
+						609 link Description: 当日额度充足, Value: data.eastmoney.com/…
+					610 cell
+						611 link Description: 港股通(沪), Value: quote.eastmoney.com…
+						612 text 收盘
+						613 link Description: 净买额, Value: data.eastmoney.com/…
+						614 link Description: -32.25亿, Value: data.eastmoney.com/…
+					615 cell
+						616 link Description: 港股通(深), Value: quote.eastmoney.com…
+						617 text 收盘
+						618 link Description: 净买额, Value: data.eastmoney.com/…
+						619 link Description: -59.93亿, Value: data.eastmoney.com/…
+			43 link Description: 数据中心, Value: data.eastmoney.com/…
+			44 container
+				45 link Description: 资金流向, Value: data.eastmoney.com/…
+				46 link Description: 主力排名, Value: data.eastmoney.com/…
+				47 link Description: 板块资金, Value: data.eastmoney.com/…
+				48 link Description: 个股研报, Value: data.eastmoney.com/…
+				49 link Description: 新股申购, Value: data.eastmoney.com/…
+				50 link Description: 转债申购, Value: data.eastmoney.com/…
+				51 link Description: 北交所申购, Value: data.eastmoney.com/…
+				52 link Description: AH股比价, Value: quote.eastmoney.com…
+				53 link Description: 年报大全, Value: data.eastmoney.com/…
+				54 link Description: 融资融券, Value: data.eastmoney.com/…
+				55 link Description: 龙虎榜, Value: data.eastmoney.com/…
+				56 link Description: 限售解禁, Value: data.eastmoney.com/…
+				57 link Description: 注册审批, Value: data.eastmoney.com/…
+				58 link Description: 大宗交易, Value: data.eastmoney.com/…
+				59 link Description: 估值分析, Value: data.eastmoney.com/…
+			60 container
+				61 link Description: 自选股列表, Value: quote.eastmoney.com…
+				62 container
+					63 text 最近访问：
+					64 link Description: 高德红外, Value: quote.eastmoney.com…
+			65 container
+				66 text 高德红外 002414
+				620 container astocklabeld
+					621 link Description: 两融, Help: 该股票为融资融券标的, Value: data.eastmoney.com/…
+					622 link Description: 深主板, Help: 该股票在深主板上市, Value: quote.eastmoney.com…
+					623 link Description: 深股通, Help: 该股票为深股通标的, Value: quote.eastmoney.com…
+				624 link Description: ＋加自选, Value: quote.eastmoney.com…
+			68 container
+				625 text 2026-10-22 03:34:45 已收盘
+				69 link Description: 模拟交易, Value: quote.eastmoney.com…
+				70 link Description: 实盘交易, Value: jy.xzsec.com/Trade/…
+			626 container
+				627 text 10.55
+			72 container
+				628 text -0.34 -3.12%
+			74 container
+				75 container 今开 10.88
+					76 container
+						77 text 今开 10.88
+				78 container 昨收 10.89
+					79 container
+						80 text 昨收 10.89
+				81 container 最高价 10.92
+					82 container
+						83 text 最高价 10.92
+				84 container 最低价 10.52
+					85 container
+						86 text 最低价 10.52
+				87 container 涨停价 11.98
+					88 container
+						89 text 涨停价 11.98
+				90 container 跌停价 9.80
+					91 container
+						92 text 跌停价 9.80
+				93 container 换手率 0.96%
+					94 container
+						95 text 换手率 0.96%
+				96 container 量比 0.91
+					97 container
+						98 text 量比 0.91
+				99 container 成交量 32.77万
+					100 container
+						101 text 成交量 32.77万
+				102 container 成交额 3.504亿
+					103 container
+						104 text 成交额 3.504亿
+				105 container 动态市盈率 16.67
+					106 container
+						107 text 动态市盈率 16.67
+				108 container 市净率 5.65
+					109 container
+						110 text 市净率 5.65
+				111 container 总市值 450.6亿
+					112 container
+						113 text 总市值 450.6亿
+				114 container 流通市值 358.6亿
+					115 container
+						116 text 流通市值 358.6亿
+				117 container 振幅 3.67%
+					118 container
+						119 text 振幅 3.67%
+				120 container 内盘 19.63万
+					121 container
+						122 text 内盘 19.63万
+				123 container 外盘 13.14万
+					124 container
+						125 text 外盘 13.14万
+			126 content list
+				127 link Description: 操盘必读, Value: emweb.securities.ea…
+				128 link Description: 公司概况, Value: emweb.securities.ea…
+				129 link Description: 经营分析, Value: emweb.securities.ea…
+				130 link Description: 财务分析, Value: emweb.securities.ea…
+				131 link Description: 股东研究, Value: emweb.securities.ea…
+				132 link Description: 核心题材, Value: emweb.securities.ea…
+				133 link Description: 分红融资, Value: emweb.securities.ea…
+				134 link Description: 公司大事, Value: emweb.securities.ea…
+				135 link Description: 查看更多>, Value: emweb.securities.ea…
+			136 container
+				137 link Description: 个股日历, Value: data.eastmoney.com/…
+				629 container cal_scbox
+					1945 container
+						1946 text 股权质押 ：
+						1947 link Description: 截止2026年10月09日质押总比例1.01%，质押总股数4311.22万股，质押总笔数2笔, Value: data.eastmoney.com/…
+					1933 container
+						1934 text 股权质押 ：
+						1935 link Description: 截止2026年09月30日质押总比例1.01%，质押总股数4311.22万股，质押总笔数2笔, Value: data.eastmoney.com/…
+					1936 container
+						1937 text 股权质押 ：
+						1938 link Description: 截止2026年09月24日质押总比例1.01%，质押总股数4311.22万股，质押总笔数2笔, Value: data.eastmoney.com/…
+					1939 container
+						1940 text 股权质押 ：
+						1941 link Description: 截止2026年09月18日质押总比例1.01%，质押总股数4311.22万股，质押总笔数2笔, Value: data.eastmoney.com/…
+					1942 container
+						1943 text 分红 ：
+						1944 link Description: 2026年09月15日公布2026年年报分红，股权登记日：2026年09月21日；除权除息日：2026年09月22日；分配方案：10派1.00元(含税,扣税后0.90元)[正式], Value: data.eastmoney.com/…
+					1895 container
+						1896 text 公告 ：
+						1897 link Description: 2026年09月15日发布《高德红外:2026年半年度权益分派实施公告》, Value: data.eastmoney.com/…
+					1890 container
+						1891 text 公告 ：
+						1892 link Description: 2026年09月12日发布《高德红外:2026年第一次临时股东会决议公告》等2条公告, Value: data.eastmoney.com/…
+					630 container
+						631 text 股权质押 ：
+						632 link Description: 截止2026年09月11日质押总比例1.01%，质押总股数4311.22万股，质押总笔数2笔, Value: data.eastmoney.com/…
+					633 container
+						634 text 预约披露日 ：
+						635 link Description: 2026年第三季度季报预约2026年10月30日披露, Value: data.eastmoney.com/…
+					636 container
+						637 text 股权质押 ：
+						638 link Description: 截止2026年10月16日质押总比例1.01%，质押总股数4311.22万股，质押总笔数2笔, Value: data.eastmoney.com/…
+			660 AXWebArea same.eastmoney.com/s
+				661 container
+					662 link same.eastmoney.com/c
+					663 image
+			140 container
+				141 content list
+					142 text 盘前
+					143 text 盘后
+					144 text 分时
+					145 container
+						146 text 5日
+					147 text 日K
+					148 text 周K
+					149 text 月K
+					150 text 5分钟
+					151 text 15分钟
+					152 text 30分钟
+					153 text 60分钟
+				664 text 前复权
+				665 link Description: 筹码分布, Value: quote.eastmoney.com…
+				154 link Description: 全屏, Value: quote.eastmoney.com…
+				1893 container
+					1894 text 筹码分布 
+				1898 container
+					2027 container
+						2028 container 时间
+							2029 text 时间
+						2030 container 2026-10-16
+							2031 text 2026-10-16
+						2032 container 开盘
+							2033 text 开盘
+						2034 container 10.70
+							2035 text 10.70
+						2036 container 收盘
+							2037 text 收盘
+						2038 container 10.78
+							2039 text 10.78
+						2040 container 最高
+							2041 text 最高
+						2042 container 10.94
+							2043 text 10.94
+						2044 container 最低
+							2045 text 最低
+						2046 container 10.60
+							2047 text 10.60
+						2048 container 涨跌幅
+							2049 text 涨跌幅
+						2050 container 2.47%
+							2051 text 2.47%
+						2052 container 涨跌额
+							2053 text 涨跌额
+						2054 container 0.26
+							2055 text 0.26
+						2056 container 成交量
+							2057 text 成交量
+						2058 container 44.77万
+							2059 text 44.77万
+						2060 container 成交额
+							2061 text 成交额
+						2062 container 4.82亿
+							2063 text 4.82亿
+						2064 container 振幅
+							2065 text 振幅
+						2066 container 3.23%
+							2067 text 3.23%
+						2068 container 换手率
+							2069 text 换手率
+						2070 container 1.32%
+							2071 text 1.32%
+					2072 container
+						2073 container 日期:
+							2074 text 日期:
+						2075 container 2026-10-16
+							2076 text 2026-10-16
+						2077 container 获利比例:
+							2078 text 获利比例:
+						2079 container 2.13%
+							2080 text 2.13%
+						2081 table
+							2082 row
+								2083 cell
+									2084 text 97.87%
+						2085 container 平均成本:
+							2086 text 平均成本:
+						2087 container 13.14
+							2088 text 13.14
+						2089 container 90%成本:
+							2090 text 90%成本:
+						2091 container 11.20-14.70
+							2092 text 11.20-14.70
+						2093 container 集中度:
+							2094 text 集中度:
+						2095 container 13.51%
+							2096 text 13.51%
+						2097 container 70%成本:
+							2098 text 70%成本:
+						2099 container 12.11-14.00
+							2100 text 12.11-14.00
+						2101 container 集中度:
+							2102 text 集中度:
+						2103 container 7.21%
+							2104 text 7.21%
+					2026 image 2026-09-22 每10股派1.00元
+				666 text 指标
+				667 text 主图
+				668 content list
+					669 text 关闭
+					670 text 均线
+					671 text EXPMA
+					672 text BOLL
+					673 text SAR
+					674 text BBI
+				675 text 副图
+				676 content list
+					677 text 关闭
+					678 text RSI
+					679 text KDJ
+					680 text MACD
+					681 text WR
+					682 text DMI
+					683 text BIAS
+					684 text OBV
+					685 text CCI
+					686 text ROC
+					687 text CR
+			774 AXWebArea same.eastmoney.com/s
+				775 container slide
+					776 content list fbd
+						777 link same.eastmoney.com/c
+						778 link same.eastmoney.com/c
+						779 link same.eastmoney.com/c
+			353 container
+				354 text 资讯
+				355 link Description: 更多>, Value: so.eastmoney.com/ne…
+			356 content list
+				357 link Description: 个股资讯, Value: so.eastmoney.com/ne…
+				358 link Description: 行业资讯, Value: stock.eastmoney.com…
+			780 content list
+				781 container
+					782 link Description: 高德红外(002414.SZ)：可以提供红外热成像产品及解决方案, Value: caifuhao.eastmoney.…
+					783 text 10-13
+				784 container
+					785 link Description: 多光谱AI迈向规模化放量 多家上市公司争相布局, Value: finance.eastmoney.c…
+					786 text 09-23
+				787 container
+					788 link Description: 高德红外：将实施中期10派1元 股权登记日为9月21日, Value: finance.eastmoney.c…
+					789 text 09-15
+				790 container
+					791 link Description: 高德红外：每10股派1元，股权登记日为9月21日, Value: finance.eastmoney.c…
+					792 text 09-14
+				793 container
+					794 link Description: 高德红外(002414.SZ)2026年半年度权益分派：每10股派利1元, Value: caifuhao.eastmoney.…
+					795 text 09-14
+			360 container
+				361 content list
+					362 text 公告
+					363 text 研报
+				364 link Description: 更多>, Value: data.eastmoney.com/…
+			365 content list
+				796 container
+					797 link Description: 高德红外:2026年半年度权益分派实施公告, Value: data.eastmoney.com/…
+					798 text 09-15
+				799 container
+					800 link Description: 高德红外:关于高德红外2026年第一次临时股东会的法律意见书, Value: data.eastmoney.com/…
+					801 text 09-12
+				802 container
+					803 link Description: 高德红外:2026年第一次临时股东会决议公告, Value: data.eastmoney.com/…
+					804 text 09-12
+				805 container
+					806 link Description: 高德红外:第六届董事会独立董事专门会议2026年第二次会议决议, Value: data.eastmoney.com/…
+					807 text 08-26
+				808 container
+					809 link Description: 高德红外:2026年半年度非经营性资金占用及其他关联资金往来情况汇总表, Value: data.eastmoney.com/…
+					810 text 08-26
+				811 container
+					812 link Description: 高德红外:外汇套期保值业务管理制度, Value: data.eastmoney.com/…
+					813 text 08-26
+			367 container posteditor
+				368 link i.eastmoney.com/
+				369 text 登录
+				370 link Description: 注册, Value: passport2.eastmoney…
+				371 container
+					372 text field (settable)
+					373 text 0 / 40
+				814 container
+					815 container 表情
+						816 checkbox 0
+					817 container 图片
+						818 checkbox 0
+					819 container 股票
+						820 checkbox 0
+					821 container 添加话题
+						822 checkbox 0
+					823 container at人
+						824 checkbox 0
+					825 container 投票
+						826 checkbox 0
+					827 container 添加超链
+						828 checkbox 超链接, Value: 0
+							829 image 超链接
+					830 container 粗体
+						831 checkbox 0
+					832 container 斜体
+						833 checkbox 0
+					834 container 下划线
+						835 checkbox 0
+					836 container 颜色
+						837 checkbox 0
+					838 container 清除样式
+						839 checkbox 0
+					840 container 对齐方式
+						841 checkbox 0
+					842 container 更多
+						843 checkbox 0
+				374 link Description: 去创作中心看看, Value: mycaifuhao.eastmone…
+				844 container
+					845 container 
+
+					846 text 随便说说...
+					847 text 0
+				376 container
+					377 link Description: 长文, Value: mycaifuhao.eastmone…
+					378 container
+						379 text 草稿箱
+				380 container
+					381 text 谁可评论： 所有人
+				382 text 发布
+			383 container mainlist
+				384 content list
+					385 text 全部
+					386 text 热门
+					387 link Description: 问董秘, Value: guba.eastmoney.com/…
+					388 text 视频
+				389 content list
+					390 text 最新评论
+					391 text 最新发帖
+				392 container
+					393 text field (settable)
+					394 image
+				395 content list
+					396 container
+						848 content list list
+							849 container
+								850 link Description: avator, Value: i.eastmoney.com/549…
+								851 link Description: 优秀理工男, Value: i.eastmoney.com/549…
+								852 container
+									853 text 更新于  10-23 00:00
+								854 link guba.eastmoney.com/…
+								855 link Description: $高德红外(SZ002414)$10.5到11要6天，11到10.5只要半天, Value: guba.eastmoney.com/…
+								856 content list
+									857 link Description: 104, Value: guba.eastmoney.com/…
+									858 container
+										859 text 6
+									860 container
+										861 text 点赞
+									862 container
+										863 text 分享
+									864 container
+										865 text 收藏
+							866 container
+								867 link Description: avator, Value: i.eastmoney.com/667…
+								868 link Description: 股友OEOj6c, Value: i.eastmoney.com/667…
+								869 container
+									870 text 更新于  10-22 23:12
+								871 link guba.eastmoney.com/…
+								872 link Description: $高德红外(SZ002414)$中东那边乱成一锅粥，你不发财，就无日子发财了。, Value: guba.eastmoney.com/…
+								873 content list
+									874 link Description: 15, Value: guba.eastmoney.com/…
+									875 container
+										876 text 评论
+									877 container
+										878 text 1
+									879 container
+										880 text 分享
+									881 container
+										882 text 收藏
+							883 container
+								884 link Description: avator, Value: i.eastmoney.com/586…
+								885 link Description: 花无间, Value: i.eastmoney.com/586…
+								886 container
+									887 text 更新于  10-22 22:54
+								888 link guba.eastmoney.com/…
+								889 link Description: $高德红外(SZ002414)$没事，熬一熬就过去了，挺住兄弟们, Value: guba.eastmoney.com/…
+								890 content list
+									891 link Description: 20, Value: guba.eastmoney.com/…
+									892 container
+										893 text 评论
+									894 container
+										895 text 点赞
+									896 container
+										897 text 分享
+									898 container
+										899 text 收藏
+							900 container
+								901 link Description: avator, Value: i.eastmoney.com/483…
+								902 link Description: 我要刷本大书, Value: i.eastmoney.com/483…
+								903 container
+									904 text 更新于  10-22 22:38
+								905 link guba.eastmoney.com/…
+								906 link Description: $高德红外(SZ002414)$我记得这股的业绩好像不错是吧, Value: guba.eastmoney.com/…
+								907 content list
+									908 link Description: 46, Value: guba.eastmoney.com/…
+									909 container
+										910 text 2
+									911 container
+										912 text 点赞
+									913 container
+										914 text 分享
+									915 container
+										916 text 收藏
+							917 container
+								918 link Description: avator, Value: i.eastmoney.com/156…
+								919 link Description: 改变自己6666, Value: i.eastmoney.com/156…
+								920 container
+									921 text 更新于  10-22 22:27
+								922 link guba.eastmoney.com/…
+								923 link Description: 下跌了这么长时间，12以上筹码纹丝不动，真奇怪，什么原因能让他们苦苦坚守住不割, Value: guba.eastmoney.com/…
+								924 content list
+									925 link Description: 36, Value: guba.eastmoney.com/…
+									926 container
+										927 text 1
+									928 container
+										929 text 点赞
+									930 container
+										931 text 分享
+									932 container
+										933 text 收藏
+							934 container
+								935 link Description: avator, Value: i.eastmoney.com/597…
+								936 link Description: T不动亏不停, Value: i.eastmoney.com/597…
+								937 container
+									938 text 更新于  10-22 20:23
+								939 link guba.eastmoney.com/…
+								940 link Value: guba.eastmoney.com/…, Description: 现在根本不会涨，想涨也简单，黄立出来露个面，这个面值一个涨停板，至少！不然还有新低，现在很多套牢的不走的原因就是都在赌，因为毕竟这个公司也属于优质公司，牛市开始到现在也没有大涨过，赌还有机会，赌董事长没事儿，赌能解套，还有就是下跌，虽说一直在跌，但是每次跌的也不对，属于慢刀子割肉，所以大家都能承受，其实从高点跌下来一算，加起来也好几个跌停板了，现在就是赌，撑着！赌好运气，撑到黄立露面……
+								941 content list
+									942 link Description: 1062, Value: guba.eastmoney.com/…
+									943 container
+										944 text 16
+									945 container
+										946 text 5
+									947 container
+										948 text 3
+									949 container
+										950 text 收藏
+							951 container
+								952 link Description: avator, Value: i.eastmoney.com/156…
+								953 link Description: 改变自己6666, Value: i.eastmoney.com/156…
+								954 container
+									955 text 更新于  10-22 18:06
+								956 link guba.eastmoney.com/…
+								957 link Description: 不出放量大阳线，绝对不是底，下能伸手, Value: guba.eastmoney.com/…
+								958 content list
+									959 link Description: 33, Value: guba.eastmoney.com/…
+									960 container
+										961 text 评论
+									962 container
+										963 text 点赞
+									964 container
+										965 text 分享
+									966 container
+										967 text 收藏
+							968 container
+								969 link Description: avator, Value: i.eastmoney.com/290…
+								970 link Description: 股友四两拨千斤, Value: i.eastmoney.com/290…
+								971 container
+									972 text 更新于  10-22 16:30
+								973 link guba.eastmoney.com/…
+								974 link Description: 明天可以买了吗, Value: guba.eastmoney.com/…
+								975 content list
+									976 link Description: 60, Value: guba.eastmoney.com/…
+									977 container
+										978 text 1
+									979 container
+										980 text 1
+									981 container
+										982 text 分享
+									983 container
+										984 text 收藏
+							985 container
+								986 link Description: avator, Value: guba.eastmoney.com/…
+								987 link Description: 高德红外资讯, Value: guba.eastmoney.com/…
+								988 container
+									989 text 更新于  10-22 16:05
+								990 link Description: 资讯 高德红外：融资净偿还1186.51万元，融资余额11.74亿元, Value: guba.eastmoney.com/…
+								991 link Value: guba.eastmoney.com/…, Description: 交易所最新数据显示，高德红外于2026年10月21日获融资买入3000.04万元，融资偿还4186.55万元，当日融资净偿还1186.51万元。目前，该股融资余额11.74亿，占流通市值比例为3.17%。该股当日融券卖出8200股，融券偿还7.35万股，融券净偿还6.53万股。目前，该股融券余量106.04万股，融券余额1154.76万元。
+								992 content list
+									993 link Description: 85, Value: guba.eastmoney.com/…
+									994 container
+										995 text 1
+									996 container
+										997 text 点赞
+									998 container
+										999 text 分享
+									1000 container
+										1001 text 收藏
+							1002 container
+								1003 link Description: avator, Value: i.eastmoney.com/238…
+								1004 link Description: cvvveee1963sa, Value: i.eastmoney.com/238…
+								1005 container
+									1006 text 更新于  10-22 15:58
+								1007 link guba.eastmoney.com/…
+								1008 link Description: 麻的，以为美股大涨这厮也不会大跌，今天打脸了, Value: guba.eastmoney.com/…
+								1009 content list
+									1010 link Description: 35, Value: guba.eastmoney.com/…
+									1011 container
+										1012 text 评论
+									1013 container
+										1014 text 1
+									1015 container
+										1016 text 分享
+									1017 container
+										1018 text 收藏
+							1019 container
+								1020 link Description: avator, Value: i.eastmoney.com/496…
+								1021 link Description: 一买就涨停的乔哥, Value: i.eastmoney.com/496…
+								1022 container
+									1023 text 更新于  10-22 15:40
+								1024 link guba.eastmoney.com/…
+								1025 link Description: 一定不要和趋势作对，抄底可以，但一定是站上五日线再伺机轻轻介入，破了五日，就要铁一般的纪律止损。1050破了，下一个支撑就只有8.8了，切不可幻想所谓救市、托底、汪汪队进场, Value: guba.eastmoney.com/…
+								1026 content list
+									1027 link Description: 103, Value: guba.eastmoney.com/…
+									1028 container
+										1029 text 评论
+									1030 container
+										1031 text 5
+									1032 container
+										1033 text 分享
+									1034 container
+										1035 text 收藏
+							1036 container
+								1037 link Description: avator, Value: i.eastmoney.com/856…
+								1038 link Description: 产业为本量价为势, Value: i.eastmoney.com/856…
+								1039 container
+									1040 text 更新于  10-22 15:12
+								1041 link guba.eastmoney.com/…
+								1042 link Value: guba.eastmoney.com/…, Description: 老板的问题悬而未决，没有资金来做这票，随着亏钱效应的持续，上方头铁套牢盘不断有出货的，这就是股价阴跌的根本原因。 如果老板下个月能平稳落地，还有20个交易日，按照阴跌趋势，预计还要阴跌12%左右。 如果老板下个月确定无可救药了，会一把崩个痛快，抱一线希望的资金会选择一把砸出去，到时连带量化和恐慌盘，跌到250亿，不信不能止跌。
+								1043 content list
+									1044 link Description: 367, Value: guba.eastmoney.com/…
+									1045 container
+										1046 text 7
+									1047 container
+										1048 text 2
+									1049 container
+										1050 text 1
+									1051 container
+										1052 text 收藏
+							1053 container
+								1054 link Description: avator, Value: i.eastmoney.com/239…
+								1055 link Description: 躺平十一郎, Value: i.eastmoney.com/239…
+								1056 container
+									1057 text 更新于  10-22 15:10
+								1058 link …
+								1059 link Description: 你们还加仓？前期我出逃只亏四百多块，最后一手观察底仓都抛了，一分都不给他用，回头看下来十多个点了，根本没有任何止跌迹象，大杀招还没来啊！, Value: …
+								1060 content list
+									1061 link Description: 66, Value: …
+									1062 container
+										1063 text 评论
+									1064 container
+										1065 text 1
+									1066 container
+										1067 text 分享
+									1068 container
+										1069 text 收藏
+							1070 container
+								1071 link Description: avator, Value: …
+								1072 link Description: 股友Sy82JI, Value: …
+								1073 container
+									1074 text 更新于  10-22 15:03
+								1075 link …
+								1076 link Value: …, Description: 连续跌了3个月了，真的就没人管的吗！这种，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月，连续跌了三个月了！！！！
+								1077 content list
+									1078 link Description: 75, Value: …
+									1079 container
+										1080 text 1
+									1081 container
+										1082 text 3
+									1083 container
+										1084 text 分享
+									1085 container
+										1086 text 收藏
+							1087 container
+								1088 link Description: avator, Value: …
+								1089 link Description: 不随便换, Value: …
+								1090 container
+									1091 text 更新于  10-22 14:57
+								1092 link …
+								1093 link Description: 烂, Value: …
+								1094 content list
+									1095 link Description: 30, Value: …
+									1096 container
+										1097 text 1
+									1098 container
+										1099 text 1
+									1100 container
+										1101 text 分享
+									1102 container
+										1103 text 收藏
+							1104 container
+								1105 link Description: avator, Value: …
+								1106 link Description: 股友r6215C8359, Value: …
+								1107 container
+									1108 text 更新于  10-22 14:55
+								1109 link …
+								1110 link Description: 出事了不能加仓, Value: …
+								1111 content list
+									1112 link Description: 62, Value: …
+									1113 container
+										1114 text 1
+									1115 container
+										1116 text 2
+									1117 container
+										1118 text 分享
+									1119 container
+										1120 text 收藏
+							1121 container
+								1122 link Description: avator, Value: …
+								1123 link Description: 我的222777, Value: …
+								1124 container
+									1125 text 更新于  10-22 14:45
+								1126 link …
+								1127 link Description: $高德红外(SZ002414)$不看了，卸载, Value: …
+								1128 content list
+									1129 link Description: 38, Value: …
+									1130 container
+										1131 text 1
+									1132 container
+										1133 text 1
+									1134 container
+										1135 text 分享
+									1136 container
+										1137 text 收藏
+							1138 container
+								1139 link Description: avator, Value: …
+								1140 link Description: wujibifan23, Value: …
+								1141 container
+									1142 text 更新于  10-22 14:36
+								1143 link …
+								1144 link Description: 说实话这个我一直想加仓，就是这一段有人一直出现说要保护我们，吓得我不敢入手。, Value: …
+								1145 content list
+									1146 link Description: 77, Value: …
+									1147 container
+										1148 text 2
+									1149 container
+										1150 text 1
+									1151 container
+										1152 text 分享
+									1153 container
+										1154 text 收藏
+							1155 container
+								1156 link Description: avator, Value: …
+								1157 link Description: 时至泰来, Value: …
+								1158 container
+									1159 text 更新于  10-22 14:18
+								1160 link …
+								1161 link Description: 天天这样叫谁来玩哩, Value: …
+								1162 content list
+									1163 link Description: 40, Value: …
+									1164 container
+										1165 text 1
+									1166 container
+										1167 text 点赞
+									1168 container
+										1169 text 分享
+									1170 container
+										1171 text 收藏
+							1172 container
+								1173 link Description: avator, Value: …
+								1174 link Description: 寻常的吕燕2, Value: …
+								1175 container
+									1176 text 更新于  10-22 14:15
+								1177 link …
+								1178 link Description: ，这处深这样保户中小投资者, Value: …
+								1179 content list
+									1180 link Description: 43, Value: …
+									1181 container
+										1182 text 1
+									1183 container
+										1184 text 1
+									1185 container
+										1186 text 分享
+									1187 container
+										1188 text 收藏
+							1189 container
+								1190 link Description: avator, Value: …
+								1191 link Description: BIAN999, Value: …
+								1192 container
+									1193 text 更新于  10-22 14:00
+								1194 link …
+								1195 link Description: 上方根本就没有抛压, Value: …
+								1196 content list
+									1197 link Description: 30, Value: …
+									1198 container
+										1199 text 评论
+									1200 container
+										1201 text 点赞
+									1202 container
+										1203 text 分享
+									1204 container
+										1205 text 收藏
+							1206 container
+								1207 link Description: avator, Value: …
+								1208 link Description: 沐妍超无敌, Value: …
+								1209 container
+									1210 text 更新于  10-22 13:56
+								1211 link …
+								1212 link Description: $高德红外(SZ002414)$收盘能到一万两千多亿，玩个锤子。, Value: …
+								1213 content list
+									1214 link Description: 30, Value: …
+									1215 container
+										1216 text 评论
+									1217 container
+										1218 text 点赞
+									1219 container
+										1220 text 分享
+									1221 container
+										1222 text 收藏
+							1223 container
+								1224 link Description: avator, Value: …
+								1225 link Description: 和谐得蒙椴, Value: …
+								1226 container
+									1227 text 更新于  10-22 13:55
+								1228 link …
+								1229 link Description: $高德红外(SZ002414)$sm玩意，18跌下来的，跌了80%了, Value: …
+								1230 content list
+									1231 link Description: 25, Value: …
+									1232 container
+										1233 text 评论
+									1234 container
+										1235 text 1
+									1236 container
+										1237 text 分享
+									1238 container
+										1239 text 收藏
+							1240 container
+								1241 link Description: avator, Value: …
+								1242 link Description: 股友328U932w93, Value: …
+								1243 container
+									1244 text 更新于  10-22 13:53
+								1245 link …
+								1246 link Description: $高德红外(SZ002414)$散户不错, Value: …
+								1247 content list
+									1248 link Description: 27, Value: …
+									1249 container
+										1250 text 评论
+									1251 container
+										1252 text 点赞
+									1253 container
+										1254 text 分享
+									1255 container
+										1256 text 收藏
+							1257 container
+								1258 link Description: avator, Value: …
+								1259 link Description: 股友1gugtL, Value: …
+								1260 container
+									1261 text 更新于  10-22 13:53
+								1262 link …
+								1263 link Description: $高德红外(SZ002414)$买了之后就没涨过, Value: …
+								1264 content list
+									1265 link Description: 21, Value: …
+									1266 container
+										1267 text 评论
+									1268 container
+										1269 text 1
+									1270 container
+										1271 text 分享
+									1272 container
+										1273 text 收藏
+							1274 container
+								1275 link Description: avator, Value: …
+								1276 link Description: 酒旗的湛荷, Value: …
+								1277 container
+									1278 text 更新于  10-22 13:52
+								1279 link …
+								1280 link Description: $高德红外(SZ002414)$认亏, Value: …
+								1281 content list
+									1282 link Description: 25, Value: …
+									1283 container
+										1284 text 评论
+									1285 container
+										1286 text 点赞
+									1287 container
+										1288 text 分享
+									1289 container
+										1290 text 收藏
+							1291 container
+								1292 link Description: avator, Value: …
+								1293 link Description: 大牛市666, Value: …
+								1294 container
+									1295 text 更新于  10-22 13:49
+								1296 link …
+								1297 link Description: 哪个的在咂盘, Value: …
+								1298 content list
+									1299 link Description: 28, Value: …
+									1300 container
+										1301 text 评论
+									1302 container
+										1303 text 点赞
+									1304 container
+										1305 text 分享
+									1306 container
+										1307 text 收藏
+							1308 container
+								1309 link Description: avator, Value: …
+								1310 link Description: jz追涨杀跌, Value: …
+								1311 container
+									1312 text 更新于  10-22 13:38
+								1313 link …
+								1314 link Description: $高德红外(SZ002414)$9块钱估计能买点, Value: …
+								1315 content list
+									1316 link Description: 30, Value: …
+									1317 container
+										1318 text 评论
+									1319 container
+										1320 text 1
+									1321 container
+										1322 text 分享
+									1323 container
+										1324 text 收藏
+							1325 container
+								1326 link Description: avator, Value: …
+								1327 link Description: 改变自己6666, Value: …
+								1328 container
+									1329 text 更新于  10-22 13:36
+								1330 link …
+								1331 link Description: 在所有散户思涨的时候，绝对是跌到绝望, Value: …
+								1332 content list
+									1333 link Description: 32, Value: …
+									1334 container
+										1335 text 评论
+									1336 container
+										1337 text 点赞
+									1338 container
+										1339 text 分享
+									1340 container
+										1341 text 收藏
+							1342 container
+								1343 link Description: avator, Value: …
+								1344 link Description: 闪电豹, Value: …
+								1345 container
+									1346 text 更新于  10-22 13:27
+								1347 link …
+								1348 link Description: $高德红外(SZ002414)$这跟08年有何区别, Value: …
+								1349 content list
+									1350 link Description: 26, Value: …
+									1351 container
+										1352 text 评论
+									1353 container
+										1354 text 点赞
+									1355 container
+										1356 text 分享
+									1357 container
+										1358 text 收藏
+							1359 container
+								1360 link Description: avator, Value: …
+								1361 link Description: 江边鱼翁, Value: …
+								1362 container
+									1363 text 更新于  10-22 13:27
+								1364 link …
+								1365 link Description: $高德红外(SZ002414)$又是4900多家下跌，这股市让散户怎么玩？天天跌跌不休, Value: …
+								1366 content list
+									1367 link Description: 32, Value: …
+									1368 container
+										1369 text 评论
+									1370 container
+										1371 text 点赞
+									1372 container
+										1373 text 分享
+									1374 container
+										1375 text 收藏
+							1376 container
+								1377 link Description: avator, Value: …
+								1378 link Description: 股友x9082K8639, Value: …
+								1379 container
+									1380 text 更新于  10-22 13:26
+								1381 link …
+								1382 link Description: 此号码不祥，易死一世, Value: …
+								1383 content list
+									1384 link Description: 37, Value: …
+									1385 container
+										1386 text 1
+									1387 container
+										1388 text 点赞
+									1389 container
+										1390 text 分享
+									1391 container
+										1392 text 收藏
+							1393 container
+								1394 link Description: avator, Value: …
+								1395 link Description: 股友K620C62586, Value: …
+								1396 container
+									1397 text 更新于  10-22 13:25
+								1398 link …
+								1399 link Description: $高德红外(SZ002414)$, Value: …
+								1400 content list
+									1401 link Description: 23, Value: …
+									1402 container
+										1403 text 评论
+									1404 container
+										1405 text 点赞
+									1406 container
+										1407 text 分享
+									1408 container
+										1409 text 收藏
+							1410 container
+								1411 link Description: avator, Value: …
+								1412 link Description: 五公子, Value: …
+								1413 container
+									1414 text 更新于  10-22 13:22
+								1415 link …
+								1416 link Description: $高德红外(SZ002414)$你的信念呢？旗帜呢？还有点样吗？, Value: …
+								1417 content list
+									1418 link Description: 22, Value: …
+									1419 container
+										1420 text 评论
+									1421 container
+										1422 text 点赞
+									1423 container
+										1424 text 分享
+									1425 container
+										1426 text 收藏
+							1427 container
+								1428 link Description: avator, Value: …
+								1429 link Description: 要赚小钱钱呐, Value: …
+								1430 container
+									1431 text 更新于  10-22 13:20
+								1432 link …
+								1433 link Description: $高德红外(SZ002414)$要继续去下一个台阶了吗 惊吓, Value: …
+								1434 content list
+									1435 link Description: 22, Value: …
+									1436 container
+										1437 text 评论
+									1438 container
+										1439 text 点赞
+									1440 container
+										1441 text 分享
+									1442 container
+										1443 text 收藏
+							1444 container
+								1445 link Description: avator, Value: …
+								1446 link Description: 沐妍超无敌, Value: …
+								1447 container
+									1448 text 更新于  10-22 13:17
+								1449 link …
+								1450 link Description: $高德红外(SZ002414)$温水煮青蛙, Value: …
+								1451 content list
+									1452 link Description: 20, Value: …
+									1453 container
+										1454 text 评论
+									1455 container
+										1456 text 1
+									1457 container
+										1458 text 分享
+									1459 container
+										1460 text 收藏
+							1461 container
+								1462 link Description: avator, Value: …
+								1463 link Description: 产业为本量价为势, Value: …
+								1464 container
+									1465 text 更新于  10-22 13:13
+								1466 link …
+								1467 link Description: $高德红外(SZ002414)$黄立出来露个脸，这股就能活过来，否则就继续阴跌吧, Value: …
+								1468 content list
+									1469 link Description: 186, Value: …
+									1470 container
+										1471 text 7
+									1472 container
+										1473 text 4
+									1474 container
+										1475 text 2
+									1476 container
+										1477 text 收藏
+							1478 container
+								1479 link Description: avator, Value: …
+								1480 link Description: 抢我钱记小本本, Value: …
+								1481 container
+									1482 text 更新于  10-22 13:03
+								1483 link …
+								1484 link Description: $高德红外(SZ002414)$累了，关机 哭 哭 哭 哭 哭 哭 哭 哭 哭 哭 哭 哭 哭 哭, Value: …
+								1485 content list
+									1486 link Description: 26, Value: …
+									1487 container
+										1488 text 评论
+									1489 container
+										1490 text 3
+									1491 container
+										1492 text 分享
+									1493 container
+										1494 text 收藏
+							1495 container
+								1496 link Description: avator, Value: …
+								1497 link Description: 股友dZXA358349, Value: …
+								1498 container
+									1499 text 更新于  10-22 12:46
+								1500 link …
+								1501 link Description: $高德红外(SZ002414)$快跑，情况不乐观, Value: …
+								1502 content list
+									1503 link Description: 27, Value: …
+									1504 container
+										1505 text 评论
+									1506 container
+										1507 text 2
+									1508 container
+										1509 text 分享
+									1510 container
+										1511 text 收藏
+							1512 container
+								1513 link Description: avator, Value: …
+								1514 link Description: 股友i29V951055, Value: …
+								1515 container
+									1516 text 更新于  10-22 12:42
+								1517 link …
+								1518 link Description: 要奔溃了，天天跌，我10万亏了4万，要不要取出来，指条明路 大哭, Value: …
+								1519 content list
+									1520 link Description: 57, Value: …
+									1521 container
+										1522 text 2
+									1523 container
+										1524 text 2
+									1525 container
+										1526 text 分享
+									1527 container
+										1528 text 收藏
+						397 text 点击加载更多
+				398 container
+					399 text 郑重声明：用户在本社区发表的所有资料、言论等仅代表个人观点，与本网站立场无关，不对您构成任何投资建议。用户应基于自己的独立判断，自行决定证券投资并承担相应风险。
+					400 link Description: 《东方财富社区管理规定》, Value: …
+			401 container
+				402 link Description: 公司资料, Value: …
+			1529 container
+				1530 text 公司名称 武汉高德红外股份有限公司
+			1531 container
+				1532 text 所属区域 湖北省
+			1533 container
+				1534 text 所属行业 电子设备-电子设备制造-电子设备制造
+			1535 container
+				1536 text 主营业务 红外焦平面探测器芯片、红外热像整机及以红外热成像为核心的综合光电系统、完整装备系统总体、传统非致命性弹药及信息化弹药四大业务
+			1537 container
+				1538 text 收入构成（ 2026中报 ）
+			1539 table
+				1540 row
+					1541 cell
+						1542 text 按产品
+					1543 cell
+						1544 text 营业收入(元)
+					1545 cell
+						1546 text 占比
+				1547 row
+					1548 cell
+						1549 text 红外综合光电及完整装备系统
+					1550 cell
+						1551 text 40.92亿
+					1552 cell
+						1553 text 97.06%
+				1554 row
+					1555 cell
+						1556 text 技术研制服务
+					1557 cell
+						1558 text 6396.81万
+					1559 cell
+						1560 text 1.52%
+				1561 row
+					1562 cell
+						1563 text 其他(补充)
+					1564 cell
+						1565 text 5394.63万
+					1566 cell
+						1567 text 1.28%
+				1568 row
+					1569 cell
+						1570 text 传统DY及信息化DY
+					1571 cell
+						1572 text 586.30万
+					1573 cell
+						1574 text 0.14%
+			1575 link Description: 点击查看更多, Value: …
+			403 container
+				404 link Description: 公司核心数据, Value: …
+			405 container
+				406 container 收益(二):, Help: 第二季度每股收益
+					407 text 收益( 二 ):
+				408 container 0.316
+					1576 text 0.316
+				410 container ROE:
+					411 text ROE
+					412 text :
+				413 container 17.51%
+					1577 text 17.51%
+				415 container 同比:
+					416 text 同比:
+				417 container 646.81%
+					1578 text 646.81%
+				419 container 净资产:
+					420 text 净资产:
+				421 container 1.9660
+					1579 text 1.9660
+				423 container 总股本:
+					424 text 总股本:
+				425 container 42.71亿
+					1580 text 42.71亿
+				427 container 净利率:
+					428 text 净利率:
+				429 container 32.05%
+					1581 text 32.05%
+				431 container 总营收:
+					432 text 总营收:
+				433 container 42.16亿
+					1582 text 42.16亿
+				435 container 流通股:
+					436 text 流通股:
+				437 container 33.99亿
+					1583 text 33.99亿
+				439 container 负债率:
+					440 text 负债率:
+				441 container 28.06%
+					1584 text 28.06%
+				443 container 净利润:
+					444 text 净利润:
+				445 container 13.51亿
+					1585 text 13.51亿
+				447 container PE(动):
+					448 text PE(动):
+				449 container 16.67
+					1586 text 16.67
+				451 container 总值:
+					452 text 总值:
+				453 container 450.6亿
+					1587 text 450.6亿
+				455 container 毛利率:
+					456 text 毛利率:
+				457 container 52.09%
+					1588 text 52.09%
+				459 container 市净率:
+					460 text 市净率:
+				461 container 5.65
+					1589 text 5.65
+				463 container 流值:
+					464 text 流值:
+				465 container 358.6亿
+					1590 text 358.6亿
+				467 container 每股未分配利润: 0.570元
+					468 text 每股未分配利润: 0.570 元
+				469 container 上市时间: 2010-07-16
+					470 text 上市时间: 2010-07-16
+			471 container
+				472 text 所属板块
+			1591 container
+				1592 link Description: 军工电子Ⅲ, Value: …
+				1593 text -3.07%
+				1594 link Description: 华力创通, Value: …
+				1595 link Description: 军工电子Ⅱ, Value: …
+				1596 text -3.07%
+				1597 link Description: 华力创通, Value: …
+				1598 link Description: 国防军工, Value: …
+				1599 text -2.62%
+				1600 link Description: 华力创通, Value: …
+				1601 link Description: 湖北板块, Value: …
+				1602 text -2.60%
+				1603 link Description: 三峡新材, Value: …
+				1604 link Description: 养老金, Value: …
+				1605 text -2.41%
+				1606 link Description: 兆威机电, Value: …
+				1607 link Description: MSCI中国, Value: …
+				1608 text -2.13%
+				1609 link Description: 华天科技, Value: …
+				1610 link Description: 军民融合, Value: …
+				1611 text -2.45%
+				1612 link Description: 山河智能, Value: …
+				1613 link Description: 深股通, Value: …
+				1614 text -2.81%
+				1615 link Description: 兆威机电, Value: …
+				1616 link Description: 智能驾驶, Value: …
+				1617 text -2.71%
+				1618 link Description: 多伦科技, Value: …
+				1619 link Description: 人工智能, Value: …
+				1620 text -3.22%
+				1621 link Description: 南方路机, Value: …
+			473 container
+				474 link Description: 股本结构, Value: …
+				475 text 单位：万股
+			1622 table
+				1623 row
+					1624 cell
+						1625 text 日期
+					1626 cell
+						1627 text 总股本
+					1628 cell
+						1629 text 已上市流通A股
+					1630 cell
+						1631 text 限售流通A股
+				1632 row
+					1633 cell
+						1634 text 2024-06-30
+					1635 cell
+						1636 text 427073.61
+					1637 cell
+						1638 text 339861.24
+					1639 cell
+						1640 text 87212.37
+				1641 row
+					1642 cell
+						1643 text 2023-12-31
+					1644 cell
+						1645 text 427073.61
+					1646 cell
+						1647 text 339861.24
+					1648 cell
+						1649 text 87212.37
+				1650 row
+					1651 cell
+						1652 text 2023-06-30
+					1653 cell
+						1654 text 427073.61
+					1655 cell
+						1656 text 339804.67
+					1657 cell
+						1658 text 87268.94
+				1659 row
+					1660 cell
+						1661 text 2023-06-20
+					1662 cell
+						1663 text 427073.61
+					1664 cell
+						1665 text 339804.67
+					1666 cell
+						1667 text 87268.94
+			1668 link Description: 点击查看更多, Value: …
+			476 container
+				477 link Description: 资金流向, Value: …
+			1669 container
+				1670 container 主力流入
+					1671 text 主力流入
+				1672 container 8688万
+					1673 text 8688万
+				1674 container 主力流出
+					1675 text 主力流出
+				1676 container 1.396亿
+					1677 text 1.396亿
+				1678 container 主力净流入
+					1679 text 主力净流入
+				1680 container -5276万
+					1681 text -5276万
+			1682 table
+				1683 row
+					1684 cell
+						1685 text (元)
+					1686 cell
+						1687 text 流入
+					1688 cell
+						1689 text 流出
+				1690 row
+					1691 cell
+						1692 text 超大
+					1693 cell
+						1694 text 1711万
+					1695 cell
+						1696 text 5367万
+				1697 row
+					1698 cell
+						1699 text 大单
+					1700 cell
+						1701 text 6977万
+					1702 cell
+						1703 text 8597万
+				1704 row
+					1705 cell
+						1706 text 中单
+					1707 cell
+						1708 text 1.105亿
+					1709 cell
+						1710 text 1.017亿
+				1711 row
+					1712 cell
+						1713 text 小单
+					1714 cell
+						1715 text 1.531亿
+					1716 cell
+						1717 text 1.091亿
+			1718 text 当日实时资金流
+			1719 container
+				1720 container -3656万
+					1721 text -3656万
+				1722 container -1620万
+					1723 text -1620万
+				1724 container 876.4万
+					1725 text 876.4万
+				1726 container 4400万
+					1727 text 4400万
+				1728 container 净超大
+					1729 text 净超大
+				1730 container 净大单
+					1731 text 净大单
+				1732 container 净中单
+					1733 text 净中单
+				1734 container 净小单
+					1735 text 净小单
+			478 container
+				479 link Description: [军工电子Ⅱ]相关个股, Value: …
+			1736 table
+				1737 row
+					1738 cell
+						1739 text 名称
+					1740 cell
+						1741 text 最新价
+					1742 cell
+						1743 text 涨跌幅
+				1744 row
+					1745 cell
+						1746 link Description: 华力创通, Value: …
+					1747 cell
+						1748 text 14.32
+					1749 cell
+						1750 text 7.35%
+				1751 row
+					1752 cell
+						1753 link Description: *ST天箭, Value: …
+					1754 cell
+						1755 text 16.55
+					1756 cell
+						1757 text 0.36%
+				1758 row
+					1759 cell
+						1760 link Description: 中光学, Value: …
+					1761 cell
+						1762 text 18.12
+					1763 cell
+						1764 text 0.11%
+				1765 row
+					1766 cell
+						1767 link Description: 振华科技, Value: …
+					1768 cell
+						1769 text 37.25
+					1770 cell
+						1771 text -0.90%
+				1772 row
+					1773 cell
+						1774 link Description: 北斗星通, Value: …
+					1775 cell
+						1776 text 27.82
+					1777 cell
+						1778 text -0.93%
+			1779 table
+				1780 row
+					1781 cell
+						1782 text 名称
+					1783 cell
+						1784 text 最新价
+					1785 cell
+						1786 text 涨跌幅
+				1787 row
+					1788 cell
+						1789 link Description: 雷电微力, Value: …
+					1790 cell
+						1791 text 25.94
+					1792 cell
+						1793 text -0.99%
+				1794 row
+					1795 cell
+						1796 link Description: 景嘉微, Value: …
+					1797 cell
+						1798 text 48.78
+					1799 cell
+						1800 text -1.05%
+				1801 row
+					1802 cell
+						1803 link Description: 中海达, Value: …
+					1804 cell
+						1805 text 5.87
+					1806 cell
+						1807 text -1.34%
+				1808 row
+					1809 cell
+						1810 link Description: 新劲刚, Value: …
+					1811 cell
+						1812 text 17.34
+					1813 cell
+						1814 text -1.59%
+				1815 row
+					1816 cell
+						1817 link Description: 成电光信, Value: …
+					1818 cell
+						1819 text 19.59
+					1820 cell
+						1821 text -1.71%
+			1822 link Description: 点击查看更多, Value: …
+			480 container
+				481 link Description: 利润趋势, Value: …
+			483 container
+				484 text 阶段涨幅
+			1823 table
+				1824 row
+					1825 cell
+						1826 text 阶段
+					1827 cell
+						1828 text 高德红外
+					1829 cell
+						1830 text 军工电子Ⅲ
+					1831 cell
+						1832 text 国防军工
+					1833 cell
+						1834 text 军工电子Ⅱ
+				1835 row
+					1836 cell
+						1837 text 今日
+					1838 cell
+						1839 text -3.12%
+					1840 cell
+						1841 text -3.07%
+					1842 cell
+						1843 text -2.62%
+					1844 cell
+						1845 text -3.07%
+				1846 row
+					1847 cell
+						1848 text 3日
+					1849 cell
+						1850 text -4.00%
+					1851 cell
+						1852 text -1.93%
+					1853 cell
+						1854 text -2.85%
+					1855 cell
+						1856 text -1.93%
+				1857 row
+					1858 cell
+						1859 text 5日
+					1860 cell
+						1861 text 0.29%
+					1862 cell
+						1863 text 1.33%
+					1864 cell
+						1865 text 2.53%
+					1866 cell
+						1867 text 1.33%
+				1868 row
+					1869 cell
+						1870 text 6日
+					1871 cell
+						1872 text -5.30%
+					1873 cell
+						1874 text -2.21%
+					1875 cell
+						1876 text -1.23%
+					1877 cell
+						1878 text -2.21%
+				1879 row
+					1880 cell
+						1881 text 10日
+					1882 cell
+						1883 text -5.80%
+					1884 cell
+						1885 text -5.39%
+					1886 cell
+						1887 text -2.87%
+					1888 cell
+						1889 text -5.39%
+		486 link Description: 东方财富, Value: …
+		487 link …
+		488 text 扫一扫下载APP
+		489 text 东方财富产品
+		490 content list
+			491 link Description: 东方财富免费版, Value: …
+			492 link Description: 东方财富Level-2, Value: …
+			493 link Description: 东方财富策略版, Value: …
+			494 link Description: 妙想投研助理, Value: …
+			495 link Description: Choice金融终端, Value: …
+		496 text 证券交易
+		497 content list
+			498 link Description: 东方财富证券开户, Value: …
+			499 link Description: 东方财富在线交易, Value: …
+			500 link Description: 东方财富证券交易, Value: …
+		501 text 关注东方财富
+		502 content list
+			503 link Description: 东方财富网微博, Value: …
+			504 link Description: 东方财富网微信, Value: …
+			505 link Description: 意见与建议, Value: …
+		506 link Description: 天天基金, Value: …
+		507 link …
+		508 text 扫一扫下载APP
+		509 text 基金交易
+		510 content list
+			511 link Description: 基金开户, Value: …
+			512 link Description: 基金交易, Value: …
+			513 link Description: 活期宝, Value: …
+			514 link Description: 基金产品, Value: …
+			515 link Description: 稳健理财, Value: …
+		516 text 关注天天基金
+		517 content list
+			518 link Description: 天天基金网微博, Value: …
+			519 link Description: 天天基金网微信, Value: …
+		520 link Description: 东方财富期货, Value: …
+		521 link …
+		522 text 扫一扫下载APP
+		523 text 期货交易
+		524 content list
+			525 link Description: 期货手机开户, Value: …
+			526 link Description: 期货电脑开户, Value: …
+			527 link Description: 期货官方网站, Value: …
+		528 text 信息网络传播视听节目许可证：0908328号 经营证券期货业务许可证编号：913101046312860336 违法和不良信息举报:021-61278686 举报邮箱：
+		529 link Description: jubao@eastmoney.com, Value: …
+		530 text 沪ICP证:沪B2-20070217 
+		531 link Description: 网站备案号:沪ICP备05006054号-11 , Value: …
+		532 link Description: 沪公网安备 31010402000120号, Value: …
+		533 text  版权所有:东方财富网  意见与建议:4000300059/952500
+		534 link Description: 关于我们, Value: …
+		535 link Description: 可持续发展, Value: …
+		536 link Description: 广告服务, Value: …
+		537 link Description: 供应商平台, Value: …
+		538 link Description: 联系我们, Value: …
+		539 link Description: 诚聘英才, Value: …
+		540 link Description: 法律声明, Value: …
+		541 link Description: 隐私保护, Value: …
+		542 link Description: 征稿启事, Value: …
+		543 link Description: 友情链接, Value: …
+		544 image 亲爱的市民朋友，上海警方反诈劝阻电 话“962110”系专门针对避免您财产被 骗受损而设，请您一旦收到来电，立即 接听。
+		545 link Description: 上海违法和违规信息举报中心, Value: …
+		546 link Description: 中国互联网违法和不良信息举报中心, Value: …
+		547 container fixMenuBar
+			548 container
+				549 link Description: 网站首页, Value: …
+				550 link Description: 加收藏, Value: …, ID: addfavlink
+				551 link Description: 移动客户端, Value: …
+				552 link Description: 东方财富, Value: …
+				553 link Description: 天天基金网, Value: …
+				554 link Description: 东方财富证券, Value: …
+				555 link Description: 东方财富期货, Value: …
+				556 link Description: 妙想, Value: …
+				557 link Description: Choice数据, Value: …
+				558 link Description: 股吧, Value: …
+			559 container
+				560 link Description: 登录, Value: …
+				561 link Description: 我的菜单, Value: …
+				562 link Description: 证券交易, Value: …
+				563 link Description: 基金交易, Value: …
+		564 link Description: 自选股, Value: …
+		565 link Description: 意见反馈, Value: …
+		566 link Description: 功能引导, Value: …
+
+The focused UI element is 1 AXWebArea 高德红外 10.55 -0.34(-3.12%)最新价格_行情_走势图—东方财富网, URL: quote.eastmoney.com…

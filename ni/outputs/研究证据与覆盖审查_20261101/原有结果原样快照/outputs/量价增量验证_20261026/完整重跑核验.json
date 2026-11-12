@@ -1,0 +1,21 @@
+{
+  "all_core_files_byte_identical": true,
+  "core_file_count": 15,
+  "file_sha256": {
+    "概率评分.csv": "432874919b5c0663d8c8416a0de270723b5aef9bf3ad09425331e1fe8859e434",
+    "量价增量开发验证.sqlite": "e703f88b7fbd5d46ce598af4efd97c2053f22b6382ec9da5f6297daafeed6421",
+    "与上轮覆盖对账.csv": "4c3011e0a84514241631dfcc029f5c5790789d0fbd9ebd857a30042dcded2be9",
+    "同日模型对照.csv": "7b8f02b3a7c0f3658b8157c3e61b18bcd5183a8766fb23b5ac658f8b53ec3371",
+    "实现验证结果.json": "67bbe3f23c7ab1d73d52734f58e3847e3c39524e5de6414e675ca813b073231e",
+    "训练与验证弃答台账.csv": "4436b04e4d0a4e7acc5d6832d72c6d36b51020f4c4b0db3a8a9b5f348f33d5a5",
+    "逐日配对误差差.csv": "278c622ca83f88a7981359d7bd5e4ac370354e79f971e774b7d7cdf2561a2884",
+    "逐日概率与实际结果_仅开发期.csv": "70476cc136254752366b7834912cfcf09ae2e51a1ed0e7ae1fbff21376949cdc",
+    "运行与输入合同.json": "a32f0ab80e1162fbb482d4cf8602c69d0d6d9943c88c708a67e3fc44b8df795b",
+    "共同训练样本成员.csv": "afc39fe2cce94c02e8cdaa1d280833a41682d8a9005ac3c2b3659af8d74703a1",
+    "预登记研究协议.json": "c0db0f336c29b56514b42739353d76ac0f4dd8ecc05d1c3a3820a4faed116441",
+    "逐折模型与全部九格.csv": "c31908f64feb6b1c65586a0858e809bc844f5b3679212ccd67ef33bd14d462ef",
+    "较上轮减少的评分日期.csv": "17ce140f0314bcac43cc2ac2db8be96031cc977fc3f45b4f494abd65e4d59e7d",
+    "固定分箱校准诊断.csv": "aa4901b2ba14fd730da28139341dcd2bda11c82d61731a1c3107455185cea3cc",
+    "六折训练与覆盖.csv": "01b8d08c0cc8db9ad85e591d20228ba397c47c9e5f1eb78cc31b1bccf9cd2ac1"
+  }
+}

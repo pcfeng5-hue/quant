@@ -1,0 +1,179 @@
+{
+  "audit_id": "BW17_delivery_correspondence_20261105",
+  "created_at_utc": "2026-11-05T16:25:03.213122+00:00",
+  "all_checks_passed": true,
+  "passed": 31,
+  "total": 31,
+  "checks": [
+    {
+      "check": "explicit_user_10_session_confirmation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "latest_1_confirmed14_pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "protocol_horizon_concordance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "14_unconfirmed_groups_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old_15_NULL_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "BW17_identity_correspondence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "17_total_not17_scored",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_choice_unrun_no_labels_models_scores",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_H5_scored_or_frozen_misclaim",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "operational_gates_all_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "not_executable_prediction_freeze",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "user_preferences_not_inferred_from_constants",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "risk_preservation_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "execution_cost_rights_bindings_remain_NULL",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2023_2024_development_only_2025_2026_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old14_optional_columns_not_scanned",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "protocol_file_SHA_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "protocol_canonical_SHA_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "user_confirmation_SHA_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "5_design_source_hashes_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "version_registration_change_control",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matrix_14_rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "10_matrix_fields_exact_metadata_ids_and_refs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matrix_selected_only_close_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_matrix_new_formal_current_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matrix_no_new_gap_close_or_full_PIT_claim",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matrix_gaps_and_minimum_proofs_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_matrix_types_accounted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old_registry_reference_exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "user_binding_file_matches",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "5_artifacts_stable_during_review",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "artifact_sha256": {
+    "买入还是等待_研究候选BW17_冻结v1.json": "294f39937e30632451a1293ff7f27c1e4c4b71fa7c83944934a4fc79b552159b",
+    "累计研究选择登记_增补BW17.json": "a2126c583c8ec972d36da9f19ee16a6bccae877c4592449e47c7366fbeee5a62",
+    "本轮用户确认与参数状态.json": "0ba3c82dfb901a3bcb529151d082b9b490f5b02547bbedd2614d4f941a790019",
+    "历史研究用途与缺证据矩阵.json": "41ed1f159b62d84ba198b035c788783ee7c026a7e3a86f4a28a92a3ec97483f3",
+    "设计冻结与来源指纹.json": "7a7990fae3ca1b2ad93fc6a50a2a6352a4754281087d42cb5fc9547ceaf0ba1f"
+  },
+  "protocol_canonical_sha256": "1e6a7240cc9b3f1694505c24a5fa11695bd6d6fe70c08a32712c8d2ea731ebb9",
+  "metadata_83_checks_not_rerun": true,
+  "independent_policy_math_review_not_claimed": true,
+  "market_data_or_targets_read": false,
+  "new_labels": 0,
+  "new_models": 0,
+  "new_scores": 0,
+  "interpretation": "Delivery identity, version, registration, user-binding and admission-boundary concordance only; not an executable-protocol or predictive-validity certification."
+}

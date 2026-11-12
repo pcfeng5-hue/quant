@@ -1,0 +1,685 @@
+{
+  "audit_date": "2026-10-26",
+  "scope": "Local read-only checkpoint audit; feature-only configuration probes through 2024; no new price labels.",
+  "sources": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": {
+      "actual": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "contract_expected": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "archive_manifest_expected": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "all_match": true
+    },
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": {
+      "actual": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+      "contract_expected": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+      "archive_manifest_expected": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+      "all_match": true
+    },
+    "outputs/首版预测协议草案_20261016.json": {
+      "actual": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+      "contract_expected": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+      "archive_manifest_expected": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+      "all_match": true
+    }
+  },
+  "archive": {
+    "sidecar_record": {
+      "archive": "/Users/puchun/Documents/Codex/项目归档/ni/20261025_三线研究启动完整保存/A股概率研究项目_三线首轮全部本地资料_20261025.zip",
+      "source_files": 10922,
+      "source_bytes": 1760933522,
+      "zip_bytes": 728972109,
+      "sha256": "b0cf00b8e6427b83b269919bc8b9b03ef1fa148aa28a131d7c59985b1a66d815",
+      "every_source_file_verified": true,
+      "every_archived_file_and_metadata_verified": true,
+      "sources_unchanged": true,
+      "restored_database_quick_checks": [
+        {
+          "path": "project/outputs/三线研究启动_20261025/本轮原件证据索引.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/三线研究启动_20261025/自建筹码样本/自建筹码小样本.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/五项数据补缺_20261022/五项补缺原始观察.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/统一数据底座_20261022/受限字段隔离.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/统一数据底座_20261022/统一数据底座.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/高德红外数据库/历史筹码采集_20261017/筹码网页原始观察.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/高德红外数据库/备份/高德红外_20261013_v0.4.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/outputs/高德红外数据库/高德红外_2023起.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/chip_capture_oct17_audit/full_capture_final.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/chip_capture_oct17_audit/preview_two_real_records.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/chip_capture_oct17_audit/preview_two_real_records_v2.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/chip_capture_oct17_audit/preview_two_real_records_v3.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/chip_capture_oct17_audit/preview_two_real_records_v4.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/local_chip_estimate_oct25/初版产物_before_guard/自建筹码小样本.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/unified_data_oct22/build_v1/受限字段隔离.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/unified_data_oct22/build_v1/统一数据底座.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/unified_data_oct22/build_v2/受限字段隔离.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/unified_data_oct22/build_v2/统一数据底座.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/unified_data_oct22/build_v3/受限字段隔离.sqlite",
+          "result": "ok"
+        },
+        {
+          "path": "project/work/unified_data_oct22/build_v3/统一数据底座.sqlite",
+          "result": "ok"
+        }
+      ],
+      "restored_database_count": 22,
+      "full_snapshot": true,
+      "source_exclusions": [],
+      "completed_at_utc": "2026-10-25T17:46:23.819916+00:00"
+    },
+    "zip_size_matches_sidecar": true,
+    "zip_sha256_recomputed": "b0cf00b8e6427b83b269919bc8b9b03ef1fa148aa28a131d7c59985b1a66d815",
+    "zip_sha256_matches_sidecar": true,
+    "manifest_member_bytes_match_sidecar_manifest": true,
+    "zip_member_count_including_directories_and_metadata": 12524,
+    "project_wide_file_rehash_repeated": false,
+    "full_zip_crc_or_restore_test_repeated": false
+  },
+  "old_artifact_hashes": {
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": {
+      "actual": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+      "archive_manifest_expected": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+      "match": true
+    },
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": {
+      "actual": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+      "archive_manifest_expected": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+      "match": true
+    },
+    "outputs/三线研究启动_20261025/自建筹码样本/自建筹码小样本.sqlite": {
+      "actual": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+      "archive_manifest_expected": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+      "match": true
+    },
+    "outputs/三线研究启动_20261025/量价基线/运行合同.json": {
+      "actual": "2a098de33b13b4eb93173569bb64f79e51c8820c0a92c243b8d19d70839360af",
+      "archive_manifest_expected": "2a098de33b13b4eb93173569bb64f79e51c8820c0a92c243b8d19d70839360af",
+      "match": true
+    },
+    "work/baseline_oct25/engineering_contract.json": {
+      "actual": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+      "archive_manifest_expected": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+      "match": true
+    },
+    "work/baseline_oct25/build_baseline.py": {
+      "actual": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+      "archive_manifest_expected": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+      "match": true
+    }
+  },
+  "derived_database_inventory": [
+    {
+      "path": "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite",
+      "tables": {
+        "corporate_action_boundaries": {
+          "schema": "CREATE TABLE \"corporate_action_boundaries\"(\"event_id\" TEXT,\"ex_date\" TEXT,\"cash_cny_per_10_gross\" TEXT,\"transfer_shares_per_10\" TEXT)",
+          "columns": [
+            "event_id",
+            "ex_date",
+            "cash_cny_per_10_gross",
+            "transfer_shares_per_10"
+          ],
+          "rows": 3,
+          "date_bounds": {},
+          "gates": {}
+        },
+        "feature_availability": {
+          "schema": "CREATE TABLE \"feature_availability\"(\"feature\" TEXT,\"scope\" TEXT,\"total_dates\" INTEGER,\"computed_dates\" INTEGER,\"missing_dates\" INTEGER,\"missing_reason\" TEXT)",
+          "columns": [
+            "feature",
+            "scope",
+            "total_dates",
+            "computed_dates",
+            "missing_dates",
+            "missing_reason"
+          ],
+          "rows": 26,
+          "date_bounds": {},
+          "gates": {}
+        },
+        "features": {
+          "schema": "CREATE TABLE \"features\"(\"trade_date\" TEXT,\"source_observation_id\" TEXT,\"source_sha256\" TEXT,\"source_retrieved_at\" TEXT,\"raw_open\" REAL,\"raw_high\" REAL,\"raw_low\" REAL,\"raw_close\" REAL,\"volume_native\" REAL,\"amount_cny\" REAL,\"turnover_pct_raw\" REAL,\"segment_start\" TEXT,\"segment_bars\" INTEGER,\"known_ex_date\" INTEGER,\"ma5\" REAL,\"ma10\" REAL,\"ma15\" REAL,\"macd_dif\" REAL,\"macd_dea\" REAL,\"macd_hist2\" REAL,\"kdj_rsv\" REAL,\"kdj_k\" REAL,\"kdj_d\" REAL,\"kdj_j\" REAL,\"volume_ratio_prev5\" REAL,\"volume_ratio_prev20\" REAL,\"turnover_ratio_prev5\" REAL,\"close_change_prev\" REAL,\"indicator_context\" TEXT,\"daily_status_certified\" INTEGER,\"model_input_approved\" INTEGER,\"runtime_usable\" INTEGER)",
+          "columns": [
+            "trade_date",
+            "source_observation_id",
+            "source_sha256",
+            "source_retrieved_at",
+            "raw_open",
+            "raw_high",
+            "raw_low",
+            "raw_close",
+            "volume_native",
+            "amount_cny",
+            "turnover_pct_raw",
+            "segment_start",
+            "segment_bars",
+            "known_ex_date",
+            "ma5",
+            "ma10",
+            "ma15",
+            "macd_dif",
+            "macd_dea",
+            "macd_hist2",
+            "kdj_rsv",
+            "kdj_k",
+            "kdj_d",
+            "kdj_j",
+            "volume_ratio_prev5",
+            "volume_ratio_prev20",
+            "turnover_ratio_prev5",
+            "close_change_prev",
+            "indicator_context",
+            "daily_status_certified",
+            "model_input_approved",
+            "runtime_usable"
+          ],
+          "rows": 1160,
+          "date_bounds": {
+            "trade_date": [
+              "2022-01-04",
+              "2026-10-21"
+            ]
+          },
+          "gates": {
+            "daily_status_certified": [
+              [
+                0,
+                1160
+              ]
+            ],
+            "model_input_approved": [
+              [
+                0,
+                1160
+              ]
+            ],
+            "runtime_usable": [
+              [
+                0,
+                1160
+              ]
+            ]
+          }
+        },
+        "input_bars": {
+          "schema": "CREATE TABLE \"input_bars\"(\"observation_id\" TEXT,\"trade_date\" TEXT,\"open\" REAL,\"high\" REAL,\"low\" REAL,\"close\" REAL,\"volume_native\" REAL,\"amount_cny\" REAL,\"turnover_pct\" REAL,\"volume_unit\" TEXT,\"turnover_unit\" TEXT,\"source_sha256\" TEXT,\"retrieved_at\" TEXT)",
+          "columns": [
+            "observation_id",
+            "trade_date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume_native",
+            "amount_cny",
+            "turnover_pct",
+            "volume_unit",
+            "turnover_unit",
+            "source_sha256",
+            "retrieved_at"
+          ],
+          "rows": 1160,
+          "date_bounds": {
+            "trade_date": [
+              "2022-01-04",
+              "2026-10-21"
+            ]
+          },
+          "gates": {}
+        },
+        "metadata": {
+          "schema": "CREATE TABLE metadata(key TEXT PRIMARY KEY,value_json TEXT)",
+          "columns": [
+            "key",
+            "value_json"
+          ],
+          "rows": 1,
+          "date_bounds": {},
+          "gates": {}
+        },
+        "signals": {
+          "schema": "CREATE TABLE \"signals\"(\"trade_date\" TEXT,\"MA5_cross_above_MA10\" INTEGER,\"MA5_cross_below_MA10\" INTEGER,\"MACD_DIF_cross_above_DEA\" INTEGER,\"MACD_DIF_cross_below_DEA\" INTEGER,\"K_cross_above_D\" INTEGER,\"K_cross_below_D\" INTEGER,\"MA5_gt_MA10_gt_MA15_and_MA15_rising\" INTEGER,\"MA5_lt_MA10_lt_MA15_and_MA15_falling\" INTEGER,\"volume_gt_1p5_prev20_and_close_rising\" INTEGER,\"volume_gt_1p5_prev20_and_close_falling\" INTEGER,\"MA_bull_cross_and_DIF_gt_DEA\" INTEGER,\"MA_bear_cross_and_DIF_lt_DEA\" INTEGER)",
+          "columns": [
+            "trade_date",
+            "MA5_cross_above_MA10",
+            "MA5_cross_below_MA10",
+            "MACD_DIF_cross_above_DEA",
+            "MACD_DIF_cross_below_DEA",
+            "K_cross_above_D",
+            "K_cross_below_D",
+            "MA5_gt_MA10_gt_MA15_and_MA15_rising",
+            "MA5_lt_MA10_lt_MA15_and_MA15_falling",
+            "volume_gt_1p5_prev20_and_close_rising",
+            "volume_gt_1p5_prev20_and_close_falling",
+            "MA_bull_cross_and_DIF_gt_DEA",
+            "MA_bear_cross_and_DIF_lt_DEA"
+          ],
+          "rows": 1160,
+          "date_bounds": {
+            "trade_date": [
+              "2022-01-04",
+              "2026-10-21"
+            ]
+          },
+          "gates": {}
+        }
+      },
+      "quick_check": "ok"
+    },
+    {
+      "path": "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite",
+      "tables": {
+        "descriptive_statistics": {
+          "schema": "CREATE TABLE \"descriptive_statistics\"(\"signal\" TEXT,\"n_overlapping_observations\" INTEGER,\"positive_count\" INTEGER,\"zero_count\" INTEGER,\"negative_count\" INTEGER,\"positive_observed_frequency\" REAL,\"zero_observed_frequency\" REAL,\"negative_observed_frequency\" REAL,\"price_change_median\" REAL,\"price_change_q10\" REAL,\"price_change_q90\" REAL,\"eligible_baseline_n\" INTEGER,\"eligible_baseline_positive_frequency\" REAL,\"positive_frequency_difference_to_matched_baseline\" REAL,\"fixed_every_fifth_anchor_n\" INTEGER,\"fixed_grid_positive_frequency\" REAL,\"fixed_grid_baseline_n\" INTEGER,\"fixed_grid_baseline_positive_frequency\" REAL,\"small_count_note\" TEXT,\"is_predictive_probability\" INTEGER,\"is_trading_profit_probability\" INTEGER,\"model_input_approved\" INTEGER)",
+          "columns": [
+            "signal",
+            "n_overlapping_observations",
+            "positive_count",
+            "zero_count",
+            "negative_count",
+            "positive_observed_frequency",
+            "zero_observed_frequency",
+            "negative_observed_frequency",
+            "price_change_median",
+            "price_change_q10",
+            "price_change_q90",
+            "eligible_baseline_n",
+            "eligible_baseline_positive_frequency",
+            "positive_frequency_difference_to_matched_baseline",
+            "fixed_every_fifth_anchor_n",
+            "fixed_grid_positive_frequency",
+            "fixed_grid_baseline_n",
+            "fixed_grid_baseline_positive_frequency",
+            "small_count_note",
+            "is_predictive_probability",
+            "is_trading_profit_probability",
+            "model_input_approved"
+          ],
+          "rows": 13,
+          "date_bounds": {},
+          "gates": {
+            "is_predictive_probability": [
+              [
+                0,
+                13
+              ]
+            ],
+            "is_trading_profit_probability": [
+              [
+                0,
+                13
+              ]
+            ],
+            "model_input_approved": [
+              [
+                0,
+                13
+              ]
+            ]
+          }
+        },
+        "development_price_outcomes": {
+          "schema": "CREATE TABLE \"development_price_outcomes\"(\"signal_date\" TEXT,\"entry_observation_date\" TEXT,\"outcome_observation_date\" TEXT,\"entry_open_raw\" REAL,\"outcome_close_raw\" REAL,\"horizon_observed_sessions\" INTEGER,\"price_change_fraction\" REAL,\"outcome_sign\" TEXT,\"entry_source_observation_id\" TEXT,\"outcome_source_observation_id\" TEXT,\"daily_status_certified\" INTEGER,\"execution_modelled\" INTEGER,\"model_input_approved\" INTEGER,\"scope\" TEXT)",
+          "columns": [
+            "signal_date",
+            "entry_observation_date",
+            "outcome_observation_date",
+            "entry_open_raw",
+            "outcome_close_raw",
+            "horizon_observed_sessions",
+            "price_change_fraction",
+            "outcome_sign",
+            "entry_source_observation_id",
+            "outcome_source_observation_id",
+            "daily_status_certified",
+            "execution_modelled",
+            "model_input_approved",
+            "scope"
+          ],
+          "rows": 469,
+          "date_bounds": {
+            "signal_date": [
+              "2023-01-03",
+              "2024-12-24"
+            ],
+            "entry_observation_date": [
+              "2023-01-04",
+              "2024-12-25"
+            ],
+            "outcome_observation_date": [
+              "2023-01-10",
+              "2024-12-31"
+            ]
+          },
+          "gates": {
+            "daily_status_certified": [
+              [
+                0,
+                469
+              ]
+            ],
+            "execution_modelled": [
+              [
+                0,
+                469
+              ]
+            ],
+            "model_input_approved": [
+              [
+                0,
+                469
+              ]
+            ]
+          }
+        },
+        "excluded_anchors": {
+          "schema": "CREATE TABLE \"excluded_anchors\"(\"trade_date\" TEXT,\"reason\" TEXT)",
+          "columns": [
+            "trade_date",
+            "reason"
+          ],
+          "rows": 15,
+          "date_bounds": {
+            "trade_date": [
+              "2023-06-13",
+              "2024-12-31"
+            ]
+          },
+          "gates": {}
+        },
+        "metadata": {
+          "schema": "CREATE TABLE metadata(key TEXT PRIMARY KEY,value_json TEXT)",
+          "columns": [
+            "key",
+            "value_json"
+          ],
+          "rows": 1,
+          "date_bounds": {},
+          "gates": {}
+        }
+      },
+      "quick_check": "ok"
+    },
+    {
+      "path": "outputs/三线研究启动_20261025/自建筹码样本/自建筹码小样本.sqlite",
+      "tables": {
+        "estimate_runs": {
+          "schema": "CREATE TABLE estimate_runs(\n            estimate_id TEXT PRIMARY KEY,asof_date TEXT NOT NULL,variant TEXT NOT NULL,\n            params_json TEXT NOT NULL,summary_json TEXT NOT NULL,provenance_json TEXT NOT NULL,\n            model_input_approved INTEGER NOT NULL CHECK(model_input_approved=0),\n            native_supplier_bins_acquired INTEGER NOT NULL CHECK(native_supplier_bins_acquired=0),\n            UNIQUE(asof_date,variant))",
+          "columns": [
+            "estimate_id",
+            "asof_date",
+            "variant",
+            "params_json",
+            "summary_json",
+            "provenance_json",
+            "model_input_approved",
+            "native_supplier_bins_acquired"
+          ],
+          "rows": 84,
+          "date_bounds": {
+            "asof_date": [
+              "2023-01-03",
+              "2026-10-21"
+            ]
+          },
+          "gates": {
+            "model_input_approved": [
+              [
+                0,
+                84
+              ]
+            ],
+            "native_supplier_bins_acquired": [
+              [
+                0,
+                84
+              ]
+            ]
+          }
+        },
+        "estimated_price_bins": {
+          "schema": "CREATE TABLE estimated_price_bins(\n            estimate_id TEXT NOT NULL,bin_index INTEGER NOT NULL,price_cny REAL NOT NULL,\n            estimated_mass_fraction REAL NOT NULL CHECK(estimated_mass_fraction>=0),\n            PRIMARY KEY(estimate_id,bin_index),\n            FOREIGN KEY(estimate_id) REFERENCES estimate_runs(estimate_id))",
+          "columns": [
+            "estimate_id",
+            "bin_index",
+            "price_cny",
+            "estimated_mass_fraction"
+          ],
+          "rows": 111873,
+          "date_bounds": {},
+          "gates": {}
+        },
+        "metadata": {
+          "schema": "CREATE TABLE metadata(key TEXT PRIMARY KEY,value_json TEXT NOT NULL)",
+          "columns": [
+            "key",
+            "value_json"
+          ],
+          "rows": 5,
+          "date_bounds": {},
+          "gates": {}
+        }
+      },
+      "quick_check": "ok"
+    }
+  ],
+  "known_actions": [
+    {
+      "event_id": "002414.SZ_distribution_20230620",
+      "ex_date": "2023-06-20",
+      "cash_cny_per_10_gross": "1.3",
+      "transfer_shares_per_10": "3",
+      "first_publication_time": null,
+      "model_input_approved": 0
+    },
+    {
+      "event_id": "002414.SZ_distribution_20240524",
+      "ex_date": "2024-05-24",
+      "cash_cny_per_10_gross": "0.14",
+      "transfer_shares_per_10": "0",
+      "first_publication_time": null,
+      "model_input_approved": 0
+    },
+    {
+      "event_id": "002414.SZ_distribution_20260922",
+      "ex_date": "2026-09-22",
+      "cash_cny_per_10_gross": "1",
+      "transfer_shares_per_10": "0",
+      "first_publication_time": null,
+      "model_input_approved": 0
+    }
+  ],
+  "unbridged_jump_raw_observations": [
+    {
+      "trade_date": "2022-05-25",
+      "open": 16.43,
+      "close": 16.6
+    },
+    {
+      "trade_date": "2022-05-26",
+      "open": 11.69,
+      "close": 11.76
+    }
+  ],
+  "unbridged_overnight_open_fraction": -0.29578313253012056,
+  "configuration_probes": [
+    {
+      "probe": "macd_advertised_parameter_changes",
+      "changed_fields": {
+        "fast": 5,
+        "slow": 35,
+        "signal": 5,
+        "ema_seed": "unsupported_seed",
+        "adjust": true,
+        "histogram_multiplier": 1
+      },
+      "computation_accepted": true,
+      "features_identical": true,
+      "finding": "Unsupported configuration is silently accepted and ignored. Current fixed saved contract agrees with the hard-coded implementation."
+    },
+    {
+      "probe": "kdj_advertised_parameter_changes",
+      "changed_fields": {
+        "window": 3,
+        "k_alpha": "1/2",
+        "d_alpha": "1/2",
+        "seed_k": 0,
+        "seed_d": 0,
+        "flat_range_rsv": 0,
+        "j_clipped": true
+      },
+      "computation_accepted": true,
+      "features_identical": true,
+      "finding": "Unsupported configuration is silently accepted and ignored. Current fixed saved contract agrees with the hard-coded implementation."
+    },
+    {
+      "probe": "registered_signal_names_reordered",
+      "computation_accepted": true,
+      "days_with_changed_named_signal_values": 66,
+      "finding": "Names are zipped positionally to a fixed 12-value vector; reordering can silently mislabel signals."
+    }
+  ],
+  "protocol": {
+    "status": "draft_not_frozen",
+    "runtime_usable": false,
+    "all_pending_freeze_fields_still_null": true
+  },
+  "limitations": [
+    "No repeated audit of all 5390/10922 project files.",
+    "Archived full per-file, ZIP-member, and restored-SQLite checks are accepted as recorded; current ZIP hash independently rechecked.",
+    "No network access, new source writes, 2025/2026 label generation, model training, or predictive claims."
+  ],
+  "mask_recheck": {
+    "before_calculation_start_rows": 96,
+    "all_early_indicator_values_null": true,
+    "macd_before_130_all_null": true,
+    "kdj_before_30_all_null": true,
+    "known_ex_date_rows": [
+      {
+        "date": "2023-06-20",
+        "age": 1,
+        "all_indicators_null": true
+      },
+      {
+        "date": "2024-05-24",
+        "age": 1,
+        "all_indicators_null": true
+      },
+      {
+        "date": "2026-09-22",
+        "age": 1,
+        "all_indicators_null": true
+      }
+    ],
+    "segments": [
+      {
+        "segment_start": null,
+        "n": 96,
+        "start": "2022-01-04",
+        "end": "2022-05-31",
+        "first_macd": null,
+        "first_kdj": null
+      },
+      {
+        "segment_start": "2022-06-01",
+        "n": 257,
+        "start": "2022-06-01",
+        "end": "2023-06-19",
+        "first_macd": "2022-12-08",
+        "first_kdj": "2022-07-13"
+      },
+      {
+        "segment_start": "2023-06-20",
+        "n": 223,
+        "start": "2023-06-20",
+        "end": "2024-05-23",
+        "first_macd": "2023-12-28",
+        "first_kdj": "2023-08-02"
+      },
+      {
+        "segment_start": "2024-05-24",
+        "n": 568,
+        "start": "2024-05-24",
+        "end": "2026-09-21",
+        "first_macd": "2024-12-03",
+        "first_kdj": "2024-07-05"
+      },
+      {
+        "segment_start": "2026-09-22",
+        "n": 16,
+        "start": "2026-09-22",
+        "end": "2026-10-21",
+        "first_macd": null,
+        "first_kdj": null
+      }
+    ]
+  },
+  "existing_label_overlap": {
+    "label_count": 469,
+    "pairs_with_shared_entry_outcome_observations": 1846,
+    "adjacent_pairs_total": 468,
+    "adjacent_pairs_with_shared_observations": 466,
+    "fixed_grid_count": 94,
+    "fixed_grid_shared_observation_pairs": 0,
+    "no_independence_claim": true
+  }
+}

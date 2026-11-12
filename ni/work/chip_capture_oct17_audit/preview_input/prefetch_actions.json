@@ -1,0 +1,626 @@
+[
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 1,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2020-11-02",
+      "summary": [
+        "2026-10-16",
+        "2.19%",
+        "13.12",
+        "11.17-14.64",
+        "13.43%",
+        "12.14-13.99",
+        "7.05%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:33.071Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 2,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2019-12-02",
+      "summary": [
+        "2026-10-16",
+        "1.71%",
+        "13.10",
+        "11.17-14.67",
+        "13.57%",
+        "12.13-14.07",
+        "7.39%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:34.763Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 3,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2019-01-03",
+      "summary": [
+        "2026-10-16",
+        "1.36%",
+        "13.12",
+        "11.27-14.71",
+        "13.25%",
+        "12.13-13.98",
+        "7.06%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:36.523Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 4,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2018-02-02",
+      "summary": [
+        "2018-02-02",
+        "1.38%",
+        "2.09",
+        "1.62-2.50",
+        "21.36%",
+        "1.88-2.28",
+        "9.62%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:37.728Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 5,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2017-03-15",
+      "summary": [
+        "2017-03-15",
+        "40.22%",
+        "3.20",
+        "2.89-3.42",
+        "8.40%",
+        "2.99-3.36",
+        "5.83%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:41.209Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 6,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2016-04-18",
+      "summary": [
+        "2026-10-16",
+        "1.36%",
+        "13.12",
+        "11.27-14.71",
+        "13.25%",
+        "12.13-13.98",
+        "7.06%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:44.018Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 7,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2015-01-14",
+      "summary": [
+        "2026-10-16",
+        "1.36%",
+        "13.12",
+        "11.27-14.71",
+        "13.25%",
+        "12.13-13.98",
+        "7.06%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:46.275Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 8,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2014-02-21",
+      "summary": [
+        "2014-02-21",
+        "78.43%",
+        "3.00",
+        "1.89-3.34",
+        "27.58%",
+        "2.62-3.24",
+        "10.72%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:51.052Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 9,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2013-03-20",
+      "summary": [
+        "2013-03-20",
+        "48.41%",
+        "0.73",
+        "0.61-0.83",
+        "15.28%",
+        "0.67-0.80",
+        "8.84%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:53.575Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 10,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 40px;",
+      "kline_date": "2012-04-25",
+      "summary": [
+        "2012-04-25",
+        "18.44%",
+        "0.93",
+        "0.77-1.08",
+        "16.76%",
+        "0.83-1.03",
+        "10.75%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:56.111Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 11,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 40px;",
+      "kline_date": "2011-05-26",
+      "summary": [
+        "2011-05-26",
+        "0.20%",
+        "1.37",
+        "0.96-1.63",
+        "25.87%",
+        "1.01-1.58",
+        "22.01%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:39:58.905Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 12,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2010-07-21",
+      "summary": [
+        "2010-07-21",
+        "75.37%",
+        "1.46",
+        "1.30-1.50",
+        "7.14%",
+        "1.38-1.49",
+        "3.83%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:02.563Z"
+  },
+  {
+    "action": "prefetch_earlier_visible",
+    "seq": 13,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2010-07-21",
+      "summary": [
+        "2010-07-21",
+        "75.37%",
+        "1.46",
+        "1.30-1.50",
+        "7.14%",
+        "1.38-1.49",
+        "3.83%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:08.528Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 1,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 40px;",
+      "kline_date": "2011-06-28",
+      "summary": [
+        "2011-06-28",
+        "36.53%",
+        "1.11",
+        "0.82-1.86",
+        "38.84%",
+        "0.87-1.60",
+        "29.84%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:16.192Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 2,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2012-05-25",
+      "summary": [
+        "2012-05-25",
+        "5.98%",
+        "0.91",
+        "0.78-1.08",
+        "15.86%",
+        "0.83-1.01",
+        "9.72%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:17.494Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 3,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2013-04-23",
+      "summary": [
+        "2013-04-23",
+        "7.91%",
+        "0.72",
+        "0.59-0.83",
+        "17.15%",
+        "0.65-0.79",
+        "9.99%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:18.802Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 4,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2014-03-25",
+      "summary": [
+        "2014-03-25",
+        "15.74%",
+        "2.66",
+        "1.37-3.30",
+        "41.17%",
+        "2.09-3.19",
+        "20.80%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:20.147Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 5,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2015-02-13",
+      "summary": [
+        "2015-02-13",
+        "65.11%",
+        "2.85",
+        "2.37-3.17",
+        "14.50%",
+        "2.62-3.07",
+        "7.81%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:21.460Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 6,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2016-05-19",
+      "summary": [
+        "2016-05-19",
+        "25.28%",
+        "3.03",
+        "2.26-4.29",
+        "31.10%",
+        "2.54-3.87",
+        "20.82%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:22.765Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 7,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2017-04-18",
+      "summary": [
+        "2017-04-18",
+        "6.17%",
+        "3.20",
+        "2.71-3.66",
+        "14.88%",
+        "2.92-3.55",
+        "9.76%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:24.085Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 8,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2018-03-13",
+      "summary": [
+        "2018-03-13",
+        "15.82%",
+        "2.29",
+        "1.59-3.52",
+        "37.80%",
+        "1.87-3.17",
+        "25.78%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:25.411Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 9,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2019-02-11",
+      "summary": [
+        "2019-02-11",
+        "97.89%",
+        "2.40",
+        "1.66-2.85",
+        "26.46%",
+        "1.87-2.75",
+        "19.01%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:26.706Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 10,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2020-01-02",
+      "summary": [
+        "2020-01-02",
+        "78.59%",
+        "4.12",
+        "2.71-4.78",
+        "27.63%",
+        "3.59-4.64",
+        "12.79%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:28.039Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 11,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2020-12-02",
+      "summary": [
+        "2020-12-02",
+        "71.07%",
+        "13.56",
+        "7.74-15.69",
+        "33.90%",
+        "9.76-15.02",
+        "21.23%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:29.355Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 12,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 53.5px;",
+      "kline_date": "2021-11-02",
+      "summary": [
+        "2021-11-02",
+        "8.11%",
+        "14.24",
+        "11.41-16.68",
+        "18.76%",
+        "12.44-15.65",
+        "11.44%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:30.685Z"
+  },
+  {
+    "action": "return_later_visible",
+    "seq": 13,
+    "edge": {
+      "canvas": {
+        "h": 580,
+        "w": 900,
+        "x": 50,
+        "y": 21
+      },
+      "info_visible": "display: block; cursor: move; user-select: none; top: 66px; left: 46.5px;",
+      "kline_date": "2022-09-30",
+      "summary": [
+        "2022-09-30",
+        "6.48%",
+        "10.51",
+        "8.71-13.98",
+        "23.22%",
+        "9.10-12.18",
+        "14.49%"
+      ]
+    },
+    "observed_at": "2026-10-17T23:40:31.992Z"
+  }
+]

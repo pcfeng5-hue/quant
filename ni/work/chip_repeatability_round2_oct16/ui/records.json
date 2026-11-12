@@ -1,0 +1,650 @@
+{
+  "source_url": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r",
+  "client_date": "2026-10-16",
+  "action_log": [
+    {
+      "action": "new_page",
+      "url": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r"
+    },
+    {
+      "action": "day_k_chip_panel"
+    },
+    {
+      "action": "zoomout",
+      "count": 24
+    },
+    {
+      "action": "move_left_button",
+      "count": 1
+    },
+    {
+      "action": "scroll_summary_into_view_then_up",
+      "pages": 0.3
+    },
+    {
+      "action": "pan_right",
+      "pixels": 500
+    },
+    {
+      "action": "pan_right",
+      "pixels": 500
+    },
+    {
+      "action": "pan_right",
+      "pixels": 500
+    },
+    {
+      "action": "pan_right",
+      "pixels": 500
+    },
+    {
+      "action": "select_target",
+      "x": 424.5,
+      "y": 280,
+      "target": "2023-06-20"
+    },
+    {
+      "action": "adjacent_candle",
+      "x": 421.5,
+      "y": 280
+    },
+    {
+      "action": "return_target",
+      "x": 424.5,
+      "y": 280
+    },
+    {
+      "action": "adjacent_candle",
+      "x": 427.5,
+      "y": 280
+    },
+    {
+      "action": "return_target",
+      "x": 424.5,
+      "y": 280
+    },
+    {
+      "action": "pan_left",
+      "pixels": 60,
+      "scope": "later previously visited range"
+    },
+    {
+      "action": "pan_right",
+      "pixels": 60,
+      "scope": "return original window"
+    },
+    {
+      "action": "pan_left",
+      "pixels": 60,
+      "scope": "later window repeat with corrected target"
+    },
+    {
+      "action": "pan_right",
+      "pixels": 60,
+      "scope": "return baseline after later pan"
+    },
+    {
+      "action": "pan_right",
+      "pixels": 300,
+      "scope": "extend earlier than baseline visible range"
+    }
+  ],
+  "records": [
+    {
+      "id": "R1_baseline",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:00:16.786Z",
+      "phase": "baseline",
+      "oldest_visible_month": "2023-02",
+      "latest_visible_month": "2024-02",
+      "session": "R1"
+    },
+    {
+      "id": "R1_no_action_repeat",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:00:37.810Z",
+      "phase": "no_action_repeat",
+      "session": "R1"
+    },
+    {
+      "id": "R1_adjacent_0619",
+      "expected": "2023-06-19",
+      "date": "2023-06-19",
+      "values": [
+        "2023-06-19",
+        "4.95%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.64",
+        "12.89%"
+      ],
+      "kline_date": "2023-06-19",
+      "kline_prices": {
+        "开盘": "7.61",
+        "收盘": "7.59",
+        "最高": "7.66",
+        "最低": "7.57",
+        "成交量": "11.20万",
+        "成交额": "1.14亿",
+        "换手率": "0.43%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:00:38.454Z",
+      "phase": "adjacent_control",
+      "session": "R1"
+    },
+    {
+      "id": "R1_return_1",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:00:39.071Z",
+      "phase": "adjacent_return",
+      "session": "R1"
+    },
+    {
+      "id": "R1_return_2",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:00:40.201Z",
+      "phase": "adjacent_return",
+      "session": "R1"
+    },
+    {
+      "id": "R1_pan_later",
+      "expected": "2023-06-20",
+      "date": "2023-06-19",
+      "values": [
+        "2023-06-19",
+        "4.95%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.64",
+        "12.89%"
+      ],
+      "kline_date": "2023-06-19",
+      "kline_prices": {
+        "开盘": "7.61",
+        "收盘": "7.59",
+        "最高": "7.66",
+        "最低": "7.57",
+        "成交量": "11.20万",
+        "成交额": "1.14亿",
+        "换手率": "0.43%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": false,
+      "observed_at_utc": "2026-10-16T16:01:01.255Z",
+      "phase": "pan_later",
+      "session": "R1",
+      "nominal_pan_pixels": -60
+    },
+    {
+      "id": "R1_pan_return",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:01:02.433Z",
+      "phase": "pan_return",
+      "session": "R1",
+      "nominal_pan_pixels": 60
+    },
+    {
+      "id": "R1_pan_later_corrected",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:01:11.900Z",
+      "phase": "pan_later",
+      "session": "R1",
+      "nominal_pan_pixels": -60
+    },
+    {
+      "id": "R1_pan_return_2",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.80%",
+        "9.04",
+        "7.63-11.47",
+        "20.10%",
+        "8.21-10.59",
+        "12.66%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-16T16:01:13.006Z",
+      "phase": "pan_return",
+      "session": "R1"
+    },
+    {
+      "id": "R2_extended_earlier_20230620_oct17",
+      "expected": "2023-06-20",
+      "date": "2023-06-20",
+      "values": [
+        "2023-06-20",
+        "6.68%",
+        "9.03",
+        "7.66-11.77",
+        "21.20%",
+        "8.20-10.81",
+        "13.72%"
+      ],
+      "kline_date": "2023-06-20",
+      "kline_prices": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61",
+        "成交量": "18.51万",
+        "成交额": "1.44亿",
+        "换手率": "0.54%"
+      },
+      "basis_control": "前复权",
+      "geometry": {
+        "scrollX": 0,
+        "scrollY": 561.5,
+        "canvases": [
+          {
+            "bottom": 678,
+            "height": 580,
+            "left": 50,
+            "right": 950,
+            "top": 98,
+            "width": 900,
+            "x": 50,
+            "y": 98
+          },
+          {
+            "bottom": 448.5,
+            "height": 330,
+            "left": 955,
+            "right": 1090,
+            "top": 118.5,
+            "width": 135,
+            "x": 955,
+            "y": 118.5
+          }
+        ]
+      },
+      "accepted": true,
+      "observed_at_utc": "2026-10-17T23:38:40.314Z",
+      "experiment": "after_pause_expanded_earlier_history",
+      "visible_range_approx": "2022-09 to 2023-09",
+      "date_client": "2026-10-17"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "automation_id": "a",
+  "trigger_at_utc": "2026-10-29T16:21:18.737Z",
+  "checked_at_utc": "2026-10-29T16:25:35+00:00",
+  "checked_at_local": "2026-10-29T12:25:35-04:00",
+  "timezone": "America/Toronto",
+  "allowed_window_local": "00:00 <= time < 05:00",
+  "status": "skipped_outside_authorized_window",
+  "reason": "Trigger was received in daytime; do not make up nighttime research outside the authorized window.",
+  "research_started": false,
+  "counts_as_completed_research_batch": false,
+  "research_state_or_model_modified": false,
+  "last_verified_research_state": "outputs/量价增量验证_20261026/本轮状态与续作断点.json",
+  "continuation_pointer_sha256": "31f9b7775ae67001758d202fc2199b90a6779c8c6b8eeb0c06cb7a26329b84f5",
+  "next_action": "Resume from the existing verified pointer on an eligible nighttime trigger."
+}

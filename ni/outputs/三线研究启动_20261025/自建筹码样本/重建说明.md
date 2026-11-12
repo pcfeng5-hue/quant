@@ -1,0 +1,18 @@
+# 重建说明
+
+在同一项目和相同只读源库上运行：
+
+```sh
+/Users/puchun/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 \
+  work/local_chip_estimate_oct25/build_chip_sample.py \
+  --project-root /Users/puchun/Documents/Codex/2026-10-07/ni
+```
+
+依赖：Python 3.12.14、NumPy 2.3.5、标准库sqlite3（SQLite 3.53.1）。不需要联网或AKShare。运行将只重建本任务输出目录中的文件，并在本任务work目录创建后删除一次字节复验用SQLite。原库使用mode=ro&immutable=1，只读查询stock_raw_reference、corporate_actions和来源信息。
+
+`estimated_price_bins`中的质量为0—1小数。每个estimate_id保存从原点0至因果计算中活动上界的全部网格格点，包含内部零质量，域外质量为0。参数配置明确拒绝非零网格原点。网格间距在estimate_runs.params_json，摘要与来源分别在summary_json和provenance_json。不要将自建字段写成供应商原生筹码。
+
+固定源库SHA-256：9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14。
+完整代码SHA-256：d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1。
+
+算法仅是量价情景。换手口径、初始化前真实持仓、历史首次可用性未认证；model_input_approved=false，native_supplier_bins_acquired=false。

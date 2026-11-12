@@ -1,0 +1,536 @@
+{
+  "all_checks_passed": true,
+  "passed": 34,
+  "total": 34,
+  "audit_method": "stdlib independent grouping and 70-digit Decimal shrinkage; no producer expected-data calls; producer imported only after independent table comparisons for adversarial probes",
+  "producer_code_sha256": "feedf2e3f7033c78592748db9f2b5cea8a3ef804ee9c8b78e0172258b25d2142",
+  "contract_sha256": "73ce2b2b85be6a4d4b1d59307487bbe4760ef91692413c9e38c7828b19e79d6e",
+  "source_sha256": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+    "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+    "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc"
+  },
+  "checks": [
+    {
+      "check": "registered_contract_and_producer_hashes",
+      "passed": true,
+      "details": {
+        "contract": "73ce2b2b85be6a4d4b1d59307487bbe4760ef91692413c9e38c7828b19e79d6e",
+        "producer": "feedf2e3f7033c78592748db9f2b5cea8a3ef804ee9c8b78e0172258b25d2142"
+      }
+    },
+    {
+      "check": "all_13_protected_sources_match_registration",
+      "passed": true,
+      "details": {
+        "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+        "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+        "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+        "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+        "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+        "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+        "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+        "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+        "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+        "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+        "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+        "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+        "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc"
+      }
+    },
+    {
+      "check": "local_receipt_precedes_all_15_core_output_mtimes",
+      "passed": true,
+      "details": {
+        "registered_at_utc": "2026-10-26T21:58:14.902551+00:00",
+        "minimum_output_delay_seconds": 2.9956021308898926,
+        "local_receipt_not_external_timestamp_attestation": true
+      }
+    },
+    {
+      "check": "cumulative_15_variants_no_reset",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "frozen_source_counts_and_unique_development_domains",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "input_label_event_and_domains",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "joint_scoring_mask_subset_and_10_lost_dates",
+      "passed": true,
+      "details": {
+        "previous_dates": 308,
+        "joint_dates": 298,
+        "lost_dates": 10
+      }
+    },
+    {
+      "check": "sqlite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_reconstruction_predictions",
+      "passed": true,
+      "details": {
+        "rows": 894,
+        "scalar_cells": 16986,
+        "max_absolute_float_difference": 1.1102230246251565e-16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_folds",
+      "passed": true,
+      "details": {
+        "rows": 6,
+        "scalar_cells": 114,
+        "max_absolute_float_difference": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_fitted",
+      "passed": true,
+      "details": {
+        "rows": 78,
+        "scalar_cells": 1014,
+        "max_absolute_float_difference": 1.1102230246251565e-16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_membership",
+      "passed": true,
+      "details": {
+        "rows": 1412,
+        "scalar_cells": 8472,
+        "max_absolute_float_difference": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_ledger",
+      "passed": true,
+      "details": {
+        "rows": 1950,
+        "scalar_cells": 9750,
+        "max_absolute_float_difference": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_metrics",
+      "passed": true,
+      "details": {
+        "rows": 42,
+        "scalar_cells": 462,
+        "max_absolute_float_difference": 1.1102230246251565e-16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_comparisons",
+      "passed": true,
+      "details": {
+        "rows": 42,
+        "scalar_cells": 420,
+        "max_absolute_float_difference": 1.1102230246251565e-16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_calibration",
+      "passed": true,
+      "details": {
+        "rows": 105,
+        "scalar_cells": 1470,
+        "max_absolute_float_difference": 1.1102230246251565e-16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_paired_loss",
+      "passed": true,
+      "details": {
+        "rows": 596,
+        "scalar_cells": 5960,
+        "max_absolute_float_difference": 2.220446049250313e-16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_prior_coverage_comparison",
+      "passed": true,
+      "details": {
+        "rows": 6,
+        "scalar_cells": 24,
+        "max_absolute_float_difference": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_reconstruction_lost_prior_scoring_dates",
+      "passed": true,
+      "details": {
+        "rows": 10,
+        "scalar_cells": 30,
+        "max_absolute_float_difference": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "all_11_csv_exports_match_sqlite",
+      "passed": true,
+      "details": {
+        "scalar_cells": 44702
+      }
+    },
+    {
+      "check": "metadata_contract_receipt_and_sources_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_input_execution_promotion_calibration_gates_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "static_sql_outcome_reads_limited_to_development",
+      "passed": true,
+      "details": {
+        "inspection_scope": "main source query bounds and output rows; raw file hashing is not outcome querying",
+        "query_fragments": [
+          " FROM signals WHERE trade_date BETWEEN '2023-01-03' AND '2024-12-31' ORDER BY trade_date",
+          "SELECT trade_date,",
+          "SELECT trade_date FROM input_bars WHERE trade_date BETWEEN '2023-01-03' AND '2024-12-31' ORDER BY trade_date",
+          "SELECT signal_date,entry_observation_date,outcome_observation_date,outcome_sign,horizon_observed_sessions FROM development_price_outcomes WHERE signal_date BETWEEN '2023-01-03' AND '2024-12-31' ORDER BY signal_date",
+          "SELECT fold_id,signal_date,model_id FROM predictions WHERE model_id='M0_laplace_constant' ORDER BY signal_date",
+          "SELECT value_json FROM metadata WHERE key='run'"
+        ]
+      }
+    },
+    {
+      "check": "all_training_members_strictly_mature_and_validation_windows_contained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_three_models_identical_scoring_dates_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_99_rows_abstain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_empty_parent_and_cell_use_declared_prior",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_missing_is_not_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_validation_outcome_poison_does_not_change_first_fold_fit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_validation_outcome_poison_does_not_change_first_fold_probabilities",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_fold_wide_99_joint_train_abstention",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "probe_equal_validation_start_endpoint_is_purged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_adversarial_rejection_probes",
+      "passed": true,
+      "details": {
+        "rejected_count": 85,
+        "names": [
+          "illegal_signal_(1, 1)",
+          "illegal_signal_(2, 0)",
+          "illegal_signal_(-1, 0)",
+          "illegal_signal_(0.5, 0)",
+          "illegal_signal_(1.0, 0)",
+          "illegal_signal_('1', 0)",
+          "illegal_signal_(0, '0')",
+          "illegal_signal_([], 0)",
+          "duplicate_or_unordered_label",
+          "duplicate_or_unordered_signals",
+          "duplicate_or_unordered_anchor",
+          "duplicate_or_unordered_anchor_order",
+          "bad_label_horizon_observed_sessions",
+          "bad_label_outcome_sign",
+          "bad_label_outcome_observation_date",
+          "bad_label_entry_observation_date",
+          "bad_label_signal_date",
+          "contract_experiment_id",
+          "contract_client_date",
+          "contract_status",
+          "contract_scope",
+          "contract_hypothesis",
+          "contract_authorization",
+          "contract_input_features",
+          "contract_input_labels",
+          "contract_development_start",
+          "contract_development_end",
+          "contract_horizon_observed_sessions",
+          "contract_event",
+          "contract_signal_time",
+          "contract_ma_states",
+          "contract_volume_price_states",
+          "contract_volume_price_definition",
+          "contract_volume_spike_threshold",
+          "contract_volume_prior_observations",
+          "contract_missing_policy",
+          "contract_models",
+          "contract_m0_formula",
+          "contract_m1_formula",
+          "contract_m2_formula",
+          "contract_denominator_definition",
+          "contract_boolean_validation",
+          "contract_shrinkage_lambda",
+          "contract_shrinkage_interpretation",
+          "contract_minimum_training_rows",
+          "contract_minimum_is_engineering_only",
+          "contract_insufficient_training_policy",
+          "contract_empty_cell_policy",
+          "contract_folds",
+          "contract_training_policy",
+          "contract_validation_policy",
+          "contract_comparators",
+          "contract_primary_comparison",
+          "contract_secondary_comparisons",
+          "contract_metrics",
+          "contract_log_loss_epsilon",
+          "contract_calibration_bin_edges",
+          "contract_sparse_display_threshold",
+          "contract_sparse_threshold_is_acceptance_test",
+          "contract_fixed_grid",
+          "contract_fixed_grid_construction",
+          "contract_overlapping_outcomes_independent",
+          "contract_reporting_requirements",
+          "contract_previous_descriptive_variants",
+          "contract_previous_registered_models",
+          "contract_new_registered_model_variants",
+          "contract_repeated_comparators_not_new_variants",
+          "contract_cumulative_registered_variants_after_this_run",
+          "contract_previous_candidate_failures_retained",
+          "contract_selection_or_parameter_search",
+          "contract_claim_is_volume_only_effect",
+          "contract_outcomes_2025_2026_opened",
+          "contract_historically_untouched_period_claim",
+          "contract_probability_recalibration_fitted",
+          "contract_confidence_or_significance_claims",
+          "contract_target_is_net_profit",
+          "contract_historical_first_availability_certified",
+          "contract_historical_daily_st_or_suspension_certified",
+          "contract_execution_or_costs_modelled",
+          "contract_chip_features_used",
+          "contract_current_forecast_generated",
+          "contract_model_input_approved",
+          "contract_runtime_usable",
+          "contract_old_forecast_protocol_or_risk_modified",
+          "contract_followup_policy"
+        ]
+      }
+    },
+    {
+      "check": "sources_and_producer_unchanged_during_independent_audit",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "compared_scalar_cells": 44702,
+  "max_absolute_float_difference": 2.220446049250313e-16,
+  "table_comparisons": {
+    "predictions": {
+      "rows": 894,
+      "scalar_cells": 16986,
+      "max_absolute_float_difference": 1.1102230246251565e-16,
+      "mismatches": []
+    },
+    "folds": {
+      "rows": 6,
+      "scalar_cells": 114,
+      "max_absolute_float_difference": 0,
+      "mismatches": []
+    },
+    "fitted": {
+      "rows": 78,
+      "scalar_cells": 1014,
+      "max_absolute_float_difference": 1.1102230246251565e-16,
+      "mismatches": []
+    },
+    "membership": {
+      "rows": 1412,
+      "scalar_cells": 8472,
+      "max_absolute_float_difference": 0,
+      "mismatches": []
+    },
+    "ledger": {
+      "rows": 1950,
+      "scalar_cells": 9750,
+      "max_absolute_float_difference": 0,
+      "mismatches": []
+    },
+    "metrics": {
+      "rows": 42,
+      "scalar_cells": 462,
+      "max_absolute_float_difference": 1.1102230246251565e-16,
+      "mismatches": []
+    },
+    "comparisons": {
+      "rows": 42,
+      "scalar_cells": 420,
+      "max_absolute_float_difference": 1.1102230246251565e-16,
+      "mismatches": []
+    },
+    "calibration": {
+      "rows": 105,
+      "scalar_cells": 1470,
+      "max_absolute_float_difference": 1.1102230246251565e-16,
+      "mismatches": []
+    },
+    "paired_loss": {
+      "rows": 596,
+      "scalar_cells": 5960,
+      "max_absolute_float_difference": 2.220446049250313e-16,
+      "mismatches": []
+    },
+    "prior_coverage_comparison": {
+      "rows": 6,
+      "scalar_cells": 24,
+      "max_absolute_float_difference": 0,
+      "mismatches": []
+    },
+    "lost_prior_scoring_dates": {
+      "rows": 10,
+      "scalar_cells": 30,
+      "max_absolute_float_difference": 0,
+      "mismatches": []
+    }
+  },
+  "source_counts": {
+    "labels": 469,
+    "anchors": 484
+  },
+  "result_counts": {
+    "scoring_dates": 298,
+    "prediction_rows": 894,
+    "fitted_cells_and_parents": 78,
+    "paired_loss_rows": 596
+  },
+  "pooled_comparisons": [
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "alternative": "M2_ma_volume_hierarchical",
+      "baseline": "M1_ma_group_shrinkage",
+      "n": 298,
+      "alternative_brier": 0.2534009076599467,
+      "baseline_brier": 0.2513742227731697,
+      "brier_delta": 0.0020266848867770415,
+      "logloss_delta": 0.004169173136874593,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "alternative": "M2_ma_volume_hierarchical",
+      "baseline": "M0_laplace_constant",
+      "n": 298,
+      "alternative_brier": 0.2534009076599467,
+      "baseline_brier": 0.2477693654896678,
+      "brier_delta": 0.005631542170278919,
+      "logloss_delta": 0.011510595036717364,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "alternative": "M1_ma_group_shrinkage",
+      "baseline": "M0_laplace_constant",
+      "n": 298,
+      "alternative_brier": 0.2513742227731697,
+      "baseline_brier": 0.2477693654896678,
+      "brier_delta": 0.0036048572835018777,
+      "logloss_delta": 0.0073414218998427705,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "alternative": "M2_ma_volume_hierarchical",
+      "baseline": "M1_ma_group_shrinkage",
+      "n": 59,
+      "alternative_brier": 0.25346394944204226,
+      "baseline_brier": 0.2515563771397776,
+      "brier_delta": 0.0019075723022646818,
+      "logloss_delta": 0.0038884480885418293,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "alternative": "M2_ma_volume_hierarchical",
+      "baseline": "M0_laplace_constant",
+      "n": 59,
+      "alternative_brier": 0.25346394944204226,
+      "baseline_brier": 0.24983315900527153,
+      "brier_delta": 0.0036307904367707255,
+      "logloss_delta": 0.007393635531654286,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "alternative": "M1_ma_group_shrinkage",
+      "baseline": "M0_laplace_constant",
+      "n": 59,
+      "alternative_brier": 0.2515563771397776,
+      "baseline_brier": 0.24983315900527153,
+      "brier_delta": 0.0017232181345060438,
+      "logloss_delta": 0.0035051874431124563,
+      "promotion_approved": 0
+    }
+  ],
+  "limitations": [
+    "This is a local independently coded audit, not external preregistration attestation.",
+    "2025/2026 outcome isolation is supported by static production SQL bounds, fixed input hashes and output domains; byte hashing entire files is distinguished from outcome querying.",
+    "Previously independently checked raw-label derivation is referenced by frozen source DB; this audit does not re-extract 2022 files.",
+    "Passing software checks does not establish predictive value, net profits, execution feasibility, or probability calibration."
+  ]
+}

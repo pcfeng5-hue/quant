@@ -1,0 +1,12 @@
+{
+  "before": {
+    "sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "bytes": 34697216,
+    "quick_check": "ok"
+  },
+  "after": {
+    "sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "bytes": 34697216
+  },
+  "unchanged": true
+}

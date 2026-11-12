@@ -1,0 +1,42 @@
+{
+  "id": "fresh_default_latest",
+  "expected": "2026-10-16",
+  "date": "2026-10-16",
+  "values": [
+    "2026-10-16",
+    "2.13%",
+    "13.14",
+    "11.20-14.70",
+    "13.51%",
+    "12.11-14.00",
+    "7.21%"
+  ],
+  "kline": {
+    "开盘": "10.70",
+    "成交量": "44.77万",
+    "成交额": "4.82亿",
+    "振幅": "3.23%",
+    "换手率": "1.32%",
+    "收盘": "10.78",
+    "时间": "2026-10-16",
+    "最低": "10.60",
+    "最高": "10.94",
+    "涨跌幅": "2.47%",
+    "涨跌额": "0.26"
+  },
+  "basis": "前复权",
+  "context": "fresh_session_default_recent_history",
+  "accepted": true,
+  "observed_at_utc": "2026-10-18T03:12:36.156Z",
+  "geometry": {
+    "canvas_y": 57,
+    "scrollY": 602.5
+  },
+  "post": {
+    "date": "2026-10-16",
+    "kline_date": "2026-10-16",
+    "visible": "block"
+  },
+  "historical_input_eligible": false,
+  "complete_price_bins": false
+}

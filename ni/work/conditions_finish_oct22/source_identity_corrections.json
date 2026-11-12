@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2023_pdf_repeal_3a7e3e378b169248.pdf",
+    "legacy_name_claim": "2023",
+    "actual_identity": "深证上〔2021〕337号通知及2021年3月修订交易规则",
+    "excluded_as_2023_rule": true,
+    "original_preserved": true
+  },
+  {
+    "source_name": "chinaclear_original_publisher_transfer_notice",
+    "host": "finance.sina.cn",
+    "primary_host": false,
+    "attributed_author": "中国结算",
+    "classification": "publisher-attributed republication; not original ChinaClear-hosted notice"
+  }
+]

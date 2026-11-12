@@ -1,0 +1,663 @@
+
+
+
+
+
+
+
+
+
+
+
+
+QuantCoda 数据方法｜中国市场 API 字段与时间口径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(() => {
+  const measurementId = "G-JLG9B7P404";
+  const cookieDomain = "quantcoda.com";
+  const storageKey = "quantcoda.analyticsConsent";
+  const readConsent = () => {
+    try { return localStorage.getItem(storageKey); } catch (_) { return null; }
+  };
+  const initialConsent = readConsent();
+  // Never send local previews or explicitly marked QA sessions to production GA.
+  // Open ?analytics_test=1 before QA; use ?analytics_test=0 to leave QA mode.
+  let internalTraffic = false;
+  try {
+    const qa = new URLSearchParams(location.search).get("analytics_test");
+    if (qa === "1") sessionStorage.setItem("quantcoda.analyticsTest", "1");
+    if (qa === "0") sessionStorage.removeItem("quantcoda.analyticsTest");
+    internalTraffic = sessionStorage.getItem("quantcoda.analyticsTest") === "1";
+  } catch (_) { internalTraffic = true; }
+  const eligibleHost = location.hostname === cookieDomain && !internalTraffic;
+  const disableKey = `ga-disable-${measurementId}`;
+  window[disableKey] = !eligibleHost || initialConsent === "denied";
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function(){ dataLayer.push(arguments); };
+  gtag("consent", "default", {
+    analytics_storage: initialConsent === "denied" ? "denied" : "granted",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    wait_for_update: 500
+  });
+
+  const writeConsent = (value) => {
+    try { localStorage.setItem(storageKey, value); } catch (_) {}
+  };
+  const clearAnalyticsCookies = () => {
+    document.cookie.split(";").forEach(cookie => {
+      const name = cookie.split("=")[0].trim();
+      if (name === "_ga" || name.startsWith("_ga_")) {
+        document.cookie = `${name}=; Max-Age=0; path=/; SameSite=Lax`;
+        if (location.hostname === cookieDomain || location.hostname.endsWith(`.${cookieDomain}`)) {
+          document.cookie = `${name}=; Max-Age=0; path=/; domain=.${cookieDomain}; SameSite=Lax`;
+        }
+      }
+    });
+  };
+  const loadAnalytics = () => {
+    if (!eligibleHost) return;
+    window[disableKey] = false;
+    gtag("consent", "update", { analytics_storage: "granted" });
+    if (document.querySelector(`script[data-ga-id="${measurementId}"]`)) return;
+    gtag("js", new Date());
+    const campaign = {};
+    const search = new URLSearchParams(location.search);
+    for (const [utm, key] of Object.entries({utm_source:"campaign_source", utm_medium:"campaign_medium", utm_campaign:"campaign_name"})) {
+      const value = search.get(utm);
+      if (value && /^[a-zA-Z0-9_.~-]{1,100}$/.test(value)) campaign[key] = value;
+    }
+    gtag("config", measurementId, {
+      ...campaign,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      // Account URLs can contain verification or Checkout tokens. Never send them.
+      page_location: location.origin + location.pathname,
+      page_referrer: (() => { try { const u = new URL(document.referrer); return u.origin + u.pathname; } catch (_) { return ""; } })()
+    });
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+    script.dataset.gaId = measurementId;
+    document.head.appendChild(script);
+  };
+  const showConsent = () => {
+    const banner = document.getElementById("analytics-consent");
+    if (banner) banner.hidden = false;
+  };
+  const hideConsent = () => {
+    const banner = document.getElementById("analytics-consent");
+    if (banner) banner.hidden = true;
+  };
+
+  window.quantcodaSetAnalyticsConsent = value => {
+    writeConsent(value);
+    if (value === "granted") {
+      loadAnalytics();
+    } else {
+      window[disableKey] = true;
+      gtag("consent", "update", { analytics_storage: "denied" });
+      clearAnalyticsCookies();
+    }
+    hideConsent();
+  };
+
+  window.quantcodaTrack = (event, params = {}) => {
+    if (!eligibleHost || window[disableKey] || readConsent() === "denied") return false;
+    const allowed = ["sign_up", "email_verified", "api_key_created", "api_connection_verified", "purchase"];
+    if (!allowed.includes(event)) return false;
+    gtag("event", event, {...params, transport_type: "beacon"});
+    return true;
+  };
+
+  if (initialConsent !== "denied") loadAnalytics();
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("[data-analytics-consent]").forEach(button => {
+      button.addEventListener("click", () => {
+        window.quantcodaSetAnalyticsConsent(button.dataset.analyticsConsent);
+      });
+    });
+    document.querySelectorAll("[data-analytics-settings]").forEach(button => {
+      button.addEventListener("click", showConsent);
+    });
+  });
+})();
+
+
+
+
+
+{"@context":"https://schema.org","@type":"TechArticle","headline":"QuantCoda 中国市场数据方法","url":"https://quantcoda.com/methodology","dateModified":"2026-08-09","inLanguage":"zh-CN","publisher":{"@id":"https://quantcoda.com/#organization"}}
+
+
+
+
+
+/* ── Shared financial-data design system ────────────────────────────────── */
+:root {
+  --bg: #020604;
+  --bg-raise: #07100c;
+  --bg-deep: #040a07;
+  --ink: #f2f7f4;
+  --ink-2: #a5b1aa;
+  --muted: #66736c;
+  --line: rgba(124, 166, 143, .14);
+  --line-strong: rgba(124, 166, 143, .27);
+  --accent: #24e58a;
+  --accent-deep: #16bd70;
+  --accent-wash: rgba(36, 229, 138, .10);
+  --glow: rgba(36, 229, 138, .34);
+  --up: #ff6b5c;      /* A 股惯例：红涨 */
+  --down: #2ebd8c;    /* 绿跌 */
+  --red: #ff6b5c;
+  --amber: #e8c07e;
+  --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  --serif: Georgia, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "STSong", "SimSun", serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Menlo, Consolas, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body::before {
+  content: ""; position: fixed; inset: -20vh -15vw; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(52vw 48vw at 18% 18%, rgba(20,130,75,.18), transparent 68%),
+    radial-gradient(42vw 38vw at 86% 38%, rgba(52,210,185,.08), transparent 70%);
+}
+.brand-quantcoda .h1,
+.brand-quantcoda .h2 { font-family: var(--sans); letter-spacing: -.045em; }
+a { color: inherit; text-decoration: none; }
+::selection { background: var(--accent); color: #07101f; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+
+/* ── 导航 ── */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(3, 8, 6, .82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-inner { display: flex; align-items: center; gap: 36px; height: 60px; }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 17px; letter-spacing: .01em; }
+.brand svg { display: block; filter: drop-shadow(0 0 6px var(--glow)); }
+.nav-links { display: flex; gap: 26px; font-size: 14.5px; color: var(--ink-2); }
+.nav-links a:hover { color: var(--accent); }
+.nav-cta { margin-left: auto; display: flex; align-items: center; gap: 18px; font-size: 14.5px; }
+.nav-cta .signin { color: var(--ink-2); }
+.nav-cta .signin:hover { color: var(--ink); }
+
+/* ── 按钮 ── */
+.btn {
+  display: inline-block; padding: 11px 26px; border-radius: 8px;
+  font-size: 15px; font-weight: 600; letter-spacing: .02em;
+  border: 1px solid transparent; cursor: pointer; font-family: var(--sans);
+  transition: background .18s ease, color .18s ease, border-color .18s ease,
+              box-shadow .18s ease, transform .12s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn-ink {
+  background: linear-gradient(180deg, var(--accent), var(--accent-deep)); color: #07101f;
+  box-shadow: 0 0 20px -10px var(--glow);
+}
+.btn-ink:hover { filter: brightness(1.12); box-shadow: 0 0 34px -6px var(--glow); }
+
+/* HUD 四角括号：仪器感签名 */
+.hud { position: relative; }
+.hud::before, .hud::after {
+  content: ""; position: absolute; width: 16px; height: 16px;
+  border-color: var(--accent); border-style: solid; opacity: .55; pointer-events: none;
+}
+.hud::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }
+.hud::after { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }
+.btn-ghost { border-color: var(--line-strong); color: var(--ink); background: transparent; }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+.btn-sm { padding: 7px 16px; font-size: 13.5px; border-radius: 7px; }
+
+/* ── 版式工具 ── */
+.kicker {
+  font-family: var(--mono); font-size: 12px; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--accent); font-weight: 600;
+  white-space: nowrap;
+}
+.h1 {
+  font-family: var(--serif); font-size: clamp(34px, 5.4vw, 58px);
+  line-height: 1.24; font-weight: 900; letter-spacing: .01em;
+}
+.h2 {
+  font-family: var(--serif); font-size: clamp(24px, 3.2vw, 34px);
+  line-height: 1.32; font-weight: 900; letter-spacing: .01em;
+}
+.lede { font-size: clamp(16px, 1.9vw, 18.5px); color: var(--ink-2); }
+.muted { color: var(--muted); }
+.mono { font-family: var(--mono); font-feature-settings: "tnum"; }
+.up { color: var(--up); }
+.down { color: var(--down); }
+
+/* ── 卡片 / 表格 ── */
+.card {
+  background: var(--bg-raise); border: 1px solid var(--line);
+  border-radius: 12px;
+}
+table.data { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+table.data th {
+  text-align: left; font-weight: 600; color: var(--muted);
+  font-family: var(--mono); font-size: 12px; letter-spacing: .08em;
+  padding: 10px 14px; border-bottom: 1px solid var(--line-strong);
+}
+table.data td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.data tr:last-child td { border-bottom: none; }
+
+/* ── 代码块 ── */
+pre.code {
+  font-family: var(--mono); font-size: 13.5px; line-height: 1.7;
+  background: var(--bg-deep);
+  border: 1px solid var(--line); border-radius: 12px;
+  padding: 20px 22px; overflow-x: auto;
+  color: var(--ink-2);
+}
+pre.code .c { color: var(--muted); }                      /* 注释 */
+pre.code .k { color: var(--accent); }                     /* 关键字 / 键名 */
+pre.code .s { color: var(--amber); }                      /* 字符串 */
+code.inline {
+  font-family: var(--mono); font-size: .88em;
+  background: var(--accent-wash); border-radius: 5px; padding: 2px 7px;
+  color: var(--accent);
+}
+
+/* ── 表单 ── */
+.field { margin-bottom: 18px; }
+.field label { display: block; font-size: 13.5px; font-weight: 600; margin-bottom: 7px; color: var(--ink-2); }
+.field input {
+  width: 100%; padding: 11px 14px; font-size: 15px; font-family: var(--sans);
+  border: 1px solid var(--line-strong); border-radius: 8px;
+  background: var(--bg-deep); color: var(--ink);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.field input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
+.form-err { color: var(--red); font-size: 14px; min-height: 22px; margin-bottom: 6px; }
+
+/* ── 页脚 ── */
+footer {
+  border-top: 1px solid var(--line); margin-top: 110px;
+  padding: 44px 0 56px; font-size: 14px; color: var(--muted);
+}
+.foot-inner { display: flex; flex-wrap: wrap; gap: 28px; align-items: baseline; }
+.foot-inner .links { display: flex; flex-wrap: wrap; gap: 22px; }
+.foot-inner .links a:hover { color: var(--ink); }
+.foot-inner .links button { appearance: none; border: 0; background: transparent; color: inherit; cursor: pointer; font: inherit; padding: 0; }
+.foot-inner .links button:hover { color: var(--ink); }
+.foot-inner .copy { margin-left: auto; font-family: var(--mono); font-size: 12.5px; }
+
+/* ── Analytics consent ── */
+.consent {
+  position: fixed; left: 24px; right: 24px; bottom: 24px; z-index: 100;
+  max-width: 760px; margin: 0 auto; padding: 18px 20px;
+  background: rgba(7, 16, 12, .97); border: 1px solid var(--line-strong);
+  border-radius: 12px; box-shadow: 0 18px 60px rgba(0, 0, 0, .45);
+}
+.consent[hidden] { display: none; }
+.consent-inner { display: flex; align-items: center; gap: 20px; }
+.consent-copy { flex: 1; color: var(--ink-2); font-size: 13.5px; line-height: 1.55; }
+.consent-copy a { color: var(--accent); }
+.consent-actions { display: flex; gap: 9px; flex-shrink: 0; }
+.consent-actions .btn { padding: 7px 14px; font-size: 13px; }
+
+/* ── 载入动效：错落浮现 ── */
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise .7s cubic-bezier(.2,.7,.3,1) both; }
+.d1 { animation-delay: .06s; } .d2 { animation-delay: .14s; }
+.d3 { animation-delay: .22s; } .d4 { animation-delay: .32s; }
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+}
+
+@media (max-width: 720px) {
+  .nav-links { display: none; }
+  .wrap { padding: 0 20px; }
+  .nav-inner { gap: 12px; }
+  .nav-cta { gap: 12px; }
+  .nav-cta .login-link { display: none; }
+  .nav-cta .btn { padding: 7px 13px; font-size: 13px; white-space: nowrap; }
+  .brand { font-size: 15px; }
+  .consent { left: 14px; right: 14px; bottom: 14px; }
+  .consent-inner { align-items: stretch; flex-direction: column; gap: 14px; }
+  .consent-actions .btn { flex: 1; }
+}
+
+.trust-hero { padding: 96px 0 66px; border-bottom: 1px solid var(--line); background: radial-gradient(720px 320px at 18% 10%,rgba(36,229,138,.12),transparent 72%); }
+.trust-hero .wrap { max-width: 900px; }
+.trust-hero h1 { margin-top: 15px; }
+.trust-hero .lede { margin-top: 20px; max-width: 760px; }
+.trust-body { max-width: 900px; padding-top: 62px; }
+.trust-body > section + section { margin-top: 64px; }
+.trust-body h2 { font-size: clamp(24px,3vw,32px); line-height: 1.3; }
+.trust-body h3 { font-size: 18px; }
+.trust-body p { color: var(--ink-2); margin-top: 14px; }
+.trust-body a { color: var(--accent); }
+.trust-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin-top: 24px; }
+.trust-card { border: 1px solid var(--line); background: rgba(7,16,12,.64); padding: 24px; }
+.trust-card small { display: block; color: var(--accent); font: 11px var(--mono); letter-spacing: .1em; margin-bottom: 12px; }
+.trust-card p { font-size: 14px; }
+.trust-list { margin: 18px 0 0 20px; color: var(--ink-2); }
+.trust-list li + li { margin-top: 9px; }
+.release { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 28px; padding: 30px 0; border-top: 1px solid var(--line); }
+.release:last-child { border-bottom: 1px solid var(--line); }
+.release time { color: var(--accent); font: 12px var(--mono); }
+.release ul { margin: 14px 0 0 20px; color: var(--ink-2); }
+.release li + li { margin-top: 7px; }
+@media (max-width:700px) { .trust-grid { grid-template-columns: 1fr; } .release { grid-template-columns: 1fr; gap: 10px; } }
+
+
+
+
+
+
+.catalog-tools[hidden], .docs-search[hidden] { display: none !important; }
+
+
+
+
+
+
+
+跳到主要内容
+
+
+
+
+  
+
+    
+
+      
+      QuantCoda 默认使用 Google Analytics 了解页面访问并改进网站；你可以随时在这里关闭统计。详见
+隐私政策
+。
+      
+    
+
+    
+
+      
+拒绝
+
+      
+保持统计
+
+    
+
+  
+
+
+
+
+
+
+  
+
+    
+
+      
+
+        
+
+        
+
+      
+
+      QuantCoda
+    
+
+    
+
+      
+数据服务
+
+      
+定价
+
+      
+文档
+
+    
+
+    
+
+      
+EN
+
+      
+      
+登录
+
+      
+免费注册
+
+      
+    
+
+    
+菜单 
++
+
+  
+
+  
+
+    
+数据服务
+
+    
+定价
+
+    
+文档
+
+    
+Python SDK
+
+    
+MCP Server
+
+    
+登录
+
+    
+免费注册
+
+  
+
+  
+数据服务
+定价
+文档
+登录
+
+
+
+
+
+
+
+
+DATA METHODOLOGY
+先明确数据语义，再追求调用便利
+QuantCoda 保留证券身份、事件时间、财务报告期和缺失值，让研究输入可以复核；接口不会把原始记录静默转换成投资结论。
+
+
+
+  
+规范化原则
+01 · IDENTITY
+证券代码带交易所后缀
+股票代码使用 
+600519.SH
+、
+000001.SZ
+、
+430047.BJ
+ 等形式；指数、ETF 与外汇保留各自命名空间。
+02 · TIME
+交易日不等于报告期
+日期统一使用 
+YYYYMMDD
+。财务接口在上游记录提供时区分报告期、公告日期和实际披露日期。
+03 · TYPES
+数值保持数值类型
+价格、成交量、比率与金额在可用时返回 JSON 数值；Python SDK 将记录映射为 pandas DataFrame，不自行创造数据。
+04 · MISSINGNESS
+空值本身也是信息
+不可用或不适用字段保持 null。除非接口明确规定，QuantCoda 不会前向填充财务事实，也不会把缺失观察替换为零。
+
+  
+更新频率与发布时间
+更新节奏由接口决定：日行情跟随已完成交易日，财务记录跟随公司披露，实时与快讯接口携带各自观察时间。判断新鲜度时应检查返回日期字段，而不是只看请求时间。
+“实时”描述接口类别，不单独承诺交易所直连延迟；网络、上游发布时间、市场交易时段和套餐权限都可能影响可用性。
+
+  
+历史修订与可复现性
+上游更正可能改变历史记录；重要研究应保留获取时间并允许重新运行。
+API v1 内只进行向后兼容扩展，例如新增可选参数、端点或返回字段。
+破坏性变更使用并行新版本，并发布迁移说明。
+研究结果应记录接口、参数、获取时间和对应交易日或报告期。
+
+  
+质量检查与用户责任
+QuantCoda 围绕公开契约执行 schema、类型、必填参数和响应结构检查。这些检查可以减少接入错误，但不能代替针对具体研究用途的数据验证。发现疑似问题时，请将接口、证券代码、相关日期和最小可复现请求发送至 
+support@quantcoda.com
+。
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+      
+
+        
+
+        
+
+      
+
+      QuantCoda
+    
+
+    
+
+      
+Python SDK
+
+      
+MCP Server
+
+      
+关于
+
+      
+数据方法
+
+      
+更新记录
+
+      
+服务条款
+
+      
+隐私政策
+
+      
+统计偏好
+
+      
+联系我们
+
+    
+
+    
+© 2026 QuantCoda · 数据仅供研究，不构成投资建议
+
+  
+
+
+
+
+
+
+
+
+
+

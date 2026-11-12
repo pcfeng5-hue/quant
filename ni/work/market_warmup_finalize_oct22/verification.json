@@ -1,0 +1,702 @@
+{
+  "raw_files": [
+    {
+      "name": "em_0_20220101_20261016",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/em_0_20220101_20261016_142fa669c1fddfc2.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "em_1_20220101_20261016",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/em_1_20220101_20261016_587d294ef53c845a.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "em_2_20220101_20261016",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/em_2_20220101_20261016_a6d0128b5b618d18.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_0_2022",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2022_2b1adae93134d60b.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_0_2023",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2023_15d84d646b307dee.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_0_2024",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2024_1b8b7bbc4e72754f.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_0_2025",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2025_9dbfb46ad6176f70.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_0_2026",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2026_df977f9a4fca72bb.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_1_2022",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2022_b93fd476324a31ec.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_1_2023",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2023_44db9b6704bf05db.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_1_2024",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2024_826ee86ecca3c696.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_1_2025",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2025_0137a89c689d6dbc.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_1_2026",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2026_473db1748742616b.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_2_2022",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2022_bb40e7429b720bba.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_2_2023",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2023_94ba7562f1713364.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_2_2024",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2024_e5ded27c90404e6d.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_2_2025",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2025_ca12d499a63dea48.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_2_2026",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2026_9eb2fe4842adcf04.json",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_0_2026_probe",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_0_2026_probe_dc62b7054ba254b6.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_0_2022",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_0_2022_f5e5d3ca5beb0fa0.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_1_2022",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_1_2022_9d3b504f49d6390a.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_2_2022",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_2_2022_09eade7fe9e300c7.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_0_2023",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_0_2023_db5e62056086fd7e.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_1_2023",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_1_2023_158a19797c31b68f.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_2_2023",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_2_2023_8ce147955aa7f114.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_0_2024",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_0_2024_fe08d8fc8e0816f1.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_1_2024",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_1_2024_10d348e751c27416.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_2_2024",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_2_2024_468a971138af6486.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_0_2025",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_0_2025_36bca7209b8049cb.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_1_2025",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_1_2025_7d12043cb1aebd56.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_2_2025",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_2_2025_ce522741713b13d9.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_0_2026",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_0_2026_373e50c7937f5da2.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_1_2026",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_1_2026_fcc21cc6ba92d38b.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "tencent_new_2_2026",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_new_2_2026_8e596dba39855763.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "akshare_official_tx_source",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/akshare_official_tx_source_aa9199665d356ba3.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "akshare_official_em_source",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/akshare_official_em_source_d2a4c09d55d9362c.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "akshare_official_stock_docs",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/akshare_official_stock_docs_4d2c3204e2476ef9.txt",
+      "hash_match": true,
+      "size_match": true
+    },
+    {
+      "name": "eastmoney_adjustment_education",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/eastmoney_adjustment_education_389ea51b7aed929e.txt",
+      "hash_match": true,
+      "size_match": true
+    }
+  ],
+  "all_raw_hashes_and_sizes_match": true,
+  "date_scope_checks": [
+    {
+      "provider_endpoint": "eastmoney",
+      "adjustment_flag": "0",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "eastmoney",
+      "adjustment_flag": "1",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "eastmoney",
+      "adjustment_flag": "2",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "tencent",
+      "adjustment_flag": "0",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "tencent",
+      "adjustment_flag": "1",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "tencent",
+      "adjustment_flag": "2",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "tencent_new",
+      "adjustment_flag": "0",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "tencent_new",
+      "adjustment_flag": "1",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "provider_endpoint": "tencent_new",
+      "adjustment_flag": "2",
+      "total_dates": 1157,
+      "warmup_dates": 242,
+      "research_dates": 915,
+      "missing_vs_chip_dates": [],
+      "extra_vs_chip_dates": [],
+      "added_vs_existing_main_database": [
+        "2026-10-16"
+      ]
+    }
+  ],
+  "new_endpoint_framing": [
+    {
+      "name": "tencent_new_0_2022",
+      "requested_start": "2022-01-01",
+      "requested_end": "2022-12-31",
+      "returned_rows": 640,
+      "returned_start": "2020-05-19",
+      "returned_end": "2022-12-30",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_1_2022",
+      "requested_start": "2022-01-01",
+      "requested_end": "2022-12-31",
+      "returned_rows": 640,
+      "returned_start": "2020-05-19",
+      "returned_end": "2022-12-30",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_2_2022",
+      "requested_start": "2022-01-01",
+      "requested_end": "2022-12-31",
+      "returned_rows": 640,
+      "returned_start": "2020-05-19",
+      "returned_end": "2022-12-30",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_0_2023",
+      "requested_start": "2023-01-01",
+      "requested_end": "2023-12-31",
+      "returned_rows": 640,
+      "returned_start": "2021-05-18",
+      "returned_end": "2023-12-29",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_1_2023",
+      "requested_start": "2023-01-01",
+      "requested_end": "2023-12-31",
+      "returned_rows": 640,
+      "returned_start": "2021-05-18",
+      "returned_end": "2023-12-29",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_2_2023",
+      "requested_start": "2023-01-01",
+      "requested_end": "2023-12-31",
+      "returned_rows": 640,
+      "returned_start": "2021-05-18",
+      "returned_end": "2023-12-29",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_0_2024",
+      "requested_start": "2024-01-01",
+      "requested_end": "2024-12-31",
+      "returned_rows": 640,
+      "returned_start": "2022-05-18",
+      "returned_end": "2024-12-31",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_1_2024",
+      "requested_start": "2024-01-01",
+      "requested_end": "2024-12-31",
+      "returned_rows": 640,
+      "returned_start": "2022-05-18",
+      "returned_end": "2024-12-31",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_2_2024",
+      "requested_start": "2024-01-01",
+      "requested_end": "2024-12-31",
+      "returned_rows": 640,
+      "returned_start": "2022-05-18",
+      "returned_end": "2024-12-31",
+      "accepted_annual_window_rows": 242,
+      "outside_annual_window_rows": 398,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_0_2025",
+      "requested_start": "2025-01-01",
+      "requested_end": "2025-12-31",
+      "returned_rows": 640,
+      "returned_start": "2023-05-17",
+      "returned_end": "2025-12-31",
+      "accepted_annual_window_rows": 243,
+      "outside_annual_window_rows": 397,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_1_2025",
+      "requested_start": "2025-01-01",
+      "requested_end": "2025-12-31",
+      "returned_rows": 640,
+      "returned_start": "2023-05-17",
+      "returned_end": "2025-12-31",
+      "accepted_annual_window_rows": 243,
+      "outside_annual_window_rows": 397,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_2_2025",
+      "requested_start": "2025-01-01",
+      "requested_end": "2025-12-31",
+      "returned_rows": 640,
+      "returned_start": "2023-05-17",
+      "returned_end": "2025-12-31",
+      "accepted_annual_window_rows": 243,
+      "outside_annual_window_rows": 397,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_0_2026",
+      "requested_start": "2026-01-01",
+      "requested_end": "2026-10-16",
+      "returned_rows": 640,
+      "returned_start": "2024-02-26",
+      "returned_end": "2026-10-16",
+      "accepted_annual_window_rows": 188,
+      "outside_annual_window_rows": 452,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_1_2026",
+      "requested_start": "2026-01-01",
+      "requested_end": "2026-10-16",
+      "returned_rows": 640,
+      "returned_start": "2024-02-26",
+      "returned_end": "2026-10-16",
+      "accepted_annual_window_rows": 188,
+      "outside_annual_window_rows": 452,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    },
+    {
+      "name": "tencent_new_2_2026",
+      "requested_start": "2026-01-01",
+      "requested_end": "2026-10-16",
+      "returned_rows": 640,
+      "returned_start": "2024-02-26",
+      "returned_end": "2026-10-16",
+      "accepted_annual_window_rows": 188,
+      "outside_annual_window_rows": 452,
+      "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+    }
+  ],
+  "older_newer_tencent_all_adjustments": {
+    "compared_source_dates": 3471,
+    "ohlc_within_half_cent": 3471,
+    "volume_exact": 3297
+  },
+  "unit_diagnostic_summary": {
+    "dates": 1157,
+    "strict_inside_dates": 1154,
+    "half_cent_compatible_dates": 1157,
+    "exceptions": [
+      {
+        "date": "2024-03-11",
+        "raw_low": 7.5,
+        "raw_high": 7.5,
+        "volume_raw": 190534.0,
+        "amount_cny": 142900845.0,
+        "implied_avg_if_hands": 7.500018107004524,
+        "strict_inside_range": false,
+        "half_cent_compatible": true
+      },
+      {
+        "date": "2024-08-05",
+        "raw_low": 6.84,
+        "raw_high": 6.84,
+        "volume_raw": 228398.0,
+        "amount_cny": 156224409.84,
+        "implied_avg_if_hands": 6.840007786407937,
+        "strict_inside_range": false,
+        "half_cent_compatible": true
+      },
+      {
+        "date": "2026-07-09",
+        "raw_low": 13.31,
+        "raw_high": 13.31,
+        "volume_raw": 207844.0,
+        "amount_cny": 276639978.01,
+        "implied_avg_if_hands": 13.309981428860107,
+        "strict_inside_range": false,
+        "half_cent_compatible": true
+      }
+    ],
+    "conclusion": "Hands convention is supported by primary SDK mapping and implied average-price range checks; formal provider API unit/factor specification not obtained. Exceptions retained, cause unknown."
+  },
+  "new_cross_source_field_summary": [
+    {
+      "scope": "all",
+      "fields": {
+        "open": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "high": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "low": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "close": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "volume_provider_native": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1099,
+          "strict_mismatch_dates": 58,
+          "max_absolute_difference": 0.47,
+          "within_half_hand_quantization_dates": 1157
+        },
+        "amount_cny": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1149,
+          "strict_mismatch_dates": 8,
+          "max_absolute_difference": 52.0
+        },
+        "turnover_percent": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1156,
+          "strict_mismatch_dates": 1,
+          "max_absolute_difference": 0.01
+        }
+      }
+    },
+    {
+      "scope": "warmup_2022",
+      "fields": {
+        "open": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "high": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "low": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "close": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "volume_provider_native": {
+          "compared_dates": 242,
+          "strict_pass_dates": 184,
+          "strict_mismatch_dates": 58,
+          "max_absolute_difference": 0.47,
+          "within_half_hand_quantization_dates": 242
+        },
+        "amount_cny": {
+          "compared_dates": 242,
+          "strict_pass_dates": 236,
+          "strict_mismatch_dates": 6,
+          "max_absolute_difference": 52.0
+        },
+        "turnover_percent": {
+          "compared_dates": 242,
+          "strict_pass_dates": 241,
+          "strict_mismatch_dates": 1,
+          "max_absolute_difference": 0.01
+        }
+      }
+    },
+    {
+      "scope": "research_2023_onward",
+      "fields": {
+        "open": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "high": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "low": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "close": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "volume_provider_native": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0,
+          "within_half_hand_quantization_dates": 915
+        },
+        "amount_cny": {
+          "compared_dates": 915,
+          "strict_pass_dates": 913,
+          "strict_mismatch_dates": 2,
+          "max_absolute_difference": 50.5
+        },
+        "turnover_percent": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        }
+      }
+    }
+  ],
+  "main_database_quick_check": "ok",
+  "main_database_sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+  "main_database_unchanged_vs_agent_start": true
+}

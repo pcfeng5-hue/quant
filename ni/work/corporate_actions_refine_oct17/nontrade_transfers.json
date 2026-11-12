@@ -1,0 +1,116 @@
+[
+  {
+    "event_id": "002414.SZ_employee_plan2022_transfer_stage1",
+    "event_type": "employee_stock_plan_nontrade_transfer_completed",
+    "completion_date": "2023-12-27",
+    "registration_confirmation_received_date": "2023-12-28",
+    "provider_notice_date": "2023-12-29",
+    "number_of_holders": 369,
+    "shares_original": "476.4206",
+    "shares_original_unit": "10000_shares",
+    "shares": 4764206,
+    "unit": "shares",
+    "source_referenced_past_stages_do_not_duplicate": true,
+    "total_capital_change": null,
+    "unlimited_share_change": null,
+    "limits": "完成非交易过户事实；并非新股发行、股份注销或限售股份总数增加的证据。未取得中登确认书本体。",
+    "historical_input_eligible": false,
+    "source_id": "AN202312281615153661",
+    "first_publication_timestamp": null,
+    "official_directory_date": "2023-12-29",
+    "is_new_this_round": false,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202312281615153661:1",
+        "field": "completion_date",
+        "quote_compacted": "2023年12月27日办理完成"
+      },
+      {
+        "evidence_id": "AN202312281615153661:1",
+        "field": "shares",
+        "quote_compacted": "476.4206万股"
+      },
+      {
+        "evidence_id": "AN202312281615153661:2",
+        "field": "confirmation_received_date",
+        "quote_compacted": "2023年12月28日"
+      }
+    ]
+  },
+  {
+    "event_id": "002414.SZ_employee_plan2022_transfer_stage2",
+    "event_type": "employee_stock_plan_nontrade_transfer_completed",
+    "completion_date": "2024-12-27",
+    "registration_confirmation_received_date": "2024-12-30",
+    "provider_notice_date": "2024-12-31",
+    "number_of_holders": 363,
+    "shares_original": "486.0874",
+    "shares_original_unit": "10000_shares",
+    "shares": 4860874,
+    "unit": "shares",
+    "source_referenced_past_stages_do_not_duplicate": true,
+    "total_capital_change": null,
+    "unlimited_share_change": null,
+    "limits": "完成非交易过户事实；并非新股发行、股份注销或限售股份总数增加的证据。未取得中登确认书本体。",
+    "historical_input_eligible": false,
+    "source_id": "AN202412301641472101",
+    "first_publication_timestamp": null,
+    "official_directory_date": "2024-12-31",
+    "is_new_this_round": false,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202412301641472101:1",
+        "field": "completion_date",
+        "quote_compacted": "2024年12月27日办理完成"
+      },
+      {
+        "evidence_id": "AN202412301641472101:1",
+        "field": "shares",
+        "quote_compacted": "486.0874万股"
+      },
+      {
+        "evidence_id": "AN202412301641472101:2",
+        "field": "confirmation_received_date",
+        "quote_compacted": "2024年12月30日"
+      }
+    ]
+  },
+  {
+    "event_id": "002414.SZ_employee_plan2022_transfer_stage3",
+    "event_type": "employee_stock_plan_nontrade_transfer_completed",
+    "completion_date": "2025-12-29",
+    "registration_confirmation_received_date": "2025-12-30",
+    "provider_notice_date": "2025-12-31",
+    "number_of_holders": 351,
+    "shares_original": "952.5293",
+    "shares_original_unit": "10000_shares",
+    "shares": 9525293,
+    "unit": "shares",
+    "source_referenced_past_stages_do_not_duplicate": true,
+    "total_capital_change": null,
+    "unlimited_share_change": null,
+    "limits": "完成非交易过户事实；并非新股发行、股份注销或限售股份总数增加的证据。未取得中登确认书本体。",
+    "historical_input_eligible": false,
+    "source_id": "AN202512301811330148",
+    "first_publication_timestamp": null,
+    "official_directory_date": "2025-12-31",
+    "is_new_this_round": false,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202512301811330148:1",
+        "field": "completion_date",
+        "quote_compacted": "2025年12月29日办理完成"
+      },
+      {
+        "evidence_id": "AN202512301811330148:1",
+        "field": "shares",
+        "quote_compacted": "952.5293万股"
+      },
+      {
+        "evidence_id": "AN202512301811330148:2",
+        "field": "confirmation_received_date",
+        "quote_compacted": "2025年12月30日"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1430 @@
+{
+  "checks": [
+    {
+      "name": "AN202306121590866740:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202306121590866740:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:attributable_period existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:attributable_period fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:implementation_signature_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:implementation_signature_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:record_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:record_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:ex_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:ex_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:official_delegated_cash_distribution_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:official_delegated_cash_distribution_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:cash_cny_per_10_shares_gross existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:cash_cny_per_10_shares_gross fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:transfer_shares_per_10 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:1:transfer_shares_per_10 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:capital_transfer_account_credit_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:capital_transfer_account_credit_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:transferred_unrestricted_shares_first_trading_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:transferred_unrestricted_shares_first_trading_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:disclosed_tax_term_0.26 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:disclosed_tax_term_0.26 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:disclosed_tax_term_0.13 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:disclosed_tax_term_0.13 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:tax_holding_period_unit existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:2:tax_holding_period_unit fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:disclosed_integer_added_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:disclosed_integer_added_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:implementation_structure_final_registration_caveat existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306121590866740:3:implementation_structure_final_registration_caveat fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202404151630235965:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:subsequent_completion_confirmation_page_start existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:subsequent_completion_confirmation_page_start fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:80:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:80:subsequent_completion_confirmation_page_continuation existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:80:subsequent_completion_confirmation_page_continuation fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202405151633180433:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:attributable_period existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:attributable_period fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:3:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:3:implementation_signature_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:3:implementation_signature_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:record_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:record_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:ex_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:ex_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:official_delegated_cash_distribution_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:official_delegated_cash_distribution_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:cash_cny_per_10_shares_gross existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:cash_cny_per_10_shares_gross fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:transfer_shares_per_10 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:transfer_shares_per_10 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:disclosed_tax_term_0.028 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:disclosed_tax_term_0.028 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:disclosed_tax_term_0.014 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:disclosed_tax_term_0.014 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:tax_holding_period_unit existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:2:tax_holding_period_unit fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202609141829372726:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:1:attributable_period existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:1:attributable_period fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:3:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:3:implementation_signature_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:3:implementation_signature_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:record_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:record_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:ex_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:ex_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:official_delegated_cash_distribution_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:official_delegated_cash_distribution_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:cash_cny_per_10_shares_gross existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:cash_cny_per_10_shares_gross fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:1:transfer_shares_per_10 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:1:transfer_shares_per_10 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:disclosed_tax_term_0.2 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:disclosed_tax_term_0.2 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:disclosed_tax_term_0.1 existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:disclosed_tax_term_0.1 fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:tax_holding_period_unit existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202609141829372726:2:tax_holding_period_unit fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202312281615153661:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:1:completion_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:1:completion_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:1:shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:1:shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:2:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:2:confirmation_received_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202312281615153661:2:confirmation_received_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202412301641472101:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:1:completion_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:1:completion_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:1:shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:1:shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:2:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:2:confirmation_received_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202412301641472101:2:confirmation_received_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202512301811330148:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:1:completion_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:1:completion_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:1:shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:1:shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:2:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:2:confirmation_received_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202512301811330148:2:confirmation_received_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202504241661802971:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202505201676081145:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:non_distribution_proposal existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:non_distribution_proposal fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:4:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:4:non_distribution_shareholder_approval existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:4:non_distribution_shareholder_approval fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:proposal_board_meeting_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:proposal_board_meeting_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:1:shareholder_meeting_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202505201676081145:1:shareholder_meeting_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202604141821191382:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202605081822079377:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:1:non_distribution_proposal existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:1:non_distribution_proposal fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:3:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:3:non_distribution_shareholder_approval existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:3:non_distribution_shareholder_approval fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:1:proposal_board_meeting_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191382:1:proposal_board_meeting_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:1:shareholder_meeting_date existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202605081822079377:1:shareholder_meeting_date fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202304191585591293:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202304191585591293:77:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2022-12-31:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202308301596833817:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202308301596833817:43:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2023-06-30:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:79:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2023-12-31:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202408261639461683:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202408261639461683:38:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2024-06-30:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202504241661802959:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802959:71:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2024-12-31:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202508251734295811:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202508251734295811:36:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2025-06-30:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202604141821191363:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202604141821191363:69:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2025-12-31:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202608250006749021:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:total_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:total_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:limited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:limited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:unlimited_shares existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202608250006749021:32:unlimited_shares fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "2026-06-30:share classes sum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:114:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:114:capital_and_administrative_dates existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202404151630235965:114:capital_and_administrative_dates fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306281591781833:PDF hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306281591781833:one official directory match",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "name": "AN202306281591781833:official date agrees with vendor date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306281591781833:official copy hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306281591781833:1:database native page exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306281591781833:1:contemporaneous_notice_only_says_recently existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202306281591781833:1:contemporaneous_notice_only_says_recently fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all adjacent total capital bridges reconcile",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:planned_aggregate_cash existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202405151633180433:1:planned_aggregate_cash fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:later_reported_2024_cash_aggregate existing page token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "AN202504241661802971:1:later_reported_2024_cash_aggregate fresh PDF token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no exact first publication time manufactured",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all main historic feature gates retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no period end used as daily share-nature change date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "nontrade transfers not counted as added capital",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "zero new economic dividend events",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "main database byte unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "all_passed": true
+}

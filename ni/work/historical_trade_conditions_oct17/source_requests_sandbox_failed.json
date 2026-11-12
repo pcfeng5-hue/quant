@@ -1,0 +1,82 @@
+[
+  {
+    "name": "rules_2021_pdf",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020210331716400647184.pdf",
+    "retrieved_at": "2026-10-18T03:10:40.875995+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "rules_2023_notice",
+    "url": "https://investor.szse.cn/lawrules/index/rule/t20230217_598773.html",
+    "retrieved_at": "2026-10-18T03:10:40.876419+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "rules_2026_notice",
+    "url": "https://investor.szse.cn/lawrules/rule/trade/t20260424_620190.html",
+    "retrieved_at": "2026-10-18T03:10:40.876543+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "rules_2026_pdf",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+    "retrieved_at": "2026-10-18T03:10:40.876634+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "fee_reduction_2023",
+    "url": "https://www.szse.cn/disclosure/notice/t20230818_602805.html",
+    "retrieved_at": "2026-10-18T03:10:40.892220+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "fees_current",
+    "url": "https://investor.szse.cn/marketServices/deal/payFees/index.html",
+    "retrieved_at": "2026-10-18T03:10:40.892480+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "stamp_reduction_2023",
+    "url": "https://shanxi.chinatax.gov.cn/web/detail/sx-11400-545-1780448",
+    "retrieved_at": "2026-10-18T03:10:40.892727+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "szse_suspension_202301",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230202548759938270.html",
+    "retrieved_at": "2026-10-18T03:10:40.892958+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "szse_month_index",
+    "url": "https://www.szse.cn/market/periodical/month/index.html",
+    "retrieved_at": "2026-10-18T03:10:40.899989+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "chinaclear_history",
+    "url": "https://m.chinaclear.cn/zdjs/dsj/about_dsj.shtml",
+    "retrieved_at": "2026-10-18T03:10:40.900364+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  }
+]

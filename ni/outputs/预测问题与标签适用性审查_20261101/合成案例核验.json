@@ -1,0 +1,102 @@
+{
+  "all_checks_passed": true,
+  "passed": 23,
+  "total": 23,
+  "checks": [
+    {
+      "check": "S01_exact_common_wealth_2040_2140_delta100",
+      "passed": true
+    },
+    {
+      "check": "S02_wait_costs_80",
+      "passed": true
+    },
+    {
+      "check": "S03_cash_path_not_zero_return_trade",
+      "passed": true
+    },
+    {
+      "check": "S04_cash_preserves_210",
+      "passed": true
+    },
+    {
+      "check": "S05_price_positive_net_negative",
+      "passed": true
+    },
+    {
+      "check": "S06_zero_is_not_strict_price_fall",
+      "passed": true
+    },
+    {
+      "check": "S07_negative_expected_return_point002",
+      "passed": true
+    },
+    {
+      "check": "S08_profitable_end_and_30pct_price_MAE",
+      "passed": true
+    },
+    {
+      "check": "S09_same_OHLC_opposite_first_hit",
+      "passed": true
+    },
+    {
+      "check": "S10_same_day_exit_rejected",
+      "passed": true
+    },
+    {
+      "check": "S11_unfilled_trade_return_NULL",
+      "passed": true
+    },
+    {
+      "check": "S12_partial_fill_net30",
+      "passed": true
+    },
+    {
+      "check": "S13_unidentified_result_kept_NULL",
+      "passed": true
+    },
+    {
+      "check": "S14_mechanical_price_drop_not_wealth_loss",
+      "passed": true
+    },
+    {
+      "check": "S15_complement_point4_is_not_point3",
+      "passed": true
+    },
+    {
+      "check": "S16_confirmation_day4_not_liquidatable_by_T5",
+      "passed": true
+    },
+    {
+      "check": "S17_all_three_mismatches_rejected",
+      "passed": true
+    },
+    {
+      "check": "S18_NAV2095_not_realized_cash2090",
+      "passed": true
+    },
+    {
+      "check": "S19_later_information_excluded",
+      "passed": true
+    },
+    {
+      "check": "S20_observed_and_planned_clock_distinct",
+      "passed": true
+    },
+    {
+      "check": "S21_common_T_keeps_wait_worse_and_wrong_later_endpoint_flips_ranking",
+      "passed": true
+    },
+    {
+      "check": "invalid_synthetic_money_quantity_price_and_budget_rejected",
+      "passed": true
+    },
+    {
+      "check": "all_cases_explicitly_synthetic",
+      "passed": true
+    }
+  ],
+  "synthetic_case_count": 21,
+  "new_real_market_targets": 0,
+  "new_models": 0
+}

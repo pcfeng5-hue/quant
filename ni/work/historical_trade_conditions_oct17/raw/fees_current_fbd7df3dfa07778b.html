@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+<!--   <title>深交所主页</title>   -->
+<script>
+    var title = '<a href="./" class="CurrChnlCls">深交所收费</a> ';
+    title = title.substring(title.indexOf('>')+1,title.indexOf('</'));
+    document.write('<title>深圳证券交易所-'+ title +'</title>')
+</script>
+<script>
+  if(location.protocol == 'https:'){
+    document.write('<link href="https://res.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }else{
+    document.write('<link href="http://res.static.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta http-equiv="cache-control" content="max-age=0">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="expires" content="Web, 26 Feb 1997 08:21:57 GMT">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="author" content="www.szse.cn">
+<meta name="description" content="深交所官网">
+<meta name="keywords" content="深交所,深交所官网,深圳证券交易所,交易所,交易所官网,深圳证券交易所官网">
+<meta name="renderer" content=webkit>
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google" value="notranslate"> 
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta name="browermode" content="application">
+<meta name="x5-orientation" content="portrait">
+<meta name="HandheldFriendly" content="true">
+<script type="text/javascript">
+	var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;//android终端
+
+	function addElementMeta(name,  content) {
+		var head = document.getElementsByTagName('head')[0];
+		var meta = document.createElement('meta');
+
+		meta.setAttribute('name', name);
+		meta.setAttribute('content', content);
+		head.appendChild(meta);
+	}
+	if(isAndroid) {
+		addElementMeta('x5-fullscreen', 'true');
+		addElementMeta('x5-page-mode', 'app');
+	}
+</script> 
+    <script>
+  (function () {
+    var _versionDate = new Date().getTime();
+    if (location.protocol == 'https:') {
+      var _path = 'https://res.szse.cn';
+    } else {
+      var _path = 'http://res.static.szse.cn';
+    }
+    // _path = _path.replace(".static.", ".");
+    //var _path = 'http://res.szse.cn';
+    //document.write( " <script src='" + _path + "/common/js/first.js?random=" + _versionDate + "'> <\/script> ");
+    var _host = 'http://www.szse.cn';
+    if (location.protocol == 'https:') {
+      _host = 'https://www.szse.cn';
+    }
+
+
+    var backDomain = 'http://www.sse.org.cn'
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    if (backDomain && window.location.host.match(reg)[2] === backDomain.match(reg)[2]) {
+      _host = 'http://www.sse.org.cn';
+      _path = 'http://res.static.sse.org.cn';
+      if (location.protocol == 'https:') {
+        _host = 'https://www.sse.org.cn';
+        _path = 'https://res.static.sse.org.cn';
+      }
+
+    }
+
+    _path = _path.replace(".static.", ".");
+
+    document.write(" <script src='" + _host + "/szsePath.js?random=" + _versionDate + "'> <\/script> "
+      + " <script src='" + _path + "/common/js/concatversion.js?random=" + _versionDate + "'> <\/script> ");
+  }());
+</script>
+
+<script>
+
+  function backDomainLinkSwitch(value, type) {
+    var _port = location.port ? (":" + location.port) : "";
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    var urlRegx = /(.*)(http:|https:)(\/\/)(([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+))\.?(:\d+)?(.*)/;
+
+    // html字符串替换
+    if (type == 'str') {
+      var strArr = value.split("=");
+      strArr = strArr.map(function (v) {
+        var host = reg.test(v) ? v.match(reg)[0] : null;
+        if (pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:' && urlRegx.test(v)) {
+            v = v.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            v = v.replace(pathObj.main_host, pathObj.back_host);
+          }
+        }
+        return v
+      });
+      value = strArr.join("=");
+      return value;
+    }
+
+    // a标签地址替换
+    if (type === 'A') {
+      var eleA = document.querySelectorAll(value);
+      for (var i = 0; i < eleA.length; i++) {
+        var href = eleA[i].getAttribute("href");
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:') {
+            href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleA[i].setAttribute('href', href);
+        }
+      }
+    }
+
+    // 单链接替换
+    if (type === "link") {
+      if (window.location.protocol == 'https:' && !!value) {
+        value = value.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+      };
+      if (pathObj.current_host === pathObj.back_host) {
+        var host = reg.test(value) ? value.match(reg)[0] : null;
+        if (value && pathObj.szseHosts.indexOf(host) > -1) {
+          value = value.replace(pathObj.main_host, pathObj.back_host);
+        }
+      }
+      return value;
+    }
+
+    // 背景图地址更换
+    if (type === "background") {
+      var eleBg = document.querySelectorAll(value);
+      for (var i = 0; i < eleBg.length; i++) {
+        var href = eleBg[i].style.backgroundImage;
+        if (window.location.protocol == 'https:' && !!href) {
+          href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+        };
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleBg[i].style.backgroundImage = href;
+        }
+      }
+    }
+
+  }
+
+</script>
+
+<script>
+   if(document.cookie.indexOf('ft_language=1')>-1){
+    var style = document.createElement('style');
+    style.textContent='body{visibility:hidden;}';
+    document.head.appendChild(style);
+  }
+</script>
+<script>
+    addComCssFile()
+</script>
+    <style>
+        .des{overflow:auto;}
+    </style>
+</head>
+<body>
+<script>
+  navMenuAJAX('/application/publicindex/header/index.html', '/application/publicindex/header/index.html', 'header', 'www');
+</script>
+<div class="g-locationnav">
+    <div class="banner-wrap">
+      <img src="http://res.static.szse.cn/common/images/legalrules-banner.jpg" />
+    </div>
+    <div class="g-container">
+      <div class="g-banner-txt">
+            <h2 class="hidden-xs">深交所收费</h2>
+            <p>
+              <img src="http://res.static.szse.cn/common/icon/er-banneradr.png" />位置：<a href="../../" class="CurrChnlCls">市场服务</a>/<a href="../" class="CurrChnlCls">交易服务</a>/<a href="./" class="CurrChnlCls">深交所收费</a>
+            </p>
+          </div>
+    </div>
+</div>
+<div class="g-container-wrap">
+    <div class="g-container">
+        <div class="g-sidemenu">
+            
+
+<div class="menu-container">
+	<h2 class="title">市场服务</h2>
+	<div class="side-menu-container">
+		<ul class="side-menu-con">
+           <li class="level1 last" type="0" chnlcode="serviceBuild_news">
+
+			            <a href="../../../marketServices/info/index.html">
+					<div>服务体系建设纲要
+					
+					</div>
+				</a>
+				
+	  </li>
+            <li class="level1" type="0" chnlcode="listingCompany_news">
+
+			        <a> 
+					<div>拟上市企业服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+            <li class="level2" type="0" chnlcode="nssqyfw-xzws">
+
+			        <a> 
+					<div>选择我所
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level3 last" type="0" chnlcode="nssqyfw-xzws-sctx">
+
+			            <a href="../../../marketServices/listing/select/marketSystem/index.html">
+					<div>市场体系
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level3 last" type="0" chnlcode="nssqyfw-xzws-fwln">
+
+			            <a href="../../../marketServices/listing/select/serviceConcept/index.html">
+					<div>服务理念
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level3 last" type="0" chnlcode="nssqyfw-xzws-ssxy">
+
+			            <a href="../../../marketServices/listing/select/listEffect/index.html">
+					<div>上市效应
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level3 last" type="0" chnlcode="nssqyfw-xzws-wsys">
+
+			            <a href="../../../marketServices/listing/select/advantage/index.html">
+					<div>我所优势
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+           <li class="level2 last" type="0" chnlcode="nssqyfw_report_news">
+
+			            <a href="../../../marketServices/listing/report/index.html">
+					<div>上市报道
+					
+					</div>
+				</a>
+				
+	  </li>
+            <li class="level2" type="0" chnlcode="nssqyfw-scpy">
+
+			        <a> 
+					<div>市场培育
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level3 last" type="0" chnlcode="nssqyfw-scpy-scpyhz">
+
+			            <a href="../../../marketServices/listing/cultivetion/cooperation/index.html">
+					<div>市场培育合作
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level3 last" type="0" chnlcode="nssqyfw-scpy-scpyjd">
+
+			            <a href="../../../marketServices/listing/cultivetion/base/index.html">
+					<div>市场培育基地
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+				</ul>
+	  </li>
+           <li class="level1 last" type="0" chnlcode="markeCompany">
+
+			            <a href="../../../marketServices/marker/index.html">
+					<div>上市公司服务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level1 last" type="0" chnlcode="marketMember_news">
+
+			            <a href="../../../marketServices/meber/index.html">
+					<div>会员服务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level1 last" type="0" chnlcode="marketFundCompany_news">
+
+			            <a href="../../../marketServices/fund/index.html">
+					<div>基金公司服务
+					
+					</div>
+				</a>
+				
+	  </li>
+            <li class="level1" type="0" chnlcode="investor_news">
+
+			        <a> 
+					<div>投资者服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level2 last" type="0" chnlcode="investorGuide">
+
+			            <a href="../../../marketServices/investor/inguide/index.html">
+					<div>投资者服务指引
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="investorDemand">
+
+			            <a href="../../../marketServices/investor/service/index.html">
+					<div>投资者热线
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="11" chnlcode="inverstors_link">
+
+			           <a href="http://investor.szse.cn" target='_blank'>
+					<div>投资者教育
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+           <li class="level1 last" type="0" chnlcode="mediaService_news">
+
+			            <a href="../../../marketServices/media/index.html">
+					<div>媒体服务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level1 active" chnlcode="dealService">
+
+			        <a class="dropup">
+					<div>交易服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level2 last" type="11" chnlcode="szse_link">
+
+			           <a href="http://www.szse.cn/szhk/index.html" target='_blank'>
+					<div>深港通
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="11" chnlcode="shareOption_Link">
+
+			           <a href="http://www.szse.cn/option/" target='_blank'>
+					<div>股票期权
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="marginTrancheBus_news">
+
+			            <a href="../../../marketServices/deal/finance/index.html">
+					<div>融资融券及转融通业务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="dealserviceAsset_news">
+
+			            <a href="../../../marketServices/deal/asset/index.html">
+					<div>资管计划份额转让
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="stockrepoBusinessIntro_news">
+
+			            <a href="../../../marketServices/deal/stockrepo/index.html">
+					<div>股票质押式回购交易
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="dealservicePromiserepo_news">
+
+			            <a href="../../../marketServices/deal/dealservicePromiserepo/index.html">
+					<div>质押式报价回购交易
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="agreedRepurchase_news">
+
+			            <a href="../../../marketServices/deal/agreedRepurchase/index.html">
+					<div>约定购回式证券交易
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="networkVoting_news">
+
+			            <a href="../../../marketServices/deal/voting/index.html">
+					<div>网络投票
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="splitShareReform_news">
+
+			            <a href="../../../marketServices/deal/reform/index.html">
+					<div>股权分置改革
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="non-tradableShares_news">
+
+			            <a href="../../../marketServices/deal/shares/index.html">
+					<div>非流通股转让业务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 active last" chnlcode="payFees">
+
+			            <a href="../../../marketServices/deal/payFees/index.html">
+					<div>深交所收费
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+            <li class="level1" type="0" chnlcode="sustainablefinanceZone">
+
+			        <a> 
+					<div>可持续金融服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level2 last" type="11" chnlcode="sustainablefinance_link">
+
+			           <a href="http://www.szse.cn/sustainablefinance/index.html" target='_blank'>
+					<div>可持续金融服务专区
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+           <li class="level1 last" type="0" chnlcode="technicalservice">
+
+			            <a href="../../../marketServices/technicalservice/index.html">
+					<div>技术服务
+					
+					</div>
+				</a>
+				
+	  </li>
+            <li class="level1" type="0" chnlcode="messageService">
+
+			        <a> 
+					<div>信息服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level2 last" type="11" chnlcode="cninfo_link">
+
+			           <a href="http://www.cninfo.com.cn/fwsq/hq/yw-2.htm" target='_blank'>
+					<div>数据服务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="CAService">
+
+			            <a href="../../../marketServices/message/ca/index.html">
+					<div>CA服务
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="szIndex">
+
+			            <a href="../../../marketServices/message/index/index.html">
+					<div>深证指数
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="delistionPeriod_news">
+
+			            <a href="../../../marketServices/message/period/index.html">
+					<div>退市整理期股票信息
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+            <li class="level1" type="0" chnlcode="training_news">
+
+			        <a> 
+					<div>培训服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level2 last" type="11" chnlcode="SMEHome_link">
+
+			           <a href="https://smehome.szse.cn/" target='_blank'>
+					<div>中小企业之家
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="11" chnlcode="szseGrowthCollege_link">
+
+			           <a href="https://czxy.homeforsmes.com.cn" target='_blank'>
+					<div>深交所创新成长学院
+					
+					</div>
+				</a>
+				
+	  </li>
+           <li class="level2 last" type="0" chnlcode="trainingIntroduce">
+
+			            <a href="../../../marketServices/training/introduce/index.html">
+					<div>培训服务介绍
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+            <li class="level1" type="0" chnlcode="technologyService">
+
+			        <a> 
+					<div>科技金融服务
+					
+					  <b class="caret"></b>
+					</div>
+				</a>
+				
+				<ul>
+           <li class="level2 last" type="11" chnlcode="achievementIntellectualTradeCenter">
+
+			           <a href="https://www.szte.com" target='_blank'>
+					<div>深交所科技成果与知识产权交易中心
+					
+					</div>
+				</a>
+				
+	  </li>
+				</ul>
+	  </li>
+		</ul>
+	</div>
+</div>
+
+
+        </div>
+        <div class="g-content">
+            <div class="g-conbox">
+              
+                  <div class="right-html">
+                    <div class="g-contitle">
+                      <h2 class="title">
+                        <script type="text/javascript">
+                            var channelName = '深交所收费';
+                            var column = 'payFees';
+                            if(column==='usAdvantage'){
+                                document.write('深交所优势');
+                            }else if((column!=='contactus_news')&&(column!=='self_regulatorList')&&(column!=='marketServiceList')&&(channelName.substring(0,3) !== '深交所')){
+                                document.write('深交所' + '深交所收费');
+                            }else{
+                              document.write('深交所收费');
+                            }
+                        </script>
+                        
+                      </h2>
+                    </div>
+                    <div class="des">
+                      <p class="MsoNormal" align="left" style="line-height: 200%;"><span style="font-family: 宋体; font-size: 12pt;"><b><span style="line-height: 200%;">一、深交所收费管理办法<span lang="EN-US"><o:p></o:p></span></span></b></span></p>
+<p class="MsoNormal" align="left" style="text-indent: 24.1pt; line-height: 200%;"><span style="font-family: 宋体; font-size: 12pt;"><a href="http://docs.static.szse.cn/www/marketServices/deal/payFees/W020200228805325484325.pdf" target="_blank" rel="noopener" oldsrc="W020200228805325484325.pdf">《深圳证券交易所业务收费管理办法》<i class="arror-icon"></i></a></span></p>
+<p class="MsoNormal" style="margin: 0pt; padding: 0pt; line-height: 200%;"><span style="font-family: 宋体; font-size: 12pt;"><b><span style="line-height: 200%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span face="宋体">二、</span></span></b></span><b><span style="font-family: 宋体; line-height: 200%; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span face="宋体" style="font-family: 宋体;">深交所收费及代收税费标准（</span><span face="宋体" style="font-family: 宋体;">2026年1月）</span></span></b><b><span style="font-family: 宋体; line-height: 200%; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">&nbsp;</span></b></p>
+<p class="MsoNormal" style="margin: 0pt; padding: 0pt; line-height: 16.8pt;"><b><span style="font-family: 宋体; color: #333333; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></b><span style="mso-spacerun: 'yes'; font-family: Calibri; mso-fareast-font-family: 宋体; mso-bidi-font-family: 'Times New Roman'; font-size: 10.5000pt; mso-font-kerning: 1.0000pt;"><o:p></o:p></span></p>
+<div align="center">
+<table class="MsoNormalTable" border="0" cellspacing="0" style="border-collapse: collapse; width: 611.2000pt; border: none; mso-padding-alt: 0.0000pt 0.0000pt 0.0000pt 0.0000pt;">
+<tbody>
+<tr style="height: 18.6000pt;">
+<td width="91" valign="center" style="width: 68.3000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; mso-border-left-alt: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; mso-border-top-alt: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext; border: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><b><span style="font-family: 宋体; font-size: 12pt;">收费对象</span></b><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="102" valign="center" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: 1.0000pt solid windowtext; mso-border-top-alt: 1.0000pt solid windowtext; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><b><span style="font-family: 宋体; font-size: 12pt;">收费项目</span></b><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: 1.0000pt solid windowtext; mso-border-top-alt: 1.0000pt solid windowtext; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><b><span style="font-family: 宋体; font-size: 12pt;">收费标的</span></b><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: 1.0000pt solid windowtext; mso-border-top-alt: 1.0000pt solid windowtext; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><b><span style="font-family: 宋体; font-size: 12pt;">收费标准</span></b><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: 1.0000pt solid windowtext; mso-border-top-alt: 1.0000pt solid windowtext; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><b><span style="font-family: 宋体; font-size: 12pt;">备注</span></b><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="91" valign="center" rowspan="17" style="width: 68.3000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: 1.0000pt solid windowtext; mso-border-left-alt: 1.0000pt solid windowtext; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">投资者</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="102" valign="center" rowspan="14" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">证券交易</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">经手费</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">A股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" rowspan="2" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">按成交额双边收取</span><span face="宋体" style="font-family: 宋体;">0.0341‰</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" rowspan="12" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin-top: 0pt; margin-right: 0pt; margin-bottom: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1.大宗交易收费：A股大宗交易按标准费率下浮30%收取；B股、基金大宗交易按标准费率下浮50%收取。2.约定购回式证券交易参照相应品种大宗交易收费标准执行。3.债券ETF、货币ETF暂免收取证券交易经手费。4.资产管理计划份额转让暂免收取转让经手费。5.自2022年7月1日起至2026年12月31日免收债券（不含可转债）及资产支持证券的交易经手费。6.自2023年8月28日起，本所A股、B股交易经手费收费标准由按成交金额的0.0487‰双边收取下调至按成交金额的0.0341‰双边收取。</span><span style="font-family: 宋体; font-size: 12pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-top: 0pt; margin-right: 0pt; margin-bottom: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">B股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">基金</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">按成交额双边收取</span><span face="宋体" style="font-family: 宋体;">0.04‰</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">优先股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">试点期间按普通股标准的</span><span face="宋体" style="font-family: 宋体;">80%收取</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">权证</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">按成交额双边收取</span><span face="宋体" style="font-family: 宋体;">0.045‰</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">国债现货</span><span face="宋体" style="font-family: 宋体;">/地方债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" rowspan="4" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">成交金额在</span><span face="宋体" style="font-family: 宋体;">100万元以下（含）每笔收0.1元；成交金额在100万元以上每笔收10元。</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">企业债</span><span face="宋体" style="font-family: 宋体;">/公司债现货</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">资产支持证券</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">政策性金融债</span><span face="宋体" style="font-family: 宋体;">/铁道债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">债券通用质押式回购</span><span face="宋体" style="font-family: 宋体;">/债券质押式协议回购/</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">债券质押式三方回购</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">股票质押式回购</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">按每笔初始交易质押标的证券面值</span><span face="宋体" style="font-family: 宋体;">1‰收取，最高不超过100元。</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">可转换公司债</span><span face="宋体" style="font-family: 宋体;">/可交换公司债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">按成交金额双边收取</span><span face="宋体" style="font-family: 宋体;">0.04‰</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="top" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">质押式报价回购</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="top" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.7500pt 0.7500pt 0.7500pt 0.7500pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">股票期权合约</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">每张股票期权合约收取交易经手费</span><span face="宋体" style="font-family: 宋体;">1.3元</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.7500pt 0.7500pt 0.7500pt 0.7500pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">股票期权试点初期暂免收取卖出开仓交易（含备兑开仓）的相应交易经手费</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="center" rowspan="3" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">证券交易</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">监管费</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">A股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" rowspan="3" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">按成交额双边收取</span><span face="宋体" style="font-family: 宋体;">0.02‰</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" rowspan="3" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">代中国证监会收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">B股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">优先股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="91" valign="center" rowspan="13" style="width: 68.3000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: 1.0000pt solid windowtext; mso-border-left-alt: 1.0000pt solid windowtext; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">发行人</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="102" valign="center" rowspan="7" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">上市初费</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">A股/B股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">总股本</span><span face="宋体" style="font-family: 宋体;">2亿以下（含），30万元；总股本2亿至4亿（含），45万元；总股本4亿至6亿（含），55万元；总股本6亿至8亿（含），60万元；总股本8亿以上，65万元。</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1.自2021年6月1日起，本所暂免收取总股本8亿股（含）以下的上市公司上市初费；总股本8亿股以上的上市公司上市初费，本所在此标准上减半取整后再减半收取，即17.5万元；创业板再减半收取，即8.75万元。总股本为A、B股合计。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">2.免收深市上市公司2022年度至2026年度上市初费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">优先股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">试点期间按普通股标准的</span><span face="宋体" style="font-family: 宋体;">80%收取</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">基金</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">3万元</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1.暂免收取ETF上市初费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="p" style="margin: 0pt; text-indent: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">2.</span><span style="font-family: 宋体; font-size: 12pt;">免收</span><span style="font-family: 宋体; font-size: 12pt;">2022</span><span style="font-family: 宋体; font-size: 12pt;">年度</span><span style="font-family: 宋体; font-size: 12pt;">至</span><span style="font-family: 宋体; font-size: 12pt;">202</span><span style="font-family: 宋体; font-size: 12pt;">6</span><span style="font-family: 宋体; font-size: 12pt;">年度基金上市初费。</span><span style="font-family: Calibri; font-size: 12pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">权证</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">20万元</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">企业债</span><span face="宋体" style="font-family: 宋体;">/公司债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">可转换公司债</span><span face="宋体" style="font-family: 宋体;">/可交换公司债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">资产支持证券</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="center" rowspan="6" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">上市年费</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">A股/B股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">总股本</span><span face="宋体" style="font-family: 宋体;">2亿以下（含），5万元；总股本2亿至4亿（含），8万元；总股本4亿至6亿（含），10万元；总股本6亿至8亿（含），12万元；总股本8亿以上，15万元。</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1.自2021年6月1日起，本所暂免收取总股本8亿股（含）以下的上市公司上市年费；总股本8亿股以上的上市公司上市年费，本所在此标准上减半收取，即7.5万元；创业板再减半收取，即3.75万元。总股本为A、B股合计。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">2.免收深市上市公司2022年度至2026年度上市年费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">优先股</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">试点期间按普通股标准的</span><span face="宋体" style="font-family: 宋体;">80%收取</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">基金</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">6万元</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1.自2020年1月1日起，暂免收取ETF上市年费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">2.免收2022年度至2026年度基金上市年费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">企业债</span><span face="宋体" style="font-family: 宋体;">/公司债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">可转换公司债</span><span face="宋体" style="font-family: 宋体;">/可交换公司债</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">资产支持证券</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">暂免收取</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="91" valign="center" rowspan="4" style="width: 68.3000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: 1.0000pt solid windowtext; mso-border-left-alt: 1.0000pt solid windowtext; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">会员</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="102" valign="center" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">席位费</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">席位</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;"><span face="宋体" style="font-family: 宋体;">普通</span><span face="宋体" style="font-family: 宋体;">60万元/个，特别席位20万元/个。</span></span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.7500pt 0.7500pt 0.7500pt 0.7500pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="center" rowspan="3" style="width: 76.6000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" align="center" style="word-break: break-all; mso-pagination: widow-orphan; text-align: center; line-height: 16.8000pt; margin: 0.0000pt;"><span style="font-family: 宋体; font-size: 12pt;">会员管理费用</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="158" valign="center" rowspan="3" style="width: 119.0000pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">交易单元</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1．交易单元使用费：对会员使用超出交费席位（指已交席位初费的席位）数量以外的交易单元，每年收取30000元/个的交易单元使用费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal"><span style="font-family: 宋体; font-size: 12pt;">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">2．流速费：对会员使用超出交费席位（指已交席位初费的席位）数量以外的流速，每年收取9600元/份的流速费。每份流速为50笔/秒。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">2014年7月1日起，由深圳证券通信公司收取。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width="236" valign="center" style="width: 177.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">3．流量费：每笔交易类申报（指买入、卖出、撤单申报）收取0.1元，每笔非交易类申报（指除买入、卖出、撤单以外的申报）收取0.01元。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+<td width="226" valign="center" style="width: 170.1500pt; padding: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; border-left: none; mso-border-left-alt: none; border-right: 1.0000pt solid windowtext; mso-border-right-alt: 1.0000pt solid windowtext; border-top: none; mso-border-top-alt: none; border-bottom: 1.0000pt solid windowtext; mso-border-bottom-alt: 1.0000pt solid windowtext;">
+<p class="MsoNormal" style="margin: 0pt; word-break: break-all; line-height: 16.8pt;"><span style="font-family: 宋体; font-size: 12pt;">1.2014年7月1日起，本所与深圳证券通信公司按6:4比例分别收取；2.会员每个席位每年享有的交易类、非交易类免费申报笔数均为3万笔；3.债券ETF、货币ETF免收交易单元流量费；4.暂免收取流动性服务商为上市基金提供流动性服务产生的交易单元流量费；5.暂免收取期权业务相关的交易单元流量费；6.自2022年7月1日起至2026年12月31日免收债券（不含可转债）及资产支持证券流量费；7.免收深市基金2023年至2026年的交易单元流量费。</span><span style="font-family: Calibri; font-size: 10.5pt;"><o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="MsoNormal" style="margin: 5pt 0pt; padding: 0pt; line-height: 15.75pt;"><span style="mso-spacerun: 'yes'; font-family: Calibri; mso-fareast-font-family: 宋体; mso-bidi-font-family: 'Times New Roman'; font-size: 9.5000pt; mso-font-kerning: 1.0000pt;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin: 0pt; padding: 0pt; line-height: 200%;"><span style="mso-spacerun: 'yes'; font-family: Calibri; mso-fareast-font-family: 宋体; mso-bidi-font-family: 'Times New Roman'; line-height: 200%; font-size: 9.5000pt; mso-font-kerning: 1.0000pt;"><span style="font-size: 10.5pt;">&nbsp;</span>&nbsp;</span></p>
+                    </div>
+                  </div>
+                  <script>
+                      var docType = '20';
+                      var curHtml = ''; 
+                      var curBox = document.getElementsByClassName('right-html')[0];
+                          
+                      if(docType != 20){
+                        curHtml = '<p class="text-center error-wrap">'+
+                                  '<img class="error-pic" src="http://res.static.szse.cn/common/images/page_building_1.png" />'+ 
+                                  '</p>';
+                        curBox.parentNode.removeChild(curBox);        
+                        document.write(curHtml);
+                      }
+                      
+                  </script>                 
+                              
+            </div>     
+        </div>
+    </div>
+
+</div>
+<script>
+  changeVertion('/common/js/toggleBig5.js', 'js');
+  navMenuAJAX('/application/publicindex/footer/index.html','/application/publicindex/footer/index.html', 'footer','www');
+  addComJsFile();
+</script>
+</body>
+</html>

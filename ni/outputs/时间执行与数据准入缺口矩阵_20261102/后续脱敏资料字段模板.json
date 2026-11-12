@@ -1,0 +1,41 @@
+{
+  "required_now": false,
+  "not_a_request_for_credentials": true,
+  "stage": "仅供后续相应个性化使用前参考，不是当前任务前置",
+  "account_fee_fields": {
+    "effective_dates": null,
+    "commission_rate": null,
+    "minimum_charge": null,
+    "included_fee_components": null,
+    "partial_fill_aggregation": null,
+    "rounding": null,
+    "redacted_statement_reference": null
+  },
+  "account_position_fields": {
+    "cash_available": null,
+    "position_quantity": null,
+    "sellable_quantity": null,
+    "purchase_lots": null,
+    "cost_basis": null,
+    "unsettled_or_pending_orders": null
+  },
+  "corporate_action_fields": {
+    "actual_cash_receipt": null,
+    "applicable_withholding": null,
+    "eligible_quantity": null,
+    "rights_receivable_status": null
+  },
+  "use_preferences": {
+    "horizon_preference": null,
+    "maximum_wait_preference": null,
+    "allocation_and_risk_limits": null,
+    "NAV_or_cash_endpoint": null
+  },
+  "forbidden_to_request": [
+    "账户密码",
+    "验证码",
+    "完整账号",
+    "远程登录权限"
+  ],
+  "user_provides_only_if_needed_and_redacted": true
+}

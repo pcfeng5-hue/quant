@@ -1,0 +1,119 @@
+{
+  "contract": {
+    "experiment_id": "002414_daily_engineering_20261025_v1",
+    "client_date": "2026-10-25",
+    "status": "registered_retrospective_engineering_example",
+    "user_authorization": "2026-10-25 好的 123 开始",
+    "source_database": "outputs/统一数据底座_20261022/统一数据底座.sqlite",
+    "source_view": "stock_raw_reference",
+    "source_choice": "existing fixed eastmoney raw snapshot through 2026-10-21; no new market collection",
+    "calculation_start": "2022-06-01",
+    "calculation_start_reason": "Avoid the unbridged 2022-05-26 raw-price discontinuity in the available warmup; no claim that 2022 corporate actions are complete.",
+    "research_start": "2023-01-03",
+    "development_start": "2023-01-03",
+    "development_end": "2024-12-31",
+    "unused_result_periods_this_run": [
+      "2025",
+      "2026"
+    ],
+    "unused_is_not_certified_untouched": true,
+    "horizon_observed_sessions": 5,
+    "horizon_is_engineering_example_not_final_user_freeze": true,
+    "price_change_definition": "C[t+5]/O[t+1]-1, next observed session open to fifth observed session close; not a fill or trading-return claim",
+    "outcome_signs": [
+      "price_change_gt_0",
+      "price_change_eq_0",
+      "price_change_lt_0"
+    ],
+    "final_direction_thresholds_unmodified": true,
+    "price_handling": "Unadjusted prices, segmented at the three known 2023+ ex-dates. Finite windows cannot cross segments, recursive states restart; no current qfq snapshot input.",
+    "label_exclusion": "Drop windows with a known ex-date between entry and outcome, inclusive; drop outcome ends after development_end before calculating their outcome values.",
+    "ma_windows": [
+      5,
+      10,
+      15
+    ],
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9,
+      "ema_seed": "first segment close",
+      "adjust": false,
+      "histogram_multiplier": 2,
+      "minimum_segment_bars": 130
+    },
+    "kdj": {
+      "window": 9,
+      "k_alpha": "1/3",
+      "d_alpha": "1/3",
+      "seed_k": 50,
+      "seed_d": 50,
+      "flat_range_rsv": 50,
+      "minimum_segment_bars": 30,
+      "j_clipped": false
+    },
+    "volume": {
+      "ratios": [
+        5,
+        20
+      ],
+      "denominator": "previous n segment observations excluding current",
+      "spike_threshold": 1.5,
+      "unit": "same-provider native ratio; no stock/index unit conversion"
+    },
+    "registered_signals": [
+      "MA5_cross_above_MA10",
+      "MA5_cross_below_MA10",
+      "MACD_DIF_cross_above_DEA",
+      "MACD_DIF_cross_below_DEA",
+      "K_cross_above_D",
+      "K_cross_below_D",
+      "MA5_gt_MA10_gt_MA15_and_MA15_rising",
+      "MA5_lt_MA10_lt_MA15_and_MA15_falling",
+      "volume_gt_1p5_prev20_and_close_rising",
+      "volume_gt_1p5_prev20_and_close_falling",
+      "MA_bull_cross_and_DIF_gt_DEA",
+      "MA_bear_cross_and_DIF_lt_DEA"
+    ],
+    "registered_variant_count": 12,
+    "selection_policy": "All registered rows reported in fixed order; no ranking, optimizing thresholds, or selecting a winning combination.",
+    "frequency_policy": "Development descriptive frequencies only, matched eligible-feature baseline for each signal. Report raw overlapping observation count and fixed every-fifth-anchor sensitivity; neither count is declared independent trials.",
+    "interval_policy": "No IID binomial confidence intervals or forecasts supplied in this engineering batch.",
+    "daily_status_certified": false,
+    "st_exclusion_certified": false,
+    "fees_or_fills_modelled": false,
+    "formal_historical_model_input_approved": false,
+    "runtime_usable": false,
+    "original_forecast_protocol_modified": false,
+    "technical_reference_urls": [
+      "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ewm.html",
+      "https://ta-lib.org/functions/"
+    ]
+  },
+  "source_hashes": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee"
+  },
+  "contract_sha256": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+  "input_bars": 1160,
+  "research_dates": 918,
+  "available_warmup_dates": 242,
+  "used_warmup_dates": 146,
+  "known_ex_dates": [
+    "2023-06-20",
+    "2024-05-24",
+    "2026-09-22"
+  ],
+  "development_anchors": 484,
+  "development_outcomes": 469,
+  "label_exclusions": {
+    "KNOWN_EX_DATE_WITHIN_PRICE_WINDOW": 10,
+    "OUTCOME_END_CROSSES_DEVELOPMENT_BOUNDARY": 5
+  },
+  "development_calendar_evidence_missing": 0,
+  "all_gates_closed": true,
+  "no_2025_2026_outcomes_generated": true,
+  "formal_st_exclusion_certified": false,
+  "not_a_forecast": true
+}

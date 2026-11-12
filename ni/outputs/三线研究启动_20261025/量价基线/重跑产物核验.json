@@ -1,0 +1,19 @@
+{
+  "rerun_exit_code": 0,
+  "same_core_files": 11,
+  "all_byte_identical": true,
+  "file_sha256": {
+    "固定信号_不含未来结果.csv": "38aeea64917efd59d7bb2de0d3806e7fc473e9e3e58279ebac38b294badb95c7",
+    "验证结果.json": "7bc62c633c76a5bd8527cbead3dcba7d036830f33381dc4beef98be985bf093b",
+    "开发期剔除记录.csv": "76407a21c5e095a4e3229c5648ca6c2c7b561da9549c89ce00303b6203f84aa0",
+    "运行合同.json": "2a098de33b13b4eb93173569bb64f79e51c8820c0a92c243b8d19d70839360af",
+    "指标可计算覆盖.csv": "280179949a9466c75eada796b3062044d00f601707f497cb8d5cb49079bb3ce7",
+    "日线指标_1160日含预热.csv": "f8f1bcd876ecc6ee88c2ed8b84c3220b7e8f8de8b2a401851c575b36e2746811",
+    "日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "开发期描述统计_非预测概率.csv": "d0e4b94834ac3a0fc71d7ec0db286e2a6cccfd8db29ca7579930e28746e39eda",
+    "量价基线报告.md": "eda18677cd8f3fe370377d1ea24560b04eccfb282b376c0093ebe0684857d456",
+    "开发期价格结果_仅2023至2024.csv": "ed066f6c3c1643e17b8fe086a5f3b2254b638bd588a18b464193d3f12d935502"
+  },
+  "scope": "complete builder rerun; independent audit copied after the deterministic core comparison"
+}

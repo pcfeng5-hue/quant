@@ -1,0 +1,214 @@
+{
+  "status": "independent_arithmetic_reference_not_an_effectiveness_claim",
+  "contract_sha256": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+  "source_hashes": {
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9"
+  },
+  "read_label_period": [
+    "2023-01-03",
+    "2024-12-31"
+  ],
+  "folds": [
+    {
+      "fold": "F1_2023Q3",
+      "train_n": 106,
+      "train_positive": 50,
+      "train_last_anchor": "2023-06-12",
+      "train_last_label_end": "2023-06-19",
+      "validation_n": 51,
+      "validation_first_scored_anchor": "2023-07-13",
+      "validation_last_scored_anchor": "2023-09-21",
+      "p0": 0.4722222222222222,
+      "groups": {
+        "up": {
+          "n": 28,
+          "positive": 16,
+          "p": 0.5300925925925926
+        },
+        "down": {
+          "n": 34,
+          "positive": 17,
+          "p": 0.4897119341563786
+        },
+        "other": {
+          "n": 44,
+          "positive": 17,
+          "p": 0.4131944444444444
+        }
+      }
+    },
+    {
+      "fold": "F2_2023Q4",
+      "train_n": 157,
+      "train_positive": 69,
+      "train_last_anchor": "2023-09-21",
+      "train_last_label_end": "2023-09-28",
+      "validation_n": 55,
+      "validation_first_scored_anchor": "2023-10-09",
+      "validation_last_scored_anchor": "2023-12-22",
+      "p0": 0.44025157232704404,
+      "groups": {
+        "up": {
+          "n": 42,
+          "positive": 20,
+          "p": 0.4645972813958206
+        },
+        "down": {
+          "n": 52,
+          "positive": 25,
+          "p": 0.4695143256464011
+        },
+        "other": {
+          "n": 63,
+          "positive": 24,
+          "p": 0.3952413427294082
+        }
+      }
+    },
+    {
+      "fold": "F3_2024Q1",
+      "train_n": 217,
+      "train_positive": 98,
+      "train_last_anchor": "2023-12-22",
+      "train_last_label_end": "2023-12-29",
+      "validation_n": 53,
+      "validation_first_scored_anchor": "2024-01-02",
+      "validation_last_scored_anchor": "2024-03-22",
+      "p0": 0.4520547945205479,
+      "groups": {
+        "up": {
+          "n": 59,
+          "positive": 25,
+          "p": 0.43089994797988557
+        },
+        "down": {
+          "n": 76,
+          "positive": 37,
+          "p": 0.4795947488584475
+        },
+        "other": {
+          "n": 82,
+          "positive": 36,
+          "p": 0.44157937147461723
+        }
+      }
+    },
+    {
+      "fold": "F4_2024Q2",
+      "train_n": 275,
+      "train_positive": 124,
+      "train_last_anchor": "2024-03-22",
+      "train_last_label_end": "2024-03-29",
+      "validation_n": 34,
+      "validation_first_scored_anchor": "2024-04-01",
+      "validation_last_scored_anchor": "2024-06-21",
+      "p0": 0.45126353790613716,
+      "groups": {
+        "up": {
+          "n": 78,
+          "positive": 35,
+          "p": 0.4492374567155382
+        },
+        "down": {
+          "n": 100,
+          "positive": 46,
+          "p": 0.4585439229843562
+        },
+        "other": {
+          "n": 97,
+          "positive": 43,
+          "p": 0.44466043383010895
+        }
+      }
+    },
+    {
+      "fold": "F5_2024Q3",
+      "train_n": 314,
+      "train_positive": 138,
+      "train_last_anchor": "2024-06-21",
+      "train_last_label_end": "2024-06-28",
+      "validation_n": 59,
+      "validation_first_scored_anchor": "2024-07-01",
+      "validation_last_scored_anchor": "2024-09-23",
+      "p0": 0.439873417721519,
+      "groups": {
+        "up": {
+          "n": 83,
+          "positive": 35,
+          "p": 0.42521813936340175
+        },
+        "down": {
+          "n": 116,
+          "positive": 53,
+          "p": 0.4543931496649293
+        },
+        "other": {
+          "n": 115,
+          "positive": 50,
+          "p": 0.4355368026254102
+        }
+      }
+    },
+    {
+      "fold": "F6_2024Q4",
+      "train_n": 378,
+      "train_positive": 166,
+      "train_last_anchor": "2024-09-23",
+      "train_last_label_end": "2024-09-30",
+      "validation_n": 56,
+      "validation_first_scored_anchor": "2024-10-08",
+      "validation_last_scored_anchor": "2024-12-24",
+      "p0": 0.4394736842105263,
+      "groups": {
+        "up": {
+          "n": 95,
+          "positive": 38,
+          "p": 0.4068649885583524
+        },
+        "down": {
+          "n": 141,
+          "positive": 66,
+          "p": 0.46453089244851253
+        },
+        "other": {
+          "n": 142,
+          "positive": 62,
+          "p": 0.43697205977907727
+        }
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "scope": "all",
+      "model": "p0",
+      "n": 308,
+      "brier": 0.24738407386341996,
+      "log_loss": 0.6879169549843439
+    },
+    {
+      "scope": "all",
+      "model": "p1",
+      "n": 308,
+      "brier": 0.2503815578039674,
+      "log_loss": 0.6940065302702898
+    },
+    {
+      "scope": "fixed_every_fifth_anchor",
+      "model": "p0",
+      "n": 61,
+      "brier": 0.24949702843441368,
+      "log_loss": 0.6921601317730697
+    },
+    {
+      "scope": "fixed_every_fifth_anchor",
+      "model": "p1",
+      "n": 61,
+      "brier": 0.2506289050216291,
+      "log_loss": 0.6944847954183644
+    }
+  ],
+  "unique_scored_anchors": 308,
+  "read_2025_2026_outcomes": false
+}

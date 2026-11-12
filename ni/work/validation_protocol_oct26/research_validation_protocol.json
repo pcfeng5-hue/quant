@@ -1,0 +1,279 @@
+{
+  "protocol_id": "002414_h5_development_validation_20261026_v1",
+  "registration_kind": "assistant_fixed_research_choices_not_user_trading_authorization",
+  "status": "assistant_research_only_frozen_v1",
+  "scope": {
+    "symbol": "002414.SZ",
+    "source": "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite",
+    "outcomes": "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite",
+    "development_start": "2023-01-03",
+    "development_end": "2024-12-31",
+    "allowed_now": [
+      "development_walk_forward",
+      "fold_pipeline",
+      "probability_metric_pipeline",
+      "coverage_audit",
+      "leakage_audit"
+    ],
+    "read_2025_outcomes_now": false,
+    "read_2026_outcomes_now": false,
+    "development_was_already_explored": true,
+    "reserved_periods_are_certified_untouched": false,
+    "future_calibration_candidate": "2025; not opened in this round",
+    "future_final_assessment_candidate": "2026; known cases exist; cannot claim untouched confirmation",
+    "future_truly_unseen_evidence": "freeze first, then collect prospective outcomes",
+    "research_fitting_allowed_with_disclosed_data_limits": true,
+    "formal_model_input_approved": false,
+    "runtime_usable": false,
+    "original_protocol_modified": false,
+    "risk_rules_modified": false
+  },
+  "event": {
+    "horizon_observed_sessions": 5,
+    "reference_price_change": "close[t+5] / open[t+1] - 1",
+    "target": "Y = 1 iff reference_price_change > 0; else Y = 0",
+    "zero_change_rule": "Non-positive class; preserve separate zero count in every report",
+    "not_the_old_up_neutral_down_definition": true,
+    "label_end_is_actual_observation_date": true,
+    "exclude_known_ex_dates_in_entry_to_outcome_inclusive": true,
+    "outcome_end_must_be_at_or_before": "2024-12-31",
+    "not_execution_or_net_profit_event": true,
+    "not_certified_ST_excluded_universe": true
+  },
+  "features": {
+    "inherit_formula_and_segment_resets_from": "work/baseline_oct25/engineering_contract.json",
+    "finite_windows_never_cross_segments": true,
+    "macd_minimum_segment_bars": 130,
+    "kdj_minimum_segment_bars": 30,
+    "feature_selection_reason": "Use the two already defined, evaluable MA structure signals as one three-state grouping; no outcome-frequency ranking. MACD and KDJ remain in the audited artifact but are not hard input gates in this minimal run.",
+    "group_model": {
+      "UP_STRUCTURE": "MA5_gt_MA10_gt_MA15_and_MA15_rising == 1",
+      "DOWN_STRUCTURE": "MA5_lt_MA10_lt_MA15_and_MA15_falling == 1",
+      "OTHER": "both above signals evaluable and neither equals 1",
+      "MISSING": "either above signal is unavailable; abstain"
+    },
+    "missing_is_zero": false,
+    "imputation": "none",
+    "standardization": "none; no continuous predictor in the two-model minimum",
+    "fit_transform_on_validation": false,
+    "no_date_or_segment_id_predictor": true
+  },
+  "models_in_fixed_order": [
+    {
+      "id": "M0_laplace_constant",
+      "formula": "p0 = (sum(Y_train) + 1) / (n_train + 2)",
+      "purpose": "Constant benchmark on exactly the same feature-group-evaluable training and validation dates as M1",
+      "fit_population": "Only dates with both MA up-structure and down-structure signals nonnull; same masks and minimum fitting gate as M1"
+    },
+    {
+      "id": "M1_ma_group_shrinkage",
+      "formula": "p_g = (sum(Y_train_in_g) + 20 * p0) / (n_train_in_g + 20)",
+      "pseudo_sample_strength": 20,
+      "strength_reason": "Fixed conservative smoothing for a small group model; not estimated or tuned against any outcomes in this round",
+      "unseen_evaluable_group": "p0 through the registered shrinkage formula; explicit group_train_n=0 flag",
+      "small_group_flag": "group_train_n < 30; threshold is a display warning and not an evidence certificate"
+    }
+  ],
+  "validation": {
+    "training_window": "expanding from 2023-01-03; refit once before each validation quarter",
+    "train_eligibility": "train.signal_date < validation_first_anchor AND train.outcome_end < validation_first_anchor",
+    "strict_end_rule_reason": "A label ending on the first validation day is not known before that validation block starts",
+    "validation_anchor_rule": "anchors within the registered quarter AND outcome_end <= fold validation_last_anchor; cross-quarter immature outcomes are excluded from that fold evaluation",
+    "calendar_gap_days_not_a_purge_substitute": true,
+    "random_split_allowed": false,
+    "folds": [
+      {
+        "id": "F1",
+        "validation_first_anchor": "2023-07-03",
+        "validation_last_anchor": "2023-09-28",
+        "last_training_anchor": "2023-06-12",
+        "last_training_label_end": "2023-06-19",
+        "price_train_n": 108,
+        "price_validation_n": 59,
+        "group_train_n": 106,
+        "group_validation_n": 51,
+        "last_evaluated_anchor": "2023-09-21",
+        "price_only_last_training_anchor": "2023-06-21",
+        "price_only_last_training_label_end": "2023-06-30"
+      },
+      {
+        "id": "F2",
+        "validation_first_anchor": "2023-10-09",
+        "validation_last_anchor": "2023-12-29",
+        "last_training_anchor": "2023-09-21",
+        "last_training_label_end": "2023-09-28",
+        "price_train_n": 172,
+        "price_validation_n": 55,
+        "group_train_n": 157,
+        "group_validation_n": 55,
+        "last_evaluated_anchor": "2023-12-22"
+      },
+      {
+        "id": "F3",
+        "validation_first_anchor": "2024-01-02",
+        "validation_last_anchor": "2024-03-29",
+        "last_training_anchor": "2023-12-22",
+        "last_training_label_end": "2023-12-29",
+        "price_train_n": 232,
+        "price_validation_n": 53,
+        "group_train_n": 217,
+        "group_validation_n": 53,
+        "last_evaluated_anchor": "2024-03-22"
+      },
+      {
+        "id": "F4",
+        "validation_first_anchor": "2024-04-01",
+        "validation_last_anchor": "2024-06-28",
+        "last_training_anchor": "2024-03-22",
+        "last_training_label_end": "2024-03-29",
+        "price_train_n": 290,
+        "price_validation_n": 49,
+        "group_train_n": 275,
+        "group_validation_n": 34,
+        "last_evaluated_anchor": "2024-06-21"
+      },
+      {
+        "id": "F5",
+        "validation_first_anchor": "2024-07-01",
+        "validation_last_anchor": "2024-09-30",
+        "last_training_anchor": "2024-06-21",
+        "last_training_label_end": "2024-06-28",
+        "price_train_n": 344,
+        "price_validation_n": 59,
+        "group_train_n": 314,
+        "group_validation_n": 59,
+        "last_evaluated_anchor": "2024-09-23"
+      },
+      {
+        "id": "F6",
+        "validation_first_anchor": "2024-10-08",
+        "validation_last_anchor": "2024-12-31",
+        "last_training_anchor": "2024-09-23",
+        "last_training_label_end": "2024-09-30",
+        "price_train_n": 408,
+        "price_validation_n": 56,
+        "group_train_n": 378,
+        "group_validation_n": 56,
+        "last_evaluated_anchor": "2024-12-24"
+      }
+    ],
+    "purge_example": {
+      "fold": "F2",
+      "validation_first_anchor": "2023-10-09",
+      "excluded_training_anchors": [
+        "2023-09-22",
+        "2023-09-25",
+        "2023-09-26",
+        "2023-09-27",
+        "2023-09-28"
+      ],
+      "explanation": "Their fifth observed-session outcomes end on or after 2023-10-09, despite the calendar holiday gap"
+    },
+    "fixed_grid_sensitivity": "Use every fifth original development anchor beginning 2023-01-03 globally; intersect masks after fixing the grid, do not rephase per fold or choose among five offsets",
+    "grid_is_independent_trials": false,
+    "frozen_model_within_fold": true,
+    "prior_fold_matured_validation_rows_may_join_later_training": true
+  },
+  "metrics": {
+    "primary": "mean((p - Y)^2)",
+    "secondary": "-mean(Y * log(p_score) + (1-Y) * log(1-p_score))",
+    "score_probability_clip": [
+      1e-12,
+      0.999999999999
+    ],
+    "clipping_policy": "scoring only; save raw p and clipping count",
+    "paired_baseline_comparison": [
+      "candidate_brier - matched_M0_brier",
+      "candidate_log_loss - matched_M0_log_loss",
+      "1 - candidate_brier / matched_M0_brier"
+    ],
+    "improvement_sign": "negative loss differences or positive Brier skill indicate lower development loss; no automatic deployment or economic claim",
+    "aggregate": "Concatenate unique fold predictions and weight each predicted anchor equally; also report each fold in fixed chronological order",
+    "across_model_comparison": "M0 and M1 are always evaluated on the identical feature-group-evaluable training and validation support; do not compare a full-coverage M0 with a restricted M1",
+    "report_fixed_grid_sensitivity": true,
+    "calibration_bin_edges": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "calibration_bin_rule": "[left,right), last bin closed at 1; report n, mean raw p, observed positive/zero/negative counts, observed Y rate, rate-minus-mean-p",
+    "calibration_bin_small_n": 20,
+    "bin_threshold_reason": "Sparse-display flag only; fixed equal-width bins avoid tuning edges to observed errors",
+    "brier_is_calibration_only_metric": false,
+    "confidence_intervals_this_round": "none; no IID binomial intervals, no effective-sample-size fiction",
+    "high_confidence_claim_allowed": false,
+    "sensitivity_not_formal_significance_test": true,
+    "report_coverage": [
+      "scheduled/source anchors",
+      "mature price labels",
+      "purged training rows",
+      "known-ex-date exclusions",
+      "feature-complete rows",
+      "fitted-model predictions",
+      "abstentions by reason",
+      "class counts",
+      "segment and fold coverage",
+      "fixed-grid counts"
+    ],
+    "no_missing_score_as_zero_loss": true
+  },
+  "selection_and_budget": {
+    "base_model_specifications": 2,
+    "new_hyperparameter_searches": 0,
+    "new_action_threshold_searches": 0,
+    "model_winner_selected_this_round": false,
+    "all_models_reported_in_fixed_order": true,
+    "thresholds_from_historical_best_frequency": false,
+    "model_changes_after_metrics": "New protocol version, new trial-log entry; never overwrite the losing run or reset the previous 12-signal exploration history",
+    "do_not_count_repeated_fits_as_new_model_specifications": true,
+    "do_not_hide_more_experiments_as_diagnostics": true,
+    "old_36_variant_ceiling_is_not_new_authorization": true
+  },
+  "stage_separation": {
+    "now": "Development fold-out reliability tables only; no fitted calibrator. Do not call these previously explored periods independently validated out-of-sample evidence.",
+    "later_calibration": "Before opening 2025 outcomes, freeze candidate, preprocessing, calibration family, eligibility, temporal split and dates. Fit any calibrator only in the calibration stage; fitting rows are not final evaluation.",
+    "later_final": "Before opening 2026 outcomes, freeze the calibrator and full pipeline. One retrospective assessment, disclose known cases and contamination, no untouched claim. Changes require a new evaluation plan and prospective evidence.",
+    "no_isotonic_or_platt_selection_this_round": true,
+    "research_release_does_not_open_trade_gates": true
+  },
+  "pipeline_checks_required": [
+    "Source hashes, old protocol hash and old risk files unchanged",
+    "Only 2023-2024 label table read; generated predictions and scored outcomes never include 2025/2026",
+    "Every fitted label end strictly precedes its fold validation first anchor",
+    "Feature/preprocessing fit date manifests contain training rows only",
+    "Changing validation/future outcomes cannot change model parameters or predictions for that fold",
+    "Changing bars after an anchor cannot change that anchor's features",
+    "Ex-date resets and warmup masks match the engineering contract",
+    "All per-model predictions join to exactly one mature development label and paired baseline",
+    "Independent hand checks for Brier, log-loss, Laplace constant rate and group shrinkage",
+    "All prediction probabilities finite and within [0,1]; failed/absent predictions retain reasons",
+    "Re-run deterministically reproduces fold manifests, predictions and metric tables",
+    "All candidate and common-support coverage reconciles with anchor and exclusion ledgers",
+    "Every validation label end is at or before its fold validation_last_anchor",
+    "M0 and M1 training/validation masks are exactly identical within every fold",
+    "Original contract full hash is locked to prior independent source review; all input labels have h=5 and one of the three defined signs"
+  ],
+  "references": [
+    {
+      "title": "scikit-learn probability calibration",
+      "url": "https://scikit-learn.org/stable/modules/calibration.html",
+      "use": "Brier/log-loss jointly assess reliability and discrimination; calibration needs separate reliability checks"
+    },
+    {
+      "title": "scikit-learn model evaluation",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "use": "Proper probabilistic scoring; not an economic-profit metric"
+    },
+    {
+      "title": "scikit-learn log_loss",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html",
+      "use": "Binary negative log-likelihood definition"
+    }
+  ],
+  "implementation_contract": "work/forecast_validation_oct26/contract.json",
+  "minimum_training_rows": 100,
+  "minimum_training_rows_reason": "Engineering run guard only, not a probability-confidence or statistical-power certificate; both models abstain if this gate fails"
+}

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "bigquant_chips_doc",
+    "url": "https://bigquant.com/data/datasources/cn_stock_chips_distribution",
+    "method": "GET",
+    "retrieved_at_response_date": "2026-10-15T18:49:55+00:00",
+    "http_status": 200,
+    "raw_path": "bigquant_chips.html",
+    "sha256": "e570b6c7449449730db968e0bc91137d46420400e774bba137cccf359bd18a11",
+    "bytes": 55671,
+    "response_headers_raw": "bigquant_headers.txt",
+    "authentication_used": false
+  },
+  {
+    "id": "tushare_distribution_doc",
+    "url": "https://tushare.pro/document/2?doc_id=294",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:15.477539+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://tushare.pro/document/2?doc_id=294",
+    "response_headers": {
+      "Server": "nginx/1.26.1",
+      "Date": "Thu, 15 Oct 2026 18:51:17 GMT",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Content-Length": "35943",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "Etag": "\"612b9cec57f06bdbaa0ef96b2207019a43639667\""
+    },
+    "raw_path": "tushare_distribution_doc.html",
+    "sha256": "6775331e772cb2f131374539ce5afa5d0250704c0a6639cf01bf3b273ebd5df2",
+    "bytes": 35943
+  },
+  {
+    "id": "tushare_summary_doc",
+    "url": "https://tushare.pro/document/2?doc_id=293",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:17.719561+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://tushare.pro/document/2?doc_id=293",
+    "response_headers": {
+      "Server": "nginx/1.26.1",
+      "Date": "Thu, 15 Oct 2026 18:51:19 GMT",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Content-Length": "36998",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "Etag": "\"4938bbc6a89abd677abb6b777a422a0e3dddc708\""
+    },
+    "raw_path": "tushare_summary_doc.html",
+    "sha256": "6b514edb6712291694f502505dc0c421427fe7f6e182ef9eae8d101987ec65c9",
+    "bytes": 36998
+  },
+  {
+    "id": "tushare_permission_doc",
+    "url": "https://tushare.pro/document/1?doc_id=290",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:19.576871+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://tushare.pro/document/1?doc_id=290",
+    "response_headers": {
+      "Server": "nginx/1.26.1",
+      "Date": "Thu, 15 Oct 2026 18:51:20 GMT",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Content-Length": "20320",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "Etag": "\"38a72d282d00de14c9e4ca142012c37882229b34\""
+    },
+    "raw_path": "tushare_permission_doc.html",
+    "sha256": "765453b00496cdf9749a7d733c189766e3a2411d3ada03f3d96bb98c3c3ecb27",
+    "bytes": 20320
+  },
+  {
+    "id": "quantcoda_docs",
+    "url": "https://quantcoda.com/docs",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:20.882934+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://quantcoda.com/docs",
+    "response_headers": {
+      "Server": "nginx/1.31.2",
+      "Date": "Thu, 15 Oct 2026 18:51:22 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "209016",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "Strict-Transport-Security": "max-age=31536000"
+    },
+    "raw_path": "quantcoda_docs.html",
+    "sha256": "bcd01726e2c1e0d7e2893f04cfd3d5a18c9d3346da9873c6dea5c4a3f68f7d68",
+    "bytes": 209016
+  },
+  {
+    "id": "quantcoda_capabilities",
+    "url": "https://quantcoda.com/capabilities",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:23.451652+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://quantcoda.com/capabilities",
+    "response_headers": {
+      "Server": "nginx/1.31.2",
+      "Date": "Thu, 15 Oct 2026 18:51:24 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "8111",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "cache-control": "public, max-age=300",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-robots-tag": "noindex, nofollow",
+      "Strict-Transport-Security": "max-age=31536000"
+    },
+    "raw_path": "quantcoda_capabilities.json",
+    "sha256": "0074626e4dede7adec9e76076c75c7559c822d034f0b65d3a42ea0d928b91bd9",
+    "bytes": 8111
+  },
+  {
+    "id": "quantcoda_methodology",
+    "url": "https://quantcoda.com/methodology",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:24.295117+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://quantcoda.com/methodology",
+    "response_headers": {
+      "Server": "nginx/1.31.2",
+      "Date": "Thu, 15 Oct 2026 18:51:25 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "23991",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "Strict-Transport-Security": "max-age=31536000"
+    },
+    "raw_path": "quantcoda_methodology.html",
+    "sha256": "8a4d4930a057351b25cdc98af770e4b77b4a814778030ba5fb0ef273f6387e68",
+    "bytes": 23991
+  },
+  {
+    "id": "quantcoda_terms",
+    "url": "https://quantcoda.com/terms",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:25.344518+00:00",
+    "authentication_used": false,
+    "http_status": 200,
+    "response_url": "https://quantcoda.com/terms",
+    "response_headers": {
+      "Server": "nginx/1.31.2",
+      "Date": "Thu, 15 Oct 2026 18:51:26 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "22400",
+      "Connection": "close",
+      "Vary": "Accept-Encoding",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "Strict-Transport-Security": "max-age=31536000"
+    },
+    "raw_path": "quantcoda_terms.html",
+    "sha256": "5ea94990bf811cba401c56e425b431d34074a62612c12a76e161b21302616ddf",
+    "bytes": 22400
+  },
+  {
+    "id": "quantcoda_anonymous_002414_sample",
+    "url": "https://quantcoda.com/v1/chips/distribution?symbol=002414.SZ&trade_date=20230103",
+    "method": "GET",
+    "request_headers": {
+      "User-Agent": "Mozilla/5.0"
+    },
+    "retrieved_at": "2026-10-15T18:51:26.391579+00:00",
+    "authentication_used": false,
+    "http_status": 401,
+    "error": "HTTP Error 401: Unauthorized",
+    "response_headers": {
+      "Server": "nginx/1.31.2",
+      "Date": "Thu, 15 Oct 2026 18:51:27 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "88",
+      "Connection": "close",
+      "x-frame-options": "DENY",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-robots-tag": "noindex, nofollow",
+      "Strict-Transport-Security": "max-age=31536000"
+    },
+    "raw_path": "quantcoda_anonymous_002414_sample.html",
+    "sha256": "397baa7edbff97300093ce03d8efda70cf602563cdb42893d4c99f7b0a60409d",
+    "bytes": 88
+  },
+  {
+    "id": "bigquant_web_reader_attempt_1",
+    "url": "https://bigquant.com/data/datasources/cn_stock_chips_distribution",
+    "method": "web.open",
+    "error": "Timeout fetching (tool returned 400)",
+    "raw_response_saved": false,
+    "authentication_used": false
+  },
+  {
+    "id": "bigquant_web_reader_attempt_2",
+    "url": "https://bigquant.com/data/datasources/cn_stock_chips_distribution",
+    "method": "web.open",
+    "error": "Timeout fetching (tool returned 400)",
+    "raw_response_saved": false,
+    "authentication_used": false
+  }
+]

@@ -1,0 +1,27 @@
+﻿feature,scope,total_dates,computed_dates,missing_dates,missing_reason
+ma5,research_all,918,906,12,segmented lookback or fixed recursive warmup; never zero-filled
+ma5,development,484,476,8,segmented lookback or fixed recursive warmup; never zero-filled
+ma10,research_all,918,891,27,segmented lookback or fixed recursive warmup; never zero-filled
+ma10,development,484,466,18,segmented lookback or fixed recursive warmup; never zero-filled
+ma15,research_all,918,876,42,segmented lookback or fixed recursive warmup; never zero-filled
+ma15,development,484,456,28,segmented lookback or fixed recursive warmup; never zero-filled
+macd_dif,research_all,918,644,274,segmented lookback or fixed recursive warmup; never zero-filled
+macd_dif,development,484,226,258,segmented lookback or fixed recursive warmup; never zero-filled
+macd_dea,research_all,918,644,274,segmented lookback or fixed recursive warmup; never zero-filled
+macd_dea,development,484,226,258,segmented lookback or fixed recursive warmup; never zero-filled
+macd_hist2,research_all,918,644,274,segmented lookback or fixed recursive warmup; never zero-filled
+macd_hist2,development,484,226,258,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_rsv,research_all,918,844,74,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_rsv,development,484,426,58,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_k,research_all,918,844,74,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_k,development,484,426,58,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_d,research_all,918,844,74,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_d,development,484,426,58,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_j,research_all,918,844,74,segmented lookback or fixed recursive warmup; never zero-filled
+kdj_j,development,484,426,58,segmented lookback or fixed recursive warmup; never zero-filled
+volume_ratio_prev5,research_all,918,903,15,segmented lookback or fixed recursive warmup; never zero-filled
+volume_ratio_prev5,development,484,474,10,segmented lookback or fixed recursive warmup; never zero-filled
+volume_ratio_prev20,research_all,918,862,56,segmented lookback or fixed recursive warmup; never zero-filled
+volume_ratio_prev20,development,484,444,40,segmented lookback or fixed recursive warmup; never zero-filled
+turnover_ratio_prev5,research_all,918,903,15,segmented lookback or fixed recursive warmup; never zero-filled
+turnover_ratio_prev5,development,484,474,10,segmented lookback or fixed recursive warmup; never zero-filled

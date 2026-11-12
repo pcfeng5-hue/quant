@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "two_pages_have_text": true,
+    "hashes_verified": true,
+    "body_heading_visually_matches": true,
+    "body_report_year_heading_visually_matches": true,
+    "signature_page_date_visually_matches": true,
+    "all_outputs_still_unverified": true
+  },
+  "passed": true,
+  "scope": "Only 3 selected printed strings visually compared on pilot pages; neither full page nor numerical facts certified",
+  "known_errors": "Signature and seal graphics produce incorrect text on page 3; company seal OCR is garbled. Coordinates and confidence preserved; engine confidence is not factual accuracy.",
+  "pilot_pages": [
+    {
+      "art_code": "AN202304191585591297",
+      "page_number": 2,
+      "source_sha256": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+      "mean_confidence": 0.9937278048780488,
+      "low_confidence_lines": 0
+    },
+    {
+      "art_code": "AN202304191585591297",
+      "page_number": 3,
+      "source_sha256": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+      "mean_confidence": 0.8876007142857143,
+      "low_confidence_lines": 3
+    }
+  ]
+}

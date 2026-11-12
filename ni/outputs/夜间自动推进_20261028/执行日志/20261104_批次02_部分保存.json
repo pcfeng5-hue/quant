@@ -1,0 +1,12 @@
+{
+  "automation_id": "a",
+  "batch_id": "a_20261104_input_evidence_b2",
+  "status": "partially_complete_saved_after_batch_deadline",
+  "saved_at_local": "2026-11-04T01:59:38.311489-05:00",
+  "counts_as_completed_nightly_batch": false,
+  "completed_nightly_batches": 1,
+  "pending_work_state": "outputs/最小输入证据台账_20261104_批次02/本轮状态与续作断点.json",
+  "research_stage_not_promoted": true,
+  "independent_audit_executed": false,
+  "notification_decision": "DONT_NOTIFY"
+}

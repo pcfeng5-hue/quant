@@ -1,0 +1,86 @@
+{
+  "charter_id": "next_bounded_input_evidence_batch_v1",
+  "status": "engineering_evidence_audit_only_not_model_protocol",
+  "symbol": "002414.SZ",
+  "metadata_period": [
+    "2023-01-03",
+    "2024-12-31"
+  ],
+  "field_families": [
+    "raw_open",
+    "raw_high",
+    "raw_low",
+    "raw_close",
+    "raw_volume"
+  ],
+  "providers": [
+    "eastmoney_primary_saved_snapshot",
+    "tencent_comparison_saved_snapshot"
+  ],
+  "field_family_provider_pairs": 10,
+  "exchange": "SZSE",
+  "source_pass_limit": 1,
+  "local_source_paths": [
+    "work/market_industry_oct22/manifest.json",
+    "work/market_industry_oct22/input_admission.json",
+    "work/market_context_oct31/contract.json",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json",
+    "work/market_warmup_finalize_oct22/manifest.json",
+    "work/market_warmup_finalize_oct22/summary.json",
+    "outputs/高德红外数据库/calendar_audit_result.json",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json",
+    "work/conditions_finish_oct22/summary.json",
+    "work/conditions_finish_oct22/rule_regimes.json",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json",
+    "work/corporate_actions_refine_oct17/corporate_actions.json",
+    "work/baseline_oct25/engineering_contract.json",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json",
+    "outputs/时间执行与数据准入缺口矩阵_20261102/来源索引与SHA256.json"
+  ],
+  "local_source_path_cap": 20,
+  "additional_referenced_evidence_file_cap": 5,
+  "additional_path_policy": "Only paths explicitly referenced by the 15 fixed sources; record path/reason before read, metadata or official evidence only; no provider expansion or price/outcome export; total path cap20",
+  "work_minutes_budget": 30,
+  "verification_and_save_minutes_reserved": 10,
+  "total_batch_minutes_cap": 40,
+  "deliverables": [
+    "机器可读字段/来源/版本/as-of证据台账：10组全部保留，未知有原因",
+    "2023—2024深交所计划交易日及状态来源索引：逐日期/来源/认证/未知分开，不输出原价或未来结果",
+    "有限证据可恢复性结论：哪些已证实、哪些仍未知、下一步最小取证或前向首收设计"
+  ],
+  "evidence_columns": [
+    "field_family",
+    "provider",
+    "observation_scope",
+    "unit_status",
+    "source_path",
+    "source_sha256",
+    "captured_at",
+    "historical_first_available_at",
+    "revision_available_at",
+    "time_precision",
+    "evidence_kind",
+    "reason_unknown",
+    "admission_for_declared_use"
+  ],
+  "acceptance": [
+    "全部10组和声明日期均被记账，不因缺证据静默丢行",
+    "所有实际引用的本地原件/版本/SHA可定位；路径缺失留缺失，不扩大遍历范围",
+    "采集时刻不代替历史公开时刻，保守边界有来源而非统一猜滞后",
+    "计划日历不是股票观察日，月报未出现记录不等于逐日正常",
+    "所有正式/current/runtime门保持false；技术台账通过不等于PIT或预测通过"
+  ],
+  "stop_conditions": [
+    "一个固定本地来源集合扫完或单批约40分钟到达即保存，不重复全面搜同一缺口",
+    "原件不存在/时间未知时保留NULL和原因，不补0、不另找赢家来源",
+    "若不能恢复历史当时可得证据，下一步先写前向首收采集设计，不能宣称历史PIT补齐",
+    "若未在窗口完成则保存部分状态，不记完成批次"
+  ],
+  "required_user_material_now": false,
+  "new_network_collection_allowed_in_this_charter": false,
+  "new_raw_price_values_or_outcomes_exported": false,
+  "new_real_labels_allowed": false,
+  "new_models_or_scores_allowed": false,
+  "optional_feature_sweep_allowed": false,
+  "prior_risk_configuration_mutation_allowed": false
+}

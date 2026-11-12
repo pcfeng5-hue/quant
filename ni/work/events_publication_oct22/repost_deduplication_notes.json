@@ -1,0 +1,16 @@
+{
+  "rule": "same issuer + original title + notice number/event date = one economic episode; repost clocks cannot substitute issuer publication clock",
+  "clusters": [
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-10",
+      "official_original": "http://www.cffex.com.cn/cn/jystz/20261016/48692.html",
+      "discovered_reposts": [
+        "https://finance.eastmoney.com/a/202610163898464392.html",
+        "https://www.eastmoneyfutures.com/pages/notice-detail.html?channelID=936&newscode=202610163898464392",
+        "https://finance.sina.com.cn/money/future/roll/2026-10-16/doc-inivmazq1673705.shtml"
+      ],
+      "reposts_acquired_as_raw": false,
+      "reposts_independent_event_count": 0
+    }
+  ]
+}

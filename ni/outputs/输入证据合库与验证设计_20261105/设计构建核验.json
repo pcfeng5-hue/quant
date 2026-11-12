@@ -1,0 +1,41 @@
+{
+  "all_checks_passed": true,
+  "passed": 8,
+  "total": 8,
+  "checks": [
+    {
+      "check": "old15nullpreserved",
+      "passed": true
+    },
+    {
+      "check": "oneconfirmed14pending",
+      "passed": true
+    },
+    {
+      "check": "H10commonendpoint",
+      "passed": true
+    },
+    {
+      "check": "16plus1registered17",
+      "passed": true
+    },
+    {
+      "check": "noexperimentsallowed",
+      "passed": true
+    },
+    {
+      "check": "originalcontracthashunchanged",
+      "passed": true
+    },
+    {
+      "check": "strictnonexecutable",
+      "passed": true
+    },
+    {
+      "check": "matrix14rows",
+      "passed": true
+    }
+  ],
+  "protocol_canonical_sha256": "1e6a7240cc9b3f1694505c24a5fa11695bd6d6fe70c08a32712c8d2ea731ebb9",
+  "no_labels_models_or_scores_computed": true
+}

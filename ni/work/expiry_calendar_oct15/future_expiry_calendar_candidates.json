@@ -1,0 +1,47 @@
+[
+  {
+    "event_id": "CFFEX-index-expiry-2026-10",
+    "month": "2026-10",
+    "event_type": "CFFEX_index_derivatives_expiry_delivery",
+    "instruments": [
+      "IF",
+      "IH",
+      "IC",
+      "IM",
+      "IO",
+      "MO",
+      "HO"
+    ],
+    "contract_codes": [
+      "IF2610",
+      "IH2610",
+      "IC2610",
+      "IM2610",
+      "IO2610",
+      "MO2610",
+      "HO2610"
+    ],
+    "third_friday_formula_date": "2026-10-16",
+    "event_date_candidate": "2026-10-16",
+    "holiday_roll_candidate": false,
+    "source_level": "rule_derived_candidate",
+    "official_monthly_notice_verified": false,
+    "exchange_holiday_calendar_verified": false,
+    "underlying_equity_calendar_covered": false,
+    "calendar_source_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/official_calendar_2023_to_20261015.json",
+    "calendar_sha256": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296",
+    "calendar_scope": "SSE,SZSE scheduled holidays; CFFEX-specific historical emergency exceptions not certified",
+    "rule_sources": [
+      "http://www.cffex.com.cn/cn/hs300.html",
+      "http://www.cffex.com.cn/cn/sz50gzqh.html",
+      "http://www.cffex.com.cn/cn/zz500.html",
+      "http://www.cffex.com.cn/cn/zz1000.html",
+      "http://www.cffex.com.cn/cn/hs300gzqq.html",
+      "http://www.cffex.com.cn/cn/zz1000gzqq.html",
+      "http://www.cffex.com.cn/cn/sz50gzqq.html"
+    ],
+    "historical_input_eligible": false,
+    "event_occurred_by_cutoff": false,
+    "price_or_flow_analysis_performed": false
+  }
+]

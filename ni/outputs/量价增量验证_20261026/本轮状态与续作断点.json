@@ -1,0 +1,57 @@
+{
+  "client_date": "2026-10-26",
+  "project_step": "5: incremental signal development; step 6 framework exists but predictive acceptance unpassed",
+  "market_data_last_date": "2026-10-21",
+  "new_market_collection": false,
+  "experiment_id": "002414_development_price_volume_increment_20261026_v1",
+  "models": [
+    "M0_laplace_constant",
+    "M1_ma_group_shrinkage",
+    "M2_ma_volume_hierarchical"
+  ],
+  "new_model_variants": 1,
+  "cumulative_registered_variants": 15,
+  "folds": 6,
+  "scoring_dates": 298,
+  "prediction_rows": 894,
+  "fixed_grid_dates": 59,
+  "previous_scoring_dates": 308,
+  "coverage_loss": 10,
+  "brier": {
+    "M0_laplace_constant": 0.2477693654896678,
+    "M1_ma_group_shrinkage": 0.2513742227731697,
+    "M2_ma_volume_hierarchical": 0.25340090765994666
+  },
+  "primary_brier_delta_M2_minus_M1": 0.002026684886776986,
+  "increment_supported_this_run": false,
+  "model_promoted": false,
+  "current_forecast_generated": false,
+  "outcomes_2025_2026_opened": false,
+  "probability_recalibration_fitted": false,
+  "runtime_usable": false,
+  "model_input_approved": false,
+  "old_forecast_protocol_or_risk_modified": false,
+  "protected_source_sha256": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+    "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+    "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc"
+  },
+  "next_checkpoint": [
+    "Keep M1 and M2 negative development results and all 15 cumulative variants; no retrospective threshold, group or lambda search",
+    "Next audit existing broad-market price history, industry membership and event timing for strictly prior observable market-context inputs; no new model scoring before a separate narrow protocol is frozen",
+    "Compare any future candidate against matched simple baselines; report sparse cells and coverage cost, not only pooled scores",
+    "Only consider opening later-period outcomes after development-candidate review and independent checks with a separately frozen phase protocol; never certify previously viewed periods untouched",
+    "Keep chip estimates conditional and isolated; prioritize turnover definition and historical information time instead of assuming small unknown initial mass proves reliability",
+    "Market/state/fees/information-time gaps remain; no current trade probabilities or real-money readiness claim"
+  ]
+}

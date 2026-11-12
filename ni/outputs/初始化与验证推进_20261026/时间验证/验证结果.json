@@ -1,0 +1,155 @@
+{
+  "checks": [
+    {
+      "check": "six_disjoint_quarter_folds",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_training_label_reaches_validation_start",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_prediction_outcomes_within_fold",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_2025_2026_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "both_models_same_cases",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_probabilities_strictly_between_zero_one",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_formal_gates_remain_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "coverage_reason_accounting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "fitted_shrinkage_formula",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "brier_manual_example",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "logloss_manual_example",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "empty_group_explicit_prior_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "insufficient_training_is_not_zero_probability",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "zero_changes_join_nonpositive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_ma_feature_missing_is_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "validation_label_poison_does_not_change_first_fold_fit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "validation_label_poison_does_not_change_its_predictions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "unsupported_legacy_parameters_and_signal_names_rejected",
+      "passed": true,
+      "details": {
+        "negative_cases": 12
+      }
+    },
+    {
+      "check": "incompatible_target_or_release_contract_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "incompatible_label_rows_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calibration_bins_reconcile_to_scored_cases",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "fixed_grid_outcome_windows_do_not_overlap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "duplicate_source_dates_rejected_before_fit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_seven_source_stores_contracts_code_unchanged",
+      "passed": true,
+      "details": {
+        "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+        "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+        "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+        "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+        "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+        "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+        "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9"
+      }
+    }
+  ],
+  "passed": 24,
+  "total": 24,
+  "all_checks_passed": true,
+  "source_sha256_before": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9"
+  },
+  "source_sha256_after": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9"
+  }
+}

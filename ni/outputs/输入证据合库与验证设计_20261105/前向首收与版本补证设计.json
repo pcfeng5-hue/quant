@@ -1,0 +1,44 @@
+{
+  "design_id": "first_receipt_evidence_spec_20261105_v1",
+  "design_only": true,
+  "collector_started": false,
+  "scheduled_job_created": false,
+  "selected_scope": "raw_close and its necessary calendar/status/rules/rights dependencies only; otherOHLCV may be stored later only under declared scope",
+  "required_record_columns": [
+    "symbol",
+    "provider",
+    "native_field_id_or_position",
+    "raw_value_and_unit_when_future_collection_authorized",
+    "observation_time_with_timezone",
+    "source_event_time_if_known",
+    "source_publication_time_candidate_and_precision",
+    "request_start_utc",
+    "response_end_utc",
+    "first_project_received_at_utc",
+    "source_version_id",
+    "supersedes_version_id",
+    "immutable_raw_path",
+    "raw_sha256",
+    "adapter_version",
+    "validation_status",
+    "rejection_reason",
+    "eligible_for_declared_decision_at"
+  ],
+  "distinctions": [
+    "first_project_received_at is a verifiable local receipt, not proof of global first publication",
+    "future first receipt cannot certify old2023/2024 versions",
+    "new revision append-only, never overwrite old decision snapshot",
+    "if only a date is known, use independently supported time bound or keep unknown; no guessed fixed lag"
+  ],
+  "quality_rejections": [
+    "missing time/zone or invalid ordering",
+    "unknown mapping/unit or wrong symbol",
+    "source conflict beyond frozen tolerance",
+    "version or action discontinuity unresolved",
+    "late data after fixed cutoff",
+    "missing daily status/rules or incomplete cost/right evidence for action use"
+  ],
+  "capture_manifest_policy": "save authorized URL, UTC request/receipt times, original bytes/version, units, adapter andSHA; immutable append-only; credentials not stored; permission/network failure logged once with bounded retry, no bypass",
+  "no_market_or_prediction_promotion": "Design or later collection alone does not open historical PIT, targets, forecasting, simulation or an observation-day clock",
+  "next_batch": "Implement an offline first-receipt manifest schema and synthetic rejection checks, then propose one bounded authorized public-source capture; no automatic schedule"
+}

@@ -1,0 +1,968 @@
+{
+  "attempt_file": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/approved_network_requests.json",
+  "results": [
+    {
+      "name": "em_0_20220101_20261016",
+      "provider": "eastmoney",
+      "adjustment_flag": "0",
+      "base_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "parameters": {
+        "secid": "0.002414",
+        "klt": 101,
+        "fqt": "0",
+        "beg": "20220101",
+        "end": "20261016",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+      },
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=0&beg=20220101&end=20261016&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:10.183011+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Server": "Microsoft-IIS/10.0",
+        "Date": "Sun, 18 Oct 2026 03:11:11 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Content-Length": "88515",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache"
+      },
+      "sha256": "142fa669c1fddfc2c999c80f3055c2222f303af509f7b1330c475193c0c2916d",
+      "bytes": 88515,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/em_0_20220101_20261016_142fa669c1fddfc2.json",
+      "top_level_keys": [
+        "rc",
+        "rt",
+        "svr",
+        "lt",
+        "full",
+        "dlmkts",
+        "dsc",
+        "data"
+      ],
+      "response_metadata": {
+        "code": "002414",
+        "market": 0,
+        "name": "高德红外",
+        "decimal": 2,
+        "dktotal": 3854,
+        "preKPrice": 24.21
+      },
+      "provider_code": 0,
+      "response_key": "data.klines",
+      "provider_rows": 1157,
+      "finished_at_utc": "2026-10-18T03:11:11.826031+00:00",
+      "accepted_rows": 1157,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16"
+    },
+    {
+      "name": "em_1_20220101_20261016",
+      "provider": "eastmoney",
+      "adjustment_flag": "1",
+      "base_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "parameters": {
+        "secid": "0.002414",
+        "klt": 101,
+        "fqt": "1",
+        "beg": "20220101",
+        "end": "20261016",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+      },
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=1&beg=20220101&end=20261016&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:10.183274+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Server": "Microsoft-IIS/10.0",
+        "Date": "Sun, 18 Oct 2026 03:11:12 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Content-Length": "87365",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache"
+      },
+      "sha256": "587d294ef53c845a24d11e2968ef69206d0225faaf93804aff4f71a14968411a",
+      "bytes": 87365,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/em_1_20220101_20261016_587d294ef53c845a.json",
+      "top_level_keys": [
+        "rc",
+        "rt",
+        "svr",
+        "lt",
+        "full",
+        "dlmkts",
+        "dsc",
+        "data"
+      ],
+      "response_metadata": {
+        "code": "002414",
+        "market": 0,
+        "name": "高德红外",
+        "decimal": 2,
+        "dktotal": 3854,
+        "preKPrice": 12.9
+      },
+      "provider_code": 0,
+      "response_key": "data.klines",
+      "provider_rows": 1157,
+      "finished_at_utc": "2026-10-18T03:11:12.588566+00:00",
+      "accepted_rows": 1157,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16"
+    },
+    {
+      "name": "em_2_20220101_20261016",
+      "provider": "eastmoney",
+      "adjustment_flag": "2",
+      "base_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+      "parameters": {
+        "secid": "0.002414",
+        "klt": 101,
+        "fqt": "2",
+        "beg": "20220101",
+        "end": "20261016",
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+      },
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=2&beg=20220101&end=20261016&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:10.183361+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Server": "Microsoft-IIS/10.0",
+        "Date": "Sun, 18 Oct 2026 03:11:11 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Content-Length": "94350",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "Cache-Control": "no-cache"
+      },
+      "sha256": "a6d0128b5b618d184058c3e6b5212bafd65342b25d2b947a3efc2b7272819f0c",
+      "bytes": 94350,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/em_2_20220101_20261016_a6d0128b5b618d18.json",
+      "top_level_keys": [
+        "rc",
+        "rt",
+        "svr",
+        "lt",
+        "full",
+        "dlmkts",
+        "dsc",
+        "data"
+      ],
+      "response_metadata": {
+        "code": "002414",
+        "market": 0,
+        "name": "高德红外",
+        "decimal": 2,
+        "dktotal": 3854,
+        "preKPrice": 175.94
+      },
+      "provider_code": 0,
+      "response_key": "data.klines",
+      "provider_rows": 1157,
+      "finished_at_utc": "2026-10-18T03:11:11.815486+00:00",
+      "accepted_rows": 1157,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16"
+    },
+    {
+      "name": "tencent_0_2022",
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2022-01-01,2022-12-31,640,"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2C",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:10.183425+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:11 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "2b1adae93134d60b2969a33c5e9a398173b23c23fe47fd302c6a39eb0fdbba5f",
+      "bytes": 17143,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2022_2b1adae93134d60b.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.day",
+      "available_symbol_keys": [
+        "day",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:11.743001+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2022-12-30"
+    },
+    {
+      "name": "tencent_0_2023",
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2023-01-01,2023-12-31,640,"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2C",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:11.826062+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:12 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "15d84d646b307dee72dcfa2dd0bb412add9df49c0c33e6aa63fa2baf71457304",
+      "bytes": 16590,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2023_15d84d646b307dee.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.day",
+      "available_symbol_keys": [
+        "day",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:12.950382+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2023-01-03",
+      "max_date": "2023-12-29"
+    },
+    {
+      "name": "tencent_0_2024",
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2024-01-01,2024-12-31,640,"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2C",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:12.941332+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:13 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "1b8b7bbc4e72754f293642bc517a22365148b8cf88cbeaee7067518a27022206",
+      "bytes": 16216,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2024_1b8b7bbc4e72754f.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.day",
+      "available_symbol_keys": [
+        "day",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:14.072541+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2024-01-02",
+      "max_date": "2024-12-31"
+    },
+    {
+      "name": "tencent_0_2025",
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2025-01-01,2025-12-31,640,"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2025-01-01%2C2025-12-31%2C640%2C",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:14.018486+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:14 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "9dbfb46ad6176f701e88af6e691f285e071b727d971f92b3c7f6bd1e68307f73",
+      "bytes": 16701,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2025_9dbfb46ad6176f70.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.day",
+      "available_symbol_keys": [
+        "day",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 243,
+      "finished_at_utc": "2026-10-18T03:11:15.144184+00:00",
+      "accepted_rows": 243,
+      "rejected_rows": 0,
+      "min_date": "2025-01-02",
+      "max_date": "2025-12-31"
+    },
+    {
+      "name": "tencent_0_2026",
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2026-01-01,2026-10-16,640,"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-16%2C640%2C",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:14.842298+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:15 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "df977f9a4fca72bbab8ea1c260f3f0f67123ea7d68f7211a59723d15e63d6c74",
+      "bytes": 13754,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_0_2026_df977f9a4fca72bb.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.day",
+      "available_symbol_keys": [
+        "day",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 188,
+      "finished_at_utc": "2026-10-18T03:11:15.967235+00:00",
+      "accepted_rows": 188,
+      "rejected_rows": 0,
+      "min_date": "2026-01-05",
+      "max_date": "2026-10-16"
+    },
+    {
+      "name": "tencent_1_2022",
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2022-01-01,2022-12-31,640,qfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2Cqfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:11.743222+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:12 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "b93fd476324a31ec9fac28b1cb4bcef2fc51219d646e23d28dcd31d49e296523",
+      "bytes": 16466,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2022_b93fd476324a31ec.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.qfqday",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:12.888159+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2022-12-30"
+    },
+    {
+      "name": "tencent_1_2023",
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2023-01-01,2023-12-31,640,qfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2Cqfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:12.588635+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:13 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "44db9b6704bf05db16ddb82719d540c858588a9f76b074e41b83b0cc1d02f9e2",
+      "bytes": 16201,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2023_44db9b6704bf05db.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.qfqday",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:13.704297+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2023-01-03",
+      "max_date": "2023-12-29"
+    },
+    {
+      "name": "tencent_1_2024",
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2024-01-01,2024-12-31,640,qfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2Cqfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:12.950489+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:13 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "826ee86ecca3c696a6ae25483aba26ffa720fe34dd51549c5f457b8cf04de9e3",
+      "bytes": 16251,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2024_826ee86ecca3c696.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.qfqday",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:14.087641+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2024-01-02",
+      "max_date": "2024-12-31"
+    },
+    {
+      "name": "tencent_1_2025",
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2025-01-01,2025-12-31,640,qfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2025-01-01%2C2025-12-31%2C640%2Cqfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:14.072584+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:14 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "0137a89c689d6dbca80ed2cb2b5118ca4e7e18df276801bff4ea2428cd26950b",
+      "bytes": 16722,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2025_0137a89c689d6dbc.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.qfqday",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 243,
+      "finished_at_utc": "2026-10-18T03:11:15.184564+00:00",
+      "accepted_rows": 243,
+      "rejected_rows": 0,
+      "min_date": "2025-01-02",
+      "max_date": "2025-12-31"
+    },
+    {
+      "name": "tencent_1_2026",
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2026-01-01,2026-10-16,640,qfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-16%2C640%2Cqfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:15.144336+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:15 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "473db1748742616b4a577f020337b0466e25f984a99c7e4ac9ab1a788de5d515",
+      "bytes": 13789,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_1_2026_473db1748742616b.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.qfqday",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 188,
+      "finished_at_utc": "2026-10-18T03:11:16.058792+00:00",
+      "accepted_rows": 188,
+      "rejected_rows": 0,
+      "min_date": "2026-01-05",
+      "max_date": "2026-10-16"
+    },
+    {
+      "name": "tencent_2_2022",
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2022-01-01,2022-12-31,640,hfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2Chfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:11.815525+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:12 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "bb40e7429b720bba0d16bfb667b906bf0770e064a85f56af0011bf7cae0c4b23",
+      "bytes": 18144,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2022_bb40e7429b720bba.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.hfqday",
+      "available_symbol_keys": [
+        "hfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:12.941173+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2022-12-30"
+    },
+    {
+      "name": "tencent_2_2023",
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2023-01-01,2023-12-31,640,hfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2Chfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:12.888515+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:13 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "94ba7562f171336417fca6529c00f97043283ffca38dfd8195ec963c2c60684a",
+      "bytes": 18107,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2023_94ba7562f1713364.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.hfqday",
+      "available_symbol_keys": [
+        "hfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:14.018429+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2023-01-03",
+      "max_date": "2023-12-29"
+    },
+    {
+      "name": "tencent_2_2024",
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2024-01-01,2024-12-31,640,hfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2Chfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:13.704399+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:14 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "e5ded27c90404e6de02073cf9775c82bad45bb00ec95b1e8865cc842cc95aeda",
+      "bytes": 17537,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2024_e5ded27c90404e6d.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.hfqday",
+      "available_symbol_keys": [
+        "hfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 242,
+      "finished_at_utc": "2026-10-18T03:11:14.842187+00:00",
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2024-01-02",
+      "max_date": "2024-12-31"
+    },
+    {
+      "name": "tencent_2_2025",
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2025-01-01,2025-12-31,640,hfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2025-01-01%2C2025-12-31%2C640%2Chfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:14.087685+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:14 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "ca12d499a63dea48ee09030572c948970c2b920fb05676191369f0c14572beab",
+      "bytes": 18084,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2025_ca12d499a63dea48.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.hfqday",
+      "available_symbol_keys": [
+        "hfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 243,
+      "finished_at_utc": "2026-10-18T03:11:15.212814+00:00",
+      "accepted_rows": 243,
+      "rejected_rows": 0,
+      "min_date": "2025-01-02",
+      "max_date": "2025-12-31"
+    },
+    {
+      "name": "tencent_2_2026",
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "base_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+      "parameters": {
+        "param": "sz002414,day,2026-01-01,2026-10-16,640,hfq"
+      },
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-16%2C640%2Chfq",
+      "method": "GET",
+      "requested_range": {
+        "start": "2022-01-01",
+        "end": "2026-10-16"
+      },
+      "retrieved_at_utc": "2026-10-18T03:11:15.184732+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Sun, 18 Oct 2026 03:11:16 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "sha256": "9eb2fe4842adcf0432519d57a8b2e3826a5803f6a70a0ba3b9a3eb254cdbbe06",
+      "bytes": 14541,
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_verify_oct17/raw/tencent_2_2026_9eb2fe4842adcf04.json",
+      "top_level_keys": [
+        "code",
+        "msg",
+        "data"
+      ],
+      "provider_code": 0,
+      "response_key": "data.sz002414.hfqday",
+      "available_symbol_keys": [
+        "hfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "provider_rows": 188,
+      "finished_at_utc": "2026-10-18T03:11:16.315349+00:00",
+      "accepted_rows": 188,
+      "rejected_rows": 0,
+      "min_date": "2026-01-05",
+      "max_date": "2026-10-16"
+    }
+  ]
+}

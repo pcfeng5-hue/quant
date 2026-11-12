@@ -1,0 +1,105 @@
+{
+  "scope": "Four accepted samples only; no claim of manual review for all 932 screenshots",
+  "samples": [
+    {
+      "date": "2023-01-03",
+      "id": "0002_2023-01-03_window1",
+      "image_path": "work/chip_full_capture_oct17/records/0002_2023-01-03_window1/chart.jpg",
+      "image_sha256": "32ce5665c1432184884054773c948bf85bc490cce3542d5a04def4af1addb349",
+      "method": "Actual local chart.jpg opened with view_image at original resolution; visual review of displayed dates, OHLC and summary values",
+      "kline_date_matches": true,
+      "ohlc_matches": true,
+      "chip_date_matches": true,
+      "all_six_chip_summary_fields_match": true,
+      "rendered_chip_sidebar_visible": true,
+      "all_summary_fields_visible": true,
+      "top_toolbar_and_adjustment_control_visible": false,
+      "full_numeric_price_bin_distribution_verified": false,
+      "values": [
+        "2023-01-03",
+        "4.81%",
+        "9.36",
+        "8.46-13.60",
+        "23.31%",
+        "8.71-11.41",
+        "13.41%"
+      ]
+    },
+    {
+      "date": "2023-06-20",
+      "id": "0113_2023-06-20_window1",
+      "image_path": "work/chip_full_capture_oct17/records/0113_2023-06-20_window1/chart.jpg",
+      "image_sha256": "402092495809dedddd4b2dfea2451035f8c23ee104e2b41da5ca34802a7995ba",
+      "method": "Actual local chart.jpg opened with view_image at original resolution; visual review of displayed dates, OHLC and summary values",
+      "kline_date_matches": true,
+      "ohlc_matches": true,
+      "chip_date_matches": true,
+      "all_six_chip_summary_fields_match": true,
+      "rendered_chip_sidebar_visible": true,
+      "all_summary_fields_visible": true,
+      "top_toolbar_and_adjustment_control_visible": false,
+      "full_numeric_price_bin_distribution_verified": false,
+      "values": [
+        "2023-06-20",
+        "4.48%",
+        "9.10",
+        "7.69-12.44",
+        "23.63%",
+        "8.33-11.03",
+        "13.94%"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "0920_2026-09-22_window5",
+      "image_path": "work/chip_full_capture_oct17/records/0920_2026-09-22_window5/chart.jpg",
+      "image_sha256": "2c35e0b3f664d5fab30b45ae1f1c875a5e9c947d4de8b2a775e62cbaf479f9e8",
+      "method": "Actual local chart.jpg opened with view_image at original resolution; visual review of displayed dates, OHLC and summary values",
+      "kline_date_matches": true,
+      "ohlc_matches": true,
+      "chip_date_matches": true,
+      "all_six_chip_summary_fields_match": true,
+      "rendered_chip_sidebar_visible": true,
+      "all_summary_fields_visible": true,
+      "top_toolbar_and_adjustment_control_visible": true,
+      "full_numeric_price_bin_distribution_verified": false,
+      "values": [
+        "2026-09-22",
+        "7.52%",
+        "13.21",
+        "12.06-14.75",
+        "10.07%",
+        "12.44-14.11",
+        "6.29%"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "id": "0932_2026-10-16_window5",
+      "image_path": "work/chip_full_capture_oct17/records/0932_2026-10-16_window5/chart.jpg",
+      "image_sha256": "e24777685f4614110a1fcc78e375d53d846a0674f4a92f3fc2abe58ab1661317",
+      "method": "Actual local chart.jpg opened with view_image at original resolution; visual review of displayed dates, OHLC and summary values",
+      "kline_date_matches": true,
+      "ohlc_matches": true,
+      "chip_date_matches": true,
+      "all_six_chip_summary_fields_match": true,
+      "rendered_chip_sidebar_visible": true,
+      "all_summary_fields_visible": true,
+      "top_toolbar_and_adjustment_control_visible": true,
+      "full_numeric_price_bin_distribution_verified": false,
+      "values": [
+        "2026-10-16",
+        "2.58%",
+        "13.08",
+        "11.16-14.63",
+        "13.46%",
+        "12.06-13.98",
+        "7.40%"
+      ]
+    }
+  ],
+  "caveats": [
+    "First two screenshots have toolbar above visible viewport",
+    "Rendered plot covers website displayed axis range; not proof of all numeric price bins"
+  ]
+}

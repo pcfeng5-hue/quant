@@ -1,0 +1,19 @@
+{
+  "automation_id": "a",
+  "trigger_time_utc": "2026-11-03T05:05:09.086Z",
+  "initial_clock_local": "2026-11-03T02:15:51-05:00",
+  "last_checked_at_local": "2026-11-03T13:08:56.724114-05:00",
+  "last_checked_at_utc": "2026-11-03T18:08:56.724114+00:00",
+  "status": "stopped_at_recheck_outside_window",
+  "completed_nightly_batch": false,
+  "read_only_checkpoint_review": true,
+  "new_research_published": false,
+  "new_models_scored": 0,
+  "outcomes_2025_2026_opened": false,
+  "archive_started": false,
+  "last_verified_research_state": "outputs/时间执行与数据准入缺口矩阵_20261102/本轮状态与续作断点.json",
+  "research_pointer_unchanged": true,
+  "resume": "Complete only the next-stage route decision record using the three completed reviews; decide whether to prioritize bounded evidence closure, reformulate, wait, or justify a single separately registered hypothesis; no new candidate or later target opening",
+  "clock_observation": "Initial check within window; next verified check outside it. No cause inferred.",
+  "notification_decision": "DONT_NOTIFY"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "rules_2023_pdf_stock_trade",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/stock/trade/W020230217564423808793.pdf",
+    "retrieved_at": "2026-10-18T03:14:14.595414+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "rules_2023_notice_listing",
+    "url": "https://www.szse.cn/index/listing/rule/t20230217_598773.html",
+    "retrieved_at": "2026-10-18T03:14:14.595709+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  }
+]

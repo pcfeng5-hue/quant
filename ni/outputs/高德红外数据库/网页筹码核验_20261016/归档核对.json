@@ -1,0 +1,13 @@
+{
+  "all_evidence_hashes_match": true,
+  "snapshot_count": 4,
+  "unique_dates": [
+    "2023-01-03",
+    "2023-06-20"
+  ],
+  "all_dates_synchronized": true,
+  "same_date_ohlc_same": true,
+  "differing_summary_fields": 5,
+  "main_database_modified": false,
+  "eligible": false
+}

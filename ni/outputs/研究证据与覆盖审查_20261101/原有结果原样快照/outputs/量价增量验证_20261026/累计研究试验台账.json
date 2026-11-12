@@ -1,0 +1,34 @@
+{
+  "status": "cumulative_research_choices_not_independent_tests",
+  "registered_at_utc": "2026-10-26T21:58:14.902551+00:00",
+  "entries": [
+    {
+      "id": "002414_daily_engineering_20261025_v1",
+      "kind": "descriptive_signal_definitions",
+      "variants": 12,
+      "source": "work/baseline_oct25/engineering_contract.json",
+      "status": "reported_all_not_ranked"
+    },
+    {
+      "id": "002414_development_walkforward_20261026_v1",
+      "kind": "registered_models",
+      "variants": 2,
+      "source": "work/forecast_validation_oct26/contract.json",
+      "status": "MA_increment_not_supported_negative_result_retained"
+    },
+    {
+      "id": "002414_development_price_volume_increment_20261026_v1",
+      "kind": "one_new_hierarchical_model",
+      "variants": 1,
+      "repeated_comparators": 2,
+      "source": "work/incremental_validation_oct26/contract.json",
+      "status": "registered_before_candidate_results",
+      "outcome": "No incremental improvement on matched development dates; do not promote or retune",
+      "result_reference": "outputs/量价增量验证_20261026/同日模型对照.csv",
+      "primary_brier_delta": 0.002026684886776986
+    }
+  ],
+  "cumulative_variants": 15,
+  "folds_subsets_cells_and_repeated_comparators_not_counted_as_new_models": true,
+  "not_a_multiple_testing_correction": true
+}

@@ -1,0 +1,1315 @@
+{
+  "audit_version": "supplement-audit-v1",
+  "original_finance_observations": 135,
+  "original_reports": 15,
+  "current_main_value_differences": [
+    {
+      "report_date": "2022-12-31",
+      "metric": "basic_eps_ytd",
+      "value_decimal": "0.1531",
+      "unit": "CNY/share",
+      "scope": "consolidated",
+      "period_basis": "year_to_date",
+      "art_code": "AN202304191585591293",
+      "source_title": "高德红外:2022年年度报告",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202304191585591293_1.pdf",
+      "source_sha256": "ddf56e72977b287bd051fff35b3d5e8c62cb375c5b34361394b1b230e5811e0e",
+      "provider_notice_date": "2023-04-20",
+      "publication_time_precision": "day_only_from_provider_metadata",
+      "availability_status": "original_report_value_verified_first_public_timestamp_unverified",
+      "value_evidence_status": "manual_current_period_column_selection_and_named_segment_value_check",
+      "provider_field": "EPSJB",
+      "provider_current_value": 0.1178,
+      "provider_record_notice_date": "2023-04-20",
+      "provider_record_update_date": "2024-04-16",
+      "pdf_page_numbers": [
+        7
+      ],
+      "table_segment": "基本每股收益（元/股）0.1531|0.3423|-55.27%0.3208"
+    },
+    {
+      "report_date": "2022-12-31",
+      "metric": "diluted_eps_ytd",
+      "value_decimal": "0.1531",
+      "unit": "CNY/share",
+      "scope": "consolidated",
+      "period_basis": "year_to_date",
+      "art_code": "AN202304191585591293",
+      "source_title": "高德红外:2022年年度报告",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202304191585591293_1.pdf",
+      "source_sha256": "ddf56e72977b287bd051fff35b3d5e8c62cb375c5b34361394b1b230e5811e0e",
+      "provider_notice_date": "2023-04-20",
+      "publication_time_precision": "day_only_from_provider_metadata",
+      "availability_status": "original_report_value_verified_first_public_timestamp_unverified",
+      "value_evidence_status": "manual_current_period_column_selection_and_named_segment_value_check",
+      "provider_field": "EPSXS",
+      "provider_current_value": 0.1178,
+      "provider_record_notice_date": "2023-04-20",
+      "provider_record_update_date": "2024-04-16",
+      "pdf_page_numbers": [
+        7
+      ],
+      "table_segment": "稀释每股收益（元/股）0.1531|0.3423|-55.27%0.3208"
+    },
+    {
+      "report_date": "2022-12-31",
+      "metric": "total_assets",
+      "value_decimal": "8887797506.62",
+      "unit": "CNY",
+      "scope": "consolidated",
+      "period_basis": "period_end",
+      "art_code": "AN202304191585591293",
+      "source_title": "高德红外:2022年年度报告",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202304191585591293_1.pdf",
+      "source_sha256": "ddf56e72977b287bd051fff35b3d5e8c62cb375c5b34361394b1b230e5811e0e",
+      "provider_notice_date": "2023-04-20",
+      "publication_time_precision": "day_only_from_provider_metadata",
+      "availability_status": "original_report_value_verified_first_public_timestamp_unverified",
+      "value_evidence_status": "manual_current_period_column_selection_and_named_segment_value_check",
+      "provider_field": "TOTAL_ASSETS_PK",
+      "provider_current_value": 8893816052.99,
+      "provider_record_notice_date": "2023-04-20",
+      "provider_record_update_date": "2024-04-16",
+      "pdf_page_numbers": [
+        7
+      ],
+      "table_segment": "总资产（元）8,887,797,506.62|9,259,387,587.98|-4.01%6,338,745,860.18"
+    },
+    {
+      "report_date": "2023-03-31",
+      "metric": "basic_eps_ytd",
+      "value_decimal": "0.0192",
+      "unit": "CNY/share",
+      "scope": "consolidated",
+      "period_basis": "year_to_date",
+      "art_code": "AN202304271585966254",
+      "source_title": "高德红外:2023年一季度报告",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202304271585966254_1.pdf",
+      "source_sha256": "5162585459362fb69ac0e05b4b9189cc3cd561ad622b2d1065258e76dae3ae29",
+      "provider_notice_date": "2023-04-28",
+      "publication_time_precision": "day_only_from_provider_metadata",
+      "availability_status": "original_report_value_verified_first_public_timestamp_unverified",
+      "value_evidence_status": "manual_current_period_column_selection_and_named_segment_value_check",
+      "provider_field": "EPSJB",
+      "provider_current_value": 0.0148,
+      "provider_record_notice_date": "2023-04-28",
+      "provider_record_update_date": "2024-04-27",
+      "pdf_page_numbers": [
+        2
+      ],
+      "table_segment": "基本每股收益（元/股）0.0192|0.0949|-79.77%"
+    },
+    {
+      "report_date": "2023-03-31",
+      "metric": "diluted_eps_ytd",
+      "value_decimal": "0.0192",
+      "unit": "CNY/share",
+      "scope": "consolidated",
+      "period_basis": "year_to_date",
+      "art_code": "AN202304271585966254",
+      "source_title": "高德红外:2023年一季度报告",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202304271585966254_1.pdf",
+      "source_sha256": "5162585459362fb69ac0e05b4b9189cc3cd561ad622b2d1065258e76dae3ae29",
+      "provider_notice_date": "2023-04-28",
+      "publication_time_precision": "day_only_from_provider_metadata",
+      "availability_status": "original_report_value_verified_first_public_timestamp_unverified",
+      "value_evidence_status": "manual_current_period_column_selection_and_named_segment_value_check",
+      "provider_field": "EPSXS",
+      "provider_current_value": 0.0148,
+      "provider_record_notice_date": "2023-04-28",
+      "provider_record_update_date": "2024-04-27",
+      "pdf_page_numbers": [
+        2
+      ],
+      "table_segment": "稀释每股收益（元/股）0.0192|0.0949|-79.77%"
+    }
+  ],
+  "candidate_sources": 13,
+  "announcement_status": {
+    "date_and_normalized_title_match": 308,
+    "eastmoney_additional_investor_activity": 4
+  },
+  "official_ir_matches": 4,
+  "forward_or_unknown_fields": [
+    {
+      "dataset": "block_trade",
+      "field_name": "CHANGE_RATE_20DAYS",
+      "reason": "forward_return_statistic",
+      "non_null_records": 72,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "block_trade",
+      "field_name": "CHANGE_RATE_5DAYS",
+      "reason": "forward_return_statistic",
+      "non_null_records": 72,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "block_trade",
+      "field_name": "CHANGE_RATE_10DAYS",
+      "reason": "forward_return_statistic",
+      "non_null_records": 72,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "block_trade",
+      "field_name": "CHANGE_RATE_1DAYS",
+      "reason": "forward_return_statistic",
+      "non_null_records": 72,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "institution_seats",
+      "field_name": "D5_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 5,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "institution_seats",
+      "field_name": "D3_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 5,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "institution_seats",
+      "field_name": "D1_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 5,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "institution_seats",
+      "field_name": "D10_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 5,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "institution_seats",
+      "field_name": "D2_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 5,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "financial_main",
+      "field_name": "FCFF_FORWARD",
+      "reason": "formula_and_historical_availability_unknown",
+      "non_null_records": 15,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "dividends",
+      "field_name": "D10_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 3,
+      "audit_version": "supplement-audit-v1"
+    },
+    {
+      "dataset": "dividends",
+      "field_name": "D30_CLOSE_ADJCHRATE",
+      "reason": "forward_return_statistic",
+      "non_null_records": 2,
+      "audit_version": "supplement-audit-v1"
+    }
+  ],
+  "volume_amount_unit_failures": [],
+  "unit_checked_days": 912,
+  "fund_flow_checks": [
+    {
+      "trade_date": "2026-04-15",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 10.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-16",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-17",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-20",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -10.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-21",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-22",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -24.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-23",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -14.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-24",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 15.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-27",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -19.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-28",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -4.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-29",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 3.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-04-30",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 13.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-06",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-07",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -6.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-08",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-11",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-12",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 13.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-13",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -6.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-14",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 19.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-15",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -10.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-18",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-19",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-20",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-21",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-22",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-25",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 7.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-26",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-27",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-28",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-05-29",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 3.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-01",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-02",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-03",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-04",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-05",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-08",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 4.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-09",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-10",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-11",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 3.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-12",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -4.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-15",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-16",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-17",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-18",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-22",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -9.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-23",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 6.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-24",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-25",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-26",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-29",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-06-30",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-01",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 15.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-02",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-03",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-06",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 4.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-07",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-08",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -12.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-09",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-10",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -16.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-13",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-14",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -16.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-15",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -10.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-16",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 23.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-17",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 20.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-20",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-21",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -18.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-22",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -21.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-23",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -13.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-24",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -16.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-27",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -14.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-28",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 16.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-29",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-30",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-07-31",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-03",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -3.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-04",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -7.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-05",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-06",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 12.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-07",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 6.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-10",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -4.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-11",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 7.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-12",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-13",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 14.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-14",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-17",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-18",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 9.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-19",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 4.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-20",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-21",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 6.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-24",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-25",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 3.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-26",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-27",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -2.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-28",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-08-31",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 8.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-01",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -9.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-02",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": -5.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-03",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-04",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-07",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-08",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-09",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-10",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-11",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-14",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-15",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-16",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-17",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-18",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-21",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": false,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-22",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-23",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 2.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-24",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-28",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-29",
+      "main_sum": true,
+      "net_balance": false,
+      "net_balance_residual_cny": 2.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-09-30",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-10-08",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-10-09",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": 0.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-10-12",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    },
+    {
+      "trade_date": "2026-10-13",
+      "main_sum": true,
+      "net_balance": true,
+      "net_balance_residual_cny": -1.0,
+      "close_matches_unadjusted": true,
+      "close_matches_current_qfq": true,
+      "percent_unit_consistent": true
+    }
+  ],
+  "fund_flow_summary": {
+    "records": 120,
+    "main_sum_failures": 0,
+    "percent_unit_failures": 0,
+    "price_matches_current_qfq": 120,
+    "price_differs_from_unadjusted": 110,
+    "net_balance_residual_over_one_cny": 78,
+    "maximum_abs_residual_cny": 24.0
+  },
+  "temporal_record_count": 1979,
+  "approved_historical_record_count": 0,
+  "historical_input_rule": "Default deny: raw collection and numeric verification do not certify first historical availability."
+}

@@ -1,0 +1,65 @@
+{
+  "public_sources": [
+    {
+      "id": "SZSE_2026_NOTICE",
+      "url": "https://www.szse.cn/lawrules/rule/trade/current/t20260424_620190.html",
+      "publisher": "深圳证券交易所",
+      "published_date": "2026-04-24",
+      "effective_date": "2026-07-06",
+      "evidence_kind": "Fresh web parsed observation plus previously saved original HTML",
+      "saved_raw_files": [
+        "work/label_timing_nov01/raw/官方检索响应_20261101.json",
+        "work/label_timing_nov01/raw/官方盘后与除权条款解析_20261101.json",
+        "work/label_timing_nov01/raw/官方通知与规则解析_20261101.json"
+      ],
+      "original_saved_file": "work/historical_trade_conditions_oct17/raw/rules_2026_notice_retry_0dcb0971ac96123f.html"
+    },
+    {
+      "id": "SZSE_2026_RULE_PDF",
+      "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+      "publisher": "深圳证券交易所",
+      "version": "2026年修订",
+      "published_date": "2026-04-24",
+      "effective_date": "2026-07-06",
+      "selected_pages": [
+        7,
+        8,
+        12,
+        15,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26
+      ],
+      "evidence_kind": "Fresh parsed PDF observation, selected provisions matched to saved original; not a newly downloaded binary or full change-chain certificate",
+      "original_saved_file": "work/historical_trade_conditions_oct17/raw/rules_2026_pdf_9b66f8b0db70f84a.pdf",
+      "original_saved_sha256": "9b66f8b0db70f84a25ef1ccb4ee2351001724e408117552d75f6d8993483c586"
+    }
+  ],
+  "new_web_observation_sha256": {
+    "work/label_timing_nov01/raw/官方检索响应_20261101.json": "55829040547816d214afdf2c9c6043a8c69244a6ccbc9957d14a453aa780c2dd",
+    "work/label_timing_nov01/raw/官方盘后与除权条款解析_20261101.json": "e84310f5e63e6dbc7a90f2d3e57b3f3a59ff92e4123506f1575a30c0862b40c9",
+    "work/label_timing_nov01/raw/官方通知与规则解析_20261101.json": "57397cd6f9d260f0f9e9ba9d5c0306502965ea0dc50cec748477847a648464d6"
+  },
+  "root_web_response": {
+    "path": "work/label_review_nov01/官方网页核查原响应.json",
+    "sha256": "026956b894dd07c29511f8484bc415702904f524dd8b33f21e27af666c80b750",
+    "retrieval_date_client": "2026-11-01",
+    "kind": "Fresh tool-parsed observations, not a newly downloaded binary PDF",
+    "one_notice_open_failed": "An alternate official notice URL timed out; retained in raw response, no bypass or repeated retry"
+  },
+  "old_official_source_sha256": {
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "outputs/概率预测引擎详细方案_20261016.md": "fb059323e6b3956986a580078015f3c9aa68e24093c608b91b159713b15554b8",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/历史交易条件补核报告.md": "bb766b3f40e29b90d11f7e20071a8b8ea534410c910645ae4690087c79313aee",
+    "outputs/五项数据补缺_20261022/历史交易条件核对.md": "bb766b3f40e29b90d11f7e20071a8b8ea534410c910645ae4690087c79313aee",
+    "work/conditions_finish_oct22/extracted/rules_2026_pdf_9b66f8b0db70f84a_pages.json": "60151b3785849cc178e31e7f5799080763f70800f12e05e0dcd5636753c65d5c",
+    "work/historical_trade_conditions_oct17/raw/rules_2026_pdf_9b66f8b0db70f84a.pdf": "9b66f8b0db70f84a25ef1ccb4ee2351001724e408117552d75f6d8993483c586",
+    "work/historical_trade_conditions_oct17/raw/rules_2026_notice_retry_0dcb0971ac96123f.html": "0dcb0971ac96123f369178ce8f5397d948190d41281175694664de1d1dd4dce5"
+  },
+  "rules_not_certified_for_every_historical_date": true
+}

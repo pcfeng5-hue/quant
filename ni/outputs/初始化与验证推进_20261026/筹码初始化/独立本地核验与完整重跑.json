@@ -1,0 +1,91 @@
+{
+  "all_checks_passed": true,
+  "audit_implementation_sha256": "decba37089136a32ed66bdccc25455cb29d48760b6ca4501ffabdfef1182424d",
+  "checks": [
+    {
+      "checked_states": 3192,
+      "max_float_absolute_error": 3.885780586188048e-16,
+      "name": "independent_60_digit_decimal_unknown_product_all_days",
+      "passed": true
+    },
+    {
+      "minimum_unknown_mass": 2.1497391071639464e-10,
+      "name": "no_unknown_mass_hard_zero",
+      "passed": true
+    },
+    {
+      "name": "sqlite_integrity",
+      "passed": true
+    },
+    {
+      "max_mass_sum_error": 4.440892098500626e-16,
+      "name": "saved_subprobability_not_total_distribution",
+      "passed": true
+    },
+    {
+      "max_conditional_sum_error": 2.220446049250313e-16,
+      "name": "conditional_normalization_separately_labelled",
+      "passed": true
+    },
+    {
+      "max_cdf_or_conditional_error": 1.734723475976807e-18,
+      "name": "stored_cdf_envelope_matches_observed_plus_unknown",
+      "passed": true
+    },
+    {
+      "name": "independent_saved_bin_quantile_profit_and_mean_checks",
+      "passed": true,
+      "saved_quantiles": 180,
+      "saved_runs": 36
+    },
+    {
+      "name": "all_gates_and_support_assumption_remain_false",
+      "passed": true
+    },
+    {
+      "changed_files": [],
+      "checked_files": 34,
+      "name": "all_old_artifacts_still_match_original_hashes",
+      "passed": true
+    },
+    {
+      "changed_files": [],
+      "command_stdout": "{\"status\": \"complete\", \"output\": \"/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/初始化与验证推进_20261026/筹码初始化\", \"runs\": 36, \"diagnostics\": 3192, \"checks\": 20, \"database_sha256\": \"601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc\"}",
+      "compared_files": 11,
+      "files_after": {
+        "918日基准初始化诊断.csv": "b4d370e790945a74b2633875bc999dcc2e353616ad979414e695d0b830f27c80",
+        "初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+        "固定日期结果.json": "37c5d901475617ff9d8ff0678d8aeb18346a67cec0e18f11b186928a931b537f",
+        "基准12日摘要.csv": "745b9edf8aff2430c699f1cff65e350f66a2dd392afd1ca8da0b313d77ce789e",
+        "旧原件哈希前后.json": "1060aa17ae26322c9e549685f4780132e3ed842fd9b3069ead6d596b47403ca1",
+        "来源与参数.json": "c73cb9d80f6594a5664203a967e1951481e664e6441f8ca56f1e6b9a533e36b0",
+        "筹码初始化改进v2报告.md": "efc9a8b029f22663f4b39467f7c2a5bf775871f8ccfa21f0cbf07ae7c4beb6e6",
+        "算法实现.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+        "逐日初始化诊断.json": "f50866fdc20df7470d11ce3b5e19cc10125beaf4b3ea1f307603ce891cb036b3",
+        "重建说明.md": "987a9423ec3ff973d4a3ae8802b982eaf843c227758ea2fd9dbdacd3bcefa528",
+        "验证结果.json": "7e7ad15f8b4e08326ee859c559b527f1538fa28fb26d9753151d3c8ef761b07d"
+      },
+      "files_before": {
+        "918日基准初始化诊断.csv": "b4d370e790945a74b2633875bc999dcc2e353616ad979414e695d0b830f27c80",
+        "初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+        "固定日期结果.json": "37c5d901475617ff9d8ff0678d8aeb18346a67cec0e18f11b186928a931b537f",
+        "基准12日摘要.csv": "745b9edf8aff2430c699f1cff65e350f66a2dd392afd1ca8da0b313d77ce789e",
+        "旧原件哈希前后.json": "1060aa17ae26322c9e549685f4780132e3ed842fd9b3069ead6d596b47403ca1",
+        "来源与参数.json": "c73cb9d80f6594a5664203a967e1951481e664e6441f8ca56f1e6b9a533e36b0",
+        "筹码初始化改进v2报告.md": "efc9a8b029f22663f4b39467f7c2a5bf775871f8ccfa21f0cbf07ae7c4beb6e6",
+        "算法实现.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+        "逐日初始化诊断.json": "f50866fdc20df7470d11ce3b5e19cc10125beaf4b3ea1f307603ce891cb036b3",
+        "重建说明.md": "987a9423ec3ff973d4a3ae8802b982eaf843c227758ea2fd9dbdacd3bcefa528",
+        "验证结果.json": "7e7ad15f8b4e08326ee859c559b527f1538fa28fb26d9753151d3c8ef761b07d"
+      },
+      "name": "full_command_rerun_all_artifacts_byte_identical",
+      "passed": true
+    }
+  ],
+  "estimator_imported": false,
+  "future_returns_read": false,
+  "model_input_approved": false,
+  "native_supplier_bins_acquired": false,
+  "network_used": false,
+  "stdlib_only": true
+}

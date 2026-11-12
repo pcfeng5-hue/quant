@@ -1,0 +1,14 @@
+{
+  "default_mode": "unknown",
+  "account_rate": null,
+  "minimum_per_order_cny": null,
+  "contains_exchange_fee": null,
+  "contains_regulatory_fee": null,
+  "contains_transfer_fee": null,
+  "rounding_and_order_aggregation": null,
+  "total_cost_may_be_calculated": false,
+  "inclusive_mode": "若确认券商报出的全佣包含经手费/证管费，只计一次全佣；过户费是否包含仍须单独确认",
+  "net_mode": "仅在确认净佣时，将净佣、经手费、证管费及未包含的过户费相加；印花税另按卖出日期计算",
+  "unknown_mode": "账户佣金与包费范围未知时，保留费率组件，不输出精确净收益",
+  "dividend_tax": "个人身份/持股期限/跨境税务状态未确认，红利税不设默认0；不在每笔交易费用中机械计提"
+}

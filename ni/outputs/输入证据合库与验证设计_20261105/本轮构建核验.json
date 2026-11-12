@@ -1,0 +1,152 @@
+{
+  "all_checks_passed": true,
+  "passed": 20,
+  "total": 20,
+  "checks": [
+    {
+      "check": "saved_partial_artifact_hashes_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_local_field_24_calendar_23_checks_passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "15_registered_paths_14_reused_content_sources_no_extra",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prior_source_fingerprints_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "10_exact_unique_field_provider_pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "729_exact_calendar_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "484_open_245_closed_two_context",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_unknown_historical_field_times_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "native_mapping_units_not_invented",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "manifest_raw_hashes_not_pretended_reverified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "formal_current_runtime_gates_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "status_zero_certification_not_normalized_true",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_JSON_products_copied_byte_identically",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SQLite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SQLite_keys_counts_and_nulls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_JSON_record_correspondence_field_evidence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_JSON_record_correspondence_calendar_days",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_JSON_record_correspondence_context_calendar_days",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_JSON_record_correspondence_corporate_action_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "15_metadata_source_hashes_unchanged_after_materialization",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "source_hashes": {
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719",
+    "work/market_warmup_finalize_oct22/manifest.json": "00535dc7b0007bc095e209e44274c96346b8198e021eca1bf5c48069b1c1d56a",
+    "work/market_warmup_finalize_oct22/summary.json": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924",
+    "outputs/高德红外数据库/calendar_audit_result.json": "89805d6a20eb3b87b2aeea64a2ee5d3e54ea6cd67fc67924d3a075e221ee0a03",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296",
+    "work/conditions_finish_oct22/summary.json": "426d85198abdd0fd5602e2794ea2dc8d0bf2c4b53dd12cdf7bb5845bca9032aa",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047",
+    "work/corporate_actions_refine_oct17/corporate_actions.json": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776",
+    "outputs/时间执行与数据准入缺口矩阵_20261102/来源索引与SHA256.json": "a236d9bbcb1f350e8a9ae0aae542bcf8c8cc9d63c7c248538ef3e316e09a238e"
+  },
+  "record_counts": {
+    "scope": "One fixed local metadata-source pass, reused saved products without re-extraction",
+    "engineering_inventory_complete": true,
+    "field_provider_rows": 10,
+    "calendar_natural_days": 729,
+    "planned_open_days": 484,
+    "planned_closed_days": 245,
+    "context_only_days": 2,
+    "corporate_action_date_records": 2,
+    "source_paths_registered": 15,
+    "source_paths_content_used_in_prior_pass": 14,
+    "extra_sources": 0,
+    "historical_first_availability_certified_rows": 0,
+    "native_field_mapping_certified_rows": 0,
+    "formal_historical_input_approved_rows": 0,
+    "calendar_daily_normal_certified_rows": 0,
+    "official_daily_limit_certified_rows": 0,
+    "conclusion": "This bounded source set does not establish historical first-availability/revision proof or full daily execution/cost status. Unknowns are retained, not evidence that publication never occurred or recovery is impossible from every other source.",
+    "next_action": "Freeze gated buy-versus-wait validation design with explicit pending parameters and prospective first-receipt evidence requirements; do not label, fit, score, simulate or trade",
+    "raw_original_integrity": "Manifest-recorded SHA only, not rehashed this batch",
+    "all_formal_and_current_gates": false,
+    "new_real_labels": 0,
+    "new_models": 0,
+    "new_scores": 0,
+    "outcomes_2025_2026_opened": false
+  },
+  "inputs_reused": true,
+  "extractors_rerun": false
+}

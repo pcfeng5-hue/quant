@@ -1,0 +1,89 @@
+{
+  "decision_id": "002414_next_stage_route_20261104_v1",
+  "client_date": "2026-11-04",
+  "basis": "Three completed saved reviews only; no fresh market or regulatory assertion",
+  "selected_route": "R2",
+  "options": [
+    {
+      "id": "R1",
+      "route": "现在继续叠加指标或优化旧分组",
+      "selected": false,
+      "reason": "旧三轮未升级，目标仍为方向示例，关键时点/执行证据和15参数未定；继续扫14列会重复开发选择"
+    },
+    {
+      "id": "R2",
+      "route": "先做有边界的必要输入证据工程",
+      "selected": true,
+      "reason": "优先回答买vs等需要哪些可证明输入；从固定旧来源产出可查询台账和日期索引，允许明确证据无法恢复"
+    },
+    {
+      "id": "R3",
+      "route": "立即开前向预测/模拟或新数据大采集",
+      "selected": false,
+      "reason": "尚无冻结的预测协议和准入；可在历史证据不可恢复后先设计首收采集，但那不是预测或60日模拟起点"
+    },
+    {
+      "id": "R4",
+      "route": "扩大股票池、购数或补齐所有可选输入",
+      "selected": false,
+      "reason": "未先定义总体/选择偏差和最小必要范围；渠道/费用未知，预算非采购授权；可选输入不应阻塞底座工程"
+    },
+    {
+      "id": "R5",
+      "route": "完全停止所有项目工作",
+      "selected": false,
+      "reason": "已有可独立完成的证据与工程工作，不需要账户私有资料；无须把当前无升级依据推断为永远无用"
+    }
+  ],
+  "user_confirmed_first_use_case": "收盘后判断回落时该买入还是继续等待",
+  "pending_freeze": {
+    "pullback_eligibility_rule": null,
+    "confirmation_rule": null,
+    "main_horizon_planned_exchange_sessions": null,
+    "decision_datetime_and_information_cutoff": null,
+    "validated_exchange_planned_calendar": null,
+    "maximum_wait_sessions": null,
+    "last_confirmation_and_last_entry": null,
+    "entry_order_price_validity_and_cancellation_policy": null,
+    "terminal_NAV_or_executable_cash_policy": null,
+    "allocation_quantity_and_cash_interest_policy": null,
+    "fees_slippage_and_dividend_tax": null,
+    "economic_neutral_band_and_material_advantage": null,
+    "risk_barriers_and_action_thresholds": null,
+    "statistical_and_economic_acceptance": null,
+    "user_risk_limits_beyond_existing_realized_pause": null
+  },
+  "cumulative_registered_variants": 16,
+  "old_failures_retained": true,
+  "gap_focus": [
+    "T01",
+    "T02",
+    "T03",
+    "D01",
+    "X01",
+    "X02",
+    "X03",
+    "D02",
+    "P01",
+    "P02",
+    "P03",
+    "P05"
+  ],
+  "admission_stages": [
+    "先完成下一批证据台账工程，未知诚实保留",
+    "另核选定字段的历史可用性或提出有边界的前向首收方案",
+    "明确并冻结买vs等的时间/分配/确认/费用/NAV或清算及风险口径",
+    "若仍有合理单一假设，再另行预登记新候选、共同基准、覆盖、验收和累计选择",
+    "后期目标阶段及前向模拟另立协议；不能因四份审查完成自动开放"
+  ],
+  "new_data_gaps_closed": 0,
+  "new_real_labels": 0,
+  "new_models_fitted": 0,
+  "new_scores_calculated": 0,
+  "model_input_approved": false,
+  "runtime_usable": false,
+  "current_forecast_generated": false,
+  "outcomes_2025_2026_opened": false,
+  "real_funds_authorized": false,
+  "prospective_forecast_started": false
+}

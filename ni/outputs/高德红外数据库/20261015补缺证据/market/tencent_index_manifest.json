@@ -1,0 +1,65 @@
+{
+  "target_end": "2026-10-15",
+  "results": [
+    {
+      "name": "tencent_index_sh000001",
+      "kind": "index_tencent",
+      "symbol": "sh000001",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001%2Cday%2C2023-01-01%2C2026-10-15%2C1200%2C",
+      "retrieved_at": "2026-10-15T17:36:49.100550+00:00",
+      "error": null,
+      "sha256": "2982550f52ba6673a43ee004215e7500b68f7e817a00c99be9f05e7a9fcd3196",
+      "stage_raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/refresh_oct15_market/tencent_index_sh000001_2982550f52ba6673.json",
+      "provider_rows": 914,
+      "min_date": "2023-01-03",
+      "max_date": "2026-10-15",
+      "provider_name": "上证指数",
+      "first_row": [
+        "2023-01-03",
+        "3087.510",
+        "3116.510",
+        "3119.860",
+        "3073.050",
+        "281370362.000"
+      ],
+      "last_row": [
+        "2026-10-15",
+        "3710.700",
+        "3707.480",
+        "3724.560",
+        "3674.820",
+        "510163189.000"
+      ]
+    },
+    {
+      "name": "tencent_index_sz399001",
+      "kind": "index_tencent",
+      "symbol": "sz399001",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001%2Cday%2C2023-01-01%2C2026-10-15%2C1200%2C",
+      "retrieved_at": "2026-10-15T17:36:50.915230+00:00",
+      "error": null,
+      "sha256": "afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d",
+      "stage_raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/refresh_oct15_market/tencent_index_sz399001_afd966dd4e8446cf.json",
+      "provider_rows": 914,
+      "min_date": "2023-01-03",
+      "max_date": "2026-10-15",
+      "provider_name": "深证成指",
+      "first_row": [
+        "2023-01-03",
+        "11003.050",
+        "11117.130",
+        "11134.960",
+        "10921.420",
+        "397899643.000"
+      ],
+      "last_row": [
+        "2026-10-15",
+        "11819.990",
+        "11816.790",
+        "11940.010",
+        "11712.120",
+        "551274117.000"
+      ]
+    }
+  ]
+}

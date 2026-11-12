@@ -1,0 +1,37 @@
+{
+  "reviewed_at_utc": "2026-10-18T03:14:52.081104+00:00",
+  "rendered_key_pages": 5,
+  "all_reviewed": true,
+  "records": [
+    {
+      "file": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/corporate_actions_refine_oct17/rendered/AN202404151630235965_p114.png",
+      "sha256": "cdcd4f3ac4a20a69bd51be80540b873d5ab6928a979f3bdfd909b3196e1ccdb3",
+      "reviewed": true,
+      "review_scope": "完整关键页可视检查；核对不分配条款、原文金额或工商日期"
+    },
+    {
+      "file": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/corporate_actions_refine_oct17/rendered/AN202504241661802971_p1.png",
+      "sha256": "c160d58470a74c63532261fefe71b94c169f9c79505046dbd16cd91ab6600764",
+      "reviewed": true,
+      "review_scope": "完整关键页可视检查；核对不分配条款、原文金额或工商日期"
+    },
+    {
+      "file": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/corporate_actions_refine_oct17/rendered/AN202505201676081145_p4.png",
+      "sha256": "2dba4f3ae87bc8318bbef2e1f817c65f8d860804d4043c3043cbcb74d79d78f8",
+      "reviewed": true,
+      "review_scope": "完整关键页可视检查；核对不分配条款、原文金额或工商日期"
+    },
+    {
+      "file": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/corporate_actions_refine_oct17/rendered/AN202604141821191382_p1.png",
+      "sha256": "6d22405d90ec1d96d15b74616a79e544a8abe879d0a1eddb42b64d3a510a05f9",
+      "reviewed": true,
+      "review_scope": "完整关键页可视检查；核对不分配条款、原文金额或工商日期"
+    },
+    {
+      "file": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/corporate_actions_refine_oct17/rendered/AN202605081822079377_p3.png",
+      "sha256": "ba97d74b254f22c5cc7e85b6b358df5963818588526534bfbfdfdcfaf2d5106e",
+      "reviewed": true,
+      "review_scope": "完整关键页可视检查；核对不分配条款、原文金额或工商日期"
+    }
+  ]
+}

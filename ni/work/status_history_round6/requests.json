@@ -1,0 +1,114 @@
+[
+  {
+    "name": "szse_month_index",
+    "url": "https://www.szse.cn/market/periodical/month/index.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:50:06.030751+00:00",
+    "error": "URLError(ConnectionResetError(54, 'Connection reset by peer'))"
+  },
+  {
+    "name": "szse_temp_index",
+    "url": "https://www.szse.cn/disclosure/notice/temp/index.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:50:08.296065+00:00",
+    "status_code": 200,
+    "sha256": "efddcbdb6e9ef3f7e9a5cca3c64f8abb6d05338a3d57db1aae37c63dbc664825",
+    "content_type": "text/html",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/szse_temp_index_efddcbdb6e9ef3f7.html",
+    "bytes": 92339
+  },
+  {
+    "name": "szse_month_sample",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250905347571947097.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:50:10.991204+00:00",
+    "status_code": 200,
+    "sha256": "1faab30c12a1459de124510529050382c34dfc8a5f0fbffc98c9e275b69a57c8",
+    "content_type": "text/html; charset=GBK",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/szse_month_sample_1faab30c12a1459d.html",
+    "bytes": 5483
+  },
+  {
+    "name": "szse_article_list_js",
+    "url": "https://res.szse.cn/common/js/articleList.js",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:50:45.283198+00:00",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "szse_month_index_retry",
+    "url": "https://www.szse.cn/market/periodical/month/index.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:50:47.621044+00:00",
+    "status_code": 200,
+    "sha256": "7b362a54f891546b1cec476a5562e425c2f7459c79a37c2d62717b94552600a2",
+    "content_type": "text/html",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/szse_month_index_retry_7b362a54f891546b.html",
+    "bytes": 122297
+  },
+  {
+    "name": "baostock_official_docs",
+    "url": "https://baostock.com/mainContent?file=doc/baostock/baostockApi.md",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:50:51.843876+00:00",
+    "status_code": 200,
+    "sha256": "8806d51df625bdc24066e2e6b2659615ed3d6eeb5fe29dafc434bd938f4c8674",
+    "content_type": "text/html",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/baostock_official_docs_8806d51df625bdc2.html",
+    "bytes": 8086
+  },
+  {
+    "name": "szse_month_details_2026-09",
+    "url": "https://www.szse.cn/market/periodical/month/t20261013_623294.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:51:21.329599+00:00",
+    "status_code": 200,
+    "sha256": "be1e3679fb3cbca452f4c125eac2c62a501e7ec84453527b7d3a709e875e3931",
+    "content_type": "text/html",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/szse_month_details_2026-09_be1e3679fb3cbca4.html",
+    "bytes": 23078
+  },
+  {
+    "name": "szse_month_details_2023-01",
+    "url": "https://www.szse.cn/market/periodical/month/t20230202_598541.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:51:23.293340+00:00",
+    "status_code": 200,
+    "sha256": "2e16a2ab7334c44f25f506d70de66b357379889b86581c5e662705ae6a445874",
+    "content_type": "text/html",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/szse_month_details_2023-01_2e16a2ab7334c44f.html",
+    "bytes": 20107
+  },
+  {
+    "name": "baostock_assets",
+    "url": "https://baostock.com/assets/index-DUQ-MKvt.js",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:51:24.064621+00:00",
+    "status_code": 200,
+    "sha256": "32ae863323aceaa6632364e18d62906e38ed427641f69339bc1558f55819d47c",
+    "content_type": "application/javascript",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/baostock_assets_32ae863323aceaa6.html",
+    "bytes": 2315869
+  },
+  {
+    "name": "baostock_pypi",
+    "url": "https://pypi.org/pypi/baostock/json",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:51:26.936828+00:00",
+    "status_code": 200,
+    "sha256": "bd986084fcfb1f5ef763692878887f1c66ad6cb9bea3450b0c445b5b6bd92293",
+    "content_type": "application/json",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/status_history_round6/baostock_pypi_bd986084fcfb1f5e.json",
+    "bytes": 26538
+  }
+]

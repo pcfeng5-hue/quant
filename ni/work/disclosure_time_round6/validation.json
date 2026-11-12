@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "name": "exactly_312_unique_local_pdfs_mapped",
+      "passed": true
+    },
+    {
+      "name": "ordinary308_and_ir4_separate",
+      "passed": true
+    },
+    {
+      "name": "all_312_official_ids_unique_and_complete",
+      "passed": true
+    },
+    {
+      "name": "all_312_official_days_match_provider_and_path",
+      "passed": true
+    },
+    {
+      "name": "all_312_normalized_titles_match",
+      "passed": true
+    },
+    {
+      "name": "all_308_ordinary_timestamps_only_midnight",
+      "passed": true
+    },
+    {
+      "name": "all_312_official_storageTime_missing",
+      "passed": true
+    },
+    {
+      "name": "all_312_current_pdf_hashes_match",
+      "passed": true
+    },
+    {
+      "name": "all_16_current_catalogue_raw_hashes_match",
+      "passed": true
+    },
+    {
+      "name": "all_22_official_pdf_identity_checks_retained_and_valid",
+      "passed": true
+    },
+    {
+      "name": "first_public_and_historical_eligibility_not_fabricated",
+      "passed": true
+    },
+    {
+      "name": "previous104_rows_only_display_time_jitter",
+      "passed": true
+    },
+    {
+      "name": "main_database_unchanged_during_read_only_audit",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,51 @@
+{
+  "run_id": "rapidocr:11b359db2472018c4374ba61db7bbc8e92e23283b5116f549c9c540cbaf8854c",
+  "result_sha256": "11b359db2472018c4374ba61db7bbc8e92e23283b5116f549c9c540cbaf8854c",
+  "relative_path": "公告OCR补充/pages_11b359db2472018c.jsonl",
+  "original_pending_pages": 185,
+  "ocr_text_pages": 185,
+  "available_machine_text_pages": 4253,
+  "text_characters": 172753,
+  "manual_full_page_reviews": 0,
+  "newly_certified_numeric_facts": 0,
+  "historical_input_eligible": false,
+  "verification": {
+    "all_identity_and_completeness_checks_passed": true,
+    "checks": {
+      "185_original_gap_pages": true,
+      "185_page_results": true,
+      "no_duplicate_page_identity": true,
+      "all_original_gap_pages_have_result": true,
+      "all_original_pdf_hashes_unchanged": true,
+      "source_hash_checked_before_each_ocr": true,
+      "all_page_outputs_link_original_url_title_notice_date": true,
+      "each_observation_has_coordinates_and_confidence": true,
+      "observation_text_matches_page_text": true,
+      "all_numeric_and_historical_inputs_unapproved": true,
+      "no_failure_labeled_blank": true,
+      "no_page_manually_certified": true,
+      "model_file_hashes_still_match": true
+    },
+    "pages": 185,
+    "documents": 20,
+    "statuses": {
+      "ocr_extracted_unverified": 185
+    },
+    "total_chars": 172753,
+    "total_observations": 14433,
+    "pages_with_any_line_confidence_below_0_8": 124,
+    "total_lines_confidence_below_0_8": 622,
+    "elapsed_seconds_for_pages": 425.5904718290549,
+    "completed_page_manual_review": 0,
+    "certified_numeric_facts": 0,
+    "identical_ocr_text_duplicate_groups": 9,
+    "pages_in_identical_ocr_text_groups": 44,
+    "scope": "Checks verify linkage and output completeness only, not OCR factual accuracy.",
+    "known_failure_modes": [
+      "Signature and seal graphics produce spurious text.",
+      "Digits and punctuation can be misrecognized even at high OCR confidence.",
+      "Sideways table output may be ordered by original columns; no table reconstruction is certified.",
+      "Current download and signature dates do not establish first historical publication time."
+    ]
+  }
+}

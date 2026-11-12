@@ -1,0 +1,84 @@
+{
+  "as_of": "2026-10-15",
+  "symbol": "002414.SZ",
+  "start": "2023-01-01",
+  "end": "2026-10-15",
+  "target_trading_dates": 914,
+  "acquired_provider_chip_dates": 0,
+  "actual_rows_inserted_to_market_database": 0,
+  "supplier_inquiry_status": "unknown; no email read or sent",
+  "credentials_used": false,
+  "purchase_made": false,
+  "local_chip_reconstruction_computed": false,
+  "candidates": [
+    {
+      "id": "TUSHARE",
+      "state": "documented_candidate_no_actual_002414_sample",
+      "distribution_url": "https://tushare.pro/document/2?doc_id=294",
+      "summary_url": "https://tushare.pro/document/2?doc_id=293",
+      "permission_url": "https://tushare.pro/document/1?doc_id=290",
+      "estimated_not_account_holdings": true,
+      "claimed_start_year": 2018,
+      "full_price_bins_documented": true,
+      "document_example_symbol": "600000.SH",
+      "points_conflict": {
+        "api_docs_minimum": 5000,
+        "permission_table_tier": 10000,
+        "resolved": false
+      },
+      "actual_002414_coverage": null,
+      "anonymous_sample_obtained": false,
+      "next_gate": "Official sample and clarification of permission, local storage, adjustment, algorithm version and historical revisions before any purchase."
+    },
+    {
+      "id": "BIGQUANT",
+      "state": "new_native_vendor_estimate_candidate_subscription_no_actual_sample",
+      "url": "https://bigquant.com/data/datasources/cn_stock_chips_distribution",
+      "estimated_not_account_holdings": true,
+      "claimed_start_year": 2006,
+      "full_price_bins_documented": true,
+      "document_example_symbol": "000002.SZ",
+      "document_example_date": "2025-06-23",
+      "actual_002414_coverage": null,
+      "anonymous_page_access_label": "订阅数据",
+      "algorithm_scope": "Provider estimate using daily unadjusted prices, turnover decay, free-float base; corporate actions considered; maximum 200 price bins; low-weight cutoff uses 0.001% of free float; model not recreated locally.",
+      "start_metadata_not_coverage_certification": "Document says 2006 origin; page metadata start timestamp 2025-07-29 is not evidence of earliest 002414 trading date.",
+      "anonymous_sample_obtained": false,
+      "price_permission_and_local_sdk_access": null,
+      "next_gate": "Ask supplier for two full-price-bin 002414 samples on 2023-01-03 and 2026-10-15, effective algorithm version, adjustments and 914-date coverage; independently clarify cloud and local SDK rights. No account created."
+    },
+    {
+      "id": "QUANTCODA",
+      "state": "summary_only_trial_requires_api_key_not_full_price_distribution",
+      "url": "https://quantcoda.com/docs",
+      "capability": {
+        "id": "distribution",
+        "name": "筹码分布与胜率",
+        "category": "筹码分布",
+        "method": "GET",
+        "path": "/v1/chips/distribution",
+        "minimum_plan": "pro"
+      },
+      "estimated_not_account_holdings": "not independently certified; upstream and chip algorithm not identified on checked methodology page",
+      "full_price_bins_documented": false,
+      "documented_output_fields": [
+        "symbol",
+        "trade_date",
+        "his_low",
+        "his_high",
+        "cost_5pct",
+        "cost_15pct",
+        "cost_50pct",
+        "cost_85pct",
+        "cost_95pct",
+        "weight_avg",
+        "winner_rate"
+      ],
+      "actual_002414_coverage": null,
+      "anonymous_sample_http_status": 401,
+      "anonymous_sample_obtained": false,
+      "trial_documentation": "Each unavailable plan endpoint may be tried twice daily with real data, but valid account API Key required. No trial account created.",
+      "next_gate": "Only an optional summary source after official account and provenance/coverage clarification; does not close price-bin distribution gap."
+    }
+  ]
+}

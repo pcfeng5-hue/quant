@@ -1,0 +1,13 @@
+{
+  "automation_id": "a",
+  "trigger_time_utc": "2026-11-03T18:11:09.163Z",
+  "processed_at_utc": "2026-11-03T18:11:13.631098+00:00",
+  "processed_at_local": "2026-11-03T13:11:13.631098-05:00",
+  "status": "outside_window_no_new_research",
+  "research_started": false,
+  "new_archive_started": false,
+  "nightly_batch_completed": false,
+  "last_verified_research_state": "outputs/时间执行与数据准入缺口矩阵_20261102/本轮状态与续作断点.json",
+  "research_pointer_unchanged": true,
+  "notification_decision": "DONT_NOTIFY"
+}

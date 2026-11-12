@@ -1,0 +1,65 @@
+{
+  "scope": "Only file existence and fingerprints checked; contents not extracted into an evidence ledger this round",
+  "sources": {
+    "work/market_industry_oct22/manifest.json": {
+      "exists": true,
+      "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0"
+    },
+    "work/market_industry_oct22/input_admission.json": {
+      "exists": true,
+      "sha256": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668"
+    },
+    "work/market_context_oct31/contract.json": {
+      "exists": true,
+      "sha256": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3"
+    },
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": {
+      "exists": true,
+      "sha256": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719"
+    },
+    "work/market_warmup_finalize_oct22/manifest.json": {
+      "exists": true,
+      "sha256": "00535dc7b0007bc095e209e44274c96346b8198e021eca1bf5c48069b1c1d56a"
+    },
+    "work/market_warmup_finalize_oct22/summary.json": {
+      "exists": true,
+      "sha256": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924"
+    },
+    "outputs/高德红外数据库/calendar_audit_result.json": {
+      "exists": true,
+      "sha256": "89805d6a20eb3b87b2aeea64a2ee5d3e54ea6cd67fc67924d3a075e221ee0a03"
+    },
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json": {
+      "exists": true,
+      "sha256": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296"
+    },
+    "work/conditions_finish_oct22/summary.json": {
+      "exists": true,
+      "sha256": "426d85198abdd0fd5602e2794ea2dc8d0bf2c4b53dd12cdf7bb5845bca9032aa"
+    },
+    "work/conditions_finish_oct22/rule_regimes.json": {
+      "exists": true,
+      "sha256": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef"
+    },
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json": {
+      "exists": true,
+      "sha256": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047"
+    },
+    "work/corporate_actions_refine_oct17/corporate_actions.json": {
+      "exists": true,
+      "sha256": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1"
+    },
+    "work/baseline_oct25/engineering_contract.json": {
+      "exists": true,
+      "sha256": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+    },
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": {
+      "exists": true,
+      "sha256": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776"
+    },
+    "outputs/时间执行与数据准入缺口矩阵_20261102/来源索引与SHA256.json": {
+      "exists": true,
+      "sha256": "a236d9bbcb1f350e8a9ae0aae542bcf8c8cc9d63c7c248538ef3e316e09a238e"
+    }
+  }
+}

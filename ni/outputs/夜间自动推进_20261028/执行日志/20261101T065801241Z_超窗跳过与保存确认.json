@@ -1,0 +1,20 @@
+{
+  "automation_id": "a",
+  "trigger_time_utc": "2026-11-01T06:58:01.241Z",
+  "processed_at_utc": "2026-11-01T14:53:10.111843+00:00",
+  "processed_at_local": "2026-11-01T09:53:10.111500-05:00",
+  "timezone": "America/Toronto",
+  "status": "outside_window_no_new_research",
+  "research_started": false,
+  "new_models_scored": 0,
+  "nightly_batch_completed": false,
+  "last_verified_research_state": "outputs/市场环境候选验证_20261031/本轮状态与续作断点.json",
+  "prior_save_request_finalized": true,
+  "archive_completed_at_utc": "2026-11-01T01:58:18.530746+00:00",
+  "archive_sha256": "7a01b22bde7e05caf8c752502e9eda1a7a876de2a150a0b89849ed1d0d11b137",
+  "archive_pointer_updated": true,
+  "completed_archive_process_was_preexisting": true,
+  "new_archive_started": false,
+  "delayed_trigger_processing_cause": "unknown",
+  "post_snapshot_operational_record": true
+}

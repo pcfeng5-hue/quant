@@ -1,0 +1,123 @@
+{
+  "experiment_contract": {
+    "experiment_id": "002414_development_walkforward_20261026_v1",
+    "client_date": "2026-10-26",
+    "status": "frozen_research_only_before_this_run_results",
+    "scope": "Retrospective development diagnostics on a previously explored 2023-2024 period; not an untouched test or a live forecast",
+    "authorization": "Continue saved three-track research; assistant research defaults, not user trading approval",
+    "input_features": "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite",
+    "input_labels": "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite",
+    "development_start": "2023-01-03",
+    "development_end": "2024-12-31",
+    "horizon_observed_sessions": 5,
+    "event": "C[t+5]/O[t+1]-1 > 0; zero price change joins nonpositive, counted separately",
+    "target_is_net_profit": false,
+    "feature_groups": {
+      "up": "prior registered MA5>MA10>MA15 and MA15 rising signal equals 1",
+      "down": "prior registered MA5<MA10<MA15 and MA15 falling signal equals 1",
+      "other": "both prior MA structure signals are 0",
+      "missing": "either prior MA structure signal is NULL; abstain"
+    },
+    "models": [
+      "M0_laplace_constant",
+      "M1_ma_group_shrinkage"
+    ],
+    "m0_formula": "p0=(positive_training_labels+1)/(training_n+2)",
+    "m1_formula": "pg=(positive_training_labels_in_group+lambda*p0)/(training_n_in_group+lambda)",
+    "shrinkage_lambda": 20,
+    "minimum_training_rows": 100,
+    "minimum_is_engineering_guard_not_statistical_sufficiency": true,
+    "empty_training_group_policy": "explicit prior-only shrinkage result pg=p0; log group_n=0",
+    "folds": [
+      {
+        "id": "F1_2023Q3",
+        "validation_start": "2023-07-03",
+        "validation_end": "2023-09-28"
+      },
+      {
+        "id": "F2_2023Q4",
+        "validation_start": "2023-10-09",
+        "validation_end": "2023-12-29"
+      },
+      {
+        "id": "F3_2024Q1",
+        "validation_start": "2024-01-02",
+        "validation_end": "2024-03-29"
+      },
+      {
+        "id": "F4_2024Q2",
+        "validation_start": "2024-04-01",
+        "validation_end": "2024-06-28"
+      },
+      {
+        "id": "F5_2024Q3",
+        "validation_start": "2024-07-01",
+        "validation_end": "2024-09-30"
+      },
+      {
+        "id": "F6_2024Q4",
+        "validation_start": "2024-10-08",
+        "validation_end": "2024-12-31"
+      }
+    ],
+    "training_policy": "Expanding development history; both signal_date and actual label end must be strictly before validation_start; feature-valid rows only. Freeze fitted values for each entire validation fold.",
+    "validation_policy": "Both models share exactly the same feature-valid and label-mature dates. Actual label end must be <= validation_end. Missing features or insufficient training produce explicit abstention, never zero fill or silent model replacement.",
+    "prior_ex_rights_and_boundary_exclusions": "Retain the prior registered outcome table's known ex-date exclusions and global development-end exclusions",
+    "metrics": [
+      "binary_Brier_mean_squared_probability_error",
+      "natural_log_loss",
+      "fixed_five_bin_calibration"
+    ],
+    "log_loss_epsilon": 1e-12,
+    "calibration_bin_edges": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "probability_recalibration_fitted": false,
+    "fixed_grid_sensitivity": "Single offset: every fifth original development anchor starting at 2023-01-03, shared with previous batch; no best offset selection",
+    "overlapping_observations_independent": false,
+    "confidence_intervals_or_significance_claims": false,
+    "winner_selection_or_threshold_optimization": false,
+    "previous_descriptive_signal_variants": 12,
+    "new_registered_model_variants": 2,
+    "candidate_calibration_period": "2025, not opened in this run",
+    "candidate_later_evaluation_period": "2026, not opened in this run and not certified historically untouched",
+    "historical_first_availability_certified": false,
+    "historical_daily_st_or_suspension_certified": false,
+    "execution_or_costs_modelled": false,
+    "current_forecast_generated": false,
+    "model_input_approved": false,
+    "runtime_usable": false,
+    "old_forecast_protocol_or_risk_settings_modified": false,
+    "primary_technical_references": [
+      "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+      "https://scikit-learn.org/stable/modules/calibration.html",
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.brier_score_loss.html"
+    ]
+  },
+  "contract_sha256": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+  "registration_receipt": {
+    "experiment_id": "002414_development_walkforward_20261026_v1",
+    "contract_sha256": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "registered_at_utc": "2026-10-26T16:34:28.148372+00:00",
+    "previous_development_exploration_disclosed": true
+  },
+  "source_sha256": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9"
+  },
+  "outcomes_2025_2026_opened": false,
+  "current_forecast_generated": false,
+  "runtime_usable": false,
+  "model_input_approved": false,
+  "model_variants_this_run": 2
+}

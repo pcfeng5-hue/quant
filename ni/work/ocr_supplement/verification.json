@@ -1,0 +1,20 @@
+{
+  "input_pages": 185,
+  "attempted_unique_pages": 2,
+  "successful_ocr_pages": 0,
+  "empty_unverified_pages": 0,
+  "failed_unique_pages": 2,
+  "unattempted_pages": 183,
+  "remaining_original_text_gap_pages": 185,
+  "all_checks_passed": true,
+  "checks": {
+    "input_185_unique_pages": true,
+    "two_unique_pages_attempted": true,
+    "trials_have_identical_page_identity": true,
+    "attempted_pages_subset_of_manifest": true,
+    "183_unattempted_pages_retained": true,
+    "all_185_original_sha256_still_match": true,
+    "no_failure_mislabeled_empty": true,
+    "no_numeric_fact_certified": true
+  }
+}

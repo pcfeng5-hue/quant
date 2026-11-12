@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "name": "seven_contract_rules",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_acquired_raw_hashes_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four_official_verified_months",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "45_historical_months_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "official_rules_not_mislabeled_as_monthly_notices",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "future_separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "holiday_roll_candidates_kept_unverified",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_historical_input_approval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "formula_dates_match_notices",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_passed": true
+}

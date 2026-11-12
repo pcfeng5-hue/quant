@@ -1,0 +1,20 @@
+{
+  "audit_version": "round4-disclosure-audit-v1",
+  "candidate_reviews": 52,
+  "observations": {
+    "accounting_adjustment": 28,
+    "capital_period": 8,
+    "capital_reconciliation_issue": 3,
+    "employee_nontrade_transfer": 3,
+    "existing_action_phase": 5,
+    "limited_negative_disclosure": 2
+  },
+  "primary_document_checks": 22,
+  "input_sources": {
+    "会计修订原件核对.json": "1bb39aa7b17ff784bf7bea713c066e7acf464e06bf7480fd761142bdab2ca7f9",
+    "股本与过户原件核对.json": "accdc4a2cf7d46a8c2250a9f29299554dda23e44df971ba237884411524e54fe",
+    "会计修订核对说明.md": "14edb663b0c24fdfb4a9dfe94cb3bb965849760b95b7112579895111521802b1",
+    "股本与状态核对说明.md": "0e20a3e19c53ae21ba591b103a6aead4704fd4d15e3250f10be6ff4f8b764818"
+  },
+  "historical_input_eligible": false
+}

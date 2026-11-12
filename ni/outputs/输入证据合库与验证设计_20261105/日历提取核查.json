@@ -1,0 +1,167 @@
+{
+  "all_checks_passed": true,
+  "passed": 23,
+  "total": 23,
+  "checks": [
+    {
+      "check": "seven_registered_content_sources_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "729_main_calendar_days_exact_order_and_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "two_prior_calendar_days_context_only_not_scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_calendar_has_no_missing_target_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_duplicate_calendar_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_duplicate_condition_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "484_planned_open_242_each_year",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "245_main_planned_closed_days_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "condition_record_dates_match_planned_open_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_closed_day_status_certification",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_scope_not_rewritten_as_szse_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "every_date_has_only_szse_notice_urls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "publication_candidate_is_not_first_available",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "two_historical_rule_families_no_2026_backfill",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "every_open_row_rule_effective_by_its_date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all484_daily_normal_flags_false_not_monthly_upgraded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "official_limit_evidence_unverified_without_numeric_export",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all484_saved_execution_and_cost_flags_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_actual_volume_recheck_or_stock_normal_inference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "two_corporate_action_dates_only_no_terms_or_amounts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_formal_current_runtime_gates_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_price_fee_corporate_amount_target_or_probability_fields_exported",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_7_source_hashes_unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "source_sha256_before": {
+    "outputs/高德红外数据库/calendar_audit_result.json": "89805d6a20eb3b87b2aeea64a2ee5d3e54ea6cd67fc67924d3a075e221ee0a03",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296",
+    "work/conditions_finish_oct22/summary.json": "426d85198abdd0fd5602e2794ea2dc8d0bf2c4b53dd12cdf7bb5845bca9032aa",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047",
+    "work/corporate_actions_refine_oct17/corporate_actions.json": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776"
+  },
+  "source_sha256_after": {
+    "outputs/高德红外数据库/calendar_audit_result.json": "89805d6a20eb3b87b2aeea64a2ee5d3e54ea6cd67fc67924d3a075e221ee0a03",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296",
+    "work/conditions_finish_oct22/summary.json": "426d85198abdd0fd5602e2794ea2dc8d0bf2c4b53dd12cdf7bb5845bca9032aa",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047",
+    "work/corporate_actions_refine_oct17/corporate_actions.json": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776"
+  },
+  "summary": {
+    "target_period": [
+      "2023-01-03",
+      "2024-12-31"
+    ],
+    "natural_days": 729,
+    "context_only_prior_calendar_days": 2,
+    "planned_open_days": 484,
+    "planned_closed_days": 245,
+    "planned_open_days_by_year": {
+      "2023": 242,
+      "2024": 242
+    },
+    "saved_condition_records": 484,
+    "missing_condition_records_on_open_days": 0,
+    "daily_verified_normal_count": 0,
+    "official_limit_evidence_count": 0,
+    "saved_execution_eligible_count": 0,
+    "saved_complete_cost_model_count": 0,
+    "historical_first_availability_certified_count": 0,
+    "corporate_action_dates_indexed": 2,
+    "interpretation": "Calendar is a saved official-holiday manual-transcription plan, not proof of unscheduled closure absence, stock normal trading, legal orders or fills. Source state flags are copied, not newly certified."
+  },
+  "started_at_local": "2026-11-04T01:04:32.452742-05:00",
+  "finished_at_local": "2026-11-04T01:04:32.494982-05:00",
+  "target_or_price_database_queries": 0,
+  "new_market_or_real_target_values_exported": 0
+}

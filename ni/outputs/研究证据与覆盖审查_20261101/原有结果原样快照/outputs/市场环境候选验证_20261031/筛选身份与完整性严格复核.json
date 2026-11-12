@@ -1,0 +1,80 @@
+{
+  "all_checks_passed": true,
+  "passed": 14,
+  "total": 14,
+  "checks": [
+    {
+      "check": "duplicate_replaces_missing_same_length",
+      "passed": true
+    },
+    {
+      "check": "missing_fold_or_subset",
+      "passed": true
+    },
+    {
+      "check": "duplicate_extra_row",
+      "passed": true
+    },
+    {
+      "check": "unregistered_fold",
+      "passed": true
+    },
+    {
+      "check": "unregistered_subset",
+      "passed": true
+    },
+    {
+      "check": "invalid_scored_metric_nan",
+      "passed": true
+    },
+    {
+      "check": "invalid_scored_metric_inf",
+      "passed": true
+    },
+    {
+      "check": "invalid_scored_metric_-inf",
+      "passed": true
+    },
+    {
+      "check": "invalid_scored_metric_None",
+      "passed": true
+    },
+    {
+      "check": "pooled_count_mismatch",
+      "passed": true
+    },
+    {
+      "check": "promotion_rejected",
+      "passed": true
+    },
+    {
+      "check": "valid_exact_identity_result_accepted",
+      "passed": true
+    },
+    {
+      "check": "complete_but_empty_results_are_not_evaluable",
+      "passed": true
+    },
+    {
+      "check": "empty_result_cannot_promote_itself",
+      "passed": true
+    }
+  ],
+  "strict_result": {
+    "evaluable": true,
+    "not_evaluable_reason": null,
+    "lower_brier_fold_count": 3,
+    "conditions": {
+      "pooled_brier_strictly_lower": false,
+      "pooled_logloss_strictly_lower": false,
+      "fixed_grid_brier_no_worse": false,
+      "at_least_four_folds_strictly_lower": false
+    },
+    "passed": false,
+    "statistical_or_profit_proof": false,
+    "automatic_phase_promotion": false
+  },
+  "matches_frozen_producer_result": true,
+  "producer_or_contract_modified": false,
+  "strict_guard_sha256": "0b6fc0e78dbf105ec11708cb2a384a87cb71913411d790ef9fa1e55230527ab4"
+}

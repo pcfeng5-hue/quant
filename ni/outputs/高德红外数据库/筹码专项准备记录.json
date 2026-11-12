@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-15T18:06:10.532918+00:00",
+  "requested_start": "2023-01-01",
+  "requested_end": "2026-10-15",
+  "symbol": "002414.SZ",
+  "priority": "core_research_input_before_pattern_analysis",
+  "target_trading_dates": 914,
+  "acquired_provider_chip_dates": 0,
+  "historical_input_eligible": false,
+  "local_reconstruction_computed": false,
+  "offline_validator": {
+    "path": "validate_chip_export.py",
+    "sha256": "2cf4b32e6b1b760f646b8211775726d124eb944e9bc8909f8e621049030be4c0",
+    "synthetic_boundary_tests_passed": 16,
+    "synthetic_tests_written_to_market_database": false
+  },
+  "official_references": [
+    "https://tushare.pro/document/2?doc_id=293",
+    "https://tushare.pro/document/2?doc_id=294",
+    "https://tushare.pro/document/1?doc_id=290"
+  ],
+  "permission_status": "not_acquired",
+  "database_checks_passed": 47,
+  "supplier_inquiry_sent": "unknown",
+  "supplier_reply_received": "unknown",
+  "strict_market_unit_exceptions": 3
+}

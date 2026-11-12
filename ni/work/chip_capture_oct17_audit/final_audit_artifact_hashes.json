@@ -1,0 +1,42 @@
+[
+  {
+    "path": "validate_capture.py",
+    "bytes": 25869,
+    "sha256": "e8787cc94c9ae2c420d3775d9835f76f0b785d169902d7b01a854b3f55991698"
+  },
+  {
+    "path": "正式采集验收说明.md",
+    "bytes": 3611,
+    "sha256": "2e92b31587dccd361288c16d07625040781c4a33c1b8aa6cf2ff5d6ebee7ea6b"
+  },
+  {
+    "path": "screenshot_spotcheck.json",
+    "bytes": 3982,
+    "sha256": "2239ca45814a5f2da9594f82908bf5cc25beb2d29899ee3db9eaa0b6c01a911a"
+  },
+  {
+    "path": "full_capture_final.json",
+    "bytes": 186320,
+    "sha256": "f29cf6275dabf8cb0d684f8edbd947365a4fe39b653ae12b013091cb6096ff21"
+  },
+  {
+    "path": "full_capture_final.sqlite",
+    "bytes": 2973696,
+    "sha256": "a5188923ff23c15df39204480d3ddfc4b3a1681e182dcd7af25b330ed344608a"
+  },
+  {
+    "path": "full_capture_final_coverage.csv",
+    "bytes": 49596,
+    "sha256": "c6109f3121d2a322afd9244d2b8f1884da13257dedb133d2ab8d8be81cc2ef78"
+  },
+  {
+    "path": "full_capture_final_manifest.json",
+    "bytes": 1225630,
+    "sha256": "85c4a8a3ac09fcde6655485c5e331d32d894705fe70b756625eef344505fe456"
+  },
+  {
+    "path": "full_capture_final_ohlc_comparison.csv",
+    "bytes": 246982,
+    "sha256": "913b06e08bfb5492e9f708013ce1e20896e24a40120666bbe2b92d48ceb63991"
+  }
+]

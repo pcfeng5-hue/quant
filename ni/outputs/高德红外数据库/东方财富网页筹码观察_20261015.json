@@ -1,0 +1,35 @@
+{
+  "review_date_client": "2026-10-15",
+  "client_timezone": "America/Toronto",
+  "symbol": "002414.SZ",
+  "url": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r",
+  "scope": "User-supplied URL targeted read-only visual verification; bulk collection remains stopped.",
+  "method": "Live page opened with cua; selected 日K then 筹码分布; clicked distinct displayed candlesticks and read rendered chart labels.",
+  "observations": [
+    {
+      "date_label": "2026-10-14",
+      "average_cost_display": "13.13",
+      "profit_ratio_display": "1.00%",
+      "cost70_display": "12.20-14.00",
+      "concentration_display": "6.86%"
+    },
+    {
+      "date_label": "2026-10-15",
+      "average_cost_display": "13.14",
+      "profit_ratio_display": "0.00%",
+      "cost70_display": "12.17-14.00",
+      "concentration_display": "6.99%"
+    }
+  ],
+  "evidence_type": "manually_transcribed_rendered_web_chart_summary_not_original_api_payload",
+  "kline_price_basis_control_display": "前复权",
+  "chip_price_basis_verified": false,
+  "algorithm_and_version_verified": false,
+  "historical_first_availability_verified": false,
+  "earliest_supported_chip_date_verified": false,
+  "full_price_bin_data_acquired": false,
+  "bulk_export_or_api_verified": false,
+  "main_database_modified": false,
+  "historical_input_eligible": false,
+  "warning": "The displayed profit ratio is a vendor chart statistic, not a forecast or strategy win probability. Kline adjustment selection does not certify chip price basis. Summary values were not independently numerically verified."
+}

@@ -1,0 +1,152 @@
+{
+  "archived_at": "2026-10-15T18:04:37.014019+00:00",
+  "files": [
+    {
+      "original_path": "work/refresh_oct15_market/manifest.json",
+      "relative_path": "20261015补缺证据/market/manifest.json",
+      "sha256": "8739438309cb15618bc64b9ee030a51da9e1eba6a394d638f596150cdaaccecf"
+    },
+    {
+      "original_path": "work/refresh_oct15_market/attempts.json",
+      "relative_path": "20261015补缺证据/market/attempts.json",
+      "sha256": "8d18688da051139d3962bf4778828d1c124f3c9d054fa310798e8c06ddf3a9b3"
+    },
+    {
+      "original_path": "work/refresh_oct15_market/tencent_index_manifest.json",
+      "relative_path": "20261015补缺证据/market/tencent_index_manifest.json",
+      "sha256": "00941e36439f75abc08acc9c2e7cf377b5f807e041616d06ecc72f14237ad85f"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/manifest.json",
+      "relative_path": "20261015补缺证据/records/manifest.json",
+      "sha256": "37cbf0e856834176d61e4e39b36bb283195688b5f9472872836f577c9c89cf17"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/validation.json",
+      "relative_path": "20261015补缺证据/records/validation.json",
+      "sha256": "6fee37ddee152be18786cb1214b39d28c72a27a16049e2f41b38ab04a41a4ae2"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/integration_validation.json",
+      "relative_path": "20261015补缺证据/records/integration_validation.json",
+      "sha256": "95b0dcb3dd7726c63e858b76c10df40c017e4a5cfaed174f76e5b5f260680e7d"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/stock_overlap_validation.json",
+      "relative_path": "20261015补缺证据/records/stock_overlap_validation.json",
+      "sha256": "bd1e0bc337df9eaa8e0adef270220ad8397f59b40d45b64bad06bc8bf5779489"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/refresh_records.py",
+      "relative_path": "20261015补缺证据/records/refresh_records.py",
+      "sha256": "443e077b458e4efae4a4d46965331086cc077e7699d0546739378c4c68d64897"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/margin_new_dates.json",
+      "relative_path": "20261015补缺证据/records/margin_new_dates.json",
+      "sha256": "51313fa5f972f6dc1434d4d086e833f8697e051c3fc4545f19e9a712349248e9"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/margin_revisions.json",
+      "relative_path": "20261015补缺证据/records/margin_revisions.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/fund_flow_proxy_new_dates.json",
+      "relative_path": "20261015补缺证据/records/fund_flow_proxy_new_dates.json",
+      "sha256": "08bdf218dcb52aabb53d6ec331e22e7d3b6230b756244b951b26b53890fbfebb"
+    },
+    {
+      "original_path": "work/refresh_oct15_records/fund_flow_proxy_revisions.json",
+      "relative_path": "20261015补缺证据/records/fund_flow_proxy_revisions.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/stage_manifest.json",
+      "relative_path": "20261015补缺证据/disclosures/stage_manifest.json",
+      "sha256": "1a4f95af243b6313640a39a47648842ec1e95bba5b6b2ca80ebe0848811ce579"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/stage_validation.json",
+      "relative_path": "20261015补缺证据/disclosures/stage_validation.json",
+      "sha256": "7ce21efac796dd88b9e02426a3cf125eeba44df4fb5676ecdb1f898f28067e55"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/catalogue_comparison.json",
+      "relative_path": "20261015补缺证据/disclosures/catalogue_comparison.json",
+      "sha256": "fb8d52e64669568addb1adf966103155c9c2681ae21804a88b0742444a170a5b"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/eastmoney_field_changes.json",
+      "relative_path": "20261015补缺证据/disclosures/eastmoney_field_changes.json",
+      "sha256": "3eadaff3dad196985f8ac61db4142a07163f957d94722bb6d1eb356e2f6c8ab8"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/prepared_source_records.json",
+      "relative_path": "20261015补缺证据/disclosures/prepared_source_records.json",
+      "sha256": "f80d11617db2bc6a77670a9126dab61778d95ec77a3158be32532f5fcd377eba"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/refresh_disclosures.py",
+      "relative_path": "20261015补缺证据/disclosures/refresh_disclosures.py",
+      "sha256": "5f8f8d62bf832aa237d82e4a9ba6641dac76b523d8cd89b67c0f32aaa0345269"
+    },
+    {
+      "original_path": "work/refresh_oct15_disclosures/公告目录刷新核对.md",
+      "relative_path": "20261015补缺证据/disclosures/公告目录刷新核对.md",
+      "sha256": "f40eb462896d7ab5495c93522d9ed53491813cd0bf5415264ee712a067134ef3"
+    },
+    {
+      "original_path": "work/history_gap_oct15/requests.json",
+      "relative_path": "20261015补缺证据/history/requests.json",
+      "sha256": "7725866f43184482ac23380c9f57f74670df88fa8843d3adaea326b687e14a0c"
+    },
+    {
+      "original_path": "work/history_gap_oct15/source_meta.json",
+      "relative_path": "20261015补缺证据/history/source_meta.json",
+      "sha256": "71039c8deddc85d3798a12b2f8cf6bbe5b6d014966520555f61ad0360da66c87"
+    },
+    {
+      "original_path": "work/history_gap_oct15/summary.json",
+      "relative_path": "20261015补缺证据/history/summary.json",
+      "sha256": "b25eec538cdd7db27cd501add266be9dea89e75095331300b5494d7ab5c637e1"
+    },
+    {
+      "original_path": "work/history_gap_oct15/top10_total_normalized.json",
+      "relative_path": "20261015补缺证据/history/top10_total_normalized.json",
+      "sha256": "c24a72852420fad416f368d37c5920f962fde0b993671399bb648700d4648dd4"
+    },
+    {
+      "original_path": "work/history_gap_oct15/nonperiodic_original_text_links.json",
+      "relative_path": "20261015补缺证据/history/nonperiodic_original_text_links.json",
+      "sha256": "ef19dcd18d79b2c9b891e8e42884a578007f241adc3cfdc8c131661eeaaaa622"
+    },
+    {
+      "original_path": "work/history_gap_oct15/index_cross_source_validation.json",
+      "relative_path": "20261015补缺证据/history/index_cross_source_validation.json",
+      "sha256": "6d7075d9d59e26728030fbd6ae95952c8bbf27ad07a8abc57d68f1b502e2573a"
+    },
+    {
+      "original_path": "work/history_gap_oct15/validate_index_cross_source.py",
+      "relative_path": "20261015补缺证据/history/validate_index_cross_source.py",
+      "sha256": "0d6933f7868b37b025f26d48884e800f37651f63e5426a91ff957eac61610b07"
+    },
+    {
+      "original_path": "work/history_gap_oct15/collect_history.py",
+      "relative_path": "20261015补缺证据/history/collect_history.py",
+      "sha256": "4d36ea856e9b83af702d4d3d3e88689eb5c427ece2775f98871f240c2bebeed3"
+    },
+    {
+      "original_path": "work/history_gap_oct15/normalize_history.py",
+      "relative_path": "20261015补缺证据/history/normalize_history.py",
+      "sha256": "7090f5e58274ac84a3ce2a6da2ed3212656473079b9278b96b68253485ad8996"
+    },
+    {
+      "original_path": "work/history_gap_oct15/历史补缺核对报告.md",
+      "relative_path": "20261015补缺证据/history/历史补缺核对报告.md",
+      "sha256": "8d65b939596d803f40889c61c60ddc811a4b82f1f4afbfacd47fadfd5c3da288"
+    }
+  ],
+  "raw_responses": "Original market responses have separately been copied to ../raw and are linked by source_snapshots/source_requests/data_retrieval_attempts. Staging reports retain their original pre-integration wording; current main DB status is in ../查漏补缺报告.md.",
+  "failed_disclosure_response_body_saved": false
+}

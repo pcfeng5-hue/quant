@@ -1,0 +1,253 @@
+{
+  "review_id": "BW17_definition_math_state_independent_review_20261105_v1",
+  "reviewer": "/root/buy_wait_design_nov05",
+  "reviewed_at_utc": "2026-11-05T16:31:26.577391+00:00",
+  "scope": "Frozen definition metadata, mathematical identities and state/timeline review only",
+  "all_checks_passed": true,
+  "passed": 44,
+  "total": 44,
+  "checks": [
+    {
+      "check": "protocol_identity_and_definition_status",
+      "passed": true,
+      "detail": "Single frozen candidate definition, explicitly not executable prediction."
+    },
+    {
+      "check": "user_H10_research_H10_same",
+      "passed": true,
+      "detail": "Future tenth planned session from decision, not from delayed entry."
+    },
+    {
+      "check": "exactly_one_user_group_confirmed_14_remain_null",
+      "passed": true,
+      "detail": "Research design assumptions are not silently promoted to user preferences."
+    },
+    {
+      "check": "protocol_unbound_14_groups_match_parameter_state",
+      "passed": true,
+      "detail": "Only confirmed H is omitted from unbound set."
+    },
+    {
+      "check": "old_15_null_contract_unchanged",
+      "passed": true,
+      "detail": "Old contract preserved; current confirmation is an append-only newer state."
+    },
+    {
+      "check": "registration_16_plus_one_equals17_no_models_labels_scores",
+      "passed": true,
+      "detail": "New policy definition counted once before any outcome calculation."
+    },
+    {
+      "check": "H5_not_treated_as_frozen_or_scored_alternative",
+      "passed": true,
+      "detail": "No phantom scored H5 choice or selective H comparison."
+    },
+    {
+      "check": "common_cash_sleeve_not_actual_account_claim",
+      "passed": true,
+      "detail": "A/B/C comparison starts with hypothetical equal cash; actual account state is unknown."
+    },
+    {
+      "check": "cutoff_timezone_no_automatic_availability",
+      "passed": true,
+      "detail": "Clock is a research convention; late versions cannot be backfilled into same-day information."
+    },
+    {
+      "check": "planned_adjacent_session_not_stock_bar_clock",
+      "passed": true,
+      "detail": "Missing observations do not change d0, predecessor, or T."
+    },
+    {
+      "check": "false_versus_unknown_eligibility",
+      "passed": true,
+      "detail": "Evidence gaps do not become an apparently successful no-signal result."
+    },
+    {
+      "check": "future_actions_not_retrospective_population_filter",
+      "passed": true,
+      "detail": "Future actions affect policy wealth; missing terms remain unknown with coverage disclosed."
+    },
+    {
+      "check": "asof_versions_and_actual_label_maturity_required",
+      "passed": true,
+      "detail": "Version/fetch times are not confused; all outcome prerequisites must have matured."
+    },
+    {
+      "check": "A_next_session_B_first_confirmation_1_or2",
+      "passed": true,
+      "detail": "A enters no earlier than next window; B confirms after observed close then uses next window."
+    },
+    {
+      "check": "earlier_unknown_confirmation_not_skipped",
+      "passed": true,
+      "detail": "No later convenient signal substitutes for unresolved first confirmation."
+    },
+    {
+      "check": "one_attempt_no_chasing_or_topups",
+      "passed": true,
+      "detail": "Research action policy is finite and not a discretionary retry strategy."
+    },
+    {
+      "check": "fixed_common_terminal_d10",
+      "passed": true,
+      "detail": "The later B entry cannot obtain a later endpoint."
+    },
+    {
+      "check": "future_confirmation_not_d0_feature",
+      "passed": true,
+      "detail": "Future information only drives the waiting policy at the future decision time."
+    },
+    {
+      "check": "quantity_fee_lot_unknown_not_zero",
+      "passed": true,
+      "detail": "Cash-constrained quantity is undefined until lot applicability and fee bound are certified."
+    },
+    {
+      "check": "counterfactual_fill_not_claimed_actual",
+      "passed": true,
+      "detail": "OHLC observations cannot establish both counterfactual executions."
+    },
+    {
+      "check": "three_required_bindings_remain_null",
+      "passed": true,
+      "detail": "No fee, fill, or rights assumption is silently certified."
+    },
+    {
+      "check": "partial_fills_remaining_cash_and_cancellation",
+      "passed": true,
+      "detail": "Actual filled quantities and residual cash are needed; unresolved cancellations stay unresolved."
+    },
+    {
+      "check": "NAV_complete_and_not_liquidation",
+      "passed": true,
+      "detail": "Terminal wealth is marked NAV and cannot be described as realized tradable cash."
+    },
+    {
+      "check": "no_double_fees_or_dividends",
+      "passed": true,
+      "detail": "Paid charges, dividends/receivables, and hypothetical sell fees are treated consistently."
+    },
+    {
+      "check": "positive_position_missing_mark_or_execution_makes_label_null",
+      "passed": true,
+      "detail": "Unknown prerequisites do not become zero P&L or a certified stale mark."
+    },
+    {
+      "check": "Tplus1_and_halt_rules_require_historical_evidence",
+      "passed": true,
+      "detail": "Tradeability is a separate historical state, not inferred from net position or marks."
+    },
+    {
+      "check": "paired_delta_and_strict_three_signs",
+      "passed": true,
+      "detail": "Strict mathematical ties are separate; no unapproved economic threshold is invented."
+    },
+    {
+      "check": "marginals_not_subtracted_into_paired_probability",
+      "passed": true,
+      "detail": "Relative policy advantage is different from profitability or difference of marginal probabilities."
+    },
+    {
+      "check": "nontrade_return_null_state_axes_separate",
+      "passed": true,
+      "detail": "Known cash policy wealth is meaningful; nonexistent trade return is not zero."
+    },
+    {
+      "check": "complete_population_and_coverage_denominators",
+      "passed": true,
+      "detail": "Identifiable paired subset is not presented as the entire eligible population."
+    },
+    {
+      "check": "development_and_later_outcome_isolation",
+      "passed": true,
+      "detail": "2023/24 are seen development; later targets cannot complete right-censored events."
+    },
+    {
+      "check": "maturity_purge_overlap_and_shared_cohort_requirements",
+      "passed": true,
+      "detail": "Future train/evaluation procedure must respect delayed labels and dependent overlapping outcomes."
+    },
+    {
+      "check": "descriptive_only_predictive_acceptance_not_claimed_frozen",
+      "passed": true,
+      "detail": "Candidate freezing does not solve estimator, sample size, calibration or promotion acceptance."
+    },
+    {
+      "check": "only_definition_gate_open_all_runtime_gates_closed",
+      "passed": true,
+      "detail": "No real labels, fitting, scores, forecast, simulation or funds follow automatically."
+    },
+    {
+      "check": "prior_risk_and_capital_authorization_preserved",
+      "passed": true,
+      "detail": "The existing conditional realized-loss pause is not loosened or activated as a trading mandate."
+    },
+    {
+      "check": "frozen_protocol_file_and_canonical_hash",
+      "passed": true,
+      "detail": "Both original file and canonical JSON body hash agree with the frozen manifest."
+    },
+    {
+      "check": "user_confirmation_file_hash",
+      "passed": true,
+      "detail": "Explicit user horizon confirmation corresponds to the frozen parameter record."
+    },
+    {
+      "check": "five_source_fingerprints_unchanged",
+      "passed": true,
+      "detail": "Only existing allowed metadata sources are fingerprinted; no raw responses or outcomes read."
+    },
+    {
+      "check": "explanatory_prose_matches_H10_and17_and_gated_status",
+      "passed": true,
+      "detail": "Human-readable explanation does not overstate the machine-readable protocol."
+    },
+    {
+      "check": "synthetic_timeline_first_confirmation_entry2or3_terminal10",
+      "passed": true,
+      "detail": "Two possible delayed entry sessions both retain d10 rather than d12/d13."
+    },
+    {
+      "check": "synthetic_NAV_paid_fee_once_and_paired_delta",
+      "passed": true,
+      "detail": "Accounting identity only, not a full-policy quantity simulation or a market result."
+    },
+    {
+      "check": "synthetic_dividend_receivable_to_cash_conserves_NAV",
+      "passed": true,
+      "detail": "When dividend receivable is paid, cash rises as receivable falls; no double counting."
+    },
+    {
+      "check": "synthetic_paired_winner_may_still_lose_to_cash",
+      "passed": true,
+      "detail": "WAIT_HIGHER is not a guaranteed profitable policy."
+    },
+    {
+      "check": "review_did_not_mutate_five_main_deliverables",
+      "passed": true,
+      "detail": "This independent review writes only its own work directory."
+    }
+  ],
+  "main_artifact_hashes": {
+    "outputs/输入证据合库与验证设计_20261105/买入还是等待_研究候选BW17_冻结v1.json": "294f39937e30632451a1293ff7f27c1e4c4b71fa7c83944934a4fc79b552159b",
+    "outputs/输入证据合库与验证设计_20261105/买入还是等待_研究候选BW17_冻结说明.md": "5a5d4d147b2e9cbcfcafb3b55f0b104a7b4d867dc2abf9b069ad96880aea4266",
+    "outputs/输入证据合库与验证设计_20261105/累计研究选择登记_增补BW17.json": "a2126c583c8ec972d36da9f19ee16a6bccae877c4592449e47c7366fbeee5a62",
+    "outputs/输入证据合库与验证设计_20261105/本轮用户确认与参数状态.json": "0ba3c82dfb901a3bcb529151d082b9b490f5b02547bbedd2614d4f941a790019",
+    "outputs/输入证据合库与验证设计_20261105/设计冻结与来源指纹.json": "7a7990fae3ca1b2ad93fc6a50a2a6352a4754281087d42cb5fc9547ceaf0ba1f"
+  },
+  "critical_findings": [],
+  "nonblocking_limits": [
+    "H10 is interpreted as the tenth planned session known at d0, not the tenth later observed stock bar. Unexpected closures or missing certified terminal marks cannot silently shift T; a positive-position terminal wealth then stays unknown.",
+    "The one opening-auction attempt and cancellation are design intentions, not certified execution. Historical rules and a separately frozen model must instantiate them; no assumed fill is approved.",
+    "Only a single policy definition is frozen. Fees, execution, rights, predictive estimator, minimum sample, uncertainty and promotion thresholds remain unbound; no executable probability-forecast protocol is approved.",
+    "Conditional identifiable-sample frequencies can be biased by missingness; the frozen coverage ledger is essential and does not make empirical frequency a current forecast."
+  ],
+  "new_market_or_database_reads": false,
+  "raw_price_or_outcome_content_read": false,
+  "new_real_labels": 0,
+  "new_models_or_scores": 0,
+  "outcomes_2025_2026_opened": false,
+  "synthetic_examples_only": true,
+  "does_not_certify_PIT_execution_costs_or_predictive_ability": true,
+  "recommendation": "Accept definition freeze and selection registration only; keep all evidence, label, predictive and runtime gates closed."
+}

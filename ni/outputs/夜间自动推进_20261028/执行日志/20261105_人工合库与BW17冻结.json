@@ -1,0 +1,9 @@
+{
+  "origin": "manual_user_request",
+  "nightly_automation_deleted": true,
+  "completed_nightly_batches_not_incremented": true,
+  "research_state": "outputs/输入证据合库与验证设计_20261105/本轮状态与续作断点.json",
+  "new_registered_unrun_policy": 17,
+  "new_real_labels_models_scores": 0,
+  "saved_at_utc": "2026-11-05T16:32:02.250509+00:00"
+}

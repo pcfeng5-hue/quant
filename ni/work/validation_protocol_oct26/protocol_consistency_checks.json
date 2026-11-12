@@ -1,0 +1,10 @@
+{
+  "exactly_two_models": true,
+  "no_future_outcome_read": true,
+  "same_support_rule": true,
+  "label_end_purge": true,
+  "fold_end_cap": true,
+  "308_expected_validation": true,
+  "research_not_runtime": true,
+  "no_winner": true
+}

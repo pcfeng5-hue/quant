@@ -1,0 +1,353 @@
+{
+  "scope": {
+    "symbol": "002414.SZ",
+    "requested_start": "2022-01-01",
+    "requested_end": "2026-10-16",
+    "warmup_range": "full calendar year 2022",
+    "research_range": "2023-01-01 through 2026-10-16"
+  },
+  "collection_completed_at_utc": "2026-10-18T03:11:16.449442+00:00",
+  "attempted_requests": 18,
+  "successful_requests": 18,
+  "failed_requests": [],
+  "accepted_source_rows": 10413,
+  "rejected_source_rows": 0,
+  "coverage": [
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "0",
+      "adjustment": "unadjusted",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "1",
+      "adjustment": "forward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "2",
+      "adjustment": "backward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "adjustment": "unadjusted",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "adjustment": "forward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "adjustment": "backward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    }
+  ],
+  "unadjusted_cross_source": {
+    "compared_adjustment": "unadjusted only",
+    "comparison_fields": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume_provider_native"
+    ],
+    "overlap_dates": 1157,
+    "matching_dates": 1157,
+    "mismatch_fields": 0,
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "amount_and_turnover_cross_source_verification": "not_available_from_tencent_daily_schema",
+    "source_independence_boundary": "Different provider endpoints; their upstream exchange/vendor feeds are not independently established.",
+    "duplicate_source_dates": []
+  },
+  "baseline_snapshot_comparison": [
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "0",
+      "baseline_retrieval": "2026-10-15T17:33:26.296015+00:00",
+      "baseline_sha256": "b230c6ab155089d27d5ee2694fd23bead0cc7e65975f3e7dd510c6ec1f2acf96",
+      "common_dates": 914,
+      "rows_changed": 0,
+      "note": "Matching snapshots does not certify point-in-time history."
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "1",
+      "baseline_retrieval": "2026-10-15T17:33:26.296226+00:00",
+      "baseline_sha256": "29658cb23d7ee16da03f2fad8bf633f83592adddc7c74386d354d7a978def9c0",
+      "common_dates": 914,
+      "rows_changed": 0,
+      "note": "Matching snapshots does not certify point-in-time history."
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "2",
+      "baseline_retrieval": "2026-10-15T17:33:26.296300+00:00",
+      "baseline_sha256": "2eee88a46a8eacf9ffe7cc26b712d98451e7f902c9ec18ffce0a1612002437e8",
+      "common_dates": 914,
+      "rows_changed": 0,
+      "note": "Matching snapshots does not certify point-in-time history."
+    }
+  ],
+  "target_20261016_source_rows": 6,
+  "historical_adjustment_factor_status": "No vendor-documented factor series obtained. Adjusted price series retained separately as current retrieval snapshots.",
+  "point_in_time_factor_eligible": false,
+  "main_database_mutated": false,
+  "known_boundaries": [
+    "Source consistency is not independent ground truth certification.",
+    "No indicators, signal probabilities or return labels computed.",
+    "2022 bars are warmup observations, not research-outcome sample additions.",
+    "Do not infer adjusted volume from adjusted price mode; all raw source fields preserved.",
+    "Old Tencent fqkline schema has only price/volume; new Tencent newfqkline amount and turnover retained separately with SDK normalization provenance.",
+    "SDK documentation is primary for its own mapping; it is not a formal vendor-certified API contract.",
+    "New Tencent endpoint ignores start date and returns 640 bars ending at end date; out-of-window rows preserved in original raw responses."
+  ],
+  "finalized_at_utc": "2026-10-22T17:22:49.724280+00:00",
+  "provider_count": 2,
+  "endpoint_variants": 3,
+  "accepted_source_rows_initial_endpoints": 6942,
+  "accepted_source_rows_new_endpoint": 3471,
+  "canonical_date_count": 1157,
+  "warmup_date_count": 242,
+  "research_date_count": 915,
+  "new_endpoint_raw_rows": 9600,
+  "new_endpoint_raw_rows_outside_requested_annual_windows": 6129,
+  "new_endpoint_cross_source": [
+    {
+      "scope": "all",
+      "fields": {
+        "open": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "high": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "low": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "close": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1157,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "volume_provider_native": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1099,
+          "strict_mismatch_dates": 58,
+          "max_absolute_difference": 0.47,
+          "within_half_hand_quantization_dates": 1157
+        },
+        "amount_cny": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1149,
+          "strict_mismatch_dates": 8,
+          "max_absolute_difference": 52.0
+        },
+        "turnover_percent": {
+          "compared_dates": 1157,
+          "strict_pass_dates": 1156,
+          "strict_mismatch_dates": 1,
+          "max_absolute_difference": 0.01
+        }
+      }
+    },
+    {
+      "scope": "warmup_2022",
+      "fields": {
+        "open": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "high": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "low": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "close": {
+          "compared_dates": 242,
+          "strict_pass_dates": 242,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "volume_provider_native": {
+          "compared_dates": 242,
+          "strict_pass_dates": 184,
+          "strict_mismatch_dates": 58,
+          "max_absolute_difference": 0.47,
+          "within_half_hand_quantization_dates": 242
+        },
+        "amount_cny": {
+          "compared_dates": 242,
+          "strict_pass_dates": 236,
+          "strict_mismatch_dates": 6,
+          "max_absolute_difference": 52.0
+        },
+        "turnover_percent": {
+          "compared_dates": 242,
+          "strict_pass_dates": 241,
+          "strict_mismatch_dates": 1,
+          "max_absolute_difference": 0.01
+        }
+      }
+    },
+    {
+      "scope": "research_2023_onward",
+      "fields": {
+        "open": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "high": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "low": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "close": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        },
+        "volume_provider_native": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0,
+          "within_half_hand_quantization_dates": 915
+        },
+        "amount_cny": {
+          "compared_dates": 915,
+          "strict_pass_dates": 913,
+          "strict_mismatch_dates": 2,
+          "max_absolute_difference": 50.5
+        },
+        "turnover_percent": {
+          "compared_dates": 915,
+          "strict_pass_dates": 915,
+          "strict_mismatch_dates": 0,
+          "max_absolute_difference": 0.0
+        }
+      }
+    }
+  ],
+  "target_20261016": {
+    "open": 10.7,
+    "high": 10.94,
+    "low": 10.6,
+    "close": 10.78,
+    "volume_native_eastmoney": 447709,
+    "amount_cny_eastmoney": 481724556.97,
+    "amount_cny_tencent_new": 481724600.0,
+    "turnover_percent_both": 1.32
+  },
+  "verification_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_warmup_finalize_oct22/verification.json",
+  "main_database_unchanged": true,
+  "adjusted_old_endpoint_comparison_status": "All 3 adjustment modes: OHLC within half cent and native volume exact between Eastmoney and old Tencent across all 1157 dates; current snapshots only.",
+  "amount_and_turnover_cross_source_status": "New Tencent endpoint acquired and checked; strict exceptions retained, see field summary.",
+  "provider_api_factor_documentation_obtained": false,
+  "historical_factor_eligible": false,
+  "sdk_unit_source": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock_feature/stock_hist_tx.py",
+  "unit_diagnostics": {
+    "dates": 1157,
+    "strict_inside_dates": 1154,
+    "half_cent_compatible_dates": 1157,
+    "exceptions": [
+      {
+        "date": "2024-03-11",
+        "raw_low": 7.5,
+        "raw_high": 7.5,
+        "volume_raw": 190534.0,
+        "amount_cny": 142900845.0,
+        "implied_avg_if_hands": 7.500018107004524,
+        "strict_inside_range": false,
+        "half_cent_compatible": true
+      },
+      {
+        "date": "2024-08-05",
+        "raw_low": 6.84,
+        "raw_high": 6.84,
+        "volume_raw": 228398.0,
+        "amount_cny": 156224409.84,
+        "implied_avg_if_hands": 6.840007786407937,
+        "strict_inside_range": false,
+        "half_cent_compatible": true
+      },
+      {
+        "date": "2026-07-09",
+        "raw_low": 13.31,
+        "raw_high": 13.31,
+        "volume_raw": 207844.0,
+        "amount_cny": 276639978.01,
+        "implied_avg_if_hands": 13.309981428860107,
+        "strict_inside_range": false,
+        "half_cent_compatible": true
+      }
+    ],
+    "conclusion": "Hands convention is supported by primary SDK mapping and implied average-price range checks; formal provider API unit/factor specification not obtained. Exceptions retained, cause unknown."
+  },
+  "extra_gap_status": {
+    "formal_PIT_adjustment_factor_series": "not_obtained",
+    "price_bin_chip_distribution": "outside_this_subtask",
+    "tradability_status": "handled_by_separate_subtask; bars do not prove executable orders"
+  }
+}

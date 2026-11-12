@@ -1,0 +1,60 @@
+{
+  "after_sha256": {
+    "基准摘要.csv": "3d24e4c81a643bf175980a53eda5a104ef8620989a951a40bc770e7e28bcea94",
+    "敏感性.json": "e8f403bea9ab675548aa7b83555fdae935cbdeb405097930333a66fab811db7a",
+    "来源与参数.json": "38e0027eb3728b1f41d7bc08e6d11325a0f40bac72e676bc2d400529440c1e5a",
+    "样本摘要.json": "468796de95fd0518c468fd086ab39c54ca3bc83a9281ce56bd7997109ba38748",
+    "算法实现.py": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "自建筹码估计报告.md": "97df04ef238a91b52d729e81a933ba37f8e9f1689d33aa8804622bf9e13d2e75",
+    "自建筹码小样本.sqlite": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+    "重建说明.md": "4474c6f9e4891ae47b9d69fb5e043cddbbe28d77a7994b004f1fb6a2fb0fad86",
+    "验证结果.json": "aab2a987dfc710f8b4b3b3ee8655c24d7e51d6bebe304816559941c347828b6b"
+  },
+  "all_output_files_byte_identical": true,
+  "before_sha256": {
+    "基准摘要.csv": "3d24e4c81a643bf175980a53eda5a104ef8620989a951a40bc770e7e28bcea94",
+    "敏感性.json": "e8f403bea9ab675548aa7b83555fdae935cbdeb405097930333a66fab811db7a",
+    "来源与参数.json": "38e0027eb3728b1f41d7bc08e6d11325a0f40bac72e676bc2d400529440c1e5a",
+    "样本摘要.json": "468796de95fd0518c468fd086ab39c54ca3bc83a9281ce56bd7997109ba38748",
+    "算法实现.py": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+    "自建筹码估计报告.md": "97df04ef238a91b52d729e81a933ba37f8e9f1689d33aa8804622bf9e13d2e75",
+    "自建筹码小样本.sqlite": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+    "重建说明.md": "4474c6f9e4891ae47b9d69fb5e043cddbbe28d77a7994b004f1fb6a2fb0fad86",
+    "验证结果.json": "aab2a987dfc710f8b4b3b3ee8655c24d7e51d6bebe304816559941c347828b6b"
+  },
+  "file_count": 9,
+  "full_process_exit_code": 0,
+  "guard_revision_numerical_invariance": {
+    "after_sqlite_sha256": "e5edba81886d64481bcf2fac09af322a2a21acaf1364496b89ec670ea88614da",
+    "all_7_scenarios_unchanged": true,
+    "before_sqlite_sha256": "81cf1dc39f24080a423c5538bfb290748fa3327a81b41bd96d161581f50bedc0",
+    "initial_artifact_backup": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/local_chip_estimate_oct25/初版产物_before_guard",
+    "row_hashes": {
+      "estimate_runs": {
+        "after": {
+          "rows": 84,
+          "sha256": "d4ec507770a1fbc6bfab50df5d387f84694fc61e89f1f4f771f1b4e09866da8a"
+        },
+        "before": {
+          "rows": 84,
+          "sha256": "d4ec507770a1fbc6bfab50df5d387f84694fc61e89f1f4f771f1b4e09866da8a"
+        },
+        "identical": true
+      },
+      "estimated_price_bins": {
+        "after": {
+          "rows": 111873,
+          "sha256": "321f66c43bf094bf103f337f17dc866f2173f04d7189e48acbebd661715cccb7"
+        },
+        "before": {
+          "rows": 111873,
+          "sha256": "321f66c43bf094bf103f337f17dc866f2173f04d7189e48acbebd661715cccb7"
+        },
+        "identical": true
+      }
+    }
+  },
+  "implementation_sha256": "d0e9a0116ea7b1d7cfa2900e3a9d7e08d52567c20ba7bf954e2360e9c56162c1",
+  "model_input_approved": false,
+  "native_supplier_bins_acquired": false
+}

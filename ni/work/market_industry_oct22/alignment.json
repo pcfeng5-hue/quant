@@ -1,0 +1,13 @@
+{
+  "reference": "Observed Eastmoney date sets, not an independently audited official exchange calendar",
+  "union_dates": 1160,
+  "common_dates": 1160,
+  "start": "2022-01-04",
+  "end": "2026-10-21",
+  "missing_relative_to_union": {
+    "000001.SH": [],
+    "399001.SZ": [],
+    "399967.SZ": [],
+    "002414.SZ": []
+  }
+}

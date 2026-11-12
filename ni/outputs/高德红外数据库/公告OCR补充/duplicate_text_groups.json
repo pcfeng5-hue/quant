@@ -1,0 +1,276 @@
+[
+  {
+    "ocr_text_sha256": "61cde897bd0b8dd4e1f147dcdff0654781cb959ec98bef01ca74bc89b6c07513",
+    "pages": [
+      {
+        "art_code": "AN202404151630235969",
+        "page_number": 130,
+        "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a"
+      },
+      {
+        "art_code": "AN202404151630235970",
+        "page_number": 6,
+        "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546"
+      },
+      {
+        "art_code": "AN202404151630235991",
+        "page_number": 4,
+        "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d"
+      },
+      {
+        "art_code": "AN202404151630235994",
+        "page_number": 13,
+        "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "e2c2966779637024045389cb8a0cc9afe254ac9e544e14a6bf5c2cc518d67e2b",
+    "pages": [
+      {
+        "art_code": "AN202404151630235969",
+        "page_number": 131,
+        "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a"
+      },
+      {
+        "art_code": "AN202404151630235970",
+        "page_number": 7,
+        "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546"
+      },
+      {
+        "art_code": "AN202404151630235991",
+        "page_number": 5,
+        "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d"
+      },
+      {
+        "art_code": "AN202404151630235994",
+        "page_number": 14,
+        "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198"
+      },
+      {
+        "art_code": "AN202504241661801153",
+        "page_number": 131,
+        "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0"
+      },
+      {
+        "art_code": "AN202504241661801155",
+        "page_number": 7,
+        "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420"
+      },
+      {
+        "art_code": "AN202504241661802965",
+        "page_number": 5,
+        "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2"
+      },
+      {
+        "art_code": "AN202504241661802974",
+        "page_number": 6,
+        "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "397e22bc9e9848005c8bd33eecb6f8b6b793230d9b9e4493a6caac3af7855b76",
+    "pages": [
+      {
+        "art_code": "AN202404151630235969",
+        "page_number": 132,
+        "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a"
+      },
+      {
+        "art_code": "AN202404151630235970",
+        "page_number": 8,
+        "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546"
+      },
+      {
+        "art_code": "AN202404151630235991",
+        "page_number": 6,
+        "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d"
+      },
+      {
+        "art_code": "AN202404151630235994",
+        "page_number": 15,
+        "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198"
+      },
+      {
+        "art_code": "AN202504241661801153",
+        "page_number": 132,
+        "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0"
+      },
+      {
+        "art_code": "AN202504241661801155",
+        "page_number": 8,
+        "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420"
+      },
+      {
+        "art_code": "AN202504241661802965",
+        "page_number": 6,
+        "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2"
+      },
+      {
+        "art_code": "AN202504241661802974",
+        "page_number": 7,
+        "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "03996abfc1b5ebea62aa01cad28a7cc5964d3eb7bfe1d7a534c97efc0bc58037",
+    "pages": [
+      {
+        "art_code": "AN202404151630235969",
+        "page_number": 133,
+        "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a"
+      },
+      {
+        "art_code": "AN202404151630235970",
+        "page_number": 9,
+        "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546"
+      },
+      {
+        "art_code": "AN202404151630235991",
+        "page_number": 7,
+        "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d"
+      },
+      {
+        "art_code": "AN202404151630235994",
+        "page_number": 16,
+        "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198"
+      },
+      {
+        "art_code": "AN202504241661801153",
+        "page_number": 133,
+        "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0"
+      },
+      {
+        "art_code": "AN202504241661801155",
+        "page_number": 9,
+        "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420"
+      },
+      {
+        "art_code": "AN202504241661802965",
+        "page_number": 7,
+        "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2"
+      },
+      {
+        "art_code": "AN202504241661802974",
+        "page_number": 8,
+        "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "9727cd454aebdfeff2d3375a8831062d89fbbc1accc221ce337c5b8ddd050594",
+    "pages": [
+      {
+        "art_code": "AN202504241661801153",
+        "page_number": 130,
+        "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0"
+      },
+      {
+        "art_code": "AN202504241661801155",
+        "page_number": 6,
+        "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420"
+      },
+      {
+        "art_code": "AN202504241661802965",
+        "page_number": 4,
+        "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2"
+      },
+      {
+        "art_code": "AN202504241661802974",
+        "page_number": 5,
+        "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "ad0a06a424bfad19f95782db56cac51469de9e828a30687b03ad25d5a1666ea2",
+    "pages": [
+      {
+        "art_code": "AN202604141821191365",
+        "page_number": 132,
+        "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69"
+      },
+      {
+        "art_code": "AN202604141821191375",
+        "page_number": 5,
+        "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9"
+      },
+      {
+        "art_code": "AN202604141821191376",
+        "page_number": 4,
+        "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "76ba2ae9d5762d9a92fac91fc57f5ec864b115854ae9610b9aa2413e10c25ff3",
+    "pages": [
+      {
+        "art_code": "AN202604141821191365",
+        "page_number": 133,
+        "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69"
+      },
+      {
+        "art_code": "AN202604141821191375",
+        "page_number": 6,
+        "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9"
+      },
+      {
+        "art_code": "AN202604141821191376",
+        "page_number": 5,
+        "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "f94480167af2b0162db07797e5bbffc580cdfe3ef1d99989eb4ca5fe95e0cb77",
+    "pages": [
+      {
+        "art_code": "AN202604141821191365",
+        "page_number": 134,
+        "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69"
+      },
+      {
+        "art_code": "AN202604141821191375",
+        "page_number": 7,
+        "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9"
+      },
+      {
+        "art_code": "AN202604141821191376",
+        "page_number": 6,
+        "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  },
+  {
+    "ocr_text_sha256": "ace36ca59e05197bfe8ee21b7dfdd887dd7e6cc41f8d2856fcdb5c23acfa37e3",
+    "pages": [
+      {
+        "art_code": "AN202604141821191365",
+        "page_number": 135,
+        "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69"
+      },
+      {
+        "art_code": "AN202604141821191375",
+        "page_number": 8,
+        "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9"
+      },
+      {
+        "art_code": "AN202604141821191376",
+        "page_number": 7,
+        "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07"
+      }
+    ],
+    "status": "identical_ocr_text_possible_repeated_evidence_not_collapsed"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "art_code": "AN202304191585591326",
+    "url": "https://static.cninfo.com.cn/finalpage/2023-04-20/1216475762.PDF",
+    "announcement_id": "1216475762",
+    "provider_source_sha256": "4d4be9bff3e763612085cf0285caf905091936d3e1c7000872400b11619f6af7",
+    "retrieved_at": "2026-10-14T03:51:20.798389+00:00",
+    "source_sha256": "4d4be9bff3e763612085cf0285caf905091936d3e1c7000872400b11619f6af7",
+    "comparison": "identical_bytes",
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/round4_accounting/cninfo_AN202304191585591326_4d4be9bff3e7.pdf",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630236046",
+    "url": "https://static.cninfo.com.cn/finalpage/2024-04-16/1219621911.PDF",
+    "announcement_id": "1219621911",
+    "provider_source_sha256": "d5250fcd301cd501b48cd0dd20d10b4cc6194fb4b3261e916e421b41b17ed834",
+    "retrieved_at": "2026-10-14T03:51:20.783994+00:00",
+    "source_sha256": "d5250fcd301cd501b48cd0dd20d10b4cc6194fb4b3261e916e421b41b17ed834",
+    "comparison": "identical_bytes",
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/round4_accounting/cninfo_AN202404151630236046_d5250fcd301c.pdf",
+    "error": null
+  },
+  {
+    "art_code": "AN202408261639461688",
+    "url": "https://static.cninfo.com.cn/finalpage/2024-08-27/1220985617.PDF",
+    "announcement_id": "1220985617",
+    "provider_source_sha256": "242669ebbbdcab9a760b05d89fd24e080b837c705a59ebb346a8592974bea2e6",
+    "retrieved_at": "2026-10-14T03:51:21.483695+00:00",
+    "source_sha256": "242669ebbbdcab9a760b05d89fd24e080b837c705a59ebb346a8592974bea2e6",
+    "comparison": "identical_bytes",
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/round4_accounting/cninfo_AN202408261639461688_242669ebbbdc.pdf",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802961",
+    "url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223276580.PDF",
+    "announcement_id": "1223276580",
+    "provider_source_sha256": "8191b1fa6f5c2e944e912335527724f00268f202752848fbbb52bb8c145af335",
+    "retrieved_at": "2026-10-14T03:51:21.545336+00:00",
+    "source_sha256": "8191b1fa6f5c2e944e912335527724f00268f202752848fbbb52bb8c145af335",
+    "comparison": "identical_bytes",
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/round4_accounting/cninfo_AN202504241661802961_8191b1fa6f5c.pdf",
+    "error": null
+  }
+]

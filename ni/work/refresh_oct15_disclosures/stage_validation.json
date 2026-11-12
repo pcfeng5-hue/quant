@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "all_catalogues_complete": true,
+    "source_hashes_match": true,
+    "records_match_reported_total": true,
+    "all_cninfo_exact_issuer": true,
+    "all_em_exact_issuer": true,
+    "no_material_catalogue_changes": true,
+    "no_unnecessary_pdf_downloads": true,
+    "prepared_payload_hashes_match": true,
+    "display_time_changes_subsecond_only": true
+  },
+  "all_passed": true,
+  "changed_em_field_counts": {
+    "display_time": 104
+  }
+}

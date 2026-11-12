@@ -1,0 +1,330 @@
+{
+  "checked_at": "2026-10-15T18:03:07.123266+00:00",
+  "mode": "read_only",
+  "fields_checked": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "amount",
+    "turnover"
+  ],
+  "strict_numeric_equality": true,
+  "per_source": [
+    {
+      "source": "em_daily_0",
+      "old_rows": 912,
+      "new_rows": 914,
+      "overlap_rows": 912,
+      "new_dates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    },
+    {
+      "source": "em_daily_1",
+      "old_rows": 912,
+      "new_rows": 914,
+      "overlap_rows": 912,
+      "new_dates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    },
+    {
+      "source": "em_daily_2",
+      "old_rows": 912,
+      "new_rows": 914,
+      "overlap_rows": 912,
+      "new_dates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    },
+    {
+      "source": "tencent_daily_2023",
+      "old_rows": 242,
+      "new_rows": 242,
+      "overlap_rows": 242,
+      "new_dates": [],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    },
+    {
+      "source": "tencent_daily_2024",
+      "old_rows": 242,
+      "new_rows": 242,
+      "overlap_rows": 242,
+      "new_dates": [],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    },
+    {
+      "source": "tencent_daily_2025",
+      "old_rows": 243,
+      "new_rows": 243,
+      "overlap_rows": 243,
+      "new_dates": [],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    },
+    {
+      "source": "tencent_daily_2026",
+      "old_rows": 185,
+      "new_rows": 187,
+      "overlap_rows": 185,
+      "new_dates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "old_dates_missing": [],
+      "changed_dates": 0,
+      "changed_fields_counts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "amount": 0,
+        "turnover": 0
+      },
+      "changes": []
+    }
+  ],
+  "new_dates_cross_source": [
+    {
+      "trade_date": "2026-10-14",
+      "common_fields": {
+        "open": {
+          "eastmoney": 11.26,
+          "tencent": 11.26,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "high": {
+          "eastmoney": 11.39,
+          "tencent": 11.39,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "low": {
+          "eastmoney": 11.12,
+          "tencent": 11.12,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "close": {
+          "eastmoney": 11.14,
+          "tencent": 11.14,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "volume": {
+          "eastmoney": 288372.0,
+          "tencent": 288372.0,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.0"
+        }
+      },
+      "not_cross_checkable": {
+        "amount": {
+          "eastmoney": 324852890.67,
+          "tencent": null,
+          "reason": "Tencent collected daily schema does not provide this field"
+        },
+        "turnover": {
+          "eastmoney": 0.85,
+          "tencent": null,
+          "reason": "Tencent collected daily schema does not provide this field"
+        }
+      },
+      "snapshot_ids": {
+        "eastmoney": "em_daily_0:b230c6ab155089d27d5ee2694fd23bead0cc7e65975f3e7dd510c6ec1f2acf96:refresh-20261015-v1",
+        "tencent": "tencent_daily_2026:36d50cc53d9174eea5a93a209ee6fe9c1034fa9e05b98cf7e00e7dc57971f6c9:refresh-20261015-v1"
+      }
+    },
+    {
+      "trade_date": "2026-10-15",
+      "common_fields": {
+        "open": {
+          "eastmoney": 10.86,
+          "tencent": 10.86,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "high": {
+          "eastmoney": 10.88,
+          "tencent": 10.88,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "low": {
+          "eastmoney": 10.5,
+          "tencent": 10.5,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.0"
+        },
+        "close": {
+          "eastmoney": 10.52,
+          "tencent": 10.52,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.00"
+        },
+        "volume": {
+          "eastmoney": 477390.0,
+          "tencent": 477390.0,
+          "equal_exactly": true,
+          "difference_em_minus_tx": "0.0"
+        }
+      },
+      "not_cross_checkable": {
+        "amount": {
+          "eastmoney": 510516107.93,
+          "tencent": null,
+          "reason": "Tencent collected daily schema does not provide this field"
+        },
+        "turnover": {
+          "eastmoney": 1.4,
+          "tencent": null,
+          "reason": "Tencent collected daily schema does not provide this field"
+        }
+      },
+      "snapshot_ids": {
+        "eastmoney": "em_daily_0:b230c6ab155089d27d5ee2694fd23bead0cc7e65975f3e7dd510c6ec1f2acf96:refresh-20261015-v1",
+        "tencent": "tencent_daily_2026:36d50cc53d9174eea5a93a209ee6fe9c1034fa9e05b98cf7e00e7dc57971f6c9:refresh-20261015-v1"
+      }
+    }
+  ],
+  "original_snapshot_preservation": [
+    {
+      "source": "em_daily_0",
+      "snapshot_id": "em_daily_0:7c87ea1e97248a8ae0f203a5cd9b2200618f12aced19c1c27a4319b98f7c7272",
+      "metadata_unchanged": true,
+      "raw_path": "raw/em_daily_0_7c87ea1e97248a8a.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    },
+    {
+      "source": "em_daily_1",
+      "snapshot_id": "em_daily_1:fd2dba142b4bfc4646270f132c29b1df3cc7ad22f351438ca2dfc7c95dc66196",
+      "metadata_unchanged": true,
+      "raw_path": "raw/em_daily_1_fd2dba142b4bfc46.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    },
+    {
+      "source": "em_daily_2",
+      "snapshot_id": "em_daily_2:8a05a6511906cb4a8015d64b98e498cdb364b04ef56598a7ab0c02e08e1e7b7c",
+      "metadata_unchanged": true,
+      "raw_path": "raw/em_daily_2_8a05a6511906cb4a.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    },
+    {
+      "source": "tencent_daily_2023",
+      "snapshot_id": "tencent_daily_2023:7154450f1b884849d55bc84b96a50f3c0ad7c073be81cc4f7c3d8f5a439f3aea",
+      "metadata_unchanged": true,
+      "raw_path": "raw/tencent_daily_2023_7154450f1b884849.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    },
+    {
+      "source": "tencent_daily_2024",
+      "snapshot_id": "tencent_daily_2024:a583da7634bb09aa6056fc843767e2c807cf6ab32f54c46fb4246607b53384e6",
+      "metadata_unchanged": true,
+      "raw_path": "raw/tencent_daily_2024_a583da7634bb09aa.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    },
+    {
+      "source": "tencent_daily_2025",
+      "snapshot_id": "tencent_daily_2025:8e702f7aeb43779dbe2ff52b95ffb5b9b48e348df42b139d73fbffdc6db54816",
+      "metadata_unchanged": true,
+      "raw_path": "raw/tencent_daily_2025_8e702f7aeb43779d.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    },
+    {
+      "source": "tencent_daily_2026",
+      "snapshot_id": "tencent_daily_2026:8dd6c34978c1f4ab416ecc2eaa26e091879238660ea3dc01881ee36c8c6d1503",
+      "metadata_unchanged": true,
+      "raw_path": "raw/tencent_daily_2026_8dd6c34978c1f4ab.json",
+      "raw_hash_matches": true,
+      "all_old_daily_bar_rows_unchanged": true
+    }
+  ],
+  "all_original_snapshots_and_rows_preserved": true,
+  "new_dates_all_available_common_fields_match": true,
+  "historical_overlap_changed_date_total": 0,
+  "limits": [
+    "Unavailable amount and turnover on Tencent rows are not counted as matched.",
+    "Adjusted prices remain provider vintages; no historical availability certification."
+  ]
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "rules_2023_pdf_trade",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020230217564423808793.pdf",
+    "retrieved_at": "2026-10-18T03:13:25.541013+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "rules_2023_pdf_stock",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/stock/W020230217564423808793.pdf",
+    "retrieved_at": "2026-10-18T03:13:25.541328+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "rules_2023_pdf_repeal",
+    "url": "https://www.szse.cn/lawrules/rule/repeal/rules/P020231230545143336292.pdf",
+    "retrieved_at": "2026-10-18T03:13:25.541430+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.szse.cn/lawrules/rule/repeal/rules/P020231230545143336292.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 287964,
+    "sha256": "3a7e3e378b169248bb9314accd749586a10af24028909e66ae0f1759d5151c3d",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2023_pdf_repeal_3a7e3e378b169248.pdf"
+  },
+  {
+    "name": "rules_2023_notice_trade",
+    "url": "https://www.szse.cn/lawrules/rule/stock/trade/t20230217_598773.html",
+    "retrieved_at": "2026-10-18T03:13:27.140616+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "rules_2023_notice_stock",
+    "url": "https://investor.szse.cn/lawrules/rule/stock/t20230217_598773.html",
+    "retrieved_at": "2026-10-18T03:13:27.269542+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "chinaclear_original_publisher_transfer_notice",
+    "url": "https://finance.sina.cn/2022-04-28/detail-imcwipii6993883.d.html?wm=3049_0015",
+    "retrieved_at": "2026-10-18T03:13:27.907951+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://finance.sina.cn/2022-04-28/detail-imcwipii6993883.d.html?wm=3049_0015",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 33511,
+    "sha256": "89c74c297ab5cb0d8791847fcc40c9e9296e3f46353f3ec9ab2f20f59bb8131b",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_original_publisher_transfer_notice_89c74c297ab5cb0d.html"
+  },
+  {
+    "name": "dividend_personal_tax_2015",
+    "url": "https://www.chinatax.gov.cn/n810341/n810755/c1797427/content.html",
+    "retrieved_at": "2026-10-18T03:13:27.976015+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.chinatax.gov.cn/n810341/n810755/c1797427/content.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 26556,
+    "sha256": "e131973c0f545d01eca469233d820b90a1bb5a658629f950ec06fe6e6f3d7099",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/dividend_personal_tax_2015_e131973c0f545d01.html"
+  }
+]

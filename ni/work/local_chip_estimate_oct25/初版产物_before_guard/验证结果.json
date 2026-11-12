@@ -1,0 +1,163 @@
+{
+  "actual_saved_dates": [
+    "2023-01-03",
+    "2023-06-19",
+    "2023-06-20",
+    "2023-06-21",
+    "2024-05-23",
+    "2024-05-24",
+    "2024-05-27",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-10-16",
+    "2026-10-21"
+  ],
+  "algorithm_version": "causal-triangular-chip-sample-v1",
+  "all_technical_checks_passed": true,
+  "checks": [
+    {
+      "max_date": "2026-10-21",
+      "min_date": "2022-01-04",
+      "name": "input_contract",
+      "passed": true,
+      "rows": 1160
+    },
+    {
+      "max_absolute_error": 4.440892098500626e-16,
+      "name": "mass_sums_to_one",
+      "passed": true,
+      "runs": 84
+    },
+    {
+      "min_mass": 0.0,
+      "name": "all_bins_nonnegative_and_finite",
+      "passed": true
+    },
+    {
+      "failures": [],
+      "name": "causal_prefix_invariance",
+      "passed": true,
+      "runs": 84
+    },
+    {
+      "failures": [],
+      "name": "future_price_turnover_action_mutation_invariance",
+      "passed": true,
+      "runs": 84
+    },
+    {
+      "failures": [],
+      "name": "deterministic_algorithm_rerun",
+      "passed": true,
+      "runs": 84
+    },
+    {
+      "cash_and_transfer_per_10_divided_by_10": true,
+      "name": "corporate_action_units_and_price_coordinate_mass_mean",
+      "passed": true,
+      "real_window_audit_count": 8,
+      "synthetic_audits": [
+        {
+          "absolute_mean_error_cny": 0.0,
+          "cash_cny_per_share_gross": 0.13,
+          "event_id": "002414.SZ_distribution_20230620",
+          "ex_date": "2023-06-20",
+          "expected_mean_cny": 9.13076923076923,
+          "mass_after": 1.0,
+          "mass_before": 1.0,
+          "post_action_old_mass_mean_cny": 9.13076923076923,
+          "pre_action_mean_cny": 12.0,
+          "share_mass_reason": "uniform_transfer_scales_all_holders_equally; normalized_weights_unchanged",
+          "transfer_per_share": 0.3
+        },
+        {
+          "absolute_mean_error_cny": 0.0,
+          "cash_cny_per_share_gross": 0.014,
+          "event_id": "002414.SZ_distribution_20240524",
+          "ex_date": "2024-05-24",
+          "expected_mean_cny": 11.986,
+          "mass_after": 1.0,
+          "mass_before": 1.0,
+          "post_action_old_mass_mean_cny": 11.986,
+          "pre_action_mean_cny": 12.0,
+          "share_mass_reason": "uniform_transfer_scales_all_holders_equally; normalized_weights_unchanged",
+          "transfer_per_share": 0.0
+        },
+        {
+          "absolute_mean_error_cny": 0.0,
+          "cash_cny_per_share_gross": 0.1,
+          "event_id": "002414.SZ_distribution_20260922",
+          "ex_date": "2026-09-22",
+          "expected_mean_cny": 11.9,
+          "mass_after": 1.0,
+          "mass_before": 1.0,
+          "post_action_old_mass_mean_cny": 11.9,
+          "pre_action_mean_cny": 12.0,
+          "share_mass_reason": "uniform_transfer_scales_all_holders_equally; normalized_weights_unchanged",
+          "transfer_per_share": 0.0
+        }
+      ]
+    },
+    {
+      "available_days": 1,
+      "name": "insufficient_initial_history_flag",
+      "passed": true,
+      "probe_date": "2022-01-04",
+      "requested_days": 120,
+      "saved_as_sample": false
+    },
+    {
+      "cases": 28,
+      "name": "triangle_allocation_and_one_price_edge_cases",
+      "passed": true
+    },
+    {
+      "grid_definition": "origin=0, step frozen in params; node count grows only from already processed prices",
+      "name": "fixed_grid_not_full_sample_extrema",
+      "passed": true
+    },
+    {
+      "comparisons": 72,
+      "future_returns_read": false,
+      "name": "initialization_grid_turnover_sensitivity_exercised",
+      "parameters_fixed_before_comparison": true,
+      "passed": true,
+      "web_summary_fit_used": false
+    },
+    {
+      "first_sha256": "81cf1dc39f24080a423c5538bfb290748fa3327a81b41bd96d161581f50bedc0",
+      "name": "sqlite_deterministic_byte_rerun",
+      "passed": true,
+      "repeat_sha256": "81cf1dc39f24080a423c5538bfb290748fa3327a81b41bd96d161581f50bedc0"
+    },
+    {
+      "after_sha256": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "before_sha256": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "name": "source_database_hash_unchanged",
+      "passed": true
+    }
+  ],
+  "missing_requested_dates": [],
+  "model_input_approved": false,
+  "native_supplier_bins_acquired": false,
+  "requested_dates": [
+    "2023-01-03",
+    "2023-06-19",
+    "2023-06-20",
+    "2023-06-21",
+    "2024-05-23",
+    "2024-05-24",
+    "2024-05-27",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-10-16",
+    "2026-10-21"
+  ],
+  "saved_distinct_dates": 12,
+  "saved_estimate_runs": 84,
+  "saved_price_bin_rows": 111873,
+  "source_database_sha256_after": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+  "source_database_sha256_before": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14"
+}

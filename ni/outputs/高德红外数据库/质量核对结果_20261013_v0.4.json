@@ -1,0 +1,374 @@
+{
+  "checks": {
+    "sqlite_integrity": true,
+    "daily_date_bounds": true,
+    "record_date_bounds": true,
+    "ohlc_consistency": true,
+    "no_duplicate_source_dates": true,
+    "quality_issues_empty": true,
+    "source_hashes_match": true,
+    "pdf_headers_and_hashes_match": true,
+    "price_sources_date_sets_match": true,
+    "unadjusted_ohlcv_sources_match": true,
+    "official_calendar_matches_daily_dates": true,
+    "cninfo_catalogue_all_matched": true,
+    "cninfo_investor_activity_all_matched": true,
+    "original_report_observations_135": true,
+    "original_report_evidence_hashes_match": true,
+    "all_current_source_records_have_temporal_audit": true,
+    "unverified_records_not_approved_as_historical_inputs": true,
+    "policy_sample_hashes_match": true,
+    "request_parameters_preserved_for_cninfo": true,
+    "forward_return_fields_restricted": true,
+    "corporate_action_originals_three_verified": true,
+    "capital_share_components_sum": true,
+    "primary_counterparts_22_identical": true,
+    "primary_counterpart_files_hash_match": true,
+    "text_retry_all_185_accounted": true,
+    "candidate_events_remain_unapproved": true,
+    "manual_fields_attached_to_original_hash": true,
+    "all_52_candidates_have_classification_review": true,
+    "candidate_review_original_hashes_match": true,
+    "disclosure_reviews_remain_historical_unapproved": true,
+    "disclosure_evidence_pages_and_hashes_linked": true,
+    "accounting_24_known_before_values_add_correctly": true,
+    "accounting_four_blank_before_values_remain_null": true,
+    "eight_report_capital_observations_sum": true,
+    "three_employee_transfers_not_inferred_capital_creation": true,
+    "existing_action_phases_not_duplicate_events": true,
+    "ocr_covers_all_185_original_pending_pages": true,
+    "ocr_text_and_numbers_not_manually_approved": true,
+    "ocr_result_archives_hash_match": true,
+    "available_machine_text_4253_pages_unique": true,
+    "supplier_chip_data_still_not_fabricated": true
+  },
+  "failed": [],
+  "hash_errors": [],
+  "pdf_errors": [],
+  "common_dates": 912,
+  "price_mismatch_dates": [],
+  "policy_hash_errors": [],
+  "announcement_reconciliation": {
+    "date_and_normalized_title_match": 308,
+    "eastmoney_additional_investor_activity": 4
+  },
+  "original_finance_observations": 135,
+  "daily_coverage": [
+    {
+      "source": "em_daily_0",
+      "adjustment": "0",
+      "n": 912,
+      "start": "2023-01-03",
+      "end": "2026-10-13"
+    },
+    {
+      "source": "em_daily_1",
+      "adjustment": "1",
+      "n": 912,
+      "start": "2023-01-03",
+      "end": "2026-10-13"
+    },
+    {
+      "source": "em_daily_2",
+      "adjustment": "2",
+      "n": 912,
+      "start": "2023-01-03",
+      "end": "2026-10-13"
+    },
+    {
+      "source": "index_0.399001",
+      "adjustment": "0",
+      "n": 912,
+      "start": "2023-01-03",
+      "end": "2026-10-13"
+    },
+    {
+      "source": "index_1.000001",
+      "adjustment": "0",
+      "n": 912,
+      "start": "2023-01-03",
+      "end": "2026-10-13"
+    },
+    {
+      "source": "tencent_daily_2023",
+      "adjustment": "0",
+      "n": 242,
+      "start": "2023-01-03",
+      "end": "2023-12-29"
+    },
+    {
+      "source": "tencent_daily_2024",
+      "adjustment": "0",
+      "n": 242,
+      "start": "2024-01-02",
+      "end": "2024-12-31"
+    },
+    {
+      "source": "tencent_daily_2025",
+      "adjustment": "0",
+      "n": 243,
+      "start": "2025-01-02",
+      "end": "2025-12-31"
+    },
+    {
+      "source": "tencent_daily_2026",
+      "adjustment": "0",
+      "n": 185,
+      "start": "2026-01-05",
+      "end": "2026-10-13"
+    }
+  ],
+  "dataset_coverage": [
+    {
+      "dataset": "announcements",
+      "n": 100,
+      "start": "2025-08-26",
+      "end": "2026-09-15"
+    },
+    {
+      "dataset": "announcements_page2",
+      "n": 100,
+      "start": "2024-04-16",
+      "end": "2025-08-05"
+    },
+    {
+      "dataset": "announcements_page3",
+      "n": 100,
+      "start": "2023-04-20",
+      "end": "2024-04-16"
+    },
+    {
+      "dataset": "announcements_page4",
+      "n": 12,
+      "start": "2023-01-31",
+      "end": "2023-04-20"
+    },
+    {
+      "dataset": "balance_sheet",
+      "n": 16,
+      "start": "2023-04-20",
+      "end": "2026-08-26"
+    },
+    {
+      "dataset": "billboard",
+      "n": 5,
+      "start": "2024-03-12",
+      "end": "2026-07-10"
+    },
+    {
+      "dataset": "block_trade",
+      "n": 72,
+      "start": "2024-08-06",
+      "end": "2026-02-25"
+    },
+    {
+      "dataset": "capital_structure",
+      "n": 5,
+      "start": "2023-06-12",
+      "end": "2024-06-30"
+    },
+    {
+      "dataset": "cashflow_statement",
+      "n": 19,
+      "start": "2023-04-20",
+      "end": "2026-08-26"
+    },
+    {
+      "dataset": "cninfo_announcements_page1",
+      "n": 30,
+      "start": "2026-04-15",
+      "end": "2026-09-15"
+    },
+    {
+      "dataset": "cninfo_announcements_page10",
+      "n": 30,
+      "start": "2023-04-20",
+      "end": "2023-04-20"
+    },
+    {
+      "dataset": "cninfo_announcements_page11",
+      "n": 8,
+      "start": "2023-01-31",
+      "end": "2023-04-20"
+    },
+    {
+      "dataset": "cninfo_announcements_page2",
+      "n": 30,
+      "start": "2025-12-06",
+      "end": "2026-04-15"
+    },
+    {
+      "dataset": "cninfo_announcements_page3",
+      "n": 30,
+      "start": "2025-08-26",
+      "end": "2025-12-06"
+    },
+    {
+      "dataset": "cninfo_announcements_page4",
+      "n": 30,
+      "start": "2025-04-25",
+      "end": "2025-08-26"
+    },
+    {
+      "dataset": "cninfo_announcements_page5",
+      "n": 30,
+      "start": "2024-10-10",
+      "end": "2025-04-25"
+    },
+    {
+      "dataset": "cninfo_announcements_page6",
+      "n": 30,
+      "start": "2024-04-16",
+      "end": "2024-09-19"
+    },
+    {
+      "dataset": "cninfo_announcements_page7",
+      "n": 30,
+      "start": "2024-04-16",
+      "end": "2024-04-16"
+    },
+    {
+      "dataset": "cninfo_announcements_page8",
+      "n": 30,
+      "start": "2023-08-31",
+      "end": "2024-04-16"
+    },
+    {
+      "dataset": "cninfo_announcements_page9",
+      "n": 30,
+      "start": "2023-04-20",
+      "end": "2023-08-31"
+    },
+    {
+      "dataset": "cninfo_ir_page1",
+      "n": 4,
+      "start": "2023-04-25",
+      "end": "2026-04-30"
+    },
+    {
+      "dataset": "dividends",
+      "n": 3,
+      "start": "2023-06-13",
+      "end": "2026-09-15"
+    },
+    {
+      "dataset": "financial_main",
+      "n": 15,
+      "start": "2023-04-20",
+      "end": "2026-08-26"
+    },
+    {
+      "dataset": "fund_flow_proxy",
+      "n": 120,
+      "start": "2026-04-15",
+      "end": "2026-10-13"
+    },
+    {
+      "dataset": "holder_count",
+      "n": 15,
+      "start": "2023-04-20",
+      "end": "2026-08-26"
+    },
+    {
+      "dataset": "income_statement",
+      "n": 19,
+      "start": "2023-04-20",
+      "end": "2026-08-26"
+    },
+    {
+      "dataset": "institution_seats",
+      "n": 5,
+      "start": "2024-03-12",
+      "end": "2026-07-10"
+    },
+    {
+      "dataset": "margin",
+      "n": 500,
+      "start": "2024-09-11",
+      "end": "2026-10-12"
+    },
+    {
+      "dataset": "margin_page2",
+      "n": 411,
+      "start": "2023-01-03",
+      "end": "2024-09-10"
+    },
+    {
+      "dataset": "top10_float",
+      "n": 150,
+      "start": "2023-04-20",
+      "end": "2026-08-26"
+    }
+  ],
+  "pdf_status": {
+    "success": 312
+  },
+  "text_status": {
+    "extracted_unverified": 4068,
+    "needs_ocr": 185
+  },
+  "ocr_text_status": {
+    "ocr_extracted_unverified": 185
+  },
+  "supplemental_disclosures": {
+    "accounting_adjustment": 28,
+    "capital_period": 8,
+    "capital_reconciliation_issue": 3,
+    "employee_nontrade_transfer": 3,
+    "existing_action_phase": 5,
+    "limited_negative_disclosure": 2
+  },
+  "gaps": [
+    {
+      "dataset": "tick_level2",
+      "status": "missing",
+      "explanation": "Historical order/tick data authorization and cost unconfirmed."
+    },
+    {
+      "dataset": "industry_theme_history",
+      "status": "pending",
+      "explanation": "Point-in-time classification and industry history not acquired."
+    },
+    {
+      "dataset": "fund_holder_history",
+      "status": "partial",
+      "explanation": "Top ten float holders collected where disclosed; not complete fund holdings and not real-time institutional trades."
+    },
+    {
+      "dataset": "technical_indicators",
+      "status": "deferred",
+      "explanation": "User requests raw statistical database first; MACD/KDJ/MA and signal analysis deferred."
+    },
+    {
+      "dataset": "corporate_actions_float_shares",
+      "status": "partial",
+      "explanation": "Eight original report capital observations (one pre-2023 baseline), including four added periods. Three non-trade employee transfer completions are not capital creation; three reconciliation gaps unresolved. No certified daily float history."
+    },
+    {
+      "dataset": "news_policy_archive",
+      "status": "partial",
+      "explanation": "Declared official policy/news samples archived; full historical news/policy archive and first-public timestamps remain missing."
+    },
+    {
+      "dataset": "chip_history",
+      "status": "access_required",
+      "explanation": "Chip/price relationship prioritized by user. Offline JSON validator prepared; 912 target dates, zero provider chip dates acquired. No local reconstruction counted as supplier history; permissions and price basis not verified."
+    },
+    {
+      "dataset": "financial_point_in_time",
+      "status": "partial",
+      "explanation": "135 selected original finance metrics plus 28 separately versioned adjustment rows verified; blank cells remain null. Not full statements, first-public timestamps or complete revisions."
+    },
+    {
+      "dataset": "trading_calendar_status",
+      "status": "partial",
+      "explanation": "912 scheduled sessions checked. Announcement keyword candidates do not certify historical ST/suspension status; absence of event-title matches is not proof of absence."
+    },
+    {
+      "dataset": "announcement_ocr",
+      "status": "partial",
+      "explanation": "All 185 originally text-empty pages now have separate local OCR text; original extraction statuses preserved. All 4253 pages have machine-readable text. OCR accuracy/table reconstruction/manual page review unverified; zero newly certified numeric facts. 124 OCR pages contain lines with confidence below 0.8."
+    }
+  ],
+  "warning": "Not certification of original disclosure truth, point-in-time vintages, complete news or source rights."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "0901_2026-08-26_window5",
+  "expected": "2026-08-26",
+  "actual": "2026-08-26",
+  "date": "2026-08-26",
+  "values": [
+    "2026-08-26",
+    "11.33%",
+    "13.60",
+    "12.57-15.01",
+    "8.85%",
+    "12.83-14.11",
+    "4.77%"
+  ],
+  "kline": {
+    "时间": "2026-08-26",
+    "开盘": "13.17",
+    "收盘": "12.73",
+    "最高": "13.20",
+    "最低": "12.65",
+    "涨跌幅": "-2.90%",
+    "涨跌额": "-0.38",
+    "成交量": "105.58万",
+    "成交额": "13.61亿",
+    "振幅": "4.20%",
+    "换手率": "3.11%"
+  },
+  "basis": "前复权",
+  "accepted": true,
+  "session": "full_history_loaded_session_20261017",
+  "accessibility_source": "playwright_dom_snapshot",
+  "stage": "window5",
+  "x": 851,
+  "y": 330,
+  "observed_at_utc": "2026-10-17T23:55:45.988Z",
+  "geometry": {
+    "canvas_y": 70,
+    "scrollY": 589.5
+  },
+  "post": {
+    "date": "2026-08-26",
+    "kline_date": "2026-08-26",
+    "visible": "block"
+  },
+  "complete_price_bins": false,
+  "historical_input_eligible": false
+}

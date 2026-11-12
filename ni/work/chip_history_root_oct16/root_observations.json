@@ -1,0 +1,119 @@
+{
+  "source": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r",
+  "client_date": "2026-10-16",
+  "fields": [
+    "date",
+    "profit_ratio",
+    "avg_cost",
+    "cost90",
+    "concentration90",
+    "cost70",
+    "concentration70"
+  ],
+  "observations": [
+    {
+      "values": [
+        "2026-10-16",
+        "2.10%",
+        "13.08",
+        "11.20-14.67",
+        "13.42%",
+        "12.14-14.02",
+        "7.17%"
+      ],
+      "method": "rendered_dom",
+      "note": "selected candle 2023-06-20"
+    },
+    {
+      "values": [
+        "2023-06-01",
+        "2.36%",
+        "9.09",
+        "8.11-11.52",
+        "17.33%",
+        "8.45-10.79",
+        "12.12%"
+      ],
+      "method": "rendered_dom",
+      "note": "same date after historical pan"
+    },
+    {
+      "values": [
+        "2023-06-21",
+        "4.33%",
+        "9.03",
+        "7.59-11.77",
+        "21.63%",
+        "8.20-10.81",
+        "13.72%"
+      ],
+      "method": "rendered_dom",
+      "note": "repeat after pan; verify actual date from values"
+    },
+    {
+      "values": [
+        "2023-06-20",
+        "6.68%",
+        "9.03",
+        "7.66-11.77",
+        "21.20%",
+        "8.20-10.81",
+        "13.72%"
+      ],
+      "method": "rendered_dom",
+      "note": "2023-06-20 repeat after pan"
+    },
+    {
+      "values": [
+        "2023-06-20",
+        "6.68%",
+        "9.03",
+        "7.66-11.77",
+        "21.20%",
+        "8.20-10.81",
+        "13.72%"
+      ],
+      "method": "rendered_dom",
+      "note": "B context; screenshot and rendered HTML saved"
+    },
+    {
+      "values": [
+        "2023-06-20",
+        "6.68%",
+        "9.03",
+        "7.66-11.77",
+        "21.20%",
+        "8.20-10.81",
+        "13.72%"
+      ],
+      "method": "rendered_dom",
+      "note": "A2 returned viewport after loading earlier history"
+    },
+    {
+      "values": [
+        "2023-01-03",
+        "5.85%",
+        "9.30",
+        "8.41-13.01",
+        "21.47%",
+        "8.75-11.36",
+        "12.97%"
+      ],
+      "method": "rendered_dom",
+      "note": "Jan03 synchronized after moving to adjacent candle and back"
+    },
+    {
+      "values": [
+        "2023-06-20",
+        "6.20%",
+        "9.03",
+        "7.60-11.34",
+        "19.76%",
+        "8.20-10.29",
+        "11.29%"
+      ],
+      "method": "rendered_dom",
+      "note": "fresh page reload; selected actual date checked"
+    }
+  ]
+}

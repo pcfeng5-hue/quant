@@ -1,0 +1,54 @@
+{
+  "client_date": "2026-10-26",
+  "market_data_last_date": "2026-10-21",
+  "new_market_collection": false,
+  "initialization": {
+    "version": "common_origin_partial_identification_v2",
+    "origin": "2022-06-01",
+    "fixed_dates": 12,
+    "stress_multipliers": [
+      0.5,
+      1,
+      1.5
+    ],
+    "stored_runs": 36,
+    "stored_daily_diagnostics": 3192,
+    "research_diagnostic_rows": 2754,
+    "native_supplier_bins_acquired": false,
+    "prediction_reliability_certified": false,
+    "unknown_mass_explicit": true
+  },
+  "validation": {
+    "status": "frozen_research_only_development_diagnostic",
+    "models": [
+      "M0_laplace_constant",
+      "M1_ma_group_shrinkage"
+    ],
+    "folds": 6,
+    "evaluated_dates": 308,
+    "prediction_rows": 616,
+    "fixed_grid_dates": 61,
+    "brier_M0": 0.24738407386341965,
+    "brier_M1": 0.250381557803967,
+    "M1_upgrade_supported": false,
+    "current_forecast_generated": false,
+    "2025_2026_outcomes_generated": false
+  },
+  "protected_source_sha256": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9"
+  },
+  "old_forecast_protocol_or_risk_modified": false,
+  "runtime_usable": false,
+  "next_checkpoint": [
+    "Keep the current two-model development result; no lambda or group re-optimization on this run",
+    "Register a narrow next candidate using incremental price/volume information and test against the same eligible dates",
+    "Continue to treat estimated chip features as conditional diagnostics until turnover and information-time limitations are resolved",
+    "Keep 2025 calibration and 2026 evaluation candidate outcomes unopened by this pipeline until the research design and checks for that phase are frozen"
+  ]
+}

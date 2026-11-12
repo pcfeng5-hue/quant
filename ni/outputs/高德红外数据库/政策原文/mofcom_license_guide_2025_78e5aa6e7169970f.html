@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--[if lte IE 7 ]><html lang="zh-cn" class="no-js ie lte7 lte8 lte9"> <![endif]-->
+<!--[if IE 8 ]><html lang="zh-cn" class="no-js ie ie8 lte8 lte9"> <![endif]-->
+<!--[if IE 9 ]><html lang="zh-cn" class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="zh-cn" class="no-js">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta name="SiteName" content="中华人民共和国商务部" />
+<meta name="SiteDomain" content="www.mofcom.gov.cn" />
+<meta name="SiteIDCode" content="bm22000001" />
+<meta name="ColumnName" content="中国出口管制信息网">
+<meta name="ColumnDescription" content="国内动态,国际动态,合规服务,常见问题,各方观点,政策法规">
+<meta name="ColumnKeywords" content="出口,管制,合规,管制清单,两用物项,查询,案例,培训,资料,专家,问答,政策,法规,法律,规章,规范性文件,视频,图片,资讯">
+<meta name="ColumnType" content="中国出口管制信息网">
+<meta content="中国出口管制信息网" name="keywords" />
+<meta content="中国出口管制信息网" name="description" />
+<title>中国出口管制信息网</title>
+<link rel="shortcut icon" href="/template/img/favicon/favicon.ico" />
+<link rel="stylesheet" href="/css/edi.reset.css?time=123456">
+<link rel="stylesheet" href="/css/edi.function.css">
+<link rel="stylesheet" href="/css/app.css?time=123456">
+<script src="/js/edi.jq.min.js"></script>
+<script src="/js/outSideChain.min.js"></script>
+<script src="/js/edi.slide.min.js"></script>
+<script src="/js/my97/WdatePicker.js"></script>
+
+</head>
+
+<body>
+	<div class="g-doc">
+		<header class="header">
+	<div class="headerCol">
+		<div class="menuTggle">
+			<div class="icon"></div>
+		</div>
+		<div class="menuLayout">
+			<div class="menuBox">
+				<h3 class="menuTit">网站导航</h3>
+				<section class="menuCon">
+					<dl class="menuNav">
+						<dt><a href="/h5/index.shtml">网站首页</a></dt>
+						<dt><a href="/articleList.shtml?columnID=1&num=1">国内动态</a></dt>
+						<dt><a href="/articleList.shtml?columnID=2&num=1">国际动态</a></dt>
+						<dt><a href="/hgfwList.shtml?columnID=4&num=1">合规服务</a></dt>
+						<dt><a href="/zcfgList.shtml">政策法规</a></dt>
+						<dt><a href="/articleList.shtml?columnID=17&num=1">常见问题</a></dt>
+						<dt><a href="/articleList.shtml?columnID=16&num=1">各方观点</a></dt>
+						<dt><a href="/ckgzqdsjk.shtml?columnID=8&num=1">两用物项查询</a></dt>
+						<dt><a href="/article/hgfw/pxzl/202112/572.html">快速了解出口管制</a></dt>
+						<dd><a href="javascript:;">在线办事</a></dd>
+						<dd><a href="javascript:;">相关链接</a></dd>
+					</dl>
+				</section>
+				<section class="menuSlide">
+					<div class="subMenu">
+						<header><h3>在线办事</h3></header>
+						<section class="con f-mt15">
+							<div class="sideMenu">
+								<h3><a href="http://egov.mofcom.gov.cn/xzxksx/18017/">两用物项和技术进出口审批</a></h3>
+								<h3><a href="http://zzyhzm.mofcom.gov.cn/">最终用户和最终用途说明</a></h3>
+							</div>
+						</section>
+					</div>
+					<div class="subMenu">
+						<header><h3>相关链接</h3></header>
+						<section class="con f-mt15">
+							<div class="sideMenu">
+								<h3><a href="https://www.fmprc.gov.cn/">外交部</a></h3>
+								<h3><a href="https://www.miit.gov.cn/">工业和信息化部</a></h3>
+								<h3><a href="http://www.customs.gov.cn/">海关总署</a></h3>
+								<h3><a href="https://www.sastind.gov.cn/">国家国防科技工业局</a></h3>
+							</div>
+						</section>
+					</div>
+				</section>
+			</div>
+
+		</div>
+		<div class="mLogo" href="javascript:;"><h1>中国出口管制信息网</h1><h2>CHINA EXPORT CONTROL INFORMATION</h2></div>
+		<div class="clearCol"></div>
+		<div class="search-btn"></div>
+	</div>
+</header>
+
+
+<div class="g-hd">
+	<div class="w1200 relative f-cb">
+		<a href="http://www.mofcom.gov.cn" class="logo"></a><a href="http://exportcontrol.mofcom.gov.cn" class="name"></a>
+		<div class="search-btn"></div>
+	</div>
+</div>
+<!-- 搜索 -->
+<div class="search-float">
+	<div class="mask"></div>
+	<div class="search-box">
+		<div class="input-row">
+			<input type="text" value="" id="title" class="text">
+			<input type="button" class="sub-btn" value="搜索" onclick="searchList()">
+		</div>
+		<div class="close-btn"></div>
+	</div>
+</div>
+<script src="/js/app.js"></script>
+<script id="jsID" type="text/javascript">
+	$(function () {
+		//首页轮播
+		if ($(".slideBox").length > 0) {
+			$(".slideBox").slide({ mainCell: ".bd ul", titCell: ".hd ul", effect: "leftLoop", autoPlay: true, pnLoop: false, interTime: 5000, autoPage: true });
+		}
+
+		if ($(".tab-box").length > 0) {
+			$(".tab-box").find(".tab-con").eq(0).show();
+			$(".tab-box .tab-tit a").on("mouseenter", function () {
+				var obj = $(this);
+				var index = obj.index();
+				$(".tab-box .tab-tit a").removeClass("name")
+				obj.addClass("name");
+				$(".tab-box .tab-con").hide();
+				$(".tab-box .tab-con").eq(index).fadeIn();
+			})
+		}
+	})
+
+	function searchList() {
+		var titleVal=$("#title").val();
+		if (null ==titleVal || titleVal=="") {
+			alert("请输入关键字！");
+		}else {
+			/*var a = document.createElement('a');
+			a.target = "_blank";
+			a.href = "/searchList.shtml?title="+titleVal+"&num=1";
+			a.click();*/
+			window.location.href="/searchList.shtml?title="+titleVal+"&num=1";
+		}
+	}
+</script>
+
+		<div class="g-bd-wrap w1200">
+			<div class="m-bd f-cb">
+				<div class="u-slide-left">
+	<div class="section">
+		<dl class="dl-items">
+			<dt><a href="http://exportcontrol.mofcom.gov.cn">首 页</a></dt>
+			<dd><a href="/articleList.shtml?columnID=1&num=1"><img src="/img/p14.png" alt="">国内动态</a></dd>
+			<dd><a href="/articleList.shtml?columnID=2&num=1"><img src="/img/p15.png" alt="">国际动态</a></dd>
+			<dd><a href="/hgfwList.shtml?columnID=4&num=1"><img src="/img/p16.png" alt="">合规服务</a></dd>
+			<dd><a href="/zcfgList.shtml"><img src="/img/p19.png" alt="">政策法规</a></dd>
+			<dd><a href="/articleList.shtml?columnID=17&num=1"><img src="/img/p17.png" alt="">常见问题</a></dd>
+			<dd><a href="/articleList.shtml?columnID=16&num=1"><img src="/img/p18.png" alt="">各方观点</a></dd>
+		</dl>
+	</div>
+	<div class="section">
+		<a href="/article/hgfw/pxzl/202112/572.html" class="quick-link">
+			<img src="/img/p07.png" alt="">
+			<span>快速了解出口管制</span>
+		</a>
+	</div>
+	<div class="section">
+		<a href="/ckgzqdsjk.shtml?columnID=8&num=1" class="quick-link">
+			<img src="/img/p08.png" alt="">
+			<span>两用物项出口管制清单数据库</span>
+		</a>
+	</div>
+	<div class="section">
+		<dl class="dl-items f-mb25">
+			<dt><a>在线办事</a></dt>
+			<dd><a href="https://www.mofcom.gov.cn/zwdt/lywxhjsjcksp/index.html" target="_blank" class="f-fs18">两用物项和技术进出口审批</a></dd>
+			<dd><a href="https://www.mofcom.gov.cn/zwdt/qtywzx/art/2023/art_ef81a43109334cc8a442ea4c1bbb4225.html" target="_blank" class="f-fs18">最终用户和最终用途说明</a></dd>
+		</dl>
+		<dl class="dl-items">
+			<dt><a>相关链接</a></dt>
+			<dd><a href="https://www.mfa.gov.cn/web/" class="f-fs2">外交部</a></dd>
+			<dd><a href="http://www.miit.gov.cn/" class="f-fs2">工业和信息化部</a></dd>
+			<dd><a href="http://www.customs.gov.cn/" class="f-fs2">海关总署</a></dd>
+			<dd><a href="http://www.sastind.gov.cn/" class="f-fs2">国家国防科技工业局</a></dd>
+		</dl>
+	</div>
+</div>
+
+				<div class="u-main-bd">
+					<div class="u-nav-box">
+                        <a href="/index.shtml">首页</a> > <a href="/articleList.shtml?columnID=17&num=1">常见问题</a>
+
+                    </div>
+					<div class="u-art-box">
+                        <div class="hd">
+                            <h3 id="show_title" class="u-tt"></h3>
+							<p class="u-meta">
+                                <span id="show_source"></span>
+								<span id="show_articletype"></span>
+								<span id="show_infotype"></span>
+								<span id="show_time"></span>
+                            </p>
+						</div>
+						<div class="bd">
+							<script type="text/javascript">
+				window.location="http://aqygzj.mofcom.gov.cn/zsyd/art/2025/art_b4861fe2d8ff4f0c8e215325e9b64a1e.html";
+			</script><script type="text/javascript">
+			var articleId = '1135';
+			var title = '两用物项出口许可申请填报指南';
+			var subTitle = '';
+			var shortTitle = '';
+			var titleColor = '';
+			var source = '安全与管制局';
+			var imageUrl = '';
+			var publishTime = '2025-03-29 16:52:36';
+			var cuid = '0000000094df482b0196240e5d790165';
+			var siteId = 'ckhg';
+			var commentFlag = '';
+			var digest = '';
+			var articleType = '4';
+			var infoType = '2';
+		</script>
+	
+						</div>
+                        <div class="u-disclaimer-box">
+                                <p class="u-tt"> 免责声明：</p>
+								<p class="f-tal">
+									以上常见问题及回答仅供参考，请以相关主管部门发布的文件及实际执行为准。
+								</p>
+								<p class="f-tal">
+									另见：网站声明中的“版权及免责声明”。
+								</p>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="g-ft w1200">
+	<div class="m-ft">
+		<div class="hd">
+			<a href="/article/wzsm/202111/482.html">网站声明</a><a href="/article/gywm/202111/498.html">关于我们</a>
+		</div>
+		<div class="bd">
+			<div class="u-ft-logo u-ft-logo1">
+				<a class="ft-jiucuo-link" href="" target="_blank"><img style="margin: 0px; border: 0px currentColor; border-image: none; cursor: pointer;" src="https://zfwzgl.www.gov.cn/exposure/images/jiucuo.png?v=bm22000001"></a>
+			</div>
+			<div class="u-ft-logo u-ft-logo2">
+				<script type="text/javascript">
+					document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/40672568/CA330000000406725680001.js' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+			</div>
+			<ul class="u-copr-txt f-cb">
+				<li>
+					主办单位：中华人民共和国商务部
+				</li>
+				<li>
+					网站管理：<a href="https://aqygzj.mofcom.gov.cn/">商务部产业安全与进出口管制局</a>
+				</li>
+				<li>
+					技术支持：北京国富信数字技术发展有限公司
+				</li>
+				<li>
+					技术支持电话：010-67801943
+				</li>
+				<li>
+					邮箱：zhouxiaohui@mofcom.gov.cn
+				</li>
+				<li>
+					京公网安备 11040102700091号
+				</li>
+				<li style="width: 100%;">
+					京ICP备05004093号-1 网站标识码bm22000001
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="u-fly-window-box">
+	<a href="javascript:;" class="u-close j-fly-close"></a>
+	<a href="http://exportcontrol.mofcom.gov.cn/article/hgfw/pxzl/202112/572.html" target="_blank">
+		<img src="img/fly-window_02.jpg" alt="">
+	</a>
+</div>
+
+<script type="text/javascript">
+	$(function(){
+		var url = window.location.href.substr(7);
+		console.log(url);
+		var jcUrl = 'https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=bm22000001&url=http%3A%2F%2F'+url;
+		$('.ft-jiucuo-link').attr('href',jcUrl)
+	})
+
+	function isMobileDevice() {
+		return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+	}
+	if (isMobileDevice()) {
+		$(".u-fly-window-box").hide();
+	}
+</script>
+
+	<script type="text/javascript">
+		$(function(){
+			$("title").html(title); 
+			$("#show_title").html(title);
+			$("#show_source").html("来源："+source);
+
+			if (articleType==1)
+				articleType="原创";
+			else if (articleType==2)
+				articleType="编译";
+			else if (articleType==3)
+				articleType="摘编";
+			else if (articleType==4)
+				articleType="转载";
+			$("#show_articletype").html("类型："+articleType);
+
+			if (infoType==1)
+				infoType="政策";
+			else if (infoType==2)
+				infoType="新闻";
+			else if (infoType==3)
+				infoType="调研";
+			else if (infoType==4)
+				infoType="供求";
+			else if (infoType==5)
+				infoType="其他";
+			$("#show_infotype").html("分类："+infoType);
+
+			$("#show_time").html("发布时间："+publishTime);
+		});
+	</script>
+</body>
+</html>

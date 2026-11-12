@@ -1,0 +1,13 @@
+{
+  "origin": "direct_human_request",
+  "client_date": "2026-10-31",
+  "status": "registered_market_state_candidate_complete_independently_verified_negative_result_saved",
+  "counts_as_completed_nightly_batch": false,
+  "report": "outputs/市场环境候选验证_20261031/本轮推进报告.md",
+  "state": "outputs/市场环境候选验证_20261031/本轮状态与续作断点.json",
+  "new_models_scored": 1,
+  "cumulative_registered_variants": 16,
+  "development_screen_passed": false,
+  "outcomes_2025_2026_opened": false,
+  "user_requested_save_before_token_end": true
+}

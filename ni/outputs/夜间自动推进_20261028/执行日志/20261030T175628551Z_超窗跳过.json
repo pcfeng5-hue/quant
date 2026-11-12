@@ -1,0 +1,14 @@
+{
+  "automation_id": "a",
+  "trigger_at_utc": "2026-10-30T17:56:28.551Z",
+  "checked_at_utc": "2026-10-30T17:56:32+00:00",
+  "checked_at_local": "2026-10-30T13:56:32-04:00",
+  "timezone": "America/Toronto",
+  "allowed_window_local": "00:00 <= time < 05:00",
+  "status": "skipped_outside_authorized_window",
+  "research_started": false,
+  "counts_as_completed_research_batch": false,
+  "continuation_pointer_sha256": "31f9b7775ae67001758d202fc2199b90a6779c8c6b8eeb0c06cb7a26329b84f5",
+  "research_pointer_modified": false,
+  "next_action": "Wait for a trigger processed within the authorized nighttime window."
+}

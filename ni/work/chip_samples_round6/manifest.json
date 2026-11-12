@@ -1,0 +1,137 @@
+{
+  "created_at": "2026-10-15T21:13:34.514235+00:00",
+  "task": "public_provider_chip_sample_check",
+  "market_database_modified": false,
+  "actual_002414_chip_dates_acquired": 0,
+  "target_trading_dates": 914,
+  "source_candidate_count": 3,
+  "evidence_checks_passed": 15,
+  "network_requests_direct_http": 9,
+  "web_reader_timeouts": 2,
+  "account_created": false,
+  "login_performed": false,
+  "credentials_used": false,
+  "purchase_or_email_sent": false,
+  "files": [
+    {
+      "path": "bigquant_anonymous_ui_observation.json",
+      "bytes": 847,
+      "sha256": "628585ea9b182e1efc07a42bf91a98263ffa2e93e32cfc44d34b7ddd18858afa"
+    },
+    {
+      "path": "bigquant_chips.html",
+      "bytes": 55671,
+      "sha256": "e570b6c7449449730db968e0bc91137d46420400e774bba137cccf359bd18a11"
+    },
+    {
+      "path": "bigquant_chips_text.txt",
+      "bytes": 27475,
+      "sha256": "a19db42e1b7abf145e8f5add226bfe7a37300ac0605f04f1410624961b1b2f51"
+    },
+    {
+      "path": "bigquant_headers.txt",
+      "bytes": 202,
+      "sha256": "a25452af71bed940611e64a4d5c94a623cda31d2f9e77d6074b2faf86a4544f4"
+    },
+    {
+      "path": "build_result.py",
+      "bytes": 7672,
+      "sha256": "86cb5d092e1a179f93eed2d82b7012ec6fab6983ef9ac5f94d1a88e43f15c83e"
+    },
+    {
+      "path": "fetch_public_evidence.py",
+      "bytes": 1853,
+      "sha256": "a7a7f745f55da1e01fea988ca0047ef5dc813452c3e724f3178582dec50fa8cd"
+    },
+    {
+      "path": "quantcoda_anonymous_002414_sample.html",
+      "bytes": 88,
+      "sha256": "397baa7edbff97300093ce03d8efda70cf602563cdb42893d4c99f7b0a60409d"
+    },
+    {
+      "path": "quantcoda_capabilities.json",
+      "bytes": 8111,
+      "sha256": "0074626e4dede7adec9e76076c75c7559c822d034f0b65d3a42ea0d928b91bd9"
+    },
+    {
+      "path": "quantcoda_docs.html",
+      "bytes": 209016,
+      "sha256": "bcd01726e2c1e0d7e2893f04cfd3d5a18c9d3346da9873c6dea5c4a3f68f7d68"
+    },
+    {
+      "path": "quantcoda_docs_text.txt",
+      "bytes": 123266,
+      "sha256": "1c049eee08ebc2bf375b0c883a723f5414f199a485bdfc222b795d9d1e18bc5d"
+    },
+    {
+      "path": "quantcoda_methodology.html",
+      "bytes": 23991,
+      "sha256": "8a4d4930a057351b25cdc98af770e4b77b4a814778030ba5fb0ef273f6387e68"
+    },
+    {
+      "path": "quantcoda_methodology_text.txt",
+      "bytes": 18519,
+      "sha256": "6174cb8a1b64b6b4549b60bafe92085f2b7fdaeac548aadf28fe84121a44d59b"
+    },
+    {
+      "path": "quantcoda_terms.html",
+      "bytes": 22400,
+      "sha256": "5ea94990bf811cba401c56e425b431d34074a62612c12a76e161b21302616ddf"
+    },
+    {
+      "path": "quantcoda_terms_text.txt",
+      "bytes": 17784,
+      "sha256": "a1575792da335baf0014a74d74a79a8b67f6b35bc9a0e2aa9655660a256fbca4"
+    },
+    {
+      "path": "requests.json",
+      "bytes": 8316,
+      "sha256": "99703dcb923ed352fb75c08373d263857bd888d481a677774bf6b0279b5059ef"
+    },
+    {
+      "path": "supplier_candidates.json",
+      "bytes": 3809,
+      "sha256": "7223552d816e9e708b5c7ed05806692ac23688ab8afd039fa53b6f1920baf1e9"
+    },
+    {
+      "path": "tushare_distribution_doc.html",
+      "bytes": 35943,
+      "sha256": "6775331e772cb2f131374539ce5afa5d0250704c0a6639cf01bf3b273ebd5df2"
+    },
+    {
+      "path": "tushare_distribution_doc_text.txt",
+      "bytes": 15265,
+      "sha256": "d5f2b287530d4920090c8b79766d1869fbc8be5a14d51dbb9ef56a4a7bde361a"
+    },
+    {
+      "path": "tushare_permission_doc.html",
+      "bytes": 20320,
+      "sha256": "765453b00496cdf9749a7d733c189766e3a2411d3ada03f3d96bb98c3c3ecb27"
+    },
+    {
+      "path": "tushare_permission_doc_text.txt",
+      "bytes": 9474,
+      "sha256": "e46730c42df66615edfafd74ceff2f45b8805ac7a4feb7c3d3b28128d995e63a"
+    },
+    {
+      "path": "tushare_summary_doc.html",
+      "bytes": 36998,
+      "sha256": "6b514edb6712291694f502505dc0c421427fe7f6e182ef9eae8d101987ec65c9"
+    },
+    {
+      "path": "tushare_summary_doc_text.txt",
+      "bytes": 16075,
+      "sha256": "f23829569d36a4e4469d04ed145aaad71514049a414ea52238815df3fbe65096"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1602,
+      "sha256": "a9eb02c0e1f1295cd8873868d0c4aba0f153a32f2a35367c080b66aa2ed35f66"
+    },
+    {
+      "path": "筹码公开样本核查报告.md",
+      "bytes": 4517,
+      "sha256": "8b5da8e9d944ed51928fb8ecb45c3ff236da95334b960cd800bb10effd182884"
+    }
+  ]
+}

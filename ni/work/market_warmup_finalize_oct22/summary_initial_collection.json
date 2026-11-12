@@ -1,0 +1,135 @@
+{
+  "scope": {
+    "symbol": "002414.SZ",
+    "requested_start": "2022-01-01",
+    "requested_end": "2026-10-16",
+    "warmup_range": "full calendar year 2022",
+    "research_range": "2023-01-01 through 2026-10-16"
+  },
+  "collection_completed_at_utc": "2026-10-18T03:11:16.449442+00:00",
+  "attempted_requests": 18,
+  "successful_requests": 18,
+  "failed_requests": [],
+  "accepted_source_rows": 6942,
+  "rejected_source_rows": 0,
+  "coverage": [
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "0",
+      "adjustment": "unadjusted",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "1",
+      "adjustment": "forward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "2",
+      "adjustment": "backward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "tencent",
+      "adjustment_flag": "0",
+      "adjustment": "unadjusted",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "tencent",
+      "adjustment_flag": "1",
+      "adjustment": "forward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    },
+    {
+      "provider": "tencent",
+      "adjustment_flag": "2",
+      "adjustment": "backward_adjusted_snapshot",
+      "rows": 1157,
+      "min_date": "2022-01-04",
+      "max_date": "2026-10-16",
+      "warmup_2022_dates": 242,
+      "research_2023_onward_dates": 915
+    }
+  ],
+  "unadjusted_cross_source": {
+    "compared_adjustment": "unadjusted only",
+    "comparison_fields": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume_provider_native"
+    ],
+    "overlap_dates": 1157,
+    "matching_dates": 1157,
+    "mismatch_fields": 0,
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "amount_and_turnover_cross_source_verification": "not_available_from_tencent_daily_schema",
+    "source_independence_boundary": "Different provider endpoints; their upstream exchange/vendor feeds are not independently established.",
+    "duplicate_source_dates": []
+  },
+  "baseline_snapshot_comparison": [
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "0",
+      "baseline_retrieval": "2026-10-15T17:33:26.296015+00:00",
+      "baseline_sha256": "b230c6ab155089d27d5ee2694fd23bead0cc7e65975f3e7dd510c6ec1f2acf96",
+      "common_dates": 914,
+      "rows_changed": 0,
+      "note": "Matching snapshots does not certify point-in-time history."
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "1",
+      "baseline_retrieval": "2026-10-15T17:33:26.296226+00:00",
+      "baseline_sha256": "29658cb23d7ee16da03f2fad8bf633f83592adddc7c74386d354d7a978def9c0",
+      "common_dates": 914,
+      "rows_changed": 0,
+      "note": "Matching snapshots does not certify point-in-time history."
+    },
+    {
+      "provider": "eastmoney",
+      "adjustment_flag": "2",
+      "baseline_retrieval": "2026-10-15T17:33:26.296300+00:00",
+      "baseline_sha256": "2eee88a46a8eacf9ffe7cc26b712d98451e7f902c9ec18ffce0a1612002437e8",
+      "common_dates": 914,
+      "rows_changed": 0,
+      "note": "Matching snapshots does not certify point-in-time history."
+    }
+  ],
+  "target_20261016_source_rows": 6,
+  "historical_adjustment_factor_status": "No vendor-documented factor series obtained. Adjusted price series retained separately as current retrieval snapshots.",
+  "point_in_time_factor_eligible": false,
+  "main_database_mutated": false,
+  "known_boundaries": [
+    "Source consistency is not independent ground truth certification.",
+    "No indicators, signal probabilities or return labels computed.",
+    "2022 bars are warmup observations, not research-outcome sample additions.",
+    "Do not infer adjusted volume from adjusted price mode; all raw source fields preserved.",
+    "Tencent daily schema does not supply comparable amount/turnover in the preserved day rows."
+  ]
+}

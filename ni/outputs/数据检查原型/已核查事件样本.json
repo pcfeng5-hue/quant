@@ -1,0 +1,34 @@
+[
+  {
+    "record_id": "parade-announcement-20250624-v1",
+    "event_id": "parade-calendar-announcement",
+    "revision": 1,
+    "title": "官方网页事前报道：2025年9月3日举行阅兵",
+    "source_url": "https://www.mod.gov.cn/gfbw/qwfb/16393078.html",
+    "source_type": "government_republication",
+    "evidence_kind": "fact",
+    "published_at": "2025-06-24T15:15:46+08:00",
+    "published_precision": "second",
+    "received_at": "2026-10-09T15:30:22+00:00",
+    "publication_basis": "本次检索返回的官方网页发布时间；非事件首次全网发布时间，未独立验证历史网页版本",
+    "scheduled_event_date": "2025-09-03",
+    "related_symbols": [],
+    "note": "与长城军工价格之间的关系属于研究假设，事件本身不代表买入信号。收到时间为本轮核查记录时间，非2025年实时采集日志。"
+  },
+  {
+    "record_id": "601606-announcement-2025040-v1",
+    "event_id": "601606-announcement-2025040",
+    "revision": 1,
+    "title": "长城军工2025-040异常波动公告",
+    "source_url": "https://paper.cnstock.com/html/2025-09/06/content_2117509.htm",
+    "source_type": "issuer_disclosure_in_designated_newspaper",
+    "evidence_kind": "fact",
+    "published_at": "2025-09-06",
+    "published_precision": "day",
+    "source_timezone": "Asia/Shanghai",
+    "received_at": "2026-10-09T15:30:22+00:00",
+    "publication_basis": "所核查刊载页只有日期；不主张这是公告首次公开时间",
+    "related_symbols": ["601606.SH"],
+    "note": "只保存元数据，不复制公告正文。缺少日内发布时间，按本来源日期结束后保守允许历史演示；不能当作9月2日已知信息。"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "cutoff": "2026-10-15",
+  "user_facing_date": "2026-10-15",
+  "generated_at_utc": "2026-10-16T00:18:03.586094+00:00",
+  "official_contract_rules": 7,
+  "historical_months": 45,
+  "official_monthly_notice_verified_months": 4,
+  "rule_derived_only_historical_months": 41,
+  "future_candidate_months": 1,
+  "holiday_roll_candidates": [
+    {
+      "month": "2024-02",
+      "date": "2024-02-19"
+    },
+    {
+      "month": "2026-02",
+      "date": "2026-02-24"
+    },
+    {
+      "month": "2026-06",
+      "date": "2026-06-22"
+    }
+  ],
+  "strategy_or_return_analysis_performed": false,
+  "main_database_modified": false,
+  "checks_passed": 9,
+  "checks_total": 9,
+  "mechanism_urls": [
+    "http://www.cffex.com.cn/cn/hs300wd/20100129/17815.html",
+    "http://www.cffex.com.cn/cn/hs300wd/20180820/22550.html"
+  ],
+  "remaining": [
+    "41个月尚未逐月官方核验；三处节假日顺延为规则候选",
+    "7个当前合约HTML没有生效日期，历史规则变更审计不完整",
+    "到期现金交割不等同现货股票必然巨额交易；流量/净流量/波动有无异常尚未统计",
+    "本轮仅事件原始数据，不生成事件前后收益/买卖信号",
+    "2026-10-16为截至10月15日未发生候选；未核当月官方通知，不混入已发生样本"
+  ]
+}

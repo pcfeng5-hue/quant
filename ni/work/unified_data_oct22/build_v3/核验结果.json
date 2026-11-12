@@ -1,0 +1,97 @@
+{
+  "build_version": "unified-observation-v3",
+  "client_date": "2026-10-22",
+  "created_at_utc": "2026-10-22T17:32:13.979753+00:00",
+  "baseline_main_sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+  "table_counts": {
+    "metadata": 3,
+    "ingestion_sources": 21,
+    "file_assets": 5390,
+    "source_requests": 204,
+    "source_records": 11364,
+    "instrument_identifiers": 6,
+    "market_daily": 37714,
+    "chip_observations": 954,
+    "chip_evidence_files": 4756,
+    "filings": 312,
+    "document_pages": 4253,
+    "ocr_pages": 185,
+    "financial_report_observations": 135,
+    "corporate_actions": 3,
+    "capital_snapshots": 8,
+    "trade_conditions": 915,
+    "trade_rules": 3,
+    "fee_components": 7,
+    "events": 67,
+    "trading_calendar": 1384,
+    "conflicts": 451,
+    "gaps": 9,
+    "daily_coverage": 1160
+  },
+  "restricted_values_isolated": 6133,
+  "source_originals_unchanged": true,
+  "context_corrections": [
+    {
+      "trade_date": "2026-10-16",
+      "change": "current bar source now present",
+      "original_observation_unchanged": true
+    }
+  ],
+  "model_input_approved": false,
+  "date_basis": "observed provider dates; official calendar only where separately present",
+  "core_scope": "raw observations, time and quality organization; no technical indicators or probability model",
+  "checks": [
+    {
+      "check": "market_total",
+      "passed": true
+    },
+    {
+      "check": "research_dates",
+      "passed": true
+    },
+    {
+      "check": "raw_stock_dates",
+      "passed": true
+    },
+    {
+      "check": "chip_full_dates",
+      "passed": true
+    },
+    {
+      "check": "all_chip_attempts",
+      "passed": true
+    },
+    {
+      "check": "accepted_chip_evidence_present",
+      "passed": true
+    },
+    {
+      "check": "market_retrieval_time_present",
+      "passed": true
+    },
+    {
+      "check": "condition_context_repair",
+      "passed": true
+    },
+    {
+      "check": "first_previous_close",
+      "passed": true
+    },
+    {
+      "check": "filing_count",
+      "passed": true
+    },
+    {
+      "check": "source_records_preserved",
+      "passed": true
+    },
+    {
+      "check": "all_model_gates_closed",
+      "passed": true
+    },
+    {
+      "check": "no_foreign_key_errors",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "client_date": "2026-10-26",
+  "all_checks_passed": true,
+  "passed": 16,
+  "total": 16,
+  "checks": [
+    {
+      "check": "registered_code_and_contract_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "implementation_checks_pass",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_checks_pass",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_review_matches_final_code_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "feature_source_audit_pass",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_13_registered_sources_unchanged",
+      "passed": true,
+      "details": {
+        "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+        "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+        "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+        "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+        "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+        "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+        "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+        "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+        "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+        "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+        "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+        "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+        "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc"
+      }
+    },
+    {
+      "check": "all_15_core_files_identical_on_full_process_rerun",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sqlite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "894_predictions_298_dates_development_only",
+      "passed": true,
+      "details": [
+        894,
+        298,
+        "2024-12-31"
+      ]
+    },
+    {
+      "check": "all_runtime_gates_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "nine_cells_per_fold_including_empty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "loss_of_10_previous_dates_explained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "current_candidate_negative_result_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "previous_negative_result_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "cumulative_experiments_not_reset",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_local_report_links_resolve",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "source_sha256": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+    "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+    "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc"
+  },
+  "current_forecast_generated": false,
+  "runtime_usable": false
+}

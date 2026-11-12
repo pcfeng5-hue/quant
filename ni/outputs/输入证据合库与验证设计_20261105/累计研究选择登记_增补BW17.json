@@ -1,0 +1,23 @@
+{
+  "client_date": "2026-11-05",
+  "old_registered_choices": 16,
+  "old_registry_reference": "outputs/研究证据与覆盖审查_20261101/研究证据与覆盖审查_v1.md",
+  "old_failures_retained": true,
+  "new_choice": {
+    "id": 17,
+    "definition_id": "BW17_002414_buy_vs_wait_H10_W2_v1",
+    "kind": "paired_action_policy_definition_not_probability_model",
+    "status": "frozen_unrun_evidence_blocked",
+    "H": 10,
+    "W": 2,
+    "models_fitted": 0,
+    "real_labels": 0,
+    "scores": 0
+  },
+  "total_registered_choices": 17,
+  "new_evaluated_choices": 0,
+  "legacy_model_definitions": 4,
+  "old_16_evaluation_status_unchanged": true,
+  "old14_prepared_columns_still_not_scanned": true,
+  "future_label_population_and_counterfactual_model_selection_are_research_choices": true
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "action": "prefetch_earlier",
+    "seq": 1,
+    "left": "2023-11-02",
+    "summary_date": "2023-11-02",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:21.814Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 2,
+    "left": "2023-07-10",
+    "summary_date": "2026-10-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:22.433Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 3,
+    "left": "2022-08-05",
+    "summary_date": "2026-10-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:23.105Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 4,
+    "left": "2021-02-01",
+    "summary_date": "2021-02-01",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:23.844Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 5,
+    "left": "2020-03-10",
+    "summary_date": "2020-03-10",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:24.659Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 6,
+    "left": "2019-11-11",
+    "summary_date": "2026-10-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:25.530Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 7,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:27.098Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 8,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:27.295Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 9,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:55.023Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 10,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:55.242Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 11,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:55.438Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 12,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:55.645Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 13,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:55.846Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 14,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:56.043Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 15,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:56.249Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 16,
+    "left": "2018-05-16",
+    "summary_date": "2018-05-16",
+    "geometry": {
+      "h": 580,
+      "w": 900,
+      "x": 50,
+      "y": 21
+    },
+    "observed_at_utc": "2026-10-18T03:13:56.553Z"
+  },
+  {
+    "action": "drag_retargeted_away_from_corporate_action_marker",
+    "from": [
+      200,
+      330
+    ],
+    "to": [
+      900,
+      330
+    ],
+    "left": "2017-06-20",
+    "note": "prior pan start at y365 coincided with visible corporate-action marker area; repeated dates not evidence of earliest available history"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 18,
+    "left": "2016-07-20",
+    "summary_date": "2016-07-20",
+    "observed_at_utc": "2026-10-18T03:14:24.362Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 19,
+    "left": "2016-03-25",
+    "summary_date": "2016-03-25",
+    "observed_at_utc": "2026-10-18T03:14:24.870Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 20,
+    "left": "2014-05-27",
+    "summary_date": "2014-05-27",
+    "observed_at_utc": "2026-10-18T03:14:27.109Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 21,
+    "left": "2014-01-24",
+    "summary_date": "2014-01-24",
+    "observed_at_utc": "2026-10-18T03:14:27.609Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 22,
+    "left": "2012-07-25",
+    "summary_date": "2012-07-25",
+    "observed_at_utc": "2026-10-18T03:14:30.861Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 23,
+    "left": "2012-02-20",
+    "summary_date": "2012-02-20",
+    "observed_at_utc": "2026-10-18T03:14:31.363Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 24,
+    "left": "2012-02-20",
+    "summary_date": "2012-02-20",
+    "observed_at_utc": "2026-10-18T03:14:31.866Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 25,
+    "left": "2010-07-21",
+    "summary_date": "2010-07-21",
+    "observed_at_utc": "2026-10-18T03:14:36.848Z"
+  },
+  {
+    "action": "prefetch_earlier",
+    "seq": 26,
+    "left": "2010-07-21",
+    "summary_date": "2010-07-21",
+    "observed_at_utc": "2026-10-18T03:14:37.354Z"
+  }
+]

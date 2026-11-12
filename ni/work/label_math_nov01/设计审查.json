@@ -1,0 +1,190 @@
+{
+  "review_id": "label_math_design_review_20261101",
+  "status": "design_review_complete_pending_parent_synthetic_correspondence_check",
+  "all_checks_passed": true,
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "check": "old_direction_is_not_trade_profit",
+      "passed": true,
+      "meaning": "C[t+5]/O[t+1]-1>0 is price-only, engineering five observed sessions, not final user horizon"
+    },
+    {
+      "check": "strict_down_is_not_one_minus_up",
+      "passed": true,
+      "meaning": "P(<0)=1-P(>0)-P(=0), zero and missing distinct"
+    },
+    {
+      "check": "same_initial_information",
+      "passed": true,
+      "meaning": "All policies start from same t0 information cutoff, cash and universe eligibility"
+    },
+    {
+      "check": "causal_eligibility",
+      "passed": true,
+      "meaning": "Drawdown eligibility cannot depend on later rebound or trough"
+    },
+    {
+      "check": "same_terminal_date",
+      "passed": true,
+      "meaning": "Now/wait/cash use same t0-known planned exchange calendar endpoint, not stock actual observed bars or own-entry+H"
+    },
+    {
+      "check": "waiting_is_nonanticipative",
+      "passed": true,
+      "meaning": "Confirmation information must be complete before eligible execution; do not backfill completed closing auction or assume a later same-price window/fill; next planned day is proposal only"
+    },
+    {
+      "check": "wait_cutoff_before_terminal_execution",
+      "passed": true,
+      "meaning": "Latest confirmation/maximum wait must be consistent with execution lag and common endpoint"
+    },
+    {
+      "check": "whole_cash_and_integer_units",
+      "passed": true,
+      "meaning": "Quantity must meet lot, eligibility and buy-fee cash constraint; residual cash retained"
+    },
+    {
+      "check": "corporate_action_ledger",
+      "passed": true,
+      "meaning": "Shares, cash, receivables and liabilities tracked without duplicate dividend counting"
+    },
+    {
+      "check": "fill_and_wealth_states_separate",
+      "passed": true,
+      "meaning": "Known no-fill can have a cash wealth path while trade return is NULL; unknown fill not silently cash"
+    },
+    {
+      "check": "partial_fills_retained",
+      "passed": true,
+      "meaning": "Partial holdings and fees retained; no full-fill imputation"
+    },
+    {
+      "check": "terminal_mark_vs_realized",
+      "passed": true,
+      "meaning": "Marked NAV/assumed liquidation/actual realized cash clearly separated"
+    },
+    {
+      "check": "maturity_is_actual_availability",
+      "passed": true,
+      "meaning": "Labels enter training only after all required terminal/cost information exists"
+    },
+    {
+      "check": "distinct_event_dictionary",
+      "passed": true,
+      "meaning": "Direction, trade profitability, cash-relative advantage, wait-relative advantage, risk, execution and maturity distinct"
+    },
+    {
+      "check": "advantage_not_win_rate_only",
+      "passed": true,
+      "meaning": "P(D>0), E[D] and constrained action choice are different"
+    },
+    {
+      "check": "consistent_boundaries",
+      "passed": true,
+      "meaning": "Mutually exclusive/exhaustive directions require explicit inclusivity; no missing=neutral"
+    },
+    {
+      "check": "risk_overlap_not_probability_partition",
+      "passed": true,
+      "meaning": "Profit and risk-hit events can overlap and must not be forced to sum to one"
+    },
+    {
+      "check": "coverage_does_not_drop_failed_policy",
+      "passed": true,
+      "meaning": "Keep every initial intent; report no confirmation, nonfill and non-evaluable coverage"
+    },
+    {
+      "check": "counterfactual_assumptions_disclosed",
+      "passed": true,
+      "meaning": "Same-market-path policy simulation is not automatically causal execution evidence"
+    },
+    {
+      "check": "mae_price_vs_wealth",
+      "passed": true,
+      "meaning": "Price and wealth MAE differ; low before intraday entry cannot be used as post-entry low"
+    },
+    {
+      "check": "daily_path_order_unknown",
+      "passed": true,
+      "meaning": "Identical OHLC can have different barrier sequence and fills"
+    },
+    {
+      "check": "holding_state_required",
+      "passed": true,
+      "meaning": "Sell/hold starts with same position and sellability; not complement of empty-account buy probability"
+    },
+    {
+      "check": "intraday_t_separate",
+      "passed": true,
+      "meaning": "Minute ordering and stock/cash/available-position ledger required; daily close features cannot act earlier"
+    },
+    {
+      "check": "new_user_confirmation_narrow",
+      "passed": true,
+      "meaning": "Only first priority close-based buy-versus-wait confirmed; H/thresholds/waiting still pending"
+    },
+    {
+      "check": "no_new_real_data_results",
+      "passed": true,
+      "meaning": "No actual outcome tables read, new real labels, fits, scores or later target opening"
+    },
+    {
+      "check": "risk_and_previous_protocol_immutable",
+      "passed": true,
+      "meaning": "No old draft/engineering source/risk changes; review adds zero variants"
+    }
+  ],
+  "read_source_sha256": {
+    "outputs/概率预测引擎详细方案_20261016.md": "fb059323e6b3956986a580078015f3c9aa68e24093c608b91b159713b15554b8",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+  },
+  "source_sha256_after": {
+    "outputs/概率预测引擎详细方案_20261016.md": "fb059323e6b3956986a580078015f3c9aa68e24093c608b91b159713b15554b8",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+  },
+  "user_confirmed_priority": "After completed close, decide whether to buy a pullback or continue waiting",
+  "final_horizon_confirmed": false,
+  "confirmation_formula_confirmed": false,
+  "maximum_wait_confirmed": false,
+  "actual_outcome_tables_read": false,
+  "new_real_target_labels_generated": false,
+  "new_models_fitted": 0,
+  "new_scores_calculated": 0,
+  "cumulative_registered_variants_unchanged": 16,
+  "outcomes_2025_2026_opened": false,
+  "formal_model_input_approved": false,
+  "runtime_usable": false,
+  "synthetic_case_requirements": [
+    "high_winrate_negative_expectation",
+    "price_up_net_loss",
+    "waiting_lower_entry_better",
+    "waiting_higher_entry_worse",
+    "no_confirmation_missed_rise",
+    "no_confirmation_avoids_fall",
+    "different_endpoint_reverses_result",
+    "positive_terminal_large_mae",
+    "same_ohlc_different_barrier_order",
+    "zero_vs_missing_vs_immature",
+    "dividend_split_wealth_conservation",
+    "not_filled_vs_fill_unknown",
+    "minimum_fee_cash_constraint",
+    "confirmation_at_terminal_not_executed_before_terminal"
+  ],
+  "review_document": "work/label_math_nov01/设计审查.md",
+  "review_does_not_approve_execution": true,
+  "timing_review_refinement": [
+    "Do not make an absolute prohibition of later same-price post-close execution; channel/rule/data/fill eligibility must be separately verified",
+    "H=5 synthetic next-day policy: confirmation D4 and entry D5 cannot be automatically sold D5; cash-liquidation and terminal NAV are distinct"
+  ],
+  "check_type": "Design correspondence checklist; not executed price/wealth engine validation or forecast evidence",
+  "numeric_domain_requirements": [
+    "Initial cash/wealth denominator must be finite and strictly positive",
+    "Execution and marking prices must be finite and strictly positive when required",
+    "Share counts and transaction units must be admissible integers; costs finite/nonnegative under declared fee model",
+    "Unknown cash/position/fill state is not a numeric zero result"
+  ]
+}

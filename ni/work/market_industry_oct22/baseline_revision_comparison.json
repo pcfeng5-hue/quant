@@ -1,0 +1,49 @@
+{
+  "summary": [
+    {
+      "source": "eastmoney",
+      "adjustment": "0",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    },
+    {
+      "source": "eastmoney",
+      "adjustment": "1",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    },
+    {
+      "source": "tencent",
+      "adjustment": "0",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    },
+    {
+      "source": "tencent",
+      "adjustment": "1",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    }
+  ],
+  "differences": []
+}

@@ -1,0 +1,9 @@
+﻿gap_id,priority,status,explanation,next_evidence_needed
+chip_bins,1,not_acquired,完整价格档数值仍为0日,供应商样本及授权、算法与复权/初始化证据
+chip_versions,1,unresolved,同日筹码不同加载条件出现差异,固定条件、跨会话与算法原文
+daily_state,1,unknown,逐日ST/停复牌和官方限价不齐,官方逐日状态和参考价
+historical_time,1,unverified,首次公开精确时间未认证,历史发布/首次接收日志及修订链
+fees,2,unknown_account_terms,实际佣金、最低收费与包费未知,用户后续费率/账单
+float_denominator,2,unresolved,期末股本不可当逐日流通股本,每日生效股本及股份性质事件
+industry_members,2,not_acquired,历史成分和市场宽度仍缺,历史成员与全市场统计
+minute_data,3,not_acquired,未取得盘中做T所需分钟或逐笔数据,单独定义盘中研究后再采集

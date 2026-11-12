@@ -1,0 +1,140 @@
+{
+  "reason": "Tencent full-range qfq response capped at 640 rows; complete earlier years with explicit bounded requests",
+  "results": [
+    {
+      "id": "tencent_002414.SZ_1_year2022",
+      "provider": "tencent",
+      "symbol": "002414.SZ",
+      "txsymbol": "sz002414",
+      "name": "高德红外",
+      "kind": "stock",
+      "adjustment": "1",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2Cqfq",
+      "parameters": {
+        "param": "sz002414,day,2022-01-01,2022-12-31,640,qfq"
+      },
+      "requested_at_utc": "2026-10-22T16:21:48.071353+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Thu, 22 Oct 2026 16:21:49 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "final_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2022-12-31%2C640%2Cqfq",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_industry_oct22/raw/tencent_002414.SZ_1_year2022_7d2ea70b6a218ce5.json",
+      "sha256": "7d2ea70b6a218ce5f904a53af0b3690d44d208050cb5b5f49eee2f18ffe6110d",
+      "bytes": 16465,
+      "finished_at_utc": "2026-10-22T16:21:49.433578+00:00",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "response_key": "data.sz002414.qfqday",
+      "provider_code": 0,
+      "provider_rows": 242,
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2022-01-04",
+      "max_date": "2022-12-30"
+    },
+    {
+      "id": "tencent_002414.SZ_1_year2023",
+      "provider": "tencent",
+      "symbol": "002414.SZ",
+      "txsymbol": "sz002414",
+      "name": "高德红外",
+      "kind": "stock",
+      "adjustment": "1",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2Cqfq",
+      "parameters": {
+        "param": "sz002414,day,2023-01-01,2023-12-31,640,qfq"
+      },
+      "requested_at_utc": "2026-10-22T16:21:48.071772+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Thu, 22 Oct 2026 16:21:49 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "final_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2023-01-01%2C2023-12-31%2C640%2Cqfq",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_industry_oct22/raw/tencent_002414.SZ_1_year2023_d7debb43294412ca.json",
+      "sha256": "d7debb43294412ca72f58b7e4e3b6387aa0cd9df5a32761c108ad6d23b785c06",
+      "bytes": 16200,
+      "finished_at_utc": "2026-10-22T16:21:49.426203+00:00",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "response_key": "data.sz002414.qfqday",
+      "provider_code": 0,
+      "provider_rows": 242,
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2023-01-03",
+      "max_date": "2023-12-29"
+    },
+    {
+      "id": "tencent_002414.SZ_1_year2024",
+      "provider": "tencent",
+      "symbol": "002414.SZ",
+      "txsymbol": "sz002414",
+      "name": "高德红外",
+      "kind": "stock",
+      "adjustment": "1",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2Cqfq",
+      "parameters": {
+        "param": "sz002414,day,2024-01-01,2024-12-31,640,qfq"
+      },
+      "requested_at_utc": "2026-10-22T16:21:48.071836+00:00",
+      "personal_account_used": false,
+      "error": null,
+      "status": 200,
+      "response_headers": {
+        "Date": "Thu, 22 Oct 2026 16:21:49 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Access-Control-Allow-Origin": "*",
+        "Server": "TAPISIX/3.3.2"
+      },
+      "final_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2024-01-01%2C2024-12-31%2C640%2Cqfq",
+      "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_industry_oct22/raw/tencent_002414.SZ_1_year2024_55106f9f552c4fe0.json",
+      "sha256": "55106f9f552c4fe0c8328a4f9d685f2f18409119bdec1b55b19814065ffb6bfa",
+      "bytes": 16250,
+      "finished_at_utc": "2026-10-22T16:21:49.433634+00:00",
+      "available_symbol_keys": [
+        "qfqday",
+        "qt",
+        "mx_price",
+        "prec",
+        "version"
+      ],
+      "response_key": "data.sz002414.qfqday",
+      "provider_code": 0,
+      "provider_rows": 242,
+      "accepted_rows": 242,
+      "rejected_rows": 0,
+      "min_date": "2024-01-02",
+      "max_date": "2024-12-31"
+    }
+  ]
+}

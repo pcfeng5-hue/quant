@@ -1,0 +1,23 @@
+[
+  {
+    "name": "rapidocr",
+    "url": "https://raw.githubusercontent.com/RapidAI/RapidOCR/v3.9.2/LICENSE",
+    "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333",
+    "path": "licenses/rapidocr_LICENSE.txt",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "paddleocr",
+    "url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/LICENSE",
+    "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e",
+    "path": "licenses/paddleocr_LICENSE.txt",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "onnxruntime",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.23.2/LICENSE",
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "path": "licenses/onnxruntime_LICENSE.txt",
+    "license": "MIT"
+  }
+]

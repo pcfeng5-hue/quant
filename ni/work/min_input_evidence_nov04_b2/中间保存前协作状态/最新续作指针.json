@@ -1,0 +1,21 @@
+{
+  "configured_client_date": "2026-10-28",
+  "timezone": "America/Toronto",
+  "last_verified_research_state": "outputs/下一阶段路线决策_20261104/本轮状态与续作断点.json",
+  "last_verified_research_report": "outputs/下一阶段路线决策_20261104/下一阶段路线决策记录_v1.md",
+  "research_stage": 5,
+  "research_variants_so_far": 16,
+  "nightly_batches_completed_since_setup": 1,
+  "setup_is_not_research_completion": true,
+  "next_action": "Implement only the finite local-input evidence charter: 10 OHLCV/provider families plus 2023-2024 SZSE planned-calendar/status-source index; no actual target/price-value export or scoring",
+  "prepared_unscored_candidate_definitions": 14,
+  "latest_batch_origin": "scheduled_heartbeat_a_with_human_status_query",
+  "latest_batch_client_date": "2026-11-04",
+  "prepared_candidate_definitions": 15,
+  "prepared_definitions_scored": 1,
+  "review_package_steps_completed": 4,
+  "review_package_steps_remaining": 0,
+  "confirmed_first_use_case": "收盘后判断回落时该买入还是继续等待",
+  "latest_batch_id": "a_20261104_route_decision_v1",
+  "next_engineering_charter": "outputs/下一阶段路线决策_20261104/下一批有限工程任务书.json"
+}

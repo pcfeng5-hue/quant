@@ -1,0 +1,11 @@
+{
+  "recorded_date": "2026-11-05",
+  "effective_user_request_date": "2026-11-04",
+  "automation_id": "a",
+  "name": "A股概率研究夜间推进",
+  "status": "deleted",
+  "basis": "本聊天上一轮automation_update(mode=delete,id=a)返回deleteStatus=deleted",
+  "current_work_is_manual": true,
+  "recreated": false,
+  "old_schedule_documents_are_historical_only": true
+}

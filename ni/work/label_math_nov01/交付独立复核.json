@@ -1,0 +1,953 @@
+{
+  "all_checks_passed": true,
+  "passed": 72,
+  "total": 72,
+  "checks": [
+    {
+      "check": "all_21_cases_unique_and_explicitly_fictional",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S01_independent_now_wait_wealth_and_trade_return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S02_independent_now_wait_wealth_and_trade_return",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S03_cash_policy_not_zero_return_trade",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S04_cash_policy_not_zero_return_trade",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S05_raw_up_net_loss_five",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S06_exact_zero_raw_still_net_loss_ten",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S07_seventy_percent_winrate_negative_point_two_percent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S08_price_up_and_minus_thirty_percent_MAE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S09_same_OHLC_cannot_determine_first_crossing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S10_same_day_sale_explicitly_blocked_not_realized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S11_known_no_fill_separate_cash_wealth_and_NULL_trade",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S12_partial_forty_shares_independent_wealth_2030",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S13_unknown_fees_or_fill_not_zero_imputation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S14_mechanical_price_halving_preserves_share_wealth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S15_complement_includes_zero_and_sell_event_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S16_confirmation_four_entry_five_earliest_sale_six",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S17_all_mismatches_explicitly_rejected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S18_NAV_2095_not_unfilled_liquidation_cash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S19_later_information_not_in_earlier_forecast",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S20_planned_calendar_not_observed_bar_index",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S21_unit_one_wealth_8910_8100_not_unit100_example",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "money_rejects_NaN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "money_rejects_Infinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "money_rejects_-Infinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "money_rejects_None",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "money_rejects_{}",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "money_rejects_True",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_zero_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_negative_start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_zero_quantity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_negative_quantity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_fractional_quantity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_zero_entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_zero_exit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_negative_fee",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_unknown_fee",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_minimum_fee_exceeds_cash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_same_day_exit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_negative_day",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_fractional_day",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "round_trip_rejects_boolean_day",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact_minimum_fee_budget_is_accepted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_zero_B",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_negative_B",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_unknown_B",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_zero_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_negative_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_fractional_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cash_path_rejects_boolean_T",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_mismatch_initial_wealth",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_mismatch_terminal_day",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_mismatch_terminal_basis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_initial_wealth_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_initial_wealth_-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_terminal_wealth_NaN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_terminal_wealth_Infinity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_terminal_day_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_terminal_day_True",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compare_rejects_invalid_shared_terminal_basis_",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "matching_cash_and_position_policies_allow_cash_wealth_comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "latest_confirmation_policy_boundary_four_fails_three_passes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "report_all_nine_example_amount_rows_and_meaning",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer_qa_corresponds_without_claiming_market_validity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "user_priority_only_confirmed_horizon_and_policy_pending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "twelve_event_ids_and_unchanged_old_label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "wealth_and_delta_definitions_same_T_and_positive_wait_sign",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "NAV_liabilities_and_receivable_no_double_counting_explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "five_orthogonal_status_axes_and_NULL_unknowns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_new_real_targets_fits_or_forecast_or_permission",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_design_sources_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_reviewed_delivery_hashes_unchanged_during_audit",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "audit_method": "Independent exact Fraction reconstruction from fictional-case inputs and explicit fixture assumptions; producer functions imported only for adversarial guard tests",
+  "synthetic_cases_independently_reviewed": 21,
+  "numeric_cells_compared": 92,
+  "numeric_comparisons": [
+    {
+      "path": "S01.now.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.now.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.now.terminal_wealth",
+      "actual": "2040.0",
+      "expected_fraction": "2040",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.now.net_change",
+      "actual": "40.0",
+      "expected_fraction": "40",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.now.raw_price_change",
+      "actual": "0.05",
+      "expected_fraction": "1/20",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.now.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.now.trade_return",
+      "actual": "0.03980099502487562189054726368",
+      "expected_fraction": "8/201",
+      "absolute_error_fraction": "1/628125000000000000000000000000"
+    },
+    {
+      "path": "S01.wait.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.wait.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.wait.terminal_wealth",
+      "actual": "2140.0",
+      "expected_fraction": "2140",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.wait.net_change",
+      "actual": "140.0",
+      "expected_fraction": "140",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.wait.raw_price_change",
+      "actual": "0.166666666666666666666666667",
+      "expected_fraction": "1/6",
+      "absolute_error_fraction": "1/3000000000000000000000000000"
+    },
+    {
+      "path": "S01.wait.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S01.wait.trade_return",
+      "actual": "0.1546961325966850828729281768",
+      "expected_fraction": "28/181",
+      "absolute_error_fraction": "1/226250000000000000000000000000"
+    },
+    {
+      "path": "S01.delta",
+      "actual": "100.0",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.terminal_wealth",
+      "actual": "2090",
+      "expected_fraction": "2090",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.net_change",
+      "actual": "90",
+      "expected_fraction": "90",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.raw_price_change",
+      "actual": "0.1",
+      "expected_fraction": "1/10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.now.trade_return",
+      "actual": "0.08955223880597014925373134328",
+      "expected_fraction": "6/67",
+      "absolute_error_fraction": "3/837500000000000000000000000000"
+    },
+    {
+      "path": "S02.wait.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.wait.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.wait.terminal_wealth",
+      "actual": "2010.0",
+      "expected_fraction": "2010",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.wait.net_change",
+      "actual": "10.0",
+      "expected_fraction": "10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.wait.raw_price_change",
+      "actual": "0.018518518518518518518518519",
+      "expected_fraction": "1/54",
+      "absolute_error_fraction": "13/27000000000000000000000000000"
+    },
+    {
+      "path": "S02.wait.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S02.wait.trade_return",
+      "actual": "0.009216589861751152073732718894",
+      "expected_fraction": "2/217",
+      "absolute_error_fraction": "1/108500000000000000000000000000000"
+    },
+    {
+      "path": "S02.delta",
+      "actual": "-80.0",
+      "expected_fraction": "-80",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.terminal_wealth",
+      "actual": "2190",
+      "expected_fraction": "2190",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.net_change",
+      "actual": "190",
+      "expected_fraction": "190",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.raw_price_change",
+      "actual": "0.2",
+      "expected_fraction": "1/5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.now.trade_return",
+      "actual": "0.1890547263681592039800995025",
+      "expected_fraction": "38/201",
+      "absolute_error_fraction": "1/80400000000000000000000000000"
+    },
+    {
+      "path": "S03.cash_B",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.cash_W",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.cash_change",
+      "actual": "0",
+      "expected_fraction": "0",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S03.delta",
+      "actual": "-190",
+      "expected_fraction": "-190",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.terminal_wealth",
+      "actual": "1790",
+      "expected_fraction": "1790",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.net_change",
+      "actual": "-210",
+      "expected_fraction": "-210",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.raw_price_change",
+      "actual": "-0.2",
+      "expected_fraction": "-1/5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.now.trade_return",
+      "actual": "-0.2089552238805970149253731343",
+      "expected_fraction": "-14/67",
+      "absolute_error_fraction": "19/670000000000000000000000000000"
+    },
+    {
+      "path": "S04.cash_B",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.cash_W",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.cash_change",
+      "actual": "0",
+      "expected_fraction": "0",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S04.delta",
+      "actual": "210",
+      "expected_fraction": "210",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.terminal_wealth",
+      "actual": "1995.00",
+      "expected_fraction": "1995",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.net_change",
+      "actual": "-5.00",
+      "expected_fraction": "-5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.raw_price_change",
+      "actual": "0.005",
+      "expected_fraction": "1/200",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S05.trade_return",
+      "actual": "-0.004975124378109452736318407960",
+      "expected_fraction": "-1/201",
+      "absolute_error_fraction": "1/5025000000000000000000000000000"
+    },
+    {
+      "path": "S06.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S06.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S06.terminal_wealth",
+      "actual": "1990",
+      "expected_fraction": "1990",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S06.net_change",
+      "actual": "-10",
+      "expected_fraction": "-10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S06.raw_price_change",
+      "actual": "0",
+      "expected_fraction": "0",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S06.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S06.trade_return",
+      "actual": "-0.009950248756218905472636815920",
+      "expected_fraction": "-2/201",
+      "absolute_error_fraction": "1/2512500000000000000000000000000"
+    },
+    {
+      "path": "S07.expected_return",
+      "actual": "-0.002",
+      "expected_fraction": "-1/500",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.terminal_wealth",
+      "actual": "2090",
+      "expected_fraction": "2090",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.net_change",
+      "actual": "90",
+      "expected_fraction": "90",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.raw_price_change",
+      "actual": "0.1",
+      "expected_fraction": "1/10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.filled_quantity",
+      "actual": "100",
+      "expected_fraction": "100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S08.terminal.trade_return",
+      "actual": "0.08955223880597014925373134328",
+      "expected_fraction": "6/67",
+      "absolute_error_fraction": "3/837500000000000000000000000000"
+    },
+    {
+      "path": "S08.MAE",
+      "actual": "-0.3",
+      "expected_fraction": "-3/10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.initial_wealth",
+      "actual": "2000",
+      "expected_fraction": "2000",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.terminal_day",
+      "actual": "5",
+      "expected_fraction": "5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.terminal_wealth",
+      "actual": "2030",
+      "expected_fraction": "2030",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.net_change",
+      "actual": "30",
+      "expected_fraction": "30",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.raw_price_change",
+      "actual": "0.1",
+      "expected_fraction": "1/10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.filled_quantity",
+      "actual": "40",
+      "expected_fraction": "40",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S12.trade_return",
+      "actual": "0.07407407407407407407407407407",
+      "expected_fraction": "2/27",
+      "absolute_error_fraction": "11/2700000000000000000000000000000"
+    },
+    {
+      "path": "S13.raw",
+      "actual": ".1",
+      "expected_fraction": "1/10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S14.raw",
+      "actual": "-0.5",
+      "expected_fraction": "-1/2",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S15.nonpositive",
+      "actual": "0.4",
+      "expected_fraction": "2/5",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S15.negative",
+      "actual": "0.3",
+      "expected_fraction": "3/10",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S18.NAV",
+      "actual": "2095",
+      "expected_fraction": "2095",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S21.now",
+      "actual": "8910",
+      "expected_fraction": "8910",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S21.wait",
+      "actual": "8100",
+      "expected_fraction": "8100",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S21.delta",
+      "actual": "-810",
+      "expected_fraction": "-810",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "S21.wrong_late",
+      "actual": "10800",
+      "expected_fraction": "10800",
+      "absolute_error_fraction": "0"
+    },
+    {
+      "path": "guard.exact_budget_terminal",
+      "actual": "1005.0",
+      "expected_fraction": "1005",
+      "absolute_error_fraction": "0"
+    }
+  ],
+  "rounding_tolerance_fraction": "1/100000000000000000000000000",
+  "rounding_tolerance_not_event_threshold": true,
+  "delivery_sha256": {
+    "outputs/预测问题与标签适用性审查_20261101/预测问题与标签适用性审查_v1.md": "6dcb2c6e3dc171d881f24d66bc9546422809bd035845254d9fe0c82c77d75b31",
+    "outputs/预测问题与标签适用性审查_20261101/预测事件字典_v1.json": "abb412d917c6d2c7d78bdb5e157a67171b2e50b6dc114b32a6f86cce456841e0",
+    "outputs/预测问题与标签适用性审查_20261101/状态与资格字典.json": "50e6dcef9535447055e24021b799b8887160fea7ff2f7ea759640e98d6c61565",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776",
+    "outputs/预测问题与标签适用性审查_20261101/本次用户确认与待定参数.json": "f7703adba5db83dcf70038254725bb323146b2d410ffc62ac450d88fbb127d05",
+    "outputs/预测问题与标签适用性审查_20261101/合成案例与精确计算.json": "69c6a4994f8d6381dda6b5772e2003107fa81fce2b1daa23c5ab1dd4c6f40ded",
+    "outputs/预测问题与标签适用性审查_20261101/合成案例核验.json": "1280fb50827f39f0c6da20ac906bb411496a6418fb4873cdfb6cd8687491649b",
+    "outputs/预测问题与标签适用性审查_20261101/合成案例说明.md": "467c948ef0ec137508dee74a82f3257e7a23f55d4d7c95a472f60e97a8261a12",
+    "work/label_review_nov01/synthetic_examples.py": "a729a2d0f7225bf95b95a19ae02f1361b9e5841bc8d2fa9f4af96fb135136d44"
+  },
+  "old_source_sha256": {
+    "outputs/概率预测引擎详细方案_20261016.md": "fb059323e6b3956986a580078015f3c9aa68e24093c608b91b159713b15554b8",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+  },
+  "new_real_targets_generated": false,
+  "actual_result_tables_read": false,
+  "new_models_fitted": 0,
+  "new_market_scores_calculated": 0,
+  "outcomes_2025_2026_opened": false,
+  "independent_execution_evidence_or_probability_validity_claim": false,
+  "advisories": [
+    "S21 uses fictional whole-unit full-cash allocation: now 990 units, value 8910. Earlier design illustration used 100-unit lot rounding, now 900 units plus 900 residual cash, value 9000. Both are arithmetically valid under different explicit allocation assumptions; never mix them.",
+    "Teaching helpers demonstrate money and shared-endpoint guardrails; they are not a complete broker order, accounting, dividend or production execution engine.",
+    "All producer synthetic cases explicitly assume their stated fills; no fill was inferred from real prices."
+  ]
+}

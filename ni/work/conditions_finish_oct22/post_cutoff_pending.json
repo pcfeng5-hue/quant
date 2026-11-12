@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-10-19",
+    "status": "not_collected_or_verified_this_round",
+    "market_open_status": "pending_official_calendar_check"
+  },
+  {
+    "date": "2026-10-20",
+    "status": "not_collected_or_verified_this_round",
+    "market_open_status": "pending_official_calendar_check"
+  },
+  {
+    "date": "2026-10-21",
+    "status": "not_collected_or_verified_this_round",
+    "market_open_status": "pending_official_calendar_check"
+  },
+  {
+    "date": "2026-10-22",
+    "status": "not_collected_or_verified_this_round",
+    "market_open_status": "pending_official_calendar_check"
+  }
+]

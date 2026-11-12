@@ -1,0 +1,16 @@
+{
+  "automation_id": "a",
+  "trigger_time_utc": "2026-11-01T14:53:47.308Z",
+  "processed_at_utc": "2026-11-01T14:53:57.944449+00:00",
+  "processed_at_local": "2026-11-01T09:53:57.943666-05:00",
+  "timezone": "America/Toronto",
+  "status": "outside_window_no_new_research",
+  "research_started": false,
+  "new_models_scored": 0,
+  "new_archive_started": false,
+  "nightly_batch_completed": false,
+  "last_verified_research_state": "outputs/市场环境候选验证_20261031/本轮状态与续作断点.json",
+  "research_pointer_unchanged": true,
+  "notification_decision": "DONT_NOTIFY",
+  "reason": "Outside authorized 00:00–05:00 window; prior save completion already reported; no new actionable state"
+}

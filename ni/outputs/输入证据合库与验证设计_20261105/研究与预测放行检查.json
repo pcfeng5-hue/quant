@@ -1,0 +1,48 @@
+{
+  "candidate_id": "BW17_002414_buy_vs_wait_H10_W2_v1",
+  "definition_frozen": true,
+  "H_user_confirmed": 10,
+  "research_constants_are_not_product_confirmation": true,
+  "checks": [
+    {
+      "id": "HISTORICAL_FIELD_VERSION",
+      "met": false,
+      "reason": "raw_close及其他字段的历史首次可得/修订链、原字段映射与单位仍未认证"
+    },
+    {
+      "id": "ASOF_CALENDAR_STATUS",
+      "met": false,
+      "reason": "计划日历版本和逐日ST/停牌/适用规则/限价证据不全"
+    },
+    {
+      "id": "COUNTERFACTUAL_EXECUTION",
+      "met": false,
+      "reason": "开盘限价、排队/部分成交/合法撤单的执行模型尚未绑定，不可从日K推断成交"
+    },
+    {
+      "id": "FEES_RIGHTS_LIABILITIES",
+      "met": false,
+      "reason": "费用上界/包费/最低额/舍入与权益负债未完整绑定"
+    },
+    {
+      "id": "MATURE_LABEL_LEDGER",
+      "met": false,
+      "reason": "真实动作/结果账本与成熟资格未实施；本轮仅冻结定义"
+    },
+    {
+      "id": "REAL_RUN_REGISTERED",
+      "met": false,
+      "reason": "本轮不授权任何真实标签计算或市场统计；应先补证再另登记有限运行"
+    },
+    {
+      "id": "PREDICTIVE_ESTIMATOR_ACCEPTANCE",
+      "met": false,
+      "reason": "概率估计器、样本最小量、时序评价、经济优势和晋级阈值未登记；模型运行仍禁止"
+    }
+  ],
+  "can_generate_real_labels": false,
+  "can_fit_or_score_forecast": false,
+  "can_use_for_current_decisions": false,
+  "can_start_simulation_or_funds": false,
+  "every_missing_gate_requires_new_evidence_not_a_time_elapsed_override": true
+}

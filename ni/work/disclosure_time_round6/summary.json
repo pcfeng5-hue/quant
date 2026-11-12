@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-15T19:02:51.129849+00:00",
+  "main_database_open_mode": "ro",
+  "source_reconciliation_version": "refresh-20261015-v1",
+  "mapped_pdf_count": 312,
+  "ordinary_count": 308,
+  "investor_relations_count": 4,
+  "official_disclosure_days_crosschecked": 312,
+  "official_adjunct_path_days_crosschecked": 312,
+  "official_catalogue_midnight_only_count": 308,
+  "official_storageTime_nonnull_count": 0,
+  "title_width_or_punctuation_variation_count": 18,
+  "eastmoney_display_time_nonempty_count": 104,
+  "eastmoney_eiTime_nonempty_count": 312,
+  "eastmoney_sort_date_nonempty_count": 312,
+  "display_day_minus_official_day_counts": {
+    "-1": 103,
+    "0": 1,
+    "None": 208
+  },
+  "actual_historical_first_publication_certified_count": 0,
+  "historical_input_eligible_count": 0,
+  "existing_official_identical_pdf_count": 22,
+  "all_local_pdf_sha256_verified": true,
+  "raw_catalogue_snapshot_hashes_verified": 16,
+  "all_catalogue_raw_sha256_verified": true,
+  "provider_current_vs_previous_changed_row_count": 104,
+  "provider_current_vs_previous_changed_fields_counts": {
+    "display_time": 104
+  },
+  "unmatched_and_conflicts": {
+    "local_pdf_art_codes_not_mapped": [],
+    "mapped_art_codes_without_local_pdf": [],
+    "current_official_announcement_ids_not_mapped": [],
+    "mapped_official_ids_not_in_current_catalogue": [],
+    "date_or_identity_conflicts": []
+  },
+  "NOTICE_DATE_record_count_all_stored_snapshots": 278,
+  "NOTICE_DATE_by_dataset_including_retained_versions": {
+    "financial_main": 29,
+    "balance_sheet": 30,
+    "income_statement": 33,
+    "cashflow_statement": 33,
+    "dividends": 3,
+    "top10_float": 150
+  },
+  "main_database_table_counts_unchanged_during_read_only_audit": true,
+  "limitations": [
+    "312 reflects the three current returned catalogues, not a certificate of the entire internet or all possible disclosure categories.",
+    "No historical acquisition log or archived first-seen timestamp acquired; current retrieval is never backdated.",
+    "D1 day evidence does not certify a version existed before a trade decision; all historical eligibility remains false.",
+    "4 IR clock times are candidate official-provider times; minute-level first-public semantics not independently certified.",
+    "22 official PDFs were already verified identical in earlier rounds; remaining 290 official URLs are mapped, not newly downloaded or byte-certified.",
+    "EM display_time/eiTime have no explicit time zone or documented immutable first-public meaning in the archived response.",
+    "NOTICE_DATE is dataset-specific provider metadata and cannot serve as a universal release instant."
+  ]
+}

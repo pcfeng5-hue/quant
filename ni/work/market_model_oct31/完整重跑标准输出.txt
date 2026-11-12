@@ -1,0 +1,94 @@
+{
+  "output": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/市场环境候选验证_20261031",
+  "checks": 31,
+  "pooled_metrics": [
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "model_id": "M0_laplace_constant",
+      "n": 331,
+      "positive_count": 148,
+      "zero_count": 5,
+      "negative_count": 178,
+      "positive_frequency": 0.4471299093655589,
+      "mean_prediction": 0.4661277207546509,
+      "brier": 0.24817206297512887,
+      "log_loss": 0.6894919978869496
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "model_id": "M3_shenzhen_ma20_group_shrinkage",
+      "n": 331,
+      "positive_count": 148,
+      "zero_count": 5,
+      "negative_count": 178,
+      "positive_frequency": 0.4471299093655589,
+      "mean_prediction": 0.46456899447839844,
+      "brier": 0.25137349246837914,
+      "log_loss": 0.6959412644064309
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "model_id": "M0_laplace_constant",
+      "n": 66,
+      "positive_count": 32,
+      "zero_count": 0,
+      "negative_count": 34,
+      "positive_frequency": 0.48484848484848486,
+      "mean_prediction": 0.4660911904966368,
+      "brier": 0.2501722967795683,
+      "log_loss": 0.6934946721946513
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "model_id": "M3_shenzhen_ma20_group_shrinkage",
+      "n": 66,
+      "positive_count": 32,
+      "zero_count": 0,
+      "negative_count": 34,
+      "positive_frequency": 0.48484848484848486,
+      "mean_prediction": 0.4649732359115696,
+      "brier": 0.25041172332990447,
+      "log_loss": 0.6939628673682888
+    }
+  ],
+  "pooled_comparisons": [
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "n": 331,
+      "brier_M0": 0.24817206297512887,
+      "brier_M3": 0.25137349246837914,
+      "brier_delta_M3_minus_M0": 0.0032014294932502796,
+      "logloss_delta_M3_minus_M0": 0.0064492665194813,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "n": 66,
+      "brier_M0": 0.2501722967795683,
+      "brier_M3": 0.25041172332990447,
+      "brier_delta_M3_minus_M0": 0.00023942655033615257,
+      "logloss_delta_M3_minus_M0": 0.00046819517363749785,
+      "promotion_approved": 0
+    }
+  ],
+  "descriptive_screen": {
+    "evaluable": true,
+    "not_evaluable_reason": null,
+    "lower_brier_fold_count": 3,
+    "conditions": {
+      "pooled_brier_strictly_lower": false,
+      "pooled_logloss_strictly_lower": false,
+      "fixed_grid_brier_no_worse": false,
+      "at_least_four_folds_strictly_lower": false
+    },
+    "passed": false,
+    "statistical_or_profit_proof": false,
+    "automatic_phase_promotion": false
+  }
+}

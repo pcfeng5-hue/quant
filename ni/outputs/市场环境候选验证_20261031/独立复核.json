@@ -1,0 +1,590 @@
+{
+  "all_checks_passed": true,
+  "passed": 47,
+  "total": 47,
+  "checks": [
+    {
+      "check": "25_protected_source_hashes_match_registration",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "frozen_code_and_contract_fingerprints",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "local_registration_before_output_not_external_timestamp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "unique_single_hypothesis_and_unchanged_research_only_parameters",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "cumulative_16_retains_previous_15_and_negative_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "484_original_observed_anchors_and_two_known_ex_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "469_labels_independently_reconstructed_from_raw_open_close",
+      "passed": true,
+      "details": {
+        "target_queries_bounded_to": "2024-12-31"
+      }
+    },
+    {
+      "check": "15_label_exclusions_and_all_development_anchors_accounted",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chosen_index_both_original_raw_response_hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original_provider_closes_positive_matching_and_no_close_conflicts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "index_source_observations_unique_exact_raw_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "484_selected_rows_and_9680_unique_actual_dependencies",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "every_actual_dependency_identity_order_hash_value_and_20_date_window",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_fraction_MA20_formula_and_group_signs",
+      "passed": true,
+      "details": {
+        "max_absolute_feature_error": 2.896988204881268e-16
+      }
+    },
+    {
+      "check": "selected_feature_all_formal_gates_remain_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_database_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selected_input_and_old_exclusions_copied_exactly",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_11_csv_exports_exactly_match_saved_sqlite_rows",
+      "passed": true,
+      "details": {
+        "rows": 5132
+      }
+    },
+    {
+      "check": "independent_exact_predictions",
+      "passed": true,
+      "details": {
+        "rows": 662,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_fitted",
+      "passed": true,
+      "details": {
+        "rows": 18,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_membership",
+      "passed": true,
+      "details": {
+        "rows": 1554,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_ledger",
+      "passed": true,
+      "details": {
+        "rows": 1950,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_folds",
+      "passed": true,
+      "details": {
+        "rows": 6,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_metrics",
+      "passed": true,
+      "details": {
+        "rows": 28,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_comparisons",
+      "passed": true,
+      "details": {
+        "rows": 14,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_calibration",
+      "passed": true,
+      "details": {
+        "rows": 70,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "independent_exact_paired_loss",
+      "passed": true,
+      "details": {
+        "rows": 331,
+        "arithmetic": "Fraction; 60-digit Decimal ln for log loss"
+      }
+    },
+    {
+      "check": "331_common_dates_662_predictions_66_fixed_original_grid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "actual_time_boundaries_and_fixed_grid_nonoverlap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_four_preregistered_descriptive_screen_conditions",
+      "passed": true,
+      "details": {
+        "evaluable": true,
+        "not_evaluable_reason": null,
+        "lower_brier_fold_count": 3,
+        "conditions": {
+          "pooled_brier_strictly_lower": false,
+          "pooled_logloss_strictly_lower": false,
+          "fixed_grid_brier_no_worse": false,
+          "at_least_four_folds_strictly_lower": false
+        },
+        "passed": false,
+        "statistical_or_profit_proof": false,
+        "automatic_phase_promotion": false
+      }
+    },
+    {
+      "check": "no_later_targets_no_current_forecast_or_formal_promotion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "metadata_provenance_matches_frozen_receipt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "illegal_duplicate_source_and_actual_trace_mutations_rejected",
+      "passed": true,
+      "details": [
+        {
+          "probe": "bad feature feature_id '000001.SH:past_return_5'",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature role 'auxiliary'",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature engineering_value nan",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature engineering_value inf",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature engineering_value -1",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature engineering_ready 2",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature engineering_ready True",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature status 'APPROVED'",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature dependency_n 19",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature dependency_first_date '2025-01-01'",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature max_dependency_date '2025-01-02'",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature close_source_conflict_n 1",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature historical_first_availability_certified 1",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature model_input_approved 1",
+          "rejected": true
+        },
+        {
+          "probe": "bad feature runtime_usable 1",
+          "rejected": true
+        },
+        {
+          "probe": "bad source canonical_symbol",
+          "rejected": true
+        },
+        {
+          "probe": "bad source provider",
+          "rejected": true
+        },
+        {
+          "probe": "bad source collection",
+          "rejected": true
+        },
+        {
+          "probe": "bad source adjustment",
+          "rejected": true
+        },
+        {
+          "probe": "bad source price_unit",
+          "rejected": true
+        },
+        {
+          "probe": "bad source close",
+          "rejected": true
+        },
+        {
+          "probe": "bad source close",
+          "rejected": true
+        },
+        {
+          "probe": "bad source trade_date",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency feature_id",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency dependency_order",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency dependency_symbol",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency dependency_date",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency observation_id",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency source_close",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency source_sha256",
+          "rejected": true
+        },
+        {
+          "probe": "bad actual dependency source_close_conflict",
+          "rejected": true
+        },
+        {
+          "probe": "duplicate features",
+          "rejected": true
+        },
+        {
+          "probe": "duplicate dependencies",
+          "rejected": true
+        },
+        {
+          "probe": "duplicate observations",
+          "rejected": true
+        },
+        {
+          "probe": "duplicate labels",
+          "rejected": true
+        },
+        {
+          "probe": "duplicate anchors",
+          "rejected": true
+        },
+        {
+          "probe": "bad missing {'status': 'CLOSE_SOURCE_CONFLICT'}",
+          "rejected": true
+        },
+        {
+          "probe": "bad missing {'engineering_value': 0}",
+          "rejected": true
+        },
+        {
+          "probe": "bad missing {'close_source_conflict_n': 1}",
+          "rejected": true
+        },
+        {
+          "probe": "bad missing {'dependency_n': 20}",
+          "rejected": true
+        },
+        {
+          "probe": "target mutation horizon_observed_sessions",
+          "rejected": true
+        },
+        {
+          "probe": "target mutation outcome_sign",
+          "rejected": true
+        },
+        {
+          "probe": "target mutation outcome_observation_date",
+          "rejected": true
+        },
+        {
+          "probe": "target mutation entry_observation_date",
+          "rejected": true
+        },
+        {
+          "probe": "contract mutation shrinkage_lambda",
+          "rejected": true
+        },
+        {
+          "probe": "contract mutation minimum_training_rows",
+          "rejected": true
+        },
+        {
+          "probe": "contract mutation models",
+          "rejected": true
+        },
+        {
+          "probe": "contract mutation feature_id",
+          "rejected": true
+        },
+        {
+          "probe": "contract mutation runtime_usable",
+          "rejected": true
+        },
+        {
+          "probe": "contract mutation development_end",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "check": "equality_below_positive_negative_and_missing_separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "consistent_missing_conflict_abstains_and_contradictions_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "target_and_frozen_contract_mutations_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "first_fold_validation_label_poison_cannot_change_first_fit_or_probability",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "99_training_rows_abstain_100_all_one_group_prior_fallback",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_publication_gate_matches_independent_four_condition_result",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_screen_NaN_Inf_missing_metric_missing_fold_empty_grid_duplicate_fold_rejected",
+      "passed": true,
+      "details": {
+        "probes": 10,
+        "outcomes": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "producer_helper_limitation": "Frozen original development_screen checked fold count, not exact IDs; strict publication guard is required, unchanged actual six-fold output independently complete"
+      }
+    },
+    {
+      "check": "strict_screen_extra_identity_count_bounds_and_promotion_probes",
+      "passed": true,
+      "details": {
+        "probes": 9
+      }
+    },
+    {
+      "check": "complete_empty_result_explicitly_unevaluable_without_promotion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_screen_empty_result_cannot_promote_itself",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_strict_publication_review_matches_independent_actual_screen",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "production_code_and_registration_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_25_protected_old_sources_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_publication_guard_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "producer_code_sha256": "e0cba20bec850e61e97f1fc37b834a07044b1bc93d4871df9ffdd238044986c0",
+  "contract_sha256": "fab9092c429298b020037a6c62277b059bf6de15d75d361572f73aadc7bf21e8",
+  "strict_publication_guard_sha256": "0b6fc0e78dbf105ec11708cb2a384a87cb71913411d790ef9fa1e55230527ab4",
+  "source_sha256_before": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+    "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+    "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+    "work/market_industry_oct22/market_rows_unique.json": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee",
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_industry_oct22/summary.json": "b3eea16465d85a1edc8b0e2bdc6acf78dc2cfd5a38b178dea50f7fd6d5841f5d",
+    "work/market_context_oct31/build_context.py": "5400205e4968252a5a821ad9bbd9adc211b6b82922b487cb297a6972f250e833",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "work/market_context_oct31/registration_receipt.json": "755f6c214a396a52903d7fa27ec9abd0652a470066218c1eb9c938a06690692b",
+    "outputs/市场环境输入准备_20261031/市场环境工程输入.sqlite": "22cdff5f265bb24bb16f6d009882a8c493fdfdd268ac434b120919479c3b1b60",
+    "work/market_context_independent_oct31/市场特征独立复核.json": "909ef51a50a1614d4164834e5c5d829d2ff5446df0ab6fb443ebaef9a1b9c953",
+    "work/market_model_input_oct31/选定市场输入核查.json": "decfa5457fc2f694622d8d3b1986a7f99ebd0450fe7b6d5036cca72c76c3977b",
+    "work/market_model_input_oct31/audit_selected_input.py": "bc5a3b249207a5f5d2e205a66370526a99976d7b5bc68ac192ee4cd032073029",
+    "outputs/市场环境输入准备_20261031/累计研究与特征准备台账.json": "4300683478cd8e82829614921a7d81397f7967fda88ad575b6a34364b7ac2a80"
+  },
+  "source_sha256_after": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite": "a2b2e883b4dc7efcf7c399f5cecef8585567244eb919f1ea1dc6c1fda6fbb3f9",
+    "work/forecast_validation_oct26/run_validation.py": "5d66def7d04e3711ac990eed143558ac02e4d42f91b7813d66c4825525e7c8b8",
+    "work/forecast_validation_oct26/contract.json": "20aa5a69812c264f4a4a07963edfe444615e9fb6bb6841816f0ab62e24777c9c",
+    "work/forecast_validation_oct26/registration_receipt.json": "056e15f006a3d3eb1ec8480dbf53193758dca9bee63c1d8d283e3e0ee994b27b",
+    "outputs/初始化与验证推进_20261026/时间验证/开发期滚动验证.sqlite": "7d2e41633cee9a3e22ed2fda4afe73babc16ae8983e1c3bd1b1d241cc1172a33",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+    "work/market_industry_oct22/market_rows_unique.json": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee",
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_industry_oct22/summary.json": "b3eea16465d85a1edc8b0e2bdc6acf78dc2cfd5a38b178dea50f7fd6d5841f5d",
+    "work/market_context_oct31/build_context.py": "5400205e4968252a5a821ad9bbd9adc211b6b82922b487cb297a6972f250e833",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "work/market_context_oct31/registration_receipt.json": "755f6c214a396a52903d7fa27ec9abd0652a470066218c1eb9c938a06690692b",
+    "outputs/市场环境输入准备_20261031/市场环境工程输入.sqlite": "22cdff5f265bb24bb16f6d009882a8c493fdfdd268ac434b120919479c3b1b60",
+    "work/market_context_independent_oct31/市场特征独立复核.json": "909ef51a50a1614d4164834e5c5d829d2ff5446df0ab6fb443ebaef9a1b9c953",
+    "work/market_model_input_oct31/选定市场输入核查.json": "decfa5457fc2f694622d8d3b1986a7f99ebd0450fe7b6d5036cca72c76c3977b",
+    "work/market_model_input_oct31/audit_selected_input.py": "bc5a3b249207a5f5d2e205a66370526a99976d7b5bc68ac192ee4cd032073029",
+    "outputs/市场环境输入准备_20261031/累计研究与特征准备台账.json": "4300683478cd8e82829614921a7d81397f7967fda88ad575b6a34364b7ac2a80"
+  },
+  "audit_method": "Independent stdlib Fraction / 60-digit Decimal reconstruction; production imported only for rejection, synthetic and label-poison probes",
+  "outcomes_2025_2026_opened": false,
+  "case_count": 331,
+  "prediction_rows": 662,
+  "fixed_original_grid_cases": 66,
+  "pooled_comparisons": [
+    {
+      "fold_id": "POOLED",
+      "subset": "all_overlapping",
+      "n": 331,
+      "brier_M0": 0.2481720629751289,
+      "brier_M3": 0.25137349246837914,
+      "brier_delta_M3_minus_M0": 0.003201429493250284,
+      "logloss_delta_M3_minus_M0": 0.0064492665194812795,
+      "promotion_approved": 0
+    },
+    {
+      "fold_id": "POOLED",
+      "subset": "fixed_every_fifth_anchor",
+      "n": 66,
+      "brier_M0": 0.2501722967795683,
+      "brier_M3": 0.25041172332990447,
+      "brier_delta_M3_minus_M0": 0.00023942655033614687,
+      "logloss_delta_M3_minus_M0": 0.0004681951736374601,
+      "promotion_approved": 0
+    }
+  ]
+}

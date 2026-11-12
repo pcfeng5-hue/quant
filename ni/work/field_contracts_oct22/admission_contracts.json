@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "client_as_of_date": "2026-10-22",
+  "status": "proposed_conservative_data_contract; not research_hypothesis_or_trade_configuration",
+  "current_project_release": {
+    "historical_predictive_release": false,
+    "execution_release": false,
+    "probabilities_computed": false,
+    "features_computed": false,
+    "reason": "Evidence organization is not historical first-availability/PIT, unit, state or execution certification."
+  },
+  "use_tiers": [
+    {
+      "tier": "raw_archive",
+      "allowed": "Preserve originals and all outcomes including failed requests/rejected observations",
+      "required": "Byte identity and explicit origin/observation time"
+    },
+    {
+      "tier": "exploratory_observation",
+      "allowed": "Inspect coverage, field meaning, retrospective charts and source differences",
+      "required": "Provenance + scope + units/status labels; no forecast performance claim"
+    },
+    {
+      "tier": "retrospective_sensitivity_research",
+      "allowed": "Only after a separate explicit feature/label protocol; compare data-version effects",
+      "required": "Declared provider/vintage, unresolved flags, no use as untouched historical proof",
+      "currently_released": false
+    },
+    {
+      "tier": "historical_predictive_validation",
+      "allowed": "Chronological forecasts using information genuinely known before decision",
+      "required": "Certified event/knowledge time, version, causality-safe lags, split/purge protocol and independent holdout",
+      "currently_released": false
+    },
+    {
+      "tier": "execution_or_exact_net_result",
+      "allowed": "Only with executable-order and complete cost evidence",
+      "required": "Daily state, official reference/limits, order/lot/cash/settlement and account fees",
+      "currently_released": false
+    }
+  ],
+  "temporal_contract": {
+    "exchange_timezone": "Asia/Shanghai",
+    "persisted_timestamps": "ISO8601 with explicit timezone offset; UTC preferred for observation stamps",
+    "distinct_fields": [
+      "event_date",
+      "report_period_end",
+      "announcement_day_label",
+      "source_timestamp_raw",
+      "effective_date",
+      "historical_first_publication_timestamp",
+      "earliest_model_use_timestamp",
+      "retrieved_at_utc",
+      "completed_at_utc",
+      "revision_publication_timestamp"
+    ],
+    "null_time_is_not_midnight": true,
+    "naive_provider_clock": "Keep raw; do not silently attach timezone or convert midnight date labels to exact releases.",
+    "daily_bars": "Final OHLCV cannot enter a decision before that same day closes and data is available. No speculative universal lag is imposed here.",
+    "first_availability": "A current retrieval proves availability now only; does not prove the same vintage existed on the historical date.",
+    "historical_join": "When released, select versions with certified earliest_model_use_timestamp <= decision_timestamp, and an explicit within-time correction policy. Period-end joins or unconditional forward-fill are forbidden.",
+    "retrospective_fact": "A later report may verify an earlier occurrence, but its later knowledge time remains later.",
+    "calendar": "A third-Friday formula candidate is not upgraded to verified occurrence merely because date has passed."
+  },
+  "tri_state_contract": {
+    "value_domain": [
+      true,
+      false,
+      null
+    ],
+    "status_domain": [
+      "confirmed_true",
+      "confirmed_false",
+      "unknown"
+    ],
+    "false_requires": "Affirmative evidence supporting the negative predicate for the declared full scope.",
+    "unknown_requires": "null plus missing_reason_code; may coexist with bounded positive or negative evidence.",
+    "admission_boolean": "A false eligibility/certification gate is a decision/status about evidence, not a fact that trading was impossible or data was false.",
+    "legacy_examples": [
+      {
+        "source_field": "daily_status_verified_normal=false",
+        "normalized_fact": "daily_normal_status=null",
+        "normalized_certification": false,
+        "reason": "DAILY_STATUS_UNCERTIFIED"
+      },
+      {
+        "source_field": "monthly_suspension_target_rows=0",
+        "normalized_fact": "daily_suspended=null",
+        "reason": "NOT_OBSERVED_IN_BOUNDED_SEARCH"
+      },
+      {
+        "source_field": "historical_st_status=unknown_daily_status_not_certified",
+        "normalized_fact": "is_st=null",
+        "reason": "DAILY_STATUS_UNCERTIFIED"
+      },
+      {
+        "source_field": "broker_commission_rate=null",
+        "normalized_fact": "commission_rate=null",
+        "reason": "ACCOUNT_SPECIFIC_UNKNOWN"
+      },
+      {
+        "source_field": "no-distribution ex_date=null",
+        "normalized_fact": "ex_date=null",
+        "reason": "NOT_APPLICABLE"
+      }
+    ]
+  },
+  "missing_reason_codes": [
+    {
+      "code": "NOT_REQUESTED",
+      "explanation_zh": "本轮没有请求该数据"
+    },
+    {
+      "code": "ACCESS_OR_PERMISSION_REQUIRED",
+      "explanation_zh": "现有授权或公开渠道不足；未登录、购买或绕过"
+    },
+    {
+      "code": "REQUEST_FAILED",
+      "explanation_zh": "网络、HTTP或提供者请求失败，保留诊断"
+    },
+    {
+      "code": "PROVIDER_FIELD_ABSENT",
+      "explanation_zh": "端点模式本身没有该字段，例如腾讯旧端点金额"
+    },
+    {
+      "code": "PROVIDER_NULL",
+      "explanation_zh": "响应字段存在但值为null"
+    },
+    {
+      "code": "SOURCE_BLANK",
+      "explanation_zh": "原件为空白；不补0"
+    },
+    {
+      "code": "NOT_APPLICABLE",
+      "explanation_zh": "经济上不适用，例如已批准不分配的除权日"
+    },
+    {
+      "code": "NOT_YET_PUBLISHED",
+      "explanation_zh": "目标时点尚未公开，不能当缺失0"
+    },
+    {
+      "code": "OUTSIDE_RETURNED_COVERAGE",
+      "explanation_zh": "提供者滚动窗口或起止范围之外"
+    },
+    {
+      "code": "OUTSIDE_REQUESTED_SCOPE",
+      "explanation_zh": "原件返回但不在本轮请求或研究窗口，保留原件不计研究行"
+    },
+    {
+      "code": "PARSING_FAILED",
+      "explanation_zh": "解析失败，原件仍保留"
+    },
+    {
+      "code": "OCR_UNVERIFIED",
+      "explanation_zh": "仅OCR候选且未人工/原件认证"
+    },
+    {
+      "code": "UNIT_UNVERIFIED",
+      "explanation_zh": "单位或统计范围未认证"
+    },
+    {
+      "code": "TIME_PRECISION_OR_FIRST_PUBLICATION_UNKNOWN",
+      "explanation_zh": "只有日标签或当前时钟，真实首次可得时刻未知"
+    },
+    {
+      "code": "PIT_VINTAGE_UNVERIFIED",
+      "explanation_zh": "仅现时历史快照，未认证历史版本"
+    },
+    {
+      "code": "DAILY_STATUS_UNCERTIFIED",
+      "explanation_zh": "月报或日量不足以认证日级ST/暂停/特殊状态"
+    },
+    {
+      "code": "OFFICIAL_REFERENCE_NOT_OBTAINED",
+      "explanation_zh": "缺官方日限价/参考价等"
+    },
+    {
+      "code": "SOURCE_CONFLICT_UNRESOLVED",
+      "explanation_zh": "多来源同字段矛盾，尚未裁定"
+    },
+    {
+      "code": "ACCOUNT_SPECIFIC_UNKNOWN",
+      "explanation_zh": "账户佣金/最低收费/包费/税务未知"
+    },
+    {
+      "code": "NOT_OBSERVED_IN_BOUNDED_SEARCH",
+      "explanation_zh": "限定目录/表中未命中，不能推断全局不存在"
+    },
+    {
+      "code": "NOT_OBTAINED_COMPLETE_BINS",
+      "explanation_zh": "未取得完整逐价格档位数值"
+    }
+  ],
+  "missing_reason_assignment": "A reason is an evidence-backed state, not a fill heuristic. For example NOT_YET_PUBLISHED requires proof that publication had not occurred by the decision time; unknown publication uses TIME_PRECISION_OR_FIRST_PUBLICATION_UNKNOWN. Multiple reasons may apply and should be stored as a linked set.",
+  "source_conflict_contract": {
+    "key": "symbol + event/trade date + field + price basis + unit/scope + source/vintage",
+    "compare_only_if": "Semantic field, time scope, units, adjustment basis and comparison precision are compatible.",
+    "states": [
+      "not_compared",
+      "incomparable_unit_or_scope",
+      "strict_match",
+      "quantization_compatible_not_equal",
+      "same_provider_revision",
+      "cross_provider_conflict_unresolved",
+      "load_context_sensitive",
+      "adjudicated_preferred_for_declared_use",
+      "rejected_as_mislabelled_with_evidence"
+    ],
+    "no_average": true,
+    "no_cross_provider_splice": true,
+    "never_overwrite_original": true,
+    "comparison_record_fields": [
+      "left_observation_id",
+      "right_observation_id",
+      "field",
+      "left_raw",
+      "right_raw",
+      "unit",
+      "adjustment_basis",
+      "difference",
+      "comparison_rule_id",
+      "tolerance",
+      "strict_equal",
+      "within_tolerance",
+      "status",
+      "review_evidence",
+      "review_version"
+    ],
+    "tolerance": "Use an existing documented comparison rule without widening it to erase exceptions; no new research/decision threshold is created here.",
+    "duplicate_handling": "Identical content observations retain all request evidence. A declared deduplicated view may list support IDs; conflict creates separate versions, never multiple independent samples.",
+    "adjudication": "An explicit scoped reviewer decision may later choose a source, recording rationale and sensitivity; no provider is presumed ground truth here.",
+    "index_volume": "Blocked for pooled/spliced quantitative comparison until unit and coverage match.",
+    "chip": "Different initialization/load contexts retain separate observation versions; do not average to create a synthetic chip distribution."
+  },
+  "units_and_adjustment": {
+    "raw_immutable": true,
+    "record_conversion_expression_and_evidence": true,
+    "percent": "percentage_points / 100 = fraction. Rates in fee_schedule are already fractions; do not divide by 100 again.",
+    "stock_volume": "SDK-explained hands *100 = shares; preserve unit certification status and raw precision. No index extrapolation.",
+    "tencent_new_amount": "raw row[8] *10000 = CNY according to inspected SDK mapping; row indices are zero-based.",
+    "qfq_hfq": "Price snapshot vintage, not historical point-in-time factor. Never label adjusted/unadjusted ratio an independently verified factor.",
+    "capital": "Reported unlimited shares != daily free-float denominator. Do not forward-fill period-end shares into turnover reconstruction.",
+    "financial": "Unit and consolidated/parent/YTD/quarter scope are per metric and per report. Preserve revisions and blank values."
+  },
+  "cost_contract": {
+    "account_mode": "unknown",
+    "exact_net_return_released": false,
+    "inclusive_mode": "Count verified all-in commission once. Add transfer only if known excluded, stamp tax only on applicable sale, and other genuinely excluded components once.",
+    "net_mode": "Only if proven net commission: net brokerage + exchange + regulatory + transfer components not already included, with historical dates and account rounding/minimum.",
+    "unknown_mode": "Do not add every candidate component mechanically. Preserve separate components and unknown package flags; do not output exact net result.",
+    "dividend_tax": "Separate conditional event/holding tax calculation; do not assume zero or charge every trade a generic dividend tax.",
+    "project_operating_cost": "Separate from transaction fees. May later be reported as operating expense and total project P&L without charging it again per trade."
+  },
+  "feature_label_isolation": {
+    "status": "design_contract_only; no features or labels calculated",
+    "physical_layout_proposal": {
+      "raw_observations": "Read-only versioned source database; includes explicitly restricted provider outcome metadata.",
+      "features": "Separate feature DB/files, whitelist-only columns, decision_timestamp, feature_window_end, max_certified_input_available_at, provenance and contract_version.",
+      "labels": "Separate labels DB/files with outcome_start/end, horizon, maturity flag, future returns/path outcomes/cost assumptions. Feature builder receives no label path or connection.",
+      "training_join": "Join only in evaluation/training pipeline after chronological split and maturity/purge rules are frozen; no labels/views attached during raw feature extraction."
+    },
+    "restricted_fields": "Provider D1/D2/D3/D5/D10, CHANGE_RATE_nDAYS, RCHANGE3D/5D/10D and ambiguous forward fields remain quarantined pending exact semantics; confirmed future outputs belong only in labels.",
+    "statistical_boundaries": [
+      "Do not call 915 dates 915 independent trades.",
+      "2022 prehistory is warmup, not outcome sample.",
+      "Duplicate sources and date roles do not expand effective sample.",
+      "No random time shuffle; chronological development/calibration/final test and overlapping-label purge remain a future protocol requirement.",
+      "No label that crosses a split boundary or is not mature at evaluation time."
+    ],
+    "no_blanket_select_star": true
+  },
+  "group_gates": [
+    {
+      "group_id": "source_evidence",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "两个网址不证明上游独立",
+        "哈希匹配只认证字节身份，不认证经济正确或全量覆盖"
+      ]
+    },
+    {
+      "group_id": "stock_daily_bars",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "价格不是总收益",
+        "同日供应商/端点/复权重复观察不增加独立交易日",
+        "行情存在不能证明指定时刻指定订单可成交",
+        "复权快照比值不是已验证历史因子"
+      ]
+    },
+    {
+      "group_id": "index_daily_bars",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "价格指数不是分红再投资总收益指数",
+        "不得从代理指数推断整段历史行业成员",
+        "来源价格/量差异未裁定，全部并存"
+      ]
+    },
+    {
+      "group_id": "chip_web_summary",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "历史获利率不是预测概率",
+        "可见柱状图截图不是全价档数值",
+        "同日不同加载值不平均，不任选为真",
+        "日期数不代表PIT历史认证"
+      ]
+    },
+    {
+      "group_id": "chip_price_bins",
+      "exploration_status": "not_obtained",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "没有数据行，不生成0权重占位",
+        "不以摘要反推唯一完整分布",
+        "不执行未经审阅的下载代码"
+      ]
+    },
+    {
+      "group_id": "trade_conditions",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "未出现于月报不等于逐日无停牌",
+        "月末简称不等于日级ST认证",
+        "3个除权日禁止简单前收×1.1/0.9",
+        "新股/复牌等特殊情形须额外处理，不能只套普通10%"
+      ]
+    },
+    {
+      "group_id": "cost_schedule",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "全佣包含的经手/证管等不得再加一次",
+        "过户费是否包含也需证据",
+        "未知佣金不输出精确净收益",
+        "费用边界只做数据合同，不设用户仓位或交易阈值"
+      ]
+    },
+    {
+      "group_id": "corporate_actions",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "3次分派是3个事件，11个日期角色不是11次独立样本",
+        "自派两名股东支付日不套用代派日",
+        "不分配的除权和支付日期null原因是不适用",
+        "后续报告修订/总额差异不覆盖先前每股条款"
+      ]
+    },
+    {
+      "group_id": "capital_and_nontrade",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "无限售股不等于指数方法意义自由流通股",
+        "非交易过户不自动等于发行/注销/限售增加",
+        "算术桥接一致不能认证全部中间事件",
+        "3处股份性质差值留冲突，不能制造解锁日期"
+      ]
+    },
+    {
+      "group_id": "announcements_events",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "精确到秒的当前平台字段仍非历史首次发布时间",
+        "公告分类不能直接当涨跌方向",
+        "到期日不能预设大资金净流入或大波动",
+        "转载归同事件，11企业日期角色归3事件",
+        "政策样本非全网政策新闻全集"
+      ]
+    },
+    {
+      "group_id": "financial_reports",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "原报空白保持null不补0",
+        "后续重述不得回填早年特征",
+        "现金流前瞻字段与供应商未来收益类字段须隔离",
+        "已核135数值不代表全部财务字段已核"
+      ]
+    },
+    {
+      "group_id": "shareholder_disclosures",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "持仓变化不等于每日买卖路径",
+        "同名股东不证明整个市场同一批人交易",
+        "供应商排名/类型不推断真实控制人、买卖意图或资金方向"
+      ]
+    },
+    {
+      "group_id": "margin_trading",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "余额变化不等于机构方向或下一日价格",
+        "空缺末日不补0",
+        "RCHANGE3D/5D/10D等未来/含义未核字段进入限制字段表"
+      ]
+    },
+    {
+      "group_id": "fund_flow_proxy",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "大单不等于基金或投行",
+        "不同来源对主力的定义不直接合并",
+        "市场买卖双方成交配对，代理净额不等于全市场净现金流入"
+      ]
+    },
+    {
+      "group_id": "disclosed_trades_seats",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "机构专用不识别具体基金经理或投行",
+        "EXPLAIN内供应商成功率不是本项目验证概率",
+        "多日榜与单日榜重叠不能重复计收益样本",
+        "累计/榜单金额与单笔交易金额不混算"
+      ]
+    },
+    {
+      "group_id": "calendar",
+      "exploration_status": "exploration_only_unreleased",
+      "historical_predictive_eligible": false,
+      "execution_eligible": false,
+      "remaining_restrictions": [
+        "期货交割和期权到期同日归同经济日期",
+        "股息除权和现金到账分角色",
+        "同日期不能预设因果影响"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "json_parsed": true,
+  "draft_not_frozen": true,
+  "runtime_disabled": true,
+  "confirmed_pilot_cny": 10000,
+  "confirmed_realized_pause_cny": 2000,
+  "floating_in_trigger": false,
+  "horizon_unfrozen": true,
+  "no_numeric_predictions": true,
+  "missing_local_links": [],
+  "previous_v0_2_preserved": true,
+  "new_design_lines": 183
+}

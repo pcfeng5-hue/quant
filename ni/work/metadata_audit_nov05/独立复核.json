@@ -1,0 +1,468 @@
+{
+  "audit_id": "independent_metadata_projection_20261105",
+  "created_at_utc": "2026-11-05T16:16:57.323486+00:00",
+  "independent_from_builder": true,
+  "all_checks_passed": true,
+  "passed": 83,
+  "total": 83,
+  "checks": [
+    {
+      "check": "15_registered_sources",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "14_prior_fingerprints_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "4_prior_artifact_fingerprints",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "14_used_registered_only_no_extra",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "access_log_concordance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "copied_fields_identical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "copied_calendar_identical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "read_only_query_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "SQLite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_metadata_tables",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_evidence_record_json_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_evidence_unique_keys",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_record_json_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_unique_keys",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_record_json_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_unique_keys",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "corporate_action_dates_record_json_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "corporate_action_dates_unique_keys",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_evidence_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_field_family",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_provider",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_source_metadata_path",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_source_metadata_sha256",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_json_locator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_collected_at_utc_recorded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_historical_first_available_at",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_historical_revision_available_at",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_earliest_model_use_timestamp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_native_field_identifier",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_unit_status_json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_formal_historical_input_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_current_decision_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_column_runtime_usable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_trade_date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_planned_is_open",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_stock_status_record_exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_historical_st_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_daily_status_verified_normal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_official_daily_limit_evidence_recorded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_saved_execution_eligible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_saved_cost_model_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_historical_first_available_timestamp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_formal_historical_input_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_current_decision_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "calendar_days_column_runtime_usable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_trade_date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_planned_is_open",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_stock_status_record_exists",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_historical_st_status",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_daily_status_verified_normal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_official_daily_limit_evidence_recorded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_saved_execution_eligible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_saved_cost_model_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_historical_first_available_timestamp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_formal_historical_input_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_current_decision_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "context_calendar_days_column_runtime_usable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "action_column_event_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "action_column_record_date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "action_column_ex_date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_10_field_provider_pairs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "729_contiguous_main_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "484_open_245_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "two_context_excluded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "two_company_actions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "open_view_exact_all_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_unknown_NULL_historical_first_available_at",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_unknown_NULL_historical_revision_available_at",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_unknown_NULL_earliest_model_use_timestamp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_unknown_NULL_native_field_identifier",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "field_units_uncertified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_formal_current_runtime_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_daily_certifications_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "closed_days_missing_status_is_NULL",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "plan_not_observation_or_status_certification",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "raw_response_only_recorded_not_verified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_registry_all_columns",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "run_metadata_one_row",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "metadata_no_market_target_model_score",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_registered_JSON_references_resolve",
+      "passed": true,
+      "details": {
+        "total": 2474,
+        "resolved": 2474,
+        "errors": []
+      }
+    },
+    {
+      "check": "provider_snapshot_manifest_concordance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "readonly_DB_hash_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_15_source_hashes_unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "declared_projection_cells_checked": 8928,
+  "reference_locations_checked": 2474,
+  "database_sha256": "72e41c86997ad21fedc19d266c9ca8b16746d0fdae52d45408642fcfc01530c6",
+  "source_hashes": {
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719",
+    "work/market_warmup_finalize_oct22/manifest.json": "00535dc7b0007bc095e209e44274c96346b8198e021eca1bf5c48069b1c1d56a",
+    "work/market_warmup_finalize_oct22/summary.json": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924",
+    "outputs/高德红外数据库/calendar_audit_result.json": "89805d6a20eb3b87b2aeea64a2ee5d3e54ea6cd67fc67924d3a075e221ee0a03",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296",
+    "work/conditions_finish_oct22/summary.json": "426d85198abdd0fd5602e2794ea2dc8d0bf2c4b53dd12cdf7bb5845bca9032aa",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047",
+    "work/corporate_actions_refine_oct17/corporate_actions.json": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776",
+    "outputs/时间执行与数据准入缺口矩阵_20261102/来源索引与SHA256.json": "a236d9bbcb1f350e8a9ae0aae542bcf8c8cc9d63c7c248538ef3e316e09a238e"
+  },
+  "scientific_sources_read": [
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json",
+    "outputs/高德红外数据库/calendar_audit_result.json",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json",
+    "work/baseline_oct25/engineering_contract.json",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json",
+    "work/conditions_finish_oct22/rule_regimes.json",
+    "work/corporate_actions_refine_oct17/corporate_actions.json",
+    "work/market_industry_oct22/input_admission.json",
+    "work/market_industry_oct22/manifest.json",
+    "work/market_warmup_finalize_oct22/summary.json"
+  ],
+  "raw_price_responses_read": false,
+  "target_databases_read": false,
+  "new_labels": 0,
+  "new_models": 0,
+  "new_scores": 0,
+  "outcomes_2025_2026_opened": false,
+  "interpretation": "Certifies metadata source/NULL/projection correspondence only; no historical PIT, execution/cost or predictive certification."
+}

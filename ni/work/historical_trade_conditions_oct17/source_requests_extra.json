@@ -1,0 +1,83 @@
+[
+  {
+    "name": "rules_2023_pdf",
+    "url": "https://docs.static.szse.cn/www/lawrules/index/rule/W020230217564423808793.pdf",
+    "retrieved_at": "2026-10-18T03:11:59.216052+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "rules_2023_notice_retry",
+    "url": "https://www.szse.cn/lawrules/index/rule/t20230217_598773.html",
+    "retrieved_at": "2026-10-18T03:11:59.216627+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "name": "rules_2026_notice_retry",
+    "url": "https://www.szse.cn/lawrules/rule/trade/t20260424_620190.html",
+    "retrieved_at": "2026-10-18T03:11:59.216743+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.szse.cn/lawrules/rule/trade/t20260424_620190.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 19302,
+    "sha256": "0dcb0971ac96123f369178ce8f5397d948190d41281175694664de1d1dd4dce5",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2026_notice_retry_0dcb0971ac96123f.html"
+  },
+  {
+    "name": "first_registered_mainboard_20230410",
+    "url": "https://www.szse.cn/aboutus/trends/news/t20230410_599854.html",
+    "retrieved_at": "2026-10-18T03:12:00.080143+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.szse.cn/aboutus/trends/news/t20230410_599854.html",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 16457,
+    "sha256": "16f953ac2bd11a0bf72bb81ba20d10aaaa0a0b6d2456018c337340c91524c243",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/first_registered_mainboard_20230410_16f953ac2bd11a0b.html"
+  },
+  {
+    "name": "stamp_law_2021",
+    "url": "https://www.hengqin.gov.cn/lab/flfg/fl/content/post_3517835.html",
+    "retrieved_at": "2026-10-18T03:12:00.088389+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.hengqin.gov.cn/lab/flfg/fl/content/post_3517835.html",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 64308,
+    "sha256": "767e184c214288684f7678b7c5eaea9a9d71946047cda0de4e711f857153f7b3",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/stamp_law_2021_767e184c21428868.html"
+  },
+  {
+    "name": "chinaclear_fees_2026",
+    "url": "https://www.chinaclear.cn/zdjs/fbzyls/202512/a59388fbfa714c5fa546784891a42e30/files/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%9C%BA%E8%AF%81%E5%88%B8%E7%99%BB%E8%AE%B0%E7%BB%93%E7%AE%97%E4%B8%9A%E5%8A%A1%E6%94%B6%E8%B4%B9%E5%8F%8A%E4%BB%A3%E6%94%B6%E7%A8%8E%E8%B4%B9%E4%B8%80%E8%A7%88%E8%A1%A8.pdf",
+    "retrieved_at": "2026-10-18T03:12:00.325422+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.chinaclear.cn/zdjs/fbzyls/202512/a59388fbfa714c5fa546784891a42e30/files/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%9C%BA%E8%AF%81%E5%88%B8%E7%99%BB%E8%AE%B0%E7%BB%93%E7%AE%97%E4%B8%9A%E5%8A%A1%E6%94%B6%E8%B4%B9%E5%8F%8A%E4%BB%A3%E6%94%B6%E7%A8%8E%E8%B4%B9%E4%B8%80%E8%A7%88%E8%A1%A8.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 114722,
+    "sha256": "dff4a06ce20e180f4a85ddae138211dcf7dd3246fb84775453cfd21cbaec6573",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_fees_2026_dff4a06ce20e180f.pdf"
+  },
+  {
+    "name": "chinaclear_fee_list",
+    "url": "https://www.chinaclear.cn/zdjs/fbzyls/service_tlist/code_0.shtml",
+    "retrieved_at": "2026-10-18T03:12:00.937289+00:00",
+    "method": "GET",
+    "primary_source": true,
+    "final_url": "https://www.chinaclear.cn/zdjs/fbzyls/service_tlist/code_0.shtml",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes": 2341,
+    "sha256": "a442b6304f6d9cb70bf6faa5f69960fc692d72e04cf5eeb74f95453390cf4643",
+    "raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_fee_list_a442b6304f6d9cb7.html"
+  }
+]

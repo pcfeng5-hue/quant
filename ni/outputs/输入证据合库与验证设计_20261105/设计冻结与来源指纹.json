@@ -1,0 +1,16 @@
+{
+  "protocol_file": "买入还是等待_研究候选BW17_冻结v1.json",
+  "canonical_json_sha256": "1e6a7240cc9b3f1694505c24a5fa11695bd6d6fe70c08a32712c8d2ea731ebb9",
+  "file_sha256": "294f39937e30632451a1293ff7f27c1e4c4b71fa7c83944934a4fc79b552159b",
+  "source_hashes": {
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776",
+    "outputs/下一阶段路线决策_20261104/路线选择与准入门.json": "6e260c1d3997617c4b7ff42770d0e9710dfdff516965406b9101569e7ed8ba8b",
+    "outputs/下一阶段路线决策_20261104/下一批有限工程任务书.json": "9c6c4db7e99b55ecd64b94e98aca2cf6c6b01441063e87a9a54631cc04b83f64",
+    "outputs/输入证据合库与验证设计_20261105/字段时点与版本台账.json": "09e9b20e31ed1aa47b7ada6e0f09fd63b86bc550e932c5d700a8409b24eff404",
+    "outputs/输入证据合库与验证设计_20261105/计划日与状态来源索引.json": "a73af41e1c7bb26dc00c46da48c88ce9d894b354d78a3f4d567b41783cacb7a7"
+  },
+  "new_user_confirmation_file_sha256": "0ba3c82dfb901a3bcb529151d082b9b490f5b02547bbedd2614d4f941a790019",
+  "frozen_before_real_labels_models_scores": true,
+  "fully_executable_prediction_protocol": false,
+  "future_changes_require_new_registration": true
+}

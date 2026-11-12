@@ -1,0 +1,29 @@
+{
+  "reviewed_on": "2026-10-14",
+  "scope": "official_public_pages_read_only",
+  "registration": {
+    "home": "https://tushare.pro/",
+    "target_from_home_register_link": "https://tushare.pro/weborder/",
+    "manual": "https://tushare.pro/document/1?doc_id=38",
+    "javascript_required": true,
+    "canada_phone_support": "not_confirmed"
+  },
+  "contact": {
+    "source": "https://tushare.pro/document/1?doc_id=11",
+    "email": "waditu@163.com",
+    "public_account_display_name": "挖地兔",
+    "public_account_id": "waditu",
+    "custom_service_page": "https://tushare.pro/document/1?doc_id=12",
+    "custom_service_wechat": "waditu_a"
+  },
+  "interfaces": [
+    {"interface": "cyq_perf", "url": "https://tushare.pro/document/2?doc_id=293", "minimum_points_documented": 5000, "historical_start_year_claim": 2018, "public_sample_symbol": "600000.SH", "public_sample_year": 2022},
+    {"interface": "cyq_chips", "url": "https://tushare.pro/document/2?doc_id=294", "minimum_points_documented": 5000, "historical_start_year_claim": 2018, "maximum_rows_per_request": 6000, "public_sample_symbol": "600000.SH", "public_sample_year": 2022}
+  ],
+  "permission_table": {"url": "https://tushare.pro/document/1?doc_id=290", "chip_inclusive_points_tier": 10000, "individual_price_cny_per_year": 1000, "minimum_permission_conflict": "unresolved_official_confirmation_needed"},
+  "actual_002414_historical_chip_sample": "not_acquired",
+  "free_002414_history_download": "not_found_in_official_pages_checked",
+  "contact_sent": false,
+  "purchase_made": false,
+  "credentials_read": false
+}

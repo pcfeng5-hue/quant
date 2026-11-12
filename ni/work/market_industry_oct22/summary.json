@@ -1,0 +1,344 @@
+{
+  "as_of_requested": "2026-10-21",
+  "main_database_mutated": false,
+  "successful_requests": 14,
+  "failed_requests": [],
+  "all_request_rows": 11806,
+  "deduplicated_rows": 11600,
+  "same_provider_duplicate_conflicts": 0,
+  "raw_hash_checks": [
+    {
+      "id": "em_000001.SH_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_000001.SH_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "em_399001.SZ_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_399001.SZ_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "em_399967.SZ_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_399967.SZ_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "em_002414.SZ_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_002414.SZ_0",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "em_002414.SZ_1",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_002414.SZ_1",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "csi_399967_methodology_v1_2",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_002414.SZ_1_year2022",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_002414.SZ_1_year2023",
+      "matches": true,
+      "bytes_match": true
+    },
+    {
+      "id": "tencent_002414.SZ_1_year2024",
+      "matches": true,
+      "bytes_match": true
+    }
+  ],
+  "all_raw_hashes_match": true,
+  "rejections": 0,
+  "coverage": [
+    {
+      "symbol": "000001.SH",
+      "source": "eastmoney",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "000001.SH",
+      "source": "tencent",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "002414.SZ",
+      "source": "eastmoney",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "002414.SZ",
+      "source": "eastmoney",
+      "adjustment": "1",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "002414.SZ",
+      "source": "tencent",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "002414.SZ",
+      "source": "tencent",
+      "adjustment": "1",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399001.SZ",
+      "source": "eastmoney",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399001.SZ",
+      "source": "tencent",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399967.SZ",
+      "source": "eastmoney",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399967.SZ",
+      "source": "tencent",
+      "adjustment": "0",
+      "rows": 1160,
+      "start": "2022-01-04",
+      "end": "2026-10-21",
+      "warmup_2022": 242,
+      "research_2023_onward": 918
+    }
+  ],
+  "alignment": {
+    "reference": "Observed Eastmoney date sets, not an independently audited official exchange calendar",
+    "union_dates": 1160,
+    "common_dates": 1160,
+    "start": "2022-01-04",
+    "end": "2026-10-21",
+    "missing_relative_to_union": {
+      "000001.SH": [],
+      "399001.SZ": [],
+      "399967.SZ": [],
+      "002414.SZ": []
+    }
+  },
+  "cross_source": [
+    {
+      "symbol": "000001.SH",
+      "name": "上证指数",
+      "adjustment": "0",
+      "overlap": 1160,
+      "matching_ohlcv_dates": 1082,
+      "price_difference_dates": 1,
+      "volume_difference_dates": 77,
+      "field_differences": {
+        "volume_raw": 77,
+        "close": 1
+      },
+      "only_eastmoney": [],
+      "only_tencent": [],
+      "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+    },
+    {
+      "symbol": "399001.SZ",
+      "name": "深证成指",
+      "adjustment": "0",
+      "overlap": 1160,
+      "matching_ohlcv_dates": 869,
+      "price_difference_dates": 1,
+      "volume_difference_dates": 291,
+      "field_differences": {
+        "volume_raw": 291,
+        "high": 1
+      },
+      "only_eastmoney": [],
+      "only_tencent": [],
+      "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+    },
+    {
+      "symbol": "399967.SZ",
+      "name": "中证军工",
+      "adjustment": "0",
+      "overlap": 1160,
+      "matching_ohlcv_dates": 1151,
+      "price_difference_dates": 3,
+      "volume_difference_dates": 6,
+      "field_differences": {
+        "volume_raw": 6,
+        "high": 2,
+        "open": 1
+      },
+      "only_eastmoney": [],
+      "only_tencent": [],
+      "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+    },
+    {
+      "symbol": "002414.SZ",
+      "name": "高德红外",
+      "adjustment": "0",
+      "overlap": 1160,
+      "matching_ohlcv_dates": 1160,
+      "price_difference_dates": 0,
+      "volume_difference_dates": 0,
+      "field_differences": {},
+      "only_eastmoney": [],
+      "only_tencent": [],
+      "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+    },
+    {
+      "symbol": "002414.SZ",
+      "name": "高德红外",
+      "adjustment": "1",
+      "overlap": 1160,
+      "matching_ohlcv_dates": 1160,
+      "price_difference_dates": 0,
+      "volume_difference_dates": 0,
+      "field_differences": {},
+      "only_eastmoney": [],
+      "only_tencent": [],
+      "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+    }
+  ],
+  "stock_baseline_revision": [
+    {
+      "source": "eastmoney",
+      "adjustment": "0",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    },
+    {
+      "source": "eastmoney",
+      "adjustment": "1",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    },
+    {
+      "source": "tencent",
+      "adjustment": "0",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    },
+    {
+      "source": "tencent",
+      "adjustment": "1",
+      "common_dates": 1157,
+      "changed_ohlcv_dates": 0,
+      "new_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21"
+      ]
+    }
+  ],
+  "industry_identity": {
+    "symbol": "399967.SZ",
+    "name": "中证军工指数",
+    "provider": "中证指数有限公司",
+    "methodology_version": "2023年12月 V1.2",
+    "official_url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/20231208175428-399967_Index_Methodology_cn.pdf",
+    "official_saved_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_industry_oct22/raw/csi_399967_methodology_v1_2_cb73c7a56453aa32.pdf",
+    "official_sha256": "cb73c7a56453aa32ab1533ca406f0bcd11fba9feebde6282e39a8bc306f07384",
+    "pages": 2,
+    "text_contains_code": true,
+    "proxy_use": "Military industry background context only",
+    "historical_membership_of_002414_verified": false,
+    "all_historical_methodology_versions_verified": false,
+    "not_total_return": "Daily price index; do not relabel as reinvested total return"
+  },
+  "gaps": [
+    "Full-market historical advance/decline breadth unavailable in this round",
+    "Historical thematic/industry member lists not obtained",
+    "002414 membership in 399967 has not been certified for any historical date",
+    "Index volume units and constituent/market coverage not formally certified; do not pool or splice across providers",
+    "Historical vendor adjustment factors and point-in-time vintages not obtained",
+    "No indicators, returns, probabilities, or profitable-strategy claims computed"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "progress_sha256": "2c9e78e0d75f009a50f5a3d2b088c98c150eb988f438399546a155483ad53807",
+  "pointer_sha256": "9c2199bf970c3feeea5b3891d8b25c0bdc4f45ee2d59ad339f505c38df5f5a7b",
+  "state_sha256": "6bbfafaa690a7b39a467018515871b8cdb5609713a869d3e743d89f083d4e176",
+  "release_audit_sha256": "ee1239cc9660f6afc83b3aa35dd3a6fe20546bc86c1edafa519ce4b74f890b42",
+  "pointer_readback_matches": true
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "check": "51_candidates_join_existing_ids",
+    "passed": true
+  },
+  {
+    "check": "28_observations_all_numbers_present_in_source_page",
+    "passed": true
+  },
+  {
+    "check": "24_arithmetic_rows_pass_4_blank_rows_preserved",
+    "passed": true
+  },
+  {
+    "check": "all_79_review_rows_historical_input_false",
+    "passed": true
+  },
+  {
+    "check": "4_official_pdf_hashes_match_original",
+    "passed": true
+  },
+  {
+    "check": "8_selected_rendered_pages_recorded",
+    "passed": true
+  }
+]

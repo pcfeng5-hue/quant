@@ -1,0 +1,836 @@
+{
+  "audit_date_local": "2026-10-16",
+  "created_at_utc": "2026-10-16T15:36:15.380155+00:00",
+  "audit_scope": "只读现有HTML/AX/截图/root_observations；无UI、网络、主库或正式文件操作。",
+  "fact_conclusion": "2023-06-20在保存的相同日期、相同前复权控件显示、相同行情提示数据下，存在两个不同的筹码摘要。B与A2一致，reload不同。只能认定摘要复现尚未通过，不能裁定哪版正确或确定原因。",
+  "complete_artifact_observations": [
+    {
+      "stem": "B_20230620",
+      "summary": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.68%",
+        "avg_cost": "9.03",
+        "cost90": "7.66-11.77",
+        "concentration90": "21.20%",
+        "cost70": "8.20-10.81",
+        "concentration70": "13.72%"
+      },
+      "ax": {
+        "adjustment_control_display": "前复权",
+        "adjustment_line": 217,
+        "market_tooltip": {
+          "时间": "2023-06-20",
+          "开盘": "7.63",
+          "收盘": "7.68",
+          "最高": "7.71",
+          "最低": "7.61",
+          "涨跌幅": "1.19%",
+          "涨跌额": "0.09",
+          "成交量": "18.51万",
+          "成交额": "1.44亿",
+          "振幅": "1.32%",
+          "换手率": "0.54%"
+        },
+        "market_line_refs": {
+          "时间": [
+            225,
+            227
+          ],
+          "开盘": [
+            229,
+            231
+          ],
+          "收盘": [
+            233,
+            235
+          ],
+          "最高": [
+            237,
+            239
+          ],
+          "最低": [
+            241,
+            243
+          ],
+          "涨跌幅": [
+            245,
+            247
+          ],
+          "涨跌额": [
+            249,
+            251
+          ],
+          "成交量": [
+            253,
+            255
+          ],
+          "成交额": [
+            257,
+            259
+          ],
+          "振幅": [
+            261,
+            263
+          ],
+          "换手率": [
+            265,
+            267
+          ]
+        },
+        "chip_summary": {
+          "date": "2023-06-20",
+          "profit_ratio": "6.68%",
+          "avg_cost": "9.03",
+          "cost90": "7.66-11.77",
+          "concentration90": "21.20%",
+          "cost70": "8.20-10.81",
+          "concentration70": "13.72%"
+        },
+        "chip_line_refs": {
+          "date": [
+            270,
+            272
+          ],
+          "profit_ratio": [
+            274,
+            276
+          ],
+          "avg_cost": [
+            282,
+            284
+          ],
+          "cost90": [
+            286,
+            288
+          ],
+          "concentration90": [
+            290,
+            292
+          ],
+          "cost70": [
+            294,
+            296
+          ],
+          "concentration70": [
+            298,
+            300
+          ]
+        }
+      },
+      "html_ax_date_and_summary_match": true,
+      "screenshot_visual_review": {
+        "performed": true,
+        "confirms": [
+          "前复权控件显示",
+          "筹码面板日期",
+          "筹码摘要值"
+        ],
+        "limitation": "左侧行情提示框部分裁剪，完整OHLC依据对应AX文本，不将截图当作全部行情数字的独立读数。"
+      },
+      "sources": {
+        "html": "work/chip_history_root_oct16/B_20230620_table.html",
+        "ax": "work/chip_history_root_oct16/B_20230620_ax.txt",
+        "screenshot": "work/chip_history_root_oct16/B_20230620.jpg"
+      }
+    },
+    {
+      "stem": "A2_20230620",
+      "summary": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.68%",
+        "avg_cost": "9.03",
+        "cost90": "7.66-11.77",
+        "concentration90": "21.20%",
+        "cost70": "8.20-10.81",
+        "concentration70": "13.72%"
+      },
+      "ax": {
+        "adjustment_control_display": "前复权",
+        "adjustment_line": 217,
+        "market_tooltip": {
+          "时间": "2023-06-20",
+          "开盘": "7.63",
+          "收盘": "7.68",
+          "最高": "7.71",
+          "最低": "7.61",
+          "涨跌幅": "1.19%",
+          "涨跌额": "0.09",
+          "成交量": "18.51万",
+          "成交额": "1.44亿",
+          "振幅": "1.32%",
+          "换手率": "0.54%"
+        },
+        "market_line_refs": {
+          "时间": [
+            225,
+            227
+          ],
+          "开盘": [
+            229,
+            231
+          ],
+          "收盘": [
+            233,
+            235
+          ],
+          "最高": [
+            237,
+            239
+          ],
+          "最低": [
+            241,
+            243
+          ],
+          "涨跌幅": [
+            245,
+            247
+          ],
+          "涨跌额": [
+            249,
+            251
+          ],
+          "成交量": [
+            253,
+            255
+          ],
+          "成交额": [
+            257,
+            259
+          ],
+          "振幅": [
+            261,
+            263
+          ],
+          "换手率": [
+            265,
+            267
+          ]
+        },
+        "chip_summary": {
+          "date": "2023-06-20",
+          "profit_ratio": "6.68%",
+          "avg_cost": "9.03",
+          "cost90": "7.66-11.77",
+          "concentration90": "21.20%",
+          "cost70": "8.20-10.81",
+          "concentration70": "13.72%"
+        },
+        "chip_line_refs": {
+          "date": [
+            270,
+            272
+          ],
+          "profit_ratio": [
+            274,
+            276
+          ],
+          "avg_cost": [
+            282,
+            284
+          ],
+          "cost90": [
+            286,
+            288
+          ],
+          "concentration90": [
+            290,
+            292
+          ],
+          "cost70": [
+            294,
+            296
+          ],
+          "concentration70": [
+            298,
+            300
+          ]
+        }
+      },
+      "html_ax_date_and_summary_match": true,
+      "screenshot_visual_review": {
+        "performed": true,
+        "confirms": [
+          "前复权控件显示",
+          "筹码面板日期",
+          "筹码摘要值"
+        ],
+        "limitation": "左侧行情提示框部分裁剪，完整OHLC依据对应AX文本，不将截图当作全部行情数字的独立读数。"
+      },
+      "sources": {
+        "html": "work/chip_history_root_oct16/A2_20230620_table.html",
+        "ax": "work/chip_history_root_oct16/A2_20230620_ax.txt",
+        "screenshot": "work/chip_history_root_oct16/A2_20230620.jpg"
+      }
+    },
+    {
+      "stem": "reload_20230620",
+      "summary": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.20%",
+        "avg_cost": "9.03",
+        "cost90": "7.60-11.34",
+        "concentration90": "19.76%",
+        "cost70": "8.20-10.29",
+        "concentration70": "11.29%"
+      },
+      "ax": {
+        "adjustment_control_display": "前复权",
+        "adjustment_line": 217,
+        "market_tooltip": {
+          "时间": "2023-06-20",
+          "开盘": "7.63",
+          "收盘": "7.68",
+          "最高": "7.71",
+          "最低": "7.61",
+          "涨跌幅": "1.19%",
+          "涨跌额": "0.09",
+          "成交量": "18.51万",
+          "成交额": "1.44亿",
+          "振幅": "1.32%",
+          "换手率": "0.54%"
+        },
+        "market_line_refs": {
+          "时间": [
+            225,
+            227
+          ],
+          "开盘": [
+            229,
+            231
+          ],
+          "收盘": [
+            233,
+            235
+          ],
+          "最高": [
+            237,
+            239
+          ],
+          "最低": [
+            241,
+            243
+          ],
+          "涨跌幅": [
+            245,
+            247
+          ],
+          "涨跌额": [
+            249,
+            251
+          ],
+          "成交量": [
+            253,
+            255
+          ],
+          "成交额": [
+            257,
+            259
+          ],
+          "振幅": [
+            261,
+            263
+          ],
+          "换手率": [
+            265,
+            267
+          ]
+        },
+        "chip_summary": {
+          "date": "2023-06-20",
+          "profit_ratio": "6.20%",
+          "avg_cost": "9.03",
+          "cost90": "7.60-11.34",
+          "concentration90": "19.76%",
+          "cost70": "8.20-10.29",
+          "concentration70": "11.29%"
+        },
+        "chip_line_refs": {
+          "date": [
+            270,
+            272
+          ],
+          "profit_ratio": [
+            274,
+            276
+          ],
+          "avg_cost": [
+            282,
+            284
+          ],
+          "cost90": [
+            286,
+            288
+          ],
+          "concentration90": [
+            290,
+            292
+          ],
+          "cost70": [
+            294,
+            296
+          ],
+          "concentration70": [
+            298,
+            300
+          ]
+        }
+      },
+      "html_ax_date_and_summary_match": true,
+      "screenshot_visual_review": {
+        "performed": true,
+        "confirms": [
+          "前复权控件显示",
+          "筹码面板日期",
+          "筹码摘要值"
+        ],
+        "limitation": "左侧行情提示框部分裁剪，完整OHLC依据对应AX文本，不将截图当作全部行情数字的独立读数。"
+      },
+      "sources": {
+        "html": "work/chip_history_root_oct16/reload_20230620_table.html",
+        "ax": "work/chip_history_root_oct16/reload_20230620_ax.txt",
+        "screenshot": "work/chip_history_root_oct16/reload_20230620.jpg"
+      }
+    },
+    {
+      "stem": "20230103",
+      "summary": {
+        "date": "2023-01-03",
+        "profit_ratio": "5.85%",
+        "avg_cost": "9.30",
+        "cost90": "8.41-13.01",
+        "concentration90": "21.47%",
+        "cost70": "8.75-11.36",
+        "concentration70": "12.97%"
+      },
+      "ax": {
+        "adjustment_control_display": "前复权",
+        "adjustment_line": 217,
+        "market_tooltip": {
+          "时间": "2023-01-03",
+          "开盘": "8.22",
+          "收盘": "8.42",
+          "最高": "8.46",
+          "最低": "8.19",
+          "涨跌幅": "2.06%",
+          "涨跌额": "0.17",
+          "成交量": "12.09万",
+          "成交额": "1.35亿",
+          "振幅": "3.27%",
+          "换手率": "0.46%"
+        },
+        "market_line_refs": {
+          "时间": [
+            225,
+            227
+          ],
+          "开盘": [
+            229,
+            231
+          ],
+          "收盘": [
+            233,
+            235
+          ],
+          "最高": [
+            237,
+            239
+          ],
+          "最低": [
+            241,
+            243
+          ],
+          "涨跌幅": [
+            245,
+            247
+          ],
+          "涨跌额": [
+            249,
+            251
+          ],
+          "成交量": [
+            253,
+            255
+          ],
+          "成交额": [
+            257,
+            259
+          ],
+          "振幅": [
+            261,
+            263
+          ],
+          "换手率": [
+            265,
+            267
+          ]
+        },
+        "chip_summary": {
+          "date": "2023-01-03",
+          "profit_ratio": "5.85%",
+          "avg_cost": "9.30",
+          "cost90": "8.41-13.01",
+          "concentration90": "21.47%",
+          "cost70": "8.75-11.36",
+          "concentration70": "12.97%"
+        },
+        "chip_line_refs": {
+          "date": [
+            270,
+            272
+          ],
+          "profit_ratio": [
+            274,
+            276
+          ],
+          "avg_cost": [
+            282,
+            284
+          ],
+          "cost90": [
+            286,
+            288
+          ],
+          "concentration90": [
+            290,
+            292
+          ],
+          "cost70": [
+            294,
+            296
+          ],
+          "concentration70": [
+            298,
+            300
+          ]
+        }
+      },
+      "html_ax_date_and_summary_match": true,
+      "screenshot_visual_review": {
+        "performed": true,
+        "confirms": [
+          "前复权控件显示",
+          "筹码面板日期",
+          "筹码摘要值"
+        ],
+        "limitation": "左侧行情提示框部分裁剪，完整OHLC依据对应AX文本，不将截图当作全部行情数字的独立读数。"
+      },
+      "sources": {
+        "html": "work/chip_history_root_oct16/20230103_table.html",
+        "ax": "work/chip_history_root_oct16/20230103_ax.txt",
+        "screenshot": "work/chip_history_root_oct16/20230103.jpg"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "B_20230620",
+      "right": "A2_20230620",
+      "same_summary_date": true,
+      "same_adjustment_control_display": true,
+      "same_full_market_tooltip": true,
+      "summary_differences": {}
+    },
+    {
+      "left": "B_20230620",
+      "right": "reload_20230620",
+      "same_summary_date": true,
+      "same_adjustment_control_display": true,
+      "same_full_market_tooltip": true,
+      "summary_differences": {
+        "profit_ratio": {
+          "left": "6.68%",
+          "right": "6.20%"
+        },
+        "cost90": {
+          "left": "7.66-11.77",
+          "right": "7.60-11.34"
+        },
+        "concentration90": {
+          "left": "21.20%",
+          "right": "19.76%"
+        },
+        "cost70": {
+          "left": "8.20-10.81",
+          "right": "8.20-10.29"
+        },
+        "concentration70": {
+          "left": "13.72%",
+          "right": "11.29%"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "complete_html_ax_screenshot_sets": 4,
+    "complete_sets_unique_historical_dates": 2,
+    "complete_sets_dates": [
+      "2023-01-03",
+      "2023-06-20"
+    ],
+    "complete_sets_observations_for_june20": 3,
+    "complete_sets_distinct_summaries_for_june20": 2,
+    "complete_sets_identical_summary_repeat_observations_beyond_first": 1,
+    "complete_sets_repeat_same_date_observations_beyond_one_per_date": 2,
+    "root_ledger_total_rows": 8,
+    "root_ledger_excluded_default_latest_rows": 1,
+    "root_ledger_historical_rows_after_exclusion": 7,
+    "root_ledger_unique_historical_dates": 4,
+    "root_ledger_unique_historical_date_values": [
+      "2023-01-03",
+      "2023-06-01",
+      "2023-06-20",
+      "2023-06-21"
+    ],
+    "root_ledger_june20_observations": 4,
+    "root_ledger_june20_distinct_summaries": 2,
+    "root_ledger_historical_exact_repeat_rows_beyond_first": 2,
+    "complete_price_bin_distribution_dates_certified": 0,
+    "count_interpretation": "全证据文件支持2个唯一历史日期。root账本还记有6月1日和6月21日，缺独立成套截图/AX/HTML，单独列账本层，不把4日说成4日均完成成套核验。重复观测或摘要版本不增加历史日期覆盖，也不是独立统计样本。"
+  },
+  "ledger_review": [
+    {
+      "row_number_1_based": 1,
+      "values": {
+        "date": "2026-10-16",
+        "profit_ratio": "2.10%",
+        "avg_cost": "13.08",
+        "cost90": "11.20-14.67",
+        "concentration90": "13.42%",
+        "cost70": "12.14-14.02",
+        "concentration70": "7.17%"
+      },
+      "note": "selected candle 2023-06-20",
+      "treat_as_historical_observation": false,
+      "exclusion_reason": "实际表内日期为默认最新2026-10-16，不能按note的目标日期计历史"
+    },
+    {
+      "row_number_1_based": 2,
+      "values": {
+        "date": "2023-06-01",
+        "profit_ratio": "2.36%",
+        "avg_cost": "9.09",
+        "cost90": "8.11-11.52",
+        "concentration90": "17.33%",
+        "cost70": "8.45-10.79",
+        "concentration70": "12.12%"
+      },
+      "note": "same date after historical pan",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    },
+    {
+      "row_number_1_based": 3,
+      "values": {
+        "date": "2023-06-21",
+        "profit_ratio": "4.33%",
+        "avg_cost": "9.03",
+        "cost90": "7.59-11.77",
+        "concentration90": "21.63%",
+        "cost70": "8.20-10.81",
+        "concentration70": "13.72%"
+      },
+      "note": "repeat after pan; verify actual date from values",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    },
+    {
+      "row_number_1_based": 4,
+      "values": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.68%",
+        "avg_cost": "9.03",
+        "cost90": "7.66-11.77",
+        "concentration90": "21.20%",
+        "cost70": "8.20-10.81",
+        "concentration70": "13.72%"
+      },
+      "note": "2023-06-20 repeat after pan",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    },
+    {
+      "row_number_1_based": 5,
+      "values": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.68%",
+        "avg_cost": "9.03",
+        "cost90": "7.66-11.77",
+        "concentration90": "21.20%",
+        "cost70": "8.20-10.81",
+        "concentration70": "13.72%"
+      },
+      "note": "B context; screenshot and rendered HTML saved",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    },
+    {
+      "row_number_1_based": 6,
+      "values": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.68%",
+        "avg_cost": "9.03",
+        "cost90": "7.66-11.77",
+        "concentration90": "21.20%",
+        "cost70": "8.20-10.81",
+        "concentration70": "13.72%"
+      },
+      "note": "A2 returned viewport after loading earlier history",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    },
+    {
+      "row_number_1_based": 7,
+      "values": {
+        "date": "2023-01-03",
+        "profit_ratio": "5.85%",
+        "avg_cost": "9.30",
+        "cost90": "8.41-13.01",
+        "concentration90": "21.47%",
+        "cost70": "8.75-11.36",
+        "concentration70": "12.97%"
+      },
+      "note": "Jan03 synchronized after moving to adjacent candle and back",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    },
+    {
+      "row_number_1_based": 8,
+      "values": {
+        "date": "2023-06-20",
+        "profit_ratio": "6.20%",
+        "avg_cost": "9.03",
+        "cost90": "7.60-11.34",
+        "concentration90": "19.76%",
+        "cost70": "8.20-10.29",
+        "concentration70": "11.29%"
+      },
+      "note": "fresh page reload; selected actual date checked",
+      "treat_as_historical_observation": true,
+      "exclusion_reason": null
+    }
+  ],
+  "excluded_diagnostic": {
+    "path": "work/chip_history_root_oct16/unsynchronized_after_idle_table.html",
+    "actual_values": {
+      "date": "2026-10-16",
+      "profit_ratio": "2.10%",
+      "avg_cost": "13.08",
+      "cost90": "11.20-14.67",
+      "concentration90": "13.42%",
+      "cost70": "12.14-14.02",
+      "concentration70": "7.17%"
+    },
+    "historical_sample_eligible": false,
+    "reason": "异步/空闲后未同步选择的默认最新读数；只作同步失败诊断。"
+  },
+  "supported_facts": [
+    "网页保存证据确实可回看到2023-01-03的筹码摘要，行情日期与筹码日期一致。",
+    "2023-06-20的B与A2摘要相同；reload在5项摘要不同，平均成本同为9.03。",
+    "三份2023-06-20 AX的开7.63/收7.68/高7.71/低7.61，以及量额换手等提示完全相同；前复权控件显示均相同。",
+    "两个相同摘要出现在不同可见历史窗口中；另一次reload摘要不同，说明当前证据不足以把所有回看读数当作唯一稳定历史版本。"
+  ],
+  "cannot_assert": [
+    "不能仅凭reload差异断定某版本正确、供应商数据错误、页面算法错误或历史重绘。",
+    "不能断定加载历史长度、视窗跨度、缓存、初始化、异步状态、供应商修订或复权机制是确定原因；尚无控制变量和官方算法/版本证据。",
+    "相同前复权控件只认证可见主图选择，不证明筹码算法实际使用同一复权基准、初始化数据或价格档位。",
+    "这次不是独立复权/公司行动正确性认证；2023-06-20恰有权益事件，不能据此推断因果。",
+    "摘要与分布形状截图都不是完整价格档位、权重和算法版本数据；不能声称已建成2023起完整筹码库或有完整历史模型准入。",
+    "root_observations中的操作note不是日期证据；必须采用实际面板日期，不把最新或相邻日按目标日期重标。",
+    "截图/AX/HTML是当前回看观察，不证明2023当时已公开或当时算法版本相同。"
+  ],
+  "recommended_next_acceptance": [
+    "保持两版本及原件，禁止静默择一覆盖。",
+    "后续在明示相同日期、可见复权状态、加载历史范围等记录下做受控复验；每次读数同时校对行情日期和筹码日期。",
+    "若不能确定稳定口径或取得算法/版本说明，继续作为网页观察证据，暂不升格为合格历史预测输入。"
+  ],
+  "checks": {
+    "four_artifact_sets_read": true,
+    "html_ax_dates_summaries_consistent": true,
+    "four_local_screenshots_visually_reviewed": true,
+    "june20_three_complete_artifact_sets": true,
+    "june20_control_same": true,
+    "june20_market_tooltip_same": true,
+    "B_A2_summary_same": true,
+    "reload_five_summary_fields_differ": true,
+    "january03_market_and_chip_date_synchronized": true,
+    "unsynchronized_diagnostic_excluded": true
+  },
+  "source_manifest": [
+    {
+      "path": "work/chip_history_root_oct16/20230103.jpg",
+      "sha256": "eb4a4ff25663ae3e9a38ef05c4e39f2f3c537f27349d01c5c30f00a429b9ec48",
+      "bytes": 100410
+    },
+    {
+      "path": "work/chip_history_root_oct16/20230103_ax.txt",
+      "sha256": "cae84f333d7714dad4cb8ec3020f21e45a4f66c8193b0d1e10501e4a8205adc3",
+      "bytes": 58842
+    },
+    {
+      "path": "work/chip_history_root_oct16/20230103_table.html",
+      "sha256": "d22f1480aa77d02e3f820918d0e04558999d1a31b8c9c020d1ff560b3699f37b",
+      "bytes": 1102
+    },
+    {
+      "path": "work/chip_history_root_oct16/A2_20230620.jpg",
+      "sha256": "fdfe88c922d3e051fd88fa379c2c7c32171693874e99d8ef904d40e1a9770d81",
+      "bytes": 105058
+    },
+    {
+      "path": "work/chip_history_root_oct16/A2_20230620_ax.txt",
+      "sha256": "db49330dec6582c5c56c10c71cda756235af4f933f9c0e7ecd99700ff3397bf3",
+      "bytes": 58842
+    },
+    {
+      "path": "work/chip_history_root_oct16/A2_20230620_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102
+    },
+    {
+      "path": "work/chip_history_root_oct16/B_20230620.jpg",
+      "sha256": "3b9fb98a621ab38c383f02c968d0104e1af5d360b3feaa288e73245d92c2d29f",
+      "bytes": 101499
+    },
+    {
+      "path": "work/chip_history_root_oct16/B_20230620_ax.txt",
+      "sha256": "d6e6fdd60aa5d1976efba71474559340455f73b36afb94b84d1ddcc9a71c3c45",
+      "bytes": 58842
+    },
+    {
+      "path": "work/chip_history_root_oct16/B_20230620_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102
+    },
+    {
+      "path": "work/chip_history_root_oct16/archive_evidence.py",
+      "sha256": "47e73548ad2731ff9a15c099260ae37be251c5ec377147db27c99e16e54c3dd6",
+      "bytes": 4359
+    },
+    {
+      "path": "work/chip_history_root_oct16/reload_20230620.jpg",
+      "sha256": "a28512a1386b664c8cbb6543ae88221c30d11f1872890313df3fc7c4f49755a5",
+      "bytes": 105050
+    },
+    {
+      "path": "work/chip_history_root_oct16/reload_20230620_ax.txt",
+      "sha256": "b643ac48167147cbba8e42f819dd8df96a8dc75042d0311ae65b592fcb550f14",
+      "bytes": 58836
+    },
+    {
+      "path": "work/chip_history_root_oct16/reload_20230620_table.html",
+      "sha256": "907124f230b2ef42faa34949617ee56cde3f2d5a7afad42249de00223a82c9a5",
+      "bytes": 1102
+    },
+    {
+      "path": "work/chip_history_root_oct16/root_observations.json",
+      "sha256": "21deb8e856a20e9a4bd95538446677bb7ad56be2cc5293c1d700b65a2e31628d",
+      "bytes": 2390
+    },
+    {
+      "path": "work/chip_history_root_oct16/unsynchronized_after_idle_table.html",
+      "sha256": "9c65b0564dac0000f9b1b72b638ba9431c8461aaea94a9e4e13ec2cf5b7b6446",
+      "bytes": 1104
+    }
+  ],
+  "source_files_unchanged": true
+}

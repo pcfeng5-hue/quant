@@ -1,0 +1,204 @@
+{
+  "protocol_id": "BW17_002414_buy_vs_wait_H10_W2_v1",
+  "client_date": "2026-11-05",
+  "status": "candidate_definition_frozen_evidence_bindings_missing_not_executable",
+  "frozen_at_utc": "2026-11-05T16:21:59.384922+00:00",
+  "purpose": "Study one predeclared cash-entry policy comparison for the confirmed after-close pullback question; this is not a current forecast or a claim of profitable timing",
+  "definition_only": true,
+  "scientific_stage": "paired_policy_definition_and_data_admission_before_any_real_labels",
+  "research_selection_id": 17,
+  "registration_basis": {
+    "old_choices": 16,
+    "new_policy_definitions": 1,
+    "new_models": 0,
+    "new_scores": 0,
+    "no_pre_freeze_market_or_target_queries": true,
+    "H5_was_discussion_only_never_frozen_or_scored": true,
+    "source_rationale": "One observable down-close and one observable up-close directly operationalize the user’s premature re-entry/wait question with minimal new thresholds. W2 and other constants are design assumptions, not learned optima or evidence of advantage."
+  },
+  "user_binding": {
+    "first_use_case": "收盘后判断回落时该买入还是继续等待",
+    "H_planned_sessions": 10,
+    "latest_parameter_state_file": "本轮用户确认与参数状态.json",
+    "other_14_user_groups_unconfirmed": true
+  },
+  "scope": {
+    "symbol": "002414.SZ",
+    "starting_research_sleeve": "hypothetical flat cash sleeve only; actual account state unknown",
+    "data_dates_for_future_development_only": [
+      "2023-01-03",
+      "2024-12-31"
+    ],
+    "these_dates_are_previously_seen_development_not_independent_test": true,
+    "targets_2025_2026_isolated": true,
+    "no_cross_2024_endpoint_or_outcome_read": true,
+    "right_boundary_event_status": "RIGHT_CENSORED_DEVELOPMENT_BOUNDARY",
+    "optional_features_not_selected": [
+      "chip_estimates_or_summaries",
+      "MACD",
+      "KDJ",
+      "MA_groups",
+      "volume_groups",
+      "news_or_policy_sentiment",
+      "current_industry_membership",
+      "large_order_or_institutional_identity_proxies"
+    ],
+    "selected_input_families": [
+      "raw_close",
+      "asof_planned_SZSE_calendar",
+      "asof_individual_stock_status",
+      "asof_corporate_action_effective_dates",
+      "historically_applicable_order_and_quantity_rules",
+      "fee_and_execution_model_evidence"
+    ]
+  },
+  "research_constants": {
+    "H_planned_sessions": 10,
+    "max_confirmation_sessions": 2,
+    "starting_cash_CNY": 10000,
+    "decision_cutoff_local": "18:00:00",
+    "decision_timezone": "Asia/Shanghai",
+    "assumed_buy_lot_shares": 100,
+    "cash_return_model": "zero nominal return, explicitly a research scenario not actual interest certification",
+    "no_reinvestment_or_position_additions": true,
+    "research_constants_do_not_change_account_risk": true
+  },
+  "time_and_population": {
+    "session_clock": "d0 is a planned SZSE open date known at its18:00 cutoff; d_j is the jth subsequent as-of planned session; missing/suspended stock bars do not shift the clock or T",
+    "eligibility": "E(d0)=TRUE iff raw_close(d0)<raw_close(d_minus1), both field versions were available by d0_cutoff, both planned adjacent-session observations have certified comparable units and complete contemporaneous status/action evidence, no mechanical action distorts this adjacent-day comparison, and stock eligibility is certified",
+    "false_vs_unknown": "Known non-pullback or known disallowed status is FALSE with reason; missing time/unit/status/action/previous-session price or uncertain eligibility is UNKNOWN, never FALSE",
+    "first_date_missing_previous_session": "retain UNKNOWN; do not substitute prior observed stock bar or silently drop",
+    "mechanical_action_rule": "Do not use any future d1..d10 event to exclude d0 retrospectively. Future corporate actions belong in the policy ledger; unknown required terms make affected wealth/targets unknown and coverage explicit",
+    "input_asof": "version_first_available_at <= each policy decision_cutoff, and revised versions only after their actual availability; fetch timestamps in2026 are not historical availability",
+    "no_late_data_backfill": "Late arrival after18:00 cannot become same-day input; preserve the original unknown/abstention and log later versions separately",
+    "label_maturity": "label_mature_at=max(required realized/modelled fills, terminal mark, rights, accrued liabilities and all necessary validation timestamps); never train before actual maturity; unknown maturity remains unknown"
+  },
+  "paths": {
+    "A_now": {
+      "attempt_session": "d1",
+      "limit_price": "certified raw_close(d0), known at d0 cutoff",
+      "attempts": 1,
+      "entry_when_no_order_eligibility": "known barred=NO_ATTEMPT_BARRED; missing evidence=UNKNOWN_EXECUTION_QUALIFICATION"
+    },
+    "B_wait": {
+      "confirmation_scan_sessions": [
+        "d1",
+        "d2"
+      ],
+      "confirmation": "first j in{1,2} with certified comparable raw_close(dj)>raw_close(dj_minus1), known eligible status and no mechanical-action distortion at dj18:00; any earlier UNKNOWN makes first-confirmation history unresolved, never skip to a convenient later signal",
+      "attempt_session": "d_(j+1) after the first certified confirmation",
+      "limit_price": "certified raw_close(dj), known at dj18:00",
+      "attempts": 1,
+      "last_possible_entry_session": "d3",
+      "known_no_confirmation": "cash path; status NO_TRIGGER, not a zero-return trade",
+      "after_one_attempt_no_fill": "cash path only if no-fill/cancellation certified; do not try again"
+    },
+    "C_cash": {
+      "entry": "none",
+      "wealth": "same initial10000 under declared nominal-zero-cash-return scenario"
+    },
+    "all_paths": {
+      "common_terminal": "T=d10 close, fixed from d0, never reset from later buy",
+      "same_initial_cash_and_allocation_algorithm": true,
+      "no_chasing_no_retry_no_topups": true,
+      "future_B_confirmation_is_a_policy_action_input_not_a_d0_forecast_feature": true
+    }
+  },
+  "order_and_wealth_contract": {
+    "intended_order_window": "one opening-auction limit attempt on the designated planned session, only if historical applicable venue/channel/order and cancellation rules are bound; no same-close or after-hours assumption",
+    "quantity_formula": "q_requested=max{100*k:k>=0, 100*k*limit_price+certified_order_time_fee_upper_bound(100*k,limit_price)<=available_cash}; if lot rule or fee bound is unknown then UNKNOWN, not q=0",
+    "lot_rule_status": "100 is a research assumption; validate its historical applicability or fail the gate, never silently substitute",
+    "partial_and_remaining": "record each fill q_i,p_i,fees_i; remaining cash stays in the sleeve; remaining order cancellation requires a confirmed valid cancellation, otherwise unresolved; no overspend or repeat use of reserved cash",
+    "counterfactual_fill_status": "A/B fills cannot both be identified from daily bars or one actual account trade. A separately frozen and validated execution model must describe price/queue/no-fill/partial-fill/cancellation and label the result MODEL_BASED_COUNTERFACTUAL, never actual realized fills",
+    "daily_open_or_touch_proves_fill": false,
+    "execution_binding": null,
+    "fee_and_tax_binding": null,
+    "corporate_action_and_liability_binding": null,
+    "NAV_formula": "cash_T + shares_T*validated_mark_T + supported_rights_and_receivables_T - unpaid_taxes_fees_other_liabilities_T",
+    "paid_fees_rule": "cash already reflects paid charges; do not subtract twice",
+    "dividend_rule": "cash received and its receivable cannot both remain counted; receivables are not spendable cash before availability",
+    "future_sale_fees": "NAV endpoint has no invented sale; include only applicable accrued/unpaid liabilities, not a fictitious liquidating trade fee",
+    "NAV_not_realized_profit_or_executable_cash": true,
+    "sellability": "record historically lawful sellable quantity and restrictions separately; no assumption that fresh buys can be sold same-day; no purported guaranteed stops",
+    "unknown_end_mark_with_positive_position": "wealth and paired target NULL; do not forward-fill stale mark and certify it",
+    "unknown_execution_fee_or_rights": "affected wealth and paired target NULL, even if one path value is known",
+    "T_plus_1_and_halts": "use certified historical restrictions; no universal2026 rule backfill"
+  },
+  "labels_and_reporting": {
+    "paired_primary_delta": "delta=(NAV_B(T)-NAV_A(T))/initial_cash",
+    "strict_paired_event": "WAIT_HIGHER if delta>0; TIE if delta=0; NOW_HIGHER if delta<0; UNKNOWN if comparison unresolved; exact arithmetic/fee rounding follows validated money conventions, never hidden epsilon",
+    "economic_neutral_band": null,
+    "per_path_cash_relative": "NAV_A/B(T)-NAV_C(T), with strict sign and amount; can lose money even if it wins the paired comparison",
+    "nontrades": "NO_TRIGGER/NO_ATTEMPT_BARRED/KNOWN_UNFILLED/KNOWN_ZERO_AFFORDABLE_QUANTITY are identified cash policies if every necessary condition is known; trade return itself remainsNULL when no trade",
+    "unknown_vs_censored_vs_immature": "store independent eligibility, confirmation, order, terminal, label-maturity states; no single0 code",
+    "denominators": "keep all planned d0 dates, eligibility false/unknown, entered/not-triggered/barred/unfilled/partial/unresolved/censored/immature counts; main paired frequency denominator is only E=TRUE and both terminal paths identified under the declared execution model; disclose loss of coverage and missingness selection",
+    "empirical_frequencies_not_current_forecast": true,
+    "paired_probability_not_difference_of_marginals": true,
+    "required_outputs": [
+      "full cohort and exclusion/unknown ledger",
+      "A/B/C terminal NAV and relative-to-cash amounts",
+      "paired delta signs and distribution",
+      "daily close-mark NAV downside and drawdown only if each mark certified; not intraday guaranteed risk",
+      "exposure days and sellable quantities",
+      "coverage by date/month and each unresolved reason",
+      "all negative/zero/missing results; no winner-quarter selection"
+    ],
+    "phase1_acceptance": "This first candidate is definition-only now. Any later phase1 run is descriptive paired-policy research only; no success threshold, model promotion or current action can follow from selecting a positive development mean",
+    "future_predictive_acceptance": "Separate preregistration must fix the predictive model/estimator, training schedule, sample minimum, clustered uncertainty, economic margin, calibration and promotion criteria before any real forecast fitting/scoring. Until that binding, do not claim a fully executable prediction protocol",
+    "time_order_requirements": [
+      "training contains only targets with label_mature_at earlier than its training cutoff",
+      "purge all training outcome windows crossing evaluation starts",
+      "overlapping outcomes are dependent; never count them as independent trials",
+      "shared paired cohort and missingness disclosed",
+      "2023/2024 already seen; no fresh independent-test claim",
+      "2025/2026 stay closed until separately registered later-stage agreement"
+    ]
+  },
+  "gates": {
+    "definition_frozen": true,
+    "research_evidence_complete": false,
+    "real_target_generation_authorized": false,
+    "predictive_model_protocol_frozen": false,
+    "model_fit_authorized": false,
+    "real_scores_authorized": false,
+    "formal_historical_input_approved": false,
+    "current_decision_approved": false,
+    "runtime_usable": false,
+    "forecast_generated": false,
+    "simulation_started": false,
+    "capital_use_authorized": false
+  },
+  "required_before_any_real_target": [
+    "selected raw_close mapping/unit/version/historical availability bound with actual source evidence",
+    "as-of calendar, adjacent-session observations and individual stock eligibility/status certified",
+    "history-applicable quantity, venue, order and cancellation model bound",
+    "counterfactual execution model frozen with assumptions and independent validation",
+    "fees, rights, cash/receivables/liabilities fully bound for declared use",
+    "population/entry/terminal/maturity states and full missingness ledger implemented and independently reviewed",
+    "explicit separately saved experimental run registration and permission gate before label calculation; no automatic run on design completion"
+  ],
+  "unbound_user_groups": {
+    "pullback_eligibility_rule": null,
+    "confirmation_rule": null,
+    "decision_datetime_and_information_cutoff": null,
+    "validated_exchange_planned_calendar": null,
+    "maximum_wait_sessions": null,
+    "last_confirmation_and_last_entry": null,
+    "entry_order_price_validity_and_cancellation_policy": null,
+    "terminal_NAV_or_executable_cash_policy": null,
+    "allocation_quantity_and_cash_interest_policy": null,
+    "fees_slippage_and_dividend_tax": null,
+    "economic_neutral_band_and_material_advantage": null,
+    "risk_barriers_and_action_thresholds": null,
+    "statistical_and_economic_acceptance": null,
+    "user_risk_limits_beyond_existing_realized_pause": null
+  },
+  "confirmed_risk_preservation": {
+    "old_protocol_and_risk_files_not_modified": true,
+    "existing_conditional_pilot_CNY": 10000,
+    "existing_pause_realized_loss_CNY": 2000,
+    "floating_PnL_reported_separately": true,
+    "this_is_not_capital_authorization": true
+  },
+  "change_control": "Protocol body and canonical SHA frozen before labels. Any H/W/cohort/confirmation/order/endpoint/estimator change gets a new version and research-choice entry, preserves negatives, and cannot be chosen from same-batch outcomes."
+}

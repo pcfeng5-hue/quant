@@ -1,0 +1,3414 @@
+{
+  "checked_at": "2026-10-15T17:47:51.892649+00:00",
+  "read_only": true,
+  "tolerance": "0.005",
+  "fields": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+  ],
+  "run_id": "refresh-20261015-v1",
+  "interpretation": "Stored source numbers only; differing volumes require source definition/unit/scope verification. No provider chosen as truth; no replacements, returns, or indicators.",
+  "sources": [
+    {
+      "new_source": "tencent_index_sh000001",
+      "old_source": "index_1.000001",
+      "overlap_dates": 912,
+      "overlap_min": "2023-01-03",
+      "overlap_max": "2026-10-13",
+      "new_dates_without_old": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "price_difference_dates": 1,
+      "volume_difference_dates": 0,
+      "difference_source_dates": 1,
+      "field_difference_count": 1,
+      "by_field": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 1,
+        "volume": 0
+      },
+      "discrepancy_rows_in_db": 1,
+      "old_stored_volume_units": [
+        "provider_hands"
+      ],
+      "new_stored_volume_units": [
+        "provider_native_index_volume"
+      ],
+      "differences": [
+        {
+          "source": "tencent_index_sh000001",
+          "reference_date": "2026-02-11",
+          "old_source": "index_1.000001",
+          "old_snapshot_id": "index_1.000001:d901015a766c07a73c85eb6bf6fcc1397b39e5fcf561b05ee82d658092fda6ec",
+          "new_snapshot_id": "tencent_index_sh000001:2982550f52ba6673a43ee004215e7500b68f7e817a00c99be9f05e7a9fcd3196:refresh-20261015-v1",
+          "fields": {
+            "close": {
+              "old": 4131.99,
+              "new": 4131.98,
+              "new_minus_old": "-0.01"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        }
+      ]
+    },
+    {
+      "new_source": "tencent_index_sz399001",
+      "old_source": "index_0.399001",
+      "overlap_dates": 912,
+      "overlap_min": "2023-01-03",
+      "overlap_max": "2026-10-13",
+      "new_dates_without_old": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "price_difference_dates": 1,
+      "volume_difference_dates": 194,
+      "difference_source_dates": 194,
+      "field_difference_count": 195,
+      "by_field": {
+        "open": 0,
+        "high": 1,
+        "low": 0,
+        "close": 0,
+        "volume": 194
+      },
+      "discrepancy_rows_in_db": 194,
+      "old_stored_volume_units": [
+        "provider_hands"
+      ],
+      "new_stored_volume_units": [
+        "provider_native_index_volume"
+      ],
+      "differences": [
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-03-27",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 494534827.0,
+              "new": 494233913.0,
+              "new_minus_old": "-300914.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-03-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 445848465.0,
+              "new": 445698587.0,
+              "new_minus_old": "-149878.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-03-29",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 413801869.0,
+              "new": 413628273.0,
+              "new_minus_old": "-173596.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-03-30",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 392284298.0,
+              "new": 392133461.0,
+              "new_minus_old": "-150837.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-03-31",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 399637085.0,
+              "new": 399574951.0,
+              "new_minus_old": "-62134.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-03",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 497823896.0,
+              "new": 497684518.0,
+              "new_minus_old": "-139378.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-04",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 508214234.0,
+              "new": 508157670.0,
+              "new_minus_old": "-56564.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-06",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 454537865.0,
+              "new": 454470636.0,
+              "new_minus_old": "-67229.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-07",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 427697142.0,
+              "new": 427643908.0,
+              "new_minus_old": "-53234.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 478316982.0,
+              "new": 478246743.0,
+              "new_minus_old": "-70239.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 423094685.0,
+              "new": 422999015.0,
+              "new_minus_old": "-95670.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 452203993.0,
+              "new": 452128995.0,
+              "new_minus_old": "-74998.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 470307591.0,
+              "new": 470195676.0,
+              "new_minus_old": "-111915.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 439951634.0,
+              "new": 439773804.0,
+              "new_minus_old": "-177830.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 423633407.0,
+              "new": 423413042.0,
+              "new_minus_old": "-220365.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-04-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 453848625.0,
+              "new": 453472498.0,
+              "new_minus_old": "-376127.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-04",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 482011993.0,
+              "new": 481896827.0,
+              "new_minus_old": "-115166.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-05",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 442026271.0,
+              "new": 441892037.0,
+              "new_minus_old": "-134234.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-08",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 439329143.0,
+              "new": 439261518.0,
+              "new_minus_old": "-67625.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 481338002.0,
+              "new": 479507408.0,
+              "new_minus_old": "-1830594.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 394663046.0,
+              "new": 393848082.0,
+              "new_minus_old": "-814964.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 385308783.0,
+              "new": 384549481.0,
+              "new_minus_old": "-759302.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 367693645.0,
+              "new": 367186987.0,
+              "new_minus_old": "-506658.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 384684380.0,
+              "new": 384146337.0,
+              "new_minus_old": "-538043.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 353743511.0,
+              "new": 353215293.0,
+              "new_minus_old": "-528218.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 326266963.0,
+              "new": 325935158.0,
+              "new_minus_old": "-331805.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 371723076.0,
+              "new": 371166643.0,
+              "new_minus_old": "-556433.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 355407471.0,
+              "new": 355120996.0,
+              "new_minus_old": "-286475.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-22",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 345667851.0,
+              "new": 345197485.0,
+              "new_minus_old": "-470366.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-23",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 340074032.0,
+              "new": 339330348.0,
+              "new_minus_old": "-743684.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-24",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 345570374.0,
+              "new": 345166509.0,
+              "new_minus_old": "-403865.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-25",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 377513829.0,
+              "new": 376978170.0,
+              "new_minus_old": "-535659.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 357576009.0,
+              "new": 357093537.0,
+              "new_minus_old": "-482472.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-05-29",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 395539317.0,
+              "new": 394727001.0,
+              "new_minus_old": "-812316.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 405335425.0,
+              "new": 403745489.0,
+              "new_minus_old": "-1589936.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 401828791.0,
+              "new": 397547211.0,
+              "new_minus_old": "-4281580.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 427026224.0,
+              "new": 425611977.0,
+              "new_minus_old": "-1414247.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 433495537.0,
+              "new": 430623753.0,
+              "new_minus_old": "-2871784.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 426118435.0,
+              "new": 424162110.0,
+              "new_minus_old": "-1956325.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 430857133.0,
+              "new": 426762540.0,
+              "new_minus_old": "-4094593.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-20",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 428286410.0,
+              "new": 423830265.0,
+              "new_minus_old": "-4456145.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-21",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 418746595.0,
+              "new": 415434192.0,
+              "new_minus_old": "-3312403.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 424191187.0,
+              "new": 421794104.0,
+              "new_minus_old": "-2397083.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-27",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 370430838.0,
+              "new": 367359544.0,
+              "new_minus_old": "-3071294.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 399824368.0,
+              "new": 396002529.0,
+              "new_minus_old": "-3821839.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-29",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 380424072.0,
+              "new": 378096185.0,
+              "new_minus_old": "-2327887.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-06-30",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 404836526.0,
+              "new": 402735616.0,
+              "new_minus_old": "-2100910.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-03",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 441147039.0,
+              "new": 438544706.0,
+              "new_minus_old": "-2602333.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-04",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 399028776.0,
+              "new": 396384762.0,
+              "new_minus_old": "-2644014.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-05",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 386448219.0,
+              "new": 383989043.0,
+              "new_minus_old": "-2459176.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-06",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 378440662.0,
+              "new": 376997020.0,
+              "new_minus_old": "-1443642.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-07",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 384314196.0,
+              "new": 382650080.0,
+              "new_minus_old": "-1664116.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 344173873.0,
+              "new": 341347680.0,
+              "new_minus_old": "-2826193.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 350924413.0,
+              "new": 347939400.0,
+              "new_minus_old": "-2985013.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 415862790.0,
+              "new": 414728122.0,
+              "new_minus_old": "-1134668.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 395940516.0,
+              "new": 395600049.0,
+              "new_minus_old": "-340467.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 401616163.0,
+              "new": 401161958.0,
+              "new_minus_old": "-454205.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 363505431.0,
+              "new": 363260892.0,
+              "new_minus_old": "-244539.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 362488646.0,
+              "new": 361571791.0,
+              "new_minus_old": "-916855.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 328058683.0,
+              "new": 327752924.0,
+              "new_minus_old": "-305759.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-20",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 386132068.0,
+              "new": 385717452.0,
+              "new_minus_old": "-414616.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-21",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 372200416.0,
+              "new": 371902231.0,
+              "new_minus_old": "-298185.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-24",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 353654310.0,
+              "new": 353230574.0,
+              "new_minus_old": "-423736.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-25",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 438411551.0,
+              "new": 438134387.0,
+              "new_minus_old": "-277164.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 415177961.0,
+              "new": 414900355.0,
+              "new_minus_old": "-277606.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-27",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 419988952.0,
+              "new": 419478509.0,
+              "new_minus_old": "-510443.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2023-07-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 469495575.0,
+              "new": 468260844.0,
+              "new_minus_old": "-1234731.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-03-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 485153702.0,
+              "new": 482461755.0,
+              "new_minus_old": "-2691947.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-03-27",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 467833994.0,
+              "new": 467138891.0,
+              "new_minus_old": "-695103.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-03-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 480632717.0,
+              "new": 479356183.0,
+              "new_minus_old": "-1276534.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-03-29",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 450746608.0,
+              "new": 449735061.0,
+              "new_minus_old": "-1011547.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-01",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 517323806.0,
+              "new": 516525374.0,
+              "new_minus_old": "-798432.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-02",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 530838772.0,
+              "new": 530210533.0,
+              "new_minus_old": "-628239.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-03",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 493831835.0,
+              "new": 493309544.0,
+              "new_minus_old": "-522291.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-08",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 481052348.0,
+              "new": 479967967.0,
+              "new_minus_old": "-1084381.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 413718828.0,
+              "new": 412613076.0,
+              "new_minus_old": "-1105752.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 444036698.0,
+              "new": 443294887.0,
+              "new_minus_old": "-741811.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 418938910.0,
+              "new": 418336786.0,
+              "new_minus_old": "-602124.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 416535603.0,
+              "new": 415612902.0,
+              "new_minus_old": "-922701.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 545699162.0,
+              "new": 544917369.0,
+              "new_minus_old": "-781793.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 535620248.0,
+              "new": 534854125.0,
+              "new_minus_old": "-766123.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-04-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 509475898.0,
+              "new": 508600428.0,
+              "new_minus_old": "-875470.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-06",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 497858822.0,
+              "new": 496220242.0,
+              "new_minus_old": "-1638580.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-07",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 392337786.0,
+              "new": 391479032.0,
+              "new_minus_old": "-858754.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 353804958.0,
+              "new": 353310457.0,
+              "new_minus_old": "-494501.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 357999094.0,
+              "new": 357645136.0,
+              "new_minus_old": "-353958.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 376742660.0,
+              "new": 376378158.0,
+              "new_minus_old": "-364502.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 393204146.0,
+              "new": 391253119.0,
+              "new_minus_old": "-1951027.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 358288451.0,
+              "new": 356739415.0,
+              "new_minus_old": "-1549036.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 386563637.0,
+              "new": 385297076.0,
+              "new_minus_old": "-1266561.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 362994751.0,
+              "new": 362221831.0,
+              "new_minus_old": "-772920.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-20",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 386167978.0,
+              "new": 385582222.0,
+              "new_minus_old": "-585756.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-21",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 324515746.0,
+              "new": 324085654.0,
+              "new_minus_old": "-430092.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-24",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 375690039.0,
+              "new": 375049833.0,
+              "new_minus_old": "-640206.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-25",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 347178356.0,
+              "new": 346272265.0,
+              "new_minus_old": "-906091.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 370938431.0,
+              "new": 370219588.0,
+              "new_minus_old": "-718843.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-27",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 350713636.0,
+              "new": 349067599.0,
+              "new_minus_old": "-1646037.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-06-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 370471251.0,
+              "new": 369911657.0,
+              "new_minus_old": "-559594.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-01",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 348699724.0,
+              "new": 347581999.0,
+              "new_minus_old": "-1117725.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-02",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 370677177.0,
+              "new": 369677934.0,
+              "new_minus_old": "-999243.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-03",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 344268995.0,
+              "new": 343111173.0,
+              "new_minus_old": "-1157822.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-04",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 353033943.0,
+              "new": 351894022.0,
+              "new_minus_old": "-1139921.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-05",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 317009144.0,
+              "new": 316598746.0,
+              "new_minus_old": "-410398.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-08",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 331066452.0,
+              "new": 330661093.0,
+              "new_minus_old": "-405359.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 397419544.0,
+              "new": 397097608.0,
+              "new_minus_old": "-321936.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 355885861.0,
+              "new": 355476260.0,
+              "new_minus_old": "-409601.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 424940477.0,
+              "new": 424460595.0,
+              "new_minus_old": "-479882.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 367477015.0,
+              "new": 367087706.0,
+              "new_minus_old": "-389309.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 332093974.0,
+              "new": 331747166.0,
+              "new_minus_old": "-346808.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 324558547.0,
+              "new": 324180990.0,
+              "new_minus_old": "-377557.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 338590500.0,
+              "new": 338065443.0,
+              "new_minus_old": "-525057.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 341554776.0,
+              "new": 341377266.0,
+              "new_minus_old": "-177510.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 316937938.0,
+              "new": 316715699.0,
+              "new_minus_old": "-222239.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-22",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 317628061.0,
+              "new": 317575267.0,
+              "new_minus_old": "-52794.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-23",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 352207187.0,
+              "new": 352166643.0,
+              "new_minus_old": "-40544.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-24",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 343869450.0,
+              "new": 343821048.0,
+              "new_minus_old": "-48402.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-25",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 309849711.0,
+              "new": 309776286.0,
+              "new_minus_old": "-73425.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2024-07-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 329209892.0,
+              "new": 329136783.0,
+              "new_minus_old": "-73109.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-04-28",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 556737815.0,
+              "new": 555408555.0,
+              "new_minus_old": "-1329260.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-04-29",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 508317399.0,
+              "new": 507795460.0,
+              "new_minus_old": "-521939.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-04-30",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 559157909.0,
+              "new": 558738836.0,
+              "new_minus_old": "-419073.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-06",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 634060070.0,
+              "new": 633772323.0,
+              "new_minus_old": "-287747.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-07",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 709978551.0,
+              "new": 709736259.0,
+              "new_minus_old": "-242292.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-08",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 639008261.0,
+              "new": 638666671.0,
+              "new_minus_old": "-341590.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 600535347.0,
+              "new": 600370914.0,
+              "new_minus_old": "-164433.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 595059405.0,
+              "new": 594910623.0,
+              "new_minus_old": "-148782.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 613388689.0,
+              "new": 613097528.0,
+              "new_minus_old": "-291161.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 622584786.0,
+              "new": 622363370.0,
+              "new_minus_old": "-221416.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 571421816.0,
+              "new": 571301660.0,
+              "new_minus_old": "-120156.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 541239329.0,
+              "new": 541078661.0,
+              "new_minus_old": "-160668.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 553941510.0,
+              "new": 553637088.0,
+              "new_minus_old": "-304422.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-20",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 599599479.0,
+              "new": 599353146.0,
+              "new_minus_old": "-246333.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-05-21",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "high": {
+              "old": 10325.93,
+              "new": 10325.92,
+              "new_minus_old": "-0.01"
+            },
+            "volume": {
+              "old": 579900581.0,
+              "new": 579532397.0,
+              "new_minus_old": "-368184.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-06",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 563533703.0,
+              "new": 562977358.0,
+              "new_minus_old": "-556345.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 615542721.0,
+              "new": 615263021.0,
+              "new_minus_old": "-279700.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 711387442.0,
+              "new": 711190772.0,
+              "new_minus_old": "-196670.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 615938135.0,
+              "new": 615814143.0,
+              "new_minus_old": "-123992.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 605753084.0,
+              "new": 605519275.0,
+              "new_minus_old": "-233809.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 698798231.0,
+              "new": 698026044.0,
+              "new_minus_old": "-772187.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 568712565.0,
+              "new": 568501403.0,
+              "new_minus_old": "-211162.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 597078587.0,
+              "new": 596927009.0,
+              "new_minus_old": "-151578.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 587956237.0,
+              "new": 587501533.0,
+              "new_minus_old": "-454704.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 610432160.0,
+              "new": 610114879.0,
+              "new_minus_old": "-317281.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-20",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 516822516.0,
+              "new": 514811215.0,
+              "new_minus_old": "-2011301.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-23",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 538583381.0,
+              "new": 537795225.0,
+              "new_minus_old": "-788156.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-24",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 667686293.0,
+              "new": 666588581.0,
+              "new_minus_old": "-1097712.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-25",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 722467354.0,
+              "new": 720493535.0,
+              "new_minus_old": "-1973819.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 721904766.0,
+              "new": 721001585.0,
+              "new_minus_old": "-903181.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-27",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 699213591.0,
+              "new": 698391693.0,
+              "new_minus_old": "-821898.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-06-30",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 676811123.0,
+              "new": 675662995.0,
+              "new_minus_old": "-1148128.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-01",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 695943293.0,
+              "new": 695078613.0,
+              "new_minus_old": "-864680.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-02",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 678825874.0,
+              "new": 678272985.0,
+              "new_minus_old": "-552889.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-03",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 639360247.0,
+              "new": 638445112.0,
+              "new_minus_old": "-915135.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-04",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 667665464.0,
+              "new": 667051160.0,
+              "new_minus_old": "-614304.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-07",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 578881971.0,
+              "new": 578492942.0,
+              "new_minus_old": "-389029.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-08",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 666334799.0,
+              "new": 665860083.0,
+              "new_minus_old": "-474716.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 703429755.0,
+              "new": 702950075.0,
+              "new_minus_old": "-479680.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 702268358.0,
+              "new": 701359248.0,
+              "new_minus_old": "-909110.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-11",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 743294396.0,
+              "new": 742645890.0,
+              "new_minus_old": "-648506.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 647071650.0,
+              "new": 646463331.0,
+              "new_minus_old": "-608319.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 726515143.0,
+              "new": 725709818.0,
+              "new_minus_old": "-805325.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 616738927.0,
+              "new": 616594267.0,
+              "new_minus_old": "-144660.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 635724294.0,
+              "new": 635545177.0,
+              "new_minus_old": "-179117.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-07-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 644821897.0,
+              "new": 644428695.0,
+              "new_minus_old": "-393202.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 798857680.0,
+              "new": 798311125.0,
+              "new_minus_old": "-546555.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 889812067.0,
+              "new": 889464182.0,
+              "new_minus_old": "-347885.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-17",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 853723162.0,
+              "new": 853571717.0,
+              "new_minus_old": "-151445.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-18",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 1073785345.0,
+              "new": 1073527791.0,
+              "new_minus_old": "-257554.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 819739634.0,
+              "new": 819563965.0,
+              "new_minus_old": "-175669.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-22",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 722355718.0,
+              "new": 722197293.0,
+              "new_minus_old": "-158425.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-23",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 860693568.0,
+              "new": 860542094.0,
+              "new_minus_old": "-151474.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-24",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 727910238.0,
+              "new": 727766643.0,
+              "new_minus_old": "-143595.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-25",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 740565637.0,
+              "new": 740441210.0,
+              "new_minus_old": "-124427.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-26",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 694552823.0,
+              "new": 694451360.0,
+              "new_minus_old": "-101463.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-29",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 675906008.0,
+              "new": 675803476.0,
+              "new_minus_old": "-102532.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-09-30",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 658567252.0,
+              "new": 658434833.0,
+              "new_minus_old": "-132419.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-10-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 797114828.0,
+              "new": 796986885.0,
+              "new_minus_old": "-127943.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-10-10",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 780249411.0,
+              "new": 780098602.0,
+              "new_minus_old": "-150809.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-10-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 742803634.0,
+              "new": 742486462.0,
+              "new_minus_old": "-317172.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-12-30",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 718514686.0,
+              "new": 716223366.0,
+              "new_minus_old": "-2291320.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2025-12-31",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 714128489.0,
+              "new": 713396441.0,
+              "new_minus_old": "-732048.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-05",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 830964827.0,
+              "new": 830357123.0,
+              "new_minus_old": "-607704.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-06",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 932350350.0,
+              "new": 931832648.0,
+              "new_minus_old": "-517702.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-07",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 914116991.0,
+              "new": 913575189.0,
+              "new_minus_old": "-541802.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-08",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 921000994.0,
+              "new": 920288378.0,
+              "new_minus_old": "-712616.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-09",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 1013968212.0,
+              "new": 1013527536.0,
+              "new_minus_old": "-440676.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-12",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 1153063572.0,
+              "new": 1152643528.0,
+              "new_minus_old": "-420044.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-13",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 1195529842.0,
+              "new": 1195102024.0,
+              "new_minus_old": "-427818.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-14",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 1312625223.0,
+              "new": 1312118729.0,
+              "new_minus_old": "-506494.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-15",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 971879564.0,
+              "new": 971527612.0,
+              "new_minus_old": "-351952.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-16",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 907401832.0,
+              "new": 906894526.0,
+              "new_minus_old": "-507306.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-19",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 832641604.0,
+              "new": 832205019.0,
+              "new_minus_old": "-436585.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-20",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 882652782.0,
+              "new": 881921909.0,
+              "new_minus_old": "-730873.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        },
+        {
+          "source": "tencent_index_sz399001",
+          "reference_date": "2026-01-21",
+          "old_source": "index_0.399001",
+          "old_snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+          "new_snapshot_id": "tencent_index_sz399001:afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d:refresh-20261015-v1",
+          "fields": {
+            "volume": {
+              "old": 793963043.0,
+              "new": 793387853.0,
+              "new_minus_old": "-575190.0"
+            }
+          },
+          "data_source_discrepancies_row_exists": true,
+          "stored_values_cover_each_difference": true,
+          "stored_status": "unresolved_provider_difference_originals_retained"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "difference_source_date_pairs": 195,
+    "unique_calendar_dates_with_difference": 195,
+    "field_difference_count": 196,
+    "by_field": {
+      "open": 0,
+      "high": 1,
+      "low": 0,
+      "close": 1,
+      "volume": 194
+    },
+    "missing_discrepancy_records": [],
+    "mismatched_discrepancy_records": [],
+    "every_difference_preserved_in_discrepancy_table": true,
+    "all_original_numbers_retained": true
+  }
+}

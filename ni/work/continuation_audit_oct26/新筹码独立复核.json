@@ -1,0 +1,3007 @@
+{
+  "audit_date": "2026-10-26",
+  "auditor": "continuation_audit_oct26 independently delegated review",
+  "scope": "Independent stdlib numeric reconstruction of all 36 fixed-date distributions, all 3192 unknown products and 180 quantile bounds, read-only stored invariants and source provenance. Did not import or execute estimator or author audit functions. No source or published output writes. No network or future-return reads.",
+  "conclusion": "No blocking numerical, initialization-identification, prefix-boundary, or gate error found within stated scope.",
+  "passed": 19,
+  "total": 19,
+  "failed": [],
+  "issues": [],
+  "checks": [
+    {
+      "check": "readonly_sqlite_quick_check",
+      "passed": true
+    },
+    {
+      "check": "fixed_source_and_input_boundary",
+      "passed": true,
+      "rows": 1064
+    },
+    {
+      "check": "independent_60_digit_unknown_product_3192_states",
+      "passed": true,
+      "max_absolute_error": 3.885780586188048e-16
+    },
+    {
+      "check": "common_origin_first_day_turnover_not_unit_seed",
+      "passed": true
+    },
+    {
+      "check": "independent_path_mass_and_unknown_monotonicity",
+      "passed": true,
+      "max_mass_error": 6.661338147750939e-16
+    },
+    {
+      "check": "decimal_action_coordinates_preserve_mass_and_first_moment",
+      "passed": true,
+      "max_moment_error": 1.7763568394002505e-15,
+      "applications": [
+        {
+          "date": "2023-06-20",
+          "variant": "turnover_x0.5",
+          "mass_error": 0.0,
+          "moment_error": 0.0,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2024-05-24",
+          "variant": "turnover_x0.5",
+          "mass_error": 0.0,
+          "moment_error": 0.0,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2026-09-22",
+          "variant": "turnover_x0.5",
+          "mass_error": 0.0,
+          "moment_error": 1.7763568394002505e-15,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2023-06-20",
+          "variant": "turnover_x1",
+          "mass_error": 0.0,
+          "moment_error": 0.0,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2024-05-24",
+          "variant": "turnover_x1",
+          "mass_error": 0.0,
+          "moment_error": 8.881784197001252e-16,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2026-09-22",
+          "variant": "turnover_x1",
+          "mass_error": 0.0,
+          "moment_error": 0.0,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2023-06-20",
+          "variant": "turnover_x1.5",
+          "mass_error": 0.0,
+          "moment_error": 1.7763568394002505e-15,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2024-05-24",
+          "variant": "turnover_x1.5",
+          "mass_error": 0.0,
+          "moment_error": 8.881784197001252e-16,
+          "unknown_unchanged": true
+        },
+        {
+          "date": "2026-09-22",
+          "variant": "turnover_x1.5",
+          "mass_error": 0.0,
+          "moment_error": 0.0,
+          "unknown_unchanged": true
+        }
+      ]
+    },
+    {
+      "check": "all_36_saved_prefix_ids_hashes_and_action_boundaries",
+      "passed": true,
+      "proofs": [
+        {
+          "estimate_id": "turnover_x0.5:2023-01-03",
+          "rows": 147,
+          "min_date": "2022-06-01",
+          "max_date": "2023-01-03",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2023-06-19",
+          "rows": 257,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-19",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2023-06-20",
+          "rows": 258,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-20",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2023-06-21",
+          "rows": 259,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2024-05-23",
+          "rows": 480,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-23",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2024-05-24",
+          "rows": 481,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-24",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2024-05-27",
+          "rows": 482,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-27",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2026-09-21",
+          "rows": 1048,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2026-09-22",
+          "rows": 1049,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-22",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2026-09-23",
+          "rows": 1050,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-23",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2026-10-16",
+          "rows": 1061,
+          "min_date": "2022-06-01",
+          "max_date": "2026-10-16",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x0.5:2026-10-21",
+          "rows": 1064,
+          "min_date": "2022-06-01",
+          "max_date": "2026-10-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2023-01-03",
+          "rows": 147,
+          "min_date": "2022-06-01",
+          "max_date": "2023-01-03",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2023-06-19",
+          "rows": 257,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-19",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2023-06-20",
+          "rows": 258,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-20",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2023-06-21",
+          "rows": 259,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2024-05-23",
+          "rows": 480,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-23",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2024-05-24",
+          "rows": 481,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-24",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2024-05-27",
+          "rows": 482,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-27",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2026-09-21",
+          "rows": 1048,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2026-09-22",
+          "rows": 1049,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-22",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2026-09-23",
+          "rows": 1050,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-23",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2026-10-16",
+          "rows": 1061,
+          "min_date": "2022-06-01",
+          "max_date": "2026-10-16",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1:2026-10-21",
+          "rows": 1064,
+          "min_date": "2022-06-01",
+          "max_date": "2026-10-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2023-01-03",
+          "rows": 147,
+          "min_date": "2022-06-01",
+          "max_date": "2023-01-03",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2023-06-19",
+          "rows": 257,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-19",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2023-06-20",
+          "rows": 258,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-20",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2023-06-21",
+          "rows": 259,
+          "min_date": "2022-06-01",
+          "max_date": "2023-06-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2024-05-23",
+          "rows": 480,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-23",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2024-05-24",
+          "rows": 481,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-24",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2024-05-27",
+          "rows": 482,
+          "min_date": "2022-06-01",
+          "max_date": "2024-05-27",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2026-09-21",
+          "rows": 1048,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2026-09-22",
+          "rows": 1049,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-22",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2026-09-23",
+          "rows": 1050,
+          "min_date": "2022-06-01",
+          "max_date": "2026-09-23",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2026-10-16",
+          "rows": 1061,
+          "min_date": "2022-06-01",
+          "max_date": "2026-10-16",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        },
+        {
+          "estimate_id": "turnover_x1.5:2026-10-21",
+          "rows": 1064,
+          "min_date": "2022-06-01",
+          "max_date": "2026-10-21",
+          "ids_exact": true,
+          "hash_exact": true,
+          "no_future_action": true
+        }
+      ]
+    },
+    {
+      "check": "independent_pdf_integral_sparse_recursion_all_36_distributions",
+      "passed": true,
+      "max_bin_error": 2.5916768731093498e-15,
+      "max_l1_bin_error": 8.084027264398529e-14,
+      "method": "Piecewise-linear triangular PDF trapezoid integrals; sparse dictionaries; 60-digit Decimal action coordinates; no estimator import or function call."
+    },
+    {
+      "check": "all_stored_cdf_bounds_match_subprobability_plus_unknown",
+      "passed": true,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "check": "known_component_not_normalized_into_total",
+      "passed": true
+    },
+    {
+      "check": "independent_profit_bounds_and_conditional_mean",
+      "passed": true,
+      "max_profit_bound_error": 3.3306690738754696e-16,
+      "max_conditional_mean_error": 3.552713678800501e-15
+    },
+    {
+      "check": "all_180_quantile_endpoints_finite_or_unbounded_correct",
+      "passed": true,
+      "quantile_count": 180,
+      "failures": []
+    },
+    {
+      "check": "tiny_unknown_retained_and_profit_intervals_still_nonzero",
+      "passed": true,
+      "minimum_unknown": 2.1497391071639464e-10,
+      "all_36_profit_intervals_strictly_positive_width": true
+    },
+    {
+      "check": "three_turnover_stress_variants_monotone_without_reliability_claim",
+      "passed": true
+    },
+    {
+      "check": "all_model_native_and_certification_gates_closed",
+      "passed": true
+    },
+    {
+      "check": "unrestricted_support_hand_boundaries_mathematically_consistent",
+      "passed": true,
+      "hand_calculation": {
+        "observed_atoms_cny_mass": [
+          [
+            "1",
+            ".2"
+          ],
+          [
+            "2",
+            ".3"
+          ],
+          [
+            "3",
+            ".1"
+          ]
+        ],
+        "unknown_mass": ".4",
+        "cdf_bounds_at_1": [
+          ".2",
+          ".6"
+        ],
+        "profit_bounds_at_close_2": [
+          ".5",
+          ".9"
+        ],
+        "tv_diameter": ".4",
+        "quantiles": [
+          {
+            "q": ".05",
+            "lower": "negative_infinity",
+            "upper": "1"
+          },
+          {
+            "q": ".4",
+            "lower": "negative_infinity",
+            "upper": "2"
+          },
+          {
+            "q": ".5",
+            "lower": "1",
+            "upper": "2"
+          },
+          {
+            "q": ".6",
+            "lower": "1",
+            "upper": "3"
+          },
+          {
+            "q": ".95",
+            "lower": "3",
+            "upper": "positive_infinity"
+          }
+        ],
+        "justification": "Place all unknown mass at an arbitrary atom below or above the known support. Sending that atom to negative/positive infinity attains the endpoint infimum/supremum; no finite support for unknown is assumed."
+      }
+    },
+    {
+      "check": "source_implementation_copy_and_database_hashes_match",
+      "passed": true
+    },
+    {
+      "check": "34_announced_old_artifacts_unchanged",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "check": "audited_inputs_unchanged_during_independent_audit",
+      "passed": true
+    }
+  ],
+  "representative_numeric_reconstructions": [
+    {
+      "estimate_id": "turnover_x1:2023-01-03",
+      "independent_unknown": 0.19119408922446327,
+      "independent_known": 0.8088059107755365,
+      "independent_profit_lower": 0.04102709537226043,
+      "independent_profit_upper": 0.2322211845967237,
+      "max_bin_error": 6.071532165918825e-18,
+      "l1_bin_error": 5.109363088935432e-16,
+      "independent_conditional_mean": 12.825591638914585,
+      "median_bounds": {
+        "estimate_id": "turnover_x1:2023-01-03",
+        "q": 0.5,
+        "expected_lower": {
+          "kind": "finite",
+          "value_cny": 12.06
+        },
+        "expected_upper": {
+          "kind": "finite",
+          "value_cny": 12.87
+        },
+        "passed": true
+      }
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-20",
+      "independent_unknown": 0.10024248258102032,
+      "independent_known": 0.8997575174189795,
+      "independent_profit_lower": 0.061593345457511474,
+      "independent_profit_upper": 0.1618358280385318,
+      "max_bin_error": 2.3444787777826548e-15,
+      "l1_bin_error": 7.614346965750427e-14,
+      "independent_conditional_mean": 9.225597884530949,
+      "median_bounds": {
+        "estimate_id": "turnover_x1:2023-06-20",
+        "q": 0.5,
+        "expected_lower": {
+          "kind": "finite",
+          "value_cny": 9.09
+        },
+        "expected_upper": {
+          "kind": "finite",
+          "value_cny": 9.18
+        },
+        "passed": true
+      }
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-22",
+      "independent_unknown": 4.566594434856974e-07,
+      "independent_known": 0.9999995433405563,
+      "independent_profit_lower": 0.07461435299156952,
+      "independent_profit_upper": 0.074614809651013,
+      "max_bin_error": 1.2880321809127793e-15,
+      "l1_bin_error": 3.490756464074919e-14,
+      "independent_conditional_mean": 13.346677221862867,
+      "median_bounds": {
+        "estimate_id": "turnover_x1:2026-09-22",
+        "q": 0.5,
+        "expected_lower": {
+          "kind": "finite",
+          "value_cny": 13.27
+        },
+        "expected_upper": {
+          "kind": "finite",
+          "value_cny": 13.27
+        },
+        "passed": true
+      }
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-21",
+      "independent_unknown": 2.149739107163944e-10,
+      "independent_known": 0.999999999785026,
+      "independent_profit_lower": 0.05447463830333894,
+      "independent_profit_upper": 0.05447463851831286,
+      "max_bin_error": 1.1744077932362984e-15,
+      "l1_bin_error": 2.5991586355712702e-14,
+      "independent_conditional_mean": 12.762999668763038,
+      "median_bounds": {
+        "estimate_id": "turnover_x1.5:2026-10-21",
+        "q": 0.5,
+        "expected_lower": {
+          "kind": "finite",
+          "value_cny": 12.81
+        },
+        "expected_upper": {
+          "kind": "finite",
+          "value_cny": 12.81
+        },
+        "passed": true
+      }
+    }
+  ],
+  "quantile_endpoint_reconstructions": [
+    {
+      "estimate_id": "turnover_x0.5:2023-01-03",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.53
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-01-03",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.95
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-01-03",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.6
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.86
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-01-03",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.08
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-01-03",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.94
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-19",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.76
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-19",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.64
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-19",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.77
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.74
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-19",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.11
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-19",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.81
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-20",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.14
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-20",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.84
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-20",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.95
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.69
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-20",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.98
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-20",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.29
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.83
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.95
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.68
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.98
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2023-06-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.29
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-23",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.2
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-23",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 5.27
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.87
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-23",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.65
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.04
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-23",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.2
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.52
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-23",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.65
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-24",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.18
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-24",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 5.3
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.84
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-24",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.63
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.02
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-24",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.19
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.49
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-24",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.63
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-27",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.19
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-27",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 5.33
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.83
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-27",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.63
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.02
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-27",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.19
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.49
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2024-05-27",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.62
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.95
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.97
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.55
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.55
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.54
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.54
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.7
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.71
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 16.66
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 16.66
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-22",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.86
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.88
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-22",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.43
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.43
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-22",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.43
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.43
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-22",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.59
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.6
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-22",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 16.55
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 16.56
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-23",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.87
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.88
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-23",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.41
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.41
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-23",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.42
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.42
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-23",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.58
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.59
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-09-23",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 16.55
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 16.56
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-16",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.99
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.03
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-16",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.21
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.21
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-16",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.35
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.35
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-16",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.49
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.49
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-16",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 16.51
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 16.52
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.86
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.87
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.14
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.14
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.33
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.33
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.47
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.48
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x0.5:2026-10-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 16.5
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 16.51
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-01-03",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.31
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-01-03",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.73
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-01-03",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.06
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.87
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-01-03",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.55
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-01-03",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 15.04
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-19",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.19
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-19",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.19
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.01
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-19",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.95
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.07
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-19",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.05
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.81
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-19",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.81
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-20",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.74
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-20",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.74
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.35
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-20",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.09
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.18
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-20",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.29
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-20",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.29
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.73
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.73
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.34
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.09
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.18
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.92
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.29
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2023-06-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.29
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-23",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 5.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.08
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-23",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.59
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.65
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-23",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.48
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.53
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-23",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.35
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.74
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-23",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.37
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.86
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-24",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 5.92
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.07
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-24",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.57
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.62
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-24",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.46
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.51
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-24",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.33
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.71
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-24",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.35
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.82
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-27",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 5.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.07
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-27",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.55
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.61
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-27",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.45
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.5
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-27",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.32
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.68
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2024-05-27",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.35
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.8
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.22
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.22
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.57
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.57
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.39
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.39
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.16
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.16
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.9
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.9
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-22",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.12
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.12
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-22",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.44
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.44
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-22",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.27
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.27
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-22",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.06
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.06
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-22",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.79
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.79
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-23",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.11
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.11
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-23",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.42
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.42
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-23",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.26
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.26
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-23",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.05
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.05
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-09-23",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.78
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.78
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-16",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.21
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.21
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-16",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.11
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.11
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-16",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.1
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-16",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.01
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.01
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-16",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.67
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.67
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.96
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.96
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.05
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.05
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.06
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.06
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.0
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.0
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1:2026-10-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.64
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.64
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-01-03",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "negative_infinity",
+        "value_cny": null
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.15
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-01-03",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.28
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.57
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-01-03",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.08
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.25
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-01-03",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.57
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.95
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-01-03",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 15.04
+      },
+      "expected_upper": {
+        "kind": "positive_infinity",
+        "value_cny": null
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-19",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.69
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.01
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-19",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.51
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.8
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-19",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.97
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-19",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.52
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.85
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-19",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.66
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 15.05
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-20",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.36
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.6
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-20",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.96
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.18
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-20",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.08
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-20",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.53
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.76
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-20",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.17
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.47
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.36
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.6
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.15
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.07
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 9.53
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.75
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2023-06-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.17
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.47
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-23",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.08
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.11
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-23",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.61
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.62
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-23",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.26
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.26
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-23",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.09
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-23",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.97
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 9.01
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-24",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.07
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-24",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.59
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.6
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-24",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.23
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.24
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-24",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.07
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.08
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-24",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.94
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.99
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-27",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.08
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.1
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-27",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 6.57
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 6.58
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-27",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 7.22
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 7.23
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-27",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.07
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.08
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2024-05-27",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 8.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 8.98
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.19
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.19
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.48
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.48
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.18
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.18
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.03
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.03
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.32
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.32
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-22",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.09
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.09
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-22",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.34
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.34
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-22",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.06
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.06
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-22",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.93
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.93
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-22",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.22
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.22
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-23",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.09
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.09
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-23",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.31
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.31
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-23",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.04
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.04
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-23",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.92
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.92
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-09-23",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.21
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.21
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-16",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.11
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.11
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-16",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.94
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.94
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-16",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.84
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.84
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-16",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.87
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.87
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-16",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.16
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.16
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-21",
+      "q": 0.05,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 10.88
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 10.88
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-21",
+      "q": 0.15,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 11.32
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 11.32
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-21",
+      "q": 0.5,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 12.81
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 12.81
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-21",
+      "q": 0.85,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 13.86
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 13.86
+      },
+      "passed": true
+    },
+    {
+      "estimate_id": "turnover_x1.5:2026-10-21",
+      "q": 0.95,
+      "expected_lower": {
+        "kind": "finite",
+        "value_cny": 14.15
+      },
+      "expected_upper": {
+        "kind": "finite",
+        "value_cny": 14.15
+      },
+      "passed": true
+    }
+  ],
+  "audited_inputs_before": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/算法实现.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+    "outputs/初始化与验证推进_20261026/筹码初始化/固定日期结果.json": "37c5d901475617ff9d8ff0678d8aeb18346a67cec0e18f11b186928a931b537f",
+    "outputs/初始化与验证推进_20261026/筹码初始化/逐日初始化诊断.json": "f50866fdc20df7470d11ce3b5e19cc10125beaf4b3ea1f307603ce891cb036b3",
+    "outputs/初始化与验证推进_20261026/筹码初始化/来源与参数.json": "c73cb9d80f6594a5664203a967e1951481e664e6441f8ca56f1e6b9a533e36b0"
+  },
+  "audited_inputs_after": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "work/chip_initialization_oct26/build_initialization_v2.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/算法实现.py": "a1a84e0e4efc0ef8eb42c1179cb2759eb9b9e1db30edd22a7231d627565c6342",
+    "outputs/初始化与验证推进_20261026/筹码初始化/初始化改进v2.sqlite": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+    "outputs/初始化与验证推进_20261026/筹码初始化/固定日期结果.json": "37c5d901475617ff9d8ff0678d8aeb18346a67cec0e18f11b186928a931b537f",
+    "outputs/初始化与验证推进_20261026/筹码初始化/逐日初始化诊断.json": "f50866fdc20df7470d11ce3b5e19cc10125beaf4b3ea1f307603ce891cb036b3",
+    "outputs/初始化与验证推进_20261026/筹码初始化/来源与参数.json": "c73cb9d80f6594a5664203a967e1951481e664e6441f8ca56f1e6b9a533e36b0"
+  },
+  "limits": [
+    "Partial identification is conditional on the turnover replacement and triangular allocation model; unknown-mass decay does not certify predictive reliability.",
+    "Source snapshot was retrieved in 2026; historical first availability and complete action history remain uncertified.",
+    "No 2025/2026 price outcome labels generated, no model fitting, no restored project-wide hash audit repeated."
+  ]
+}

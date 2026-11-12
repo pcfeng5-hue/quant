@@ -1,0 +1,15 @@
+{
+  "status": "staged_for_review_not_model_release",
+  "earliest_safe_resolution": "Completed daily bars only; do not use same-day final high/low/close/volume in an earlier intraday decision",
+  "historical_first_availability_timestamp": null,
+  "price_snapshot_timing": "Provider retrospective extraction at recorded request time, not certified historical point-in-time version",
+  "stock_unadjusted_ohlcv": "cross-provider consistent across 1160 dates; upstream independence not proven",
+  "stock_qfq": "retrospective snapshot; not an official point-in-time corporate-action factor series",
+  "index_prices": "fixed-provider source snapshots preserved; flagged discrepancy dates need declared source treatment",
+  "index_volume": "blocked for cross-provider pooled/spliced quantities until unit and coverage are verified",
+  "historical_industry_membership": "not obtained; index is background proxy only",
+  "full_market_breadth": "not obtained",
+  "model_usable": false,
+  "indicators_computed": false,
+  "probabilities_computed": false
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "document_id": "mofcom_2023_27",
+    "title": "关于对无人机相关物项实施出口管制的公告",
+    "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2023/art_e525a76205ac47da9a4dd82613e5f9d4.html",
+    "publisher": "商务部等",
+    "publication_display": "2023-07-31",
+    "issue_date": "2023-07-31",
+    "effective_date": "2023-09-01",
+    "tags": [
+      "红外成像",
+      "出口管制",
+      "无人机"
+    ],
+    "note": "页面元数据生效日期写2023-07-31，正文第八条实施日期2023-09-01；保留冲突，采用正文日期作为标注，不认证当前效力。",
+    "retrieved_at": "2026-10-13T19:01:06.514601+00:00",
+    "sha256": "6e5850299dc273f775844dd4a8072938d1bff30215286533ea476fa9934030b8",
+    "relative_path": "政策原文/mofcom_2023_27_6e5850299dc273f7.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  },
+  {
+    "document_id": "mofcom_2024_31",
+    "title": "关于优化调整无人机出口管制措施的公告",
+    "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2024/art_db6e21907d69404fb473ddb0b248d3d7.html",
+    "publisher": "商务部等",
+    "publication_display": "2024-07-31 16:00",
+    "issue_date": "2024-07-31",
+    "effective_date": "2024-09-01",
+    "tags": [
+      "红外成像",
+      "出口管制",
+      "无人机"
+    ],
+    "note": "页面显示精确至分钟的时间，但未取得历史首次上线档案；正文明确废止2023年第27/28号。",
+    "retrieved_at": "2026-10-13T19:01:06.514884+00:00",
+    "sha256": "cb2d0f804981d3bcfd6c502bfe8a6bed10c9373ceed207629bf8322c81b39d9c",
+    "relative_path": "政策原文/mofcom_2024_31_cb2d0f804981d3bc.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  },
+  {
+    "document_id": "state_council_792",
+    "title": "中华人民共和国两用物项出口管制条例",
+    "url": "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/gzjgfxwj/202410/1057.html",
+    "publisher": "国务院，商务部网站发布",
+    "publication_display": null,
+    "issue_date": "2024-09-30",
+    "effective_date": "2024-12-01",
+    "tags": [
+      "两用物项",
+      "出口管制"
+    ],
+    "note": "发文日期不是首次公开时间；该页未提供可核实的首次发布时间。",
+    "retrieved_at": "2026-10-13T19:01:06.515008+00:00",
+    "sha256": "04b5d572dc748969359b611ce41060a25be6fa83507aa7fdf78e25699e6e1901",
+    "relative_path": "政策原文/state_council_792_04b5d572dc748969.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  },
+  {
+    "document_id": "mofcom_2024_51",
+    "title": "关于发布中华人民共和国两用物项出口管制清单的公告",
+    "url": "https://app.www.gov.cn/govdata/gov/202411/19/521898/article.html",
+    "publisher": "商务部等，中国政府网转载",
+    "publication_display": "2024-11-19",
+    "issue_date": "2024-11-15",
+    "effective_date": "2024-12-01",
+    "tags": [
+      "两用物项",
+      "出口管制"
+    ],
+    "note": "发文日11/15、政府网转载日11/19、生效日12/1分开；附件清单未在本脚本逐项解析。",
+    "retrieved_at": "2026-10-13T19:01:08.223096+00:00",
+    "sha256": "8d1d2391a65c8215c50f61d2c1b47170e9240409ca3f17e0671fec0966f014d2",
+    "relative_path": "政策原文/mofcom_2024_51_8d1d2391a65c8215.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  },
+  {
+    "document_id": "most_2023_57",
+    "title": "关于公布中国禁止出口限制出口技术目录的公告",
+    "url": "https://www.most.gov.cn/tztg/202312/t20231221_189244.html",
+    "publisher": "商务部、科技部",
+    "publication_display": "2023-12-21",
+    "issue_date": null,
+    "effective_date": null,
+    "tags": [
+      "技术出口",
+      "目录"
+    ],
+    "note": "仅归档网页；发文、生效日期未逐条认证，不从URL猜测。",
+    "retrieved_at": "2026-10-13T19:01:08.629715+00:00",
+    "sha256": "b43d1ee272b2220392f54593417058a17af3b52bde33280213beed1fc03dcd98",
+    "relative_path": "政策原文/most_2023_57_b43d1ee272b22203.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  },
+  {
+    "document_id": "mofcom_uav_explanation_2024",
+    "title": "无人机出口管制调整公开解读",
+    "url": "https://exportcontrol.mofcom.gov.cn/article/zjsj/202408/1025.html",
+    "publisher": "商务部出口管制信息网",
+    "publication_display": null,
+    "issue_date": null,
+    "effective_date": null,
+    "tags": [
+      "红外成像",
+      "政策解读"
+    ],
+    "note": "作为公开政策解读原文样本；URL月份不当作首发时间，无交易方向标签。",
+    "retrieved_at": "2026-10-13T19:01:09.651686+00:00",
+    "sha256": "bffe7aca56f6740bbd6959862f792b25c3079e87e5a991f75e71bd723a87d512",
+    "relative_path": "政策原文/mofcom_uav_explanation_2024_bffe7aca56f6740b.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  },
+  {
+    "document_id": "mofcom_license_guide_2025",
+    "title": "两用物项出口许可申请填报指南",
+    "url": "https://exportcontrol.mofcom.gov.cn/article/cjwt/202504/1135.html",
+    "publisher": "商务部安全与管制局",
+    "publication_display": "2025-03-28 17:00",
+    "issue_date": null,
+    "effective_date": null,
+    "tags": [
+      "两用物项",
+      "许可指南"
+    ],
+    "note": "搜索可见正文而直接读取可能只返回外壳；按实际响应检验正文是否取得。",
+    "retrieved_at": "2026-10-13T19:01:10.888531+00:00",
+    "sha256": "78e5aa6e7169970fb919a416b1b87ab41b5d792e8cf4f7c8c4ccbc8b8fc43662",
+    "relative_path": "政策原文/mofcom_license_guide_2025_78e5aa6e7169970f.html",
+    "status": "public_page_body_archived_first_public_time_unverified",
+    "error": null
+  }
+]

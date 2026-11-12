@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-15T18:50:00+00:00",
+  "url": "https://bigquant.com/data/datasources/cn_stock_chips_distribution",
+  "surface": "Codex in-app browser; anonymous; no login or registration",
+  "visible_title": "数据平台 - BigQuant人工智能",
+  "dataset": "cn_stock_chips_distribution",
+  "table_fields_count": 12,
+  "visible_access_label": "订阅数据",
+  "tabs": [
+    "Table Structure",
+    "Document",
+    "Use Case",
+    "更新记录"
+  ],
+  "use_case_tab_opened": true,
+  "use_case_content": "empty in returned accessibility state",
+  "actual_002414_values_seen": false,
+  "stock_or_date_query_control_seen": false,
+  "download_control_seen": false,
+  "login_or_purchase_performed": false,
+  "tab_closed": true,
+  "observation_limit": "Anonymous public page only; cannot conclude no paid sample or trial can be supplied."
+}

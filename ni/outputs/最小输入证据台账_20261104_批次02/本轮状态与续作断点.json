@@ -1,0 +1,69 @@
+{
+  "batch_id": "a_20261104_input_evidence_b2",
+  "client_date": "2026-11-04",
+  "saved_at_local": "2026-11-04T01:59:38.311489-05:00",
+  "origin": "scheduled_heartbeat_a",
+  "status": "partially_complete_saved_after_batch_deadline",
+  "counts_as_completed_nightly_batch": false,
+  "completed_subtasks": {
+    "field_provider_rows": 10,
+    "field_local_checks": 24,
+    "calendar_scope": [
+      "2023-01-03",
+      "2024-12-31"
+    ],
+    "calendar_natural_days": 729,
+    "planned_open_days": 484,
+    "planned_closed_days": 245,
+    "context_only_days": 2,
+    "calendar_local_checks": 23
+  },
+  "not_completed": [
+    "SQLite consolidation not started",
+    "Final independent correspondence audit not executed",
+    "Root publication/recoverability conclusion not finalized"
+  ],
+  "completed_work_is_not_formal_admission": true,
+  "historical_PIT_certified": false,
+  "model_input_approved": false,
+  "runtime_usable": false,
+  "current_forecast_generated": false,
+  "cumulative_registered_variants": 16,
+  "new_market_collection": false,
+  "new_real_labels": 0,
+  "new_models": 0,
+  "new_scores": 0,
+  "outcomes_2025_2026_opened": false,
+  "extra_scientific_source_paths_used": [],
+  "raw_price_response_content_read": false,
+  "raw_original_hashes": "Manifest recorded only; not rehashed in this batch",
+  "stop_reason": "Actual time recheck at01:57 exceeded this batch01:40 deadline; only necessary save performed, no implicit extension",
+  "clock_cause": "not_diagnosed",
+  "next_checkpoint": [
+    "Reuse these stable subtask JSON/code and verify their fingerprints; do not re-extract fixed source set merely because the batch elapsed",
+    "Materialize metadata-only SQLite with10 field/provider records and729-day/484-open source index, preserve2context days separately",
+    "Independently audit concordance/NULL/registration and then publish bounded recoverability conclusion; no real label/model/score/network/14-column sweep"
+  ],
+  "source_hashes": {
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719",
+    "work/market_warmup_finalize_oct22/manifest.json": "00535dc7b0007bc095e209e44274c96346b8198e021eca1bf5c48069b1c1d56a",
+    "work/market_warmup_finalize_oct22/summary.json": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "outputs/高德红外数据库/calendar_audit_result.json": "89805d6a20eb3b87b2aeea64a2ee5d3e54ea6cd67fc67924d3a075e221ee0a03",
+    "outputs/高德红外数据库/official_calendar_2023_to_20261015.json": "b14dacce60330ad958054f2afef74744334f3b58fbaa65579dc93a1808e8a296",
+    "work/conditions_finish_oct22/summary.json": "426d85198abdd0fd5602e2794ea2dc8d0bf2c4b53dd12cdf7bb5845bca9032aa",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/daily_trade_conditions_915.json": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047",
+    "work/corporate_actions_refine_oct17/corporate_actions.json": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1",
+    "outputs/预测问题与标签适用性审查_20261101/审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776"
+  },
+  "artifact_sha256": {
+    "字段提取子任务核查.json": "1c9bf0e6b143961f7b9ea1edbc9ea0d3bee8bedaa4d4d11f5787640226125133",
+    "日历提取子任务核查.json": "3dc8baa2d628a757fb616ef279e2b7ac7220a96d92a7bbf7016375ad226350f1",
+    "字段时点与版本台账_待独立复核.json": "09e9b20e31ed1aa47b7ada6e0f09fd63b86bc550e932c5d700a8409b24eff404",
+    "计划日与状态来源索引_待独立复核.json": "a73af41e1c7bb26dc00c46da48c88ce9d894b354d78a3f4d567b41783cacb7a7"
+  }
+}

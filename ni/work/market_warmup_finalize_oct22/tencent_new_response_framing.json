@@ -1,0 +1,167 @@
+[
+  {
+    "name": "tencent_new_0_2022",
+    "requested_start": "2022-01-01",
+    "requested_end": "2022-12-31",
+    "returned_rows": 640,
+    "returned_start": "2020-05-19",
+    "returned_end": "2022-12-30",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_1_2022",
+    "requested_start": "2022-01-01",
+    "requested_end": "2022-12-31",
+    "returned_rows": 640,
+    "returned_start": "2020-05-19",
+    "returned_end": "2022-12-30",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_2_2022",
+    "requested_start": "2022-01-01",
+    "requested_end": "2022-12-31",
+    "returned_rows": 640,
+    "returned_start": "2020-05-19",
+    "returned_end": "2022-12-30",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_0_2023",
+    "requested_start": "2023-01-01",
+    "requested_end": "2023-12-31",
+    "returned_rows": 640,
+    "returned_start": "2021-05-18",
+    "returned_end": "2023-12-29",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_1_2023",
+    "requested_start": "2023-01-01",
+    "requested_end": "2023-12-31",
+    "returned_rows": 640,
+    "returned_start": "2021-05-18",
+    "returned_end": "2023-12-29",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_2_2023",
+    "requested_start": "2023-01-01",
+    "requested_end": "2023-12-31",
+    "returned_rows": 640,
+    "returned_start": "2021-05-18",
+    "returned_end": "2023-12-29",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_0_2024",
+    "requested_start": "2024-01-01",
+    "requested_end": "2024-12-31",
+    "returned_rows": 640,
+    "returned_start": "2022-05-18",
+    "returned_end": "2024-12-31",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_1_2024",
+    "requested_start": "2024-01-01",
+    "requested_end": "2024-12-31",
+    "returned_rows": 640,
+    "returned_start": "2022-05-18",
+    "returned_end": "2024-12-31",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_2_2024",
+    "requested_start": "2024-01-01",
+    "requested_end": "2024-12-31",
+    "returned_rows": 640,
+    "returned_start": "2022-05-18",
+    "returned_end": "2024-12-31",
+    "accepted_annual_window_rows": 242,
+    "outside_annual_window_rows": 398,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_0_2025",
+    "requested_start": "2025-01-01",
+    "requested_end": "2025-12-31",
+    "returned_rows": 640,
+    "returned_start": "2023-05-17",
+    "returned_end": "2025-12-31",
+    "accepted_annual_window_rows": 243,
+    "outside_annual_window_rows": 397,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_1_2025",
+    "requested_start": "2025-01-01",
+    "requested_end": "2025-12-31",
+    "returned_rows": 640,
+    "returned_start": "2023-05-17",
+    "returned_end": "2025-12-31",
+    "accepted_annual_window_rows": 243,
+    "outside_annual_window_rows": 397,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_2_2025",
+    "requested_start": "2025-01-01",
+    "requested_end": "2025-12-31",
+    "returned_rows": 640,
+    "returned_start": "2023-05-17",
+    "returned_end": "2025-12-31",
+    "accepted_annual_window_rows": 243,
+    "outside_annual_window_rows": 397,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_0_2026",
+    "requested_start": "2026-01-01",
+    "requested_end": "2026-10-16",
+    "returned_rows": 640,
+    "returned_start": "2024-02-26",
+    "returned_end": "2026-10-16",
+    "accepted_annual_window_rows": 188,
+    "outside_annual_window_rows": 452,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_1_2026",
+    "requested_start": "2026-01-01",
+    "requested_end": "2026-10-16",
+    "returned_rows": 640,
+    "returned_start": "2024-02-26",
+    "returned_end": "2026-10-16",
+    "accepted_annual_window_rows": 188,
+    "outside_annual_window_rows": 452,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  },
+  {
+    "name": "tencent_new_2_2026",
+    "requested_start": "2026-01-01",
+    "requested_end": "2026-10-16",
+    "returned_rows": 640,
+    "returned_start": "2024-02-26",
+    "returned_end": "2026-10-16",
+    "accepted_annual_window_rows": 188,
+    "outside_annual_window_rows": 452,
+    "note": "Observed provider returns a 640-bar window ending at request end; start parameter not respected. Entire raw response preserved."
+  }
+]

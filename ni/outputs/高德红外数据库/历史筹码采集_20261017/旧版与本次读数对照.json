@@ -1,0 +1,98 @@
+[
+  {
+    "date": "2023-06-20",
+    "prior_context": "first_session_earlier_history",
+    "prior_values": [
+      "6.68%",
+      "9.03",
+      "7.66-11.77",
+      "21.20%",
+      "8.20-10.81",
+      "13.72%"
+    ],
+    "current_values": [
+      "4.48%",
+      "9.10",
+      "7.69-12.44",
+      "23.63%",
+      "8.33-11.03",
+      "13.94%"
+    ],
+    "same_values": false,
+    "current_observation_id": "0113_2023-06-20_window1",
+    "cause_verified": false,
+    "historical_input_eligible": false
+  },
+  {
+    "date": "2023-06-20",
+    "prior_context": "first_session_returned_window",
+    "prior_values": [
+      "6.68%",
+      "9.03",
+      "7.66-11.77",
+      "21.20%",
+      "8.20-10.81",
+      "13.72%"
+    ],
+    "current_values": [
+      "4.48%",
+      "9.10",
+      "7.69-12.44",
+      "23.63%",
+      "8.33-11.03",
+      "13.94%"
+    ],
+    "same_values": false,
+    "current_observation_id": "0113_2023-06-20_window1",
+    "cause_verified": false,
+    "historical_input_eligible": false
+  },
+  {
+    "date": "2023-01-03",
+    "prior_context": "research_start_sample",
+    "prior_values": [
+      "5.85%",
+      "9.30",
+      "8.41-13.01",
+      "21.47%",
+      "8.75-11.36",
+      "12.97%"
+    ],
+    "current_values": [
+      "4.81%",
+      "9.36",
+      "8.46-13.60",
+      "23.31%",
+      "8.71-11.41",
+      "13.41%"
+    ],
+    "same_values": false,
+    "current_observation_id": "0002_2023-01-03_window1",
+    "cause_verified": false,
+    "historical_input_eligible": false
+  },
+  {
+    "date": "2023-06-20",
+    "prior_context": "fresh_reload_history",
+    "prior_values": [
+      "6.20%",
+      "9.03",
+      "7.60-11.34",
+      "19.76%",
+      "8.20-10.29",
+      "11.29%"
+    ],
+    "current_values": [
+      "4.48%",
+      "9.10",
+      "7.69-12.44",
+      "23.63%",
+      "8.33-11.03",
+      "13.94%"
+    ],
+    "same_values": false,
+    "current_observation_id": "0113_2023-06-20_window1",
+    "cause_verified": false,
+    "historical_input_eligible": false
+  }
+]

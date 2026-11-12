@@ -1,0 +1,22 @@
+{
+  "issue_id": "2023annual_distribution_planned_vs_later_reported_total",
+  "status": "different_measurement_contexts_cause_unverified",
+  "planned_gross_total_cny": "59790305.51",
+  "calculated_gross_before_rounding_cny": "59790305.512",
+  "later_2024_cash_dividend_total_reported_in_2024annual_plan_cny": "59790145.29",
+  "difference_cny": "160.22",
+  "do_not_overwrite_per_share_terms": true,
+  "do_not_treat_as_user_net_cash_or_account_receipt": true,
+  "field_evidence": [
+    {
+      "evidence_id": "AN202405151633180433:1",
+      "field": "planned_aggregate_cash",
+      "quote_compacted": "59790305.51"
+    },
+    {
+      "evidence_id": "AN202504241661802971:1",
+      "field": "later_reported_2024_cash_aggregate",
+      "quote_compacted": "59790145.29"
+    }
+  ]
+}

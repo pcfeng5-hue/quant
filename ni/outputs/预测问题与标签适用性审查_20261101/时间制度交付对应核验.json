@@ -1,0 +1,213 @@
+{
+  "all_checks_passed": true,
+  "passed": 34,
+  "total": 34,
+  "checks": [
+    {
+      "check": "user_first_question_exact_and_not_funds_authorization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "flat_comparison_is_design_assumption_not_user_confirmation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_pending_fields_null_and_not_user_frozen",
+      "passed": true,
+      "details": "15 grouped parameter fields; not a count of every sub-parameter"
+    },
+    {
+      "check": "pending_parameters_identical_in_dictionary_and_confirmation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old_horizon_only_engineering_and_clock_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "5_planned_sessions_only_discussion_not_confirmation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "decision_and_information_cutoff_not_fixed_1500",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "afterhours_channel_explicit_without_fill_guarantee",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "full_daily_volume_available_only_after_afterhours_plus_delay",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "planned_clock_differs_from_observed_and_calendar_not_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "single_common_T_no_late_entry_extension",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "last_day_new_purchase_not_assumed_liquidated",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "cash_equity_new_purchase_and_T_sellable_lots_separate",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ordinary_price_print_and_daily_volume_not_specific_fill",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "intraday_T_deferred_not_inferred_from_daily_bars",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "NAV_not_cash_and_liquidation_unknown_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "missing_unfilled_and_partial_fill_not_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "maturity_requires_actual_result_availability",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "corporate_action_and_receivables_not_cash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "costs_taxes_slippage_and_portfolio_limits_remain_pending",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "OHLC_order_unknown_and_touch_not_fill",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "history_rule_chain_not_backfilled_from_2026",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "new_parsed_sources_separate_from_saved_originals",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_public_observation_and_old_selected_hashes_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "known_official_pdf_urls_match_successful_parsed_provenance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_examples_fictional_no_real_market_observations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "hypothetical_future_available_information_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "confirmed_realized_pause_and_floating_distinction_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_new_market_label_score_or_later_target_opening",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "old_draft_hash_matches_registered_original",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_market_DB_query_or_network_library_build_review.py",
+      "passed": true,
+      "details": [
+        "pathlib",
+        "datetime",
+        "hashlib",
+        "json",
+        "shutil"
+      ]
+    },
+    {
+      "check": "no_market_DB_query_or_network_library_synthetic_examples.py",
+      "passed": true,
+      "details": [
+        "decimal",
+        "pathlib",
+        "json"
+      ]
+    },
+    {
+      "check": "all_old_protected_files_unchanged_since_build",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "audited_delivery_files_unchanged_during_review",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "delivery_sha256": {
+    "预测问题与标签适用性审查_v1.md": "6dcb2c6e3dc171d881f24d66bc9546422809bd035845254d9fe0c82c77d75b31",
+    "预测事件字典_v1.json": "abb412d917c6d2c7d78bdb5e157a67171b2e50b6dc114b32a6f86cce456841e0",
+    "状态与资格字典.json": "50e6dcef9535447055e24021b799b8887160fea7ff2f7ea759640e98d6c61565",
+    "审查范围与设计合同.json": "de079ede4325f00a9734eb845c3a101967d98c354b720ed415174cc6da45b776",
+    "本次用户确认与待定参数.json": "f7703adba5db83dcf70038254725bb323146b2d410ffc62ac450d88fbb127d05",
+    "来源与版本索引.json": "3814de8c7529df12130e2209eeac244391b242123904823c5714179798cf45c3",
+    "合成案例与精确计算.json": "69c6a4994f8d6381dda6b5772e2003107fa81fce2b1daa23c5ab1dd4c6f40ded"
+  },
+  "pending_grouped_parameter_count": 15,
+  "scope": "Timing, selected A-share rules, confirmation boundary and source correspondence; no new market targets or model computations",
+  "old_sources_sha256": {
+    "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee",
+    "outputs/概率预测引擎详细方案_20261016.md": "fb059323e6b3956986a580078015f3c9aa68e24093c608b91b159713b15554b8",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/conditions_finish_oct22/rule_regimes.json": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef",
+    "work/conditions_finish_oct22/历史交易条件补核报告.md": "bb766b3f40e29b90d11f7e20071a8b8ea534410c910645ae4690087c79313aee",
+    "outputs/五项数据补缺_20261022/历史交易条件核对.md": "bb766b3f40e29b90d11f7e20071a8b8ea534410c910645ae4690087c79313aee",
+    "work/conditions_finish_oct22/extracted/rules_2026_pdf_9b66f8b0db70f84a_pages.json": "60151b3785849cc178e31e7f5799080763f70800f12e05e0dcd5636753c65d5c",
+    "work/historical_trade_conditions_oct17/raw/rules_2026_pdf_9b66f8b0db70f84a.pdf": "9b66f8b0db70f84a25ef1ccb4ee2351001724e408117552d75f6d8993483c586",
+    "work/historical_trade_conditions_oct17/raw/rules_2026_notice_retry_0dcb0971ac96123f.html": "0dcb0971ac96123f369178ce8f5397d948190d41281175694664de1d1dd4dce5"
+  },
+  "new_market_labels_generated": 0,
+  "new_models_fitted": 0,
+  "new_scores_calculated": 0,
+  "outcomes_2025_2026_opened": false
+}

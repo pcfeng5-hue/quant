@@ -1,0 +1,40 @@
+{
+  "audit_date_client": "2026-10-16",
+  "source_url": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r",
+  "scope": "Rendered daily K-line chip distribution, read-only UI verification",
+  "status": "partial_handed_to_root",
+  "main_database_modified": false,
+  "ui_access": {
+    "initial_existing_tabs": 0,
+    "visible_true_result": "IAB visibility is not supported in a subagent thread",
+    "visible_false_result": "Created successfully and rendered page",
+    "browser_id": "2",
+    "tab_id": "1",
+    "actions": ["Select 日K", "Open 筹码分布", "Close promotional overlay", "Scroll to summary"]
+  },
+  "observations": [
+    {
+      "selected_date_display": "2026-10-13",
+      "profit_ratio_display_pct": 4.26,
+      "average_cost_display": 13.18,
+      "cost_90_range_display": [11.33, 14.72],
+      "concentration_90_display_pct": 13.01,
+      "cost_70_range_display": [12.26, 14.00],
+      "concentration_70_display_pct": 6.65,
+      "evidence_type": "Human-readable screenshot in CUA tool result, manually transcribed; no local screenshot saved",
+      "chart_price_mode_display": "前复权",
+      "chip_price_basis_verified": false,
+      "historical_input_eligible": false
+    }
+  ],
+  "not_verified": [
+    "Navigation to any 2023 trading date",
+    "Full price-bin numerical distribution",
+    "Public export availability",
+    "Earliest historical date",
+    "Algorithm and version",
+    "Historical revisions and point-in-time availability",
+    "Chip price adjustment basis consistency"
+  ],
+  "handoff": "Root instructed subagent to stop UI actions and take over the same tab; no further UI action performed after instruction received."
+}

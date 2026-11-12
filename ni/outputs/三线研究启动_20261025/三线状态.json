@@ -1,0 +1,55 @@
+{
+  "client_date": "2026-10-25",
+  "authorization": "好的 123 开始",
+  "market_data_last_date": "2026-10-21",
+  "new_market_collection_this_round": false,
+  "track1": {
+    "status": "engineering_features_and_development_descriptive_example_built",
+    "research_dates": 918,
+    "features_include_warmup_dates": 1160,
+    "registered_signals": 12,
+    "development_anchors": 484,
+    "development_price_windows": 469,
+    "excluded_anchors": 15,
+    "forecast_model_trained": false,
+    "model_input_approved": false,
+    "final_protocol_changed": false
+  },
+  "track2": {
+    "status": "full_saved_summary_quality_audit_complete",
+    "observations": 954,
+    "accepted": 943,
+    "rejected": 11,
+    "dates": 915,
+    "dates_with_version_differences": 5,
+    "single_capture_dates": 902,
+    "historical_availability_certified_dates": 0,
+    "model_input_approved": false
+  },
+  "track3": {
+    "status": "small_sample_hypothetical_estimator_implemented",
+    "technical_dates": 12,
+    "scenarios": 7,
+    "groups": 84,
+    "grid_rows_including_zeros": 111873,
+    "supplier_native_bins_acquired": false,
+    "model_input_approved": false
+  },
+  "evidence_index": {
+    "source_index_rows": 5390,
+    "supplement_unique_paths": 54,
+    "supplement_present_paths": 51,
+    "supplement_missing_rejected_attempt_paths": 3,
+    "merged_unique_paths": 5444,
+    "source_db_unchanged": true,
+    "source_db_sha256": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "not_a_full_project_file_inventory": true
+  },
+  "next_steps": [
+    "review indicator warmup coverage and a narrow baseline admission scope",
+    "freeze final horizon, target definition, and validation protocol before predictive model fitting",
+    "resolve estimator initialization and turnover sensitivity before expanding or claiming a stable chip feature",
+    "evaluate any future chip feature only against matched no-chip baseline dates"
+  ],
+  "no_live_trade_or_risk_configuration_change": true
+}

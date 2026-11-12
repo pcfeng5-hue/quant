@@ -1,0 +1,436 @@
+{
+  "audit_id": "independent_stored_ma_volume_features_20261026",
+  "scope": "feature_only; no labels, no prediction results, no outcome frequencies",
+  "period": {
+    "audit_start": "2023-01-03",
+    "audit_end": "2024-12-31",
+    "warmup_input_first": "2022-01-04",
+    "calculation_start": "2022-06-01",
+    "input_rows": 726,
+    "development_anchors": 484
+  },
+  "implementation": "stdlib Fraction exact decimal-string input, independent local slices; no imports or calls to old generator functions",
+  "input_hashes_before": {
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164"
+  },
+  "input_hashes_after": {
+    "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+    "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164"
+  },
+  "checks": [
+    {
+      "check": "input_dates_are_sorted_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "feature_dates_are_sorted_unique_and_match_input",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "signal_dates_are_sorted_unique_and_match_input",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "development_anchor_count_484",
+      "passed": true,
+      "details": {
+        "actual": 484
+      }
+    },
+    {
+      "check": "input_ohlc_and_native_volume_finite_valid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "stored_raw_and_source_fields_match_same_day_input",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "contract_volume_threshold_and_window_are_fixed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "segment_metadata_matches_independent_reconstruction",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "known_ex_date_flags_match_boundaries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_rational_ma_values_match_stored",
+      "passed": true,
+      "details": {
+        "max_absolute_error": {
+          "ma5": 1.7763568394002505e-15,
+          "ma10": 1.7763568394002505e-15,
+          "ma15": 1.7763568394002505e-15
+        }
+      }
+    },
+    {
+      "check": "exact_previous20_volume_ratio_matches_stored",
+      "passed": true,
+      "details": {
+        "max_absolute_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "check": "exact_close_change_matches_stored",
+      "passed": true,
+      "details": {
+        "max_absolute_error": 2.185751579730777e-16
+      }
+    },
+    {
+      "check": "exact_signal_matches_MA5_gt_MA10_gt_MA15_and_MA15_rising",
+      "passed": true,
+      "details": {
+        "differences": []
+      }
+    },
+    {
+      "check": "exact_signal_matches_MA5_lt_MA10_lt_MA15_and_MA15_falling",
+      "passed": true,
+      "details": {
+        "differences": []
+      }
+    },
+    {
+      "check": "exact_signal_matches_volume_gt_1p5_prev20_and_close_rising",
+      "passed": true,
+      "details": {
+        "differences": []
+      }
+    },
+    {
+      "check": "exact_signal_matches_volume_gt_1p5_prev20_and_close_falling",
+      "passed": true,
+      "details": {
+        "differences": []
+      }
+    },
+    {
+      "check": "all_four_signal_values_are_nullable_binary",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "direction_pairs_are_exclusive_with_symmetric_nulls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "volume_first20_in_each_segment_are_null",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ma_trend_first15_in_each_segment_are_null",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "known_ex_date_resets_price_and_volume_states",
+      "passed": true,
+      "details": {
+        "dates": [
+          "2023-06-20",
+          "2024-05-24"
+        ]
+      }
+    },
+    {
+      "check": "all_volume_dependencies_stay_within_segment_and_no_later_than_signal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "native_volume_unit_marker_is_constant",
+      "passed": true,
+      "details": {
+        "markers": [
+          "provider_stock_hands_convention_not_formal_API_specification"
+        ],
+        "verified_formal_vendor_unit": false
+      }
+    },
+    {
+      "check": "ratio_invariant_to_constant_positive_unit_conversion",
+      "passed": true,
+      "details": {
+        "conversion_multiplier": 100,
+        "differences": []
+      }
+    },
+    {
+      "check": "truncation_prefix_invariance_all_requested_fields",
+      "passed": true,
+      "details": [
+        {
+          "cutoff": "2023-01-03",
+          "unchanged": true
+        },
+        {
+          "cutoff": "2023-06-19",
+          "unchanged": true
+        },
+        {
+          "cutoff": "2023-06-20",
+          "unchanged": true
+        },
+        {
+          "cutoff": "2023-07-18",
+          "unchanged": true
+        },
+        {
+          "cutoff": "2024-05-24",
+          "unchanged": true
+        },
+        {
+          "cutoff": "2024-12-31",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "check": "future_price_and_volume_mutation_preserves_past_features",
+      "passed": true,
+      "details": {
+        "cutoff": "2023-12-29"
+      }
+    },
+    {
+      "check": "strict_gt_threshold_zero_change_and_null_semantics",
+      "passed": true,
+      "details": {
+        "synthetic_boundary_probes": 6
+      }
+    },
+    {
+      "check": "formal_daily_status_and_model_runtime_gates_remain_closed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "protected_input_files_unchanged",
+      "passed": true,
+      "details": {
+        "after": {
+          "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite": "c72db122e122f59bc789a1f4f69c7f8d8212e83704ec7caf1f19d1d0026e85ca",
+          "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092",
+          "work/baseline_oct25/build_baseline.py": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164"
+        }
+      }
+    },
+    {
+      "check": "no_label_or_outcome_value_queries",
+      "passed": true,
+      "details": {
+        "query_count": 4,
+        "label_database_opened": false,
+        "predictive_results_calculated": false
+      }
+    }
+  ],
+  "passed": 30,
+  "total": 30,
+  "coverage": [
+    {
+      "period": "2023",
+      "signal": "MA5_gt_MA10_gt_MA15_and_MA15_rising",
+      "anchors": 242,
+      "computed": 227,
+      "null": 15,
+      "false": 168,
+      "true": 59
+    },
+    {
+      "period": "2023",
+      "signal": "MA5_lt_MA10_lt_MA15_and_MA15_falling",
+      "anchors": 242,
+      "computed": 227,
+      "null": 15,
+      "false": 144,
+      "true": 83
+    },
+    {
+      "period": "2023",
+      "signal": "volume_gt_1p5_prev20_and_close_rising",
+      "anchors": 242,
+      "computed": 222,
+      "null": 20,
+      "false": 205,
+      "true": 17
+    },
+    {
+      "period": "2023",
+      "signal": "volume_gt_1p5_prev20_and_close_falling",
+      "anchors": 242,
+      "computed": 222,
+      "null": 20,
+      "false": 215,
+      "true": 7
+    },
+    {
+      "period": "2024",
+      "signal": "MA5_gt_MA10_gt_MA15_and_MA15_rising",
+      "anchors": 242,
+      "computed": 227,
+      "null": 15,
+      "false": 161,
+      "true": 66
+    },
+    {
+      "period": "2024",
+      "signal": "MA5_lt_MA10_lt_MA15_and_MA15_falling",
+      "anchors": 242,
+      "computed": 227,
+      "null": 15,
+      "false": 149,
+      "true": 78
+    },
+    {
+      "period": "2024",
+      "signal": "volume_gt_1p5_prev20_and_close_rising",
+      "anchors": 242,
+      "computed": 222,
+      "null": 20,
+      "false": 199,
+      "true": 23
+    },
+    {
+      "period": "2024",
+      "signal": "volume_gt_1p5_prev20_and_close_falling",
+      "anchors": 242,
+      "computed": 222,
+      "null": 20,
+      "false": 209,
+      "true": 13
+    },
+    {
+      "period": "2023-2024",
+      "signal": "MA5_gt_MA10_gt_MA15_and_MA15_rising",
+      "anchors": 484,
+      "computed": 454,
+      "null": 30,
+      "false": 329,
+      "true": 125
+    },
+    {
+      "period": "2023-2024",
+      "signal": "MA5_lt_MA10_lt_MA15_and_MA15_falling",
+      "anchors": 484,
+      "computed": 454,
+      "null": 30,
+      "false": 293,
+      "true": 161
+    },
+    {
+      "period": "2023-2024",
+      "signal": "volume_gt_1p5_prev20_and_close_rising",
+      "anchors": 484,
+      "computed": 444,
+      "null": 40,
+      "false": 404,
+      "true": 40
+    },
+    {
+      "period": "2023-2024",
+      "signal": "volume_gt_1p5_prev20_and_close_falling",
+      "anchors": 484,
+      "computed": 444,
+      "null": 40,
+      "false": 424,
+      "true": 20
+    }
+  ],
+  "segment_coverage": [
+    {
+      "segment_start": "2022-06-01",
+      "first_audit_anchor": "2023-01-03",
+      "last_audit_anchor": "2023-06-19",
+      "anchors": 111,
+      "volume_computed": 111,
+      "volume_first_available": "2023-01-03",
+      "ma_trend_computed": 111,
+      "ma_trend_first_available": "2023-01-03"
+    },
+    {
+      "segment_start": "2023-06-20",
+      "first_audit_anchor": "2023-06-20",
+      "last_audit_anchor": "2024-05-23",
+      "anchors": 223,
+      "volume_computed": 203,
+      "volume_first_available": "2023-07-20",
+      "ma_trend_computed": 208,
+      "ma_trend_first_available": "2023-07-13"
+    },
+    {
+      "segment_start": "2024-05-24",
+      "first_audit_anchor": "2024-05-24",
+      "last_audit_anchor": "2024-12-31",
+      "anchors": 150,
+      "volume_computed": 130,
+      "volume_first_available": "2024-06-24",
+      "ma_trend_computed": 135,
+      "ma_trend_first_available": "2024-06-17"
+    }
+  ],
+  "numeric_max_absolute_errors": {
+    "ma5": 1.7763568394002505e-15,
+    "ma10": 1.7763568394002505e-15,
+    "ma15": 1.7763568394002505e-15,
+    "volume_ratio_prev20": 1.7763568394002505e-15,
+    "close_change_prev": 2.185751579730777e-16
+  },
+  "read_queries": [
+    {
+      "sql": "SELECT observation_id,trade_date,open,high,low,close,volume_native,volume_unit,turnover_unit,source_sha256,retrieved_at FROM input_bars WHERE trade_date<=? ORDER BY trade_date",
+      "params": [
+        "2024-12-31"
+      ]
+    },
+    {
+      "sql": "SELECT trade_date,source_observation_id,source_sha256,source_retrieved_at,raw_open,raw_high,raw_low,raw_close,volume_native,segment_start,segment_bars,known_ex_date,ma5,ma10,ma15,volume_ratio_prev20,close_change_prev,daily_status_certified,model_input_approved,runtime_usable FROM features WHERE trade_date<=? ORDER BY trade_date",
+      "params": [
+        "2024-12-31"
+      ]
+    },
+    {
+      "sql": "SELECT trade_date,\"MA5_gt_MA10_gt_MA15_and_MA15_rising\",\"MA5_lt_MA10_lt_MA15_and_MA15_falling\",\"volume_gt_1p5_prev20_and_close_rising\",\"volume_gt_1p5_prev20_and_close_falling\" FROM signals WHERE trade_date<=? ORDER BY trade_date",
+      "params": [
+        "2024-12-31"
+      ]
+    },
+    {
+      "sql": "SELECT event_id,ex_date,cash_cny_per_10_gross,transfer_shares_per_10 FROM corporate_action_boundaries WHERE ex_date<=? ORDER BY ex_date",
+      "params": [
+        "2024-12-31"
+      ]
+    }
+  ],
+  "labels_read": false,
+  "new_combo_outcome_frequency_calculated": false,
+  "formal_model_input_approved": false,
+  "runtime_usable": false,
+  "limitations": [
+    "All features require the current completed daily close and total daily volume; usable for a prospective post-close calculation only, not an intraday or opening-time signal.",
+    "Prefix invariance proves formula causality for the saved snapshot, not historical first-publication times or absence of later vendor revisions.",
+    "The single stored provider volume unit marker is unverified by an official vendor specification. A ratio cancels a constant unit factor; it does not certify the vendor definition, float shares, or money flow.",
+    "Only the recorded ex-date boundaries are verified by this reconstruction. No claim that all corporate actions or the unbridged 2022 discontinuity were resolved.",
+    "No historical daily ST/suspension/limit/fill/fee acceptance and no live readiness are established.",
+    "Signal counts describe indicator availability and triggers only; no label values, next-period direction frequencies, predictive scores, or new combinations were calculated."
+  ]
+}

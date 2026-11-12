@@ -1,0 +1,14 @@
+[
+  {
+    "name": "rules_2023_pdf_official",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020230217564423808793.pdf",
+    "retrieved_at_utc": "2026-10-22T16:21:50.865159+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "yearbook_2023",
+    "url": "https://www.szse.cn/aboutus/sse/events/t20240110_605593.html",
+    "retrieved_at_utc": "2026-10-22T16:21:50.873360+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  }
+]

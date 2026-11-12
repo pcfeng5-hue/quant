@@ -1,0 +1,28 @@
+{
+  "client_date": "2026-11-01",
+  "user_original_answer": "收盘后判断回落时该买入还是继续等待",
+  "source": "本聊天用户明确选择",
+  "confirmed": [
+    "首版优先收盘后判断回落时该买入还是继续等待"
+  ],
+  "research_starting_cash_condition": "本审查的示例设计范围，不代表用户实际空仓或已确认仓位分配",
+  "not_confirmed": [
+    "pullback_eligibility_rule",
+    "confirmation_rule",
+    "main_horizon_planned_exchange_sessions",
+    "decision_datetime_and_information_cutoff",
+    "validated_exchange_planned_calendar",
+    "maximum_wait_sessions",
+    "last_confirmation_and_last_entry",
+    "entry_order_price_validity_and_cancellation_policy",
+    "terminal_NAV_or_executable_cash_policy",
+    "allocation_quantity_and_cash_interest_policy",
+    "fees_slippage_and_dividend_tax",
+    "economic_neutral_band_and_material_advantage",
+    "risk_barriers_and_action_thresholds",
+    "statistical_and_economic_acceptance",
+    "user_risk_limits_beyond_existing_realized_pause"
+  ],
+  "not_a_real_funds_or_order_authorization": true,
+  "old_draft_preserved": true
+}

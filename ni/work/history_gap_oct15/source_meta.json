@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock_feature/stock_tfp_em.py",
+    "retrieved_at": "2026-10-15T17:33:12.971254+00:00",
+    "sha256": "6378e367be7c0250af9921ebeed953d02324e4c6b06cb967d1c32d97576a60c6",
+    "path": "work/history_gap_oct15/stock_tfp_em.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock_feature/stock_gdhs.py",
+    "retrieved_at": "2026-10-15T17:33:13.332480+00:00",
+    "sha256": "95a8bac710c04100dbde59cb983c68f65e0056e9a721f6275dc9b739981eb6b8",
+    "path": "work/history_gap_oct15/stock_gdhs.py"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/akfamily/akshare/main/akshare/stock_feature/stock_gdfx_em.py",
+    "retrieved_at": "2026-10-15T17:33:13.582929+00:00",
+    "sha256": "baea59a9d36b44084f25ef8f8f3377af73917d4e755e7b6dd7efb3c69d972dc7",
+    "path": "work/history_gap_oct15/stock_gdfx_em.py"
+  }
+]

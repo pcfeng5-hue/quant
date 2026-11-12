@@ -1,0 +1,5971 @@
+{
+  "run_id": "refresh-20261015-v1",
+  "target_end": "2026-10-15",
+  "applied_at": "2026-10-15T17:45:09.311328+00:00",
+  "stock_days": 914,
+  "new_stock_dates": [
+    "2026-10-14",
+    "2026-10-15"
+  ],
+  "margin_dates": 913,
+  "margin_end": "2026-10-14",
+  "fund_flow_latest_window": 120,
+  "fund_flow_retained_dates": 122,
+  "shareholder_observations": 170,
+  "index_discrepancies": [
+    {
+      "dataset": "tencent_index_sh000001",
+      "reference_date": "2026-02-11",
+      "old": {
+        "snapshot_id": "index_1.000001:d901015a766c07a73c85eb6bf6fcc1397b39e5fcf561b05ee82d658092fda6ec",
+        "symbol": "1.000001",
+        "source": "index_1.000001",
+        "adjustment": "0",
+        "trade_date": "2026-02-11",
+        "open": 4124.43,
+        "high": 4142.56,
+        "low": 4122.43,
+        "close": 4131.99,
+        "volume": 500685278.0,
+        "amount": 822607547250.8,
+        "turnover": 1.03,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-02-11",
+        "open": 4124.43,
+        "high": 4142.56,
+        "low": 4122.43,
+        "close": 4131.98,
+        "volume": 500685278.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-19",
+        "open": 11305.79,
+        "high": 11307.75,
+        "low": 11244.42,
+        "close": 11274.05,
+        "volume": 430857133.0,
+        "amount": 651498874995.5,
+        "turnover": 1.74,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-19",
+        "open": 11305.79,
+        "high": 11307.75,
+        "low": 11244.42,
+        "close": 11274.05,
+        "volume": 426762540.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-12",
+        "open": 10220.33,
+        "high": 10302.05,
+        "low": 10200.21,
+        "close": 10301.16,
+        "volume": 595059405.0,
+        "amount": 786340324792.0,
+        "turnover": 2.41,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-12",
+        "open": 10220.33,
+        "high": 10302.05,
+        "low": 10200.21,
+        "close": 10301.16,
+        "volume": 594910623.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-03",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-03",
+        "open": 10431.03,
+        "high": 10546.74,
+        "low": 10431.03,
+        "close": 10534.58,
+        "volume": 639360247.0,
+        "amount": 809544553038.61,
+        "turnover": 2.59,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-03",
+        "open": 10431.03,
+        "high": 10546.74,
+        "low": 10431.03,
+        "close": 10534.58,
+        "volume": 638445112.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-20",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-20",
+        "open": 14307.55,
+        "high": 14337.12,
+        "low": 14033.22,
+        "close": 14155.63,
+        "volume": 882652782.0,
+        "amount": 1556312998239.22,
+        "turnover": 3.57,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-20",
+        "open": 14307.55,
+        "high": 14337.12,
+        "low": 14033.22,
+        "close": 14155.63,
+        "volume": 881921909.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-16",
+        "open": 13017.58,
+        "high": 13071.22,
+        "low": 12863.82,
+        "close": 13063.97,
+        "volume": 889812067.0,
+        "amount": 1351636076564.58,
+        "turnover": 3.6,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-16",
+        "open": 13017.58,
+        "high": 13071.22,
+        "low": 12863.82,
+        "close": 13063.97,
+        "volume": 889464182.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-12",
+        "open": 8831.68,
+        "high": 8885.36,
+        "low": 8814.09,
+        "close": 8854.08,
+        "volume": 367477015.0,
+        "amount": 384415596982.47,
+        "turnover": 1.49,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-12",
+        "open": 8831.68,
+        "high": 8885.36,
+        "low": 8814.09,
+        "close": 8854.08,
+        "volume": 367087706.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-11",
+        "open": 11866.35,
+        "high": 11914.32,
+        "low": 11819.76,
+        "close": 11877.15,
+        "volume": 423094685.0,
+        "amount": 616287040656.39,
+        "turnover": 1.71,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-11",
+        "open": 11866.35,
+        "high": 11914.32,
+        "low": 11819.76,
+        "close": 11877.15,
+        "volume": 422999015.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-03-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-03-26",
+        "open": 9413.26,
+        "high": 9490.75,
+        "low": 9366.0,
+        "close": 9449.43,
+        "volume": 485153702.0,
+        "amount": 559618409849.52,
+        "turnover": 1.96,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-03-26",
+        "open": 9413.26,
+        "high": 9490.75,
+        "low": 9366.0,
+        "close": 9449.43,
+        "volume": 482461755.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-03-27",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-03-27",
+        "open": 9437.56,
+        "high": 9437.67,
+        "low": 9222.47,
+        "close": 9222.47,
+        "volume": 467833994.0,
+        "amount": 512616683660.56,
+        "turnover": 1.89,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-03-27",
+        "open": 9437.56,
+        "high": 9437.67,
+        "low": 9222.47,
+        "close": 9222.47,
+        "volume": 467138891.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-11",
+        "open": 8800.39,
+        "high": 8890.76,
+        "low": 8746.9,
+        "close": 8870.36,
+        "volume": 424940477.0,
+        "amount": 449363331970.89,
+        "turnover": 1.72,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-11",
+        "open": 8800.39,
+        "high": 8890.76,
+        "low": 8746.9,
+        "close": 8870.36,
+        "volume": 424460595.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-06",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-06",
+        "open": 11001.87,
+        "high": 11072.07,
+        "low": 10954.15,
+        "close": 10968.37,
+        "volume": 378440662.0,
+        "amount": 499010076468.03,
+        "turnover": 1.53,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-06",
+        "open": 11001.87,
+        "high": 11072.07,
+        "low": 10954.15,
+        "close": 10968.37,
+        "volume": 376997020.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-02",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-02",
+        "open": 9633.97,
+        "high": 9633.97,
+        "low": 9546.47,
+        "close": 9586.95,
+        "volume": 530838772.0,
+        "amount": 570946741251.64,
+        "turnover": 2.15,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-02",
+        "open": 9633.97,
+        "high": 9633.97,
+        "low": 9546.47,
+        "close": 9586.95,
+        "volume": 530210533.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-03-29",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-03-29",
+        "open": 11584.91,
+        "high": 11623.43,
+        "low": 11538.17,
+        "close": 11579.91,
+        "volume": 413801869.0,
+        "amount": 575562998502.26,
+        "turnover": 1.68,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-03-29",
+        "open": 11584.91,
+        "high": 11623.43,
+        "low": 11538.17,
+        "close": 11579.91,
+        "volume": 413628273.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-30",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-30",
+        "open": 13504.65,
+        "high": 13598.18,
+        "low": 13460.32,
+        "close": 13526.51,
+        "volume": 658567252.0,
+        "amount": 1208141143826.54,
+        "turnover": 2.67,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-30",
+        "open": 13504.65,
+        "high": 13598.18,
+        "low": 13460.32,
+        "close": 13526.51,
+        "volume": 658434833.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-27",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-27",
+        "open": 10371.81,
+        "high": 10455.51,
+        "low": 10343.3,
+        "close": 10378.55,
+        "volume": 699213591.0,
+        "amount": 935385167115.65,
+        "turnover": 2.83,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-27",
+        "open": 10371.81,
+        "high": 10455.51,
+        "low": 10343.3,
+        "close": 10378.55,
+        "volume": 698391693.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-15",
+        "open": 8825.47,
+        "high": 8834.03,
+        "low": 8780.75,
+        "close": 8801.62,
+        "volume": 332093974.0,
+        "amount": 333441871146.37,
+        "turnover": 1.34,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-15",
+        "open": 8825.47,
+        "high": 8834.03,
+        "low": 8780.75,
+        "close": 8801.62,
+        "volume": 331747166.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-17",
+        "open": 13062.64,
+        "high": 13226.2,
+        "low": 13004.38,
+        "close": 13215.46,
+        "volume": 853723162.0,
+        "amount": 1370067340574.8,
+        "turnover": 3.46,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-17",
+        "open": 13062.64,
+        "high": 13226.2,
+        "low": 13004.38,
+        "close": 13215.46,
+        "volume": 853571717.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-04",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-04",
+        "open": 11878.16,
+        "high": 11885.38,
+        "low": 11792.24,
+        "close": 11859.48,
+        "volume": 508214234.0,
+        "amount": 768760508862.45,
+        "turnover": 2.06,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-04",
+        "open": 11878.16,
+        "high": 11885.38,
+        "low": 11792.24,
+        "close": 11859.48,
+        "volume": 508157670.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-03",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-03",
+        "open": 11751.68,
+        "high": 11898.76,
+        "low": 11751.68,
+        "close": 11889.42,
+        "volume": 497823896.0,
+        "amount": 739603496080.65,
+        "turnover": 2.02,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-03",
+        "open": 11751.68,
+        "high": 11898.76,
+        "low": 11751.68,
+        "close": 11889.42,
+        "volume": 497684518.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-11",
+        "open": 11158.72,
+        "high": 11200.91,
+        "low": 11136.26,
+        "close": 11142.53,
+        "volume": 385308783.0,
+        "amount": 494592609157.91,
+        "turnover": 1.56,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-11",
+        "open": 11158.72,
+        "high": 11200.91,
+        "low": 11136.26,
+        "close": 11142.53,
+        "volume": 384549481.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-18",
+        "open": 13161.15,
+        "high": 13328.1,
+        "low": 12915.97,
+        "close": 13075.66,
+        "volume": 1073785345.0,
+        "amount": 1769208959829.64,
+        "turnover": 4.35,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-18",
+        "open": 13161.15,
+        "high": 13328.1,
+        "low": 12915.97,
+        "close": 13075.66,
+        "volume": 1073527791.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-03-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-03-28",
+        "open": 9221.53,
+        "high": 9440.31,
+        "low": 9221.53,
+        "close": 9342.92,
+        "volume": 480632717.0,
+        "amount": 539328573376.13,
+        "turnover": 1.95,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-03-28",
+        "open": 9221.53,
+        "high": 9440.31,
+        "low": 9221.53,
+        "close": 9342.92,
+        "volume": 479356183.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-18",
+        "open": 10142.58,
+        "high": 10190.04,
+        "low": 10118.68,
+        "close": 10175.59,
+        "volume": 587956237.0,
+        "amount": 750076595745.44,
+        "turnover": 2.38,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-18",
+        "open": 10142.58,
+        "high": 10190.04,
+        "low": 10118.68,
+        "close": 10175.59,
+        "volume": 587501533.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-03",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-03",
+        "open": 8808.37,
+        "high": 8827.09,
+        "low": 8734.72,
+        "close": 8760.43,
+        "volume": 344268995.0,
+        "amount": 322541186184.98,
+        "turnover": 1.39,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-03",
+        "open": 8808.37,
+        "high": 8827.09,
+        "low": 8734.72,
+        "close": 8760.43,
+        "volume": 343111173.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-15",
+        "open": 12971.43,
+        "high": 13098.78,
+        "low": 12943.4,
+        "close": 13005.77,
+        "volume": 798857680.0,
+        "amount": 1291248301054.75,
+        "turnover": 3.23,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-15",
+        "open": 12971.43,
+        "high": 13098.78,
+        "low": 12943.4,
+        "close": 13005.77,
+        "volume": 798311125.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-28",
+        "open": 8814.93,
+        "high": 8960.96,
+        "low": 8814.93,
+        "close": 8848.7,
+        "volume": 370471251.0,
+        "amount": 389910206943.29,
+        "turnover": 1.5,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-28",
+        "open": 8814.93,
+        "high": 8960.96,
+        "low": 8814.93,
+        "close": 8848.7,
+        "volume": 369911657.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-08",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-08",
+        "open": 8675.97,
+        "high": 8675.97,
+        "low": 8539.42,
+        "close": 8561.95,
+        "volume": 331066452.0,
+        "amount": 311138567455.62,
+        "turnover": 1.34,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-08",
+        "open": 8675.97,
+        "high": 8675.97,
+        "low": 8539.42,
+        "close": 8561.95,
+        "volume": 330661093.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-22",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-22",
+        "open": 13119.83,
+        "high": 13157.97,
+        "low": 13006.36,
+        "close": 13157.97,
+        "volume": 722355718.0,
+        "amount": 1179690201336.79,
+        "turnover": 2.92,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-22",
+        "open": 13119.83,
+        "high": 13157.97,
+        "low": 13006.36,
+        "close": 13157.97,
+        "volume": 722197293.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-17",
+        "open": 8860.75,
+        "high": 8884.79,
+        "low": 8809.13,
+        "close": 8835.14,
+        "volume": 338590500.0,
+        "amount": 369626699300.61,
+        "turnover": 1.37,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-17",
+        "open": 8860.75,
+        "high": 8884.79,
+        "low": 8809.13,
+        "close": 8835.14,
+        "volume": 338065443.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-16",
+        "open": 10096.57,
+        "high": 10173.06,
+        "low": 10096.57,
+        "close": 10163.55,
+        "volume": 568712565.0,
+        "amount": 733493561365.51,
+        "turnover": 2.3,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-16",
+        "open": 10096.57,
+        "high": 10173.06,
+        "low": 10096.57,
+        "close": 10163.55,
+        "volume": 568501403.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-10",
+        "open": 10593.7,
+        "high": 10667.41,
+        "low": 10562.16,
+        "close": 10631.13,
+        "volume": 702268358.0,
+        "amount": 881009191214.75,
+        "turnover": 2.84,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-10",
+        "open": 10593.7,
+        "high": 10667.41,
+        "low": 10562.16,
+        "close": 10631.13,
+        "volume": 701359248.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-17",
+        "open": 9180.51,
+        "high": 9381.77,
+        "low": 9180.51,
+        "close": 9381.77,
+        "volume": 509475898.0,
+        "amount": 502214816989.59,
+        "turnover": 2.06,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-17",
+        "open": 9180.51,
+        "high": 9381.77,
+        "low": 9180.51,
+        "close": 9381.77,
+        "volume": 508600428.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-16",
+        "open": 8783.35,
+        "high": 8881.77,
+        "low": 8780.09,
+        "close": 8877.02,
+        "volume": 324558547.0,
+        "amount": 361587190878.38,
+        "turnover": 1.31,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-16",
+        "open": 8783.35,
+        "high": 8881.77,
+        "low": 8780.09,
+        "close": 8877.02,
+        "volume": 324180990.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-19",
+        "open": 13074.91,
+        "high": 13182.6,
+        "low": 13016.06,
+        "close": 13070.86,
+        "volume": 819739634.0,
+        "amount": 1307489962649.13,
+        "turnover": 3.32,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-19",
+        "open": 13074.91,
+        "high": 13182.6,
+        "low": 13016.06,
+        "close": 13070.86,
+        "volume": 819563965.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-25",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-25",
+        "open": 10240.13,
+        "high": 10403.51,
+        "low": 10233.15,
+        "close": 10393.72,
+        "volume": 722467354.0,
+        "amount": 982615273048.4,
+        "turnover": 2.93,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-25",
+        "open": 10240.13,
+        "high": 10403.51,
+        "low": 10233.15,
+        "close": 10393.72,
+        "volume": 720493535.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-07",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-07",
+        "open": 9343.8,
+        "high": 9366.34,
+        "low": 9181.89,
+        "close": 9255.68,
+        "volume": 392337786.0,
+        "amount": 397920913934.37,
+        "turnover": 1.59,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-07",
+        "open": 9343.8,
+        "high": 9366.34,
+        "low": 9181.89,
+        "close": 9255.68,
+        "volume": 391479032.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-24",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-24",
+        "open": 13037.08,
+        "high": 13356.14,
+        "low": 13009.64,
+        "close": 13356.14,
+        "volume": 727910238.0,
+        "amount": 1311083097474.43,
+        "turnover": 2.95,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-24",
+        "open": 13037.08,
+        "high": 13356.14,
+        "low": 13009.64,
+        "close": 13356.14,
+        "volume": 727766643.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-08",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-08",
+        "open": 11206.33,
+        "high": 11234.92,
+        "low": 11158.83,
+        "close": 11225.77,
+        "volume": 439329143.0,
+        "amount": 572244190098.1,
+        "turnover": 1.78,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-08",
+        "open": 11206.33,
+        "high": 11234.92,
+        "low": 11158.83,
+        "close": 11225.77,
+        "volume": 439261518.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-13",
+        "open": 10963.23,
+        "high": 11103.08,
+        "low": 10963.23,
+        "close": 11095.44,
+        "volume": 395940516.0,
+        "amount": 547550132585.81,
+        "turnover": 1.6,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-13",
+        "open": 10963.23,
+        "high": 11103.08,
+        "low": 10963.23,
+        "close": 11095.44,
+        "volume": 395600049.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-11",
+        "open": 9198.54,
+        "high": 9282.71,
+        "low": 9166.47,
+        "close": 9262.35,
+        "volume": 353804958.0,
+        "amount": 370244589284.23,
+        "turnover": 1.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-11",
+        "open": 9198.54,
+        "high": 9282.71,
+        "low": 9166.47,
+        "close": 9262.35,
+        "volume": 353310457.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-02",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-02",
+        "open": 10455.83,
+        "high": 10455.83,
+        "low": 10386.49,
+        "close": 10412.63,
+        "volume": 678825874.0,
+        "amount": 833849924712.12,
+        "turnover": 2.75,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-02",
+        "open": 10455.83,
+        "high": 10455.83,
+        "low": 10386.49,
+        "close": 10412.63,
+        "volume": 678272985.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-15",
+        "open": 9228.14,
+        "high": 9407.07,
+        "low": 9189.96,
+        "close": 9369.7,
+        "volume": 545699162.0,
+        "amount": 537297950908.72,
+        "turnover": 2.21,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-15",
+        "open": 9228.14,
+        "high": 9407.07,
+        "low": 9189.96,
+        "close": 9369.7,
+        "volume": 544917369.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-05",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-05",
+        "open": 13633.63,
+        "high": 13828.97,
+        "low": 13633.63,
+        "close": 13828.63,
+        "volume": 830964827.0,
+        "amount": 1479013094043.2,
+        "turnover": 3.36,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-05",
+        "open": 13633.63,
+        "high": 13828.97,
+        "low": 13633.63,
+        "close": 13828.63,
+        "volume": 830357123.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-12",
+        "open": 11873.26,
+        "high": 11912.95,
+        "low": 11842.26,
+        "close": 11883.51,
+        "volume": 452203993.0,
+        "amount": 650082318811.85,
+        "turnover": 1.83,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-12",
+        "open": 11873.26,
+        "high": 11912.95,
+        "low": 11842.26,
+        "close": 11883.51,
+        "volume": 452128995.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-09",
+        "open": 10592.51,
+        "high": 10656.58,
+        "low": 10557.81,
+        "close": 10581.8,
+        "volume": 703429755.0,
+        "amount": 909224442195.26,
+        "turnover": 2.85,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-09",
+        "open": 10592.51,
+        "high": 10656.58,
+        "low": 10557.81,
+        "close": 10581.8,
+        "volume": 702950075.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-28",
+        "open": 11228.46,
+        "high": 11340.46,
+        "low": 11228.46,
+        "close": 11338.67,
+        "volume": 453848625.0,
+        "amount": 601981958347.72,
+        "turnover": 1.84,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-28",
+        "open": 11228.46,
+        "high": 11340.46,
+        "low": 11228.46,
+        "close": 11338.67,
+        "volume": 453472498.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-15",
+        "open": 14158.66,
+        "high": 14328.6,
+        "low": 14155.5,
+        "close": 14306.73,
+        "volume": 971879564.0,
+        "amount": 1729648263302.93,
+        "turnover": 3.94,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-15",
+        "open": 14158.66,
+        "high": 14328.6,
+        "low": 14155.5,
+        "close": 14306.73,
+        "volume": 971527612.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-10",
+        "open": 11987.68,
+        "high": 11992.32,
+        "low": 11845.88,
+        "close": 11871.93,
+        "volume": 478316982.0,
+        "amount": 709149197702.76,
+        "turnover": 1.94,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-10",
+        "open": 11987.68,
+        "high": 11992.32,
+        "low": 11845.88,
+        "close": 11871.93,
+        "volume": 478246743.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-02",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-02",
+        "open": 8886.09,
+        "high": 8895.55,
+        "low": 8789.28,
+        "close": 8812.67,
+        "volume": 370677177.0,
+        "amount": 362094473545.84,
+        "turnover": 1.5,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-02",
+        "open": 8886.09,
+        "high": 8895.55,
+        "low": 8789.28,
+        "close": 8812.67,
+        "volume": 369677934.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-03-29",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-03-29",
+        "open": 9335.11,
+        "high": 9400.85,
+        "low": 9304.76,
+        "close": 9400.85,
+        "volume": 450746608.0,
+        "amount": 494023054769.66,
+        "turnover": 1.83,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-03-29",
+        "open": 9335.11,
+        "high": 9400.85,
+        "low": 9304.76,
+        "close": 9400.85,
+        "volume": 449735061.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-14",
+        "open": 10976.51,
+        "high": 11034.18,
+        "low": 10962.45,
+        "close": 10984.56,
+        "volume": 427026224.0,
+        "amount": 596607840664.01,
+        "turnover": 1.73,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-14",
+        "open": 10976.51,
+        "high": 11034.18,
+        "low": 10962.45,
+        "close": 10984.56,
+        "volume": 425611977.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-28",
+        "open": 10947.89,
+        "high": 10951.41,
+        "low": 10792.35,
+        "close": 10926.32,
+        "volume": 399824368.0,
+        "amount": 528143662377.09,
+        "turnover": 1.62,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-28",
+        "open": 10947.89,
+        "high": 10951.41,
+        "low": 10792.35,
+        "close": 10926.32,
+        "volume": 396002529.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-03-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-03-28",
+        "open": 11637.51,
+        "high": 11649.15,
+        "low": 11548.42,
+        "close": 11564.45,
+        "volume": 445848465.0,
+        "amount": 607329887656.14,
+        "turnover": 1.81,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-03-28",
+        "open": 11637.51,
+        "high": 11649.15,
+        "low": 11548.42,
+        "close": 11564.45,
+        "volume": 445698587.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-13",
+        "open": 14397.68,
+        "high": 14458.88,
+        "low": 14113.17,
+        "close": 14169.4,
+        "volume": 1195529842.0,
+        "amount": 2169490551255.98,
+        "turnover": 4.84,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-13",
+        "open": 14397.68,
+        "high": 14458.88,
+        "low": 14113.17,
+        "close": 14169.4,
+        "volume": 1195102024.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-15",
+        "open": 10324.84,
+        "high": 10324.84,
+        "low": 10186.45,
+        "close": 10186.45,
+        "volume": 571421816.0,
+        "amount": 691113043101.54,
+        "turnover": 2.31,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-15",
+        "open": 10324.84,
+        "high": 10324.84,
+        "low": 10186.45,
+        "close": 10186.45,
+        "volume": 571301660.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-13",
+        "open": 10401.95,
+        "high": 10401.95,
+        "low": 10274.34,
+        "close": 10288.08,
+        "volume": 613388689.0,
+        "amount": 784941212103.05,
+        "turnover": 2.48,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-13",
+        "open": 10401.95,
+        "high": 10401.95,
+        "low": 10274.34,
+        "close": 10288.08,
+        "volume": 613097528.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-27",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-27",
+        "open": 10985.58,
+        "high": 11024.01,
+        "low": 10904.74,
+        "close": 10923.77,
+        "volume": 419988952.0,
+        "amount": 447874313722.73,
+        "turnover": 1.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-27",
+        "open": 10985.58,
+        "high": 11024.01,
+        "low": 10904.74,
+        "close": 10923.77,
+        "volume": 419478509.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-09",
+        "open": 10200.45,
+        "high": 10280.83,
+        "low": 10190.25,
+        "close": 10250.14,
+        "volume": 615542721.0,
+        "amount": 774531408088.47,
+        "turnover": 2.49,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-09",
+        "open": 10200.45,
+        "high": 10280.83,
+        "low": 10190.25,
+        "close": 10250.14,
+        "volume": 615263021.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-30",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-30",
+        "open": 10897.42,
+        "high": 11067.39,
+        "low": 10883.57,
+        "close": 11026.59,
+        "volume": 404836526.0,
+        "amount": 558882284452.64,
+        "turnover": 1.64,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-30",
+        "open": 10897.42,
+        "high": 11067.39,
+        "low": 10883.57,
+        "close": 11026.59,
+        "volume": 402735616.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-12-31",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-12-31",
+        "open": 13627.26,
+        "high": 13642.53,
+        "low": 13491.68,
+        "close": 13525.02,
+        "volume": 714128489.0,
+        "amount": 1215723077233.95,
+        "turnover": 2.89,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-12-31",
+        "open": 13627.26,
+        "high": 13642.53,
+        "low": 13491.68,
+        "close": 13525.02,
+        "volume": 713396441.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-11",
+        "open": 10176.5,
+        "high": 10295.4,
+        "low": 10176.5,
+        "close": 10246.02,
+        "volume": 615938135.0,
+        "amount": 753659809036.21,
+        "turnover": 2.49,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-11",
+        "open": 10176.5,
+        "high": 10295.4,
+        "low": 10176.5,
+        "close": 10246.02,
+        "volume": 615814143.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-17",
+        "open": 10177.67,
+        "high": 10198.98,
+        "low": 10129.41,
+        "close": 10151.43,
+        "volume": 597078587.0,
+        "amount": 749183713511.11,
+        "turnover": 2.42,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-17",
+        "open": 10177.67,
+        "high": 10198.98,
+        "low": 10129.41,
+        "close": 10151.43,
+        "volume": 596927009.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-17",
+        "open": 11084.56,
+        "high": 11120.97,
+        "low": 11036.77,
+        "close": 11091.08,
+        "volume": 326266963.0,
+        "amount": 440922245666.64,
+        "turnover": 1.32,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-17",
+        "open": 11084.56,
+        "high": 11120.97,
+        "low": 11036.77,
+        "close": 11091.08,
+        "volume": 325935158.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-24",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-24",
+        "open": 10976.73,
+        "high": 11028.57,
+        "low": 10920.33,
+        "close": 10920.33,
+        "volume": 345570374.0,
+        "amount": 460018122724.05,
+        "turnover": 1.4,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-24",
+        "open": 10976.73,
+        "high": 11028.57,
+        "low": 10920.33,
+        "close": 10920.33,
+        "volume": 345166509.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-09",
+        "open": 13917.78,
+        "high": 14139.54,
+        "low": 13917.78,
+        "close": 14120.15,
+        "volume": 1013968212.0,
+        "amount": 1833561233662.36,
+        "turnover": 4.11,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-09",
+        "open": 13917.78,
+        "high": 14139.54,
+        "low": 13917.78,
+        "close": 14120.15,
+        "volume": 1013527536.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-28",
+        "open": 10895.48,
+        "high": 11120.59,
+        "low": 10877.4,
+        "close": 11100.4,
+        "volume": 469495575.0,
+        "amount": 511383113919.12,
+        "turnover": 1.9,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-28",
+        "open": 10895.48,
+        "high": 11120.59,
+        "low": 10877.4,
+        "close": 11100.4,
+        "volume": 468260844.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-19",
+        "open": 14221.93,
+        "high": 14392.88,
+        "low": 14221.93,
+        "close": 14294.05,
+        "volume": 832641604.0,
+        "amount": 1518289593889.72,
+        "turnover": 3.37,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-19",
+        "open": 14221.93,
+        "high": 14392.88,
+        "low": 14221.93,
+        "close": 14294.05,
+        "volume": 832205019.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-10",
+        "open": 9425.8,
+        "high": 9425.8,
+        "low": 9243.8,
+        "close": 9297.96,
+        "volume": 444036698.0,
+        "amount": 465276841750.36,
+        "turnover": 1.8,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-10",
+        "open": 9425.8,
+        "high": 9425.8,
+        "low": 9243.8,
+        "close": 9297.96,
+        "volume": 443294887.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-07",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-07",
+        "open": 10939.29,
+        "high": 10949.98,
+        "low": 10852.96,
+        "close": 10888.55,
+        "volume": 384314196.0,
+        "amount": 486201449555.9,
+        "turnover": 1.56,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-07",
+        "open": 10939.29,
+        "high": 10949.98,
+        "low": 10852.96,
+        "close": 10888.55,
+        "volume": 382650080.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-17",
+        "open": 11039.13,
+        "high": 11039.13,
+        "low": 10963.47,
+        "close": 11010.36,
+        "volume": 363505431.0,
+        "amount": 480502002955.16,
+        "turnover": 1.47,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-17",
+        "open": 11039.13,
+        "high": 11039.13,
+        "low": 10963.47,
+        "close": 11010.36,
+        "volume": 363260892.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-10",
+        "open": 8672.33,
+        "high": 8762.77,
+        "low": 8664.92,
+        "close": 8697.22,
+        "volume": 355885861.0,
+        "amount": 371561987116.8,
+        "turnover": 1.44,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-10",
+        "open": 8672.33,
+        "high": 8762.77,
+        "low": 8664.92,
+        "close": 8697.22,
+        "volume": 355476260.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-15",
+        "open": 10700.37,
+        "high": 10784.97,
+        "low": 10651.15,
+        "close": 10744.56,
+        "volume": 726515143.0,
+        "amount": 965211745503.07,
+        "turnover": 2.94,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-15",
+        "open": 10700.37,
+        "high": 10784.97,
+        "low": 10651.15,
+        "close": 10744.56,
+        "volume": 725709818.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-24",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-24",
+        "open": 8582.63,
+        "high": 8640.33,
+        "low": 8469.88,
+        "close": 8493.1,
+        "volume": 343869450.0,
+        "amount": 338552788324.67,
+        "turnover": 1.39,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-24",
+        "open": 8582.63,
+        "high": 8640.33,
+        "low": 8469.88,
+        "close": 8493.1,
+        "volume": 343821048.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-12",
+        "open": 9301.08,
+        "high": 9343.18,
+        "low": 9212.6,
+        "close": 9228.23,
+        "volume": 416535603.0,
+        "amount": 447058529808.69,
+        "turnover": 1.69,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-12",
+        "open": 9301.08,
+        "high": 9343.18,
+        "low": 9212.6,
+        "close": 9228.23,
+        "volume": 415612902.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-12",
+        "open": 10208.3,
+        "high": 10263.46,
+        "low": 10182.41,
+        "close": 10234.33,
+        "volume": 605753084.0,
+        "amount": 770160430275.12,
+        "turnover": 2.45,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-12",
+        "open": 10208.3,
+        "high": 10263.46,
+        "low": 10182.41,
+        "close": 10234.33,
+        "volume": 605519275.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-04",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-04",
+        "open": 11310.35,
+        "high": 11329.0,
+        "low": 11242.12,
+        "close": 11273.87,
+        "volume": 482011993.0,
+        "amount": 621216170976.45,
+        "turnover": 1.95,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-04",
+        "open": 11310.35,
+        "high": 11329.0,
+        "low": 11242.12,
+        "close": 11273.87,
+        "volume": 481896827.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-29",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-29",
+        "open": 10942.67,
+        "high": 10961.79,
+        "low": 10790.5,
+        "close": 10822.09,
+        "volume": 395539317.0,
+        "amount": 542939397530.7,
+        "turnover": 1.6,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-29",
+        "open": 10942.67,
+        "high": 10961.79,
+        "low": 10790.5,
+        "close": 10822.09,
+        "volume": 394727001.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-26",
+        "open": 8512.79,
+        "high": 8617.65,
+        "low": 8512.79,
+        "close": 8597.17,
+        "volume": 329209892.0,
+        "amount": 330665818674.6,
+        "turnover": 1.33,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-26",
+        "open": 8512.79,
+        "high": 8617.65,
+        "low": 8512.79,
+        "close": 8597.17,
+        "volume": 329136783.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-19",
+        "open": 8826.64,
+        "high": 8932.08,
+        "low": 8820.09,
+        "close": 8903.23,
+        "volume": 316937938.0,
+        "amount": 350733285358.81,
+        "turnover": 1.28,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-19",
+        "open": 8826.64,
+        "high": 8932.08,
+        "low": 8820.09,
+        "close": 8903.23,
+        "volume": 316715699.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-25",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-25",
+        "open": 8443.44,
+        "high": 8524.81,
+        "low": 8428.75,
+        "close": 8474.7,
+        "volume": 309849711.0,
+        "amount": 315353159191.24,
+        "turnover": 1.25,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-25",
+        "open": 8443.44,
+        "high": 8524.81,
+        "low": 8428.75,
+        "close": 8474.7,
+        "volume": 309776286.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-27",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-27",
+        "open": 10879.49,
+        "high": 10987.19,
+        "low": 10863.66,
+        "close": 10978.08,
+        "volume": 370430838.0,
+        "amount": 486576104933.39,
+        "turnover": 1.5,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-27",
+        "open": 10879.49,
+        "high": 10987.19,
+        "low": 10863.66,
+        "close": 10978.08,
+        "volume": 367359544.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-16",
+        "open": 11194.55,
+        "high": 11316.24,
+        "low": 11183.79,
+        "close": 11306.53,
+        "volume": 426118435.0,
+        "amount": 623329917926.42,
+        "turnover": 1.73,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-16",
+        "open": 11194.55,
+        "high": 11316.24,
+        "low": 11183.79,
+        "close": 11306.53,
+        "volume": 424162110.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-29",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-29",
+        "open": 10909.08,
+        "high": 10965.11,
+        "low": 10880.88,
+        "close": 10915.5,
+        "volume": 380424072.0,
+        "amount": 524384641611.73,
+        "turnover": 1.54,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-29",
+        "open": 10909.08,
+        "high": 10965.11,
+        "low": 10880.88,
+        "close": 10915.5,
+        "volume": 378096185.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-18",
+        "open": 11030.98,
+        "high": 11032.12,
+        "low": 10947.51,
+        "close": 10972.96,
+        "volume": 362488646.0,
+        "amount": 469796927661.2,
+        "turnover": 1.47,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-18",
+        "open": 11030.98,
+        "high": 11032.12,
+        "low": 10947.51,
+        "close": 10972.96,
+        "volume": 361571791.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-21",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-21",
+        "open": 11262.84,
+        "high": 11278.97,
+        "low": 11058.63,
+        "close": 11058.63,
+        "volume": 418746595.0,
+        "amount": 615744791457.93,
+        "turnover": 1.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-21",
+        "open": 11262.84,
+        "high": 11278.97,
+        "low": 11058.63,
+        "close": 11058.63,
+        "volume": 415434192.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-10-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-10-10",
+        "open": 13633.19,
+        "high": 13644.51,
+        "low": 13304.6,
+        "close": 13355.42,
+        "volume": 780249411.0,
+        "amount": 1383492750237.83,
+        "turnover": 3.16,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-10-10",
+        "open": 13633.19,
+        "high": 13644.51,
+        "low": 13304.6,
+        "close": 13355.42,
+        "volume": 780098602.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-12",
+        "open": 14186.86,
+        "high": 14391.28,
+        "low": 14089.59,
+        "close": 14366.91,
+        "volume": 1153063572.0,
+        "amount": 2155220030407.99,
+        "turnover": 4.67,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-12",
+        "open": 14186.86,
+        "high": 14391.28,
+        "low": 14089.59,
+        "close": 14366.91,
+        "volume": 1152643528.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-03-30",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-03-30",
+        "open": 11578.33,
+        "high": 11656.48,
+        "low": 11505.55,
+        "close": 11651.83,
+        "volume": 392284298.0,
+        "amount": 543047089897.44,
+        "turnover": 1.59,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-03-30",
+        "open": 11578.33,
+        "high": 11656.48,
+        "low": 11505.55,
+        "close": 11651.83,
+        "volume": 392133461.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-18",
+        "open": 8760.66,
+        "high": 8880.44,
+        "low": 8730.98,
+        "close": 8879.33,
+        "volume": 341554776.0,
+        "amount": 370967712429.99,
+        "turnover": 1.38,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-18",
+        "open": 8760.66,
+        "high": 8880.44,
+        "low": 8730.98,
+        "close": 8879.33,
+        "volume": 341377266.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-20",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-20",
+        "open": 10182.25,
+        "high": 10273.59,
+        "low": 10151.86,
+        "close": 10249.17,
+        "volume": 599599479.0,
+        "amount": 719412151109.38,
+        "turnover": 2.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-20",
+        "open": 10182.25,
+        "high": 10273.59,
+        "low": 10151.86,
+        "close": 10249.17,
+        "volume": 599353146.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-09",
+        "open": 9386.8,
+        "high": 9449.65,
+        "low": 9352.35,
+        "close": 9448.98,
+        "volume": 413718828.0,
+        "amount": 448514601616.47,
+        "turnover": 1.68,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-09",
+        "open": 9386.8,
+        "high": 9449.65,
+        "low": 9352.35,
+        "close": 9448.98,
+        "volume": 412613076.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-22",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-22",
+        "open": 8908.21,
+        "high": 8925.44,
+        "low": 8823.78,
+        "close": 8869.82,
+        "volume": 317628061.0,
+        "amount": 340102151205.83,
+        "turnover": 1.29,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-22",
+        "open": 8908.21,
+        "high": 8925.44,
+        "low": 8823.78,
+        "close": 8869.82,
+        "volume": 317575267.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-04",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-04",
+        "open": 8775.84,
+        "high": 8821.0,
+        "low": 8670.34,
+        "close": 8673.83,
+        "volume": 353033943.0,
+        "amount": 324134124200.9,
+        "turnover": 1.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-04",
+        "open": 8775.84,
+        "high": 8821.0,
+        "low": 8670.34,
+        "close": 8673.83,
+        "volume": 351894022.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-14",
+        "open": 9177.41,
+        "high": 9265.97,
+        "low": 9138.32,
+        "close": 9252.25,
+        "volume": 393204146.0,
+        "amount": 451900233046.39,
+        "turnover": 1.59,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-14",
+        "open": 9177.41,
+        "high": 9265.97,
+        "low": 9138.32,
+        "close": 9252.25,
+        "volume": 391253119.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-25",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-25",
+        "open": 13333.02,
+        "high": 13529.33,
+        "low": 13295.53,
+        "close": 13445.9,
+        "volume": 740565637.0,
+        "amount": 1369884560258.93,
+        "turnover": 3.0,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-25",
+        "open": 13333.02,
+        "high": 13529.33,
+        "low": 13295.53,
+        "close": 13445.9,
+        "volume": 740441210.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-08",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-08",
+        "open": 13971.89,
+        "high": 14033.59,
+        "low": 13883.81,
+        "close": 13959.48,
+        "volume": 921000994.0,
+        "amount": 1617195870885.22,
+        "turnover": 3.73,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-08",
+        "open": 13971.89,
+        "high": 14033.59,
+        "low": 13883.81,
+        "close": 13959.48,
+        "volume": 920288378.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-23",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-23",
+        "open": 9950.14,
+        "high": 10064.75,
+        "low": 9950.14,
+        "close": 10048.39,
+        "volume": 538583381.0,
+        "amount": 679840129781.38,
+        "turnover": 2.18,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-23",
+        "open": 9950.14,
+        "high": 10064.75,
+        "low": 9950.14,
+        "close": 10048.39,
+        "volume": 537795225.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-03",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-03",
+        "open": 11059.31,
+        "high": 11128.93,
+        "low": 11028.24,
+        "close": 11091.56,
+        "volume": 441147039.0,
+        "amount": 603232462910.1,
+        "turnover": 1.79,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-03",
+        "open": 11059.31,
+        "high": 11128.93,
+        "low": 11028.24,
+        "close": 11091.56,
+        "volume": 438544706.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-17",
+        "open": 9209.46,
+        "high": 9298.01,
+        "low": 9202.17,
+        "close": 9281.25,
+        "volume": 358288451.0,
+        "amount": 413460399730.88,
+        "turnover": 1.45,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-17",
+        "open": 9209.46,
+        "high": 9298.01,
+        "low": 9202.17,
+        "close": 9281.25,
+        "volume": 356739415.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-16",
+        "open": 10157.68,
+        "high": 10217.91,
+        "low": 10152.77,
+        "close": 10179.6,
+        "volume": 541239329.0,
+        "amount": 653896066490.44,
+        "turnover": 2.19,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-16",
+        "open": 10157.68,
+        "high": 10217.91,
+        "low": 10152.77,
+        "close": 10179.6,
+        "volume": 541078661.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-26",
+        "open": 13394.79,
+        "high": 13453.86,
+        "low": 13205.63,
+        "close": 13209.0,
+        "volume": 694552823.0,
+        "amount": 1219024952078.62,
+        "turnover": 2.81,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-26",
+        "open": 13394.79,
+        "high": 13453.86,
+        "low": 13205.63,
+        "close": 13209.0,
+        "volume": 694451360.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-27",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-27",
+        "open": 8944.73,
+        "high": 8947.96,
+        "low": 8844.87,
+        "close": 8849.7,
+        "volume": 350713636.0,
+        "amount": 359652055123.83,
+        "turnover": 1.42,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-27",
+        "open": 8944.73,
+        "high": 8947.96,
+        "low": 8844.87,
+        "close": 8849.7,
+        "volume": 349067599.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-21",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-21",
+        "open": 10801.34,
+        "high": 10886.73,
+        "low": 10775.35,
+        "close": 10810.18,
+        "volume": 372200416.0,
+        "amount": 430283899377.1,
+        "turnover": 1.51,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-21",
+        "open": 10801.34,
+        "high": 10886.73,
+        "low": 10775.35,
+        "close": 10810.18,
+        "volume": 371902231.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-17",
+        "open": 10718.85,
+        "high": 10873.62,
+        "low": 10718.85,
+        "close": 10873.62,
+        "volume": 635724294.0,
+        "amount": 929583770621.53,
+        "turnover": 2.57,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-17",
+        "open": 10718.85,
+        "high": 10873.62,
+        "low": 10718.85,
+        "close": 10873.62,
+        "volume": 635545177.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-10-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-10-09",
+        "open": 13598.35,
+        "high": 13806.69,
+        "low": 13565.29,
+        "close": 13725.56,
+        "volume": 797114828.0,
+        "amount": 1436312889659.58,
+        "turnover": 3.23,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-10-09",
+        "open": 13598.35,
+        "high": 13806.69,
+        "low": 13565.29,
+        "close": 13725.56,
+        "volume": 796986885.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-21",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-21",
+        "open": 10246.52,
+        "high": 10325.93,
+        "low": 10243.18,
+        "close": 10294.22,
+        "volume": 579900581.0,
+        "amount": 707520849756.95,
+        "turnover": 2.35,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-21",
+        "open": 10246.52,
+        "high": 10325.92,
+        "low": 10243.18,
+        "close": 10294.22,
+        "volume": 579532397.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-11",
+        "open": 10953.88,
+        "high": 11030.19,
+        "low": 10933.23,
+        "close": 11028.68,
+        "volume": 350924413.0,
+        "amount": 463666668513.06,
+        "turnover": 1.42,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-11",
+        "open": 10953.88,
+        "high": 11030.19,
+        "low": 10933.23,
+        "close": 11028.68,
+        "volume": 347939400.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-12",
+        "open": 9244.31,
+        "high": 9299.36,
+        "low": 9243.73,
+        "close": 9269.94,
+        "volume": 357999094.0,
+        "amount": 379861946130.03,
+        "turnover": 1.45,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-12",
+        "open": 9244.31,
+        "high": 9299.36,
+        "low": 9243.73,
+        "close": 9269.94,
+        "volume": 357645136.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-20",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-20",
+        "open": 10039.0,
+        "high": 10084.1,
+        "low": 9998.5,
+        "close": 10005.03,
+        "volume": 516822516.0,
+        "amount": 656864779596.49,
+        "turnover": 2.09,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-20",
+        "open": 10039.0,
+        "high": 10084.1,
+        "low": 9998.5,
+        "close": 10005.03,
+        "volume": 514811215.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-10",
+        "open": 10926.36,
+        "high": 10995.8,
+        "low": 10901.84,
+        "close": 10942.83,
+        "volume": 344173873.0,
+        "amount": 449907660445.61,
+        "turnover": 1.39,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-10",
+        "open": 10926.36,
+        "high": 10995.8,
+        "low": 10901.84,
+        "close": 10942.83,
+        "volume": 341347680.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-12-30",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-12-30",
+        "open": 13466.3,
+        "high": 13645.56,
+        "low": 13465.67,
+        "close": 13604.07,
+        "volume": 718514686.0,
+        "amount": 1255086161237.52,
+        "turnover": 2.91,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-12-30",
+        "open": 13466.3,
+        "high": 13645.56,
+        "low": 13465.67,
+        "close": 13604.07,
+        "volume": 716223366.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-12",
+        "open": 11020.36,
+        "high": 11029.29,
+        "low": 10905.85,
+        "close": 10919.26,
+        "volume": 415862790.0,
+        "amount": 546484889072.86,
+        "turnover": 1.68,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-12",
+        "open": 11020.36,
+        "high": 11029.29,
+        "low": 10905.85,
+        "close": 10919.26,
+        "volume": 414728122.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-12",
+        "open": 11131.3,
+        "high": 11172.71,
+        "low": 11004.26,
+        "close": 11005.64,
+        "volume": 367693645.0,
+        "amount": 460999181778.1,
+        "turnover": 1.49,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-12",
+        "open": 11131.3,
+        "high": 11172.71,
+        "low": 11004.26,
+        "close": 11005.64,
+        "volume": 367186987.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-23",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-23",
+        "open": 13246.93,
+        "high": 13267.9,
+        "low": 12875.33,
+        "close": 13119.82,
+        "volume": 860693568.0,
+        "amount": 1422691445409.53,
+        "turnover": 3.48,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-23",
+        "open": 13246.93,
+        "high": 13267.9,
+        "low": 12875.33,
+        "close": 13119.82,
+        "volume": 860542094.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-12",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-12",
+        "open": 10769.02,
+        "high": 10914.62,
+        "low": 10752.01,
+        "close": 10873.74,
+        "volume": 405335425.0,
+        "amount": 562214986599.51,
+        "turnover": 1.64,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-12",
+        "open": 10769.02,
+        "high": 10914.62,
+        "low": 10752.01,
+        "close": 10873.74,
+        "volume": 403745489.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-04",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-04",
+        "open": 10534.99,
+        "high": 10610.5,
+        "low": 10480.72,
+        "close": 10508.76,
+        "volume": 667665464.0,
+        "amount": 861316252714.15,
+        "turnover": 2.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-04",
+        "open": 10534.99,
+        "high": 10610.5,
+        "low": 10480.72,
+        "close": 10508.76,
+        "volume": 667051160.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-19",
+        "open": 11061.75,
+        "high": 11145.51,
+        "low": 11034.63,
+        "close": 11091.36,
+        "volume": 355407471.0,
+        "amount": 488454824842.61,
+        "turnover": 1.44,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-19",
+        "open": 11061.75,
+        "high": 11145.51,
+        "low": 11034.63,
+        "close": 11091.36,
+        "volume": 355120996.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-17",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-17",
+        "open": 11783.68,
+        "high": 11855.48,
+        "low": 11781.29,
+        "close": 11855.48,
+        "volume": 423633407.0,
+        "amount": 597052515500.65,
+        "turnover": 1.72,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-17",
+        "open": 11783.68,
+        "high": 11855.48,
+        "low": 11781.29,
+        "close": 11855.48,
+        "volume": 423413042.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-16",
+        "open": 10749.71,
+        "high": 10804.18,
+        "low": 10697.4,
+        "close": 10720.81,
+        "volume": 616738927.0,
+        "amount": 869623405330.5,
+        "turnover": 2.5,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-16",
+        "open": 10749.71,
+        "high": 10804.18,
+        "low": 10697.4,
+        "close": 10720.81,
+        "volume": 616594267.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-10",
+        "open": 10248.29,
+        "high": 10256.85,
+        "low": 10095.01,
+        "close": 10162.18,
+        "volume": 711387442.0,
+        "amount": 857945116091.78,
+        "turnover": 2.88,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-10",
+        "open": 10248.29,
+        "high": 10256.85,
+        "low": 10095.01,
+        "close": 10162.18,
+        "volume": 711190772.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-26",
+        "open": 10889.27,
+        "high": 10926.84,
+        "low": 10798.65,
+        "close": 10909.65,
+        "volume": 357576009.0,
+        "amount": 487185597490.68,
+        "turnover": 1.45,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-26",
+        "open": 10889.27,
+        "high": 10926.84,
+        "low": 10798.65,
+        "close": 10909.65,
+        "volume": 357093537.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-30",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-30",
+        "open": 10405.96,
+        "high": 10470.24,
+        "low": 10399.92,
+        "close": 10465.12,
+        "volume": 676811123.0,
+        "amount": 919747265886.61,
+        "turnover": 2.74,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-30",
+        "open": 10405.96,
+        "high": 10470.24,
+        "low": 10399.92,
+        "close": 10465.12,
+        "volume": 675662995.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-19",
+        "open": 9324.88,
+        "high": 9325.85,
+        "low": 9218.91,
+        "close": 9219.07,
+        "volume": 362994751.0,
+        "amount": 404459133589.69,
+        "turnover": 1.47,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-19",
+        "open": 9324.88,
+        "high": 9325.85,
+        "low": 9218.91,
+        "close": 9219.07,
+        "volume": 362221831.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-01",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-01",
+        "open": 9451.73,
+        "high": 9647.07,
+        "low": 9451.73,
+        "close": 9647.07,
+        "volume": 517323806.0,
+        "amount": 578434301053.56,
+        "turnover": 2.09,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-01",
+        "open": 9451.73,
+        "high": 9647.07,
+        "low": 9451.73,
+        "close": 9647.07,
+        "volume": 516525374.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-06",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-06",
+        "open": 10205.52,
+        "high": 10223.56,
+        "low": 10166.7,
+        "close": 10183.7,
+        "volume": 563533703.0,
+        "amount": 699275374847.63,
+        "turnover": 2.28,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-06",
+        "open": 10205.52,
+        "high": 10223.56,
+        "low": 10166.7,
+        "close": 10183.7,
+        "volume": 562977358.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-16",
+        "open": 9312.49,
+        "high": 9341.97,
+        "low": 9148.82,
+        "close": 9155.07,
+        "volume": 535620248.0,
+        "amount": 511958060396.25,
+        "turnover": 2.17,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-16",
+        "open": 9312.49,
+        "high": 9341.97,
+        "low": 9148.82,
+        "close": 9155.07,
+        "volume": 534854125.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-22",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-22",
+        "open": 11083.38,
+        "high": 11159.31,
+        "low": 11037.21,
+        "close": 11127.04,
+        "volume": 345667851.0,
+        "amount": 452992716253.84,
+        "turnover": 1.4,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-22",
+        "open": 11083.38,
+        "high": 11159.31,
+        "low": 11037.21,
+        "close": 11127.04,
+        "volume": 345197485.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-11",
+        "open": 10637.45,
+        "high": 10757.24,
+        "low": 10610.8,
+        "close": 10696.1,
+        "volume": 743294396.0,
+        "amount": 958583794708.33,
+        "turnover": 3.01,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-11",
+        "open": 10637.45,
+        "high": 10757.24,
+        "low": 10610.8,
+        "close": 10696.1,
+        "volume": 742645890.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-16",
+        "open": 14374.54,
+        "high": 14424.35,
+        "low": 14257.59,
+        "close": 14281.08,
+        "volume": 907401832.0,
+        "amount": 1688305163172.63,
+        "turnover": 3.67,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-16",
+        "open": 14374.54,
+        "high": 14424.35,
+        "low": 14257.59,
+        "close": 14281.08,
+        "volume": 906894526.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-25",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-25",
+        "open": 10909.19,
+        "high": 11021.93,
+        "low": 10909.19,
+        "close": 11021.29,
+        "volume": 438411551.0,
+        "amount": 537275457925.09,
+        "turnover": 1.78,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-25",
+        "open": 10909.19,
+        "high": 11021.93,
+        "low": 10909.19,
+        "close": 11021.29,
+        "volume": 438134387.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-20",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-20",
+        "open": 9201.35,
+        "high": 9225.02,
+        "low": 9066.05,
+        "close": 9068.85,
+        "volume": 386167978.0,
+        "amount": 400291899946.42,
+        "turnover": 1.56,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-20",
+        "open": 9201.35,
+        "high": 9225.02,
+        "low": 9066.05,
+        "close": 9068.85,
+        "volume": 385582222.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-16",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-16",
+        "open": 11182.36,
+        "high": 11182.36,
+        "low": 11069.44,
+        "close": 11099.26,
+        "volume": 353743511.0,
+        "amount": 480886438964.46,
+        "turnover": 1.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-16",
+        "open": 11182.36,
+        "high": 11182.36,
+        "low": 11069.44,
+        "close": 11099.26,
+        "volume": 353215293.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-03-27",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-03-27",
+        "open": 11621.92,
+        "high": 11659.0,
+        "low": 11558.38,
+        "close": 11647.94,
+        "volume": 494534827.0,
+        "amount": 686398148231.51,
+        "turnover": 2.0,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-03-27",
+        "open": 11621.92,
+        "high": 11659.0,
+        "low": 11558.38,
+        "close": 11647.94,
+        "volume": 494233913.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-10",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-10",
+        "open": 11101.01,
+        "high": 11177.81,
+        "low": 11043.36,
+        "close": 11140.19,
+        "volume": 394663046.0,
+        "amount": 530466025063.4,
+        "turnover": 1.6,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-10",
+        "open": 11101.01,
+        "high": 11177.81,
+        "low": 11043.36,
+        "close": 11140.19,
+        "volume": 393848082.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-23",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-23",
+        "open": 11124.26,
+        "high": 11137.63,
+        "low": 11012.58,
+        "close": 11012.58,
+        "volume": 340074032.0,
+        "amount": 441111204248.9,
+        "turnover": 1.38,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-23",
+        "open": 11124.26,
+        "high": 11137.63,
+        "low": 11012.58,
+        "close": 11012.58,
+        "volume": 339330348.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-19",
+        "open": 10156.17,
+        "high": 10181.97,
+        "low": 10027.33,
+        "close": 10051.97,
+        "volume": 610432160.0,
+        "amount": 777379097192.48,
+        "turnover": 2.47,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-19",
+        "open": 10156.17,
+        "high": 10181.97,
+        "low": 10027.33,
+        "close": 10051.97,
+        "volume": 610114879.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-04-30",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-04-30",
+        "open": 9863.5,
+        "high": 9925.87,
+        "low": 9845.36,
+        "close": 9899.82,
+        "volume": 559157909.0,
+        "amount": 663769896798.59,
+        "turnover": 2.26,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-04-30",
+        "open": 9863.5,
+        "high": 9925.87,
+        "low": 9845.36,
+        "close": 9899.82,
+        "volume": 558738836.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-08",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-08",
+        "open": 9512.6,
+        "high": 9525.95,
+        "low": 9393.61,
+        "close": 9394.61,
+        "volume": 481052348.0,
+        "amount": 509564325281.7,
+        "turnover": 1.95,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-08",
+        "open": 9512.6,
+        "high": 9525.95,
+        "low": 9393.61,
+        "close": 9394.61,
+        "volume": 479967967.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-06",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-06",
+        "open": 9417.93,
+        "high": 9446.88,
+        "low": 9313.88,
+        "close": 9340.01,
+        "volume": 497858822.0,
+        "amount": 474615120976.94,
+        "turnover": 2.02,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-06",
+        "open": 9417.93,
+        "high": 9446.88,
+        "low": 9313.88,
+        "close": 9340.01,
+        "volume": 496220242.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-23",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-23",
+        "open": 8862.94,
+        "high": 8862.94,
+        "low": 8606.58,
+        "close": 8606.58,
+        "volume": 352207187.0,
+        "amount": 354993771554.18,
+        "turnover": 1.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-23",
+        "open": 8862.94,
+        "high": 8862.94,
+        "low": 8606.58,
+        "close": 8606.58,
+        "volume": 352166643.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-26",
+        "open": 10389.23,
+        "high": 10440.73,
+        "low": 10340.69,
+        "close": 10343.48,
+        "volume": 721904766.0,
+        "amount": 980082935680.33,
+        "turnover": 2.92,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-26",
+        "open": 10389.23,
+        "high": 10440.73,
+        "low": 10340.69,
+        "close": 10343.48,
+        "volume": 721001585.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-14",
+        "open": 10278.91,
+        "high": 10418.44,
+        "low": 10240.13,
+        "close": 10354.22,
+        "volume": 622584786.0,
+        "amount": 781873182683.86,
+        "turnover": 2.52,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-14",
+        "open": 10278.91,
+        "high": 10418.44,
+        "low": 10240.13,
+        "close": 10354.22,
+        "volume": 622363370.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-05",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-05",
+        "open": 8664.8,
+        "high": 8719.71,
+        "low": 8573.76,
+        "close": 8695.55,
+        "volume": 317009144.0,
+        "amount": 303341328032.07,
+        "turnover": 1.28,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-05",
+        "open": 8664.8,
+        "high": 8719.71,
+        "low": 8573.76,
+        "close": 8695.55,
+        "volume": 316598746.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-14",
+        "open": 10705.44,
+        "high": 10715.07,
+        "low": 10663.87,
+        "close": 10684.52,
+        "volume": 647071650.0,
+        "amount": 835648432520.65,
+        "turnover": 2.62,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-14",
+        "open": 10705.44,
+        "high": 10715.07,
+        "low": 10663.87,
+        "close": 10684.52,
+        "volume": 646463331.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-20",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-20",
+        "open": 10947.63,
+        "high": 10998.07,
+        "low": 10804.35,
+        "close": 10816.27,
+        "volume": 386132068.0,
+        "amount": 483243978614.73,
+        "turnover": 1.56,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-20",
+        "open": 10947.63,
+        "high": 10998.07,
+        "low": 10804.35,
+        "close": 10816.27,
+        "volume": 385717452.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-04",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-04",
+        "open": 11080.64,
+        "high": 11133.45,
+        "low": 11055.26,
+        "close": 11130.3,
+        "volume": 399028776.0,
+        "amount": 542152776790.04,
+        "turnover": 1.62,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-04",
+        "open": 11080.64,
+        "high": 11133.45,
+        "low": 11055.26,
+        "close": 11130.3,
+        "volume": 396384762.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-11",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-11",
+        "open": 9234.92,
+        "high": 9378.43,
+        "low": 9233.27,
+        "close": 9300.77,
+        "volume": 418938910.0,
+        "amount": 448653002672.54,
+        "turnover": 1.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-11",
+        "open": 9234.92,
+        "high": 9378.43,
+        "low": 9233.27,
+        "close": 9300.77,
+        "volume": 418336786.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-26",
+        "open": 11001.86,
+        "high": 11001.86,
+        "low": 10942.41,
+        "close": 10968.98,
+        "volume": 415177961.0,
+        "amount": 463851007957.75,
+        "turnover": 1.68,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-26",
+        "open": 11001.86,
+        "high": 11001.86,
+        "low": 10942.41,
+        "close": 10968.98,
+        "volume": 414900355.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-15",
+        "open": 11011.95,
+        "high": 11185.68,
+        "low": 11011.85,
+        "close": 11182.94,
+        "volume": 433495537.0,
+        "amount": 634935106087.24,
+        "turnover": 1.76,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-15",
+        "open": 11011.95,
+        "high": 11185.68,
+        "low": 11011.85,
+        "close": 11182.94,
+        "volume": 430623753.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-07",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-07",
+        "open": 11867.87,
+        "high": 11979.59,
+        "low": 11858.5,
+        "close": 11967.74,
+        "volume": 427697142.0,
+        "amount": 617629160022.81,
+        "turnover": 1.73,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-07",
+        "open": 11867.87,
+        "high": 11979.59,
+        "low": 11858.5,
+        "close": 11967.74,
+        "volume": 427643908.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-09",
+        "open": 8548.16,
+        "high": 8733.87,
+        "low": 8513.17,
+        "close": 8705.94,
+        "volume": 397419544.0,
+        "amount": 404092547640.71,
+        "turnover": 1.61,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-09",
+        "open": 8548.16,
+        "high": 8733.87,
+        "low": 8513.17,
+        "close": 8705.94,
+        "volume": 397097608.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-07-01",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-07-01",
+        "open": 8835.16,
+        "high": 8914.2,
+        "low": 8771.01,
+        "close": 8899.17,
+        "volume": 348699724.0,
+        "amount": 363749256106.49,
+        "turnover": 1.41,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-07-01",
+        "open": 8835.16,
+        "high": 8914.2,
+        "low": 8771.01,
+        "close": 8899.17,
+        "volume": 347581999.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-06",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-06",
+        "open": 9974.53,
+        "high": 10082.34,
+        "low": 9960.52,
+        "close": 10082.34,
+        "volume": 634060070.0,
+        "amount": 784366185688.08,
+        "turnover": 2.57,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-06",
+        "open": 9974.53,
+        "high": 10082.34,
+        "low": 9960.52,
+        "close": 10082.34,
+        "volume": 633772323.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-13",
+        "open": 10855.44,
+        "high": 10963.65,
+        "low": 10853.57,
+        "close": 10955.96,
+        "volume": 401828791.0,
+        "amount": 565125852487.8,
+        "turnover": 1.63,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-13",
+        "open": 10855.44,
+        "high": 10963.65,
+        "low": 10853.57,
+        "close": 10955.96,
+        "volume": 397547211.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-20",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-20",
+        "open": 11260.15,
+        "high": 11338.15,
+        "low": 11248.14,
+        "close": 11305.35,
+        "volume": 428286410.0,
+        "amount": 656752823942.09,
+        "turnover": 1.73,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-20",
+        "open": 11260.15,
+        "high": 11338.15,
+        "low": 11248.14,
+        "close": 11305.35,
+        "volume": 423830265.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-10-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-10-13",
+        "open": 12837.25,
+        "high": 13256.51,
+        "low": 12837.25,
+        "close": 13231.47,
+        "volume": 742803634.0,
+        "amount": 1269338155679.16,
+        "turnover": 3.01,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-10-13",
+        "open": 12837.25,
+        "high": 13256.51,
+        "low": 12837.25,
+        "close": 13231.47,
+        "volume": 742486462.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-08",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-08",
+        "open": 10081.27,
+        "high": 10222.81,
+        "low": 10067.3,
+        "close": 10197.66,
+        "volume": 639008261.0,
+        "amount": 791790953276.04,
+        "turnover": 2.59,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-08",
+        "open": 10081.27,
+        "high": 10222.81,
+        "low": 10067.3,
+        "close": 10197.66,
+        "volume": 638666671.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-13",
+        "open": 10193.93,
+        "high": 10215.54,
+        "low": 10089.59,
+        "close": 10122.11,
+        "volume": 698798231.0,
+        "amount": 861860263568.72,
+        "turnover": 2.83,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-13",
+        "open": 10193.93,
+        "high": 10215.54,
+        "low": 10089.59,
+        "close": 10122.11,
+        "volume": 698026044.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-06",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-06",
+        "open": 13830.3,
+        "high": 14024.12,
+        "low": 13827.79,
+        "close": 14022.55,
+        "volume": 932350350.0,
+        "amount": 1630806367135.76,
+        "turnover": 3.78,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-06",
+        "open": 13830.3,
+        "high": 14024.12,
+        "low": 13827.79,
+        "close": 14022.55,
+        "volume": 931832648.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-06",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-06",
+        "open": 11787.35,
+        "high": 11874.8,
+        "low": 11778.8,
+        "close": 11866.31,
+        "volume": 454537865.0,
+        "amount": 686785473371.88,
+        "turnover": 1.84,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-06",
+        "open": 11787.35,
+        "high": 11874.8,
+        "low": 11778.8,
+        "close": 11866.31,
+        "volume": 454470636.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-13",
+        "open": 9281.05,
+        "high": 9296.37,
+        "low": 9190.88,
+        "close": 9206.24,
+        "volume": 376742660.0,
+        "amount": 415611533725.83,
+        "turnover": 1.53,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-13",
+        "open": 9281.05,
+        "high": 9296.37,
+        "low": 9190.88,
+        "close": 9206.24,
+        "volume": 376378158.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-04-29",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-04-29",
+        "open": 9828.46,
+        "high": 9882.54,
+        "low": 9799.65,
+        "close": 9849.8,
+        "volume": 508317399.0,
+        "amount": 591239110310.0,
+        "turnover": 2.06,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-04-29",
+        "open": 9828.46,
+        "high": 9882.54,
+        "low": 9799.65,
+        "close": 9849.8,
+        "volume": 507795460.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-09",
+        "open": 10190.13,
+        "high": 10190.13,
+        "low": 10087.55,
+        "close": 10126.83,
+        "volume": 600535347.0,
+        "amount": 727160070910.82,
+        "turnover": 2.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-09",
+        "open": 10190.13,
+        "high": 10190.13,
+        "low": 10087.55,
+        "close": 10126.83,
+        "volume": 600370914.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-05",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-05",
+        "open": 11260.62,
+        "high": 11262.33,
+        "low": 11124.91,
+        "close": 11180.87,
+        "volume": 442026271.0,
+        "amount": 571887910852.2,
+        "turnover": 1.79,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-05",
+        "open": 11260.62,
+        "high": 11262.33,
+        "low": 11124.91,
+        "close": 11180.87,
+        "volume": 441892037.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-14",
+        "open": 11108.92,
+        "high": 11120.19,
+        "low": 11069.32,
+        "close": 11080.32,
+        "volume": 401616163.0,
+        "amount": 554237629720.02,
+        "turnover": 1.63,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-14",
+        "open": 11108.92,
+        "high": 11120.19,
+        "low": 11069.32,
+        "close": 11080.32,
+        "volume": 401161958.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-18",
+        "open": 10902.72,
+        "high": 10946.4,
+        "low": 10865.89,
+        "close": 10913.84,
+        "volume": 644821897.0,
+        "amount": 927427194950.64,
+        "turnover": 2.61,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-18",
+        "open": 10902.72,
+        "high": 10946.4,
+        "low": 10865.89,
+        "close": 10913.84,
+        "volume": 644428695.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-14",
+        "open": 11760.43,
+        "high": 11816.68,
+        "low": 11737.3,
+        "close": 11800.09,
+        "volume": 439951634.0,
+        "amount": 636690732733.3,
+        "turnover": 1.78,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-14",
+        "open": 11760.43,
+        "high": 11816.68,
+        "low": 11737.3,
+        "close": 11800.09,
+        "volume": 439773804.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-05",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-05",
+        "open": 11129.12,
+        "high": 11129.12,
+        "low": 11014.39,
+        "close": 11029.3,
+        "volume": 386448219.0,
+        "amount": 516551920454.21,
+        "turnover": 1.56,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-05",
+        "open": 11129.12,
+        "high": 11129.12,
+        "low": 11014.39,
+        "close": 11029.3,
+        "volume": 383989043.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-26",
+        "open": 8838.0,
+        "high": 9001.03,
+        "low": 8811.36,
+        "close": 8987.3,
+        "volume": 370938431.0,
+        "amount": 367170196970.59,
+        "turnover": 1.5,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-26",
+        "open": 8838.0,
+        "high": 9001.03,
+        "low": 8811.36,
+        "close": 8987.3,
+        "volume": 370219588.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-18",
+        "open": 9278.28,
+        "high": 9329.99,
+        "low": 9276.44,
+        "close": 9318.47,
+        "volume": 386563637.0,
+        "amount": 419713265929.17,
+        "turnover": 1.57,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-18",
+        "open": 9278.28,
+        "high": 9329.99,
+        "low": 9276.44,
+        "close": 9318.47,
+        "volume": 385297076.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-15",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-15",
+        "open": 11019.7,
+        "high": 11178.62,
+        "low": 10995.7,
+        "close": 11178.62,
+        "volume": 384684380.0,
+        "amount": 506596961426.07,
+        "turnover": 1.56,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-15",
+        "open": 11019.7,
+        "high": 11178.62,
+        "low": 10995.7,
+        "close": 11178.62,
+        "volume": 384146337.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-25",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-25",
+        "open": 10915.12,
+        "high": 10954.24,
+        "low": 10801.22,
+        "close": 10896.58,
+        "volume": 377513829.0,
+        "amount": 509231593095.43,
+        "turnover": 1.53,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-25",
+        "open": 10915.12,
+        "high": 10954.24,
+        "low": 10801.22,
+        "close": 10896.58,
+        "volume": 376978170.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-08",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-08",
+        "open": 10431.78,
+        "high": 10593.84,
+        "low": 10431.78,
+        "close": 10588.39,
+        "volume": 666334799.0,
+        "amount": 886442571409.16,
+        "turnover": 2.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-08",
+        "open": 10431.78,
+        "high": 10593.84,
+        "low": 10431.78,
+        "close": 10588.39,
+        "volume": 665860083.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-06-26",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-06-26",
+        "open": 10963.62,
+        "high": 11002.37,
+        "low": 10848.72,
+        "close": 10872.3,
+        "volume": 424191187.0,
+        "amount": 578384784003.88,
+        "turnover": 1.72,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-06-26",
+        "open": 10963.62,
+        "high": 11002.37,
+        "low": 10848.72,
+        "close": 10872.3,
+        "volume": 421794104.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-21",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-21",
+        "open": 9041.44,
+        "high": 9100.83,
+        "low": 9008.34,
+        "close": 9064.84,
+        "volume": 324515746.0,
+        "amount": 339322141327.45,
+        "turnover": 1.31,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-21",
+        "open": 9041.44,
+        "high": 9100.83,
+        "low": 9008.34,
+        "close": 9064.84,
+        "volume": 324085654.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-01",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-01",
+        "open": 10458.39,
+        "high": 10483.33,
+        "low": 10407.17,
+        "close": 10476.29,
+        "volume": 695943293.0,
+        "amount": 912479261475.99,
+        "turnover": 2.82,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-01",
+        "open": 10458.39,
+        "high": 10483.33,
+        "low": 10407.17,
+        "close": 10476.29,
+        "volume": 695078613.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-07",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-07",
+        "open": 10218.33,
+        "high": 10248.98,
+        "low": 10048.0,
+        "close": 10104.13,
+        "volume": 709978551.0,
+        "amount": 873103395725.76,
+        "turnover": 2.87,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-07",
+        "open": 10218.33,
+        "high": 10248.98,
+        "low": 10048.0,
+        "close": 10104.13,
+        "volume": 709736259.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-04-03",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-04-03",
+        "open": 9564.65,
+        "high": 9575.56,
+        "low": 9508.65,
+        "close": 9544.77,
+        "volume": 493831835.0,
+        "amount": 525235045441.36,
+        "turnover": 2.0,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-04-03",
+        "open": 9564.65,
+        "high": 9575.56,
+        "low": 9508.65,
+        "close": 9544.77,
+        "volume": 493309544.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-18",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-18",
+        "open": 11108.33,
+        "high": 11144.48,
+        "low": 11024.09,
+        "close": 11078.28,
+        "volume": 371723076.0,
+        "amount": 511486308615.44,
+        "turnover": 1.51,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-18",
+        "open": 11108.33,
+        "high": 11144.48,
+        "low": 11024.09,
+        "close": 11078.28,
+        "volume": 371166643.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-05-09",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-05-09",
+        "open": 11208.74,
+        "high": 11265.33,
+        "low": 11121.97,
+        "close": 11125.02,
+        "volume": 481338002.0,
+        "amount": 602684327774.02,
+        "turnover": 1.95,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-05-09",
+        "open": 11208.74,
+        "high": 11265.33,
+        "low": 11121.97,
+        "close": 11125.02,
+        "volume": 479507408.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-07",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-07",
+        "open": 14062.02,
+        "high": 14111.18,
+        "low": 13935.53,
+        "close": 14030.56,
+        "volume": 914116991.0,
+        "amount": 1656796799732.89,
+        "turnover": 3.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-07",
+        "open": 14062.02,
+        "high": 14111.18,
+        "low": 13935.53,
+        "close": 14030.56,
+        "volume": 913575189.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-09-29",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-09-29",
+        "open": 13248.2,
+        "high": 13531.98,
+        "low": 13239.73,
+        "close": 13479.43,
+        "volume": 675906008.0,
+        "amount": 1193253421058.28,
+        "turnover": 2.74,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-09-29",
+        "open": 13248.2,
+        "high": 13531.98,
+        "low": 13239.73,
+        "close": 13479.43,
+        "volume": 675803476.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-04-28",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-04-28",
+        "open": 9925.71,
+        "high": 9926.9,
+        "low": 9848.67,
+        "close": 9855.2,
+        "volume": 556737815.0,
+        "amount": 614490372005.47,
+        "turnover": 2.25,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-04-28",
+        "open": 9925.71,
+        "high": 9926.9,
+        "low": 9848.67,
+        "close": 9855.2,
+        "volume": 555408555.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-04-13",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-04-13",
+        "open": 11836.82,
+        "high": 11844.4,
+        "low": 11727.89,
+        "close": 11739.84,
+        "volume": 470307591.0,
+        "amount": 659261305468.73,
+        "turnover": 1.9,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-04-13",
+        "open": 11836.82,
+        "high": 11844.4,
+        "low": 11727.89,
+        "close": 11739.84,
+        "volume": 470195676.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-21",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-21",
+        "open": 14102.21,
+        "high": 14320.94,
+        "low": 14102.21,
+        "close": 14255.13,
+        "volume": 793963043.0,
+        "amount": 1420516887653.26,
+        "turnover": 3.21,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-21",
+        "open": 14102.21,
+        "high": 14320.94,
+        "low": 14102.21,
+        "close": 14255.13,
+        "volume": 793387853.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-07-07",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-07-07",
+        "open": 10488.11,
+        "high": 10501.31,
+        "low": 10426.55,
+        "close": 10435.51,
+        "volume": 578881971.0,
+        "amount": 732452711989.16,
+        "turnover": 2.34,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-07-07",
+        "open": 10488.11,
+        "high": 10501.31,
+        "low": 10426.55,
+        "close": 10435.51,
+        "volume": 578492942.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-24",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-24",
+        "open": 9004.85,
+        "high": 9030.71,
+        "low": 8916.46,
+        "close": 8924.17,
+        "volume": 375690039.0,
+        "amount": 377016893326.4,
+        "turnover": 1.52,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-24",
+        "open": 9004.85,
+        "high": 9030.71,
+        "low": 8916.46,
+        "close": 8924.17,
+        "volume": 375049833.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2024-06-25",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2024-06-25",
+        "open": 8911.9,
+        "high": 8948.22,
+        "low": 8797.05,
+        "close": 8850.29,
+        "volume": 347178356.0,
+        "amount": 351626020544.72,
+        "turnover": 1.41,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2024-06-25",
+        "open": 8911.9,
+        "high": 8948.22,
+        "low": 8797.05,
+        "close": 8850.29,
+        "volume": 346272265.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-19",
+        "open": 10959.04,
+        "high": 10992.69,
+        "low": 10876.96,
+        "close": 10932.65,
+        "volume": 328058683.0,
+        "amount": 421248406462.87,
+        "turnover": 1.33,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-19",
+        "open": 10959.04,
+        "high": 10992.69,
+        "low": 10876.96,
+        "close": 10932.65,
+        "volume": 327752924.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-07-24",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-07-24",
+        "open": 10771.64,
+        "high": 10837.98,
+        "low": 10730.94,
+        "close": 10747.79,
+        "volume": 353654310.0,
+        "amount": 398804341435.05,
+        "turnover": 1.43,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-07-24",
+        "open": 10771.64,
+        "high": 10837.98,
+        "low": 10730.94,
+        "close": 10747.79,
+        "volume": 353230574.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2023-03-31",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2023-03-31",
+        "open": 11666.31,
+        "high": 11737.28,
+        "low": 11657.57,
+        "close": 11726.4,
+        "volume": 399637085.0,
+        "amount": 556603475582.96,
+        "turnover": 1.62,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2023-03-31",
+        "open": 11666.31,
+        "high": 11737.28,
+        "low": 11657.57,
+        "close": 11726.4,
+        "volume": 399574951.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2026-01-14",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2026-01-14",
+        "open": 14194.11,
+        "high": 14459.21,
+        "low": 14099.98,
+        "close": 14248.6,
+        "volume": 1312625223.0,
+        "amount": 2334442999936.82,
+        "turnover": 5.31,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2026-01-14",
+        "open": 14194.11,
+        "high": 14459.21,
+        "low": 14099.98,
+        "close": 14248.6,
+        "volume": 1312118729.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-05-19",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-05-19",
+        "open": 10171.29,
+        "high": 10184.4,
+        "low": 10090.3,
+        "close": 10171.09,
+        "volume": 553941510.0,
+        "amount": 649295736348.77,
+        "turnover": 2.24,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-05-19",
+        "open": 10171.29,
+        "high": 10184.4,
+        "low": 10090.3,
+        "close": 10171.09,
+        "volume": 553637088.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "reference_date": "2025-06-24",
+      "old": {
+        "snapshot_id": "index_0.399001:8b6e449bc90a95e2a787705d0c097e124fccf15c8b808e3be8c5e3ae8d83e83a",
+        "symbol": "0.399001",
+        "source": "index_0.399001",
+        "adjustment": "0",
+        "trade_date": "2025-06-24",
+        "open": 10074.27,
+        "high": 10224.12,
+        "low": 10074.27,
+        "close": 10217.63,
+        "volume": 667686293.0,
+        "amount": 869731745358.6,
+        "turnover": 2.7,
+        "volume_unit": "provider_hands",
+        "turnover_unit": "provider_pct"
+      },
+      "new": {
+        "trade_date": "2025-06-24",
+        "open": 10074.27,
+        "high": 10224.12,
+        "low": 10074.27,
+        "close": 10217.63,
+        "volume": 666588581.0
+      },
+      "status": "unresolved_provider_difference_originals_retained"
+    }
+  ],
+  "attempts": [
+    {
+      "dataset": "em_daily_0",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=0&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:26.296015+00:00",
+      "error": null,
+      "sha256": "b230c6ab155089d27d5ee2694fd23bead0cc7e65975f3e7dd510c6ec1f2acf96",
+      "raw_path": "raw/em_daily_0_b230c6ab155089d2.json"
+    },
+    {
+      "dataset": "em_daily_1",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=1&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:26.296226+00:00",
+      "error": null,
+      "sha256": "29658cb23d7ee16da03f2fad8bf633f83592adddc7c74386d354d7a978def9c0",
+      "raw_path": "raw/em_daily_1_29658cb23d7ee16d.json"
+    },
+    {
+      "dataset": "em_daily_2",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=2&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:26.296300+00:00",
+      "error": null,
+      "sha256": "2eee88a46a8eacf9ffe7cc26b712d98451e7f902c9ec18ffce0a1612002437e8",
+      "raw_path": "raw/em_daily_2_2eee88a46a8eacf9.json"
+    },
+    {
+      "dataset": "index_1.000001",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.000001&klt=101&fqt=0&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:28.261204+00:00",
+      "error": "RemoteDisconnected: Remote end closed connection without response",
+      "sha256": null,
+      "raw_path": null
+    },
+    {
+      "dataset": "index_0.399001",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.399001&klt=101&fqt=0&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:28.262531+00:00",
+      "error": "RemoteDisconnected: Remote end closed connection without response",
+      "sha256": null,
+      "raw_path": null
+    },
+    {
+      "dataset": "tencent_daily_2026",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-15%2C640%2C",
+      "retrieved_at": "2026-10-15T17:33:29.063154+00:00",
+      "error": null,
+      "sha256": "36d50cc53d9174eea5a93a209ee6fe9c1034fa9e05b98cf7e00e7dc57971f6c9",
+      "raw_path": "raw/tencent_daily_2026_36d50cc53d9174ee.json"
+    },
+    {
+      "dataset": "tencent_index_sh000001",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001%2Cday%2C2023-01-01%2C2026-10-15%2C1200%2C",
+      "retrieved_at": "2026-10-15T17:36:49.100550+00:00",
+      "error": null,
+      "sha256": "2982550f52ba6673a43ee004215e7500b68f7e817a00c99be9f05e7a9fcd3196",
+      "raw_path": "raw/tencent_index_sh000001_2982550f52ba6673.json"
+    },
+    {
+      "dataset": "tencent_index_sz399001",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001%2Cday%2C2023-01-01%2C2026-10-15%2C1200%2C",
+      "retrieved_at": "2026-10-15T17:36:50.915230+00:00",
+      "error": null,
+      "sha256": "afd966dd4e8446cf7fb41754654d4abdab3e168056df43449651786aeee7011d",
+      "raw_path": "raw/tencent_index_sz399001_afd966dd4e8446cf.json"
+    },
+    {
+      "dataset": "margin",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPTA_WEB_RZRQ_GGMX&columns=ALL&filter=%28SCODE%3D%22002414%22%29%28DATE%3E%3D%272023-01-01%27%29%28DATE%3C%3D%272026-10-15%27%29&pageSize=500&pageNumber=1&sortColumns=DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:38.756615+00:00",
+      "error": null,
+      "sha256": "4bb148af772b70b7265e6aee67c0b3e3934596a9895ef601fe2b1c8781430c75",
+      "raw_path": "raw/margin_4bb148af772b70b7.json"
+    },
+    {
+      "dataset": "block_trade",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DATA_BLOCKTRADE&columns=ALL&filter=%28SECURITY_CODE%3D%22002414%22%29%28TRADE_DATE%3E%3D%272023-01-01%27%29%28TRADE_DATE%3C%3D%272026-10-15%27%29&pageSize=500&pageNumber=1&sortColumns=TRADE_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:38.756930+00:00",
+      "error": null,
+      "sha256": "0f53c7082c4ad7c8a8262d65bde2b4d8a0ff930a5229d1fc38a261119202fc54",
+      "raw_path": "raw/block_trade_0f53c7082c4ad7c8.json"
+    },
+    {
+      "dataset": "billboard",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DAILYBILLBOARD_DETAILSNEW&columns=SECURITY_CODE%2CSECUCODE%2CSECURITY_NAME_ABBR%2CTRADE_DATE%2CEXPLAIN%2CCLOSE_PRICE%2CCHANGE_RATE%2CBILLBOARD_NET_AMT%2CBILLBOARD_BUY_AMT%2CBILLBOARD_SELL_AMT%2CBILLBOARD_DEAL_AMT%2CACCUM_AMOUNT%2CDEAL_NET_RATIO%2CDEAL_AMOUNT_RATIO%2CTURNOVERRATE%2CFREE_MARKET_CAP%2CEXPLANATION%2CSECURITY_TYPE_CODE&filter=%28SECURITY_CODE%3D%22002414%22%29%28TRADE_DATE%3E%3D%272023-01-01%27%29%28TRADE_DATE%3C%3D%272026-10-15%27%29&pageSize=500&pageNumber=1&sortColumns=TRADE_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:38.757057+00:00",
+      "error": null,
+      "sha256": "b10395b548c7a3741869ea2cc8b4200f78fa1a52e0d9e48b1342fbbe29ea3f3c",
+      "raw_path": "raw/billboard_b10395b548c7a374.json"
+    },
+    {
+      "dataset": "institution_seats",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_ORGANIZATION_TRADE_DETAILS&columns=ALL&filter=%28SECURITY_CODE%3D%22002414%22%29%28TRADE_DATE%3E%3D%272023-01-01%27%29%28TRADE_DATE%3C%3D%272026-10-15%27%29&pageSize=500&pageNumber=1&sortColumns=TRADE_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:40.631195+00:00",
+      "error": null,
+      "sha256": "88ab7cd59d0e2d804f4954744a4f5c94ee27de4077967f917231484bba4ccba1",
+      "raw_path": "raw/institution_seats_88ab7cd59d0e2d80.json"
+    },
+    {
+      "dataset": "fund_flow_proxy",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/fflow/daykline/get?secid=0.002414&klt=101&lmt=0&fields1=f1%2Cf2%2Cf3%2Cf7&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf62%2Cf63",
+      "retrieved_at": "2026-10-15T17:33:40.917520+00:00",
+      "error": null,
+      "sha256": "e0848464358da06ee260db5f4031ce78d6e71770e0c499a63903a57847bdd866",
+      "raw_path": "raw/fund_flow_proxy_e0848464358da06e.json"
+    },
+    {
+      "dataset": "margin_page2",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPTA_WEB_RZRQ_GGMX&columns=ALL&filter=%28SCODE%3D%22002414%22%29%28DATE%3E%3D%272023-01-01%27%29%28DATE%3C%3D%272026-10-15%27%29&pageSize=500&pageNumber=2&sortColumns=DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:42.708281+00:00",
+      "error": null,
+      "sha256": "3fb8fb263e01287ff73be566481144c360f1087ed376cbbab80fb42672df0e3a",
+      "raw_path": "raw/margin_page2_3fb8fb263e01287f.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page1",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:37.236401+00:00",
+      "error": null,
+      "sha256": "3aff28546af64c1e7dcfbe05b3a7d84e8f0d0f3583896dc97f636aa8bdf534f6",
+      "raw_path": "raw/cninfo_announcements_page1_3aff28546af64c1e.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page2",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:40.244779+00:00",
+      "error": null,
+      "sha256": "40e25a779ba69c068e5c1af7cdff59001984ad6a466c7d8df9e218a9eef01439",
+      "raw_path": "raw/cninfo_announcements_page2_40e25a779ba69c06.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page3",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:42.166077+00:00",
+      "error": null,
+      "sha256": "24dec11037adf138dffc3d412c49a47b7684903ccbd5caa1d172b502c3beb54a",
+      "raw_path": "raw/cninfo_announcements_page3_24dec11037adf138.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page4",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:43.275162+00:00",
+      "error": null,
+      "sha256": "c1a66d68608dcb8d40964047178742a26028ab710d9fed6a40eb1cedbed3be41",
+      "raw_path": "raw/cninfo_announcements_page4_c1a66d68608dcb8d.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page5",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:44.292044+00:00",
+      "error": null,
+      "sha256": "dc393d1118f5de6d567b1be099856132db6ac3b522d4cac14ebc9e17b267506c",
+      "raw_path": "raw/cninfo_announcements_page5_dc393d1118f5de6d.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page6",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:45.319490+00:00",
+      "error": null,
+      "sha256": "d0f992ea7f60dc943819201f664635e71417b359f418ba76c916f723cbcf3480",
+      "raw_path": "raw/cninfo_announcements_page6_d0f992ea7f60dc94.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page7",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:46.369197+00:00",
+      "error": null,
+      "sha256": "b52ccbfacfee6af9e37104f772c875085e9cc1c78023c751e81b02f6289cc310",
+      "raw_path": "raw/cninfo_announcements_page7_b52ccbfacfee6af9.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page8",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:47.433465+00:00",
+      "error": null,
+      "sha256": "0079c7fc3247049b638bbf3d35bf55b5f497fd42b97943c574e1477458bfd60d",
+      "raw_path": "raw/cninfo_announcements_page8_0079c7fc3247049b.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page9",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:48.211779+00:00",
+      "error": null,
+      "sha256": "0e1ba3656f9721ce8c95b32ccf21f2c62b2db5a301f699ee6f2201c9bade6aa9",
+      "raw_path": "raw/cninfo_announcements_page9_0e1ba3656f9721ce.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page10",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:49.817914+00:00",
+      "error": null,
+      "sha256": "0e13b23aaf29c237d3a34a24ed275df35a14409f5be2582ee9279c295d5c1a98",
+      "raw_path": "raw/cninfo_announcements_page10_0e13b23aaf29c237.json"
+    },
+    {
+      "dataset": "cninfo_announcements_page11",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:50.788433+00:00",
+      "error": null,
+      "sha256": "6c06b5b88cc80f425fe66e7d0e13af6a31ebe30bf09e91ade1c035f072a95613",
+      "raw_path": "raw/cninfo_announcements_page11_6c06b5b88cc80f42.json"
+    },
+    {
+      "dataset": "cninfo_ir_page1",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "retrieved_at": "2026-10-15T17:33:51.654436+00:00",
+      "error": null,
+      "sha256": "00c692455e26047c519288262056a73bee038ed25c91a33cbb613e541e7a8593",
+      "raw_path": "raw/cninfo_ir_page1_00c692455e26047c.json"
+    },
+    {
+      "dataset": "announcements",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=1&ann_type=A&begin_time=2023-01-01&end_time=2026-10-15",
+      "retrieved_at": "2026-10-15T17:34:19.529854+00:00",
+      "error": null,
+      "sha256": "4e6a559895df9061005987ec23f4d896817f06889ab588cf7f2cf1bb7e3d78a8",
+      "raw_path": "raw/announcements_4e6a559895df9061.json"
+    },
+    {
+      "dataset": "announcements_page2",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=2&ann_type=A&begin_time=2023-01-01&end_time=2026-10-15",
+      "retrieved_at": "2026-10-15T17:34:20.964880+00:00",
+      "error": null,
+      "sha256": "3b5153304f40a3f37fa2e56622844c469a2cb5466fb58848ba64e486b45ef5fe",
+      "raw_path": "raw/announcements_page2_3b5153304f40a3f3.json"
+    },
+    {
+      "dataset": "announcements_page3",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=3&ann_type=A&begin_time=2023-01-01&end_time=2026-10-15",
+      "retrieved_at": "2026-10-15T17:34:22.059380+00:00",
+      "error": null,
+      "sha256": "73fadb02392b929be148dbb724d31e7453798aa4fa47efa91b47449b9586d9d8",
+      "raw_path": "raw/announcements_page3_73fadb02392b929b.json"
+    },
+    {
+      "dataset": "announcements_page4",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=4&ann_type=A&begin_time=2023-01-01&end_time=2026-10-15",
+      "retrieved_at": "2026-10-15T17:34:24.291974+00:00",
+      "error": null,
+      "sha256": "a184d1867f4620d299acd3e6977b5d41c4ad2750c05163de66aa7e8ae7761465",
+      "raw_path": "raw/announcements_page4_a184d1867f4620d2.json"
+    },
+    {
+      "dataset": "suspension_schema_daily",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_CUSTOM_SUSPEND_DATA_INTERFACE&columns=ALL&filter=%28MARKET%3D%22%E5%85%A8%E9%83%A8%22%29%28DATETIME%3D%272026-10-15%27%29&pageNumber=1&pageSize=500&sortColumns=SUSPEND_START_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:38.743481+00:00",
+      "error": null,
+      "sha256": "fa4415ba09fe7043535c8deb79c6468ac3c22babf098b7dad575fdc406a78723",
+      "raw_path": "raw/suspension_schema_daily_fa4415ba09fe7043.json"
+    },
+    {
+      "dataset": "holder_count_all",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_HOLDERNUM_DET&columns=ALL&filter=%28SECURITY_CODE%3D%22002414%22%29&pageNumber=1&pageSize=500&sortColumns=END_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:33:40.754180+00:00",
+      "error": null,
+      "sha256": "c5e99a43cf25f0fbbad6e6ac7295b567ff0c40d19cac39f7f93b3f082a8c1023",
+      "raw_path": "raw/holder_count_all_c5e99a43cf25f0fb.json"
+    },
+    {
+      "dataset": "capital_structure_all",
+      "url": "https://datacenter.eastmoney.com/securities/api/data/v1/get?reportName=RPT_F10_EH_EQUITY&columns=ALL&filter=%28SECUCODE%3D%22002414.SZ%22%29&pageNumber=1&pageSize=500&sortColumns=END_DATE&sortTypes=-1&source=HSF10&client=PC",
+      "retrieved_at": "2026-10-15T17:33:42.168695+00:00",
+      "error": null,
+      "sha256": "2e4e878151f86fef2a68bf6556efeee65980fe585ec36297e2fac87e9fdf3c9c",
+      "raw_path": "raw/capital_structure_all_2e4e878151f86fef.json"
+    },
+    {
+      "dataset": "top10_total_latest",
+      "url": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/PageSDGD?code=SZ002414&date=2026-06-30",
+      "retrieved_at": "2026-10-15T17:33:51.712563+00:00",
+      "error": null,
+      "sha256": "14f3b1d6f3960683d96131b04234989d8561b43078ee9e87c3584a0996e18a1d",
+      "raw_path": "raw/top10_total_latest_14f3b1d6f3960683.json"
+    },
+    {
+      "dataset": "suspension_code_equality",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_CUSTOM_SUSPEND_DATA_INTERFACE&columns=ALL&filter=%28MARKET%3D%22%E5%85%A8%E9%83%A8%22%29%28DATETIME%3D%272026-10-15%27%29%28SECURITY_CODE%3D%22002414%22%29&pageNumber=1&pageSize=500&sortColumns=SUSPEND_START_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:34:09.588569+00:00",
+      "error": "provider_error_9201: 返回数据为空",
+      "sha256": "ea6528a2204b61a7ee34683a73ca00f8afdc86aadf3f765d4dae39bbfb19dbe7",
+      "raw_path": "raw/suspension_code_equality_ea6528a2204b61a7.json"
+    },
+    {
+      "dataset": "suspension_code_without_datetime",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_CUSTOM_SUSPEND_DATA_INTERFACE&columns=ALL&filter=%28MARKET%3D%22%E5%85%A8%E9%83%A8%22%29%28SECURITY_CODE%3D%22002414%22%29&pageNumber=1&pageSize=500&sortColumns=SUSPEND_START_DATE&sortTypes=-1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:34:27.658877+00:00",
+      "error": "provider_error_9501: filter参数必须包含DATETIME",
+      "sha256": "498692b824b3760b70fece6e2adae857f91c2df1f1c6dea445040956ba4900e6",
+      "raw_path": "raw/suspension_code_without_datetime_498692b824b3760b.json"
+    },
+    {
+      "dataset": "top10_total_history",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_F10_EH_HOLDERS&columns=ALL&filter=%28SECUCODE%3D%22002414.SZ%22%29%28END_DATE%3E%3D%272022-12-31%27%29%28END_DATE%3C%3D%272026-10-15%27%29&pageNumber=1&pageSize=500&sortColumns=END_DATE%2CHOLDER_RANK&sortTypes=-1%2C1&source=WEB&client=WEB",
+      "retrieved_at": "2026-10-15T17:34:28.330624+00:00",
+      "error": null,
+      "sha256": "1323299c710b41f8511805dc7643ceb9ca87047fb8516e1dcd50596935eff205",
+      "raw_path": "raw/top10_total_history_1323299c710b41f8.json"
+    }
+  ],
+  "original_backup": "备份/高德红外_20261013_v0.4.sqlite"
+}

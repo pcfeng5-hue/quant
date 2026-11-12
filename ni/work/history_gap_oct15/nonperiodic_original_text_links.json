@@ -1,0 +1,53 @@
+[
+  {
+    "row_hash": "7409cf245c790492c5052c0d4433101d0ec1078bb821a98c6632680b4700f66f",
+    "reference_date": "2026-01-07",
+    "holder": "黄立",
+    "provider_holding_shares": 1134418061,
+    "art_code": "AN202601081816849670",
+    "pdf_page": 2,
+    "source_sha256": "f62a5c097211e5ab61a85f5b4c15516afe2d72f563291a5bf00ac83ef8feae8e",
+    "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202601081816849670_1.pdf",
+    "provider_notice_date": "2026-01-09 00:00:00",
+    "evidence_kind": "stored_original_text_exact_numeric_token_match_not_visual_table_certification",
+    "evidence_token_in_10k_shares": "113,441.8061",
+    "excerpt": "36.39\n其中：无限售条件股份 155,419.8364 36.39 155,419.8364 36.39\n有限售条件股份 0 0 0 0\n黄立\n合计持有股份 115,734.9375 27.10 113,441.8061 26.56\n其中：无限售条件股份 28,933.7344 6.78 26,640.6030 6.24\n有限售条件股份 86,801.2031 20.32 86,801.2031 20.32\n合计持有股份 271,154.7739 63.49 268,861.6425 62.",
+    "historical_input_eligible": false,
+    "first_publication_time": "unverified",
+    "warning": "Report date/signature date and provider notice date must remain separate; trade/end date does not establish publication."
+  },
+  {
+    "row_hash": "980fbb968d8bb9feaa07c292d3c2b45ec85410e076477366595380ff1e8aa69a",
+    "reference_date": "2026-02-25",
+    "holder": "黄立",
+    "provider_holding_shares": 1094583514,
+    "art_code": "AN202603101820462832",
+    "pdf_page": 2,
+    "source_sha256": "56285c460d91d1b47f4862e91055900fde36a0259fd40c82b3b02bb3f6e7c824",
+    "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202603101820462832_1.pdf",
+    "provider_notice_date": "2026-03-11 00:00:00",
+    "evidence_kind": "stored_original_text_exact_numeric_token_match_not_visual_table_certification",
+    "evidence_token_in_10k_shares": "109,458.3514",
+    "excerpt": "36.39\n其中：无限售条件股份 155,419.8364 36.39 155,419.8364 36.39\n有限售条件股份 0 0 0 0\n黄立\n合计持有股份 115,734.9375 27.10 109,458.3514 25.63\n其中：无限售条件股份 28,933.7344 6.78 22,657.1483 5.31\n有限售条件股份 86,801.2031 20.32 86,801.2031 20.32\n合计持有股份 271,154.7739 63.49 264,878.1878 62.",
+    "historical_input_eligible": false,
+    "first_publication_time": "unverified",
+    "warning": "Report date/signature date and provider notice date must remain separate; trade/end date does not establish publication."
+  },
+  {
+    "row_hash": "cc894ad5fd6cc14f6d0f5b5d2db0a555d60318206ac0df83e5766ce29b6a4c72",
+    "reference_date": "2026-02-25",
+    "holder": "武汉市高德电气有限公司",
+    "provider_holding_shares": 1554198364,
+    "art_code": "AN202603101820462832",
+    "pdf_page": 2,
+    "source_sha256": "56285c460d91d1b47f4862e91055900fde36a0259fd40c82b3b02bb3f6e7c824",
+    "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202603101820462832_1.pdf",
+    "provider_notice_date": "2026-03-11 00:00:00",
+    "evidence_kind": "stored_original_text_exact_numeric_token_match_not_visual_table_certification",
+    "evidence_token_in_10k_shares": "155,419.8364",
+    "excerpt": "动人本次减持前后持股情况\n股东名称 股份性质\n本次减持前持有股份 本次减持后持有股份\n股数（万股） 占总股本\n比例（%） 股数（万股） 占总股本\n比例（%）\n武汉市高\n德电气有\n限公司\n合计持有股份 155,419.8364 36.39 155,419.8364 36.39\n其中：无限售条件股份 155,419.8364 36.39 155,419.8364 36.39\n有限售条件股份 0 0 0 0\n黄立\n合计持有股份 115,734.9375 27.10 109,458.3514 25.63",
+    "historical_input_eligible": false,
+    "first_publication_time": "unverified",
+    "warning": "Report date/signature date and provider notice date must remain separate; trade/end date does not establish publication."
+  }
+]

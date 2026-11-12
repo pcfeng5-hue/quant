@@ -1,0 +1,5 @@
+﻿symbol,date,context,profit_ratio_display,average_cost_display,cost90_display,concentration90_display,cost70_display,concentration70_display,kline_basis_control,historical_input_eligible,full_price_bin_data_acquired,evidence_stem
+002414.SZ,2023-06-20,first_session_earlier_history,6.68%,9.03,7.66-11.77,21.20%,8.20-10.81,13.72%,前复权,False,False,B_20230620
+002414.SZ,2023-06-20,first_session_returned_window,6.68%,9.03,7.66-11.77,21.20%,8.20-10.81,13.72%,前复权,False,False,A2_20230620
+002414.SZ,2023-01-03,research_start_sample,5.85%,9.30,8.41-13.01,21.47%,8.75-11.36,12.97%,前复权,False,False,20230103
+002414.SZ,2023-06-20,fresh_reload_history,6.20%,9.03,7.60-11.34,19.76%,8.20-10.29,11.29%,前复权,False,False,reload_20230620

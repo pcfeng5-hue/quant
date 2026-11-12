@@ -1,0 +1,149 @@
+{
+  "all_checks_passed": true,
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "check": "exact_two_saved_unadjusted_stock_snapshot_pointers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "primary_and_comparison_roles_match_saved_preparation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "historical_first_availability_is_explicitly_unknown",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_admission_and_runtime_not_approved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "saved_project_comparison_names_all_five_fields",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_scope_2023_2024_only_is_old_development_definition",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "temporal_contract_forbids_capture_time_as_historical_proof",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recorded_stamp_order_eastmoney",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recorded_manifest_hash_shape_eastmoney",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "manifest_endpoint_dates_encompass_metadata_scope_eastmoney",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "stock_snapshot_request_success_metadata_eastmoney",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recorded_stamp_order_tencent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "recorded_manifest_hash_shape_tencent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "manifest_endpoint_dates_encompass_metadata_scope_tencent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "stock_snapshot_request_success_metadata_tencent",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exact_10_unique_field_provider_rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "complete_5_by_2_grid",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_unknown_history_and_native_mapping_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_formal_current_runtime_gates_remain_false",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_original_raw_response_content_or_hash_read",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_actual_market_values_or_outcome_export",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "formal_provider_units_not_invented",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "capture_stamps_never_substituted_for_history",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "seven_fixed_metadata_sources_unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "extractor_sha256": "753a911c8c0701ae4b99fcb447ab2b616e62dcb2dd9a29f35bfd6e7f6c837dc9",
+  "source_sha256_before": {
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719",
+    "work/market_warmup_finalize_oct22/manifest.json": "00535dc7b0007bc095e209e44274c96346b8198e021eca1bf5c48069b1c1d56a",
+    "work/market_warmup_finalize_oct22/summary.json": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+  },
+  "source_sha256_after": {
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_context_oct31/contract.json": "f1defc167a99a3fe4d90844fa39720e2418746df4c10881836e9cc01a00843c3",
+    "outputs/统一数据底座_20261022/数据使用与准入规范.json": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719",
+    "work/market_warmup_finalize_oct22/manifest.json": "00535dc7b0007bc095e209e44274c96346b8198e021eca1bf5c48069b1c1d56a",
+    "work/market_warmup_finalize_oct22/summary.json": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924",
+    "work/baseline_oct25/engineering_contract.json": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+  },
+  "field_evidence_sha256": "09e9b20e31ed1aa47b7ada6e0f09fd63b86bc550e932c5d700a8409b24eff404",
+  "raw_response_sha256_reverification_performed": false,
+  "actual_targets_or_prices_exported": false
+}

@@ -1,0 +1,192 @@
+{
+  "audit_id": "selected_market_input_independent_20261031_v1",
+  "feature_id": "399001.SZ:close_over_ma20_minus_one",
+  "scope": "Outcome-blind input audit; 2023-2024 development dates; saved 2022 prices used only as warmup",
+  "method": "Original saved EM/Tencent strings; exact fractions; no producer imports; readonly SQL",
+  "passed": true,
+  "check_count": 22,
+  "checks": [
+    {
+      "name": "eastmoney_original_response_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tencent_original_response_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_provider_instrument_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_dates_unique_matching_and_positive",
+      "passed": true,
+      "detail": {
+        "price_dates_per_provider_through_2024": 726
+      }
+    },
+    {
+      "name": "chosen_index_close_conflicts_absent_in_2022_2024",
+      "passed": true,
+      "detail": {
+        "source_close_conflict_count": 0,
+        "does_not_certify_provider_truth_or_source_independence": true
+      }
+    },
+    {
+      "name": "saved_input_two_series_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved_input_exact_match_unified_observations",
+      "passed": true,
+      "detail": {
+        "observation_rows_verified": 1452
+      }
+    },
+    {
+      "name": "observation_ids_normalized_row_and_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closes_independently_equal_original_provider_strings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "units_request_hash_retrieval_time_and_no_adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "484_development_dates_complete_unique_no_fill",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "feature_unit_fraction_and_preparation_gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "484_values_recomputed_with_exact_rational_ma20",
+      "passed": true,
+      "detail": {
+        "max_absolute_float_error": 2.896988204881268e-16,
+        "absolute_comparison_tolerance": 5e-15
+      }
+    },
+    {
+      "name": "9680_exact_dependencies_observation_ids_and_current_included",
+      "passed": true,
+      "detail": {
+        "dependency_rows_verified": 9680
+      }
+    },
+    {
+      "name": "no_dependency_after_signal_date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_484_ready_only_engineering_and_formal_gates_false",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_close_quarantine_absent_matches_independent_raw_comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "approved_context_view_empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_zero_boundary_and_saved_float_signs_agree",
+      "passed": true,
+      "detail": {
+        "exact_zero_days": 0,
+        "exact_zero_dates": [],
+        "minimum_absolute_exact_value": 6.664530948292305e-05,
+        "threshold_rule": ">0 positive; <=0 nonpositive; NULL abstain; no fitted epsilon"
+      }
+    },
+    {
+      "name": "synthetic_exact_equal_and_both_sides_of_zero",
+      "passed": true,
+      "detail": [
+        {
+          "current": "100",
+          "exact_value": "0",
+          "state": "nonpositive",
+          "expected": "nonpositive"
+        },
+        {
+          "current": "100000000000001/1000000000000",
+          "exact_value": "19/2000000000000001",
+          "state": "positive",
+          "expected": "positive"
+        },
+        {
+          "current": "99999999999999/1000000000000",
+          "exact_value": "-19/1999999999999999",
+          "state": "nonpositive",
+          "expected": "nonpositive"
+        }
+      ]
+    },
+    {
+      "name": "spec_requires_completed_current_close_and_uncertified_historical_availability",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_source_files_unchanged_before_after",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "source_sha256_before": {
+    "outputs/市场环境输入准备_20261031/市场环境工程输入.sqlite": "22cdff5f265bb24bb16f6d009882a8c493fdfdd268ac434b120919479c3b1b60",
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "work/market_industry_oct22/market_rows_unique.json": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee",
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "outputs/市场环境输入准备_20261031/冻结工程规格.json": "83fb2995ad7cf6727b681338e078e86357e2e410be08e807abe1fd9c255a7b19",
+    "work/market_industry_oct22/raw/em_399001.SZ_0_5c910c658de665a7.json": "5c910c658de665a7116846d2237a53bb3727662cbcb90eed6aeb6f1c3d2a3704",
+    "work/market_industry_oct22/raw/tencent_399001.SZ_0_a43d89ad1cdad1e6.json": "a43d89ad1cdad1e64aa7d1527139007027e8cdace419c92e810934cd2096505d"
+  },
+  "source_sha256_after": {
+    "outputs/市场环境输入准备_20261031/市场环境工程输入.sqlite": "22cdff5f265bb24bb16f6d009882a8c493fdfdd268ac434b120919479c3b1b60",
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+    "work/market_industry_oct22/market_rows_unique.json": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee",
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "outputs/市场环境输入准备_20261031/冻结工程规格.json": "83fb2995ad7cf6727b681338e078e86357e2e410be08e807abe1fd9c255a7b19",
+    "work/market_industry_oct22/raw/em_399001.SZ_0_5c910c658de665a7.json": "5c910c658de665a7116846d2237a53bb3727662cbcb90eed6aeb6f1c3d2a3704",
+    "work/market_industry_oct22/raw/tencent_399001.SZ_0_a43d89ad1cdad1e6.json": "a43d89ad1cdad1e64aa7d1527139007027e8cdace419c92e810934cd2096505d"
+  },
+  "developer_input_dates": 484,
+  "exact_dependency_rows_verified": 9680,
+  "raw_dates_per_provider_through_2024": 726,
+  "read_outcome_database": false,
+  "read_candidate_frequency_or_score": false,
+  "generated_forward_returns": false,
+  "opened_2025_2026_outcomes": false,
+  "new_model_scored_or_selected": false,
+  "formal_historical_input_admission": false,
+  "runtime_usable": false,
+  "limitations": [
+    "Saved responses were retrieved 2026-10-22, not archived historical publication-time snapshots.",
+    "Same-day close and inclusive MA20 require completion of the signal-day session; cannot justify a same-close fill or intraday use.",
+    "Index prices are index points; ratio is a dimensionless fraction, not money flow, total return, or industry membership.",
+    "Agreement between two provider snapshots does not prove either true or independent.",
+    "No input, signal effectiveness, probability reliability, or profitability is certified by these engineering checks.",
+    "Only the prescribed index and 20-observation inclusive formula were audited; no alternate window or threshold chosen."
+  ]
+}

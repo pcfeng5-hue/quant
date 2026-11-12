@@ -1,0 +1,35 @@
+[
+  {
+    "url": "http://www.cffex.com.cn/cn/jystz/20260918/48624.html",
+    "method": "GET",
+    "retrieved_at": "2026-10-16T00:16:27.501357+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/cn/jystz/20260918/48624.html",
+    "sha256": "088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5",
+    "raw_path": "raw/088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5.html",
+    "bytes": 33801,
+    "accepted": true
+  },
+  {
+    "url": "http://www.cffex.com.cn/cn/jystz/20260821/48542.html",
+    "method": "GET",
+    "retrieved_at": "2026-10-16T00:16:27.501569+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/cn/jystz/20260821/48542.html",
+    "sha256": "55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe",
+    "raw_path": "raw/55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe.html",
+    "bytes": 33773,
+    "accepted": true
+  },
+  {
+    "url": "http://www.cffex.com.cn/cn/hs300wd.html",
+    "method": "GET",
+    "retrieved_at": "2026-10-16T00:16:27.501677+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/cn/hs300wd.html",
+    "sha256": "d68cb247f5f7895293d99b35b54f11e328c5b1a43fb10b57dc53497cc48b0397",
+    "raw_path": "raw/d68cb247f5f7895293d99b35b54f11e328c5b1a43fb10b57dc53497cc48b0397.html",
+    "bytes": 41904,
+    "accepted": true
+  }
+]

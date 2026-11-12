@@ -1,0 +1,163 @@
+[
+  {
+    "id": "em_000001.SH_0",
+    "provider": "eastmoney",
+    "symbol": "000001.SH",
+    "name": "上证指数",
+    "kind": "index",
+    "adjustment": "0",
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.000001&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "parameters": {
+      "secid": "1.000001",
+      "klt": 101,
+      "fqt": "0",
+      "beg": "20220101",
+      "end": "20261021",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    }
+  },
+  {
+    "id": "tencent_000001.SH_0",
+    "provider": "tencent",
+    "symbol": "000001.SH",
+    "txsymbol": "sh000001",
+    "name": "上证指数",
+    "kind": "index",
+    "adjustment": "0",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+    "parameters": {
+      "param": "sh000001,day,2022-01-01,2026-10-21,1600,"
+    }
+  },
+  {
+    "id": "em_399001.SZ_0",
+    "provider": "eastmoney",
+    "symbol": "399001.SZ",
+    "name": "深证成指",
+    "kind": "index",
+    "adjustment": "0",
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.399001&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "parameters": {
+      "secid": "0.399001",
+      "klt": 101,
+      "fqt": "0",
+      "beg": "20220101",
+      "end": "20261021",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    }
+  },
+  {
+    "id": "tencent_399001.SZ_0",
+    "provider": "tencent",
+    "symbol": "399001.SZ",
+    "txsymbol": "sz399001",
+    "name": "深证成指",
+    "kind": "index",
+    "adjustment": "0",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+    "parameters": {
+      "param": "sz399001,day,2022-01-01,2026-10-21,1600,"
+    }
+  },
+  {
+    "id": "em_399967.SZ_0",
+    "provider": "eastmoney",
+    "symbol": "399967.SZ",
+    "name": "中证军工",
+    "kind": "index",
+    "adjustment": "0",
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.399967&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "parameters": {
+      "secid": "0.399967",
+      "klt": 101,
+      "fqt": "0",
+      "beg": "20220101",
+      "end": "20261021",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    }
+  },
+  {
+    "id": "tencent_399967.SZ_0",
+    "provider": "tencent",
+    "symbol": "399967.SZ",
+    "txsymbol": "sz399967",
+    "name": "中证军工",
+    "kind": "index",
+    "adjustment": "0",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+    "parameters": {
+      "param": "sz399967,day,2022-01-01,2026-10-21,1600,"
+    }
+  },
+  {
+    "id": "em_002414.SZ_0",
+    "provider": "eastmoney",
+    "symbol": "002414.SZ",
+    "name": "高德红外",
+    "kind": "stock",
+    "adjustment": "0",
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "parameters": {
+      "secid": "0.002414",
+      "klt": 101,
+      "fqt": "0",
+      "beg": "20220101",
+      "end": "20261021",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    }
+  },
+  {
+    "id": "tencent_002414.SZ_0",
+    "provider": "tencent",
+    "symbol": "002414.SZ",
+    "txsymbol": "sz002414",
+    "name": "高德红外",
+    "kind": "stock",
+    "adjustment": "0",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+    "parameters": {
+      "param": "sz002414,day,2022-01-01,2026-10-21,1600,"
+    }
+  },
+  {
+    "id": "em_002414.SZ_1",
+    "provider": "eastmoney",
+    "symbol": "002414.SZ",
+    "name": "高德红外",
+    "kind": "stock",
+    "adjustment": "1",
+    "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=1&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+    "parameters": {
+      "secid": "0.002414",
+      "klt": 101,
+      "fqt": "1",
+      "beg": "20220101",
+      "end": "20261021",
+      "fields1": "f1,f2,f3,f4,f5,f6",
+      "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    }
+  },
+  {
+    "id": "tencent_002414.SZ_1",
+    "provider": "tencent",
+    "symbol": "002414.SZ",
+    "txsymbol": "sz002414",
+    "name": "高德红外",
+    "kind": "stock",
+    "adjustment": "1",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2Cqfq",
+    "parameters": {
+      "param": "sz002414,day,2022-01-01,2026-10-21,1600,qfq"
+    }
+  },
+  {
+    "id": "csi_399967_methodology_v1_2",
+    "provider": "CSI official",
+    "kind": "methodology",
+    "url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/20231208175428-399967_Index_Methodology_cn.pdf"
+  }
+]

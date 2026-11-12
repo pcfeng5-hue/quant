@@ -1,0 +1,2962 @@
+{
+  "user_date": "2026-10-31",
+  "status": "completed_local_admission_audit",
+  "scope": "event definitions, existing evidence hashes and historical ex-ante eligibility only",
+  "source_database_read_only": true,
+  "network_used": false,
+  "return_labels_read_or_generated": false,
+  "later_period_outcomes_opened": false,
+  "event_effect_or_capital_flow_analysis_performed": false,
+  "model_variant_count_increment": 0,
+  "formal_model_or_runtime_approved": false,
+  "summary": {
+    "date_role_rows": 67,
+    "economic_episode_ids": 59,
+    "type_counts": {
+      "policy_sample": 7,
+      "CFFEX_index_derivatives_expiry_delivery": 46,
+      "corporate_action_date": 11,
+      "public_consultation": 1,
+      "policy_speech": 1,
+      "policy_release": 1
+    },
+    "role_counts": {
+      "page_display_day": 3,
+      "futures_delivery_options_expiry_same_economic_date": 46,
+      "record_date": 3,
+      "capital_transfer_account_credit_date": 1,
+      "ex_date": 3,
+      "official_delegated_cash_distribution_date": 3,
+      "transferred_unrestricted_shares_first_trading_date": 1,
+      "issue_date_not_publication_time": 4,
+      "official_page_publication_day": 3
+    },
+    "expiry_months": 46,
+    "official_expiry_months": 5,
+    "official_advance_months": [
+      "2023-12",
+      "2025-01"
+    ],
+    "official_result_months": [
+      "2026-08",
+      "2026-09",
+      "2026-10"
+    ],
+    "rule_candidate_months": 41,
+    "missing_date_event_ids": [
+      "policy-mofcom_uav_explanation_2024"
+    ],
+    "historical_event_input_approved": 0,
+    "historical_countdown_features_approved": 0,
+    "raw_event_reference_rows": 26,
+    "unique_event_original_files": 18,
+    "rule_source_files": 7,
+    "catalogue_response_files": 16,
+    "calendar_min": "2023-01-01",
+    "calendar_max": "2026-10-15",
+    "calendar_days": 1384,
+    "calendar_scope": [
+      "SSE,SZSE"
+    ],
+    "calendar_forward_availability_certified": false
+  },
+  "source_manifests": {
+    "inputs_before": {
+      "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "work/events_publication_oct22/normalized_events.json": "caa9c0e2e941fde883c0fec0de2fdcaa1b7db42b67404688399e588f596e94c5",
+      "work/expiry_calendar_oct15/contract_rules.json": "e0ee9b763bd58434e7cefbd037e8e0f04c7705922656b25539a46e42d9c13770",
+      "work/dividend_event_dates_oct15/event_dates.json": "3a8458266a5bbc54c1c0c30cc14a8a3ed38b40e1e5fe44594ca89436865a298d",
+      "work/events_publication_oct22/announcement_time_ledger_current.json": "64794b4a832dcf6a230de02484f92a1218bf24eeba5e4acf503d4025d92f3247",
+      "work/events_publication_oct22/provider_timestamp_revisions_vs_oct15.json": "cae018ddcea8a4d1ee75816a47e100e3446650ccbda6c60e3beefb8a199bb9f7",
+      "work/events_publication_oct22/repost_deduplication_notes.json": "33a694a9d24b5e0c14002828e2fd96d75fb875ed2cc01920e1b5bfff542d7ca5",
+      "work/events_publication_oct22/stage_manifest.json": "5f0e7e277bf3a0944041cec470fcc24002b3dbb958d012f3f89466d5a16bc39c",
+      "work/expiry_calendar_oct15/verified_monthly_notices.json": "97bdd7802f20e4707b2481dd1c2a05b15721107d66025168b3553d0e7f158b3f",
+      "work/events_publication_oct22/new_official_expiry_notice.json": "ece2b81a6cf5b3375c73b89f694adb9d2f69769d5b1d7096c4dfa945178dec78"
+    },
+    "inputs_after": {
+      "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+      "work/events_publication_oct22/normalized_events.json": "caa9c0e2e941fde883c0fec0de2fdcaa1b7db42b67404688399e588f596e94c5",
+      "work/expiry_calendar_oct15/contract_rules.json": "e0ee9b763bd58434e7cefbd037e8e0f04c7705922656b25539a46e42d9c13770",
+      "work/dividend_event_dates_oct15/event_dates.json": "3a8458266a5bbc54c1c0c30cc14a8a3ed38b40e1e5fe44594ca89436865a298d",
+      "work/events_publication_oct22/announcement_time_ledger_current.json": "64794b4a832dcf6a230de02484f92a1218bf24eeba5e4acf503d4025d92f3247",
+      "work/events_publication_oct22/provider_timestamp_revisions_vs_oct15.json": "cae018ddcea8a4d1ee75816a47e100e3446650ccbda6c60e3beefb8a199bb9f7",
+      "work/events_publication_oct22/repost_deduplication_notes.json": "33a694a9d24b5e0c14002828e2fd96d75fb875ed2cc01920e1b5bfff542d7ca5",
+      "work/events_publication_oct22/stage_manifest.json": "5f0e7e277bf3a0944041cec470fcc24002b3dbb958d012f3f89466d5a16bc39c",
+      "work/expiry_calendar_oct15/verified_monthly_notices.json": "97bdd7802f20e4707b2481dd1c2a05b15721107d66025168b3553d0e7f158b3f",
+      "work/events_publication_oct22/new_official_expiry_notice.json": "ece2b81a6cf5b3375c73b89f694adb9d2f69769d5b1d7096c4dfa945178dec78"
+    },
+    "raw_references": [
+      {
+        "kind": "event_original",
+        "event_id": "policy-mofcom_uav_explanation_2024",
+        "path": "outputs/高德红外数据库/政策原文/mofcom_uav_explanation_2024_bffe7aca56f6740b.html",
+        "url": "https://exportcontrol.mofcom.gov.cn/article/zjsj/202408/1025.html",
+        "retrieved_at": "2026-10-13T19:01:09.651686+00:00",
+        "expected_sha256": "bffe7aca56f6740bbd6959862f792b25c3079e87e5a991f75e71bd723a87d512",
+        "exists": true,
+        "actual_sha256": "bffe7aca56f6740bbd6959862f792b25c3079e87e5a991f75e71bd723a87d512"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202306121590866740-record_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:33.855863+00:00",
+        "expected_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+        "exists": true,
+        "actual_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202306121590866740-capital_transfer_account_credit_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:33.855863+00:00",
+        "expected_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+        "exists": true,
+        "actual_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202306121590866740-ex_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:33.855863+00:00",
+        "expected_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+        "exists": true,
+        "actual_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202306121590866740-official_delegated_cash_distribution_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:33.855863+00:00",
+        "expected_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+        "exists": true,
+        "actual_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202306121590866740-transferred_unrestricted_shares_first_trading_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:33.855863+00:00",
+        "expected_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+        "exists": true,
+        "actual_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-mofcom_2023_27",
+        "path": "outputs/高德红外数据库/政策原文/mofcom_2023_27_6e5850299dc273f7.html",
+        "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2023/art_e525a76205ac47da9a4dd82613e5f9d4.html",
+        "retrieved_at": "2026-10-13T19:01:06.514601+00:00",
+        "expected_sha256": "6e5850299dc273f775844dd4a8072938d1bff30215286533ea476fa9934030b8",
+        "exists": true,
+        "actual_sha256": "6e5850299dc273f775844dd4a8072938d1bff30215286533ea476fa9934030b8"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "CFFEX-index-expiry-2023-12",
+        "path": "work/expiry_calendar_oct15/raw/60d3c8994d3a377330bdd41bc895f5ed24b307643ea102086b36e7850530d89c.html",
+        "url": "http://www.cffex.com.cn/cn/jystz/20231208/35606.html",
+        "retrieved_at": "2026-10-16T00:15:34.781215+00:00",
+        "expected_sha256": "60d3c8994d3a377330bdd41bc895f5ed24b307643ea102086b36e7850530d89c",
+        "exists": true,
+        "actual_sha256": "60d3c8994d3a377330bdd41bc895f5ed24b307643ea102086b36e7850530d89c"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-most_2023_57",
+        "path": "outputs/高德红外数据库/政策原文/most_2023_57_b43d1ee272b22203.html",
+        "url": "https://www.most.gov.cn/tztg/202312/t20231221_189244.html",
+        "retrieved_at": "2026-10-13T19:01:08.629715+00:00",
+        "expected_sha256": "b43d1ee272b2220392f54593417058a17af3b52bde33280213beed1fc03dcd98",
+        "exists": true,
+        "actual_sha256": "b43d1ee272b2220392f54593417058a17af3b52bde33280213beed1fc03dcd98"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202405151633180433-record_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+        "retrieved_at": "2026-10-13T18:46:58.884222+00:00",
+        "expected_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+        "exists": true,
+        "actual_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202405151633180433-ex_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+        "retrieved_at": "2026-10-13T18:46:58.884222+00:00",
+        "expected_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+        "exists": true,
+        "actual_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202405151633180433-official_delegated_cash_distribution_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+        "retrieved_at": "2026-10-13T18:46:58.884222+00:00",
+        "expected_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+        "exists": true,
+        "actual_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-mofcom_2024_31",
+        "path": "outputs/高德红外数据库/政策原文/mofcom_2024_31_cb2d0f804981d3bc.html",
+        "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2024/art_db6e21907d69404fb473ddb0b248d3d7.html",
+        "retrieved_at": "2026-10-13T19:01:06.514884+00:00",
+        "expected_sha256": "cb2d0f804981d3bcfd6c502bfe8a6bed10c9373ceed207629bf8322c81b39d9c",
+        "exists": true,
+        "actual_sha256": "cb2d0f804981d3bcfd6c502bfe8a6bed10c9373ceed207629bf8322c81b39d9c"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-state_council_792",
+        "path": "outputs/高德红外数据库/政策原文/state_council_792_04b5d572dc748969.html",
+        "url": "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/gzjgfxwj/202410/1057.html",
+        "retrieved_at": "2026-10-13T19:01:06.515008+00:00",
+        "expected_sha256": "04b5d572dc748969359b611ce41060a25be6fa83507aa7fdf78e25699e6e1901",
+        "exists": true,
+        "actual_sha256": "04b5d572dc748969359b611ce41060a25be6fa83507aa7fdf78e25699e6e1901"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-mofcom_2024_51",
+        "path": "outputs/高德红外数据库/政策原文/mofcom_2024_51_8d1d2391a65c8215.html",
+        "url": "https://app.www.gov.cn/govdata/gov/202411/19/521898/article.html",
+        "retrieved_at": "2026-10-13T19:01:08.223096+00:00",
+        "expected_sha256": "8d1d2391a65c8215c50f61d2c1b47170e9240409ca3f17e0671fec0966f014d2",
+        "exists": true,
+        "actual_sha256": "8d1d2391a65c8215c50f61d2c1b47170e9240409ca3f17e0671fec0966f014d2"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "CFFEX-index-expiry-2025-01",
+        "path": "work/expiry_calendar_oct15/raw/a9154155dc01f358ca9a4bbbcdce2f9225ca69fb079b99af5c69f3eb02422a14.html",
+        "url": "http://www.cffex.com.cn/cn/jystz/20250110/42236.html",
+        "retrieved_at": "2026-10-16T00:15:34.781332+00:00",
+        "expected_sha256": "a9154155dc01f358ca9a4bbbcdce2f9225ca69fb079b99af5c69f3eb02422a14",
+        "exists": true,
+        "actual_sha256": "a9154155dc01f358ca9a4bbbcdce2f9225ca69fb079b99af5c69f3eb02422a14"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-mofcom_license_guide_2025",
+        "path": "outputs/高德红外数据库/政策原文/mofcom_license_guide_2025_78e5aa6e7169970f.html",
+        "url": "https://exportcontrol.mofcom.gov.cn/article/cjwt/202504/1135.html",
+        "retrieved_at": "2026-10-13T19:01:10.888531+00:00",
+        "expected_sha256": "78e5aa6e7169970fb919a416b1b87ab41b5d792e8cf4f7c8c4ccbc8b8fc43662",
+        "exists": true,
+        "actual_sha256": "78e5aa6e7169970fb919a416b1b87ab41b5d792e8cf4f7c8c4ccbc8b8fc43662"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "CFFEX-index-expiry-2026-08",
+        "path": "work/expiry_calendar_oct15/raw/55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe.html",
+        "url": "http://www.cffex.com.cn/cn/jystz/20260821/48542.html",
+        "retrieved_at": "2026-10-16T00:16:27.501569+00:00",
+        "expected_sha256": "55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe",
+        "exists": true,
+        "actual_sha256": "55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "CFFEX-index-expiry-2026-09",
+        "path": "work/expiry_calendar_oct15/raw/088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5.html",
+        "url": "http://www.cffex.com.cn/cn/jystz/20260918/48624.html",
+        "retrieved_at": "2026-10-16T00:16:27.501357+00:00",
+        "expected_sha256": "088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5",
+        "exists": true,
+        "actual_sha256": "088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202609141829372726-record_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:58.027122+00:00",
+        "expected_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+        "exists": true,
+        "actual_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202609141829372726-ex_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:58.027122+00:00",
+        "expected_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+        "exists": true,
+        "actual_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "AN202609141829372726-official_delegated_cash_distribution_date",
+        "path": "outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+        "retrieved_at": "2026-10-13T18:45:58.027122+00:00",
+        "expected_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+        "exists": true,
+        "actual_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "CFFEX-index-expiry-2026-10",
+        "path": "work/events_publication_oct22/event_raw/cffex_october_1_df10cc50af92574c.html",
+        "url": "http://www.cffex.com.cn/cn/jystz/20261016/48692.html",
+        "retrieved_at": "2026-10-22T16:21:31.923953+00:00",
+        "expected_sha256": "df10cc50af92574c9a5513266f79510df6ac08ca3b38b4106d3e39755dfe5b6e",
+        "exists": true,
+        "actual_sha256": "df10cc50af92574c9a5513266f79510df6ac08ca3b38b4106d3e39755dfe5b6e"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-csrc_consultation_20261019",
+        "path": "work/events_publication_oct22/event_raw/csrc_consultation_20261019_3ec9cfb58afb2e8d.html",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml",
+        "retrieved_at": "2026-10-22T16:21:30.040429+00:00",
+        "expected_sha256": "3ec9cfb58afb2e8dade0dd0e3430792b689aa7bec291a7dc72892cd182ce3dbf",
+        "exists": true,
+        "actual_sha256": "3ec9cfb58afb2e8dade0dd0e3430792b689aa7bec291a7dc72892cd182ce3dbf"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-csrc_speech_20261019",
+        "path": "work/events_publication_oct22/event_raw/csrc_speech_20261019_8ea2f24a8308074f.html",
+        "url": "https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml",
+        "retrieved_at": "2026-10-22T16:21:28.660234+00:00",
+        "expected_sha256": "8ea2f24a8308074fa96942aa3d72fd7270b8d74853461258841eb514a1ba0826",
+        "exists": true,
+        "actual_sha256": "8ea2f24a8308074fa96942aa3d72fd7270b8d74853461258841eb514a1ba0826"
+      },
+      {
+        "kind": "event_original",
+        "event_id": "policy-csrc_transfer_20261019",
+        "path": "work/events_publication_oct22/event_raw/csrc_transfer_20261019_6e1faea04a3ac865.html",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
+        "retrieved_at": "2026-10-22T16:21:28.660345+00:00",
+        "expected_sha256": "6e1faea04a3ac865340118d21dd16865f2b86b9ea5191a2ed789bc41e2b67542",
+        "exists": true,
+        "actual_sha256": "6e1faea04a3ac865340118d21dd16865f2b86b9ea5191a2ed789bc41e2b67542"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "IF",
+        "path": "work/expiry_calendar_oct15/raw/4de40649110c2c93ddc44c3d1a05b00bb13400c141edb6e0df12b47a29fcef68.html",
+        "url": "http://www.cffex.com.cn/cn/hs300.html",
+        "retrieved_at": "2026-10-16T00:16:00.271131+00:00",
+        "expected_sha256": "4de40649110c2c93ddc44c3d1a05b00bb13400c141edb6e0df12b47a29fcef68",
+        "exists": true,
+        "actual_sha256": "4de40649110c2c93ddc44c3d1a05b00bb13400c141edb6e0df12b47a29fcef68"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "IH",
+        "path": "work/expiry_calendar_oct15/raw/e926d78cb86fbf35cbe17f1530e31b929bb34b2edd6e494e720ec68ad456bc59.html",
+        "url": "http://www.cffex.com.cn/cn/sz50gzqh.html",
+        "retrieved_at": "2026-10-16T00:16:00.271359+00:00",
+        "expected_sha256": "e926d78cb86fbf35cbe17f1530e31b929bb34b2edd6e494e720ec68ad456bc59",
+        "exists": true,
+        "actual_sha256": "e926d78cb86fbf35cbe17f1530e31b929bb34b2edd6e494e720ec68ad456bc59"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "IC",
+        "path": "work/expiry_calendar_oct15/raw/69c76cab18da850d26cf197dd3838ab52cdd47b09672148c9ab572fb69f60ddf.html",
+        "url": "http://www.cffex.com.cn/cn/zz500.html",
+        "retrieved_at": "2026-10-16T00:16:00.271471+00:00",
+        "expected_sha256": "69c76cab18da850d26cf197dd3838ab52cdd47b09672148c9ab572fb69f60ddf",
+        "exists": true,
+        "actual_sha256": "69c76cab18da850d26cf197dd3838ab52cdd47b09672148c9ab572fb69f60ddf"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "IM",
+        "path": "work/expiry_calendar_oct15/raw/cf996b053a3a696b8f45611b0dd79ff6bb4c498dfe191193c20a6591d39919c9.html",
+        "url": "http://www.cffex.com.cn/cn/zz1000.html",
+        "retrieved_at": "2026-10-16T00:16:00.271522+00:00",
+        "expected_sha256": "cf996b053a3a696b8f45611b0dd79ff6bb4c498dfe191193c20a6591d39919c9",
+        "exists": true,
+        "actual_sha256": "cf996b053a3a696b8f45611b0dd79ff6bb4c498dfe191193c20a6591d39919c9"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "IO",
+        "path": "work/expiry_calendar_oct15/raw/2e2fa081ded908c07909ab5688477c7df92257015ebcee7e1e89982052289fe5.html",
+        "url": "http://www.cffex.com.cn/cn/hs300gzqq.html",
+        "retrieved_at": "2026-10-16T00:16:00.271575+00:00",
+        "expected_sha256": "2e2fa081ded908c07909ab5688477c7df92257015ebcee7e1e89982052289fe5",
+        "exists": true,
+        "actual_sha256": "2e2fa081ded908c07909ab5688477c7df92257015ebcee7e1e89982052289fe5"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "MO",
+        "path": "work/expiry_calendar_oct15/raw/44f523fd2a0fc12dc7980d447dbaec24e92445b2b0b0eca5e290dc1875e930fb.html",
+        "url": "http://www.cffex.com.cn/cn/zz1000gzqq.html",
+        "retrieved_at": "2026-10-16T00:16:00.271611+00:00",
+        "expected_sha256": "44f523fd2a0fc12dc7980d447dbaec24e92445b2b0b0eca5e290dc1875e930fb",
+        "exists": true,
+        "actual_sha256": "44f523fd2a0fc12dc7980d447dbaec24e92445b2b0b0eca5e290dc1875e930fb"
+      },
+      {
+        "kind": "current_contract_rule",
+        "instrument": "HO",
+        "path": "work/expiry_calendar_oct15/raw/8049bf9da3271b2387b5e1aa30f0a07a720920193e78335b3b5434999da06402.html",
+        "url": "http://www.cffex.com.cn/cn/sz50gzqq.html",
+        "retrieved_at": "2026-10-16T00:16:00.970224+00:00",
+        "expected_sha256": "8049bf9da3271b2387b5e1aa30f0a07a720920193e78335b3b5434999da06402",
+        "exists": true,
+        "actual_sha256": "8049bf9da3271b2387b5e1aa30f0a07a720920193e78335b3b5434999da06402"
+      }
+    ],
+    "catalogue_references": [
+      {
+        "path": "work/events_publication_oct22/raw/announcements_719c297b3f3b4d10.json",
+        "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=1&ann_type=A&begin_time=2023-01-01&end_time=2026-10-22",
+        "retrieved_at": "2026-10-22T16:20:43.299020+00:00",
+        "expected_sha256": "719c297b3f3b4d107fb74aa14ca842080624c36cd8162989c8d2ad8b9aaa6dd6",
+        "exists": true,
+        "actual_sha256": "719c297b3f3b4d107fb74aa14ca842080624c36cd8162989c8d2ad8b9aaa6dd6"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/announcements_page2_3b5153304f40a3f3.json",
+        "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=2&ann_type=A&begin_time=2023-01-01&end_time=2026-10-22",
+        "retrieved_at": "2026-10-22T16:20:45.335152+00:00",
+        "expected_sha256": "3b5153304f40a3f37fa2e56622844c469a2cb5466fb58848ba64e486b45ef5fe",
+        "exists": true,
+        "actual_sha256": "3b5153304f40a3f37fa2e56622844c469a2cb5466fb58848ba64e486b45ef5fe"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/announcements_page3_73fadb02392b929b.json",
+        "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=3&ann_type=A&begin_time=2023-01-01&end_time=2026-10-22",
+        "retrieved_at": "2026-10-22T16:20:53.639588+00:00",
+        "expected_sha256": "73fadb02392b929be148dbb724d31e7453798aa4fa47efa91b47449b9586d9d8",
+        "exists": true,
+        "actual_sha256": "73fadb02392b929be148dbb724d31e7453798aa4fa47efa91b47449b9586d9d8"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/announcements_page4_a184d1867f4620d2.json",
+        "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=4&ann_type=A&begin_time=2023-01-01&end_time=2026-10-22",
+        "retrieved_at": "2026-10-22T16:21:03.601670+00:00",
+        "expected_sha256": "a184d1867f4620d299acd3e6977b5d41c4ad2750c05163de66aa7e8ae7761465",
+        "exists": true,
+        "actual_sha256": "a184d1867f4620d299acd3e6977b5d41c4ad2750c05163de66aa7e8ae7761465"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page1_3aff28546af64c1e.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:04.214868+00:00",
+        "expected_sha256": "3aff28546af64c1e7dcfbe05b3a7d84e8f0d0f3583896dc97f636aa8bdf534f6",
+        "exists": true,
+        "actual_sha256": "3aff28546af64c1e7dcfbe05b3a7d84e8f0d0f3583896dc97f636aa8bdf534f6"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page2_40e25a779ba69c06.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:05.778697+00:00",
+        "expected_sha256": "40e25a779ba69c068e5c1af7cdff59001984ad6a466c7d8df9e218a9eef01439",
+        "exists": true,
+        "actual_sha256": "40e25a779ba69c068e5c1af7cdff59001984ad6a466c7d8df9e218a9eef01439"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page3_24dec11037adf138.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:08.844865+00:00",
+        "expected_sha256": "24dec11037adf138dffc3d412c49a47b7684903ccbd5caa1d172b502c3beb54a",
+        "exists": true,
+        "actual_sha256": "24dec11037adf138dffc3d412c49a47b7684903ccbd5caa1d172b502c3beb54a"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page4_c1a66d68608dcb8d.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:11.466561+00:00",
+        "expected_sha256": "c1a66d68608dcb8d40964047178742a26028ab710d9fed6a40eb1cedbed3be41",
+        "exists": true,
+        "actual_sha256": "c1a66d68608dcb8d40964047178742a26028ab710d9fed6a40eb1cedbed3be41"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page5_dc393d1118f5de6d.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:15.249843+00:00",
+        "expected_sha256": "dc393d1118f5de6d567b1be099856132db6ac3b522d4cac14ebc9e17b267506c",
+        "exists": true,
+        "actual_sha256": "dc393d1118f5de6d567b1be099856132db6ac3b522d4cac14ebc9e17b267506c"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page6_d0f992ea7f60dc94.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:18.003471+00:00",
+        "expected_sha256": "d0f992ea7f60dc943819201f664635e71417b359f418ba76c916f723cbcf3480",
+        "exists": true,
+        "actual_sha256": "d0f992ea7f60dc943819201f664635e71417b359f418ba76c916f723cbcf3480"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page7_b52ccbfacfee6af9.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:19.370679+00:00",
+        "expected_sha256": "b52ccbfacfee6af9e37104f772c875085e9cc1c78023c751e81b02f6289cc310",
+        "exists": true,
+        "actual_sha256": "b52ccbfacfee6af9e37104f772c875085e9cc1c78023c751e81b02f6289cc310"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page8_0079c7fc3247049b.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:20.903724+00:00",
+        "expected_sha256": "0079c7fc3247049b638bbf3d35bf55b5f497fd42b97943c574e1477458bfd60d",
+        "exists": true,
+        "actual_sha256": "0079c7fc3247049b638bbf3d35bf55b5f497fd42b97943c574e1477458bfd60d"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page9_0e1ba3656f9721ce.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:23.530700+00:00",
+        "expected_sha256": "0e1ba3656f9721ce8c95b32ccf21f2c62b2db5a301f699ee6f2201c9bade6aa9",
+        "exists": true,
+        "actual_sha256": "0e1ba3656f9721ce8c95b32ccf21f2c62b2db5a301f699ee6f2201c9bade6aa9"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page10_0e13b23aaf29c237.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:25.780703+00:00",
+        "expected_sha256": "0e13b23aaf29c237d3a34a24ed275df35a14409f5be2582ee9279c295d5c1a98",
+        "exists": true,
+        "actual_sha256": "0e13b23aaf29c237d3a34a24ed275df35a14409f5be2582ee9279c295d5c1a98"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_announcements_page11_6c06b5b88cc80f42.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:26.842038+00:00",
+        "expected_sha256": "6c06b5b88cc80f425fe66e7d0e13af6a31ebe30bf09e91ade1c035f072a95613",
+        "exists": true,
+        "actual_sha256": "6c06b5b88cc80f425fe66e7d0e13af6a31ebe30bf09e91ade1c035f072a95613"
+      },
+      {
+        "path": "work/events_publication_oct22/raw/cninfo_ir_page1_00c692455e26047c.json",
+        "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+        "retrieved_at": "2026-10-22T16:21:27.725731+00:00",
+        "expected_sha256": "00c692455e26047c519288262056a73bee038ed25c91a33cbb613e541e7a8593",
+        "exists": true,
+        "actual_sha256": "00c692455e26047c519288262056a73bee038ed25c91a33cbb613e541e7a8593"
+      }
+    ],
+    "audit_code_sha256": "2dae0836e1722b0e51b9f73370ef33db41760a810a9c4fc54d7bd8940259c6bc"
+  },
+  "episode_groups": [
+    {
+      "economic_episode_id": "AN202306121590866740",
+      "role_row_count": 5,
+      "event_ids": [
+        "AN202306121590866740-record_date",
+        "AN202306121590866740-capital_transfer_account_credit_date",
+        "AN202306121590866740-ex_date",
+        "AN202306121590866740-official_delegated_cash_distribution_date",
+        "AN202306121590866740-transferred_unrestricted_shares_first_trading_date"
+      ],
+      "dates": [
+        "2023-06-19",
+        "2023-06-20"
+      ]
+    },
+    {
+      "economic_episode_id": "AN202405151633180433",
+      "role_row_count": 3,
+      "event_ids": [
+        "AN202405151633180433-record_date",
+        "AN202405151633180433-ex_date",
+        "AN202405151633180433-official_delegated_cash_distribution_date"
+      ],
+      "dates": [
+        "2024-05-23",
+        "2024-05-24"
+      ]
+    },
+    {
+      "economic_episode_id": "AN202609141829372726",
+      "role_row_count": 3,
+      "event_ids": [
+        "AN202609141829372726-record_date",
+        "AN202609141829372726-ex_date",
+        "AN202609141829372726-official_delegated_cash_distribution_date"
+      ],
+      "dates": [
+        "2026-09-21",
+        "2026-09-22"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-01",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-01"
+      ],
+      "dates": [
+        "2023-01-20"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-02",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-02"
+      ],
+      "dates": [
+        "2023-02-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-03",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-03"
+      ],
+      "dates": [
+        "2023-03-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-04",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-04"
+      ],
+      "dates": [
+        "2023-04-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-05",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-05"
+      ],
+      "dates": [
+        "2023-05-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-06",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-06"
+      ],
+      "dates": [
+        "2023-06-16"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-07",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-07"
+      ],
+      "dates": [
+        "2023-07-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-08",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-08"
+      ],
+      "dates": [
+        "2023-08-18"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-09",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-09"
+      ],
+      "dates": [
+        "2023-09-15"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-10",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-10"
+      ],
+      "dates": [
+        "2023-10-20"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-11",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-11"
+      ],
+      "dates": [
+        "2023-11-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2023-12",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2023-12"
+      ],
+      "dates": [
+        "2023-12-15"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-01",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-01"
+      ],
+      "dates": [
+        "2024-01-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-02",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-02"
+      ],
+      "dates": [
+        "2024-02-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-03",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-03"
+      ],
+      "dates": [
+        "2024-03-15"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-04",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-04"
+      ],
+      "dates": [
+        "2024-04-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-05",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-05"
+      ],
+      "dates": [
+        "2024-05-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-06",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-06"
+      ],
+      "dates": [
+        "2024-06-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-07",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-07"
+      ],
+      "dates": [
+        "2024-07-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-08",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-08"
+      ],
+      "dates": [
+        "2024-08-16"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-09",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-09"
+      ],
+      "dates": [
+        "2024-09-20"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-10",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-10"
+      ],
+      "dates": [
+        "2024-10-18"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-11",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-11"
+      ],
+      "dates": [
+        "2024-11-15"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2024-12",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2024-12"
+      ],
+      "dates": [
+        "2024-12-20"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-01",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-01"
+      ],
+      "dates": [
+        "2025-01-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-02",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-02"
+      ],
+      "dates": [
+        "2025-02-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-03",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-03"
+      ],
+      "dates": [
+        "2025-03-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-04",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-04"
+      ],
+      "dates": [
+        "2025-04-18"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-05",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-05"
+      ],
+      "dates": [
+        "2025-05-16"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-06",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-06"
+      ],
+      "dates": [
+        "2025-06-20"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-07",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-07"
+      ],
+      "dates": [
+        "2025-07-18"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-08",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-08"
+      ],
+      "dates": [
+        "2025-08-15"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-09",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-09"
+      ],
+      "dates": [
+        "2025-09-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-10",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-10"
+      ],
+      "dates": [
+        "2025-10-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-11",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-11"
+      ],
+      "dates": [
+        "2025-11-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2025-12",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2025-12"
+      ],
+      "dates": [
+        "2025-12-19"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-01",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-01"
+      ],
+      "dates": [
+        "2026-01-16"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-02",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-02"
+      ],
+      "dates": [
+        "2026-02-24"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-03",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-03"
+      ],
+      "dates": [
+        "2026-03-20"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-04",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-04"
+      ],
+      "dates": [
+        "2026-04-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-05",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-05"
+      ],
+      "dates": [
+        "2026-05-15"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-06",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-06"
+      ],
+      "dates": [
+        "2026-06-22"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-07",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-07"
+      ],
+      "dates": [
+        "2026-07-17"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-08",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-08"
+      ],
+      "dates": [
+        "2026-08-21"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-09",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-09"
+      ],
+      "dates": [
+        "2026-09-18"
+      ]
+    },
+    {
+      "economic_episode_id": "CFFEX-index-expiry-2026-10",
+      "role_row_count": 1,
+      "event_ids": [
+        "CFFEX-index-expiry-2026-10"
+      ],
+      "dates": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-csrc_consultation_20261019",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-csrc_consultation_20261019"
+      ],
+      "dates": [
+        "2026-10-19"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-csrc_speech_20261019",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-csrc_speech_20261019"
+      ],
+      "dates": [
+        "2026-10-19"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-csrc_transfer_20261019",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-csrc_transfer_20261019"
+      ],
+      "dates": [
+        "2026-10-19"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-mofcom_2023_27",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-mofcom_2023_27"
+      ],
+      "dates": [
+        "2023-07-31"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-mofcom_2024_31",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-mofcom_2024_31"
+      ],
+      "dates": [
+        "2024-07-31"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-mofcom_2024_51",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-mofcom_2024_51"
+      ],
+      "dates": [
+        "2024-11-15"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-mofcom_license_guide_2025",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-mofcom_license_guide_2025"
+      ],
+      "dates": [
+        "2025-03-28"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-mofcom_uav_explanation_2024",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-mofcom_uav_explanation_2024"
+      ],
+      "dates": []
+    },
+    {
+      "economic_episode_id": "policy-most_2023_57",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-most_2023_57"
+      ],
+      "dates": [
+        "2023-12-21"
+      ]
+    },
+    {
+      "economic_episode_id": "policy-state_council_792",
+      "role_row_count": 1,
+      "event_ids": [
+        "policy-state_council_792"
+      ],
+      "dates": [
+        "2024-09-30"
+      ]
+    }
+  ],
+  "event_admission": [
+    {
+      "event_id": "policy-mofcom_uav_explanation_2024",
+      "economic_episode_id": "policy-mofcom_uav_explanation_2024",
+      "event_type": "policy_sample",
+      "date_role": "page_display_day",
+      "event_date": null,
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://exportcontrol.mofcom.gov.cn/article/zjsj/202408/1025.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/mofcom_uav_explanation_2024_bffe7aca56f6740b.html",
+      "source_sha256": "bffe7aca56f6740bbd6959862f792b25c3079e87e5a991f75e71bd723a87d512",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable",
+        "economic_or_display_date_unknown"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-01",
+      "economic_episode_id": "CFFEX-index-expiry-2023-01",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-01-20",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-02",
+      "economic_episode_id": "CFFEX-index-expiry-2023-02",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-02-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-03",
+      "economic_episode_id": "CFFEX-index-expiry-2023-03",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-03-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-04",
+      "economic_episode_id": "CFFEX-index-expiry-2023-04",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-04-21",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-05",
+      "economic_episode_id": "CFFEX-index-expiry-2023-05",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-05-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-06",
+      "economic_episode_id": "CFFEX-index-expiry-2023-06",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-06-16",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "AN202306121590866740-record_date",
+      "economic_episode_id": "AN202306121590866740",
+      "event_type": "corporate_action_date",
+      "date_role": "record_date",
+      "event_date": "2023-06-19",
+      "publication_date": "2023-06-13",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202306121590866740-capital_transfer_account_credit_date",
+      "economic_episode_id": "AN202306121590866740",
+      "event_type": "corporate_action_date",
+      "date_role": "capital_transfer_account_credit_date",
+      "event_date": "2023-06-20",
+      "publication_date": "2023-06-13",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202306121590866740-ex_date",
+      "economic_episode_id": "AN202306121590866740",
+      "event_type": "corporate_action_date",
+      "date_role": "ex_date",
+      "event_date": "2023-06-20",
+      "publication_date": "2023-06-13",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202306121590866740-official_delegated_cash_distribution_date",
+      "economic_episode_id": "AN202306121590866740",
+      "event_type": "corporate_action_date",
+      "date_role": "official_delegated_cash_distribution_date",
+      "event_date": "2023-06-20",
+      "publication_date": "2023-06-13",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock",
+        "delegated_payment_scope_not_personal_receipt"
+      ]
+    },
+    {
+      "event_id": "AN202306121590866740-transferred_unrestricted_shares_first_trading_date",
+      "economic_episode_id": "AN202306121590866740",
+      "event_type": "corporate_action_date",
+      "date_role": "transferred_unrestricted_shares_first_trading_date",
+      "event_date": "2023-06-20",
+      "publication_date": "2023-06-13",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-07",
+      "economic_episode_id": "CFFEX-index-expiry-2023-07",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-07-21",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "policy-mofcom_2023_27",
+      "economic_episode_id": "policy-mofcom_2023_27",
+      "event_type": "policy_sample",
+      "date_role": "issue_date_not_publication_time",
+      "event_date": "2023-07-31",
+      "publication_date": null,
+      "source_timestamp_raw": "2023-07-31",
+      "effective_date": "2023-09-01",
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2023/art_e525a76205ac47da9a4dd82613e5f9d4.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/mofcom_2023_27_6e5850299dc273f7.html",
+      "source_sha256": "6e5850299dc273f775844dd4a8072938d1bff30215286533ea476fa9934030b8",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-08",
+      "economic_episode_id": "CFFEX-index-expiry-2023-08",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-08-18",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-09",
+      "economic_episode_id": "CFFEX-index-expiry-2023-09",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-09-15",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-10",
+      "economic_episode_id": "CFFEX-index-expiry-2023-10",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-10-20",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-11",
+      "economic_episode_id": "CFFEX-index-expiry-2023-11",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-11-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2023-12",
+      "economic_episode_id": "CFFEX-index-expiry-2023-12",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2023-12-15",
+      "publication_date": "2023-12-08",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "official_monthly_notice",
+      "notice_kind": "advance_reminder",
+      "original_url": "http://www.cffex.com.cn/cn/jystz/20231208/35606.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/expiry_calendar_oct15/raw/60d3c8994d3a377330bdd41bc895f5ed24b307643ea102086b36e7850530d89c.html",
+      "source_sha256": "60d3c8994d3a377330bdd41bc895f5ed24b307643ea102086b36e7850530d89c",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "advance_reminder_has_day_only_no_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "policy-most_2023_57",
+      "economic_episode_id": "policy-most_2023_57",
+      "event_type": "policy_sample",
+      "date_role": "page_display_day",
+      "event_date": "2023-12-21",
+      "publication_date": null,
+      "source_timestamp_raw": "2023-12-21",
+      "effective_date": null,
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://www.most.gov.cn/tztg/202312/t20231221_189244.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/most_2023_57_b43d1ee272b22203.html",
+      "source_sha256": "b43d1ee272b2220392f54593417058a17af3b52bde33280213beed1fc03dcd98",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-01",
+      "economic_episode_id": "CFFEX-index-expiry-2024-01",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-01-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-02",
+      "economic_episode_id": "CFFEX-index-expiry-2024-02",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-02-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate",
+        "holiday_roll_not_monthly_officially_confirmed"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-03",
+      "economic_episode_id": "CFFEX-index-expiry-2024-03",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-03-15",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-04",
+      "economic_episode_id": "CFFEX-index-expiry-2024-04",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-04-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-05",
+      "economic_episode_id": "CFFEX-index-expiry-2024-05",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-05-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "AN202405151633180433-record_date",
+      "economic_episode_id": "AN202405151633180433",
+      "event_type": "corporate_action_date",
+      "date_role": "record_date",
+      "event_date": "2024-05-23",
+      "publication_date": "2024-05-16",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+      "source_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202405151633180433-ex_date",
+      "economic_episode_id": "AN202405151633180433",
+      "event_type": "corporate_action_date",
+      "date_role": "ex_date",
+      "event_date": "2024-05-24",
+      "publication_date": "2024-05-16",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+      "source_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202405151633180433-official_delegated_cash_distribution_date",
+      "economic_episode_id": "AN202405151633180433",
+      "event_type": "corporate_action_date",
+      "date_role": "official_delegated_cash_distribution_date",
+      "event_date": "2024-05-24",
+      "publication_date": "2024-05-16",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+      "source_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock",
+        "delegated_payment_scope_not_personal_receipt"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-06",
+      "economic_episode_id": "CFFEX-index-expiry-2024-06",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-06-21",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-07",
+      "economic_episode_id": "CFFEX-index-expiry-2024-07",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-07-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "policy-mofcom_2024_31",
+      "economic_episode_id": "policy-mofcom_2024_31",
+      "event_type": "policy_sample",
+      "date_role": "issue_date_not_publication_time",
+      "event_date": "2024-07-31",
+      "publication_date": null,
+      "source_timestamp_raw": "2024-07-31 16:00",
+      "effective_date": "2024-09-01",
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2024/art_db6e21907d69404fb473ddb0b248d3d7.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/mofcom_2024_31_cb2d0f804981d3bc.html",
+      "source_sha256": "cb2d0f804981d3bcfd6c502bfe8a6bed10c9373ceed207629bf8322c81b39d9c",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-08",
+      "economic_episode_id": "CFFEX-index-expiry-2024-08",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-08-16",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-09",
+      "economic_episode_id": "CFFEX-index-expiry-2024-09",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-09-20",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "policy-state_council_792",
+      "economic_episode_id": "policy-state_council_792",
+      "event_type": "policy_sample",
+      "date_role": "issue_date_not_publication_time",
+      "event_date": "2024-09-30",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": "2024-12-01",
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/gzjgfxwj/202410/1057.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/state_council_792_04b5d572dc748969.html",
+      "source_sha256": "04b5d572dc748969359b611ce41060a25be6fa83507aa7fdf78e25699e6e1901",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-10",
+      "economic_episode_id": "CFFEX-index-expiry-2024-10",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-10-18",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-11",
+      "economic_episode_id": "CFFEX-index-expiry-2024-11",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-11-15",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "policy-mofcom_2024_51",
+      "economic_episode_id": "policy-mofcom_2024_51",
+      "event_type": "policy_sample",
+      "date_role": "issue_date_not_publication_time",
+      "event_date": "2024-11-15",
+      "publication_date": null,
+      "source_timestamp_raw": "2024-11-19",
+      "effective_date": "2024-12-01",
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://app.www.gov.cn/govdata/gov/202411/19/521898/article.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/mofcom_2024_51_8d1d2391a65c8215.html",
+      "source_sha256": "8d1d2391a65c8215c50f61d2c1b47170e9240409ca3f17e0671fec0966f014d2",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2024-12",
+      "economic_episode_id": "CFFEX-index-expiry-2024-12",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2024-12-20",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-01",
+      "economic_episode_id": "CFFEX-index-expiry-2025-01",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-01-17",
+      "publication_date": "2025-01-10",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "official_monthly_notice",
+      "notice_kind": "advance_reminder",
+      "original_url": "http://www.cffex.com.cn/cn/jystz/20250110/42236.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/expiry_calendar_oct15/raw/a9154155dc01f358ca9a4bbbcdce2f9225ca69fb079b99af5c69f3eb02422a14.html",
+      "source_sha256": "a9154155dc01f358ca9a4bbbcdce2f9225ca69fb079b99af5c69f3eb02422a14",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "advance_reminder_has_day_only_no_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-02",
+      "economic_episode_id": "CFFEX-index-expiry-2025-02",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-02-21",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-03",
+      "economic_episode_id": "CFFEX-index-expiry-2025-03",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-03-21",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "policy-mofcom_license_guide_2025",
+      "economic_episode_id": "policy-mofcom_license_guide_2025",
+      "event_type": "policy_sample",
+      "date_role": "page_display_day",
+      "event_date": "2025-03-28",
+      "publication_date": null,
+      "source_timestamp_raw": "2025-03-28 17:00",
+      "effective_date": null,
+      "source_level": "official_or_government_repost_existing_sample",
+      "notice_kind": null,
+      "original_url": "https://exportcontrol.mofcom.gov.cn/article/cjwt/202504/1135.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/政策原文/mofcom_license_guide_2025_78e5aa6e7169970f.html",
+      "source_sha256": "78e5aa6e7169970fb919a416b1b87ab41b5d792e8cf4f7c8c4ccbc8b8fc43662",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-04",
+      "economic_episode_id": "CFFEX-index-expiry-2025-04",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-04-18",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-05",
+      "economic_episode_id": "CFFEX-index-expiry-2025-05",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-05-16",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-06",
+      "economic_episode_id": "CFFEX-index-expiry-2025-06",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-06-20",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-07",
+      "economic_episode_id": "CFFEX-index-expiry-2025-07",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-07-18",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-08",
+      "economic_episode_id": "CFFEX-index-expiry-2025-08",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-08-15",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-09",
+      "economic_episode_id": "CFFEX-index-expiry-2025-09",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-09-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-10",
+      "economic_episode_id": "CFFEX-index-expiry-2025-10",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-10-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-11",
+      "economic_episode_id": "CFFEX-index-expiry-2025-11",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-11-21",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2025-12",
+      "economic_episode_id": "CFFEX-index-expiry-2025-12",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2025-12-19",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-01",
+      "economic_episode_id": "CFFEX-index-expiry-2026-01",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-01-16",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-02",
+      "economic_episode_id": "CFFEX-index-expiry-2026-02",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-02-24",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate",
+        "holiday_roll_not_monthly_officially_confirmed"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-03",
+      "economic_episode_id": "CFFEX-index-expiry-2026-03",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-03-20",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-04",
+      "economic_episode_id": "CFFEX-index-expiry-2026-04",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-04-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-05",
+      "economic_episode_id": "CFFEX-index-expiry-2026-05",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-05-15",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-06",
+      "economic_episode_id": "CFFEX-index-expiry-2026-06",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-06-22",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate",
+        "holiday_roll_not_monthly_officially_confirmed"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-07",
+      "economic_episode_id": "CFFEX-index-expiry-2026-07",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-07-17",
+      "publication_date": null,
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "rule_derived_candidate",
+      "notice_kind": null,
+      "original_url": null,
+      "original_path": null,
+      "source_sha256": null,
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "monthly_date_is_formula_candidate"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-08",
+      "economic_episode_id": "CFFEX-index-expiry-2026-08",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-08-21",
+      "publication_date": "2026-08-21",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "official_monthly_notice",
+      "notice_kind": "actual_delivery_result",
+      "original_url": "http://www.cffex.com.cn/cn/jystz/20260821/48542.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/expiry_calendar_oct15/raw/55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe.html",
+      "source_sha256": "55eeb115213e618941f3308483b98a15fe33c7f18b1af7655553ac22610274fe",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "post_event_result_must_not_be_used_as_advance_notice"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-09",
+      "economic_episode_id": "CFFEX-index-expiry-2026-09",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-09-18",
+      "publication_date": "2026-09-18",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "official_monthly_notice",
+      "notice_kind": "actual_delivery_result",
+      "original_url": "http://www.cffex.com.cn/cn/jystz/20260918/48624.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/expiry_calendar_oct15/raw/088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5.html",
+      "source_sha256": "088dcab396954088001e1a5b85e79dd8744191dd616d6734772a87837967bbb5",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "post_event_result_must_not_be_used_as_advance_notice"
+      ]
+    },
+    {
+      "event_id": "AN202609141829372726-record_date",
+      "economic_episode_id": "AN202609141829372726",
+      "event_type": "corporate_action_date",
+      "date_role": "record_date",
+      "event_date": "2026-09-21",
+      "publication_date": "2026-09-15",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+      "source_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202609141829372726-ex_date",
+      "economic_episode_id": "AN202609141829372726",
+      "event_type": "corporate_action_date",
+      "date_role": "ex_date",
+      "event_date": "2026-09-22",
+      "publication_date": "2026-09-15",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+      "source_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock"
+      ]
+    },
+    {
+      "event_id": "AN202609141829372726-official_delegated_cash_distribution_date",
+      "economic_episode_id": "AN202609141829372726",
+      "event_type": "corporate_action_date",
+      "date_role": "official_delegated_cash_distribution_date",
+      "event_date": "2026-09-22",
+      "publication_date": "2026-09-15",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "original_PDF_dates_previously_text_and_visually_verified",
+      "notice_kind": null,
+      "original_url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+      "source_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "signature_and_catalogue_notice_day_not_first_seen_clock",
+        "delegated_payment_scope_not_personal_receipt"
+      ]
+    },
+    {
+      "event_id": "CFFEX-index-expiry-2026-10",
+      "economic_episode_id": "CFFEX-index-expiry-2026-10",
+      "event_type": "CFFEX_index_derivatives_expiry_delivery",
+      "date_role": "futures_delivery_options_expiry_same_economic_date",
+      "event_date": "2026-10-16",
+      "publication_date": "2026-10-16",
+      "source_timestamp_raw": null,
+      "effective_date": null,
+      "source_level": "official_monthly_notice",
+      "notice_kind": "actual_delivery_result",
+      "original_url": "http://www.cffex.com.cn/cn/jystz/20261016/48692.html",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/events_publication_oct22/event_raw/cffex_october_1_df10cc50af92574c.html",
+      "source_sha256": "df10cc50af92574c9a5513266f79510df6ac08ca3b38b4106d3e39755dfe5b6e",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "historical_contract_rule_effective_dates_unverified",
+        "post_event_result_must_not_be_used_as_advance_notice"
+      ]
+    },
+    {
+      "event_id": "policy-csrc_consultation_20261019",
+      "economic_episode_id": "policy-csrc_consultation_20261019",
+      "event_type": "public_consultation",
+      "date_role": "official_page_publication_day",
+      "event_date": "2026-10-19",
+      "publication_date": "2026-10-19",
+      "source_timestamp_raw": "2026-10-19 19:03:25",
+      "effective_date": null,
+      "source_level": "official_original_html",
+      "notice_kind": null,
+      "original_url": "https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/events_publication_oct22/event_raw/csrc_consultation_20261019_3ec9cfb58afb2e8d.html",
+      "source_sha256": "3ec9cfb58afb2e8dade0dd0e3430792b689aa7bec291a7dc72892cd182ce3dbf",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "policy-csrc_speech_20261019",
+      "economic_episode_id": "policy-csrc_speech_20261019",
+      "event_type": "policy_speech",
+      "date_role": "official_page_publication_day",
+      "event_date": "2026-10-19",
+      "publication_date": "2026-10-19",
+      "source_timestamp_raw": "2026-10-19 18:21:29",
+      "effective_date": null,
+      "source_level": "official_original_html",
+      "notice_kind": null,
+      "original_url": "https://www.csrc.gov.cn/csrc/c106311/c7665578/content.shtml",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/events_publication_oct22/event_raw/csrc_speech_20261019_8ea2f24a8308074f.html",
+      "source_sha256": "8ea2f24a8308074fa96942aa3d72fd7270b8d74853461258841eb514a1ba0826",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    },
+    {
+      "event_id": "policy-csrc_transfer_20261019",
+      "economic_episode_id": "policy-csrc_transfer_20261019",
+      "event_type": "policy_release",
+      "date_role": "official_page_publication_day",
+      "event_date": "2026-10-19",
+      "publication_date": "2026-10-19",
+      "source_timestamp_raw": "2026-10-19 18:49:18",
+      "effective_date": "2026-12-01",
+      "source_level": "official_original_html",
+      "notice_kind": null,
+      "original_url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
+      "original_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/events_publication_oct22/event_raw/csrc_transfer_20261019_6e1faea04a3ac865.html",
+      "source_sha256": "6e1faea04a3ac865340118d21dd16865f2b86b9ea5191a2ed789bc41e2b67542",
+      "historical_first_publication_timestamp": null,
+      "earliest_model_use_timestamp": null,
+      "historical_feature_input_approved": false,
+      "countdown_feature_approved": false,
+      "reasons": [
+        "earliest_model_use_timestamp_unknown",
+        "historical_first_publication_version_unverified",
+        "bounded_non_exhaustive_policy_sample",
+        "issue_publication_repost_effective_dates_not_interchangeable"
+      ]
+    }
+  ],
+  "required_future_countdown_contract": {
+    "status": "not_implemented_no_event_is_currently_approved",
+    "definition": "Count pre-announced scheduled exchange-open dates d with as_of_session_date < d <= event_date; event session=0. Define pre/post-event sign and exchange separately before any experiment.",
+    "exchange_time_zone": "Asia/Shanghai, with explicit UTC mapping and information cutoff",
+    "must_have": [
+      "unchanged historical source version and known-by evidence or a separately declared conservative date-level protocol",
+      "event announcement/active rule/calendar known by the prediction cutoff",
+      "historical effective rule version plus holiday and exceptional closure treatment",
+      "correct exchange scope: CFFEX expiry and SSE/SZSE equity observation clocks are separate",
+      "one economic episode ID across instruments, date roles and reposts; correlation retained",
+      "missing/uncertain date returns NULL and abstains, never zero or normal"
+    ],
+    "forbidden": [
+      "derive future remaining observed sessions from future realized stock bars or future suspension status",
+      "use actual-delivery result or later notice version as an earlier advance announcement",
+      "replace first-use time by document signature, URL date, current metadata or fetch time in the past",
+      "turn one monthly date into seven independent events or one dividend into multiple independent episodes",
+      "interpret scheduled dividend payment as personal receipt or mandatory market-wide reinvestment"
+    ]
+  },
+  "next_steps": [
+    "Keep all 67 historical event input gates closed in this run.",
+    "Prioritize historical known-by/rule-effective evidence and correct exchange calendars; collect without reading target outcomes.",
+    "Separate a future predeclared conservative day-level sensitivity study from certified point-in-time use; do not retroactively claim exact first-publication proof.",
+    "Only after input eligibility and candidate protocol freeze may event candidates be evaluated on registered development outcomes."
+  ],
+  "checks": [
+    {
+      "name": "frozen_unified_source_db_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "67_unique_date_role_records_59_episodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "database_payloads_equal_saved_normalized_events",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "database_exposed_event_columns_match_payload",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "expiry_46_months_5_official_41_candidates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "official_evidence_separates_2_advance_3_result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7_rule_sources_no_historical_effective_certification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4_futures_3_index_options_separate_product_types",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three_holiday_roll_candidates_not_upgraded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corporate_11_role_rows_3_episodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "corporate_date_roles_match_original_date_ledger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "personal_cash_receipt_stays_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "policy_10_non_exhaustive_episodes_one_missing_display_date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "67_unknown_first_use_times_no_approval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "33_event_and_rule_references_all_hash_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "16_catalogue_response_files_all_hash_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "312_current_announcement_times_stay_unapproved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "80_provider_clock_revisions_not_certified",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reposts_not_counted_new_episodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_inputs_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_67_countdowns_remain_closed",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "checks_passed": 21,
+  "checks_total": 21,
+  "all_checks_passed": true
+}

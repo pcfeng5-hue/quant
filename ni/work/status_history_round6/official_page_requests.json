@@ -1,0 +1,26 @@
+[
+  {
+    "name": "szse_month_index",
+    "url": "https://www.szse.cn/market/periodical/month/index.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:49:49.763756+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "szse_temp_index",
+    "url": "https://www.szse.cn/disclosure/notice/temp/index.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:49:49.779001+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  },
+  {
+    "name": "szse_month_sample",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250905347571947097.html",
+    "method": "GET",
+    "parameters": {},
+    "retrieved_at": "2026-10-15T18:49:49.779196+00:00",
+    "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))"
+  }
+]

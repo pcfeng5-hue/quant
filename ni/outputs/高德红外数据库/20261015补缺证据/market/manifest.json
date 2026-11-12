@@ -1,0 +1,67 @@
+{
+  "target_end": "2026-10-15",
+  "results": [
+    {
+      "name": "em_daily_0",
+      "kind": "daily_em",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=0&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:26.296015+00:00",
+      "error": null,
+      "sha256": "b230c6ab155089d27d5ee2694fd23bead0cc7e65975f3e7dd510c6ec1f2acf96",
+      "stage_raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/refresh_oct15_market/em_daily_0_b230c6ab155089d2.json",
+      "provider_rows": 914,
+      "min_date": "2023-01-03",
+      "max_date": "2026-10-15"
+    },
+    {
+      "name": "em_daily_1",
+      "kind": "daily_em",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=1&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:26.296226+00:00",
+      "error": null,
+      "sha256": "29658cb23d7ee16da03f2fad8bf633f83592adddc7c74386d354d7a978def9c0",
+      "stage_raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/refresh_oct15_market/em_daily_1_29658cb23d7ee16d.json",
+      "provider_rows": 914,
+      "min_date": "2023-01-03",
+      "max_date": "2026-10-15"
+    },
+    {
+      "name": "em_daily_2",
+      "kind": "daily_em",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002414&klt=101&fqt=2&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:26.296300+00:00",
+      "error": null,
+      "sha256": "2eee88a46a8eacf9ffe7cc26b712d98451e7f902c9ec18ffce0a1612002437e8",
+      "stage_raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/refresh_oct15_market/em_daily_2_2eee88a46a8eacf9.json",
+      "provider_rows": 914,
+      "min_date": "2023-01-03",
+      "max_date": "2026-10-15"
+    },
+    {
+      "name": "index_1.000001",
+      "kind": "index_em",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.000001&klt=101&fqt=0&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:28.261204+00:00",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "name": "index_0.399001",
+      "kind": "index_em",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.399001&klt=101&fqt=0&beg=20230101&end=20261015&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrieved_at": "2026-10-15T17:33:28.262531+00:00",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "name": "tencent_daily_2026",
+      "kind": "daily_tencent",
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002414%2Cday%2C2026-01-01%2C2026-10-15%2C640%2C",
+      "retrieved_at": "2026-10-15T17:33:29.063154+00:00",
+      "error": null,
+      "sha256": "36d50cc53d9174eea5a93a209ee6fe9c1034fa9e05b98cf7e00e7dc57971f6c9",
+      "stage_raw_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/refresh_oct15_market/tencent_daily_2026_36d50cc53d9174ee.json",
+      "provider_rows": 187,
+      "min_date": "2026-01-05",
+      "max_date": "2026-10-15"
+    }
+  ]
+}

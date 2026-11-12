@@ -1,0 +1,340 @@
+{
+  "schema_version": "dividend-events-v1",
+  "built_at_utc": "2026-10-16T00:16:40.502046+00:00",
+  "scope_start": "2023-01-01",
+  "scope_end": "2026-10-15",
+  "read_only_main_database": true,
+  "summary": {
+    "existing_economic_actions": 3,
+    "new_economic_actions": 0,
+    "dated_event_fields": 11,
+    "verified_new_field_types": [
+      "official_delegated_cash_distribution_date",
+      "capital_transfer_account_credit_date",
+      "transferred_unrestricted_shares_first_trading_date"
+    ],
+    "exact_first_publication_times_certified": 0,
+    "user_account_receipts_verified": 0
+  },
+  "controls": [
+    "Dates are event metadata, not proof of predictive effect.",
+    "Mechanical ex-right/ex-dividend adjustments must not be interpreted as market selloff or forecast.",
+    "Use date-specific availability gates before historical feature research.",
+    "Three actions do not certify that every no-distribution year has been independently audited.",
+    "The three cash payment dates equal their ex-dividend dates, so there are 3 overlapping economic action episodes, not 6 independent event samples.",
+    "Capital reserve share transfer is not a cash inflow; a dividend distribution is not proof of secondary-market institutional buying or selling.",
+    "No price, volume or flow event effect has been estimated; 3 existing actions do not establish significant volatility or fund-flow effects."
+  ],
+  "corporate_actions": [
+    {
+      "art_code": "AN202306121590866740",
+      "attributable_period": "2022年度",
+      "report_period_end": "2022-12-31",
+      "implementation_signature_date": "2023-06-12",
+      "provider_implementation_notice_date_candidate": "2023-06-13",
+      "record_date": "2023-06-19",
+      "ex_date": "2023-06-20",
+      "official_delegated_cash_distribution_date": "2023-06-20",
+      "capital_transfer_account_credit_date": "2023-06-20",
+      "transferred_unrestricted_shares_first_trading_date": "2023-06-20",
+      "cash_cny_per_10_shares_gross": "1.3",
+      "transfer_shares_per_10": "3",
+      "symbol": "002414.SZ",
+      "existing_main_database_corporate_action": true,
+      "is_new_economic_action": false,
+      "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202306121590866740_1.pdf",
+      "source_pdf_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "source_notice_title": "高德红外:2022年年度权益分派实施公告",
+      "provider_plan_notice_date_candidate": "2023-04-20",
+      "plan_notice_date_candidate_certified_from_original": false,
+      "official_cash_distribution_scope": "中国结算深圳分公司代派 A 股股东；原件另列两名公司自行派发股东，不将代派日期套用于自派股东",
+      "self_distributed_cash_payment_date": null,
+      "user_account_actual_cash_receipt_date": null,
+      "user_account_actual_cash_receipt_verified": false,
+      "first_publication_timestamp": null,
+      "first_publication_timezone": "Asia/Shanghai",
+      "first_publication_certified": false,
+      "historical_feature_input_eligible": false,
+      "timing_status": "implementation_terms_verified_exact_first_publication_unverified",
+      "amount_basis": "CNY per 10 pre-distribution shares, gross before tax; no personalized tax estimate",
+      "null_transfer_dates_reason": null,
+      "field_evidence": [
+        {
+          "field": "attributable_period",
+          "value": "2022年度",
+          "page_number": 1,
+          "text_quote_compacted": "2022年年度权益分派实施公告",
+          "page_text_sha256": "486e2528dfce9d8b2e5e030f7950f07d0d952fa1b1104ed33165c56d04287009",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "implementation_signature_date",
+          "value": "2023-06-12",
+          "page_number": 3,
+          "text_quote_compacted": "二〇二三年六月十二日",
+          "page_text_sha256": "1836958fe23d779a5fe10426aea2a67d3dc162fe58b0ddf939218a8a827b2ae9",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "record_date",
+          "value": "2023-06-19",
+          "page_number": 2,
+          "text_quote_compacted": "本次权益分派股权登记日为：2023年6月19日",
+          "page_text_sha256": "586dc17e7a00daed9e9cef5af32b084b93386653ce4bc0092fbe0544079a70b3",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "ex_date",
+          "value": "2023-06-20",
+          "page_number": 2,
+          "text_quote_compacted": "除权除息日为：2023年6月20日",
+          "page_text_sha256": "586dc17e7a00daed9e9cef5af32b084b93386653ce4bc0092fbe0544079a70b3",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "official_delegated_cash_distribution_date",
+          "value": "2023-06-20",
+          "page_number": 2,
+          "text_quote_compacted": "本公司此次委托中国结算深圳分公司代派的A股股东现金红利将于2023年6月20日通过股东托管证券公司（或其他托管机构）直接划入其资金账户。",
+          "page_text_sha256": "586dc17e7a00daed9e9cef5af32b084b93386653ce4bc0092fbe0544079a70b3",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "cash_cny_per_10_shares_gross",
+          "value": "1.3",
+          "page_number": 1,
+          "text_quote_compacted": "每10股派1.3元人民币现金",
+          "page_text_sha256": "486e2528dfce9d8b2e5e030f7950f07d0d952fa1b1104ed33165c56d04287009",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "transfer_shares_per_10",
+          "value": "3",
+          "page_number": 1,
+          "text_quote_compacted": "每10股转增3股",
+          "page_text_sha256": "486e2528dfce9d8b2e5e030f7950f07d0d952fa1b1104ed33165c56d04287009",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "capital_transfer_account_credit_date",
+          "value": "2023-06-20",
+          "page_number": 2,
+          "text_quote_compacted": "本次所转股于2023年6月20日直接记入股东证券账户",
+          "page_text_sha256": "586dc17e7a00daed9e9cef5af32b084b93386653ce4bc0092fbe0544079a70b3",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "transferred_unrestricted_shares_first_trading_date",
+          "value": "2023-06-20",
+          "page_number": 3,
+          "text_quote_compacted": "本次所转的无限售条件流通股的起始交易日为2023年6月20日",
+          "page_text_sha256": "1836958fe23d779a5fe10426aea2a67d3dc162fe58b0ddf939218a8a827b2ae9",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        }
+      ],
+      "all_original_pages_reused_and_visually_checked": [
+        1,
+        2,
+        3
+      ],
+      "observation_sha256": "9f3bbcec4839f9e41228bf439a3e6c5ceba50666a9e3d16cea8a001fba94580b"
+    },
+    {
+      "art_code": "AN202405151633180433",
+      "attributable_period": "2023年度",
+      "report_period_end": "2023-12-31",
+      "implementation_signature_date": "2024-05-15",
+      "provider_implementation_notice_date_candidate": "2024-05-16",
+      "record_date": "2024-05-23",
+      "ex_date": "2024-05-24",
+      "official_delegated_cash_distribution_date": "2024-05-24",
+      "capital_transfer_account_credit_date": null,
+      "transferred_unrestricted_shares_first_trading_date": null,
+      "cash_cny_per_10_shares_gross": "0.14",
+      "transfer_shares_per_10": "0",
+      "symbol": "002414.SZ",
+      "existing_main_database_corporate_action": true,
+      "is_new_economic_action": false,
+      "source_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202405151633180433_1.pdf",
+      "source_pdf_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+      "source_notice_title": "高德红外:2023年年度权益分派实施公告",
+      "provider_plan_notice_date_candidate": "2024-04-16",
+      "plan_notice_date_candidate_certified_from_original": false,
+      "official_cash_distribution_scope": "中国结算深圳分公司代派 A 股股东；原件另列两名公司自行派发股东，不将代派日期套用于自派股东",
+      "self_distributed_cash_payment_date": null,
+      "user_account_actual_cash_receipt_date": null,
+      "user_account_actual_cash_receipt_verified": false,
+      "first_publication_timestamp": null,
+      "first_publication_timezone": "Asia/Shanghai",
+      "first_publication_certified": false,
+      "historical_feature_input_eligible": false,
+      "timing_status": "implementation_terms_verified_exact_first_publication_unverified",
+      "amount_basis": "CNY per 10 pre-distribution shares, gross before tax; no personalized tax estimate",
+      "null_transfer_dates_reason": "not_applicable_no_capital_reserve_transfer_in_this_action",
+      "field_evidence": [
+        {
+          "field": "attributable_period",
+          "value": "2023年度",
+          "page_number": 1,
+          "text_quote_compacted": "2023年年度权益分派实施公告",
+          "page_text_sha256": "3ccf9de4136fdf21c0197f3af09379adb19cec828cf93495c7d8c84255c7553b",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "implementation_signature_date",
+          "value": "2024-05-15",
+          "page_number": 3,
+          "text_quote_compacted": "二〇二四年五月十五日",
+          "page_text_sha256": "d2ae69fbaf2e9401679fe21792c94cbe4d88360afdefcde03cc0798406509841",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "record_date",
+          "value": "2024-05-23",
+          "page_number": 2,
+          "text_quote_compacted": "本次权益分派股权登记日为：2024年5月23日",
+          "page_text_sha256": "18bd63b692003320cfbf78fbb67964a2122b5e1500a2522681542d606b277868",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "ex_date",
+          "value": "2024-05-24",
+          "page_number": 2,
+          "text_quote_compacted": "除权除息日为：2024年5月24日",
+          "page_text_sha256": "18bd63b692003320cfbf78fbb67964a2122b5e1500a2522681542d606b277868",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "official_delegated_cash_distribution_date",
+          "value": "2024-05-24",
+          "page_number": 2,
+          "text_quote_compacted": "本公司此次委托中国结算深圳分公司代派的A股股东现金红利将于2024年5月24日通过股东托管证券公司（或其他托管机构）直接划入其资金账户。",
+          "page_text_sha256": "18bd63b692003320cfbf78fbb67964a2122b5e1500a2522681542d606b277868",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "cash_cny_per_10_shares_gross",
+          "value": "0.14",
+          "page_number": 1,
+          "text_quote_compacted": "每10股派0.14元人民币现金",
+          "page_text_sha256": "3ccf9de4136fdf21c0197f3af09379adb19cec828cf93495c7d8c84255c7553b",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "transfer_shares_per_10",
+          "value": "0",
+          "page_number": 1,
+          "text_quote_compacted": "不以资本公积金转增股本",
+          "page_text_sha256": "3ccf9de4136fdf21c0197f3af09379adb19cec828cf93495c7d8c84255c7553b",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        }
+      ],
+      "all_original_pages_reused_and_visually_checked": [
+        1,
+        2,
+        3
+      ],
+      "observation_sha256": "6ab38a0b458eba4fa993bac8353c1f336a9299c36bbc9a2b6b3c94cd64f62563"
+    },
+    {
+      "art_code": "AN202609141829372726",
+      "attributable_period": "2026半年度",
+      "report_period_end": "2026-06-30",
+      "implementation_signature_date": "2026-09-14",
+      "provider_implementation_notice_date_candidate": "2026-09-15",
+      "record_date": "2026-09-21",
+      "ex_date": "2026-09-22",
+      "official_delegated_cash_distribution_date": "2026-09-22",
+      "capital_transfer_account_credit_date": null,
+      "transferred_unrestricted_shares_first_trading_date": null,
+      "cash_cny_per_10_shares_gross": "1",
+      "transfer_shares_per_10": "0",
+      "symbol": "002414.SZ",
+      "existing_main_database_corporate_action": true,
+      "is_new_economic_action": false,
+      "source_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202609141829372726_1.pdf",
+      "source_pdf_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+      "source_notice_title": "高德红外:2026年半年度权益分派实施公告",
+      "provider_plan_notice_date_candidate": "2026-08-26",
+      "plan_notice_date_candidate_certified_from_original": false,
+      "official_cash_distribution_scope": "中国结算深圳分公司代派 A 股股东；原件另列两名公司自行派发股东，不将代派日期套用于自派股东",
+      "self_distributed_cash_payment_date": null,
+      "user_account_actual_cash_receipt_date": null,
+      "user_account_actual_cash_receipt_verified": false,
+      "first_publication_timestamp": null,
+      "first_publication_timezone": "Asia/Shanghai",
+      "first_publication_certified": false,
+      "historical_feature_input_eligible": false,
+      "timing_status": "implementation_terms_verified_exact_first_publication_unverified",
+      "amount_basis": "CNY per 10 pre-distribution shares, gross before tax; no personalized tax estimate",
+      "null_transfer_dates_reason": "not_applicable_no_capital_reserve_transfer_in_this_action",
+      "field_evidence": [
+        {
+          "field": "attributable_period",
+          "value": "2026半年度",
+          "page_number": 1,
+          "text_quote_compacted": "2026年半年度权益分派实施公告",
+          "page_text_sha256": "c21b64cc093f51472d182c7c90c9493668e62739694d3126b37d8b9206d958f1",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "implementation_signature_date",
+          "value": "2026-09-14",
+          "page_number": 3,
+          "text_quote_compacted": "二〇二六年九月十四日",
+          "page_text_sha256": "525f2287423537fe9ce083f31798224e96cf5751e3fbe736a744fd2c9c84af46",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "record_date",
+          "value": "2026-09-21",
+          "page_number": 2,
+          "text_quote_compacted": "本次权益分派股权登记日为：2026年9月21日",
+          "page_text_sha256": "878167b99237c6b3c30afc66eb541637c34e1d8bd739892ea7d5c92f91deec93",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "ex_date",
+          "value": "2026-09-22",
+          "page_number": 2,
+          "text_quote_compacted": "除权除息日为：2026年9月22日",
+          "page_text_sha256": "878167b99237c6b3c30afc66eb541637c34e1d8bd739892ea7d5c92f91deec93",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "official_delegated_cash_distribution_date",
+          "value": "2026-09-22",
+          "page_number": 2,
+          "text_quote_compacted": "本公司此次委托中国结算深圳分公司代派的A股股东现金红利将于2026年9月22日通过股东托管证券公司（或其他托管机构）直接划入其资金账户。",
+          "page_text_sha256": "878167b99237c6b3c30afc66eb541637c34e1d8bd739892ea7d5c92f91deec93",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "cash_cny_per_10_shares_gross",
+          "value": "1",
+          "page_number": 2,
+          "text_quote_compacted": "每10股派1元人民币现金",
+          "page_text_sha256": "878167b99237c6b3c30afc66eb541637c34e1d8bd739892ea7d5c92f91deec93",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        },
+        {
+          "field": "transfer_shares_per_10",
+          "value": "0",
+          "page_number": 1,
+          "text_quote_compacted": "不以资本公积金转增股本",
+          "page_text_sha256": "c21b64cc093f51472d182c7c90c9493668e62739694d3126b37d8b9206d958f1",
+          "verification_scope": "original_text_and_rendered_page_checked"
+        }
+      ],
+      "all_original_pages_reused_and_visually_checked": [
+        1,
+        2,
+        3
+      ],
+      "observation_sha256": "e683e23492b2244b26723b4a2e407f75eb2a80dfc47366b7561d02919b96c186"
+    }
+  ]
+}

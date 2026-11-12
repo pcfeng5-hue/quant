@@ -1,0 +1,18 @@
+{
+  "configured_client_date": "2026-10-28",
+  "timezone": "America/Toronto",
+  "last_verified_research_state": "outputs/研究证据与覆盖审查_20261101/本轮状态与续作断点.json",
+  "last_verified_research_report": "outputs/研究证据与覆盖审查_20261101/研究证据与覆盖审查_v1.md",
+  "research_stage": 5,
+  "research_variants_so_far": 16,
+  "nightly_batches_completed_since_setup": 0,
+  "setup_is_not_research_completion": true,
+  "next_action": "Complete only the prediction-question and label-suitability review using existing definitions and synthetic examples; no new real outcome generation or score search; keep all previous negative results and 16 variants; do not run a new candidate",
+  "prepared_unscored_candidate_definitions": 14,
+  "latest_batch_origin": "direct_human_request",
+  "latest_batch_client_date": "2026-11-01",
+  "prepared_candidate_definitions": 15,
+  "prepared_definitions_scored": 1,
+  "review_package_steps_completed": 1,
+  "review_package_steps_remaining": 3
+}

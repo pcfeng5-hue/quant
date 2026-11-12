@@ -1,0 +1,317 @@
+[
+  {
+    "symbol": "002414.SZ",
+    "art_code": "AN202306121590866740",
+    "attributable_period": "2022年度",
+    "report_period_end": "2022-12-31",
+    "implementation_signature_date": "2023-06-12",
+    "record_date": "2023-06-19",
+    "ex_date": "2023-06-20",
+    "official_delegated_cash_distribution_date": "2023-06-20",
+    "capital_transfer_account_credit_date": "2023-06-20",
+    "transferred_unrestricted_shares_first_trading_date": "2023-06-20",
+    "cash_cny_per_10_shares_gross": "1.3",
+    "transfer_shares_per_10": "3",
+    "event_id": "002414.SZ_distribution_20230620",
+    "event_type": "cash_dividend_and_capital_reserve_transfer",
+    "economic_event_already_in_main_database": true,
+    "is_new_economic_event": false,
+    "first_publication_timestamp": null,
+    "historical_feature_input_eligible": false,
+    "trade_settlement_or_personal_receipt_verified": false,
+    "user_actual_cash_receipt_date": null,
+    "self_distributed_holder_payment_date": null,
+    "self_distributed_holders": [
+      "武汉市高德电气有限公司",
+      "黄立"
+    ],
+    "official_delegated_payment_scope": "中国结算深圳分公司代派 A 股股东；原件另列两名公司自行派发股东，不将代派日期套用于自派股东",
+    "field_evidence": [
+      {
+        "evidence_id": "AN202306121590866740:1",
+        "field": "attributable_period",
+        "quote_compacted": "2022年年度权益分派实施公告"
+      },
+      {
+        "evidence_id": "AN202306121590866740:3",
+        "field": "implementation_signature_date",
+        "quote_compacted": "二〇二三年六月十二日"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "record_date",
+        "quote_compacted": "本次权益分派股权登记日为：2023年6月19日"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "ex_date",
+        "quote_compacted": "除权除息日为：2023年6月20日"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "official_delegated_cash_distribution_date",
+        "quote_compacted": "本公司此次委托中国结算深圳分公司代派的A股股东现金红利将于2023年6月20日通过股东托管证券公司（或其他托管机构）直接划入其资金账户。"
+      },
+      {
+        "evidence_id": "AN202306121590866740:1",
+        "field": "cash_cny_per_10_shares_gross",
+        "quote_compacted": "每10股派1.3元人民币现金"
+      },
+      {
+        "evidence_id": "AN202306121590866740:1",
+        "field": "transfer_shares_per_10",
+        "quote_compacted": "每10股转增3股"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "capital_transfer_account_credit_date",
+        "quote_compacted": "本次所转股于2023年6月20日直接记入股东证券账户"
+      },
+      {
+        "evidence_id": "AN202306121590866740:3",
+        "field": "transferred_unrestricted_shares_first_trading_date",
+        "quote_compacted": "本次所转的无限售条件流通股的起始交易日为2023年6月20日"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "disclosed_tax_term_0.26",
+        "quote_compacted": "每10股补缴税款0.26元"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "disclosed_tax_term_0.13",
+        "quote_compacted": "每10股补缴税款0.13元"
+      },
+      {
+        "evidence_id": "AN202306121590866740:2",
+        "field": "tax_holding_period_unit",
+        "quote_compacted": "以投资者证券账户为单位计算持股期限"
+      },
+      {
+        "evidence_id": "AN202306121590866740:3",
+        "field": "disclosed_integer_added_shares",
+        "quote_compacted": "985554486"
+      },
+      {
+        "evidence_id": "AN202306121590866740:3",
+        "field": "implementation_structure_final_registration_caveat",
+        "quote_compacted": "最终股本变动情况以中国结算深圳分公司登记的股本结构为准"
+      },
+      {
+        "evidence_id": "AN202404151630235965:79",
+        "field": "subsequent_completion_confirmation_page_start",
+        "quote_compacted": "公司已于2023年6月20日实施完毕权益分派"
+      },
+      {
+        "evidence_id": "AN202404151630235965:80",
+        "field": "subsequent_completion_confirmation_page_continuation",
+        "quote_compacted": "方案具体内容详见巨潮资讯网"
+      }
+    ],
+    "disclosed_tax_terms": {
+      "scope": "公告所列首发后限售股、股权激励限售股及无限售股个人股东；仅记录原件条件，不认证用户税务身份或未来适用性",
+      "holding_period_basis": "FIFO_by_securities_account",
+      "initial_personal_tax_withholding": "暂不扣缴；转让时按持有期限补税",
+      "holding_up_to_1_month_additional_tax_cny_per_10": "0.26",
+      "holding_over_1_month_up_to_1_year_additional_tax_cny_per_10": "0.13",
+      "holding_over_1_year_additional_tax": "原件写不需补缴税款",
+      "user_applicable_treatment": null
+    },
+    "total_shares_before": 3285181622,
+    "total_shares_after": 4270736108,
+    "actual_added_shares": 985554486,
+    "capital_change_effective_date": "2023-06-20",
+    "capital_change_effective_date_role": "announcement_scheduled_account_credit_and_listed_unrestricted_transfer_trading_start_confirmed_implemented_in_subsequent_report",
+    "source_id": "AN202306121590866740"
+  },
+  {
+    "symbol": "002414.SZ",
+    "art_code": "AN202405151633180433",
+    "attributable_period": "2023年度",
+    "report_period_end": "2023-12-31",
+    "implementation_signature_date": "2024-05-15",
+    "record_date": "2024-05-23",
+    "ex_date": "2024-05-24",
+    "official_delegated_cash_distribution_date": "2024-05-24",
+    "capital_transfer_account_credit_date": null,
+    "transferred_unrestricted_shares_first_trading_date": null,
+    "cash_cny_per_10_shares_gross": "0.14",
+    "transfer_shares_per_10": "0",
+    "event_id": "002414.SZ_distribution_20240524",
+    "event_type": "cash_dividend",
+    "economic_event_already_in_main_database": true,
+    "is_new_economic_event": false,
+    "first_publication_timestamp": null,
+    "historical_feature_input_eligible": false,
+    "trade_settlement_or_personal_receipt_verified": false,
+    "user_actual_cash_receipt_date": null,
+    "self_distributed_holder_payment_date": null,
+    "self_distributed_holders": [
+      "武汉市高德电气有限公司",
+      "黄立"
+    ],
+    "official_delegated_payment_scope": "中国结算深圳分公司代派 A 股股东；原件另列两名公司自行派发股东，不将代派日期套用于自派股东",
+    "field_evidence": [
+      {
+        "evidence_id": "AN202405151633180433:1",
+        "field": "attributable_period",
+        "quote_compacted": "2023年年度权益分派实施公告"
+      },
+      {
+        "evidence_id": "AN202405151633180433:3",
+        "field": "implementation_signature_date",
+        "quote_compacted": "二〇二四年五月十五日"
+      },
+      {
+        "evidence_id": "AN202405151633180433:2",
+        "field": "record_date",
+        "quote_compacted": "本次权益分派股权登记日为：2024年5月23日"
+      },
+      {
+        "evidence_id": "AN202405151633180433:2",
+        "field": "ex_date",
+        "quote_compacted": "除权除息日为：2024年5月24日"
+      },
+      {
+        "evidence_id": "AN202405151633180433:2",
+        "field": "official_delegated_cash_distribution_date",
+        "quote_compacted": "本公司此次委托中国结算深圳分公司代派的A股股东现金红利将于2024年5月24日通过股东托管证券公司（或其他托管机构）直接划入其资金账户。"
+      },
+      {
+        "evidence_id": "AN202405151633180433:1",
+        "field": "cash_cny_per_10_shares_gross",
+        "quote_compacted": "每10股派0.14元人民币现金"
+      },
+      {
+        "evidence_id": "AN202405151633180433:1",
+        "field": "transfer_shares_per_10",
+        "quote_compacted": "不以资本公积金转增股本"
+      },
+      {
+        "evidence_id": "AN202405151633180433:2",
+        "field": "disclosed_tax_term_0.028",
+        "quote_compacted": "每10股补缴税款0.028元"
+      },
+      {
+        "evidence_id": "AN202405151633180433:2",
+        "field": "disclosed_tax_term_0.014",
+        "quote_compacted": "每10股补缴税款0.014元"
+      },
+      {
+        "evidence_id": "AN202405151633180433:2",
+        "field": "tax_holding_period_unit",
+        "quote_compacted": "以投资者证券账户为单位计算持股期限"
+      }
+    ],
+    "disclosed_tax_terms": {
+      "scope": "公告所列首发后限售股、股权激励限售股及无限售股个人股东；仅记录原件条件，不认证用户税务身份或未来适用性",
+      "holding_period_basis": "FIFO_by_securities_account",
+      "initial_personal_tax_withholding": "暂不扣缴；转让时按持有期限补税",
+      "holding_up_to_1_month_additional_tax_cny_per_10": "0.028",
+      "holding_over_1_month_up_to_1_year_additional_tax_cny_per_10": "0.014",
+      "holding_over_1_year_additional_tax": "原件写不需补缴税款",
+      "user_applicable_treatment": null
+    },
+    "total_shares_before": 4270736108,
+    "total_shares_after": 4270736108,
+    "actual_added_shares": 0,
+    "capital_change_effective_date": null,
+    "capital_change_effective_date_role": "not_applicable_no_transfer_or_bonus_shares",
+    "source_id": "AN202405151633180433"
+  },
+  {
+    "symbol": "002414.SZ",
+    "art_code": "AN202609141829372726",
+    "attributable_period": "2026半年度",
+    "report_period_end": "2026-06-30",
+    "implementation_signature_date": "2026-09-14",
+    "record_date": "2026-09-21",
+    "ex_date": "2026-09-22",
+    "official_delegated_cash_distribution_date": "2026-09-22",
+    "capital_transfer_account_credit_date": null,
+    "transferred_unrestricted_shares_first_trading_date": null,
+    "cash_cny_per_10_shares_gross": "1",
+    "transfer_shares_per_10": "0",
+    "event_id": "002414.SZ_distribution_20260922",
+    "event_type": "cash_dividend",
+    "economic_event_already_in_main_database": true,
+    "is_new_economic_event": false,
+    "first_publication_timestamp": null,
+    "historical_feature_input_eligible": false,
+    "trade_settlement_or_personal_receipt_verified": false,
+    "user_actual_cash_receipt_date": null,
+    "self_distributed_holder_payment_date": null,
+    "self_distributed_holders": [
+      "武汉市高德电气有限公司",
+      "黄立"
+    ],
+    "official_delegated_payment_scope": "中国结算深圳分公司代派 A 股股东；原件另列两名公司自行派发股东，不将代派日期套用于自派股东",
+    "field_evidence": [
+      {
+        "evidence_id": "AN202609141829372726:1",
+        "field": "attributable_period",
+        "quote_compacted": "2026年半年度权益分派实施公告"
+      },
+      {
+        "evidence_id": "AN202609141829372726:3",
+        "field": "implementation_signature_date",
+        "quote_compacted": "二〇二六年九月十四日"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "record_date",
+        "quote_compacted": "本次权益分派股权登记日为：2026年9月21日"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "ex_date",
+        "quote_compacted": "除权除息日为：2026年9月22日"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "official_delegated_cash_distribution_date",
+        "quote_compacted": "本公司此次委托中国结算深圳分公司代派的A股股东现金红利将于2026年9月22日通过股东托管证券公司（或其他托管机构）直接划入其资金账户。"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "cash_cny_per_10_shares_gross",
+        "quote_compacted": "每10股派1元人民币现金"
+      },
+      {
+        "evidence_id": "AN202609141829372726:1",
+        "field": "transfer_shares_per_10",
+        "quote_compacted": "不以资本公积金转增股本"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "disclosed_tax_term_0.2",
+        "quote_compacted": "每10股补缴税款0.2元"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "disclosed_tax_term_0.1",
+        "quote_compacted": "每10股补缴税款0.1元"
+      },
+      {
+        "evidence_id": "AN202609141829372726:2",
+        "field": "tax_holding_period_unit",
+        "quote_compacted": "以投资者证券账户为单位计算持股期限"
+      }
+    ],
+    "disclosed_tax_terms": {
+      "scope": "公告所列首发后限售股、股权激励限售股及无限售股个人股东；仅记录原件条件，不认证用户税务身份或未来适用性",
+      "holding_period_basis": "FIFO_by_securities_account",
+      "initial_personal_tax_withholding": "暂不扣缴；转让时按持有期限补税",
+      "holding_up_to_1_month_additional_tax_cny_per_10": "0.2",
+      "holding_over_1_month_up_to_1_year_additional_tax_cny_per_10": "0.1",
+      "holding_over_1_year_additional_tax": "原件写不需补缴税款",
+      "user_applicable_treatment": null
+    },
+    "total_shares_before": 4270736108,
+    "total_shares_after": 4270736108,
+    "actual_added_shares": 0,
+    "capital_change_effective_date": null,
+    "capital_change_effective_date_role": "not_applicable_no_transfer_or_bonus_shares",
+    "source_id": "AN202609141829372726"
+  }
+]

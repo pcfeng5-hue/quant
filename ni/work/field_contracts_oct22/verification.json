@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "name": "unique_group_ids",
+      "passed": true
+    },
+    {
+      "name": "unique_field_names_within_groups",
+      "passed": true
+    },
+    {
+      "name": "all_fields_have_types_units_aliases_and_null_rules",
+      "passed": true
+    },
+    {
+      "name": "no_group_released_for_historical_prediction",
+      "passed": true
+    },
+    {
+      "name": "missing_reason_codes_unique",
+      "passed": true
+    },
+    {
+      "name": "amount_exception_count_from_daily_comparison",
+      "passed": true,
+      "observed": {
+        "warmup_2022": 6,
+        "research_2023_onward": 2
+      }
+    },
+    {
+      "name": "main_database_unchanged",
+      "passed": true,
+      "sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749"
+    },
+    {
+      "name": "all_915_conditions_not_certified_normal_without_claiming_abnormal",
+      "passed": true
+    },
+    {
+      "name": "no_existing_evidence_file_write_operations",
+      "passed": true,
+      "basis": "Builder writes only its OUT directory; all other access uses read_text/read_bytes/sqlite mode=ro."
+    }
+  ],
+  "passed": 9,
+  "total": 9,
+  "verification_scope": "Contract consistency and targeted source facts, not a complete economic-data certification."
+}

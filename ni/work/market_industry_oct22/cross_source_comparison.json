@@ -1,0 +1,77 @@
+[
+  {
+    "symbol": "000001.SH",
+    "name": "上证指数",
+    "adjustment": "0",
+    "overlap": 1160,
+    "matching_ohlcv_dates": 1082,
+    "price_difference_dates": 1,
+    "volume_difference_dates": 77,
+    "field_differences": {
+      "volume_raw": 77,
+      "close": 1
+    },
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+  },
+  {
+    "symbol": "399001.SZ",
+    "name": "深证成指",
+    "adjustment": "0",
+    "overlap": 1160,
+    "matching_ohlcv_dates": 869,
+    "price_difference_dates": 1,
+    "volume_difference_dates": 291,
+    "field_differences": {
+      "volume_raw": 291,
+      "high": 1
+    },
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+  },
+  {
+    "symbol": "399967.SZ",
+    "name": "中证军工",
+    "adjustment": "0",
+    "overlap": 1160,
+    "matching_ohlcv_dates": 1151,
+    "price_difference_dates": 3,
+    "volume_difference_dates": 6,
+    "field_differences": {
+      "volume_raw": 6,
+      "high": 2,
+      "open": 1
+    },
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+  },
+  {
+    "symbol": "002414.SZ",
+    "name": "高德红外",
+    "adjustment": "0",
+    "overlap": 1160,
+    "matching_ohlcv_dates": 1160,
+    "price_difference_dates": 0,
+    "volume_difference_dates": 0,
+    "field_differences": {},
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+  },
+  {
+    "symbol": "002414.SZ",
+    "name": "高德红外",
+    "adjustment": "1",
+    "overlap": 1160,
+    "matching_ohlcv_dates": 1160,
+    "price_difference_dates": 0,
+    "volume_difference_dates": 0,
+    "field_differences": {},
+    "only_eastmoney": [],
+    "only_tencent": [],
+    "interpretation": "Preserve both providers; differences unadjudicated. Different endpoints do not prove independent upstream feeds."
+  }
+]

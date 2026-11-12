@@ -1,0 +1,90 @@
+[
+  {
+    "decision_id": "002414.SZ_no_distribution_2024",
+    "symbol": "002414.SZ",
+    "attributable_period": "2024年度",
+    "event_type": "annual_no_distribution_decision",
+    "proposal_board_meeting_date": "2025-04-24",
+    "shareholder_approval_date": "2025-05-20",
+    "cash_dividend_cny_per_10_shares": "0",
+    "capital_reserve_transfer_shares_per_10": "0",
+    "bonus_shares_per_10": "0",
+    "record_date": null,
+    "ex_date": null,
+    "payment_date": null,
+    "no_ex_or_payment_date_reason": "not_applicable_approved_no_distribution_plan",
+    "scope": "只认证本年度利润分配议案及其最终审议，不推断该自然年所有中期或特别分配均不存在",
+    "proposal_source_id": "AN202504241661802971",
+    "approval_source_id": "AN202505201676081145",
+    "official_approval_directory_date": "2025-05-21",
+    "exact_first_publication_timestamp": null,
+    "historical_feature_input_eligible": false,
+    "is_cash_or_share_distribution_event": false,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202504241661802971:1",
+        "field": "non_distribution_proposal",
+        "quote_compacted": "不派发现金红利、不进行资本公积金转增股本、不送红股"
+      },
+      {
+        "evidence_id": "AN202505201676081145:4",
+        "field": "non_distribution_shareholder_approval",
+        "quote_compacted": "不派发现金红利、不进行资本公积金转增股本、不送红股"
+      },
+      {
+        "evidence_id": "AN202504241661802971:1",
+        "field": "proposal_board_meeting_date",
+        "quote_compacted": "2025年4月24日召开"
+      },
+      {
+        "evidence_id": "AN202505201676081145:1",
+        "field": "shareholder_meeting_date",
+        "quote_compacted": "现场会议：2025年5月20日"
+      }
+    ]
+  },
+  {
+    "decision_id": "002414.SZ_no_distribution_2025",
+    "symbol": "002414.SZ",
+    "attributable_period": "2025年度",
+    "event_type": "annual_no_distribution_decision",
+    "proposal_board_meeting_date": "2026-04-14",
+    "shareholder_approval_date": "2026-05-08",
+    "cash_dividend_cny_per_10_shares": "0",
+    "capital_reserve_transfer_shares_per_10": "0",
+    "bonus_shares_per_10": "0",
+    "record_date": null,
+    "ex_date": null,
+    "payment_date": null,
+    "no_ex_or_payment_date_reason": "not_applicable_approved_no_distribution_plan",
+    "scope": "只认证本年度利润分配议案及其最终审议，不推断该自然年所有中期或特别分配均不存在",
+    "proposal_source_id": "AN202604141821191382",
+    "approval_source_id": "AN202605081822079377",
+    "official_approval_directory_date": "2026-05-09",
+    "exact_first_publication_timestamp": null,
+    "historical_feature_input_eligible": false,
+    "is_cash_or_share_distribution_event": false,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202604141821191382:1",
+        "field": "non_distribution_proposal",
+        "quote_compacted": "不派发现金红利、不进行资本公积金转增股本、不送红股"
+      },
+      {
+        "evidence_id": "AN202605081822079377:3",
+        "field": "non_distribution_shareholder_approval",
+        "quote_compacted": "不派发现金红利、不进行资本公积金转增股本、不送红股"
+      },
+      {
+        "evidence_id": "AN202604141821191382:1",
+        "field": "proposal_board_meeting_date",
+        "quote_compacted": "2026年4月14日召开"
+      },
+      {
+        "evidence_id": "AN202605081822079377:1",
+        "field": "shareholder_meeting_date",
+        "quote_compacted": "现场会议：2026年5月8日"
+      }
+    ]
+  }
+]

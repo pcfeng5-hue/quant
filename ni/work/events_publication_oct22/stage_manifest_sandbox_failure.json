@@ -1,0 +1,156 @@
+{
+  "requested_start": "2023-01-01",
+  "requested_end": "2026-10-22",
+  "symbol": "002414.SZ",
+  "created_at": "2026-10-22T16:20:27.290172+00:00",
+  "main_database_read_only": true,
+  "results": [
+    {
+      "name": "announcements",
+      "kind": "announcements",
+      "url": "https://np-anotice-stock.eastmoney.com/api/security/ann?stock_list=002414&page_size=100&page_index=1&ann_type=A&begin_time=2023-01-01&end_time=2026-10-22",
+      "request_url": "https://np-anotice-stock.eastmoney.com/api/security/ann",
+      "method": "GET",
+      "parameters": {
+        "stock_list": "002414",
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "begin_time": "2023-01-01",
+        "end_time": "2026-10-22"
+      },
+      "retrieved_at": "2026-10-22T16:20:27.290374+00:00",
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "records": [],
+      "provider_rows": 0,
+      "date_key": "notice_date",
+      "availability_status": "unverified_historical_availability",
+      "source_requests": {
+        "method": "GET",
+        "parameters_json": "{\"ann_type\": \"A\", \"begin_time\": \"2023-01-01\", \"end_time\": \"2026-10-22\", \"page_index\": 1, \"page_size\": 100, \"stock_list\": \"002414\"}"
+      }
+    },
+    {
+      "name": "cninfo_announcements_page1",
+      "kind": "cninfo_announcements",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "request_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "method": "POST",
+      "parameters": {
+        "pageNum": 1,
+        "pageSize": 30,
+        "column": "szse",
+        "tabName": "fulltext",
+        "stock": "002414,9900012687",
+        "searchkey": "",
+        "secid": "",
+        "plate": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2023-01-01~2026-10-22",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      },
+      "retrieved_at": "2026-10-22T16:20:27.327617+00:00",
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "records": [],
+      "provider_rows": 0,
+      "date_key": "announcementTime",
+      "availability_status": "provider_announcement_date_not_first_public_timestamp",
+      "source_requests": {
+        "method": "POST",
+        "parameters_json": "{\"category\": \"\", \"column\": \"szse\", \"isHLtitle\": \"true\", \"pageNum\": 1, \"pageSize\": 30, \"plate\": \"\", \"seDate\": \"2023-01-01~2026-10-22\", \"searchkey\": \"\", \"secid\": \"\", \"sortName\": \"\", \"sortType\": \"\", \"stock\": \"002414,9900012687\", \"tabName\": \"fulltext\", \"trade\": \"\"}"
+      }
+    },
+    {
+      "name": "cninfo_ir_page1",
+      "kind": "cninfo_announcements",
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "request_url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "method": "POST",
+      "parameters": {
+        "pageNum": 1,
+        "pageSize": 30,
+        "column": "szse",
+        "tabName": "relation",
+        "stock": "002414,9900012687",
+        "searchkey": "",
+        "secid": "",
+        "plate": "",
+        "category": "",
+        "trade": "",
+        "seDate": "2023-01-01~2026-10-22",
+        "sortName": "",
+        "sortType": "",
+        "isHLtitle": "true"
+      },
+      "retrieved_at": "2026-10-22T16:20:27.330047+00:00",
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "records": [],
+      "provider_rows": 0,
+      "date_key": "announcementTime",
+      "availability_status": "provider_announcement_date_not_first_public_timestamp",
+      "source_requests": {
+        "method": "POST",
+        "parameters_json": "{\"category\": \"\", \"column\": \"szse\", \"isHLtitle\": \"true\", \"pageNum\": 1, \"pageSize\": 30, \"plate\": \"\", \"seDate\": \"2023-01-01~2026-10-22\", \"searchkey\": \"\", \"secid\": \"\", \"sortName\": \"\", \"sortType\": \"\", \"stock\": \"002414,9900012687\", \"tabName\": \"relation\", \"trade\": \"\"}"
+      }
+    }
+  ],
+  "catalogues": {
+    "eastmoney": {
+      "provider_total": null,
+      "pages_requested": 1,
+      "complete": false,
+      "reason": "missing_or_invalid_provider_total",
+      "raw_rows": 0,
+      "unique_rows": 0,
+      "old_unique_rows": 312,
+      "new_ids": [],
+      "missing_ids": [],
+      "changed_row_ids": [],
+      "materially_changed_ids": [],
+      "actual_min_date": null,
+      "actual_max_date": null,
+      "records": []
+    },
+    "cninfo_fulltext": {
+      "provider_total": null,
+      "pages_requested": 1,
+      "complete": false,
+      "reason": "missing_or_invalid_provider_total",
+      "raw_rows": 0,
+      "unique_rows": 0,
+      "old_unique_rows": 308,
+      "new_ids": [],
+      "missing_ids": [],
+      "changed_row_ids": [],
+      "materially_changed_ids": [],
+      "actual_min_date": null,
+      "actual_max_date": null,
+      "records": []
+    },
+    "cninfo_ir": {
+      "provider_total": null,
+      "pages_requested": 1,
+      "complete": false,
+      "reason": "missing_or_invalid_provider_total",
+      "raw_rows": 0,
+      "unique_rows": 0,
+      "old_unique_rows": 4,
+      "new_ids": [],
+      "missing_ids": [],
+      "changed_row_ids": [],
+      "materially_changed_ids": [],
+      "actual_min_date": null,
+      "actual_max_date": null,
+      "records": []
+    }
+  },
+  "new_documents": [],
+  "notes": [
+    "Directory retrieval time and provider announcement dates do not certify earliest historical public availability.",
+    "Empty or failed responses cannot certify absence."
+  ],
+  "finished_at": "2026-10-22T16:20:27.332233+00:00"
+}

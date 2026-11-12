@@ -1,0 +1,132 @@
+{
+  "audit_id": "baseline_design_audit_oct25_independent_source_review",
+  "reviewer": "Independent delegated code and source review / 独立代码来源复核",
+  "method": "Read-only source/output inspection; independent 60-digit Decimal indicator recurrence, rational price labels, independent signal/statistic reconstruction; production functions not imported or called.",
+  "checks": [
+    {
+      "check": "independent_decimal_all_features",
+      "passed": true,
+      "detail": {
+        "dates": 1160,
+        "mismatches": [],
+        "maximum_absolute_error": {
+          "ma5": 3.552713678800501e-15,
+          "ma10": 3.552713678800501e-15,
+          "ma15": 3.552713678800501e-15,
+          "macd_dif": 6.328271240363392e-15,
+          "macd_dea": 3.2751579226442118e-15,
+          "macd_hist2": 7.716050021144838e-15,
+          "kdj_rsv": 3.836930773104541e-13,
+          "kdj_k": 1.2789769243681803e-13,
+          "kdj_d": 8.526512829121202e-14,
+          "kdj_j": 2.7000623958883807e-13,
+          "volume_ratio_prev5": 8.881784197001252e-16,
+          "volume_ratio_prev20": 1.7763568394002505e-15,
+          "turnover_ratio_prev5": 8.881784197001252e-16,
+          "close_change_prev": 2.185751579730777e-16
+        }
+      }
+    },
+    {
+      "check": "independent_decimal_all_signals",
+      "passed": true,
+      "detail": {
+        "signal_rows": 1160,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_fraction_all_labels",
+      "passed": true,
+      "detail": {
+        "outcome_count": 469,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "independent_exclusion_accounting",
+      "passed": true,
+      "detail": {
+        "exclusion_count": 15,
+        "counts": {
+          "KNOWN_EX_DATE_WITHIN_PRICE_WINDOW": 10,
+          "OUTCOME_END_CROSSES_DEVELOPMENT_BOUNDARY": 5
+        }
+      }
+    },
+    {
+      "check": "all_outcome_values_within_development",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_outcome_guards_before_arithmetic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "independent_all_descriptive_statistics",
+      "passed": true,
+      "detail": {
+        "rows": 13,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "fixed_order_12_registered_signals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fixed_grid_windows_do_not_overlap",
+      "passed": true,
+      "detail": {
+        "windows": 94,
+        "phase": "first development anchor then index step 5"
+      }
+    },
+    {
+      "check": "feature_label_physical_tables_separate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_formal_release_gates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_hashes_match_recorded_pre_run",
+      "passed": true,
+      "detail": {
+        "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+        "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+        "outputs/首版预测协议草案_20261016.json": "f9035be2c22e906eebd6a04f1563021284f18d377450b4b10e0590a4639183ee"
+      }
+    },
+    {
+      "check": "protocol_still_draft_pending_freeze_null",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "warmup_count_matches_contract",
+      "passed": true,
+      "detail": {
+        "available": 242,
+        "used": 146
+      }
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "blocking_findings": [],
+  "known_limitations": [
+    "No historical PIT certification, ST/suspension/limit or fill/fee certification created by this audit.",
+    "Fixed grid prevents shared five-session labels but does not establish independence.",
+    "MACD crossing sample counts are 8/9 with fixed-grid counts 1/2; frequencies must remain descriptive.",
+    "Structural tests are not model validation or probability calibration."
+  ],
+  "producer_code_sha256": "6ed8de76c51ee02ac349fc66b5f6a6c328589782cdd9d62541d41032fb41b164",
+  "contract_sha256": "7bde2c3870105e2b3995efe4fb4aa90511d43069477c959522bfeecd55128092"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "rule_id": "SZSE_2021_SELECTED_A_SHARE_PROVISIONS",
+    "published_date": "2021-03-31",
+    "effective_date": "2021-04-06",
+    "research_period_from": "2023-01-03",
+    "research_period_to": "2023-04-07",
+    "evidence": "rules_2021_pdf original pp6,10-12,25,38",
+    "normal_mainboard_limit_pct": 10,
+    "mainboard_st_limit_pct": 5,
+    "buy_lot": 100,
+    "price_tick_cny": 0.01,
+    "same_day_newly_bought_shares_resale": false,
+    "status": "selected_provisions_checked_not_complete_rule_change_audit",
+    "caveat": "其他修订和暂缓条文不能仅由该基线推定；本表仅选用普通主板A股的基础限制"
+  },
+  {
+    "rule_id": "SZSE_2023",
+    "published_date": "2023-02-17",
+    "effective_date": "2023-04-10",
+    "research_period_from": "2023-04-10",
+    "research_period_to": "2026-07-03",
+    "evidence": "官方发布通知（检索响应）+首批主板注册制上市日（已下载官方网页）+官方2023年大事记检索；2023规则PDF只取得检索内容，原件下载失败",
+    "normal_mainboard_limit_pct": 10,
+    "mainboard_st_limit_pct": 5,
+    "buy_lot": 100,
+    "price_tick_cny": 0.01,
+    "same_day_newly_bought_shares_resale": false,
+    "status": "effective_date_cross_checked_2023_original_pdf_missing",
+    "caveat": "2023文本原件及2023-2026中间修订完整链仍待补核；不是将现行规则回填全历史"
+  },
+  {
+    "rule_id": "SZSE_2026",
+    "published_date": "2026-04-24",
+    "effective_date": "2026-07-06",
+    "research_period_from": "2026-07-06",
+    "research_period_to": "2026-10-16",
+    "evidence": "rules_2026_notice_retry original + rules_2026_pdf original pp7-8,12-14,26-27",
+    "normal_mainboard_limit_pct": 10,
+    "mainboard_st_limit_pct": 10,
+    "buy_lot": 100,
+    "price_tick_cny": 0.01,
+    "same_day_newly_bought_shares_resale": false,
+    "status": "selected_provisions_original_checked",
+    "caveat": "2026原文3.3.13统一主板10%，不再沿用旧4.5.5的ST5%；用户禁入ST规则保持不变"
+  }
+]

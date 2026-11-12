@@ -1,0 +1,266 @@
+[
+  {
+    "observation_id": "002414.SZ_capital_period_2022-12-31",
+    "symbol": "002414.SZ",
+    "period_end": "2022-12-31",
+    "total_shares": 3285181622,
+    "limited_shares": 671309264,
+    "unlimited_shares": 2613872358,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "baseline_before_requested_range",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202304191585591293",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202304191585591293:77",
+        "field": "total_shares",
+        "quote_compacted": "3285181622"
+      },
+      {
+        "evidence_id": "AN202304191585591293:77",
+        "field": "limited_shares",
+        "quote_compacted": "671309264"
+      },
+      {
+        "evidence_id": "AN202304191585591293:77",
+        "field": "unlimited_shares",
+        "quote_compacted": "2613872358"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2023-06-30",
+    "symbol": "002414.SZ",
+    "period_end": "2023-06-30",
+    "total_shares": 4270736108,
+    "limited_shares": 872689371,
+    "unlimited_shares": 3398046737,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "matches_existing_provider_period",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202308301596833817",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202308301596833817:43",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202308301596833817:43",
+        "field": "limited_shares",
+        "quote_compacted": "872689371"
+      },
+      {
+        "evidence_id": "AN202308301596833817:43",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398046737"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2023-12-31",
+    "symbol": "002414.SZ",
+    "period_end": "2023-12-31",
+    "total_shares": 4270736108,
+    "limited_shares": 872123679,
+    "unlimited_shares": 3398612429,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "matches_existing_provider_period",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202404151630235965",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202404151630235965:79",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202404151630235965:79",
+        "field": "limited_shares",
+        "quote_compacted": "872123679"
+      },
+      {
+        "evidence_id": "AN202404151630235965:79",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398612429"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2024-06-30",
+    "symbol": "002414.SZ",
+    "period_end": "2024-06-30",
+    "total_shares": 4270736108,
+    "limited_shares": 872123677,
+    "unlimited_shares": 3398612431,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "matches_existing_provider_period",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202408261639461683",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202408261639461683:38",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202408261639461683:38",
+        "field": "limited_shares",
+        "quote_compacted": "872123677"
+      },
+      {
+        "evidence_id": "AN202408261639461683:38",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398612431"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2024-12-31",
+    "symbol": "002414.SZ",
+    "period_end": "2024-12-31",
+    "total_shares": 4270736108,
+    "limited_shares": 872123677,
+    "unlimited_shares": 3398612431,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "new_period_observation",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202504241661802959",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202504241661802959:71",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202504241661802959:71",
+        "field": "limited_shares",
+        "quote_compacted": "872123677"
+      },
+      {
+        "evidence_id": "AN202504241661802959:71",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398612431"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2025-06-30",
+    "symbol": "002414.SZ",
+    "period_end": "2025-06-30",
+    "total_shares": 4270736108,
+    "limited_shares": 872123677,
+    "unlimited_shares": 3398612431,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "new_period_observation",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202508251734295811",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202508251734295811:36",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202508251734295811:36",
+        "field": "limited_shares",
+        "quote_compacted": "872123677"
+      },
+      {
+        "evidence_id": "AN202508251734295811:36",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398612431"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2025-12-31",
+    "symbol": "002414.SZ",
+    "period_end": "2025-12-31",
+    "total_shares": 4270736108,
+    "limited_shares": 872123677,
+    "unlimited_shares": 3398612431,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "new_period_observation",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202604141821191363",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202604141821191363:69",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202604141821191363:69",
+        "field": "limited_shares",
+        "quote_compacted": "872123677"
+      },
+      {
+        "evidence_id": "AN202604141821191363:69",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398612431"
+      }
+    ]
+  },
+  {
+    "observation_id": "002414.SZ_capital_period_2026-06-30",
+    "symbol": "002414.SZ",
+    "period_end": "2026-06-30",
+    "total_shares": 4270736108,
+    "limited_shares": 872123677,
+    "unlimited_shares": 3398612431,
+    "unit": "shares",
+    "evidence_type": "reported_period_end_capital_snapshot",
+    "reconciliation": "new_period_observation",
+    "daily_effective_date": null,
+    "daily_float_pit_eligible": false,
+    "historical_input_eligible": false,
+    "source_id": "AN202608250006749021",
+    "first_publication_timestamp": null,
+    "field_evidence": [
+      {
+        "evidence_id": "AN202608250006749021:32",
+        "field": "total_shares",
+        "quote_compacted": "4270736108"
+      },
+      {
+        "evidence_id": "AN202608250006749021:32",
+        "field": "limited_shares",
+        "quote_compacted": "872123677"
+      },
+      {
+        "evidence_id": "AN202608250006749021:32",
+        "field": "unlimited_shares",
+        "quote_compacted": "3398612431"
+      }
+    ]
+  }
+]

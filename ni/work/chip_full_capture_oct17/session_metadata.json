@@ -1,0 +1,28 @@
+{
+  "session": "full_history_loaded_session_20261017",
+  "source_url": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r",
+  "symbol": "002414.SZ",
+  "requested_from": "2023-01-01",
+  "first_target": "2023-01-03",
+  "last_target": "2026-10-16",
+  "target_dates": 915,
+  "baseline_dates": 914,
+  "baseline_asof": "2026-10-15",
+  "web_only_extension": [
+    "2026-10-16"
+  ],
+  "collection_status": "completed_for_daily_rendered_summaries_and_screenshots",
+  "complete_price_bins": false,
+  "historical_input_eligible": false,
+  "observations": 932,
+  "accepted_observations": 923,
+  "unique_accepted_dates": 915,
+  "missing_dates": [],
+  "loaded_history_context": "UI panned sequentially through overlapping windows to visible July 2010 then back forward; no internal input history, initialization or point-in-time correctness claimed",
+  "kline_basis_control": "前复权; this does not certify chip adjustment basis",
+  "old_variants": "preserved separately; current session must not overwrite prior observations",
+  "browser_recovery": "Native AX became unavailable near July 2026 sample; documented playwright DOM snapshot used for subsequent accessibility evidence stored in ax.txt, format explicitly recorded per observation. Integer UI coordinates then used; every date verified independently.",
+  "runtime_sources_captured": false,
+  "complete_price_bins_obstacle": "Distribution rendered as canvas; currently no observed complete numerical price-bin export",
+  "completed_at_utc": "2026-10-17T23:56:31.934Z"
+}

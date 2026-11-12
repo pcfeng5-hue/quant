@@ -1,0 +1,7 @@
+{
+  "change": "report counts now derived from actual audit; zero-based array indexes explicitly labelled",
+  "before_sha256": "89b2588d73564b44497174de2c72000d0688c24ed8e62012eb74675827e82208",
+  "after_sha256": "54e11c2c35777c0d5cbe3814e7ac6576d4fc96210eb17fcb3ff1bfe0d44bb3a8",
+  "backup": "work/unified_data_oct22/verify_and_supplement_before_organization_fix.py",
+  "historical_outputs_preserved_in_prior_archives": true
+}

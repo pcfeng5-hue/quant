@@ -1,0 +1,72 @@
+[
+  {
+    "name": "margin",
+    "hash_matches": true,
+    "parse_count_matches": true,
+    "all_dates_in_range": true,
+    "identifiers": [
+      "002414"
+    ],
+    "duplicate_whole_rows": 0,
+    "date_count": 500,
+    "provider_count": 913
+  },
+  {
+    "name": "block_trade",
+    "hash_matches": true,
+    "parse_count_matches": true,
+    "all_dates_in_range": true,
+    "identifiers": [
+      "002414"
+    ],
+    "duplicate_whole_rows": 0,
+    "date_count": 15,
+    "provider_count": 72
+  },
+  {
+    "name": "billboard",
+    "hash_matches": true,
+    "parse_count_matches": true,
+    "all_dates_in_range": true,
+    "identifiers": [
+      "002414"
+    ],
+    "duplicate_whole_rows": 0,
+    "date_count": 3,
+    "provider_count": 5
+  },
+  {
+    "name": "institution_seats",
+    "hash_matches": true,
+    "parse_count_matches": true,
+    "all_dates_in_range": true,
+    "identifiers": [
+      "002414"
+    ],
+    "duplicate_whole_rows": 0,
+    "date_count": 3,
+    "provider_count": 5
+  },
+  {
+    "name": "fund_flow_proxy",
+    "hash_matches": true,
+    "parse_count_matches": true,
+    "all_dates_in_range": true,
+    "identifiers": [],
+    "duplicate_whole_rows": 0,
+    "date_count": 120,
+    "provider_count": null
+  },
+  {
+    "name": "margin_page2",
+    "hash_matches": true,
+    "parse_count_matches": true,
+    "all_dates_in_range": true,
+    "identifiers": [
+      "002414"
+    ],
+    "duplicate_whole_rows": 0,
+    "date_count": 413,
+    "provider_count": 913
+  }
+]

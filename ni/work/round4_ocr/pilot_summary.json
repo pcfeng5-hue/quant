@@ -1,0 +1,17 @@
+{
+  "pages": 2,
+  "statuses": {
+    "ocr_extracted_unverified": 2
+  },
+  "elapsed_seconds": 4.053402916993946,
+  "source_database_modified": false,
+  "uploaded": false,
+  "numeric_facts_verified": false,
+  "model_hashes": {
+    "Det": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+    "Rec": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+    "Cls": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+  },
+  "result_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/round4_ocr/pilot.jsonl",
+  "render_dpi": 200
+}

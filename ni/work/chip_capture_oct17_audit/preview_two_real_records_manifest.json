@@ -1,0 +1,86 @@
+[
+  {
+    "relative_path": "prefetch_actions.json",
+    "observation_id": null,
+    "bytes": 13505,
+    "sha256": "8249cb8a029bffbd0dd5e13f4e22875e27598cd064079fc6d9fcd037592582c4",
+    "mtime_ns": 1792280431992682734
+  },
+  {
+    "relative_path": "records/0001_2023-01-03_window1/ax.txt",
+    "observation_id": "0001_2023-01-03_window1",
+    "bytes": 58551,
+    "sha256": "b7422b7344ad406b79e5b83d0392531fdeb5f088bc10514ccbb7b934a2191f0f",
+    "mtime_ns": 1792280461249132520
+  },
+  {
+    "relative_path": "records/0001_2023-01-03_window1/chart.jpg",
+    "observation_id": "0001_2023-01-03_window1",
+    "bytes": 136723,
+    "sha256": "f8130b1d4d966ecda2886c0f2068c0f694849e1fe240afe3ee78a578671152ea",
+    "mtime_ns": 1792280461249250770
+  },
+  {
+    "relative_path": "records/0001_2023-01-03_window1/kline.html",
+    "observation_id": "0001_2023-01-03_window1",
+    "bytes": 1124,
+    "sha256": "3fc7331756554cc30905912768d389a796bb5535963a8d4c721d94478c9dfde3",
+    "mtime_ns": 1792280461248858562
+  },
+  {
+    "relative_path": "records/0001_2023-01-03_window1/record.json",
+    "observation_id": "0001_2023-01-03_window1",
+    "bytes": 969,
+    "sha256": "1563150759d609d1f7024640f0e169d9cdfbef01cf47e5eae89ae1d22bd82782",
+    "mtime_ns": 1792280461249386144
+  },
+  {
+    "relative_path": "records/0001_2023-01-03_window1/summary.html",
+    "observation_id": "0001_2023-01-03_window1",
+    "bytes": 1102,
+    "sha256": "bee181b9535143dd9e4946fdfbdb2ec66108481a0aa4dc3161b820cf53ede900",
+    "mtime_ns": 1792280461248689979
+  },
+  {
+    "relative_path": "records/0002_2023-01-03_window1/ax.txt",
+    "observation_id": "0002_2023-01-03_window1",
+    "bytes": 58547,
+    "sha256": "e7c19ba0426d0b30a7b5c14fc46cdae4fbd2c9f44774700075c7668c77c8f9ea",
+    "mtime_ns": 1792280478441806912
+  },
+  {
+    "relative_path": "records/0002_2023-01-03_window1/chart.jpg",
+    "observation_id": "0002_2023-01-03_window1",
+    "bytes": 136409,
+    "sha256": "32ce5665c1432184884054773c948bf85bc490cce3542d5a04def4af1addb349",
+    "mtime_ns": 1792280478441971370
+  },
+  {
+    "relative_path": "records/0002_2023-01-03_window1/kline.html",
+    "observation_id": "0002_2023-01-03_window1",
+    "bytes": 1156,
+    "sha256": "621baba8cccdbc23543209bcf4f77904b05f2181972138e15c64f255f4f34fd6",
+    "mtime_ns": 1792280478441434246
+  },
+  {
+    "relative_path": "records/0002_2023-01-03_window1/record.json",
+    "observation_id": "0002_2023-01-03_window1",
+    "bytes": 956,
+    "sha256": "3c3a0d9b0814b8151a6f8eee5f5c52fd14b366a45ad25365a545023a2f9812db",
+    "mtime_ns": 1792280478442276994
+  },
+  {
+    "relative_path": "records/0002_2023-01-03_window1/summary.html",
+    "observation_id": "0002_2023-01-03_window1",
+    "bytes": 1101,
+    "sha256": "d34af3bc325923063376c28f81852dc400e4c21af223242d6ab6d4a49b178f0a",
+    "mtime_ns": 1792280478441228747
+  },
+  {
+    "relative_path": "records.json",
+    "observation_id": null,
+    "bytes": 2115,
+    "sha256": "12802d34b4c21927bb5352d6478e16f41171775bbcc980dc62ea33974e267b12",
+    "mtime_ns": 1792280583273248532
+  }
+]

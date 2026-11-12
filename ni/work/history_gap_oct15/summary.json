@@ -1,0 +1,53 @@
+{
+  "checked_at_date": "2026-10-15",
+  "requests": 7,
+  "checks": {
+    "all_raw_sha256_match": true,
+    "top10_one_page_complete_reported_count": true,
+    "issuer_all_002414": true,
+    "unique_period_rank_name": true,
+    "periodic_15_by_10": true,
+    "partial_20_are_not_full_top10": true,
+    "pageSDGD_latest_10_all_selected_fields_match": true,
+    "holder_count_60_rows_single_page_complete": true,
+    "capital_41_rows_single_page_complete": true,
+    "historical_features_all_unapproved": true,
+    "holder_percent_rounding_within_0_005_pct": true
+  },
+  "all_checks_passed": true,
+  "top10_total": {
+    "rows": 170,
+    "observation_dates": 25,
+    "periodic_rows": 150,
+    "periodic_dates": 15,
+    "baseline_2022_12_31_rows": 10,
+    "within_2023_onward_observation_rows": 160,
+    "partial_nonperiodic_rows": 20,
+    "partial_nonperiodic_dates": 10,
+    "min_observation_date": "2022-12-31",
+    "max_observation_date": "2026-06-30",
+    "source_has_notice_date": false,
+    "selected_latest_cross_endpoint_rows": 10,
+    "original_text_links_only": 3
+  },
+  "holder_count": {
+    "provider_rows": 60,
+    "disclosure_2023_onward": 15,
+    "latest_period": "2026-06-30",
+    "latest_provider_disclosure": "2026-08-26",
+    "finer_interval_found_2023_onward": false,
+    "new_rows_vs_existing_2023_onward": 0
+  },
+  "capital": {
+    "provider_rows": 41,
+    "latest_period": "2024-06-30",
+    "new_provider_periods_vs_existing": 0
+  },
+  "suspension": {
+    "daily_market_schema_example_rows": 15,
+    "code_exact_today_error": "返回数据为空",
+    "without_datetime_error": "filter参数必须包含DATETIME",
+    "history_complete": false,
+    "no_event_certified": false
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "fee": "stamp_tax_sell",
+    "effective_date": "2022-07-01",
+    "research_from": "2023-01-03",
+    "research_to": "2023-08-25",
+    "buy_rate": 0,
+    "sell_rate": 0.001,
+    "evidence": "stamp_law_2021原件转载的印花税法税目表；出让方1‰",
+    "status": "law_and_2023_reduction_notice_checked"
+  },
+  {
+    "fee": "stamp_tax_sell",
+    "effective_date": "2023-08-28",
+    "research_from": "2023-08-28",
+    "research_to": "2026-10-16",
+    "buy_rate": 0,
+    "sell_rate": 0.0005,
+    "evidence": "stamp_reduction_2023税务机关原件；2026中国结算表p7",
+    "status": "effective_date_original_checked"
+  },
+  {
+    "fee": "exchange_handling",
+    "effective_date": null,
+    "research_from": "2023-01-03",
+    "research_to": "2023-08-25",
+    "buy_rate": 4.87e-05,
+    "sell_rate": 4.87e-05,
+    "evidence": "fee_reduction_2023深交所通知明确旧费率；旧费率最初生效日未补核",
+    "status": "old_rate_original_confirmed_origin_date_unknown"
+  },
+  {
+    "fee": "exchange_handling",
+    "effective_date": "2023-08-28",
+    "research_from": "2023-08-28",
+    "research_to": "2026-10-16",
+    "buy_rate": 3.41e-05,
+    "sell_rate": 3.41e-05,
+    "evidence": "fee_reduction_2023原件；2026中国结算表p8",
+    "status": "effective_date_original_checked"
+  },
+  {
+    "fee": "regulatory",
+    "effective_date": null,
+    "research_from": "2023-01-03",
+    "research_to": "2026-10-16",
+    "buy_rate": 2e-05,
+    "sell_rate": 2e-05,
+    "evidence": "2026中国结算表p7；起始生效日及更早历史完整链未补",
+    "status": "2026_original_confirmed_historical_continuity_pending"
+  },
+  {
+    "fee": "transfer",
+    "effective_date": "2022-04-29",
+    "research_from": "2023-01-03",
+    "research_to": "2026-10-16",
+    "buy_rate": 1e-05,
+    "sell_rate": 1e-05,
+    "evidence": "中国结算署名新浪转载通知+中国结算大事记；2026中国结算原表p3",
+    "status": "2022_origin_republication_not_original_host_2026_original_confirmed"
+  },
+  {
+    "fee": "broker_commission",
+    "effective_date": null,
+    "research_from": "2023-01-03",
+    "research_to": "2026-10-16",
+    "buy_rate": null,
+    "sell_rate": null,
+    "evidence": null,
+    "status": "account_specific_unknown_inclusion_unknown_minimum_unknown"
+  }
+]

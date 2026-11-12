@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b100e">
+<title>服务条款 — QuantCoda</title>
+<meta name="description" content="QuantCoda 提供结构化中国股票、ETF、指数、财务与实时市场数据，通过 REST API、Python SDK 和 MCP 接入量化研究与 AI Agent。">
+<meta name="author" content="QuantCoda">
+
+
+<meta name="robots" content="noindex,follow">
+
+<link rel="canonical" href="https://quantcoda.com/terms">
+
+<meta property="og:site_name" content="QuantCoda">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="服务条款 — QuantCoda">
+<meta property="og:description" content="QuantCoda 提供结构化中国股票、ETF、指数、财务与实时市场数据，通过 REST API、Python SDK 和 MCP 接入量化研究与 AI Agent。">
+<meta property="og:url" content="https://quantcoda.com/terms">
+<meta property="og:image" content="https://quantcoda.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="QuantCoda — China Market Data APIs via REST, Python and MCP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://quantcoda.com/og-image.png">
+<meta name="twitter:image:alt" content="QuantCoda — China Market Data APIs via REST, Python and MCP">
+<meta name="twitter:title" content="服务条款 — QuantCoda">
+<meta name="twitter:description" content="QuantCoda 提供结构化中国股票、ETF、指数、财务与实时市场数据，通过 REST API、Python SDK 和 MCP 接入量化研究与 AI Agent。">
+
+<script>
+(() => {
+  const measurementId = "G-JLG9B7P404";
+  const cookieDomain = "quantcoda.com";
+  const storageKey = "quantcoda.analyticsConsent";
+  const readConsent = () => {
+    try { return localStorage.getItem(storageKey); } catch (_) { return null; }
+  };
+  const initialConsent = readConsent();
+  // Never send local previews or explicitly marked QA sessions to production GA.
+  // Open ?analytics_test=1 before QA; use ?analytics_test=0 to leave QA mode.
+  let internalTraffic = false;
+  try {
+    const qa = new URLSearchParams(location.search).get("analytics_test");
+    if (qa === "1") sessionStorage.setItem("quantcoda.analyticsTest", "1");
+    if (qa === "0") sessionStorage.removeItem("quantcoda.analyticsTest");
+    internalTraffic = sessionStorage.getItem("quantcoda.analyticsTest") === "1";
+  } catch (_) { internalTraffic = true; }
+  const eligibleHost = location.hostname === cookieDomain && !internalTraffic;
+  const disableKey = `ga-disable-${measurementId}`;
+  window[disableKey] = !eligibleHost || initialConsent === "denied";
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function(){ dataLayer.push(arguments); };
+  gtag("consent", "default", {
+    analytics_storage: initialConsent === "denied" ? "denied" : "granted",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    wait_for_update: 500
+  });
+
+  const writeConsent = (value) => {
+    try { localStorage.setItem(storageKey, value); } catch (_) {}
+  };
+  const clearAnalyticsCookies = () => {
+    document.cookie.split(";").forEach(cookie => {
+      const name = cookie.split("=")[0].trim();
+      if (name === "_ga" || name.startsWith("_ga_")) {
+        document.cookie = `${name}=; Max-Age=0; path=/; SameSite=Lax`;
+        if (location.hostname === cookieDomain || location.hostname.endsWith(`.${cookieDomain}`)) {
+          document.cookie = `${name}=; Max-Age=0; path=/; domain=.${cookieDomain}; SameSite=Lax`;
+        }
+      }
+    });
+  };
+  const loadAnalytics = () => {
+    if (!eligibleHost) return;
+    window[disableKey] = false;
+    gtag("consent", "update", { analytics_storage: "granted" });
+    if (document.querySelector(`script[data-ga-id="${measurementId}"]`)) return;
+    gtag("js", new Date());
+    const campaign = {};
+    const search = new URLSearchParams(location.search);
+    for (const [utm, key] of Object.entries({utm_source:"campaign_source", utm_medium:"campaign_medium", utm_campaign:"campaign_name"})) {
+      const value = search.get(utm);
+      if (value && /^[a-zA-Z0-9_.~-]{1,100}$/.test(value)) campaign[key] = value;
+    }
+    gtag("config", measurementId, {
+      ...campaign,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      // Account URLs can contain verification or Checkout tokens. Never send them.
+      page_location: location.origin + location.pathname,
+      page_referrer: (() => { try { const u = new URL(document.referrer); return u.origin + u.pathname; } catch (_) { return ""; } })()
+    });
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+    script.dataset.gaId = measurementId;
+    document.head.appendChild(script);
+  };
+  const showConsent = () => {
+    const banner = document.getElementById("analytics-consent");
+    if (banner) banner.hidden = false;
+  };
+  const hideConsent = () => {
+    const banner = document.getElementById("analytics-consent");
+    if (banner) banner.hidden = true;
+  };
+
+  window.quantcodaSetAnalyticsConsent = value => {
+    writeConsent(value);
+    if (value === "granted") {
+      loadAnalytics();
+    } else {
+      window[disableKey] = true;
+      gtag("consent", "update", { analytics_storage: "denied" });
+      clearAnalyticsCookies();
+    }
+    hideConsent();
+  };
+
+  window.quantcodaTrack = (event, params = {}) => {
+    if (!eligibleHost || window[disableKey] || readConsent() === "denied") return false;
+    const allowed = ["sign_up", "email_verified", "api_key_created", "api_connection_verified", "purchase"];
+    if (!allowed.includes(event)) return false;
+    gtag("event", event, {...params, transport_type: "beacon"});
+    return true;
+  };
+
+  if (initialConsent !== "denied") loadAnalytics();
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("[data-analytics-consent]").forEach(button => {
+      button.addEventListener("click", () => {
+        window.quantcodaSetAnalyticsConsent(button.dataset.analyticsConsent);
+      });
+    });
+    document.querySelectorAll("[data-analytics-settings]").forEach(button => {
+      button.addEventListener("click", showConsent);
+    });
+  });
+})();
+</script>
+
+
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style>
+/* ── Shared financial-data design system ────────────────────────────────── */
+:root {
+  --bg: #020604;
+  --bg-raise: #07100c;
+  --bg-deep: #040a07;
+  --ink: #f2f7f4;
+  --ink-2: #a5b1aa;
+  --muted: #66736c;
+  --line: rgba(124, 166, 143, .14);
+  --line-strong: rgba(124, 166, 143, .27);
+  --accent: #24e58a;
+  --accent-deep: #16bd70;
+  --accent-wash: rgba(36, 229, 138, .10);
+  --glow: rgba(36, 229, 138, .34);
+  --up: #ff6b5c;      /* A 股惯例：红涨 */
+  --down: #2ebd8c;    /* 绿跌 */
+  --red: #ff6b5c;
+  --amber: #e8c07e;
+  --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  --serif: Georgia, "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "STSong", "SimSun", serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Menlo, Consolas, monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body::before {
+  content: ""; position: fixed; inset: -20vh -15vw; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(52vw 48vw at 18% 18%, rgba(20,130,75,.18), transparent 68%),
+    radial-gradient(42vw 38vw at 86% 38%, rgba(52,210,185,.08), transparent 70%);
+}
+.brand-quantcoda .h1,
+.brand-quantcoda .h2 { font-family: var(--sans); letter-spacing: -.045em; }
+a { color: inherit; text-decoration: none; }
+::selection { background: var(--accent); color: #07101f; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+
+/* ── 导航 ── */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(3, 8, 6, .82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-inner { display: flex; align-items: center; gap: 36px; height: 60px; }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 17px; letter-spacing: .01em; }
+.brand svg { display: block; filter: drop-shadow(0 0 6px var(--glow)); }
+.nav-links { display: flex; gap: 26px; font-size: 14.5px; color: var(--ink-2); }
+.nav-links a:hover { color: var(--accent); }
+.nav-cta { margin-left: auto; display: flex; align-items: center; gap: 18px; font-size: 14.5px; }
+.nav-cta .signin { color: var(--ink-2); }
+.nav-cta .signin:hover { color: var(--ink); }
+
+/* ── 按钮 ── */
+.btn {
+  display: inline-block; padding: 11px 26px; border-radius: 8px;
+  font-size: 15px; font-weight: 600; letter-spacing: .02em;
+  border: 1px solid transparent; cursor: pointer; font-family: var(--sans);
+  transition: background .18s ease, color .18s ease, border-color .18s ease,
+              box-shadow .18s ease, transform .12s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn-ink {
+  background: linear-gradient(180deg, var(--accent), var(--accent-deep)); color: #07101f;
+  box-shadow: 0 0 20px -10px var(--glow);
+}
+.btn-ink:hover { filter: brightness(1.12); box-shadow: 0 0 34px -6px var(--glow); }
+
+/* HUD 四角括号：仪器感签名 */
+.hud { position: relative; }
+.hud::before, .hud::after {
+  content: ""; position: absolute; width: 16px; height: 16px;
+  border-color: var(--accent); border-style: solid; opacity: .55; pointer-events: none;
+}
+.hud::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }
+.hud::after { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }
+.btn-ghost { border-color: var(--line-strong); color: var(--ink); background: transparent; }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+.btn-sm { padding: 7px 16px; font-size: 13.5px; border-radius: 7px; }
+
+/* ── 版式工具 ── */
+.kicker {
+  font-family: var(--mono); font-size: 12px; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--accent); font-weight: 600;
+  white-space: nowrap;
+}
+.h1 {
+  font-family: var(--serif); font-size: clamp(34px, 5.4vw, 58px);
+  line-height: 1.24; font-weight: 900; letter-spacing: .01em;
+}
+.h2 {
+  font-family: var(--serif); font-size: clamp(24px, 3.2vw, 34px);
+  line-height: 1.32; font-weight: 900; letter-spacing: .01em;
+}
+.lede { font-size: clamp(16px, 1.9vw, 18.5px); color: var(--ink-2); }
+.muted { color: var(--muted); }
+.mono { font-family: var(--mono); font-feature-settings: "tnum"; }
+.up { color: var(--up); }
+.down { color: var(--down); }
+
+/* ── 卡片 / 表格 ── */
+.card {
+  background: var(--bg-raise); border: 1px solid var(--line);
+  border-radius: 12px;
+}
+table.data { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+table.data th {
+  text-align: left; font-weight: 600; color: var(--muted);
+  font-family: var(--mono); font-size: 12px; letter-spacing: .08em;
+  padding: 10px 14px; border-bottom: 1px solid var(--line-strong);
+}
+table.data td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.data tr:last-child td { border-bottom: none; }
+
+/* ── 代码块 ── */
+pre.code {
+  font-family: var(--mono); font-size: 13.5px; line-height: 1.7;
+  background: var(--bg-deep);
+  border: 1px solid var(--line); border-radius: 12px;
+  padding: 20px 22px; overflow-x: auto;
+  color: var(--ink-2);
+}
+pre.code .c { color: var(--muted); }                      /* 注释 */
+pre.code .k { color: var(--accent); }                     /* 关键字 / 键名 */
+pre.code .s { color: var(--amber); }                      /* 字符串 */
+code.inline {
+  font-family: var(--mono); font-size: .88em;
+  background: var(--accent-wash); border-radius: 5px; padding: 2px 7px;
+  color: var(--accent);
+}
+
+/* ── 表单 ── */
+.field { margin-bottom: 18px; }
+.field label { display: block; font-size: 13.5px; font-weight: 600; margin-bottom: 7px; color: var(--ink-2); }
+.field input {
+  width: 100%; padding: 11px 14px; font-size: 15px; font-family: var(--sans);
+  border: 1px solid var(--line-strong); border-radius: 8px;
+  background: var(--bg-deep); color: var(--ink);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.field input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
+.form-err { color: var(--red); font-size: 14px; min-height: 22px; margin-bottom: 6px; }
+
+/* ── 页脚 ── */
+footer {
+  border-top: 1px solid var(--line); margin-top: 110px;
+  padding: 44px 0 56px; font-size: 14px; color: var(--muted);
+}
+.foot-inner { display: flex; flex-wrap: wrap; gap: 28px; align-items: baseline; }
+.foot-inner .links { display: flex; flex-wrap: wrap; gap: 22px; }
+.foot-inner .links a:hover { color: var(--ink); }
+.foot-inner .links button { appearance: none; border: 0; background: transparent; color: inherit; cursor: pointer; font: inherit; padding: 0; }
+.foot-inner .links button:hover { color: var(--ink); }
+.foot-inner .copy { margin-left: auto; font-family: var(--mono); font-size: 12.5px; }
+
+/* ── Analytics consent ── */
+.consent {
+  position: fixed; left: 24px; right: 24px; bottom: 24px; z-index: 100;
+  max-width: 760px; margin: 0 auto; padding: 18px 20px;
+  background: rgba(7, 16, 12, .97); border: 1px solid var(--line-strong);
+  border-radius: 12px; box-shadow: 0 18px 60px rgba(0, 0, 0, .45);
+}
+.consent[hidden] { display: none; }
+.consent-inner { display: flex; align-items: center; gap: 20px; }
+.consent-copy { flex: 1; color: var(--ink-2); font-size: 13.5px; line-height: 1.55; }
+.consent-copy a { color: var(--accent); }
+.consent-actions { display: flex; gap: 9px; flex-shrink: 0; }
+.consent-actions .btn { padding: 7px 14px; font-size: 13px; }
+
+/* ── 载入动效：错落浮现 ── */
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise .7s cubic-bezier(.2,.7,.3,1) both; }
+.d1 { animation-delay: .06s; } .d2 { animation-delay: .14s; }
+.d3 { animation-delay: .22s; } .d4 { animation-delay: .32s; }
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+}
+
+@media (max-width: 720px) {
+  .nav-links { display: none; }
+  .wrap { padding: 0 20px; }
+  .nav-inner { gap: 12px; }
+  .nav-cta { gap: 12px; }
+  .nav-cta .login-link { display: none; }
+  .nav-cta .btn { padding: 7px 13px; font-size: 13px; white-space: nowrap; }
+  .brand { font-size: 15px; }
+  .consent { left: 14px; right: 14px; bottom: 14px; }
+  .consent-inner { align-items: stretch; flex-direction: column; gap: 14px; }
+  .consent-actions .btn { flex: 1; }
+}
+
+.legal { max-width: 760px; margin: 0 auto; padding: 64px 24px 20px; }
+.legal h1 { margin-bottom: 6px; }
+.legal .rev { font-family: var(--mono); font-size: 12.5px; color: var(--muted); margin-bottom: 40px; }
+.legal h2 { font-size: 19px; margin: 36px 0 10px; }
+.legal p, .legal li { font-size: 15px; color: var(--ink-2); }
+.legal ul { padding-left: 22px; margin: 8px 0; }
+
+</style>
+<link rel="stylesheet" href="/static/ui-v2.css">
+<noscript><style>.catalog-tools[hidden], .docs-search[hidden] { display: none !important; }</style></noscript>
+
+</head>
+<body class="brand-quantcoda">
+<a class="skip-link" href="#main-content">跳到主要内容</a>
+
+<aside id="analytics-consent" class="consent" aria-label="网站分析偏好" hidden>
+  <div class="consent-inner">
+    <p class="consent-copy">
+      
+      QuantCoda 默认使用 Google Analytics 了解页面访问并改进网站；你可以随时在这里关闭统计。详见<a href="/privacy">隐私政策</a>。
+      
+    </p>
+    <div class="consent-actions">
+      <button class="btn btn-ghost" type="button" data-analytics-consent="denied">拒绝</button>
+      <button class="btn btn-ink" type="button" data-analytics-consent="granted">保持统计</button>
+    </div>
+  </div>
+</aside>
+
+<nav class="nav" aria-label="主导航">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/zh" translate="no">
+      <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="var(--accent)"/>
+        <path d="M12 9 7 16l5 7M20 9l5 7-5 7M18 7l-4 18" fill="none" stroke="#03110a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      QuantCoda
+    </a>
+    <div class="nav-links">
+      <a href="/data">数据服务</a>
+      <a href="/pricing">定价</a>
+      <a href="/docs">文档</a>
+    </div>
+    <div class="nav-cta">
+      <a class="signin lang-switch" href="/en/terms" title="EN">EN</a>
+      
+      <a class="signin login-link" href="/login">登录</a>
+      <a class="btn btn-ink btn-sm" href="/register">免费注册</a>
+      
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" hidden>菜单 <span aria-hidden="true">+</span></button>
+  </div>
+  <div id="mobile-nav" class="mobile-nav wrap" hidden>
+    <a href="/data">数据服务</a>
+    <a href="/pricing">定价</a>
+    <a href="/docs">文档</a>
+    <a href="/python-sdk">Python SDK</a>
+    <a href="/mcp-server">MCP Server</a>
+    <a href="/login">登录</a>
+    <a href="/register">免费注册</a>
+  </div>
+  <noscript><div class="mobile-nav wrap"><a href="/data">数据服务</a><a href="/pricing">定价</a><a href="/docs">文档</a><a href="/login">登录</a></div></noscript>
+</nav>
+
+<main id="main-content" tabindex="-1">
+
+<div class="legal">
+  <h1 class="h2">服务条款</h1>
+  <p class="rev">生效日期：2026-08-07</p>
+
+  <p>欢迎使用 QuantCoda（quantcoda.com，下称"本服务"）。注册或使用本服务即表示你同意本条款。</p>
+
+  <h2>1. 服务内容</h2>
+  <p>本服务提供中国市场数据的 REST API、Python SDK 与 MCP 访问，包括行情、财务、资金流向、ETF、指数和实时信息等数据接口及配套文档。</p>
+
+  <h2>2. 重要免责声明：数据仅供研究</h2>
+  <ul>
+    <li>本服务提供的数据<b>不构成任何投资建议</b>；允许使用范围以本条款第 6 条及双方另行签署的书面授权为准；</li>
+    <li>数据来源于公开渠道整理，我们尽力保证准确与及时，但<b>不对数据的准确性、完整性、及时性作任何担保</b>；</li>
+    <li>基于本服务数据作出的任何投资决策及其后果，由使用者自行承担。</li>
+  </ul>
+
+  <h2>3. 账号与 API Key</h2>
+  <ul>
+    <li>你须妥善保管账号密码与 API Key；Key 泄漏产生的调用计入你的额度；</li>
+    <li>未经书面授权，禁止转售或与他人共享账号及 API Key；禁止以爬虫、多账号等方式规避调用限制；</li>
+    <li>违反上述规则的账号，我们有权限制或终止服务。</li>
+  </ul>
+
+  <h2>4. 付费与退款</h2>
+  <ul>
+    <li>付费套餐支持连续包月或一次性购买年度服务周期；可用支付方式以 Stripe 结账页显示为准；</li>
+    <li>连续包月每月自动续费，可随时在控制台取消，取消后当前周期仍然有效；年度单次购买到期后不会自动扣款；</li>
+    <li>服务期结束且未续费时，账号回到免费档，数据与 Key 保留；</li>
+    <li><b>退款政策</b>：自助套餐付款后 7 天内且付费接口累计成功调用不超过 100 次，可联系 support@quantcoda.com 申请全额退款；其余情形按剩余周期比例协商处理。</li>
+  </ul>
+
+  <h2>5. 服务可用性</h2>
+  <p>除双方另行签署书面 SLA 外，我们以尽力而为（best-effort）的标准维护服务可用性，但不承诺 100% 可用。计划内维护会尽量提前公告。因不可抗力或第三方原因导致的服务中断，我们不承担赔偿责任，但持续超过 72 小时的中断可按比例延长订阅期。</p>
+
+  <h2>6. 知识产权与许可</h2>
+  <p>FREE、PRO 与 Expert 套餐授权订阅者本人用于非商业学习、研究、回测和个人工具。企业、机构或其他组织如需用于商业内部系统、业务运营或面向客户的交付，须事先联系 support@quantcoda.com 通过 Business 商业版商议价格、授权用途、调用额度与服务条款，并在开通前取得书面商业授权。任何套餐均<b>不得将原始数据批量转售、公开再分发，或用于搭建与本服务实质竞争的数据产品</b>。</p>
+
+  <h2>7. 条款变更</h2>
+  <p>条款如有重大变更，我们会通过站内或邮件通知。变更后继续使用即视为接受。</p>
+
+  <h2>8. 联系方式</h2>
+  <p>support@quantcoda.com</p>
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span class="brand" style="font-size:15px">
+      <svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="var(--accent)"/>
+        <path d="M12 9 7 16l5 7M20 9l5 7-5 7M18 7l-4 18" fill="none" stroke="#03110a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      QuantCoda
+    </span>
+    <div class="links">
+      <a href="/python-sdk">Python SDK</a>
+      <a href="/mcp-server">MCP Server</a>
+      <a href="/about">关于</a>
+      <a href="/methodology">数据方法</a>
+      <a href="/changelog">更新记录</a>
+      <a href="/terms">服务条款</a>
+      <a href="/privacy">隐私政策</a>
+      <button type="button" data-analytics-settings>统计偏好</button>
+      <a href="mailto:support@quantcoda.com">联系我们</a>
+    </div>
+    <span class="copy">© 2026 QuantCoda · 数据仅供研究，不构成投资建议</span>
+  </div>
+</footer>
+<div class="ui-toast" id="ui-status" role="status" aria-live="polite" aria-atomic="true"></div>
+<script src="/static/ui-v2.js"></script>
+
+</body>
+</html>

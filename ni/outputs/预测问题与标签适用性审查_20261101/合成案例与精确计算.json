@@ -1,0 +1,486 @@
+{
+  "all_examples_are_fictional": true,
+  "real_market_observations_used": 0,
+  "cases": [
+    {
+      "case_id": "S01",
+      "purpose": "等待较低价格入场，在共同终点更好，不是事后最低价规则",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "now_entry": 10,
+        "prespecified_wait_entry": 9,
+        "common_exit": "10.5",
+        "B": 2000,
+        "q": 100,
+        "buy_fee": 5,
+        "sell_fee": 5
+      },
+      "result": {
+        "now": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2040.0",
+          "net_change": "40.0",
+          "raw_price_change": "0.05",
+          "filled_quantity": "100",
+          "trade_return": "0.03980099502487562189054726368"
+        },
+        "wait": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2140.0",
+          "net_change": "140.0",
+          "raw_price_change": "0.166666666666666666666666667",
+          "filled_quantity": "100",
+          "trade_return": "0.1546961325966850828729281768"
+        },
+        "wait_minus_now": "100.0"
+      }
+    },
+    {
+      "case_id": "S02",
+      "purpose": "等待确认也可能买贵，不能预设等待一定改善",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "common_exit": 11,
+        "now_entry": 10,
+        "wait_entry": "10.8"
+      },
+      "result": {
+        "now": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2090",
+          "net_change": "90",
+          "raw_price_change": "0.1",
+          "filled_quantity": "100",
+          "trade_return": "0.08955223880597014925373134328"
+        },
+        "wait": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2010.0",
+          "net_change": "10.0",
+          "raw_price_change": "0.018518518518518518518518519",
+          "filled_quantity": "100",
+          "trade_return": "0.009216589861751152073732718894"
+        },
+        "wait_minus_now": "-80.0"
+      }
+    },
+    {
+      "case_id": "S03",
+      "purpose": "未触发而错过上涨，现金路径仍要保留",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "no_confirmation": true,
+        "now_entry": 10,
+        "common_exit": 12
+      },
+      "result": {
+        "now": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2190",
+          "net_change": "190",
+          "raw_price_change": "0.2",
+          "filled_quantity": "100",
+          "trade_return": "0.1890547263681592039800995025"
+        },
+        "wait": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2000",
+          "net_change": "0",
+          "trade_return": null,
+          "execution_status": "NO_POSITION_NO_TRANSACTION",
+          "cash_interest_assumed": 0
+        },
+        "wait_minus_now": "-190"
+      }
+    },
+    {
+      "case_id": "S04",
+      "purpose": "未触发时空仓避免损失，也必须保留同一比较分母",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "no_confirmation": true,
+        "now_entry": 10,
+        "common_exit": 8
+      },
+      "result": {
+        "now": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "1790",
+          "net_change": "-210",
+          "raw_price_change": "-0.2",
+          "filled_quantity": "100",
+          "trade_return": "-0.2089552238805970149253731343"
+        },
+        "wait": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2000",
+          "net_change": "0",
+          "trade_return": null,
+          "execution_status": "NO_POSITION_NO_TRANSACTION",
+          "cash_interest_assumed": 0
+        },
+        "wait_minus_now": "210"
+      }
+    },
+    {
+      "case_id": "S05",
+      "purpose": "价格微涨并不等于费用后盈利",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "entry": 10,
+        "exit": "10.05",
+        "q": 100,
+        "each_side_synthetic_fee": 5
+      },
+      "result": {
+        "initial_wealth": "2000",
+        "terminal_day": 5,
+        "terminal_basis": "explicit_synthetic_filled_cash",
+        "terminal_wealth": "1995.00",
+        "net_change": "-5.00",
+        "raw_price_change": "0.005",
+        "filled_quantity": "100",
+        "trade_return": "-0.004975124378109452736318407960"
+      }
+    },
+    {
+      "case_id": "S06",
+      "purpose": "价格零变动单列，费后仍会亏损",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "entry": 10,
+        "exit": 10,
+        "each_side_synthetic_fee": 5
+      },
+      "result": {
+        "initial_wealth": "2000",
+        "terminal_day": 5,
+        "terminal_basis": "explicit_synthetic_filled_cash",
+        "terminal_wealth": "1990",
+        "net_change": "-10",
+        "raw_price_change": "0",
+        "filled_quantity": "100",
+        "trade_return": "-0.009950248756218905472636815920"
+      }
+    },
+    {
+      "case_id": "S07",
+      "purpose": "高正收益频率可能伴随负期望",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "hypothetical_up_probability": ".7",
+        "up_return": ".01",
+        "hypothetical_down_probability": ".3",
+        "down_return": "-.03",
+        "fees": 0
+      },
+      "result": {
+        "expected_return": "-0.002"
+      }
+    },
+    {
+      "case_id": "S08",
+      "purpose": "终点上涨并不表示期间安全",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "entry": 10,
+        "post_entry_low": 7,
+        "exit": 11
+      },
+      "result": {
+        "terminal": {
+          "initial_wealth": "2000",
+          "terminal_day": 5,
+          "terminal_basis": "explicit_synthetic_filled_cash",
+          "terminal_wealth": "2090",
+          "net_change": "90",
+          "raw_price_change": "0.1",
+          "filled_quantity": "100",
+          "trade_return": "0.08955223880597014925373134328"
+        },
+        "raw_price_MAE": "-0.3",
+        "MAE_is_realized_loss": false
+      }
+    },
+    {
+      "case_id": "S09",
+      "purpose": "相同日OHLC不能识别上下风险线先后或保证成交",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "pathA": [
+          10,
+          12,
+          8,
+          11
+        ],
+        "pathB": [
+          10,
+          8,
+          12,
+          11
+        ],
+        "OHLC": [
+          10,
+          12,
+          8,
+          11
+        ],
+        "barriers": [
+          9,
+          11
+        ]
+      },
+      "result": {
+        "pathA_first": "upper_first",
+        "pathB_first": "lower_first",
+        "OHLC_only_first_hit": null,
+        "fill_guaranteed": false
+      }
+    },
+    {
+      "case_id": "S10",
+      "purpose": "新买普通股票不能在合成T+1约束下同日假设卖出",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "entry_day": 1,
+        "attempted_exit_day": 1
+      },
+      "result": {
+        "blocked": true,
+        "realized_trade_return": null,
+        "barrier_touch_is_not_sale": true
+      }
+    },
+    {
+      "case_id": "S11",
+      "purpose": "已确认未成交可有现金财富，但不是零收益成交",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "requested_quantity": 100,
+        "filled_quantity": 0
+      },
+      "result": {
+        "execution_status": "KNOWN_UNFILLED",
+        "terminal_wealth": 2000,
+        "trade_return": null,
+        "actual_trade_fee": 0,
+        "cash_path_assumptions": "known no fills, no order charges, no cash interest; not a general broker assertion"
+      }
+    },
+    {
+      "case_id": "S12",
+      "purpose": "部分成交按实际40股和剩余现金计算，不按请求100股",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "requested_quantity": 100,
+        "filled_quantity": 40
+      },
+      "result": {
+        "initial_wealth": "2000",
+        "terminal_day": 5,
+        "terminal_basis": "explicit_synthetic_filled_cash",
+        "terminal_wealth": "2030",
+        "net_change": "30",
+        "raw_price_change": "0.1",
+        "filled_quantity": "40",
+        "trade_return": "0.07407407407407407407407407407"
+      }
+    },
+    {
+      "case_id": "S13",
+      "purpose": "费用或成交未知不能填零",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "raw_entry": 10,
+        "raw_exit": 11,
+        "fees": null,
+        "fill_status": "UNKNOWN"
+      },
+      "result": {
+        "raw_price_change": ".1",
+        "net_profit_event": null,
+        "terminal_realized_cash": null
+      }
+    },
+    {
+      "case_id": "S14",
+      "purpose": "转增/拆分会改变价格而未必改变财富",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "old_shares": 100,
+        "old_price": 10,
+        "synthetic_share_factor": 2,
+        "new_price": 5,
+        "fees_and_taxes": 0
+      },
+      "result": {
+        "raw_price_change": "-0.5",
+        "wealth_before": 1000,
+        "wealth_after": 1000
+      }
+    },
+    {
+      "case_id": "S15",
+      "purpose": "上涨概率补数包含零，不等于严格下跌或卖出成功概率",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "synthetic_positive_probability": ".6",
+        "synthetic_zero_probability": ".1"
+      },
+      "result": {
+        "nonpositive_probability": "0.4",
+        "strict_negative_probability": "0.3",
+        "sell_better_than_hold_probability": null
+      }
+    },
+    {
+      "case_id": "S16",
+      "purpose": "晚确认不能把等待方案终点顺延；到T清算还须考虑可卖日",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "confirmation_day": 4,
+        "earliest_entry_day": 5,
+        "common_T": 5,
+        "example_minimum_sale_delay_sessions": 1
+      },
+      "result": {
+        "can_finish_cash_round_trip": false,
+        "keep_cash_or_separate_NAV_protocol": true,
+        "extend_T": false
+      }
+    },
+    {
+      "case_id": "S17",
+      "purpose": "不同资金、不同终点或现金/NAV口径不能直接配对",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "mismatches": [
+          "initial_wealth",
+          "terminal_day",
+          "terminal_basis"
+        ]
+      },
+      "result": {
+        "rejected_count": 3
+      }
+    },
+    {
+      "case_id": "S18",
+      "purpose": "终点有估值但卖不掉时，不得记录为已实现收益",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "B": 2000,
+        "q": 100,
+        "entry": 10,
+        "entry_fee": 5,
+        "terminal_mark": 11,
+        "sell_fill": false,
+        "unpaid_liabilities": 0,
+        "rights_receivables": 0
+      },
+      "result": {
+        "terminal_NAV": "2095",
+        "realized_sale_profit": null,
+        "liquidation_cash": null,
+        "hypothetical_filled_cash_if_later_verified": 2090
+      }
+    },
+    {
+      "case_id": "S19",
+      "purpose": "预测时点尚未公开的信息不能提前使用",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "information_cutoff": "d0 15:01 Asia/Shanghai",
+        "actual_available": "d0 15:31 Asia/Shanghai"
+      },
+      "result": {
+        "eligible_at_old_cutoff": false,
+        "new_prediction_requires_new_cutoff": true
+      }
+    },
+    {
+      "case_id": "S20",
+      "purpose": "未来真实停牌/缺失日不得悄悄把计划终点后移",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "planned_sessions": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "observed_stock_bars": [
+          "d1",
+          "d3",
+          "d4",
+          "d5",
+          "d6"
+        ],
+        "planned_T": "d5"
+      },
+      "result": {
+        "fifth_observed_bar": "d6",
+        "same_horizon": false,
+        "terminal_missing_valuation_or_fill_requires_explicit_status": true
+      }
+    },
+    {
+      "case_id": "S21",
+      "purpose": "把等待方案多给两天会反转结论，因此必须共同终点",
+      "all_inputs_are_synthetic": true,
+      "not_a_market_forecast": true,
+      "inputs": {
+        "B": 9900,
+        "synthetic_allocation_rule": "whole-unit full cash, fee=0; not a lot or portfolio recommendation",
+        "now_entry_day1_price10": true,
+        "wait_entry_day3_price11": true,
+        "day5_price": 9,
+        "day7_price": 12
+      },
+      "result": {
+        "now_at_common_day5": "8910",
+        "wait_at_common_day5": "8100",
+        "correct_wait_minus_now": "-810",
+        "wrong_wait_at_day7": "10800",
+        "wrong_cross_time_comparison_forbidden": true
+      }
+    }
+  ]
+}

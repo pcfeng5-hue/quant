@@ -1,0 +1,16 @@
+{
+  "automation_id": "a",
+  "batch_id": "a_20261104_route_decision_v1",
+  "status": "completed_verified_route_review",
+  "client_date": "2026-11-04",
+  "started_at_utc": "2026-11-04T05:42:27.899369+00:00",
+  "completed_at_local": "2026-11-04T00:57:47.082440-05:00",
+  "counts_as_completed_nightly_batch": true,
+  "report": "outputs/下一阶段路线决策_20261104/下一阶段路线决策记录_v1.md",
+  "state": "outputs/下一阶段路线决策_20261104/本轮状态与续作断点.json",
+  "new_models_scored": 0,
+  "new_real_market_targets": 0,
+  "review_steps_completed": 4,
+  "outcomes_2025_2026_opened": false,
+  "archive_pending_separate_verification": true
+}

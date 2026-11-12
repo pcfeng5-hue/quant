@@ -1,0 +1,1974 @@
+{
+  "catalogue_snapshots": {
+    "announcements_page4:a184d1867f4620d299acd3e6977b5d41c4ad2750c05163de66aa7e8ae7761465:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/announcements_page4_a184d1867f4620d2.json",
+      "expected": "a184d1867f4620d299acd3e6977b5d41c4ad2750c05163de66aa7e8ae7761465",
+      "actual": "a184d1867f4620d299acd3e6977b5d41c4ad2750c05163de66aa7e8ae7761465",
+      "matches": true
+    },
+    "cninfo_announcements_page11:6c06b5b88cc80f425fe66e7d0e13af6a31ebe30bf09e91ade1c035f072a95613:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page11_6c06b5b88cc80f42.json",
+      "expected": "6c06b5b88cc80f425fe66e7d0e13af6a31ebe30bf09e91ade1c035f072a95613",
+      "actual": "6c06b5b88cc80f425fe66e7d0e13af6a31ebe30bf09e91ade1c035f072a95613",
+      "matches": true
+    },
+    "announcements_page3:73fadb02392b929be148dbb724d31e7453798aa4fa47efa91b47449b9586d9d8:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/announcements_page3_73fadb02392b929b.json",
+      "expected": "73fadb02392b929be148dbb724d31e7453798aa4fa47efa91b47449b9586d9d8",
+      "actual": "73fadb02392b929be148dbb724d31e7453798aa4fa47efa91b47449b9586d9d8",
+      "matches": true
+    },
+    "cninfo_announcements_page10:0e13b23aaf29c237d3a34a24ed275df35a14409f5be2582ee9279c295d5c1a98:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page10_0e13b23aaf29c237.json",
+      "expected": "0e13b23aaf29c237d3a34a24ed275df35a14409f5be2582ee9279c295d5c1a98",
+      "actual": "0e13b23aaf29c237d3a34a24ed275df35a14409f5be2582ee9279c295d5c1a98",
+      "matches": true
+    },
+    "cninfo_announcements_page9:0e1ba3656f9721ce8c95b32ccf21f2c62b2db5a301f699ee6f2201c9bade6aa9:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page9_0e1ba3656f9721ce.json",
+      "expected": "0e1ba3656f9721ce8c95b32ccf21f2c62b2db5a301f699ee6f2201c9bade6aa9",
+      "actual": "0e1ba3656f9721ce8c95b32ccf21f2c62b2db5a301f699ee6f2201c9bade6aa9",
+      "matches": true
+    },
+    "cninfo_announcements_page8:0079c7fc3247049b638bbf3d35bf55b5f497fd42b97943c574e1477458bfd60d:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page8_0079c7fc3247049b.json",
+      "expected": "0079c7fc3247049b638bbf3d35bf55b5f497fd42b97943c574e1477458bfd60d",
+      "actual": "0079c7fc3247049b638bbf3d35bf55b5f497fd42b97943c574e1477458bfd60d",
+      "matches": true
+    },
+    "cninfo_announcements_page7:b52ccbfacfee6af9e37104f772c875085e9cc1c78023c751e81b02f6289cc310:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page7_b52ccbfacfee6af9.json",
+      "expected": "b52ccbfacfee6af9e37104f772c875085e9cc1c78023c751e81b02f6289cc310",
+      "actual": "b52ccbfacfee6af9e37104f772c875085e9cc1c78023c751e81b02f6289cc310",
+      "matches": true
+    },
+    "cninfo_announcements_page6:d0f992ea7f60dc943819201f664635e71417b359f418ba76c916f723cbcf3480:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page6_d0f992ea7f60dc94.json",
+      "expected": "d0f992ea7f60dc943819201f664635e71417b359f418ba76c916f723cbcf3480",
+      "actual": "d0f992ea7f60dc943819201f664635e71417b359f418ba76c916f723cbcf3480",
+      "matches": true
+    },
+    "announcements_page2:3b5153304f40a3f37fa2e56622844c469a2cb5466fb58848ba64e486b45ef5fe:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/announcements_page2_3b5153304f40a3f3.json",
+      "expected": "3b5153304f40a3f37fa2e56622844c469a2cb5466fb58848ba64e486b45ef5fe",
+      "actual": "3b5153304f40a3f37fa2e56622844c469a2cb5466fb58848ba64e486b45ef5fe",
+      "matches": true
+    },
+    "cninfo_announcements_page5:dc393d1118f5de6d567b1be099856132db6ac3b522d4cac14ebc9e17b267506c:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page5_dc393d1118f5de6d.json",
+      "expected": "dc393d1118f5de6d567b1be099856132db6ac3b522d4cac14ebc9e17b267506c",
+      "actual": "dc393d1118f5de6d567b1be099856132db6ac3b522d4cac14ebc9e17b267506c",
+      "matches": true
+    },
+    "cninfo_announcements_page4:c1a66d68608dcb8d40964047178742a26028ab710d9fed6a40eb1cedbed3be41:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page4_c1a66d68608dcb8d.json",
+      "expected": "c1a66d68608dcb8d40964047178742a26028ab710d9fed6a40eb1cedbed3be41",
+      "actual": "c1a66d68608dcb8d40964047178742a26028ab710d9fed6a40eb1cedbed3be41",
+      "matches": true
+    },
+    "announcements:4e6a559895df9061005987ec23f4d896817f06889ab588cf7f2cf1bb7e3d78a8:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/announcements_4e6a559895df9061.json",
+      "expected": "4e6a559895df9061005987ec23f4d896817f06889ab588cf7f2cf1bb7e3d78a8",
+      "actual": "4e6a559895df9061005987ec23f4d896817f06889ab588cf7f2cf1bb7e3d78a8",
+      "matches": true
+    },
+    "cninfo_announcements_page3:24dec11037adf138dffc3d412c49a47b7684903ccbd5caa1d172b502c3beb54a:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page3_24dec11037adf138.json",
+      "expected": "24dec11037adf138dffc3d412c49a47b7684903ccbd5caa1d172b502c3beb54a",
+      "actual": "24dec11037adf138dffc3d412c49a47b7684903ccbd5caa1d172b502c3beb54a",
+      "matches": true
+    },
+    "cninfo_announcements_page2:40e25a779ba69c068e5c1af7cdff59001984ad6a466c7d8df9e218a9eef01439:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page2_40e25a779ba69c06.json",
+      "expected": "40e25a779ba69c068e5c1af7cdff59001984ad6a466c7d8df9e218a9eef01439",
+      "actual": "40e25a779ba69c068e5c1af7cdff59001984ad6a466c7d8df9e218a9eef01439",
+      "matches": true
+    },
+    "cninfo_announcements_page1:3aff28546af64c1e7dcfbe05b3a7d84e8f0d0f3583896dc97f636aa8bdf534f6:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_announcements_page1_3aff28546af64c1e.json",
+      "expected": "3aff28546af64c1e7dcfbe05b3a7d84e8f0d0f3583896dc97f636aa8bdf534f6",
+      "actual": "3aff28546af64c1e7dcfbe05b3a7d84e8f0d0f3583896dc97f636aa8bdf534f6",
+      "matches": true
+    },
+    "cninfo_ir_page1:00c692455e26047c519288262056a73bee038ed25c91a33cbb613e541e7a8593:refresh-20261015-v1": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/raw/cninfo_ir_page1_00c692455e26047c.json",
+      "expected": "00c692455e26047c519288262056a73bee038ed25c91a33cbb613e541e7a8593",
+      "actual": "00c692455e26047c519288262056a73bee038ed25c91a33cbb613e541e7a8593",
+      "matches": true
+    }
+  },
+  "pdfs": {
+    "AN202301301582513430": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202301301582513430.pdf",
+      "expected": "0e70f00dc66e47e71bddc6254b2234cf6c37222456bab03cbfe2728429c5f141",
+      "actual": "0e70f00dc66e47e71bddc6254b2234cf6c37222456bab03cbfe2728429c5f141",
+      "matches": true
+    },
+    "AN202303081584126926": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202303081584126926.pdf",
+      "expected": "8cb8e9e867ad3c873292bfc0f0b9b639bb8e2a4712fccd3fe35072a5169e7c60",
+      "actual": "8cb8e9e867ad3c873292bfc0f0b9b639bb8e2a4712fccd3fe35072a5169e7c60",
+      "matches": true
+    },
+    "AN202303171584347441": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202303171584347441.pdf",
+      "expected": "fff4ac7182b3ae3a9bf28fb4b7edf5932b3c689158b68a7626f308ab98ffe67b",
+      "actual": "fff4ac7182b3ae3a9bf28fb4b7edf5932b3c689158b68a7626f308ab98ffe67b",
+      "matches": true
+    },
+    "AN202304051585157776": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304051585157776.pdf",
+      "expected": "348b1ad8cff56a5a353b41b63175862f6104dd6bbcda9299d87127ab5053a644",
+      "actual": "348b1ad8cff56a5a353b41b63175862f6104dd6bbcda9299d87127ab5053a644",
+      "matches": true
+    },
+    "AN202304101585255309": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304101585255309.pdf",
+      "expected": "34240f9f4aff0867059fca261bc3a8e3b7025c8f55e64e53db9f5c96020eb61e",
+      "actual": "34240f9f4aff0867059fca261bc3a8e3b7025c8f55e64e53db9f5c96020eb61e",
+      "matches": true
+    },
+    "AN202304191585591309": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591309.pdf",
+      "expected": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+      "actual": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+      "matches": true
+    },
+    "AN202304191585591293": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591293.pdf",
+      "expected": "ddf56e72977b287bd051fff35b3d5e8c62cb375c5b34361394b1b230e5811e0e",
+      "actual": "ddf56e72977b287bd051fff35b3d5e8c62cb375c5b34361394b1b230e5811e0e",
+      "matches": true
+    },
+    "AN202304191585591303": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591303.pdf",
+      "expected": "ac0c2c305feddcfda2759ef543d1b8ed90e21b299d96bcb591bce79233f48f50",
+      "actual": "ac0c2c305feddcfda2759ef543d1b8ed90e21b299d96bcb591bce79233f48f50",
+      "matches": true
+    },
+    "AN202304191585591302": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591302.pdf",
+      "expected": "55829fcd8049ba58b6a51b8cee161992e2d6651cc104bb9f89d6c61b1c4e65c8",
+      "actual": "55829fcd8049ba58b6a51b8cee161992e2d6651cc104bb9f89d6c61b1c4e65c8",
+      "matches": true
+    },
+    "AN202304191585591300": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591300.pdf",
+      "expected": "0fa3ba2a7881a1da6e8d4fbab36abb0a74acc6ec5afa1f41c1bcf8bfa3266f2a",
+      "actual": "0fa3ba2a7881a1da6e8d4fbab36abb0a74acc6ec5afa1f41c1bcf8bfa3266f2a",
+      "matches": true
+    },
+    "AN202304191585591317": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591317.pdf",
+      "expected": "50d50aa9dc2ab80a16ab4c5cdddb9bef7d5c9b6db087fd2dfbd7167c88c3edec",
+      "actual": "50d50aa9dc2ab80a16ab4c5cdddb9bef7d5c9b6db087fd2dfbd7167c88c3edec",
+      "matches": true
+    },
+    "AN202304191585591329": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591329.pdf",
+      "expected": "f4488378e6fdeb57f4e8da69c1c20a17ec315410a4e1dfb74a9ed74cce06a8d3",
+      "actual": "f4488378e6fdeb57f4e8da69c1c20a17ec315410a4e1dfb74a9ed74cce06a8d3",
+      "matches": true
+    },
+    "AN202304191585591316": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591316.pdf",
+      "expected": "50b2e3025d85bbaa07b66f1512ecc6ee67af6a48f435aa8ed030889a8bdaa6c5",
+      "actual": "50b2e3025d85bbaa07b66f1512ecc6ee67af6a48f435aa8ed030889a8bdaa6c5",
+      "matches": true
+    },
+    "AN202304191585591321": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591321.pdf",
+      "expected": "0e77c292911e2df946f4101a5f02de0ee2060ae54e0f4121705fd6027bc017c2",
+      "actual": "0e77c292911e2df946f4101a5f02de0ee2060ae54e0f4121705fd6027bc017c2",
+      "matches": true
+    },
+    "AN202304191585591301": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591301.pdf",
+      "expected": "6c37caf631e1de62c9cf8e99ed67fcd4cd46e81a1207843620b2685c2f749490",
+      "actual": "6c37caf631e1de62c9cf8e99ed67fcd4cd46e81a1207843620b2685c2f749490",
+      "matches": true
+    },
+    "AN202304191585591299": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591299.pdf",
+      "expected": "70802c124c580d6b2487372a13579da5682a0b45d53578612a104dbf6d40157a",
+      "actual": "70802c124c580d6b2487372a13579da5682a0b45d53578612a104dbf6d40157a",
+      "matches": true
+    },
+    "AN202304191585591327": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591327.pdf",
+      "expected": "0e34f561a731842e878e1017b7864e3715e986840de68d3d82f7adb204ac7d67",
+      "actual": "0e34f561a731842e878e1017b7864e3715e986840de68d3d82f7adb204ac7d67",
+      "matches": true
+    },
+    "AN202304191585591326": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591326.pdf",
+      "expected": "4d4be9bff3e763612085cf0285caf905091936d3e1c7000872400b11619f6af7",
+      "actual": "4d4be9bff3e763612085cf0285caf905091936d3e1c7000872400b11619f6af7",
+      "matches": true
+    },
+    "AN202304191585591314": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591314.pdf",
+      "expected": "e1ac5b69a3e72e2b7ce2ac5d0a86464748e46e5f15efe12a91e3d4f6043e6e41",
+      "actual": "e1ac5b69a3e72e2b7ce2ac5d0a86464748e46e5f15efe12a91e3d4f6043e6e41",
+      "matches": true
+    },
+    "AN202304191585591328": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591328.pdf",
+      "expected": "b1ccae1a9cdec1fd7468a97e16b39248e1152fc5c9c8cd9587b4aece8b6a7396",
+      "actual": "b1ccae1a9cdec1fd7468a97e16b39248e1152fc5c9c8cd9587b4aece8b6a7396",
+      "matches": true
+    },
+    "AN202304191585591295": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591295.pdf",
+      "expected": "06c9061a0c1e6d9949fac6155433a293f8e38eac17f6be2a773e1bd98f520c93",
+      "actual": "06c9061a0c1e6d9949fac6155433a293f8e38eac17f6be2a773e1bd98f520c93",
+      "matches": true
+    },
+    "AN202304191585591311": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591311.pdf",
+      "expected": "da4198eea73cb88a5b32049b12b7756b44a16cc54fad5305f49a8c8085c19436",
+      "actual": "da4198eea73cb88a5b32049b12b7756b44a16cc54fad5305f49a8c8085c19436",
+      "matches": true
+    },
+    "AN202304191585591320": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591320.pdf",
+      "expected": "8eb7d926d9fdce6dd1fc9c436705c8ea3e6a9a5988e5f61795fefc62918709f6",
+      "actual": "8eb7d926d9fdce6dd1fc9c436705c8ea3e6a9a5988e5f61795fefc62918709f6",
+      "matches": true
+    },
+    "AN202304191585591323": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591323.pdf",
+      "expected": "2cf3d818d000ebbcf43a56e625b3f324c89c3e42e4226404d56a24415841921e",
+      "actual": "2cf3d818d000ebbcf43a56e625b3f324c89c3e42e4226404d56a24415841921e",
+      "matches": true
+    },
+    "AN202304191585591304": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591304.pdf",
+      "expected": "40ddde95206dd71235291cf7b85b861a5c98527571036de018e157716655c2fc",
+      "actual": "40ddde95206dd71235291cf7b85b861a5c98527571036de018e157716655c2fc",
+      "matches": true
+    },
+    "AN202304191585591297": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591297.pdf",
+      "expected": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+      "actual": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+      "matches": true
+    },
+    "AN202304191585591319": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591319.pdf",
+      "expected": "e28f01d2862a49eaa3beccc61616b3812314645d345d3890c2e82dfae54cc8af",
+      "actual": "e28f01d2862a49eaa3beccc61616b3812314645d345d3890c2e82dfae54cc8af",
+      "matches": true
+    },
+    "AN202304191585591324": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591324.pdf",
+      "expected": "2f60fe2885e285a877be81d8714d26d7d502f25bb7bd51c723458e519fcf6a53",
+      "actual": "2f60fe2885e285a877be81d8714d26d7d502f25bb7bd51c723458e519fcf6a53",
+      "matches": true
+    },
+    "AN202304191585591315": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591315.pdf",
+      "expected": "26aa316935c68bfc382ac5b4cdebf07ea6ee9320b58cd6a1ee01709171686c10",
+      "actual": "26aa316935c68bfc382ac5b4cdebf07ea6ee9320b58cd6a1ee01709171686c10",
+      "matches": true
+    },
+    "AN202304191585591296": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591296.pdf",
+      "expected": "3c841fbe866d84fb4164b1d35effed7600e152cf0fc87e676a0aaa3bb8de957b",
+      "actual": "3c841fbe866d84fb4164b1d35effed7600e152cf0fc87e676a0aaa3bb8de957b",
+      "matches": true
+    },
+    "AN202304191585591305": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591305.pdf",
+      "expected": "a54d9e5314d431cded5bb1da2fd41dca2d146063cdd55f8cc0c50a570da8a532",
+      "actual": "a54d9e5314d431cded5bb1da2fd41dca2d146063cdd55f8cc0c50a570da8a532",
+      "matches": true
+    },
+    "AN202304191585591306": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591306.pdf",
+      "expected": "088963b9dab9c66e5ee2f51389f617aaf81a99d923f43e9dbb900869c560b633",
+      "actual": "088963b9dab9c66e5ee2f51389f617aaf81a99d923f43e9dbb900869c560b633",
+      "matches": true
+    },
+    "AN202304191585591313": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591313.pdf",
+      "expected": "15a65813c0021f56df5ff4c4a6ab7fed213aae33753dd131875bc4a1b892e5ce",
+      "actual": "15a65813c0021f56df5ff4c4a6ab7fed213aae33753dd131875bc4a1b892e5ce",
+      "matches": true
+    },
+    "AN202304191585591298": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591298.pdf",
+      "expected": "1e10ae4eed4a90fbeb4a584ee2559271b177add3142c10606e0eee7654aac8f4",
+      "actual": "1e10ae4eed4a90fbeb4a584ee2559271b177add3142c10606e0eee7654aac8f4",
+      "matches": true
+    },
+    "AN202304191585591307": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591307.pdf",
+      "expected": "2b8e6092749de8e30d988bb1278f94b61223f3df283c65737aad35bd183befb7",
+      "actual": "2b8e6092749de8e30d988bb1278f94b61223f3df283c65737aad35bd183befb7",
+      "matches": true
+    },
+    "AN202304191585591322": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591322.pdf",
+      "expected": "8fb79726e9d2935a1c588fae33b20d4c256073b188288bc1707b6406eb612a0e",
+      "actual": "8fb79726e9d2935a1c588fae33b20d4c256073b188288bc1707b6406eb612a0e",
+      "matches": true
+    },
+    "AN202304191585591308": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591308.pdf",
+      "expected": "9daed688b4ef2ccb0a6aac064a0d81be505aadebe4ffe1588c738b046a71b4f5",
+      "actual": "9daed688b4ef2ccb0a6aac064a0d81be505aadebe4ffe1588c738b046a71b4f5",
+      "matches": true
+    },
+    "AN202304191585591310": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591310.pdf",
+      "expected": "4da45a752a7ab7fae46c813462f66ddd32c3cc479af3b8dba13a3eb16bcb344c",
+      "actual": "4da45a752a7ab7fae46c813462f66ddd32c3cc479af3b8dba13a3eb16bcb344c",
+      "matches": true
+    },
+    "AN202304191585591294": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591294.pdf",
+      "expected": "976d287cfccd705bb9f2a2118f26505816a5f036e01109d898574a52fd8d96c1",
+      "actual": "976d287cfccd705bb9f2a2118f26505816a5f036e01109d898574a52fd8d96c1",
+      "matches": true
+    },
+    "AN202304191585591312": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591312.pdf",
+      "expected": "ef904190d8b5da5cbc3cc7c232955864522cfa4426a5c4d57df1d97b1e6f2bcd",
+      "actual": "ef904190d8b5da5cbc3cc7c232955864522cfa4426a5c4d57df1d97b1e6f2bcd",
+      "matches": true
+    },
+    "AN202304191585591325": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591325.pdf",
+      "expected": "630fbf91f3344e3ec48636fd7a2568db40c991705065a18faea7f44914185d02",
+      "actual": "630fbf91f3344e3ec48636fd7a2568db40c991705065a18faea7f44914185d02",
+      "matches": true
+    },
+    "AN202304191585591318": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304191585591318.pdf",
+      "expected": "b6e8ff47afa681408ffdabb60f8e4bad195e3eb66dd551945571abb4013b4025",
+      "actual": "b6e8ff47afa681408ffdabb60f8e4bad195e3eb66dd551945571abb4013b4025",
+      "matches": true
+    },
+    "AN202304271585966254": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304271585966254.pdf",
+      "expected": "5162585459362fb69ac0e05b4b9189cc3cd561ad622b2d1065258e76dae3ae29",
+      "actual": "5162585459362fb69ac0e05b4b9189cc3cd561ad622b2d1065258e76dae3ae29",
+      "matches": true
+    },
+    "AN202305081586365359": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305081586365359.pdf",
+      "expected": "b952c79d8b09960a67020a8ef495777f967e110dc5782d102a03f39d450c083a",
+      "actual": "b952c79d8b09960a67020a8ef495777f967e110dc5782d102a03f39d450c083a",
+      "matches": true
+    },
+    "AN202305081586365351": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305081586365351.pdf",
+      "expected": "de76938ebdade9c3e9597d7883f1f0606764777fed3fa804064311600c3cf39f",
+      "actual": "de76938ebdade9c3e9597d7883f1f0606764777fed3fa804064311600c3cf39f",
+      "matches": true
+    },
+    "AN202305081586365354": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305081586365354.pdf",
+      "expected": "a04fdb5ed214e4799699f5a0309d3df0adcba70183bf88b7ffa36d7f885df839",
+      "actual": "a04fdb5ed214e4799699f5a0309d3df0adcba70183bf88b7ffa36d7f885df839",
+      "matches": true
+    },
+    "AN202305081586365343": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305081586365343.pdf",
+      "expected": "7ca6bbe0c82a34915ede32c7489d9c92f915a696cc93fd4b46ecb7fca5befb23",
+      "actual": "7ca6bbe0c82a34915ede32c7489d9c92f915a696cc93fd4b46ecb7fca5befb23",
+      "matches": true
+    },
+    "AN202305161586693421": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305161586693421.pdf",
+      "expected": "c543365645053e7cc0794d247a2c30833621208cfe52544abcc241f04bad7e25",
+      "actual": "c543365645053e7cc0794d247a2c30833621208cfe52544abcc241f04bad7e25",
+      "matches": true
+    },
+    "AN202305161586693426": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305161586693426.pdf",
+      "expected": "8abfcbb608129a65e5404277b8a01de354db25ccda9f8aa4c974480ac21af30c",
+      "actual": "8abfcbb608129a65e5404277b8a01de354db25ccda9f8aa4c974480ac21af30c",
+      "matches": true
+    },
+    "AN202305161586693422": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305161586693422.pdf",
+      "expected": "e45c03ca46126862810cc7483aa86a432fa668fbe89728659d722ba8249d9ff4",
+      "actual": "e45c03ca46126862810cc7483aa86a432fa668fbe89728659d722ba8249d9ff4",
+      "matches": true
+    },
+    "AN202305161586693413": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305161586693413.pdf",
+      "expected": "1d4091bdb633efeac8e21a30822f3cc8c080b95bafbdff5a9100f1bf4396db8d",
+      "actual": "1d4091bdb633efeac8e21a30822f3cc8c080b95bafbdff5a9100f1bf4396db8d",
+      "matches": true
+    },
+    "AN202305161586693201": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305161586693201.pdf",
+      "expected": "88f7c0606a1251385b21bd5cdfbcac4a9e0feb79abe3a277f5423c918ee5557e",
+      "actual": "88f7c0606a1251385b21bd5cdfbcac4a9e0feb79abe3a277f5423c918ee5557e",
+      "matches": true
+    },
+    "AN202305161586693423": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305161586693423.pdf",
+      "expected": "370c6321d7edcb994695a14b2bcffb9dec99e4e39810f0d1b5ce1994a112d158",
+      "actual": "370c6321d7edcb994695a14b2bcffb9dec99e4e39810f0d1b5ce1994a112d158",
+      "matches": true
+    },
+    "AN202305311587391829": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305311587391829.pdf",
+      "expected": "45788eb097f338d9dfedcca6240087819657c77f8c944f8ca52bf9aa033e6673",
+      "actual": "45788eb097f338d9dfedcca6240087819657c77f8c944f8ca52bf9aa033e6673",
+      "matches": true
+    },
+    "AN202305311587391858": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202305311587391858.pdf",
+      "expected": "5fe6d557bc2fdbafb6fcfacfe95aaca47b63763038d86d2f63a3de3c2873cbec",
+      "actual": "5fe6d557bc2fdbafb6fcfacfe95aaca47b63763038d86d2f63a3de3c2873cbec",
+      "matches": true
+    },
+    "AN202306121590866740": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306121590866740.pdf",
+      "expected": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "actual": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+      "matches": true
+    },
+    "AN202306281591781833": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306281591781833.pdf",
+      "expected": "3dd85e1388d98113818972b998acfa025e67cd0cf86e24b67ec10f1b50c8df63",
+      "actual": "3dd85e1388d98113818972b998acfa025e67cd0cf86e24b67ec10f1b50c8df63",
+      "matches": true
+    },
+    "AN202306291591878981": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202306291591878981.pdf",
+      "expected": "088576ee0d8f629c8f5a4466a7de13ece08ecc72840d7298e884aa51a8e9eb60",
+      "actual": "088576ee0d8f629c8f5a4466a7de13ece08ecc72840d7298e884aa51a8e9eb60",
+      "matches": true
+    },
+    "AN202307261592665773": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202307261592665773.pdf",
+      "expected": "dba63e9df7a74f44d4df1e7d6379fc5ab4745ea9c7921f2083ef7983df66b54d",
+      "actual": "dba63e9df7a74f44d4df1e7d6379fc5ab4745ea9c7921f2083ef7983df66b54d",
+      "matches": true
+    },
+    "AN202308011593007477": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308011593007477.pdf",
+      "expected": "c46523dfb27647425db173639df0b6eb4858f9bfeb83ba5a65ef43477f0cb92d",
+      "actual": "c46523dfb27647425db173639df0b6eb4858f9bfeb83ba5a65ef43477f0cb92d",
+      "matches": true
+    },
+    "AN202308041593317831": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308041593317831.pdf",
+      "expected": "4bcbc2191403b5277f0e3450ecdf6a375c2756cdd5704a5ac5ff4418103f2e8b",
+      "actual": "4bcbc2191403b5277f0e3450ecdf6a375c2756cdd5704a5ac5ff4418103f2e8b",
+      "matches": true
+    },
+    "AN202308301596833781": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833781.pdf",
+      "expected": "72419dd658ee7cf248b29d797bd90e2a9e9b463a73f105ed08384244136c6d65",
+      "actual": "72419dd658ee7cf248b29d797bd90e2a9e9b463a73f105ed08384244136c6d65",
+      "matches": true
+    },
+    "AN202308301596833817": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833817.pdf",
+      "expected": "6c45d1b4cd53db8e2e62e5c5c7e028abba1bbc5a76fa8d8c74da7c70c468f9a5",
+      "actual": "6c45d1b4cd53db8e2e62e5c5c7e028abba1bbc5a76fa8d8c74da7c70c468f9a5",
+      "matches": true
+    },
+    "AN202308301596833812": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833812.pdf",
+      "expected": "054cff52b2ed983047b18b9f93e0ef16adcabb0aed67a38b6b07e201092182ba",
+      "actual": "054cff52b2ed983047b18b9f93e0ef16adcabb0aed67a38b6b07e201092182ba",
+      "matches": true
+    },
+    "AN202308301596833815": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833815.pdf",
+      "expected": "751b9e2f2ea40d19b3082b48f945ce2af3395bfeed12a573004674c03ae8e515",
+      "actual": "751b9e2f2ea40d19b3082b48f945ce2af3395bfeed12a573004674c03ae8e515",
+      "matches": true
+    },
+    "AN202308301596833804": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833804.pdf",
+      "expected": "854d11a26ac8737bff50871fdf5f7bce4b3f39951f3515402b2fc983c1582145",
+      "actual": "854d11a26ac8737bff50871fdf5f7bce4b3f39951f3515402b2fc983c1582145",
+      "matches": true
+    },
+    "AN202308301596833823": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833823.pdf",
+      "expected": "4b83801d9c1f9aaca95fca049b5ea3a3fe7ef8ae980f23068016766b5c76bc9b",
+      "actual": "4b83801d9c1f9aaca95fca049b5ea3a3fe7ef8ae980f23068016766b5c76bc9b",
+      "matches": true
+    },
+    "AN202308301596833818": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833818.pdf",
+      "expected": "4b1b8fcc63d4e517bc7a812e90ef2961d3cf792181c94035af4420e7d9d98386",
+      "actual": "4b1b8fcc63d4e517bc7a812e90ef2961d3cf792181c94035af4420e7d9d98386",
+      "matches": true
+    },
+    "AN202308301596833777": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833777.pdf",
+      "expected": "8ad3b0a7b046c25fea93bcef361d5fbb56b37df2e97ac34b964218f7d68b18b9",
+      "actual": "8ad3b0a7b046c25fea93bcef361d5fbb56b37df2e97ac34b964218f7d68b18b9",
+      "matches": true
+    },
+    "AN202308301596833805": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833805.pdf",
+      "expected": "e228cb7ef866f498e09dedac88f6aff8ce23ac889ac7302a56752a6cefe0aeee",
+      "actual": "e228cb7ef866f498e09dedac88f6aff8ce23ac889ac7302a56752a6cefe0aeee",
+      "matches": true
+    },
+    "AN202308301596833813": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202308301596833813.pdf",
+      "expected": "b9b945b6156010da078fc6e308e1daed8bcdc6d744d1810d9d93ba5a8430ce4f",
+      "actual": "b9b945b6156010da078fc6e308e1daed8bcdc6d744d1810d9d93ba5a8430ce4f",
+      "matches": true
+    },
+    "AN202310311607042709": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202310311607042709.pdf",
+      "expected": "4431b9addd8280e0f080394ab132898716ec10cc21880d279c3d942dfeab1356",
+      "actual": "4431b9addd8280e0f080394ab132898716ec10cc21880d279c3d942dfeab1356",
+      "matches": true
+    },
+    "AN202310311607042704": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202310311607042704.pdf",
+      "expected": "7b336c06ad488675317bacad512ee96119f7daa9bfb0d7a5b001b72bb7567849",
+      "actual": "7b336c06ad488675317bacad512ee96119f7daa9bfb0d7a5b001b72bb7567849",
+      "matches": true
+    },
+    "AN202310311607042705": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202310311607042705.pdf",
+      "expected": "087d09f7f9ab7c4c03d76314698ccdb17233415874200e63e32aba924a48ec9d",
+      "actual": "087d09f7f9ab7c4c03d76314698ccdb17233415874200e63e32aba924a48ec9d",
+      "matches": true
+    },
+    "AN202312251614896317": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202312251614896317.pdf",
+      "expected": "1b1d7b27fcfe9806ac56548da2d40f4047f39cb89740095621788fede1cdec4e",
+      "actual": "1b1d7b27fcfe9806ac56548da2d40f4047f39cb89740095621788fede1cdec4e",
+      "matches": true
+    },
+    "AN202312251614896313": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202312251614896313.pdf",
+      "expected": "65ced15e96a1aff86ff0b1c57202f97f823b3ee6eb1c47276a69c1a0f1457ef3",
+      "actual": "65ced15e96a1aff86ff0b1c57202f97f823b3ee6eb1c47276a69c1a0f1457ef3",
+      "matches": true
+    },
+    "AN202312271615021086": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202312271615021086.pdf",
+      "expected": "8411a964d7d167b7c64104d41da5e4299e4253fd1088b6e3802cde6b3000329c",
+      "actual": "8411a964d7d167b7c64104d41da5e4299e4253fd1088b6e3802cde6b3000329c",
+      "matches": true
+    },
+    "AN202312281615153661": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202312281615153661.pdf",
+      "expected": "293329b29efe237a1fb0925c33371c2d26810d387d9aa0000d106ab6a1afac32",
+      "actual": "293329b29efe237a1fb0925c33371c2d26810d387d9aa0000d106ab6a1afac32",
+      "matches": true
+    },
+    "AN202401301619520386": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202401301619520386.pdf",
+      "expected": "591a6051d2fe3344d8707b6ff17d3bf93fdab52acc3b7003cfacf0c93ea64fe6",
+      "actual": "591a6051d2fe3344d8707b6ff17d3bf93fdab52acc3b7003cfacf0c93ea64fe6",
+      "matches": true
+    },
+    "AN202401311619797949": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202401311619797949.pdf",
+      "expected": "d6c5598d644d5d748e9260e42368224037595551a1b7961f986bb906310e1253",
+      "actual": "d6c5598d644d5d748e9260e42368224037595551a1b7961f986bb906310e1253",
+      "matches": true
+    },
+    "AN202403121626459755": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202403121626459755.pdf",
+      "expected": "dcd5a6c3027696234a6725fd2fce8956b72dc01d0781dd11b023f196a25e10b1",
+      "actual": "dcd5a6c3027696234a6725fd2fce8956b72dc01d0781dd11b023f196a25e10b1",
+      "matches": true
+    },
+    "AN202403151626832575": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202403151626832575.pdf",
+      "expected": "1396fe66b96752ff6da773a2044878604a6fecf6eea560e54e04f29651c1b5fa",
+      "actual": "1396fe66b96752ff6da773a2044878604a6fecf6eea560e54e04f29651c1b5fa",
+      "matches": true
+    },
+    "AN202403181626972067": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202403181626972067.pdf",
+      "expected": "b38de4be0cadb71cc02db8bcb02313dcabfac71911bcd2edca4f92b6a3108709",
+      "actual": "b38de4be0cadb71cc02db8bcb02313dcabfac71911bcd2edca4f92b6a3108709",
+      "matches": true
+    },
+    "AN202404151630235969": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235969.pdf",
+      "expected": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+      "actual": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+      "matches": true
+    },
+    "AN202404151630235965": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235965.pdf",
+      "expected": "72f185fd9dda8e80deb02fa6df1dac60b04b9aae05508feb7f65270feaa3007b",
+      "actual": "72f185fd9dda8e80deb02fa6df1dac60b04b9aae05508feb7f65270feaa3007b",
+      "matches": true
+    },
+    "AN202404151630235973": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235973.pdf",
+      "expected": "cca04b45ca05db3d132fe9ce863fa29a58d6090f9a7da0372dcd333241597208",
+      "actual": "cca04b45ca05db3d132fe9ce863fa29a58d6090f9a7da0372dcd333241597208",
+      "matches": true
+    },
+    "AN202404151630235967": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235967.pdf",
+      "expected": "22be80850bb4f1b85d64bf12de131cdd00858ac7fd083751120090c2dfadff25",
+      "actual": "22be80850bb4f1b85d64bf12de131cdd00858ac7fd083751120090c2dfadff25",
+      "matches": true
+    },
+    "AN202404151630235981": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235981.pdf",
+      "expected": "acf0d28d01f97a6d045cccfc70a0a9344ba7e3b2bcc9f63e08e1fe5261d6ba64",
+      "actual": "acf0d28d01f97a6d045cccfc70a0a9344ba7e3b2bcc9f63e08e1fe5261d6ba64",
+      "matches": true
+    },
+    "AN202404151630236055": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236055.pdf",
+      "expected": "1df122303f6d442d777f59783bd3f52b72391f6f8310c23ec5e961b64883fd0a",
+      "actual": "1df122303f6d442d777f59783bd3f52b72391f6f8310c23ec5e961b64883fd0a",
+      "matches": true
+    },
+    "AN202404151630235900": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235900.pdf",
+      "expected": "7a38c78bf98f507daae981f35a4dd4c5b6ec1ec718512fd955b28857093b84c4",
+      "actual": "7a38c78bf98f507daae981f35a4dd4c5b6ec1ec718512fd955b28857093b84c4",
+      "matches": true
+    },
+    "AN202404151630235983": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235983.pdf",
+      "expected": "8bfca1645b33fd304052bdaa525c7ef1be32d1d5068a5a67a8648a7c19309d35",
+      "actual": "8bfca1645b33fd304052bdaa525c7ef1be32d1d5068a5a67a8648a7c19309d35",
+      "matches": true
+    },
+    "AN202404151630235971": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235971.pdf",
+      "expected": "9c4061b8e2a96c265583f53d9803e1f6784b467e7be0cd00e30558c9f6c6d9ed",
+      "actual": "9c4061b8e2a96c265583f53d9803e1f6784b467e7be0cd00e30558c9f6c6d9ed",
+      "matches": true
+    },
+    "AN202404151630235968": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235968.pdf",
+      "expected": "b426ba7cf7b7ba7fdf52e15e35ce7a6d9d9beeaa289ac85c51b73b3ddcce7b43",
+      "actual": "b426ba7cf7b7ba7fdf52e15e35ce7a6d9d9beeaa289ac85c51b73b3ddcce7b43",
+      "matches": true
+    },
+    "AN202404151630235992": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235992.pdf",
+      "expected": "df3ee51746dd3b73a44aaa90ee34c2c8758207720753802df466d5deab45738e",
+      "actual": "df3ee51746dd3b73a44aaa90ee34c2c8758207720753802df466d5deab45738e",
+      "matches": true
+    },
+    "AN202404151630235997": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235997.pdf",
+      "expected": "9bab6f34713779c08414244a6bd049d3d0f15a5e23298939d19c84058037a573",
+      "actual": "9bab6f34713779c08414244a6bd049d3d0f15a5e23298939d19c84058037a573",
+      "matches": true
+    },
+    "AN202404151630235986": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235986.pdf",
+      "expected": "acd0910573233fb053a5ab20c69cc627410874e33bc42804006000632492832f",
+      "actual": "acd0910573233fb053a5ab20c69cc627410874e33bc42804006000632492832f",
+      "matches": true
+    },
+    "AN202404151630236051": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236051.pdf",
+      "expected": "6ea221f3c668d359143e3a57b1cce301a4f47e7932142054b1397804ab8f6c10",
+      "actual": "6ea221f3c668d359143e3a57b1cce301a4f47e7932142054b1397804ab8f6c10",
+      "matches": true
+    },
+    "AN202404151630236046": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236046.pdf",
+      "expected": "d5250fcd301cd501b48cd0dd20d10b4cc6194fb4b3261e916e421b41b17ed834",
+      "actual": "d5250fcd301cd501b48cd0dd20d10b4cc6194fb4b3261e916e421b41b17ed834",
+      "matches": true
+    },
+    "AN202404151630235966": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235966.pdf",
+      "expected": "6534306599a3a95260441d60284eab178cbd9a514885c43dfadddd674e2b82ba",
+      "actual": "6534306599a3a95260441d60284eab178cbd9a514885c43dfadddd674e2b82ba",
+      "matches": true
+    },
+    "AN202404151630235972": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235972.pdf",
+      "expected": "d0dd2e10fdb8a966803e524df5535eadca089185f182a379ef0ee0e2a106aa0c",
+      "actual": "d0dd2e10fdb8a966803e524df5535eadca089185f182a379ef0ee0e2a106aa0c",
+      "matches": true
+    },
+    "AN202404151630235989": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235989.pdf",
+      "expected": "4509a2b2417d392cadf0e6904cbedaa25a6e477f5139b34542b5d99e7c4fd500",
+      "actual": "4509a2b2417d392cadf0e6904cbedaa25a6e477f5139b34542b5d99e7c4fd500",
+      "matches": true
+    },
+    "AN202404151630235964": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235964.pdf",
+      "expected": "f3d14f30b1edd3d6b304b0e38821eba734872e53f2dc07a2ffbb9b562f6a3500",
+      "actual": "f3d14f30b1edd3d6b304b0e38821eba734872e53f2dc07a2ffbb9b562f6a3500",
+      "matches": true
+    },
+    "AN202404151630235902": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235902.pdf",
+      "expected": "b74357d965f3140afe927593f54552c6fa7d7317f26e9ab4c6a85366b387f4c1",
+      "actual": "b74357d965f3140afe927593f54552c6fa7d7317f26e9ab4c6a85366b387f4c1",
+      "matches": true
+    },
+    "AN202404151630236047": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236047.pdf",
+      "expected": "aeed8b08d895947aa4871dfe1a02b4ab40d8065e598508f12b5d85bce9400b40",
+      "actual": "aeed8b08d895947aa4871dfe1a02b4ab40d8065e598508f12b5d85bce9400b40",
+      "matches": true
+    },
+    "AN202404151630235991": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235991.pdf",
+      "expected": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+      "actual": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+      "matches": true
+    },
+    "AN202404151630235977": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235977.pdf",
+      "expected": "200ca72bc7476b15dbca78fb2844baa6d67ddcfd5a293d91b2bd91453f94ffcb",
+      "actual": "200ca72bc7476b15dbca78fb2844baa6d67ddcfd5a293d91b2bd91453f94ffcb",
+      "matches": true
+    },
+    "AN202404151630235984": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235984.pdf",
+      "expected": "f5ab0151b73cb05c7c6e27c804a33358cc0d786b6e1ab66020848f06f6aa756c",
+      "actual": "f5ab0151b73cb05c7c6e27c804a33358cc0d786b6e1ab66020848f06f6aa756c",
+      "matches": true
+    },
+    "AN202404151630235982": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235982.pdf",
+      "expected": "8155684e256de47fea793caf5d8a85a0c92de272d20ad209fd606d971358b506",
+      "actual": "8155684e256de47fea793caf5d8a85a0c92de272d20ad209fd606d971358b506",
+      "matches": true
+    },
+    "AN202404151630235985": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235985.pdf",
+      "expected": "79e6a5a674bf54e1895226e98b4730d496a560b05d13fa59a9235d8a85597b8b",
+      "actual": "79e6a5a674bf54e1895226e98b4730d496a560b05d13fa59a9235d8a85597b8b",
+      "matches": true
+    },
+    "AN202404151630235993": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235993.pdf",
+      "expected": "fd4e7b1d1c17528fd9fe8de3052c3e790676d20943d463fed35cce52880cecb1",
+      "actual": "fd4e7b1d1c17528fd9fe8de3052c3e790676d20943d463fed35cce52880cecb1",
+      "matches": true
+    },
+    "AN202404151630235995": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235995.pdf",
+      "expected": "c57016638bb4cf19c586d3a005659caa57b93867bd437aed6bae95058117d728",
+      "actual": "c57016638bb4cf19c586d3a005659caa57b93867bd437aed6bae95058117d728",
+      "matches": true
+    },
+    "AN202404151630235970": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235970.pdf",
+      "expected": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+      "actual": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+      "matches": true
+    },
+    "AN202404151630235979": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235979.pdf",
+      "expected": "d3bf86cadf218a7d8bdd7640ec188d0f1db4718d15bc584b691c5c0e3afad982",
+      "actual": "d3bf86cadf218a7d8bdd7640ec188d0f1db4718d15bc584b691c5c0e3afad982",
+      "matches": true
+    },
+    "AN202404151630235994": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235994.pdf",
+      "expected": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+      "actual": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+      "matches": true
+    },
+    "AN202404151630236045": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236045.pdf",
+      "expected": "403e2497c31efa417182b3d45fd1fdd6bc9ae2a0355c0a422f8ee3a64e2f1c89",
+      "actual": "403e2497c31efa417182b3d45fd1fdd6bc9ae2a0355c0a422f8ee3a64e2f1c89",
+      "matches": true
+    },
+    "AN202404151630235996": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235996.pdf",
+      "expected": "259dd2e0edf4cd25b3be5269c9a7ab48618ff8f6362a35d6171c5455bc52f7f4",
+      "actual": "259dd2e0edf4cd25b3be5269c9a7ab48618ff8f6362a35d6171c5455bc52f7f4",
+      "matches": true
+    },
+    "AN202404151630235903": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235903.pdf",
+      "expected": "7570cdfa067b575786c5aaee5c911db112116cf94b1b7e0df1d475c8834c25e8",
+      "actual": "7570cdfa067b575786c5aaee5c911db112116cf94b1b7e0df1d475c8834c25e8",
+      "matches": true
+    },
+    "AN202404151630236048": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236048.pdf",
+      "expected": "24d34e503273b777ee2c6a2e17c2d5c5ba8b0edabcf036e264c8cebbd0d2bf6d",
+      "actual": "24d34e503273b777ee2c6a2e17c2d5c5ba8b0edabcf036e264c8cebbd0d2bf6d",
+      "matches": true
+    },
+    "AN202404151630235904": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235904.pdf",
+      "expected": "9c6ba9b7f6229867330adc982ac8cdf7bd91269ddff5b58e22135125002feebb",
+      "actual": "9c6ba9b7f6229867330adc982ac8cdf7bd91269ddff5b58e22135125002feebb",
+      "matches": true
+    },
+    "AN202404151630235975": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235975.pdf",
+      "expected": "43f80ef21c6382a26b73434108a128615640871a4d00a87be2efcc07058354de",
+      "actual": "43f80ef21c6382a26b73434108a128615640871a4d00a87be2efcc07058354de",
+      "matches": true
+    },
+    "AN202404151630235980": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235980.pdf",
+      "expected": "8cd850e874f8037b475720bf2a1aa39f76d65ecd5ca7234a89a080c519451acf",
+      "actual": "8cd850e874f8037b475720bf2a1aa39f76d65ecd5ca7234a89a080c519451acf",
+      "matches": true
+    },
+    "AN202404151630235998": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235998.pdf",
+      "expected": "7370472c45d0d44dbb5477ba921742d97f030c43502431d6e5f7fff5ea19b4a3",
+      "actual": "7370472c45d0d44dbb5477ba921742d97f030c43502431d6e5f7fff5ea19b4a3",
+      "matches": true
+    },
+    "AN202404151630235976": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235976.pdf",
+      "expected": "5047ba4121c8c495ddb2b8e14863766cf0683d10ad35f545ca11754913d814f1",
+      "actual": "5047ba4121c8c495ddb2b8e14863766cf0683d10ad35f545ca11754913d814f1",
+      "matches": true
+    },
+    "AN202404151630236049": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236049.pdf",
+      "expected": "dbf19ee5dd5659b44c56e9a8dba8c90867683473846adf88a58d81ba239af402",
+      "actual": "dbf19ee5dd5659b44c56e9a8dba8c90867683473846adf88a58d81ba239af402",
+      "matches": true
+    },
+    "AN202404151630235974": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235974.pdf",
+      "expected": "be08e981230f8e9c2aa131edd859965d6833af7ad10abb22b110bbcc3b512df8",
+      "actual": "be08e981230f8e9c2aa131edd859965d6833af7ad10abb22b110bbcc3b512df8",
+      "matches": true
+    },
+    "AN202404151630236054": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236054.pdf",
+      "expected": "2845debba17f8f4db875efbd82838488d923afafc8a2cf286b5a44c4bd7fc4bd",
+      "actual": "2845debba17f8f4db875efbd82838488d923afafc8a2cf286b5a44c4bd7fc4bd",
+      "matches": true
+    },
+    "AN202404151630235990": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235990.pdf",
+      "expected": "2bfc9469d64c8d53e40ad5e0d1fc595c6a5644d85b80035208e1e2cdb47a8990",
+      "actual": "2bfc9469d64c8d53e40ad5e0d1fc595c6a5644d85b80035208e1e2cdb47a8990",
+      "matches": true
+    },
+    "AN202404151630235987": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235987.pdf",
+      "expected": "7e6c0b45c91fb43ceaab88d860bba127fbc0018b67c673613623781146388474",
+      "actual": "7e6c0b45c91fb43ceaab88d860bba127fbc0018b67c673613623781146388474",
+      "matches": true
+    },
+    "AN202404151630236050": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236050.pdf",
+      "expected": "05687397464b23c537f2046dd1a4ffc4a006184debc0e5ca341ab186efa9996f",
+      "actual": "05687397464b23c537f2046dd1a4ffc4a006184debc0e5ca341ab186efa9996f",
+      "matches": true
+    },
+    "AN202404151630235978": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235978.pdf",
+      "expected": "8b3de40b494d7b2394eccd81b54942e2d72ce0d236dc9eca0acbbcca94f36456",
+      "actual": "8b3de40b494d7b2394eccd81b54942e2d72ce0d236dc9eca0acbbcca94f36456",
+      "matches": true
+    },
+    "AN202404151630235988": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235988.pdf",
+      "expected": "ae3b47ef6a84e70fa5d0405aee28cd129587e8cb490f34d30b87d26b34a67978",
+      "actual": "ae3b47ef6a84e70fa5d0405aee28cd129587e8cb490f34d30b87d26b34a67978",
+      "matches": true
+    },
+    "AN202404151630236052": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236052.pdf",
+      "expected": "4eea61c17874a5b67d9ab080b1537d6168c3a0695c8b8b0facd3d2c916ad15af",
+      "actual": "4eea61c17874a5b67d9ab080b1537d6168c3a0695c8b8b0facd3d2c916ad15af",
+      "matches": true
+    },
+    "AN202404151630235901": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630235901.pdf",
+      "expected": "fa756f9725d80c43056253599c33cbf19aa15c2756887fc69d065e293c48044e",
+      "actual": "fa756f9725d80c43056253599c33cbf19aa15c2756887fc69d065e293c48044e",
+      "matches": true
+    },
+    "AN202404151630236053": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404151630236053.pdf",
+      "expected": "ef0c4c9757ce15a943c48967575a7ce5dad919b2e1ee497dc03abe79b1f48af0",
+      "actual": "ef0c4c9757ce15a943c48967575a7ce5dad919b2e1ee497dc03abe79b1f48af0",
+      "matches": true
+    },
+    "AN202404261631393985": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404261631393985.pdf",
+      "expected": "1123b58f19fb1b22ed8762af57b7201cbde6b77aa2aad2b0967b48883a3e78a3",
+      "actual": "1123b58f19fb1b22ed8762af57b7201cbde6b77aa2aad2b0967b48883a3e78a3",
+      "matches": true
+    },
+    "AN202405091632772084": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405091632772084.pdf",
+      "expected": "b9f895b48fe4a9c3affacbb9efb764487278b6bd6546a75708c4e219e772e2c1",
+      "actual": "b9f895b48fe4a9c3affacbb9efb764487278b6bd6546a75708c4e219e772e2c1",
+      "matches": true
+    },
+    "AN202405091632772072": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405091632772072.pdf",
+      "expected": "261402c4a305168edf09e774a604d669ae82bc2a9704a7b3e723e15c1584aac7",
+      "actual": "261402c4a305168edf09e774a604d669ae82bc2a9704a7b3e723e15c1584aac7",
+      "matches": true
+    },
+    "AN202405091632772085": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405091632772085.pdf",
+      "expected": "82b7f6990e5c8c0b465e4f63124a16862ac508cd6ec2c6cb67ca2e181878853e",
+      "actual": "82b7f6990e5c8c0b465e4f63124a16862ac508cd6ec2c6cb67ca2e181878853e",
+      "matches": true
+    },
+    "AN202405151633180433": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405151633180433.pdf",
+      "expected": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+      "actual": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+      "matches": true
+    },
+    "AN202405151633180432": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202405151633180432.pdf",
+      "expected": "7869630fe1abb880c0a4ce202923b9bf7fb9af86623be96ec96aeda3e92d3f50",
+      "actual": "7869630fe1abb880c0a4ce202923b9bf7fb9af86623be96ec96aeda3e92d3f50",
+      "matches": true
+    },
+    "AN202407031637509495": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202407031637509495.pdf",
+      "expected": "a05e75ba563d77ca957d41d7c84055452299a5bae3dc87bf05298285fe763aa6",
+      "actual": "a05e75ba563d77ca957d41d7c84055452299a5bae3dc87bf05298285fe763aa6",
+      "matches": true
+    },
+    "AN202407091637720625": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202407091637720625.pdf",
+      "expected": "5b88bb3b474f12d834a332ebff162a95c768cc62dbb1303627ce31a90b804826",
+      "actual": "5b88bb3b474f12d834a332ebff162a95c768cc62dbb1303627ce31a90b804826",
+      "matches": true
+    },
+    "AN202408021639121129": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408021639121129.pdf",
+      "expected": "80f5da1f038fab2cd70d238cb1f812c39ffa599c91a8eddbfb7ef50bb646ea21",
+      "actual": "80f5da1f038fab2cd70d238cb1f812c39ffa599c91a8eddbfb7ef50bb646ea21",
+      "matches": true
+    },
+    "AN202408061639162000": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408061639162000.pdf",
+      "expected": "ac5dea956e91d11c033ec577a2d6160349802ea908c8041bd8fc0ab99e202196",
+      "actual": "ac5dea956e91d11c033ec577a2d6160349802ea908c8041bd8fc0ab99e202196",
+      "matches": true
+    },
+    "AN202408161639309365": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408161639309365.pdf",
+      "expected": "4c7e12b8e7adffe01e6732e623e7e9a68d91c44166df9f7300c9c22ffd47a969",
+      "actual": "4c7e12b8e7adffe01e6732e623e7e9a68d91c44166df9f7300c9c22ffd47a969",
+      "matches": true
+    },
+    "AN202408261639461683": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461683.pdf",
+      "expected": "b54ee5d289e5ab956a366a542a8f7214c9e1e076f22bfbc66d2b0619d01dea43",
+      "actual": "b54ee5d289e5ab956a366a542a8f7214c9e1e076f22bfbc66d2b0619d01dea43",
+      "matches": true
+    },
+    "AN202408261639461647": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461647.pdf",
+      "expected": "32178d4503dbf84ad8df271f4ca0fdcac79a0c2ba8b5b32645f773cdb5f887ad",
+      "actual": "32178d4503dbf84ad8df271f4ca0fdcac79a0c2ba8b5b32645f773cdb5f887ad",
+      "matches": true
+    },
+    "AN202408261639461663": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461663.pdf",
+      "expected": "0cad003f636abf6a0875fe22ff0fe0ed9c624bbc347e7d835a0596599ecfcf03",
+      "actual": "0cad003f636abf6a0875fe22ff0fe0ed9c624bbc347e7d835a0596599ecfcf03",
+      "matches": true
+    },
+    "AN202408261639461688": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461688.pdf",
+      "expected": "242669ebbbdcab9a760b05d89fd24e080b837c705a59ebb346a8592974bea2e6",
+      "actual": "242669ebbbdcab9a760b05d89fd24e080b837c705a59ebb346a8592974bea2e6",
+      "matches": true
+    },
+    "AN202408261639461674": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461674.pdf",
+      "expected": "5b6e78868008534d7982dc4dfb65f8ce74f958227b10d729d619134bda0cccb3",
+      "actual": "5b6e78868008534d7982dc4dfb65f8ce74f958227b10d729d619134bda0cccb3",
+      "matches": true
+    },
+    "AN202408261639461656": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461656.pdf",
+      "expected": "4bb7aa0db3c1f062632435d7a4cc241b280cd03813b446fa4d7ee8b5db5b9ddd",
+      "actual": "4bb7aa0db3c1f062632435d7a4cc241b280cd03813b446fa4d7ee8b5db5b9ddd",
+      "matches": true
+    },
+    "AN202408261639461679": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461679.pdf",
+      "expected": "88075bb23d26cde714fd945a99f56fc0d585f1305644753c956c5bb143109019",
+      "actual": "88075bb23d26cde714fd945a99f56fc0d585f1305644753c956c5bb143109019",
+      "matches": true
+    },
+    "AN202408261639461668": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461668.pdf",
+      "expected": "2eb05730b35fb6f74d51f70a1d07b54f02fd9561b2273d5aa14b482cb0cfa0ad",
+      "actual": "2eb05730b35fb6f74d51f70a1d07b54f02fd9561b2273d5aa14b482cb0cfa0ad",
+      "matches": true
+    },
+    "AN202408261639461687": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461687.pdf",
+      "expected": "816a1d92f496ee3b48464e3b3c066e1f67557d4284b5fbe9d01663a40fbe5f71",
+      "actual": "816a1d92f496ee3b48464e3b3c066e1f67557d4284b5fbe9d01663a40fbe5f71",
+      "matches": true
+    },
+    "AN202408261639461654": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202408261639461654.pdf",
+      "expected": "862faab9450d90e13dbf158574c48ad803328495f6fd34d3745bbb64cf040368",
+      "actual": "862faab9450d90e13dbf158574c48ad803328495f6fd34d3745bbb64cf040368",
+      "matches": true
+    },
+    "AN202409181639923892": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202409181639923892.pdf",
+      "expected": "9b69300d1ca41f9dfb2ff248fb7182f1cef8ee7c61f3435542a3214eb26a54a7",
+      "actual": "9b69300d1ca41f9dfb2ff248fb7182f1cef8ee7c61f3435542a3214eb26a54a7",
+      "matches": true
+    },
+    "AN202409181639923890": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202409181639923890.pdf",
+      "expected": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+      "actual": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+      "matches": true
+    },
+    "AN202409181639923882": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202409181639923882.pdf",
+      "expected": "87bd9e2271bdac787cc7c81225a8606f4fe8ac7eab75bdf979652d5af10e6d35",
+      "actual": "87bd9e2271bdac787cc7c81225a8606f4fe8ac7eab75bdf979652d5af10e6d35",
+      "matches": true
+    },
+    "AN202410091640231960": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202410091640231960.pdf",
+      "expected": "36437604fde4a2050ed53aec567d64489aff669a3ab90b0fe7500cdc824f3b10",
+      "actual": "36437604fde4a2050ed53aec567d64489aff669a3ab90b0fe7500cdc824f3b10",
+      "matches": true
+    },
+    "AN202410281640541892": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202410281640541892.pdf",
+      "expected": "cd3fb1514aa35320cf130f1175e70030169d26d335b806bbecd0d2c9d5a61d9f",
+      "actual": "cd3fb1514aa35320cf130f1175e70030169d26d335b806bbecd0d2c9d5a61d9f",
+      "matches": true
+    },
+    "AN202410281640541893": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202410281640541893.pdf",
+      "expected": "c12a49763c0856c43d5c1e1fe237faec0f18d4f415f7fce962b1dc2d4d055c69",
+      "actual": "c12a49763c0856c43d5c1e1fe237faec0f18d4f415f7fce962b1dc2d4d055c69",
+      "matches": true
+    },
+    "AN202410281640541881": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202410281640541881.pdf",
+      "expected": "c74cd2272c6f15a32092042203cd9442c39f2800bdb033d9dea98a7b3ec3d003",
+      "actual": "c74cd2272c6f15a32092042203cd9442c39f2800bdb033d9dea98a7b3ec3d003",
+      "matches": true
+    },
+    "AN202410281640541886": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202410281640541886.pdf",
+      "expected": "b35d05829052deea87a3725cf5346f656b0476aa8385edf7b2b8650cb0d6efda",
+      "actual": "b35d05829052deea87a3725cf5346f656b0476aa8385edf7b2b8650cb0d6efda",
+      "matches": true
+    },
+    "AN202410281640541876": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202410281640541876.pdf",
+      "expected": "2f30b16c4c0f038f494655c28b62edd7798542f5c661565727e0e2ac73af2c44",
+      "actual": "2f30b16c4c0f038f494655c28b62edd7798542f5c661565727e0e2ac73af2c44",
+      "matches": true
+    },
+    "AN202411141640888788": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202411141640888788.pdf",
+      "expected": "08fbaf4bbdefd314e72c63b7f17d436cbedfcfc32db6c74df34ae7e647bbf568",
+      "actual": "08fbaf4bbdefd314e72c63b7f17d436cbedfcfc32db6c74df34ae7e647bbf568",
+      "matches": true
+    },
+    "AN202411141640888797": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202411141640888797.pdf",
+      "expected": "9e6bec3d53bda4287221f8cd86936a2cd9ed0a8cd9e84f21b7e9cfd0a28fd11c",
+      "actual": "9e6bec3d53bda4287221f8cd86936a2cd9ed0a8cd9e84f21b7e9cfd0a28fd11c",
+      "matches": true
+    },
+    "AN202412051641197108": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202412051641197108.pdf",
+      "expected": "336fb8db68430d9330503272c551b0ba132ce4e549066f21be3e52acbe04ca41",
+      "actual": "336fb8db68430d9330503272c551b0ba132ce4e549066f21be3e52acbe04ca41",
+      "matches": true
+    },
+    "AN202412251641425036": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202412251641425036.pdf",
+      "expected": "10ad32239174a1d11bb400b7b0c7321a68f61de03aef10d0f930a655b84b9dcb",
+      "actual": "10ad32239174a1d11bb400b7b0c7321a68f61de03aef10d0f930a655b84b9dcb",
+      "matches": true
+    },
+    "AN202412301641472101": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202412301641472101.pdf",
+      "expected": "7cb981303783d9d2d15bc419078d93242154807c332c3aa159520f1e163286a4",
+      "actual": "7cb981303783d9d2d15bc419078d93242154807c332c3aa159520f1e163286a4",
+      "matches": true
+    },
+    "AN202501151641937347": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202501151641937347.pdf",
+      "expected": "84532518158de2b3bfb3d184e8096a7f9e9f619bdcd1425c7b005ba8e36ff1bf",
+      "actual": "84532518158de2b3bfb3d184e8096a7f9e9f619bdcd1425c7b005ba8e36ff1bf",
+      "matches": true
+    },
+    "AN202501221642452275": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202501221642452275.pdf",
+      "expected": "dc4b4ebe4bd3eba4adb87902e21907813444c40d9e42bcf122e8444fc3fc7342",
+      "actual": "dc4b4ebe4bd3eba4adb87902e21907813444c40d9e42bcf122e8444fc3fc7342",
+      "matches": true
+    },
+    "AN202502281643609250": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202502281643609250.pdf",
+      "expected": "7d4656daa79602f7a632c0ccee14c668de91a66605a8c2c6491cb931e7908b6b",
+      "actual": "7d4656daa79602f7a632c0ccee14c668de91a66605a8c2c6491cb931e7908b6b",
+      "matches": true
+    },
+    "AN202504241661801153": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661801153.pdf",
+      "expected": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+      "actual": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+      "matches": true
+    },
+    "AN202504241661802959": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802959.pdf",
+      "expected": "8d5cbce053117b1622166bd8c6a3192024b1107eea9c9d3a511e00681d53d43d",
+      "actual": "8d5cbce053117b1622166bd8c6a3192024b1107eea9c9d3a511e00681d53d43d",
+      "matches": true
+    },
+    "AN202504241661802960": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802960.pdf",
+      "expected": "c8e4510064f47a795afbdc31ec4a2baa914dcf20d87ed73a8c168e5ca062383f",
+      "actual": "c8e4510064f47a795afbdc31ec4a2baa914dcf20d87ed73a8c168e5ca062383f",
+      "matches": true
+    },
+    "AN202504241661801154": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661801154.pdf",
+      "expected": "340f52803a580f68e66d35dabeb6638ab8554b35e33e83b2bb257c502d203931",
+      "actual": "340f52803a580f68e66d35dabeb6638ab8554b35e33e83b2bb257c502d203931",
+      "matches": true
+    },
+    "AN202504241661802963": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802963.pdf",
+      "expected": "575049f6e457878d9f8bd95e9c6a77832d1aae35cc061a1d0eee64df9903a088",
+      "actual": "575049f6e457878d9f8bd95e9c6a77832d1aae35cc061a1d0eee64df9903a088",
+      "matches": true
+    },
+    "AN202504241661802962": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802962.pdf",
+      "expected": "556379256398c696754e88673a53250a3063b6b291cc336e7a4056e630b69fc2",
+      "actual": "556379256398c696754e88673a53250a3063b6b291cc336e7a4056e630b69fc2",
+      "matches": true
+    },
+    "AN202504241661802972": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802972.pdf",
+      "expected": "fd43ac462a24fea9d6a86eae983bb277d3c7be809df013ed085a9b6e3aee8673",
+      "actual": "fd43ac462a24fea9d6a86eae983bb277d3c7be809df013ed085a9b6e3aee8673",
+      "matches": true
+    },
+    "AN202504241661802974": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802974.pdf",
+      "expected": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+      "actual": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+      "matches": true
+    },
+    "AN202504241661802971": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802971.pdf",
+      "expected": "63f8ac3c1e8521bd09e297a23b7590b8f915c6b435602061d538b3fb595ac2a7",
+      "actual": "63f8ac3c1e8521bd09e297a23b7590b8f915c6b435602061d538b3fb595ac2a7",
+      "matches": true
+    },
+    "AN202504241661802968": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802968.pdf",
+      "expected": "fdc9f9cfdc80b32c45fb745d3f5714446e989ecb3b95c1da46d04c27a6430c0a",
+      "actual": "fdc9f9cfdc80b32c45fb745d3f5714446e989ecb3b95c1da46d04c27a6430c0a",
+      "matches": true
+    },
+    "AN202504241661801151": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661801151.pdf",
+      "expected": "87438bc9af90c787f437fa55630059b8ab5fcc9707b47441296de439435f8b48",
+      "actual": "87438bc9af90c787f437fa55630059b8ab5fcc9707b47441296de439435f8b48",
+      "matches": true
+    },
+    "AN202504241661802961": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802961.pdf",
+      "expected": "8191b1fa6f5c2e944e912335527724f00268f202752848fbbb52bb8c145af335",
+      "actual": "8191b1fa6f5c2e944e912335527724f00268f202752848fbbb52bb8c145af335",
+      "matches": true
+    },
+    "AN202504241661802966": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802966.pdf",
+      "expected": "8f61c0bd746621ffb5f89fab7f9d446ecd5c500d8ccaaa5056bf37cb24498bc6",
+      "actual": "8f61c0bd746621ffb5f89fab7f9d446ecd5c500d8ccaaa5056bf37cb24498bc6",
+      "matches": true
+    },
+    "AN202504241661802957": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802957.pdf",
+      "expected": "cbf813fa2652f1ec9e2ce1ae52e7d94e558ef957536e044dc6736d1b64bd5e65",
+      "actual": "cbf813fa2652f1ec9e2ce1ae52e7d94e558ef957536e044dc6736d1b64bd5e65",
+      "matches": true
+    },
+    "AN202504241661802969": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802969.pdf",
+      "expected": "50d20a1cc2d33ffe00ca7f92fa1523bf6a1af2ab9fa4ac833f3050b7add1e694",
+      "actual": "50d20a1cc2d33ffe00ca7f92fa1523bf6a1af2ab9fa4ac833f3050b7add1e694",
+      "matches": true
+    },
+    "AN202504241661802965": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802965.pdf",
+      "expected": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+      "actual": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+      "matches": true
+    },
+    "AN202504241661802967": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802967.pdf",
+      "expected": "8eab3a317ce40d0f4ed2d5ebb8056a58e580533675f8691dd39899800d593134",
+      "actual": "8eab3a317ce40d0f4ed2d5ebb8056a58e580533675f8691dd39899800d593134",
+      "matches": true
+    },
+    "AN202504241661801155": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661801155.pdf",
+      "expected": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+      "actual": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+      "matches": true
+    },
+    "AN202504241661801152": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661801152.pdf",
+      "expected": "68b242d4df900e28f2250097a5a4f37935c3e091d38ddfabf2c053790c197448",
+      "actual": "68b242d4df900e28f2250097a5a4f37935c3e091d38ddfabf2c053790c197448",
+      "matches": true
+    },
+    "AN202504241661802970": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802970.pdf",
+      "expected": "381059496aec320ee465538db2fb32f3489f40d4f823358ed5912d1d5ab2a491",
+      "actual": "381059496aec320ee465538db2fb32f3489f40d4f823358ed5912d1d5ab2a491",
+      "matches": true
+    },
+    "AN202504241661801156": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661801156.pdf",
+      "expected": "0c4bb5f59157a9bb34977322dc32227fb3dee3b1421f680f218bd2bc1e52e31e",
+      "actual": "0c4bb5f59157a9bb34977322dc32227fb3dee3b1421f680f218bd2bc1e52e31e",
+      "matches": true
+    },
+    "AN202504241661802964": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802964.pdf",
+      "expected": "139e53071791d6097e80a2bcad03384722c0b652057aab10b05203e2f88ada81",
+      "actual": "139e53071791d6097e80a2bcad03384722c0b652057aab10b05203e2f88ada81",
+      "matches": true
+    },
+    "AN202504241661802973": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802973.pdf",
+      "expected": "f85ea4c7e916b7ebfb02a14807c5b149cb0ee6d0b8ae7d48e946bb2bf410c871",
+      "actual": "f85ea4c7e916b7ebfb02a14807c5b149cb0ee6d0b8ae7d48e946bb2bf410c871",
+      "matches": true
+    },
+    "AN202504241661802958": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504241661802958.pdf",
+      "expected": "dd8d6664ad851b4ed2ea72c8d3b85b027fb945b3eef53ae2798d2803520d685e",
+      "actual": "dd8d6664ad851b4ed2ea72c8d3b85b027fb945b3eef53ae2798d2803520d685e",
+      "matches": true
+    },
+    "AN202504281663932495": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504281663932495.pdf",
+      "expected": "459f4c90bb3f8435121f1cccd08ae00559d2323e4d65781fb2b78d32b72707f3",
+      "actual": "459f4c90bb3f8435121f1cccd08ae00559d2323e4d65781fb2b78d32b72707f3",
+      "matches": true
+    },
+    "AN202504281663932498": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504281663932498.pdf",
+      "expected": "9cc4e301c60d4accdd5b7e5a5fb6579c4706560d2bcf66bd6f1f7fee8a52beee",
+      "actual": "9cc4e301c60d4accdd5b7e5a5fb6579c4706560d2bcf66bd6f1f7fee8a52beee",
+      "matches": true
+    },
+    "AN202504281663932496": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504281663932496.pdf",
+      "expected": "c6ba9c98ad6872e9d7a39c44dbe75276dca5267658a83321eb44c2694b877e37",
+      "actual": "c6ba9c98ad6872e9d7a39c44dbe75276dca5267658a83321eb44c2694b877e37",
+      "matches": true
+    },
+    "AN202504281663932500": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504281663932500.pdf",
+      "expected": "821d003dfaf07aa21f4a9df9ecaea1e57fe40ca68818c4b41c41ca2a5da97e1f",
+      "actual": "821d003dfaf07aa21f4a9df9ecaea1e57fe40ca68818c4b41c41ca2a5da97e1f",
+      "matches": true
+    },
+    "AN202504281663932493": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504281663932493.pdf",
+      "expected": "7feb878529ff226556114d0b9cd0abd48e4b0eefe0e6066f6965ca9705449b41",
+      "actual": "7feb878529ff226556114d0b9cd0abd48e4b0eefe0e6066f6965ca9705449b41",
+      "matches": true
+    },
+    "AN202505201676081145": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202505201676081145.pdf",
+      "expected": "91941071b786200faff7098deffdda0f3def546d8dd743767fac01db58a27a59",
+      "actual": "91941071b786200faff7098deffdda0f3def546d8dd743767fac01db58a27a59",
+      "matches": true
+    },
+    "AN202505201676082480": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202505201676082480.pdf",
+      "expected": "44dd35a332c8efa9714b59eed37f347055f585a504f10f6c53e1a51d56d30c87",
+      "actual": "44dd35a332c8efa9714b59eed37f347055f585a504f10f6c53e1a51d56d30c87",
+      "matches": true
+    },
+    "AN202505201676082476": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202505201676082476.pdf",
+      "expected": "be45c9238bca7a22e3a5a543599f0bbea262c4dfbe103a5a1ddb0e2e88f393b9",
+      "actual": "be45c9238bca7a22e3a5a543599f0bbea262c4dfbe103a5a1ddb0e2e88f393b9",
+      "matches": true
+    },
+    "AN202506051685300793": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202506051685300793.pdf",
+      "expected": "f0a811bf8e75802effe201268375740ddabe27155c2609944510293383dc9d5b",
+      "actual": "f0a811bf8e75802effe201268375740ddabe27155c2609944510293383dc9d5b",
+      "matches": true
+    },
+    "AN202507111706986219": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202507111706986219.pdf",
+      "expected": "66805be24a701a39b99e4b7736034588b0420ca9d35f00da0241f2f65d8ab4fb",
+      "actual": "66805be24a701a39b99e4b7736034588b0420ca9d35f00da0241f2f65d8ab4fb",
+      "matches": true
+    },
+    "AN202507141708751435": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202507141708751435.pdf",
+      "expected": "9a67a4955944996b7e6089a496b0f5be7a176fabc8fb76ec81ce7beda21f385a",
+      "actual": "9a67a4955944996b7e6089a496b0f5be7a176fabc8fb76ec81ce7beda21f385a",
+      "matches": true
+    },
+    "AN202507211713040564": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202507211713040564.pdf",
+      "expected": "a2fae100a805cd04f9c3d014a35c79a96754de5f58d5e0b4fa3cc33efd91aa50",
+      "actual": "a2fae100a805cd04f9c3d014a35c79a96754de5f58d5e0b4fa3cc33efd91aa50",
+      "matches": true
+    },
+    "AN202508041721344863": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508041721344863.pdf",
+      "expected": "1bcbfca5e153417a66ebba7af97ff0c02b1a956e87519d4ebaedd2ee2a82dc6b",
+      "actual": "1bcbfca5e153417a66ebba7af97ff0c02b1a956e87519d4ebaedd2ee2a82dc6b",
+      "matches": true
+    },
+    "AN202508251734295811": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295811.pdf",
+      "expected": "e51a2664dde35802ce6804ed3aee70cadbc25c06f72b2ebf1b2daa77c835f0f5",
+      "actual": "e51a2664dde35802ce6804ed3aee70cadbc25c06f72b2ebf1b2daa77c835f0f5",
+      "matches": true
+    },
+    "AN202508251734295820": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295820.pdf",
+      "expected": "301dbb86c3dccc6792175f241c126adb525e5f03574659439060f285ed8f1311",
+      "actual": "301dbb86c3dccc6792175f241c126adb525e5f03574659439060f285ed8f1311",
+      "matches": true
+    },
+    "AN202508251734295826": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295826.pdf",
+      "expected": "e23c66044718bb6863409dc8c49b73203a1a6fafd96f13ab78d72ca674985256",
+      "actual": "e23c66044718bb6863409dc8c49b73203a1a6fafd96f13ab78d72ca674985256",
+      "matches": true
+    },
+    "AN202508251734295830": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295830.pdf",
+      "expected": "40a70dbff1895a69848b178921836c7076cfd5e1c1bb86d34ac27a2f5ede43c6",
+      "actual": "40a70dbff1895a69848b178921836c7076cfd5e1c1bb86d34ac27a2f5ede43c6",
+      "matches": true
+    },
+    "AN202508251734295825": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295825.pdf",
+      "expected": "f9875140024711f5f3087b17c6a141266c1a8b4b2cd985e10081c042812df590",
+      "actual": "f9875140024711f5f3087b17c6a141266c1a8b4b2cd985e10081c042812df590",
+      "matches": true
+    },
+    "AN202508251734295823": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295823.pdf",
+      "expected": "352c4799f0608dcee766d881998cde7e9fe11bf3f2660e15f458a1a0712d04f2",
+      "actual": "352c4799f0608dcee766d881998cde7e9fe11bf3f2660e15f458a1a0712d04f2",
+      "matches": true
+    },
+    "AN202508251734295809": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295809.pdf",
+      "expected": "70e4eb2874525b14de0d4a9595b5a6145149a1888642391e2e95d9a041fcff74",
+      "actual": "70e4eb2874525b14de0d4a9595b5a6145149a1888642391e2e95d9a041fcff74",
+      "matches": true
+    },
+    "AN202508251734295815": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295815.pdf",
+      "expected": "5a1002319a8d126e08153e2b6203751ed4793a4a6506610d03f0a7f3a6e46f33",
+      "actual": "5a1002319a8d126e08153e2b6203751ed4793a4a6506610d03f0a7f3a6e46f33",
+      "matches": true
+    },
+    "AN202508251734295821": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295821.pdf",
+      "expected": "201550831270ed60d21041756a3c87ff39cdae83d5307b3c33bc4bfbd10dd86d",
+      "actual": "201550831270ed60d21041756a3c87ff39cdae83d5307b3c33bc4bfbd10dd86d",
+      "matches": true
+    },
+    "AN202508251734295817": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295817.pdf",
+      "expected": "86bdcad9e6861e717c91ef302a95a51ea76cd71d4e6f18ed8a3c0ef62859a9eb",
+      "actual": "86bdcad9e6861e717c91ef302a95a51ea76cd71d4e6f18ed8a3c0ef62859a9eb",
+      "matches": true
+    },
+    "AN202508251734295816": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202508251734295816.pdf",
+      "expected": "d4448b71026baccf3f9ae13360f074a1ca6546c3bc8ecae10e699c401fd3bfb6",
+      "actual": "d4448b71026baccf3f9ae13360f074a1ca6546c3bc8ecae10e699c401fd3bfb6",
+      "matches": true
+    },
+    "AN202509111741813662": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202509111741813662.pdf",
+      "expected": "52ff36d8ef8d47f394fb56c8cfb5ce08796758f5089c65561f0876ae041f6b33",
+      "actual": "52ff36d8ef8d47f394fb56c8cfb5ce08796758f5089c65561f0876ae041f6b33",
+      "matches": true
+    },
+    "AN202509111741811930": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202509111741811930.pdf",
+      "expected": "9658ecade8244f82790dde598ddce2d49cd2f88414cbd9d03259649588bc7eb6",
+      "actual": "9658ecade8244f82790dde598ddce2d49cd2f88414cbd9d03259649588bc7eb6",
+      "matches": true
+    },
+    "AN202510131761418809": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202510131761418809.pdf",
+      "expected": "a85cdae1abbf1bdb8baeae199def485d716f18c44648f2944909e370143771b2",
+      "actual": "a85cdae1abbf1bdb8baeae199def485d716f18c44648f2944909e370143771b2",
+      "matches": true
+    },
+    "AN202510271770001931": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202510271770001931.pdf",
+      "expected": "e7cdccea8eb4bc68d48aaf88184da17b1c2caa7cd9db3a3e98ada9f82ea1819a",
+      "actual": "e7cdccea8eb4bc68d48aaf88184da17b1c2caa7cd9db3a3e98ada9f82ea1819a",
+      "matches": true
+    },
+    "AN202511181783732465": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202511181783732465.pdf",
+      "expected": "9ce6b3f0c54a2c84d11416e3d2c8f52a39aed387cf9c127bb7ad7c22b6249f1f",
+      "actual": "9ce6b3f0c54a2c84d11416e3d2c8f52a39aed387cf9c127bb7ad7c22b6249f1f",
+      "matches": true
+    },
+    "AN202512051794542415": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542415.pdf",
+      "expected": "3213233c28605cac79d6a0c751e4d92ca2e656325ad807490771cad92f253e84",
+      "actual": "3213233c28605cac79d6a0c751e4d92ca2e656325ad807490771cad92f253e84",
+      "matches": true
+    },
+    "AN202512051794542393": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542393.pdf",
+      "expected": "1bb9bc0384dfd58fa87cc8dbbdd8d8c0dd7312f0e95b1c12d21cfe11cf5e48d2",
+      "actual": "1bb9bc0384dfd58fa87cc8dbbdd8d8c0dd7312f0e95b1c12d21cfe11cf5e48d2",
+      "matches": true
+    },
+    "AN202512051794542373": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542373.pdf",
+      "expected": "b50d7f11bdb88056692da683ee09dbdab8f59a26de8c3102ab991e78c7ad79c8",
+      "actual": "b50d7f11bdb88056692da683ee09dbdab8f59a26de8c3102ab991e78c7ad79c8",
+      "matches": true
+    },
+    "AN202512051794542397": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542397.pdf",
+      "expected": "19a5d00444d4e9503dbc07e8348d18777c7412d206a3ca3e78201574af5d2a90",
+      "actual": "19a5d00444d4e9503dbc07e8348d18777c7412d206a3ca3e78201574af5d2a90",
+      "matches": true
+    },
+    "AN202512051794542410": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542410.pdf",
+      "expected": "65246f2929b5688abeb3d7030288ed366e82d82e29713f7a36b1c0ce93de2ae5",
+      "actual": "65246f2929b5688abeb3d7030288ed366e82d82e29713f7a36b1c0ce93de2ae5",
+      "matches": true
+    },
+    "AN202512051794542375": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542375.pdf",
+      "expected": "b9a5a31c17020d593acf6a0a16fbb7e6e1542831a2769dce3f85081bbab13bb4",
+      "actual": "b9a5a31c17020d593acf6a0a16fbb7e6e1542831a2769dce3f85081bbab13bb4",
+      "matches": true
+    },
+    "AN202512051794542427": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542427.pdf",
+      "expected": "2e385ec8f975a493333af9923a35416d3ba13faa7ae56eed2f6e5aeac29de77f",
+      "actual": "2e385ec8f975a493333af9923a35416d3ba13faa7ae56eed2f6e5aeac29de77f",
+      "matches": true
+    },
+    "AN202512051794542392": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542392.pdf",
+      "expected": "fec886e2f602f53fefc8af6f2a3f50926fd79549d81bcbaac9e40c972407110a",
+      "actual": "fec886e2f602f53fefc8af6f2a3f50926fd79549d81bcbaac9e40c972407110a",
+      "matches": true
+    },
+    "AN202512051794542389": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542389.pdf",
+      "expected": "b88ed2df8d1af26014e2e8093624f88ba9bf7563501d83b241941a3e7b6d36bc",
+      "actual": "b88ed2df8d1af26014e2e8093624f88ba9bf7563501d83b241941a3e7b6d36bc",
+      "matches": true
+    },
+    "AN202512051794542437": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542437.pdf",
+      "expected": "1e45cc4adf5a61ffb49809f833f1dac8e7f2b366c303f2624b2076bb0b3ec857",
+      "actual": "1e45cc4adf5a61ffb49809f833f1dac8e7f2b366c303f2624b2076bb0b3ec857",
+      "matches": true
+    },
+    "AN202512051794542372": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542372.pdf",
+      "expected": "6f25cf7ae019c4262509f7d2d4d79d4f8adf8361d7dc3b2e2a5c1a45a4440ef3",
+      "actual": "6f25cf7ae019c4262509f7d2d4d79d4f8adf8361d7dc3b2e2a5c1a45a4440ef3",
+      "matches": true
+    },
+    "AN202512051794542420": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542420.pdf",
+      "expected": "749b1137b8c75bca8dfe592824b3c879abc4ea095d78e0fb5a82b575dd917ac3",
+      "actual": "749b1137b8c75bca8dfe592824b3c879abc4ea095d78e0fb5a82b575dd917ac3",
+      "matches": true
+    },
+    "AN202512051794542380": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542380.pdf",
+      "expected": "2d003d238eb844057cba845a93911915e5c7e0e5af0fa7fb28d1c7cdd8135874",
+      "actual": "2d003d238eb844057cba845a93911915e5c7e0e5af0fa7fb28d1c7cdd8135874",
+      "matches": true
+    },
+    "AN202512051794542385": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542385.pdf",
+      "expected": "f0559e1c3f759728eaddbbc140e98620f89ff6e071c921de46ebe73e1d788866",
+      "actual": "f0559e1c3f759728eaddbbc140e98620f89ff6e071c921de46ebe73e1d788866",
+      "matches": true
+    },
+    "AN202512051794542438": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542438.pdf",
+      "expected": "a630a1a517fc6d533fa561867cc4ed159b7edcc145506f4393cf3df4cddb7905",
+      "actual": "a630a1a517fc6d533fa561867cc4ed159b7edcc145506f4393cf3df4cddb7905",
+      "matches": true
+    },
+    "AN202512051794542423": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542423.pdf",
+      "expected": "807bc9091d0a02074dcac68d6f5e951b3a6fce4887d939776645084f76760440",
+      "actual": "807bc9091d0a02074dcac68d6f5e951b3a6fce4887d939776645084f76760440",
+      "matches": true
+    },
+    "AN202512051794542430": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542430.pdf",
+      "expected": "de4c580222e6f664295022d3f8e1b125980e3bd8fe3ec4fd08e0f59edf032870",
+      "actual": "de4c580222e6f664295022d3f8e1b125980e3bd8fe3ec4fd08e0f59edf032870",
+      "matches": true
+    },
+    "AN202512051794542414": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542414.pdf",
+      "expected": "7d713b35f3533da9cca5103afad691316e7d5f9a308eb06700d0a28a31857060",
+      "actual": "7d713b35f3533da9cca5103afad691316e7d5f9a308eb06700d0a28a31857060",
+      "matches": true
+    },
+    "AN202512051794542400": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542400.pdf",
+      "expected": "c89c3f6ad94201274170d321081fc045dd929a32d505a0d9ca164012e025851a",
+      "actual": "c89c3f6ad94201274170d321081fc045dd929a32d505a0d9ca164012e025851a",
+      "matches": true
+    },
+    "AN202512051794542418": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542418.pdf",
+      "expected": "8497a8ba827b9e3c4a240ccb1d481c721aa62ab1a6e57bb220210b7f9380e378",
+      "actual": "8497a8ba827b9e3c4a240ccb1d481c721aa62ab1a6e57bb220210b7f9380e378",
+      "matches": true
+    },
+    "AN202512051794542404": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542404.pdf",
+      "expected": "7d2aa72937fee77e23629de5b0ffe9b2738ee9c1321720eec1e6b5d090d5dc5d",
+      "actual": "7d2aa72937fee77e23629de5b0ffe9b2738ee9c1321720eec1e6b5d090d5dc5d",
+      "matches": true
+    },
+    "AN202512051794542433": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542433.pdf",
+      "expected": "bf7d175acb2c7cf237bb81e07194f6a0f15d63594e1ed7dd9f5debd3ed124450",
+      "actual": "bf7d175acb2c7cf237bb81e07194f6a0f15d63594e1ed7dd9f5debd3ed124450",
+      "matches": true
+    },
+    "AN202512051794542409": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542409.pdf",
+      "expected": "da51655506178017366f055ab0a80f8bacab81d7944b618ddbccb2794a1dc104",
+      "actual": "da51655506178017366f055ab0a80f8bacab81d7944b618ddbccb2794a1dc104",
+      "matches": true
+    },
+    "AN202512051794542406": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542406.pdf",
+      "expected": "26578c09bccc14b5f2368ccc0c705f37c020a0ad9d421b9de99d05578679c0ac",
+      "actual": "26578c09bccc14b5f2368ccc0c705f37c020a0ad9d421b9de99d05578679c0ac",
+      "matches": true
+    },
+    "AN202512051794542379": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542379.pdf",
+      "expected": "338141158fb001cb3fd6a646dab710d46992ba3aa2b2515403188a1c7306db7b",
+      "actual": "338141158fb001cb3fd6a646dab710d46992ba3aa2b2515403188a1c7306db7b",
+      "matches": true
+    },
+    "AN202512051794542386": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542386.pdf",
+      "expected": "e6faed8802d9958e9b6aa0fe51792a97ff26a8e258235c72d5d40ddec54826ba",
+      "actual": "e6faed8802d9958e9b6aa0fe51792a97ff26a8e258235c72d5d40ddec54826ba",
+      "matches": true
+    },
+    "AN202512051794542376": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542376.pdf",
+      "expected": "d2bb1f7ab1ff6073bf0b908cf6c7cee3a39628680c27553415650eaa8d1deb48",
+      "actual": "d2bb1f7ab1ff6073bf0b908cf6c7cee3a39628680c27553415650eaa8d1deb48",
+      "matches": true
+    },
+    "AN202512051794542428": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542428.pdf",
+      "expected": "899018306989432c7d286f61791a70a1fd48d27cab99a89091e6bd5cdb0306a8",
+      "actual": "899018306989432c7d286f61791a70a1fd48d27cab99a89091e6bd5cdb0306a8",
+      "matches": true
+    },
+    "AN202512051794542408": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542408.pdf",
+      "expected": "16153caa522e8cb8c7ce4a2d6c53c5b96224dea4c851e4d065bc6edd2bef2268",
+      "actual": "16153caa522e8cb8c7ce4a2d6c53c5b96224dea4c851e4d065bc6edd2bef2268",
+      "matches": true
+    },
+    "AN202512051794542424": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512051794542424.pdf",
+      "expected": "da5805e015540cd74ab9876d533e2d94cb5ad52acddb3ee18225830c3f0438a5",
+      "actual": "da5805e015540cd74ab9876d533e2d94cb5ad52acddb3ee18225830c3f0438a5",
+      "matches": true
+    },
+    "AN202512171802416391": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512171802416391.pdf",
+      "expected": "375415b085892ded3b0e2b9782e1716f212a21bc508fdb62a9986f26fdcef8c4",
+      "actual": "375415b085892ded3b0e2b9782e1716f212a21bc508fdb62a9986f26fdcef8c4",
+      "matches": true
+    },
+    "AN202512221805888703": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512221805888703.pdf",
+      "expected": "fb018d8f369e9ee93bd0db4d5404e3d425d24a634d448c1bf1148f5c747b0f10",
+      "actual": "fb018d8f369e9ee93bd0db4d5404e3d425d24a634d448c1bf1148f5c747b0f10",
+      "matches": true
+    },
+    "AN202512221805888717": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512221805888717.pdf",
+      "expected": "773b301622bb08aba87f0ae1c78bcdfae22b5a6f12a9540572557fd4a946109f",
+      "actual": "773b301622bb08aba87f0ae1c78bcdfae22b5a6f12a9540572557fd4a946109f",
+      "matches": true
+    },
+    "AN202512221805888701": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512221805888701.pdf",
+      "expected": "7e4170287c9ac9c571e5686f0b5bdd78f979b872b63676dc482fff4187d47256",
+      "actual": "7e4170287c9ac9c571e5686f0b5bdd78f979b872b63676dc482fff4187d47256",
+      "matches": true
+    },
+    "AN202512221805888709": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512221805888709.pdf",
+      "expected": "07404bf2511d3996f637239fdfdef93946abc9b18a5c1dc5bb600438f8ba3b2c",
+      "actual": "07404bf2511d3996f637239fdfdef93946abc9b18a5c1dc5bb600438f8ba3b2c",
+      "matches": true
+    },
+    "AN202512251807938487": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512251807938487.pdf",
+      "expected": "0a319ec323dc0af5c8d0dda4d86aced036bef89daa321a4bdc3636ba6b9c3a32",
+      "actual": "0a319ec323dc0af5c8d0dda4d86aced036bef89daa321a4bdc3636ba6b9c3a32",
+      "matches": true
+    },
+    "AN202512301811330148": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202512301811330148.pdf",
+      "expected": "9f75c9933c5cd374bbd0b722317edb7f6931324ab2bb8cdc49e87b1073aeaa54",
+      "actual": "9f75c9933c5cd374bbd0b722317edb7f6931324ab2bb8cdc49e87b1073aeaa54",
+      "matches": true
+    },
+    "AN202601081816849670": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202601081816849670.pdf",
+      "expected": "f62a5c097211e5ab61a85f5b4c15516afe2d72f563291a5bf00ac83ef8feae8e",
+      "actual": "f62a5c097211e5ab61a85f5b4c15516afe2d72f563291a5bf00ac83ef8feae8e",
+      "matches": true
+    },
+    "AN202601121816947542": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202601121816947542.pdf",
+      "expected": "630b5c7a69401714774bbd2336e2e878c176e125e1ac45e15f51d44dea20cec3",
+      "actual": "630b5c7a69401714774bbd2336e2e878c176e125e1ac45e15f51d44dea20cec3",
+      "matches": true
+    },
+    "AN202601291818546927": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202601291818546927.pdf",
+      "expected": "b9216afcb79c72948add7b34cbba01760a63aa3d544c68ff67a27ad1e7c61e4c",
+      "actual": "b9216afcb79c72948add7b34cbba01760a63aa3d544c68ff67a27ad1e7c61e4c",
+      "matches": true
+    },
+    "AN202602061819808618": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202602061819808618.pdf",
+      "expected": "7fac099dbfca312fca6922538723b9d53b3d28df112eb67576e7322b83019081",
+      "actual": "7fac099dbfca312fca6922538723b9d53b3d28df112eb67576e7322b83019081",
+      "matches": true
+    },
+    "AN202602131819924454": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202602131819924454.pdf",
+      "expected": "3b7ce35fa99d97097de285c2b16851fb8f9b89348b7c87d7b0fe27daba780142",
+      "actual": "3b7ce35fa99d97097de285c2b16851fb8f9b89348b7c87d7b0fe27daba780142",
+      "matches": true
+    },
+    "AN202603101820462832": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202603101820462832.pdf",
+      "expected": "56285c460d91d1b47f4862e91055900fde36a0259fd40c82b3b02bb3f6e7c824",
+      "actual": "56285c460d91d1b47f4862e91055900fde36a0259fd40c82b3b02bb3f6e7c824",
+      "matches": true
+    },
+    "AN202604141821191365": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191365.pdf",
+      "expected": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+      "actual": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+      "matches": true
+    },
+    "AN202604141821191363": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191363.pdf",
+      "expected": "eab18378823c1b9db7ebcd2774eb1061a591fd3f771b702ad2a259a8f9bd98ae",
+      "actual": "eab18378823c1b9db7ebcd2774eb1061a591fd3f771b702ad2a259a8f9bd98ae",
+      "matches": true
+    },
+    "AN202604141821191368": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191368.pdf",
+      "expected": "131e97137b19480bd025182941a0d39ecdf5ac18b40b2e07dff7d9766c9a7bbc",
+      "actual": "131e97137b19480bd025182941a0d39ecdf5ac18b40b2e07dff7d9766c9a7bbc",
+      "matches": true
+    },
+    "AN202604141821191376": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191376.pdf",
+      "expected": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+      "actual": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+      "matches": true
+    },
+    "AN202604141821191372": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191372.pdf",
+      "expected": "692231686b84a57ab8f3130a51c9bd3365ea75fc45934803867af2b8c1ae3114",
+      "actual": "692231686b84a57ab8f3130a51c9bd3365ea75fc45934803867af2b8c1ae3114",
+      "matches": true
+    },
+    "AN202604141821191367": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191367.pdf",
+      "expected": "e756b4acab3cadb63adac58b76f49b3ef2a98e0bbe9bd46473864c2a3ca1cc60",
+      "actual": "e756b4acab3cadb63adac58b76f49b3ef2a98e0bbe9bd46473864c2a3ca1cc60",
+      "matches": true
+    },
+    "AN202604141821191364": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191364.pdf",
+      "expected": "974311e48515d35af3bfb4867785cef8c575f6f99df6b5829cc62be0c87d1d95",
+      "actual": "974311e48515d35af3bfb4867785cef8c575f6f99df6b5829cc62be0c87d1d95",
+      "matches": true
+    },
+    "AN202604141821191371": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191371.pdf",
+      "expected": "61f672d79ef8972ed2f2e01920b87fd0ae35e6df30274b4e9380287da3fc8568",
+      "actual": "61f672d79ef8972ed2f2e01920b87fd0ae35e6df30274b4e9380287da3fc8568",
+      "matches": true
+    },
+    "AN202604141821191375": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191375.pdf",
+      "expected": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+      "actual": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+      "matches": true
+    },
+    "AN202604141821191382": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191382.pdf",
+      "expected": "4067a7aff4a146efd349310c60fc93a853ee992788aa419c1b5a739b96793077",
+      "actual": "4067a7aff4a146efd349310c60fc93a853ee992788aa419c1b5a739b96793077",
+      "matches": true
+    },
+    "AN202604141821191380": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191380.pdf",
+      "expected": "5800d65177fb596025af944a0ca87dd8494123ccf5a1a2afddf52fd93b2a7de2",
+      "actual": "5800d65177fb596025af944a0ca87dd8494123ccf5a1a2afddf52fd93b2a7de2",
+      "matches": true
+    },
+    "AN202604141821191379": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191379.pdf",
+      "expected": "1c730a67602775715339ab7de2ea899298796ad5a6dd1c9c7094eb242b9895f0",
+      "actual": "1c730a67602775715339ab7de2ea899298796ad5a6dd1c9c7094eb242b9895f0",
+      "matches": true
+    },
+    "AN202604141821191373": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191373.pdf",
+      "expected": "41cc62d5ee1963a392fca77072be6ba6a6541f252c4a9d4535d0828d442619af",
+      "actual": "41cc62d5ee1963a392fca77072be6ba6a6541f252c4a9d4535d0828d442619af",
+      "matches": true
+    },
+    "AN202604141821191358": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191358.pdf",
+      "expected": "f90439039b8d71753507234aa7f92dcaad28a9db13c89709c84849d672e94549",
+      "actual": "f90439039b8d71753507234aa7f92dcaad28a9db13c89709c84849d672e94549",
+      "matches": true
+    },
+    "AN202604141821191360": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191360.pdf",
+      "expected": "8b946b3f32f8d252790e435373948334878cb890edf52134923785781c9f090f",
+      "actual": "8b946b3f32f8d252790e435373948334878cb890edf52134923785781c9f090f",
+      "matches": true
+    },
+    "AN202604141821191357": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191357.pdf",
+      "expected": "7e7ae34137c4b393bb26dcf0bf22dd3c223334fbb7cd864479efa71c85c0a910",
+      "actual": "7e7ae34137c4b393bb26dcf0bf22dd3c223334fbb7cd864479efa71c85c0a910",
+      "matches": true
+    },
+    "AN202604141821191356": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191356.pdf",
+      "expected": "6b28bfb7c41d32dcadcf4877c7c329969b2dd2bd973052391cd3c66811d5ad6a",
+      "actual": "6b28bfb7c41d32dcadcf4877c7c329969b2dd2bd973052391cd3c66811d5ad6a",
+      "matches": true
+    },
+    "AN202604141821191381": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191381.pdf",
+      "expected": "c0f5734efeaf56de4d876fbc277564fcdddf5c59c30446346a608172fa4bc0b9",
+      "actual": "c0f5734efeaf56de4d876fbc277564fcdddf5c59c30446346a608172fa4bc0b9",
+      "matches": true
+    },
+    "AN202604141821191370": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604141821191370.pdf",
+      "expected": "d14993b1ea725eaca51fca786fe3314d021d99ed96ffb9f8a24bce7faa105cd9",
+      "actual": "d14993b1ea725eaca51fca786fe3314d021d99ed96ffb9f8a24bce7faa105cd9",
+      "matches": true
+    },
+    "AN202604201821335910": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604201821335910.pdf",
+      "expected": "fa26df63103ba87a8e92b2da909269609b07d9aea9a2e167805d7eb698a8ae3c",
+      "actual": "fa26df63103ba87a8e92b2da909269609b07d9aea9a2e167805d7eb698a8ae3c",
+      "matches": true
+    },
+    "AN202605081822079377": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202605081822079377.pdf",
+      "expected": "d319355feacf3bbd279e943057ed0444d05d3fde9a37bec8f19e7b722dac1be2",
+      "actual": "d319355feacf3bbd279e943057ed0444d05d3fde9a37bec8f19e7b722dac1be2",
+      "matches": true
+    },
+    "AN202605081822079379": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202605081822079379.pdf",
+      "expected": "76b7a2daf6a4d96788a47eda382f835205103783dc531ce5309c4bc7b3f3e3ee",
+      "actual": "76b7a2daf6a4d96788a47eda382f835205103783dc531ce5309c4bc7b3f3e3ee",
+      "matches": true
+    },
+    "AN202605151822348729": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202605151822348729.pdf",
+      "expected": "237daabee834487858b540c868f2f6f510cd2055f31edb9450fee93de77ced72",
+      "actual": "237daabee834487858b540c868f2f6f510cd2055f31edb9450fee93de77ced72",
+      "matches": true
+    },
+    "AN202605151822348743": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202605151822348743.pdf",
+      "expected": "accf8ea6183bd31e12f16f3fc7aad828facb44ed257fc5159ded1b66b934e6cd",
+      "actual": "accf8ea6183bd31e12f16f3fc7aad828facb44ed257fc5159ded1b66b934e6cd",
+      "matches": true
+    },
+    "AN202607081826820976": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202607081826820976.pdf",
+      "expected": "2d35863bf4a1fe374c375f856158097e5a417662a559b41a0c05d0f8a9d73b1b",
+      "actual": "2d35863bf4a1fe374c375f856158097e5a417662a559b41a0c05d0f8a9d73b1b",
+      "matches": true
+    },
+    "AN202607101826878111": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202607101826878111.pdf",
+      "expected": "eae464d0cd55644afa2983a4b9af1bb87dffc6b41afb6bf24a4434521d8914b9",
+      "actual": "eae464d0cd55644afa2983a4b9af1bb87dffc6b41afb6bf24a4434521d8914b9",
+      "matches": true
+    },
+    "AN202608250006749021": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608250006749021.pdf",
+      "expected": "7dfefa7978893d8ac67c4adb50d9841677eef8e1b72e3e72dfa1ab58c2c8bee2",
+      "actual": "7dfefa7978893d8ac67c4adb50d9841677eef8e1b72e3e72dfa1ab58c2c8bee2",
+      "matches": true
+    },
+    "AN202608250006749027": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608250006749027.pdf",
+      "expected": "b4754c672faa6683aa222b882eef067f264dcf79ad9f194f4f6fa223110d5ec6",
+      "actual": "b4754c672faa6683aa222b882eef067f264dcf79ad9f194f4f6fa223110d5ec6",
+      "matches": true
+    },
+    "AN202608251828420642": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420642.pdf",
+      "expected": "88ab323d97aa743aea7e4637fe15fea3b9c59c5a990cf2e72ce4d8ce40acdc5f",
+      "actual": "88ab323d97aa743aea7e4637fe15fea3b9c59c5a990cf2e72ce4d8ce40acdc5f",
+      "matches": true
+    },
+    "AN202608251828420669": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420669.pdf",
+      "expected": "56390758965d1266760138e4ab05c87e22ac434555494eccdcdd515899b73e68",
+      "actual": "56390758965d1266760138e4ab05c87e22ac434555494eccdcdd515899b73e68",
+      "matches": true
+    },
+    "AN202608251828420646": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420646.pdf",
+      "expected": "816c323c940230fed71ecb956adc9348e1653829eb4e8f0cdad16c1d09952150",
+      "actual": "816c323c940230fed71ecb956adc9348e1653829eb4e8f0cdad16c1d09952150",
+      "matches": true
+    },
+    "AN202608251828420627": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420627.pdf",
+      "expected": "9721bb194945d3534e17c0d3f42a0fe29cb1153cc0ebc214fe51d8a5e29149b1",
+      "actual": "9721bb194945d3534e17c0d3f42a0fe29cb1153cc0ebc214fe51d8a5e29149b1",
+      "matches": true
+    },
+    "AN202608251828420614": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420614.pdf",
+      "expected": "a467b083a2bdc76b377213b31da8f91dfc1dae5ffa0d31ceec08142a9a73d33e",
+      "actual": "a467b083a2bdc76b377213b31da8f91dfc1dae5ffa0d31ceec08142a9a73d33e",
+      "matches": true
+    },
+    "AN202608251828420618": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420618.pdf",
+      "expected": "4c7a69dc768b548056878ae20f6a02696aabcc8cdd1cc05be24986e4d05a51bc",
+      "actual": "4c7a69dc768b548056878ae20f6a02696aabcc8cdd1cc05be24986e4d05a51bc",
+      "matches": true
+    },
+    "AN202608251828420674": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420674.pdf",
+      "expected": "7543e70061565c48a01b9061740e9b0de5514fa4a71d3e9f3b98e32d075c9be8",
+      "actual": "7543e70061565c48a01b9061740e9b0de5514fa4a71d3e9f3b98e32d075c9be8",
+      "matches": true
+    },
+    "AN202608251828420658": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420658.pdf",
+      "expected": "8a6e2b40bcea1bb0e69448b9a22829dfede050952d01818fa3fed5bf222d1a96",
+      "actual": "8a6e2b40bcea1bb0e69448b9a22829dfede050952d01818fa3fed5bf222d1a96",
+      "matches": true
+    },
+    "AN202608251828420612": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202608251828420612.pdf",
+      "expected": "fd6c753fc09f242d0a08c050f5162b2a868eef60b9e66704748d781fa5bfdf37",
+      "actual": "fd6c753fc09f242d0a08c050f5162b2a868eef60b9e66704748d781fa5bfdf37",
+      "matches": true
+    },
+    "AN202609111829281985": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609111829281985.pdf",
+      "expected": "d0068009561de5d247eb7c92dec1ebefe95581ff6157abf717a447cd223f4f6b",
+      "actual": "d0068009561de5d247eb7c92dec1ebefe95581ff6157abf717a447cd223f4f6b",
+      "matches": true
+    },
+    "AN202609111829281984": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609111829281984.pdf",
+      "expected": "1dc1d371afa984d9cdf42b92430a54f8a10bb61348bc872405d486898a3e1f01",
+      "actual": "1dc1d371afa984d9cdf42b92430a54f8a10bb61348bc872405d486898a3e1f01",
+      "matches": true
+    },
+    "AN202609141829372726": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202609141829372726.pdf",
+      "expected": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+      "actual": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+      "matches": true
+    },
+    "AN202604301821801962": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202604301821801962.pdf",
+      "expected": "0bfad6339f79acacf42a7408836b97e33b7fd0acca9d19f92af049f1ddceb100",
+      "actual": "0bfad6339f79acacf42a7408836b97e33b7fd0acca9d19f92af049f1ddceb100",
+      "matches": true
+    },
+    "AN202504301664893427": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202504301664893427.pdf",
+      "expected": "5ee3f2f06a29207d4f7521a72629f4d81ed502fdc07191c4bd533c9685525def",
+      "actual": "5ee3f2f06a29207d4f7521a72629f4d81ed502fdc07191c4bd533c9685525def",
+      "matches": true
+    },
+    "AN202404231631050983": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202404231631050983.pdf",
+      "expected": "fdec7e760b4eb1194c5784945e1e963c574e300913c9f599ac5df26a5920f230",
+      "actual": "fdec7e760b4eb1194c5784945e1e963c574e300913c9f599ac5df26a5920f230",
+      "matches": true
+    },
+    "AN202304251585810615": {
+      "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/公告原件/AN202304251585810615.pdf",
+      "expected": "83361d207d8d59abfe695ab696d767d66b58d1fc610604570ba703d6496d7b87",
+      "actual": "83361d207d8d59abfe695ab696d767d66b58d1fc610604570ba703d6496d7b87",
+      "matches": true
+    }
+  }
+}

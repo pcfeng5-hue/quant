@@ -1,0 +1,123 @@
+{
+  "experiment_id": "002414_development_shenzhen_market_state_20261031_v1",
+  "client_date": "2026-10-31",
+  "status": "registered_before_this_market_candidate_results",
+  "authorization": "Human user: 继续执行下一步; assistant retrospective research choices, not trading parameters",
+  "scope": "Previously explored 2023-2024 development diagnostics; no untouched-test, current forecast, trading-profit or causal claims",
+  "hypothesis": "The sign of Shenzhen Component close relative to its same-date MA20 may carry price-direction information for this Shenzhen-listed stock beyond a matched constant-frequency baseline",
+  "input_features": "outputs/市场环境输入准备_20261031/市场环境工程输入.sqlite",
+  "feature_id": "399001.SZ:close_over_ma20_minus_one",
+  "feature_choice_reason": "Single Shenzhen market background proxy for a Shenzhen-listed research stock; MA20 is already prepared. No comparison or selection of other indices, lags or the other prepared columns by outcome scores",
+  "input_labels": "outputs/三线研究启动_20261025/量价基线/开发期结果隔离.sqlite",
+  "input_anchors": "outputs/三线研究启动_20261025/量价基线/日线特征与信号.sqlite",
+  "development_start": "2023-01-03",
+  "development_end": "2024-12-31",
+  "horizon_observed_sessions": 5,
+  "event": "C[t+5]/O[t+1]-1 > 0; zero joins nonpositive and is counted separately",
+  "target_is_net_profit": false,
+  "market_state_definition": "engineering_value > 0 -> above_ma20; engineering_value <= 0 -> at_or_below_ma20, equality assigned below; no tolerance or threshold search",
+  "market_states": [
+    "above_ma20",
+    "at_or_below_ma20"
+  ],
+  "valid_feature_policy": "Only the one registered feature. engineering_ready=1, exact status ENGINEERING_READY_NOT_FORMAL_PIT, finite engineering_value > -1, close_source_conflict_n=0, dependency_n=20, max_dependency_date=signal_date, dependency_first_date <= signal_date; historical/PIT/runtime flags remain 0",
+  "missing_policy": "Consistent missing/cold-start/source-conflict rows or absent source rows cause explicit shared abstention; never use diagnostic_value, zero fill or another index",
+  "nonready_trace_policy": "Cold-start rows have zero dependencies and NULL trace dates. Conflict rows retain a complete MA20 trace whose actual conflict sum equals the feature conflict count; no engineering value is used",
+  "invalid_feature_policy": "Reject duplicate or out-of-domain dates, wrong feature ID, unregistered statuses, nonfinite values, contradictory engineering-ready/value/status/trace/flag combinations before fitting",
+  "dependency_policy": "Independently verify the actual 20 unique ordered primary-provider closes against input_closes, source observation IDs/values/hashes, the current and 19 preceding observed index dates, and feature trace first/last dates before any fit",
+  "dependency_numeric_absolute_tolerance": 1e-12,
+  "dependency_tolerance_is_group_threshold_tolerance": false,
+  "research_exception": "This exact pre-audited engineering field may be used for retrospective development diagnostics although formal input approval is false; no other exception and no formal/PIT/runtime promotion",
+  "decision_time": "After signal-date completed close under saved-snapshot assumptions; historical first availability remains uncertified",
+  "models": [
+    "M0_laplace_constant",
+    "M3_shenzhen_ma20_group_shrinkage"
+  ],
+  "m0_formula": "p0=(k+1)/(n+2)",
+  "m3_formula": "pg=(kg+20*p0)/(ng+20), exact p0 fallback if ng=0",
+  "denominator_definition": "Both models use identical matured, selected-feature-valid training rows; group counts are subsets of that common pool",
+  "shrinkage_lambda": 20,
+  "shrinkage_is_bayesian_posterior_or_interval": false,
+  "minimum_training_rows": 100,
+  "minimum_is_engineering_only": true,
+  "insufficient_training_policy": "Below 100 common rows -> both models abstain for the fold; no fallback to an older fold or threshold reduction",
+  "folds": [
+    {
+      "id": "F1_2023Q3",
+      "validation_start": "2023-07-03",
+      "validation_end": "2023-09-28"
+    },
+    {
+      "id": "F2_2023Q4",
+      "validation_start": "2023-10-09",
+      "validation_end": "2023-12-29"
+    },
+    {
+      "id": "F3_2024Q1",
+      "validation_start": "2024-01-02",
+      "validation_end": "2024-03-29"
+    },
+    {
+      "id": "F4_2024Q2",
+      "validation_start": "2024-04-01",
+      "validation_end": "2024-06-28"
+    },
+    {
+      "id": "F5_2024Q3",
+      "validation_start": "2024-07-01",
+      "validation_end": "2024-09-30"
+    },
+    {
+      "id": "F6_2024Q4",
+      "validation_start": "2024-10-08",
+      "validation_end": "2024-12-31"
+    }
+  ],
+  "training_policy": "Expanding window; signal and actual label end strictly before validation start. Fit once and freeze values for each complete fold",
+  "validation_policy": "Label end <= fold end. M0/M3 same dates and outcomes; keep prior known ex-date and development-end label exclusions",
+  "comparability": "Refit M0 on the same selected-market-feature pool; do not directly compare with earlier MA-only or price-volume scores on different dates. This does not test a conditional increment above M1 or M2",
+  "primary_metric": "POOLED all-overlapping mean Brier difference M3-M0; lower is better",
+  "secondary_metrics": [
+    "natural log loss",
+    "all six fold scores",
+    "fixed original-anchor every-fifth sensitivity",
+    "fixed-bin calibration diagnostic"
+  ],
+  "fixed_grid": "Construct i%5==0 from all 484 original development anchors starting 2023-01-03 before exclusions; intersect with actual scored dates, no phase choice",
+  "log_loss_epsilon": 1e-12,
+  "calibration_bin_edges": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+  ],
+  "sparse_display_threshold": 20,
+  "sparse_threshold_is_reliability_or_promotion_test": false,
+  "reporting": "Every fold, both groups including empty ones, n/k/zero/negative/p, shared training members, exclusions, paired loss differences, coverage and all fixed bins",
+  "development_screen": "A descriptive eligibility screen for later design review only: pooled Brier and pooled log loss both strictly lower, fixed-grid Brier no worse, and strictly lower Brier in at least 4 of the 6 folds. All must be evaluable. Not a significance test, profit guarantee or automatic phase promotion",
+  "development_screen_is_statistical_proof": false,
+  "overlapping_outcomes_independent": false,
+  "confidence_intervals_or_significance_claims": false,
+  "probability_recalibration_fitted": false,
+  "parameter_or_index_or_window_search": false,
+  "previous_registered_variants": 15,
+  "new_registered_model_variants": 1,
+  "repeated_comparator_not_new_model_variant": 1,
+  "cumulative_registered_variants_after_this_run": 16,
+  "prepared_candidate_definitions_previously_disclosed": 15,
+  "prepared_definitions_scored_in_this_run": 1,
+  "other_prepared_columns_scored_in_this_run": false,
+  "previous_negative_results_retained": true,
+  "outcomes_2025_2026_opened": false,
+  "historical_first_availability_certified": false,
+  "historical_daily_st_or_suspension_certified": false,
+  "execution_or_costs_modelled": false,
+  "event_or_chip_features_used": false,
+  "current_forecast_generated": false,
+  "model_input_approved": false,
+  "runtime_usable": false,
+  "old_forecast_protocol_or_risk_modified": false,
+  "followup_policy": "Keep the full outcome and trial ledger; no tuning or extra candidates this round. Passing the descriptive screen only permits a separate review and preregistered next-phase design; it never opens 2025/2026 targets or approves live use automatically"
+}

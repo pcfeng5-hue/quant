@@ -1,0 +1,204 @@
+{
+  "review_date_client": "2026-10-16",
+  "timezone_client": "America/Toronto",
+  "source_url": "https://quote.eastmoney.com/concept/sz002414.html#fschart-r",
+  "method": "CUA可见日K交互及已渲染DOM；保存日期同步的摘要HTML、AX与截图；无隐藏页面状态或后台数据读取",
+  "observations": [
+    {
+      "date": "2023-06-20",
+      "profit_ratio_display": "6.68%",
+      "average_cost_display": "9.03",
+      "cost90_display": "7.66-11.77",
+      "concentration90_display": "21.20%",
+      "cost70_display": "8.20-10.81",
+      "concentration70_display": "13.72%",
+      "symbol": "002414.SZ",
+      "context": "first_session_earlier_history",
+      "evidence_stem": "B_20230620",
+      "kline_date": "2023-06-20",
+      "kline_basis_control": "前复权",
+      "kline_price_display": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61"
+      },
+      "chip_price_basis_verified": false,
+      "historical_input_eligible": false,
+      "full_price_bin_data_acquired": false
+    },
+    {
+      "date": "2023-06-20",
+      "profit_ratio_display": "6.68%",
+      "average_cost_display": "9.03",
+      "cost90_display": "7.66-11.77",
+      "concentration90_display": "21.20%",
+      "cost70_display": "8.20-10.81",
+      "concentration70_display": "13.72%",
+      "symbol": "002414.SZ",
+      "context": "first_session_returned_window",
+      "evidence_stem": "A2_20230620",
+      "kline_date": "2023-06-20",
+      "kline_basis_control": "前复权",
+      "kline_price_display": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61"
+      },
+      "chip_price_basis_verified": false,
+      "historical_input_eligible": false,
+      "full_price_bin_data_acquired": false
+    },
+    {
+      "date": "2023-01-03",
+      "profit_ratio_display": "5.85%",
+      "average_cost_display": "9.30",
+      "cost90_display": "8.41-13.01",
+      "concentration90_display": "21.47%",
+      "cost70_display": "8.75-11.36",
+      "concentration70_display": "12.97%",
+      "symbol": "002414.SZ",
+      "context": "research_start_sample",
+      "evidence_stem": "20230103",
+      "kline_date": "2023-01-03",
+      "kline_basis_control": "前复权",
+      "kline_price_display": {
+        "开盘": "8.22",
+        "收盘": "8.42",
+        "最高": "8.46",
+        "最低": "8.19"
+      },
+      "chip_price_basis_verified": false,
+      "historical_input_eligible": false,
+      "full_price_bin_data_acquired": false
+    },
+    {
+      "date": "2023-06-20",
+      "profit_ratio_display": "6.20%",
+      "average_cost_display": "9.03",
+      "cost90_display": "7.60-11.34",
+      "concentration90_display": "19.76%",
+      "cost70_display": "8.20-10.29",
+      "concentration70_display": "11.29%",
+      "symbol": "002414.SZ",
+      "context": "fresh_reload_history",
+      "evidence_stem": "reload_20230620",
+      "kline_date": "2023-06-20",
+      "kline_basis_control": "前复权",
+      "kline_price_display": {
+        "开盘": "7.63",
+        "收盘": "7.68",
+        "最高": "7.71",
+        "最低": "7.61"
+      },
+      "chip_price_basis_verified": false,
+      "historical_input_eligible": false,
+      "full_price_bin_data_acquired": false
+    }
+  ],
+  "snapshot_count": 4,
+  "unique_observed_dates": [
+    "2023-01-03",
+    "2023-06-20"
+  ],
+  "same_date_different_summary_fields": {
+    "profit_ratio_display": [
+      "6.20%",
+      "6.68%"
+    ],
+    "cost90_display": [
+      "7.60-11.34",
+      "7.66-11.77"
+    ],
+    "concentration90_display": [
+      "19.76%",
+      "21.20%"
+    ],
+    "cost70_display": [
+      "8.20-10.29",
+      "8.20-10.81"
+    ],
+    "concentration70_display": [
+      "11.29%",
+      "13.72%"
+    ]
+  },
+  "same_date_kline_ohlc_identical": true,
+  "earliest_requested_trading_date_display_verified": true,
+  "all_requested_dates_display_verified": false,
+  "complete_daily_price_bins_obtained": 0,
+  "historical_first_availability_verified": false,
+  "algorithm_and_initialization_verified": false,
+  "difference_cause": "尚未确定。差异发生在历史平移/较早数据载入和重新加载等交互之后；不能据此认定唯一原因或哪版正确。",
+  "public_export_control": "已检查日K工具栏及筹码面板，未找到公开导出完整价档的控件；不据此断言整个网站没有其他功能。",
+  "date_synchronization": "操作/停留后曾见K线日期与筹码默认日期不一致。正式样本只接受两者日期同步的截图与HTML。",
+  "excluded_diagnostics": [
+    "unsynchronized_after_idle_table.html（读到默认最新日期，非2023样本）",
+    "root_observations.json中的辅助尝试及误命名note（以实际values日期为准，不作为本批正式快照）"
+  ],
+  "main_database_modified": false,
+  "historical_input_eligible": false,
+  "evidence_files": [
+    {
+      "file": "B_20230620_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102
+    },
+    {
+      "file": "B_20230620_ax.txt",
+      "sha256": "d6e6fdd60aa5d1976efba71474559340455f73b36afb94b84d1ddcc9a71c3c45",
+      "bytes": 58842
+    },
+    {
+      "file": "B_20230620.jpg",
+      "sha256": "3b9fb98a621ab38c383f02c968d0104e1af5d360b3feaa288e73245d92c2d29f",
+      "bytes": 101499
+    },
+    {
+      "file": "A2_20230620_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102
+    },
+    {
+      "file": "A2_20230620_ax.txt",
+      "sha256": "db49330dec6582c5c56c10c71cda756235af4f933f9c0e7ecd99700ff3397bf3",
+      "bytes": 58842
+    },
+    {
+      "file": "A2_20230620.jpg",
+      "sha256": "fdfe88c922d3e051fd88fa379c2c7c32171693874e99d8ef904d40e1a9770d81",
+      "bytes": 105058
+    },
+    {
+      "file": "20230103_table.html",
+      "sha256": "d22f1480aa77d02e3f820918d0e04558999d1a31b8c9c020d1ff560b3699f37b",
+      "bytes": 1102
+    },
+    {
+      "file": "20230103_ax.txt",
+      "sha256": "cae84f333d7714dad4cb8ec3020f21e45a4f66c8193b0d1e10501e4a8205adc3",
+      "bytes": 58842
+    },
+    {
+      "file": "20230103.jpg",
+      "sha256": "eb4a4ff25663ae3e9a38ef05c4e39f2f3c537f27349d01c5c30f00a429b9ec48",
+      "bytes": 100410
+    },
+    {
+      "file": "reload_20230620_table.html",
+      "sha256": "907124f230b2ef42faa34949617ee56cde3f2d5a7afad42249de00223a82c9a5",
+      "bytes": 1102
+    },
+    {
+      "file": "reload_20230620_ax.txt",
+      "sha256": "b643ac48167147cbba8e42f819dd8df96a8dc75042d0311ae65b592fcb550f14",
+      "bytes": 58836
+    },
+    {
+      "file": "reload_20230620.jpg",
+      "sha256": "a28512a1386b664c8cbb6543ae88221c30d11f1872890313df3fc7c4f49755a5",
+      "bytes": 105050
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "symbol": "399967.SZ",
+  "name": "中证军工指数",
+  "provider": "中证指数有限公司",
+  "methodology_version": "2023年12月 V1.2",
+  "official_url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/20231208175428-399967_Index_Methodology_cn.pdf",
+  "official_saved_path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/market_industry_oct22/raw/csi_399967_methodology_v1_2_cb73c7a56453aa32.pdf",
+  "official_sha256": "cb73c7a56453aa32ab1533ca406f0bcd11fba9feebde6282e39a8bc306f07384",
+  "pages": 2,
+  "text_contains_code": true,
+  "proxy_use": "Military industry background context only",
+  "historical_membership_of_002414_verified": false,
+  "all_historical_methodology_versions_verified": false,
+  "not_total_return": "Daily price index; do not relabel as reinvested total return"
+}

@@ -1,0 +1,762 @@
+{
+  "source_index_rows": 5390,
+  "supplement_unique_paths": 54,
+  "supplement_present_paths": 51,
+  "supplement_missing_rejected_attempt_paths": 3,
+  "merged_unique_paths": 5444,
+  "source_db_unchanged": true,
+  "source_db_sha256": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14",
+  "supplement_records": [
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/20230103.jpg",
+      "sha256": "eb4a4ff25663ae3e9a38ef05c4e39f2f3c537f27349d01c5c30f00a429b9ec48",
+      "bytes": 100410,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:20230103",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/20230103_ax.txt",
+      "sha256": "cae84f333d7714dad4cb8ec3020f21e45a4f66c8193b0d1e10501e4a8205adc3",
+      "bytes": 58842,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:20230103",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/20230103_table.html",
+      "sha256": "d22f1480aa77d02e3f820918d0e04558999d1a31b8c9c020d1ff560b3699f37b",
+      "bytes": 1102,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:20230103",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/A2_20230620.jpg",
+      "sha256": "fdfe88c922d3e051fd88fa379c2c7c32171693874e99d8ef904d40e1a9770d81",
+      "bytes": 105058,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:A2_20230620",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/A2_20230620_ax.txt",
+      "sha256": "db49330dec6582c5c56c10c71cda756235af4f933f9c0e7ecd99700ff3397bf3",
+      "bytes": 58842,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:A2_20230620",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/A2_20230620_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:A2_20230620",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/B_20230620.jpg",
+      "sha256": "3b9fb98a621ab38c383f02c968d0104e1af5d360b3feaa288e73245d92c2d29f",
+      "bytes": 101499,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:B_20230620",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/B_20230620_ax.txt",
+      "sha256": "d6e6fdd60aa5d1976efba71474559340455f73b36afb94b84d1ddcc9a71c3c45",
+      "bytes": 58842,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:B_20230620",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/B_20230620_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:B_20230620",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/reload_20230620.jpg",
+      "sha256": "a28512a1386b664c8cbb6543ae88221c30d11f1872890313df3fc7c4f49755a5",
+      "bytes": 105050,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:reload_20230620",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/reload_20230620_ax.txt",
+      "sha256": "b643ac48167147cbba8e42f819dd8df96a8dc75042d0311ae65b592fcb550f14",
+      "bytes": 58836,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:reload_20230620",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/reload_20230620_table.html",
+      "sha256": "907124f230b2ef42faa34949617ee56cde3f2d5a7afad42249de00223a82c9a5",
+      "bytes": 1102,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:reload_20230620",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "outputs/高德红外数据库/网页筹码核验_20261016/核验记录.json",
+      "sha256": "2174d0b99e37100bbfeef2413cd88bf81a446305b382f4bd6e35635377446555",
+      "bytes": 6752,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round1:20230103",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round1:A2_20230620",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round1:B_20230620",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round1:reload_20230620",
+          "role": "record_index"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_default_latest/chart.jpg",
+      "sha256": "be4e34ca4c9cd6bf9c1a0cfc2b0de71240b1804d37502a227236a4c4ee4c8cd8",
+      "bytes": 126078,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_default_latest",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_default_latest/dom.txt",
+      "sha256": "122c9e4fbf34bd1414bed99e35ca84dd2f5d48618a26a0ffabf5dcd15e8adba0",
+      "bytes": 75959,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_default_latest",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_default_latest/kline.html",
+      "sha256": "bca73459cf467a8221f436804c87248b888e03d0b74f0ae42eb067b87c678ceb",
+      "bytes": 1156,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_default_latest",
+          "role": "kline_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_default_latest/record.json",
+      "sha256": "bf901ba1a82b3b9227e9a7db665bf0443b130d8031e532dfd465e56a19a03acc",
+      "bytes": 883,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_default_latest",
+          "role": "record"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_default_latest/summary.html",
+      "sha256": "2fe652abe1d64b546c03cbfd8664ab660340ea0f0a705c12c5257c9940f9e175",
+      "bytes": 1104,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_default_latest",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_expanded_latest/chart.jpg",
+      "sha256": "3751bcddf9ac1cf6bba304582c0eb8e30259522f5beb0d629e5b1c02dd54f196",
+      "bytes": 141647,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_expanded_latest",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_expanded_latest/dom.txt",
+      "sha256": "ded4652fca145e45ad84f9c6894d66d0a7b9ae10c402a917dda6888500f7dd3f",
+      "bytes": 75967,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_expanded_latest",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_expanded_latest/kline.html",
+      "sha256": "bd3d0c77eee154229ca6408fa2f5a919a0b61e12724179b1cc3debdb6805bb38",
+      "bytes": 1170,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_expanded_latest",
+          "role": "kline_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_expanded_latest/record.json",
+      "sha256": "9c20333f090c9dc8f03d626c3ada5a08483d5dfa83c3ce074ca70311efcdba9b",
+      "bytes": 881,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_expanded_latest",
+          "role": "record"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_refine_first3_oct17/records/fresh_expanded_latest/summary.html",
+      "sha256": "14f20bb892f336ea082954f93f8936a1aff0614e0fe3e60aacaaf43d9503c9b0",
+      "bytes": 1106,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "refine_oct17:fresh_expanded_latest",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_adjacent_0619.jpg",
+      "sha256": "09188ef6b56e879316c636753a010a008ff1473054a64bfed57cf55cfdef14b2",
+      "bytes": 124510,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_adjacent_0619",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_adjacent_0619_ax.txt",
+      "sha256": "344910afd47f27ab8427d0741f0a112f6a3fd13f0f2e65763716e56eca79c6d6",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_adjacent_0619",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_adjacent_0619_table.html",
+      "sha256": "6e1ce4b10880530cde637acc3ec50fde7167563550753ed8f4554816a9a090aa",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_adjacent_0619",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_baseline.jpg",
+      "sha256": "fdd6c59548a62b9684411e7aca78cfd49765c2dfde0eccb1e2994282b40cb685",
+      "bytes": 125390,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_baseline",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_baseline_ax.txt",
+      "sha256": "4515797d129601c94a11b25ffe6690037a78e6bec4d0a68e9e3ca018af4aff94",
+      "bytes": 58840,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_baseline",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_baseline_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_baseline",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_no_action_repeat.jpg",
+      "sha256": "fdd6c59548a62b9684411e7aca78cfd49765c2dfde0eccb1e2994282b40cb685",
+      "bytes": 125390,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_no_action_repeat",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_no_action_repeat_ax.txt",
+      "sha256": "ee71d070d59f89a3eb2f5dd5c3b0653b91456db0effe352c655e77be541d4493",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_no_action_repeat",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_no_action_repeat_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_no_action_repeat",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_later.jpg",
+      "sha256": null,
+      "bytes": null,
+      "exists_locally": 0,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_later",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_later_ax.txt",
+      "sha256": null,
+      "bytes": null,
+      "exists_locally": 0,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_later",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_later_corrected.jpg",
+      "sha256": "ead607d30e93dcce706cd6a8301906522752823e8d286a61f44a7f2702ec2aaf",
+      "bytes": 119359,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_later_corrected",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_later_corrected_ax.txt",
+      "sha256": "89bc7b3a9e2ea4bedcb15500378a429976da9611011d0ae09a6702a415d7a4bf",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_later_corrected",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_later_corrected_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_later_corrected",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_later_table.html",
+      "sha256": null,
+      "bytes": null,
+      "exists_locally": 0,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_later",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_return.jpg",
+      "sha256": "fdd6c59548a62b9684411e7aca78cfd49765c2dfde0eccb1e2994282b40cb685",
+      "bytes": 125390,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_return",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_return_2.jpg",
+      "sha256": "fdd6c59548a62b9684411e7aca78cfd49765c2dfde0eccb1e2994282b40cb685",
+      "bytes": 125390,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_return_2",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_return_2_ax.txt",
+      "sha256": "89bc7b3a9e2ea4bedcb15500378a429976da9611011d0ae09a6702a415d7a4bf",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_return_2",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_return_2_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_return_2",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_return_ax.txt",
+      "sha256": "c6ba0f0dce2d7e21aa2e984cb76e123d28304f057ce71f1447dab70f79ab0fe3",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_return",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_pan_return_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_pan_return",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_return_1.jpg",
+      "sha256": "fdd6c59548a62b9684411e7aca78cfd49765c2dfde0eccb1e2994282b40cb685",
+      "bytes": 125390,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_return_1",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_return_1_ax.txt",
+      "sha256": "0f2633ca753df45ea12893d565682c61516785d5abd9e6fbc5fefa2751bf1e1b",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_return_1",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_return_1_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_return_1",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_return_2.jpg",
+      "sha256": "fdd6c59548a62b9684411e7aca78cfd49765c2dfde0eccb1e2994282b40cb685",
+      "bytes": 125390,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_return_2",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_return_2_ax.txt",
+      "sha256": "0f2633ca753df45ea12893d565682c61516785d5abd9e6fbc5fefa2751bf1e1b",
+      "bytes": 58843,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_return_2",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R1_return_2_table.html",
+      "sha256": "17370a639e714de0971dc267b941a6916e02848fb76b50dee16afb691988c2ad",
+      "bytes": 1101,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_return_2",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R2_extended_earlier_20230620_oct17.jpg",
+      "sha256": "6db7b459a0dc54ce3a84a187fad62d2f685a6ead8008760acc5e90637f25b8fc",
+      "bytes": 121047,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R2_extended_earlier_20230620_oct17",
+          "role": "chart"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R2_extended_earlier_20230620_oct17_ax.txt",
+      "sha256": "b018e57a779c98e77749d7a0286735ac3ea27032cb4c1152700aca6bf45f3cd5",
+      "bytes": 58517,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R2_extended_earlier_20230620_oct17",
+          "role": "accessibility"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/R2_extended_earlier_20230620_oct17_table.html",
+      "sha256": "5cacf4bab4d1e76e41dfebf0d459a919921dbf02b92fca3a2dfe720fea526da8",
+      "bytes": 1102,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R2_extended_earlier_20230620_oct17",
+          "role": "summary_html"
+        }
+      ]
+    },
+    {
+      "project_relative_path": "work/chip_repeatability_round2_oct16/ui/records.json",
+      "sha256": "2e5b04857da11d51b0babf74a0089b4cbfc74edb856bbfe2e067e02003a47cfe",
+      "bytes": 14585,
+      "exists_locally": 1,
+      "origin": "chip_evidence_supplement_oct25",
+      "references": [
+        {
+          "observation_id": "round2:R1_adjacent_0619",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_baseline",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_no_action_repeat",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_pan_later",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_pan_later_corrected",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_pan_return",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_pan_return_2",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_return_1",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R1_return_2",
+          "role": "record_index"
+        },
+        {
+          "observation_id": "round2:R2_extended_earlier_20230620_oct17",
+          "role": "record_index"
+        }
+      ]
+    }
+  ],
+  "not_a_full_project_file_inventory": true
+}

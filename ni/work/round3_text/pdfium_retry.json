@@ -1,0 +1,1667 @@
+[
+  {
+    "art_code": "AN202304191585591297",
+    "page_number": 2,
+    "source_sha256": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591297",
+    "page_number": 3,
+    "source_sha256": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591297",
+    "page_number": 4,
+    "source_sha256": "0b5964e6fb98a465fbeb99c95ac1488728823fd8996dfa629e37e3552d77bde5",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 2,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 3,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 4,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 5,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 6,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 7,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 8,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 9,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 10,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 11,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 12,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 13,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 14,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 15,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 16,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 17,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 18,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591309",
+    "page_number": 111,
+    "source_sha256": "6bc3155c99f3990f8b495363ce5d7b71378f41ea3c9e9084ab51504847a75672",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591323",
+    "page_number": 2,
+    "source_sha256": "2cf3d818d000ebbcf43a56e625b3f324c89c3e42e4226404d56a24415841921e",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591323",
+    "page_number": 3,
+    "source_sha256": "2cf3d818d000ebbcf43a56e625b3f324c89c3e42e4226404d56a24415841921e",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591324",
+    "page_number": 2,
+    "source_sha256": "2f60fe2885e285a877be81d8714d26d7d502f25bb7bd51c723458e519fcf6a53",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591324",
+    "page_number": 3,
+    "source_sha256": "2f60fe2885e285a877be81d8714d26d7d502f25bb7bd51c723458e519fcf6a53",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202304191585591324",
+    "page_number": 13,
+    "source_sha256": "2f60fe2885e285a877be81d8714d26d7d502f25bb7bd51c723458e519fcf6a53",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 6,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 7,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 8,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 9,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 10,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 11,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 12,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 13,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 14,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 15,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 16,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 17,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 18,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 129,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 130,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 131,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 132,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235969",
+    "page_number": 133,
+    "source_sha256": "8d3b1c6652a73155b006cdb790aa104eafeb86463e2d68613dbb30df1ce4403a",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 3,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 4,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 5,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 6,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 7,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 8,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235970",
+    "page_number": 9,
+    "source_sha256": "67df4b55fedbac5b114f2387d4c7ab74d2111116719aa8e2eecb3aa4aefc7546",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235991",
+    "page_number": 2,
+    "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235991",
+    "page_number": 3,
+    "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235991",
+    "page_number": 4,
+    "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235991",
+    "page_number": 5,
+    "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235991",
+    "page_number": 6,
+    "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235991",
+    "page_number": 7,
+    "source_sha256": "b4a948507a1dd6647e74a6914fdd1b0779fe375dbe2cb49fbe04f44685b99f9d",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235994",
+    "page_number": 3,
+    "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235994",
+    "page_number": 12,
+    "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235994",
+    "page_number": 13,
+    "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235994",
+    "page_number": 14,
+    "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235994",
+    "page_number": 15,
+    "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202404151630235994",
+    "page_number": 16,
+    "source_sha256": "72d347d23076f987d3be9d5e3037f68819b1a458287cccfb2c87a33ac7993198",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202408261639461679",
+    "page_number": 1,
+    "source_sha256": "88075bb23d26cde714fd945a99f56fc0d585f1305644753c956c5bb143109019",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202408261639461679",
+    "page_number": 2,
+    "source_sha256": "88075bb23d26cde714fd945a99f56fc0d585f1305644753c956c5bb143109019",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 2,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 3,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 4,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 5,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 6,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 7,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 8,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 9,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 10,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 11,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 12,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 13,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 14,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 15,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 16,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 17,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 18,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 19,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 20,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 21,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 22,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 23,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 24,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 25,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 26,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 27,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 28,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 29,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 30,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 31,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 32,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 33,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 34,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 35,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 36,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 37,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 38,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 39,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 40,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 41,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 42,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 43,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 44,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202409181639923890",
+    "page_number": 45,
+    "source_sha256": "d1d36b3049a081952bee0204f2aa495b09a334a2d9665bb0a7caded4a4ef03a1",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 2,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 3,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 4,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 5,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 6,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 7,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 8,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 9,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 10,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 11,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 12,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 13,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 14,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 15,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 16,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 17,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 18,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 129,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 130,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 131,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 132,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801153",
+    "page_number": 133,
+    "source_sha256": "908dd3324e3ba9cb9d6b9b7dc6a11dd7eeb87076c2d52fc30ffe47c5cfbf5cb0",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 2,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 3,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 4,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 5,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 6,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 7,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 8,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661801155",
+    "page_number": 9,
+    "source_sha256": "ddd8d546e470b26edc2aa84fc84af49ae53f29ab22ea2a228ad55871b1607420",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802965",
+    "page_number": 2,
+    "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802965",
+    "page_number": 3,
+    "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802965",
+    "page_number": 4,
+    "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802965",
+    "page_number": 5,
+    "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802965",
+    "page_number": 6,
+    "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802965",
+    "page_number": 7,
+    "source_sha256": "9fa57cd2a4ef11ed1eeb2af9bff4008e6e4479e99af2a972a7cef3c98a9ce7f2",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 2,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 3,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 4,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 5,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 6,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 7,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202504241661802974",
+    "page_number": 8,
+    "source_sha256": "c5fff5132e5a80329692ffb12d0be6a4c4562d879bdcc0d661b6c0ec2b7eb0de",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202508251734295809",
+    "page_number": 1,
+    "source_sha256": "70e4eb2874525b14de0d4a9595b5a6145149a1888642391e2e95d9a041fcff74",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202508251734295809",
+    "page_number": 2,
+    "source_sha256": "70e4eb2874525b14de0d4a9595b5a6145149a1888642391e2e95d9a041fcff74",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202512221805888701",
+    "page_number": 6,
+    "source_sha256": "7e4170287c9ac9c571e5686f0b5bdd78f979b872b63676dc482fff4187d47256",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 6,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 7,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 8,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 9,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 10,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 11,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 12,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 13,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 14,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 15,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 16,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 17,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 18,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 131,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 132,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 133,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 134,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191365",
+    "page_number": 135,
+    "source_sha256": "eefef417791c38d3a8ada937e5e3949fa85f55d4158e999ce2111755338c6f69",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191375",
+    "page_number": 3,
+    "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191375",
+    "page_number": 4,
+    "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191375",
+    "page_number": 5,
+    "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191375",
+    "page_number": 6,
+    "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191375",
+    "page_number": 7,
+    "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191375",
+    "page_number": 8,
+    "source_sha256": "905c4069bf1da2d19cf4c89e015ae825a05d731cdd26a34649070274244fdeb9",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191376",
+    "page_number": 3,
+    "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191376",
+    "page_number": 4,
+    "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191376",
+    "page_number": 5,
+    "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191376",
+    "page_number": 6,
+    "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202604141821191376",
+    "page_number": 7,
+    "source_sha256": "531117a93882a80dedbd40f34eaac7d7fca145cb63cedf14cdcf8bb625460d07",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  },
+  {
+    "art_code": "AN202608251828420642",
+    "page_number": 1,
+    "source_sha256": "88ab323d97aa743aea7e4637fe15fea3b9c59c5a990cf2e72ce4d8ce40acdc5f",
+    "text": "",
+    "extractor": "pypdfium2.PdfTextPage.get_text_bounded",
+    "status": "still_empty_text_layer",
+    "error": null
+  }
+]

@@ -1,0 +1,7 @@
+﻿fold_id,validation_start,validation_end,train_candidates,train_purged_not_mature,train_mature,train_ma_missing,train_volume_missing,train_joint_missing,train_used,latest_training_label_end,validation_anchors,evaluated_dates,no_registered_label,label_crosses_fold_end,ma_and_volume_missing,ma_only_missing,volume_only_missing,insufficient_training
+F1_2023Q3,2023-07-03,2023-09-28,113,5,108,2,2,2,106,2023-06-19,64,46,0,5,8,0,5,0
+F2_2023Q4,2023-10-09,2023-12-29,177,5,172,15,20,20,152,2023-09-28,60,55,0,5,0,0,0,0
+F3_2024Q1,2024-01-02,2024-03-29,237,5,232,15,20,20,212,2023-12-29,58,53,0,5,0,0,0,0
+F4_2024Q2,2024-04-01,2024-06-28,295,5,290,15,20,20,270,2024-03-29,59,29,5,5,15,0,5,0
+F5_2024Q3,2024-07-01,2024-09-30,349,5,344,30,40,40,304,2024-05-23,64,59,0,5,0,0,0,0
+F6_2024Q4,2024-10-08,2024-12-31,413,5,408,30,40,40,368,2024-09-30,61,56,5,0,0,0,0,0

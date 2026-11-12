@@ -1,0 +1,689 @@
+{
+  "audit_scope": "Raw saved six index responses → independent Decimal parse → staged rows → unified index market rows only.",
+  "new_network_requests": 0,
+  "labels_generated_read_or_scored": false,
+  "post_2024_target_tables_queried": false,
+  "model_or_signal_experiments_added": 0,
+  "price_unit": "index_points",
+  "volume_unit_certified": false,
+  "raw_hash_checks": [
+    {
+      "request_id": "em_000001.SH_0",
+      "path": "work/market_industry_oct22/raw/em_000001.SH_0_f37d6a95d93f6a42.json",
+      "sha256": "f37d6a95d93f6a4262a8cb0725f8497c2132857af690b8cc9ef9074d9483a3e1",
+      "bytes": 107814,
+      "expected_sha256": "f37d6a95d93f6a4262a8cb0725f8497c2132857af690b8cc9ef9074d9483a3e1",
+      "expected_bytes": 107814,
+      "matches": true,
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.000001&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "requested_at_utc": "2026-10-22T16:21:12.166473+00:00",
+      "finished_at_utc": "2026-10-22T16:21:14.208893+00:00"
+    },
+    {
+      "request_id": "tencent_000001.SH_0",
+      "path": "work/market_industry_oct22/raw/tencent_000001.SH_0_f342533f6cda0c77.json",
+      "sha256": "f342533f6cda0c77e17109da8edafad6342d24eccaf5f67d17998064a1f6e530",
+      "bytes": 88660,
+      "expected_sha256": "f342533f6cda0c77e17109da8edafad6342d24eccaf5f67d17998064a1f6e530",
+      "expected_bytes": 88660,
+      "matches": true,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+      "requested_at_utc": "2026-10-22T16:21:12.166917+00:00",
+      "finished_at_utc": "2026-10-22T16:21:14.615385+00:00"
+    },
+    {
+      "request_id": "em_399001.SZ_0",
+      "path": "work/market_industry_oct22/raw/em_399001.SZ_0_5c910c658de665a7.json",
+      "sha256": "5c910c658de665a7116846d2237a53bb3727662cbcb90eed6aeb6f1c3d2a3704",
+      "bytes": 112514,
+      "expected_sha256": "5c910c658de665a7116846d2237a53bb3727662cbcb90eed6aeb6f1c3d2a3704",
+      "expected_bytes": 112514,
+      "matches": true,
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.399001&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "requested_at_utc": "2026-10-22T16:21:12.166980+00:00",
+      "finished_at_utc": "2026-10-22T16:21:14.403717+00:00"
+    },
+    {
+      "request_id": "tencent_399001.SZ_0",
+      "path": "work/market_industry_oct22/raw/tencent_399001.SZ_0_a43d89ad1cdad1e6.json",
+      "sha256": "a43d89ad1cdad1e64aa7d1527139007027e8cdace419c92e810934cd2096505d",
+      "bytes": 92312,
+      "expected_sha256": "a43d89ad1cdad1e64aa7d1527139007027e8cdace419c92e810934cd2096505d",
+      "expected_bytes": 92312,
+      "matches": true,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399001%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+      "requested_at_utc": "2026-10-22T16:21:12.167067+00:00",
+      "finished_at_utc": "2026-10-22T16:21:14.329807+00:00"
+    },
+    {
+      "request_id": "em_399967.SZ_0",
+      "path": "work/market_industry_oct22/raw/em_399967.SZ_0_913705bc6bdfc985.json",
+      "sha256": "913705bc6bdfc985a0c3a561af67c01f4538190b34ffa444e6e1d6817c163087",
+      "bytes": 109743,
+      "expected_sha256": "913705bc6bdfc985a0c3a561af67c01f4538190b34ffa444e6e1d6817c163087",
+      "expected_bytes": 109743,
+      "matches": true,
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.399967&klt=101&fqt=0&beg=20220101&end=20261021&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "requested_at_utc": "2026-10-22T16:21:14.209028+00:00",
+      "finished_at_utc": "2026-10-22T16:21:16.278821+00:00"
+    },
+    {
+      "request_id": "tencent_399967.SZ_0",
+      "path": "work/market_industry_oct22/raw/tencent_399967.SZ_0_c354ba2aaf3336cd.json",
+      "sha256": "c354ba2aaf3336cdb638375b09d5f813946ea756926c236beae5c96c556d4134",
+      "bytes": 90686,
+      "expected_sha256": "c354ba2aaf3336cdb638375b09d5f813946ea756926c236beae5c96c556d4134",
+      "expected_bytes": 90686,
+      "matches": true,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967%2Cday%2C2022-01-01%2C2026-10-21%2C1600%2C",
+      "requested_at_utc": "2026-10-22T16:21:14.329863+00:00",
+      "finished_at_utc": "2026-10-22T16:21:16.493119+00:00"
+    }
+  ],
+  "coverage": [
+    {
+      "symbol": "000001.SH",
+      "provider": "eastmoney",
+      "dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21",
+      "warmup_2022": 242,
+      "development_2023_2024": 484,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "000001.SH",
+      "provider": "tencent",
+      "dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21",
+      "warmup_2022": 242,
+      "development_2023_2024": 484,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399001.SZ",
+      "provider": "eastmoney",
+      "dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21",
+      "warmup_2022": 242,
+      "development_2023_2024": 484,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399001.SZ",
+      "provider": "tencent",
+      "dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21",
+      "warmup_2022": 242,
+      "development_2023_2024": 484,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399967.SZ",
+      "provider": "eastmoney",
+      "dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21",
+      "warmup_2022": 242,
+      "development_2023_2024": 484,
+      "research_2023_onward": 918
+    },
+    {
+      "symbol": "399967.SZ",
+      "provider": "tencent",
+      "dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21",
+      "warmup_2022": 242,
+      "development_2023_2024": 484,
+      "research_2023_onward": 918
+    }
+  ],
+  "independent_raw_rows": 6960,
+  "stage_numeric_or_source_differences": [],
+  "unified_numeric_or_source_differences": [],
+  "unified_preserved_version_groups": [
+    {
+      "collection": "legacy_main",
+      "symbol": "0.399001",
+      "canonical_symbol": "399001.SZ",
+      "provider": "eastmoney",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_hands",
+      "versioned_rows": 1824,
+      "unique_dates": 912,
+      "first": "2023-01-03",
+      "last": "2026-10-13"
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "0.399001",
+      "canonical_symbol": "399001.SZ",
+      "provider": "tencent",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume",
+      "versioned_rows": 914,
+      "unique_dates": 914,
+      "first": "2023-01-03",
+      "last": "2026-10-15"
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "1.000001",
+      "canonical_symbol": "000001.SH",
+      "provider": "eastmoney",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_hands",
+      "versioned_rows": 1824,
+      "unique_dates": 912,
+      "first": "2023-01-03",
+      "last": "2026-10-13"
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "1.000001",
+      "canonical_symbol": "000001.SH",
+      "provider": "tencent",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume",
+      "versioned_rows": 914,
+      "unique_dates": 914,
+      "first": "2023-01-03",
+      "last": "2026-10-15"
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "000001.SH",
+      "canonical_symbol": "000001.SH",
+      "provider": "eastmoney",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "versioned_rows": 1160,
+      "unique_dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21"
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "000001.SH",
+      "canonical_symbol": "000001.SH",
+      "provider": "tencent",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "versioned_rows": 1160,
+      "unique_dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21"
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399001.SZ",
+      "canonical_symbol": "399001.SZ",
+      "provider": "eastmoney",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "versioned_rows": 1160,
+      "unique_dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21"
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399001.SZ",
+      "canonical_symbol": "399001.SZ",
+      "provider": "tencent",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "versioned_rows": 1160,
+      "unique_dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21"
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399967.SZ",
+      "canonical_symbol": "399967.SZ",
+      "provider": "eastmoney",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "versioned_rows": 1160,
+      "unique_dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21"
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399967.SZ",
+      "canonical_symbol": "399967.SZ",
+      "provider": "tencent",
+      "adjustment": "0",
+      "price_unit": "index_points",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "versioned_rows": 1160,
+      "unique_dates": 1160,
+      "first": "2022-01-04",
+      "last": "2026-10-21"
+    }
+  ],
+  "preserved_old_vs_latest_ohlc_differences": [],
+  "provider_comparison": [
+    {
+      "symbol": "000001.SH",
+      "overlap_dates": 1160,
+      "ohlc_difference_dates": [
+        "2026-02-11"
+      ],
+      "close_difference_dates": [
+        "2026-02-11"
+      ],
+      "volume_difference_dates": 77,
+      "exact_close_agreement_dates": 1159
+    },
+    {
+      "symbol": "399001.SZ",
+      "overlap_dates": 1160,
+      "ohlc_difference_dates": [
+        "2025-05-21"
+      ],
+      "close_difference_dates": [],
+      "volume_difference_dates": 291,
+      "exact_close_agreement_dates": 1160
+    },
+    {
+      "symbol": "399967.SZ",
+      "overlap_dates": 1160,
+      "ohlc_difference_dates": [
+        "2024-02-22",
+        "2024-08-06",
+        "2025-01-10"
+      ],
+      "close_difference_dates": [],
+      "volume_difference_dates": 6,
+      "exact_close_agreement_dates": 1160
+    }
+  ],
+  "exact_ohlc_differences": [
+    {
+      "symbol": "000001.SH",
+      "trade_date": "2026-02-11",
+      "field": "close",
+      "eastmoney": "4131.99",
+      "tencent": "4131.980",
+      "difference_tencent_minus_eastmoney": "-0.010"
+    },
+    {
+      "symbol": "399001.SZ",
+      "trade_date": "2025-05-21",
+      "field": "high",
+      "eastmoney": "10325.93",
+      "tencent": "10325.920",
+      "difference_tencent_minus_eastmoney": "-0.010"
+    },
+    {
+      "symbol": "399967.SZ",
+      "trade_date": "2024-02-22",
+      "field": "high",
+      "eastmoney": "8650.10",
+      "tencent": "8650.090",
+      "difference_tencent_minus_eastmoney": "-0.010"
+    },
+    {
+      "symbol": "399967.SZ",
+      "trade_date": "2024-08-06",
+      "field": "open",
+      "eastmoney": "9120.76",
+      "tencent": "9120.750",
+      "difference_tencent_minus_eastmoney": "-0.010"
+    },
+    {
+      "symbol": "399967.SZ",
+      "trade_date": "2025-01-10",
+      "field": "high",
+      "eastmoney": "10158.68",
+      "tencent": "10158.670",
+      "difference_tencent_minus_eastmoney": "-0.010"
+    }
+  ],
+  "volume_difference_count": 374,
+  "volume_difference_counts": {
+    "000001.SH": 77,
+    "399001.SZ": 291,
+    "399967.SZ": 6
+  },
+  "source_selection_recommendation": {
+    "status": "fixed_source_engineering_permitted_subject_to_parent_input_contract_not_formal_model_approval",
+    "collection": "market_industry_oct21",
+    "provider": "eastmoney",
+    "adjustment": "0",
+    "fields": [
+      "close"
+    ],
+    "date_range": [
+      "2022-01-04",
+      "2026-10-21"
+    ],
+    "reason": "Existing declared reference uses this saved snapshot; close source lineage is complete. Provider choice is reproducibility, not truth adjudication or a result-selected choice.",
+    "query": "SELECT * FROM market_daily WHERE collection='market_industry_oct21' AND provider='eastmoney' AND adjustment='0' AND canonical_symbol IN ('000001.SH','399001.SZ','399967.SZ') ORDER BY canonical_symbol,trade_date",
+    "forbid_splicing_or_averaging": true,
+    "close_conflict_policy": "Preserve 2026-02-11/000001.SH flag; no silent repair. In close-window feature diagnostics, propagate flag through every dependency window, including ratio endpoints. A later protocol must freeze exclusion or sensitivity policy before results.",
+    "ohlc_discrepancy_policy": "Keep all five exact field/date flags; do not falsely treat 399967 open/high differences as close mismatches.",
+    "missing_or_duplicate_policy": "Abort/abstain on ambiguity; never forward-fill price or replace with another provider.",
+    "blocked_fields": [
+      "volume_native",
+      "amount_cny",
+      "turnover_pct"
+    ],
+    "blocked_field_reason": "Index volume unit/scope and vendor-defined turnover remain unverified; no cross-provider pools. Amount not used in this close-only feature batch.",
+    "model_input_approved": false,
+    "runtime_usable": false
+  },
+  "historical_availability": {
+    "earliest_resolution": "Completed daily close only; final daily close cannot be used for an earlier same-day intraday decision.",
+    "timezone": "Asia/Shanghai",
+    "first_historical_publication_time_certified": false,
+    "captured_request_times_only": true,
+    "point_in_time_vintage_certified": false,
+    "request_times_are_not_historical_first_publication": true,
+    "vendor_upstream_independence_certified": false,
+    "current_snapshot_future_revision_risk_retained": true
+  },
+  "industry_restrictions": {
+    "symbol": "399967.SZ",
+    "use": "military-sector price-index background proxy",
+    "official_methodology_saved": "2023-12 V1.2",
+    "membership_002414_any_historical_date_certified": false,
+    "historical_methodology_versions_complete": false,
+    "total_return_index": false
+  },
+  "protected_hashes_before": {
+    "work/market_industry_oct22/399967_methodology_text.txt": "b0477fc508863ac6df584f32c3e331e3d7d758841999da7664cdedace3d9b277",
+    "work/market_industry_oct22/__pycache__/collect.cpython-312.pyc": "241210e256cae33498445f46055c36e2dcff5f2982de8cfe55906f8634bf7ecc",
+    "work/market_industry_oct22/aligned_market_background.csv": "aaf7c064b4a0523ef39f71b194df525232786e91310cd30a73fbf354d5db4a65",
+    "work/market_industry_oct22/alignment.json": "bc58b857c6d3f418eeb4bdfe56f94225df40868054263f8d07c4104ef09e70eb",
+    "work/market_industry_oct22/all_request_market_rows.csv": "16ad76fc25033d71a42add7d45385317222b3a4248646109cebfd603059ad6dc",
+    "work/market_industry_oct22/all_request_market_rows.json": "9cbc8c17f09c8c48c3fd22590f4ebb282cc364b24a9b30853d8037c22be44e42",
+    "work/market_industry_oct22/artifact_hashes.json": "9dd5226db6d1af8217d970061ecb39b2bd011a06910b4727c2f6b368a6baa60e",
+    "work/market_industry_oct22/audit.py": "3b3ed7a065004cac762c27e695aee84009ef0048e18c331f0a02b8715639f61c",
+    "work/market_industry_oct22/baseline_revision_comparison.json": "6395b2033d0140363657ea39a518e149f88a2a748f048634ad01e82f20c8e644",
+    "work/market_industry_oct22/collect.py": "d73df9f27e71f7b1eb40adaa11e06b62f5df97db7889129962d10c05e7eed2c5",
+    "work/market_industry_oct22/cross_source_comparison.json": "864d6026b3026268bcb2661647ac3c7e206d03e51f051c87a350f58b3bc435cc",
+    "work/market_industry_oct22/cross_source_differences.csv": "0aab099b68da3ec1326568f19352808bf60e94d734f46888cca84bdd510f339f",
+    "work/market_industry_oct22/cross_source_differences.json": "707bb29b430782ab03b1ed9fec6fb885d737d8c08e7ff18cc1215a5f0eee6c1e",
+    "work/market_industry_oct22/industry_proxy_identity.json": "f94f53e34155fff0abf7f37a3c9254dfe53e940a907c6799549e6da5242a319e",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/market_rows.csv": "9f6324f86c51b0d60a35a005bde54e79781f8aaefa7bf78709869c1e5e461db7",
+    "work/market_industry_oct22/market_rows.json": "2f1a3154472467adba38675e31de4e81805787966fce0ed54da6a80942053280",
+    "work/market_industry_oct22/market_rows_unique.csv": "1797fd3dec898f83dffaafaa639a72f9d47faa0d214e1471a1a424fe3dd87493",
+    "work/market_industry_oct22/market_rows_unique.json": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee",
+    "work/market_industry_oct22/qfq_supplement_manifest.json": "26dbe31f91b1d373cfb393f2527d2c078ca4393712bf2f5821cad73eb52d253e",
+    "work/market_industry_oct22/qfq_supplement_rejections.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "work/market_industry_oct22/qfq_supplement_rows.json": "cf89b660a516a16ced827120b4882f596688eef3ffc3a3f86a4e7e4829e951ed",
+    "work/market_industry_oct22/raw/csi_399967_methodology_v1_2_cb73c7a56453aa32.pdf": "cb73c7a56453aa32ab1533ca406f0bcd11fba9feebde6282e39a8bc306f07384",
+    "work/market_industry_oct22/raw/em_000001.SH_0_f37d6a95d93f6a42.json": "f37d6a95d93f6a4262a8cb0725f8497c2132857af690b8cc9ef9074d9483a3e1",
+    "work/market_industry_oct22/raw/em_002414.SZ_0_c22d08e4c578e500.json": "c22d08e4c578e5008a5f6e304c1dcaab8ab2c501c368eb6ea54d59100b7fb66a",
+    "work/market_industry_oct22/raw/em_002414.SZ_1_3bd345350b99eadc.json": "3bd345350b99eadc6b871dbb876ed3ff004005fd1877c8c7a24641bae8a6d09b",
+    "work/market_industry_oct22/raw/em_399001.SZ_0_5c910c658de665a7.json": "5c910c658de665a7116846d2237a53bb3727662cbcb90eed6aeb6f1c3d2a3704",
+    "work/market_industry_oct22/raw/em_399967.SZ_0_913705bc6bdfc985.json": "913705bc6bdfc985a0c3a561af67c01f4538190b34ffa444e6e1d6817c163087",
+    "work/market_industry_oct22/raw/tencent_000001.SH_0_f342533f6cda0c77.json": "f342533f6cda0c77e17109da8edafad6342d24eccaf5f67d17998064a1f6e530",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_0_75e505ffd64e0eca.json": "75e505ffd64e0eca515f4bdeecab6efaea3dfd200c09a81ed5e11cf23c902da1",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_5595e1670a14a50c.json": "5595e1670a14a50c7fba04c22fac55b27b6a284df9daeb77671b6d734ed16d70",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_year2022_7d2ea70b6a218ce5.json": "7d2ea70b6a218ce5f904a53af0b3690d44d208050cb5b5f49eee2f18ffe6110d",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_year2023_d7debb43294412ca.json": "d7debb43294412ca72f58b7e4e3b6387aa0cd9df5a32761c108ad6d23b785c06",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_year2024_55106f9f552c4fe0.json": "55106f9f552c4fe0c8328a4f9d685f2f18409119bdec1b55b19814065ffb6bfa",
+    "work/market_industry_oct22/raw/tencent_399001.SZ_0_a43d89ad1cdad1e6.json": "a43d89ad1cdad1e64aa7d1527139007027e8cdace419c92e810934cd2096505d",
+    "work/market_industry_oct22/raw/tencent_399967.SZ_0_c354ba2aaf3336cd.json": "c354ba2aaf3336cdb638375b09d5f813946ea756926c236beae5c96c556d4134",
+    "work/market_industry_oct22/requests.json": "b3c3bbf6ab8a8e1338d85192119e4cf150113d1222dd3c46a3d47de83dc1cd12",
+    "work/market_industry_oct22/row_rejections.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "work/market_industry_oct22/same_provider_overlap_differences.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "work/market_industry_oct22/sandbox_probe_manifest.json": "18ac9b9d8a8c446a2d6aa4b2c5bbb7a311882aa91ffc3312b46d6e81f6883e7e",
+    "work/market_industry_oct22/summary.json": "b3eea16465d85a1edc8b0e2bdc6acf78dc2cfd5a38b178dea50f7fd6d5841f5d",
+    "work/market_industry_oct22/supplement_qfq.py": "b47ad7cfb48528428e45109c586fc3f601c341dcb721c178d75a7faa10256d9d",
+    "work/market_industry_oct22/updates_20261016_20261021.csv": "eb4ee0c8929afdde87a4a44672301f77d17114c83966342229cea7ac2678dc20",
+    "work/market_industry_oct22/updates_20261016_20261021.json": "981945072ec9ca741223283f7257f0fbbad2526de665c7c3d215d912705a2b9b",
+    "work/market_industry_oct22/市场与行业背景补齐核验.md": "c9f0c72fcdad5ddd044ae08ae1331eff30c2a7fcdcb72ffb1f0f2487a6292189",
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14"
+  },
+  "protected_hashes_after": {
+    "work/market_industry_oct22/399967_methodology_text.txt": "b0477fc508863ac6df584f32c3e331e3d7d758841999da7664cdedace3d9b277",
+    "work/market_industry_oct22/__pycache__/collect.cpython-312.pyc": "241210e256cae33498445f46055c36e2dcff5f2982de8cfe55906f8634bf7ecc",
+    "work/market_industry_oct22/aligned_market_background.csv": "aaf7c064b4a0523ef39f71b194df525232786e91310cd30a73fbf354d5db4a65",
+    "work/market_industry_oct22/alignment.json": "bc58b857c6d3f418eeb4bdfe56f94225df40868054263f8d07c4104ef09e70eb",
+    "work/market_industry_oct22/all_request_market_rows.csv": "16ad76fc25033d71a42add7d45385317222b3a4248646109cebfd603059ad6dc",
+    "work/market_industry_oct22/all_request_market_rows.json": "9cbc8c17f09c8c48c3fd22590f4ebb282cc364b24a9b30853d8037c22be44e42",
+    "work/market_industry_oct22/artifact_hashes.json": "9dd5226db6d1af8217d970061ecb39b2bd011a06910b4727c2f6b368a6baa60e",
+    "work/market_industry_oct22/audit.py": "3b3ed7a065004cac762c27e695aee84009ef0048e18c331f0a02b8715639f61c",
+    "work/market_industry_oct22/baseline_revision_comparison.json": "6395b2033d0140363657ea39a518e149f88a2a748f048634ad01e82f20c8e644",
+    "work/market_industry_oct22/collect.py": "d73df9f27e71f7b1eb40adaa11e06b62f5df97db7889129962d10c05e7eed2c5",
+    "work/market_industry_oct22/cross_source_comparison.json": "864d6026b3026268bcb2661647ac3c7e206d03e51f051c87a350f58b3bc435cc",
+    "work/market_industry_oct22/cross_source_differences.csv": "0aab099b68da3ec1326568f19352808bf60e94d734f46888cca84bdd510f339f",
+    "work/market_industry_oct22/cross_source_differences.json": "707bb29b430782ab03b1ed9fec6fb885d737d8c08e7ff18cc1215a5f0eee6c1e",
+    "work/market_industry_oct22/industry_proxy_identity.json": "f94f53e34155fff0abf7f37a3c9254dfe53e940a907c6799549e6da5242a319e",
+    "work/market_industry_oct22/input_admission.json": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668",
+    "work/market_industry_oct22/manifest.json": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+    "work/market_industry_oct22/market_rows.csv": "9f6324f86c51b0d60a35a005bde54e79781f8aaefa7bf78709869c1e5e461db7",
+    "work/market_industry_oct22/market_rows.json": "2f1a3154472467adba38675e31de4e81805787966fce0ed54da6a80942053280",
+    "work/market_industry_oct22/market_rows_unique.csv": "1797fd3dec898f83dffaafaa639a72f9d47faa0d214e1471a1a424fe3dd87493",
+    "work/market_industry_oct22/market_rows_unique.json": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee",
+    "work/market_industry_oct22/qfq_supplement_manifest.json": "26dbe31f91b1d373cfb393f2527d2c078ca4393712bf2f5821cad73eb52d253e",
+    "work/market_industry_oct22/qfq_supplement_rejections.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "work/market_industry_oct22/qfq_supplement_rows.json": "cf89b660a516a16ced827120b4882f596688eef3ffc3a3f86a4e7e4829e951ed",
+    "work/market_industry_oct22/raw/csi_399967_methodology_v1_2_cb73c7a56453aa32.pdf": "cb73c7a56453aa32ab1533ca406f0bcd11fba9feebde6282e39a8bc306f07384",
+    "work/market_industry_oct22/raw/em_000001.SH_0_f37d6a95d93f6a42.json": "f37d6a95d93f6a4262a8cb0725f8497c2132857af690b8cc9ef9074d9483a3e1",
+    "work/market_industry_oct22/raw/em_002414.SZ_0_c22d08e4c578e500.json": "c22d08e4c578e5008a5f6e304c1dcaab8ab2c501c368eb6ea54d59100b7fb66a",
+    "work/market_industry_oct22/raw/em_002414.SZ_1_3bd345350b99eadc.json": "3bd345350b99eadc6b871dbb876ed3ff004005fd1877c8c7a24641bae8a6d09b",
+    "work/market_industry_oct22/raw/em_399001.SZ_0_5c910c658de665a7.json": "5c910c658de665a7116846d2237a53bb3727662cbcb90eed6aeb6f1c3d2a3704",
+    "work/market_industry_oct22/raw/em_399967.SZ_0_913705bc6bdfc985.json": "913705bc6bdfc985a0c3a561af67c01f4538190b34ffa444e6e1d6817c163087",
+    "work/market_industry_oct22/raw/tencent_000001.SH_0_f342533f6cda0c77.json": "f342533f6cda0c77e17109da8edafad6342d24eccaf5f67d17998064a1f6e530",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_0_75e505ffd64e0eca.json": "75e505ffd64e0eca515f4bdeecab6efaea3dfd200c09a81ed5e11cf23c902da1",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_5595e1670a14a50c.json": "5595e1670a14a50c7fba04c22fac55b27b6a284df9daeb77671b6d734ed16d70",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_year2022_7d2ea70b6a218ce5.json": "7d2ea70b6a218ce5f904a53af0b3690d44d208050cb5b5f49eee2f18ffe6110d",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_year2023_d7debb43294412ca.json": "d7debb43294412ca72f58b7e4e3b6387aa0cd9df5a32761c108ad6d23b785c06",
+    "work/market_industry_oct22/raw/tencent_002414.SZ_1_year2024_55106f9f552c4fe0.json": "55106f9f552c4fe0c8328a4f9d685f2f18409119bdec1b55b19814065ffb6bfa",
+    "work/market_industry_oct22/raw/tencent_399001.SZ_0_a43d89ad1cdad1e6.json": "a43d89ad1cdad1e64aa7d1527139007027e8cdace419c92e810934cd2096505d",
+    "work/market_industry_oct22/raw/tencent_399967.SZ_0_c354ba2aaf3336cd.json": "c354ba2aaf3336cdb638375b09d5f813946ea756926c236beae5c96c556d4134",
+    "work/market_industry_oct22/requests.json": "b3c3bbf6ab8a8e1338d85192119e4cf150113d1222dd3c46a3d47de83dc1cd12",
+    "work/market_industry_oct22/row_rejections.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "work/market_industry_oct22/same_provider_overlap_differences.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "work/market_industry_oct22/sandbox_probe_manifest.json": "18ac9b9d8a8c446a2d6aa4b2c5bbb7a311882aa91ffc3312b46d6e81f6883e7e",
+    "work/market_industry_oct22/summary.json": "b3eea16465d85a1edc8b0e2bdc6acf78dc2cfd5a38b178dea50f7fd6d5841f5d",
+    "work/market_industry_oct22/supplement_qfq.py": "b47ad7cfb48528428e45109c586fc3f601c341dcb721c178d75a7faa10256d9d",
+    "work/market_industry_oct22/updates_20261016_20261021.csv": "eb4ee0c8929afdde87a4a44672301f77d17114c83966342229cea7ac2678dc20",
+    "work/market_industry_oct22/updates_20261016_20261021.json": "981945072ec9ca741223283f7257f0fbbad2526de665c7c3d215d912705a2b9b",
+    "work/market_industry_oct22/市场与行业背景补齐核验.md": "c9f0c72fcdad5ddd044ae08ae1331eff30c2a7fcdcb72ffb1f0f2487a6292189",
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "9538ca8bf5944acca50a563967c98f04c010943637bf608ba17fc50eda25dd14"
+  },
+  "checks": [
+    {
+      "name": "exactly_six_index_requests",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "em_000001.SH_0:response_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "em_000001.SH_0:request_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tencent_000001.SH_0:request_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "em_399001.SZ_0:response_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "em_399001.SZ_0:request_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tencent_399001.SZ_0:request_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "em_399967.SZ_0:response_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "em_399967.SZ_0:request_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tencent_399967.SZ_0:request_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_original_hashes_and_sizes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_raw_parse_6960_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_raw_ohlcv_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_and_stage_unique_keys_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_stage_cells_equal_raw",
+      "passed": true,
+      "detail": {
+        "compared_cells": 76560
+      }
+    },
+    {
+      "name": "stage_canonical_and_price_unit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "000001.SH/eastmoney:dates_unique_ordered_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "000001.SH/tencent:dates_unique_ordered_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "399001.SZ/eastmoney:dates_unique_ordered_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "399001.SZ/tencent:dates_unique_ordered_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "399967.SZ/eastmoney:dates_unique_ordered_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "399967.SZ/tencent:dates_unique_ordered_range",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_six_vendor_date_sets_identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coverage_242_warmup_918_research",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_price_differences_five_cells",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "development_2023_2024_three_index_close_agreement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_price_differences_one_hundredth_point",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_conflict_file_equals_exact_source_recalculation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unified_latest_6960_unique_index_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unified_numeric_and_source_link_exact",
+      "passed": true,
+      "detail": {
+        "numeric_cells": 48720
+      }
+    },
+    {
+      "name": "unified_latest_canonical_price_units_and_zero_approval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_preserved_index_versions_zero_approval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unified_conflict_cells_equal_exact_source_recalculation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_protected_original_hashes_unchanged",
+      "passed": true,
+      "detail": {
+        "files": 47
+      }
+    }
+  ],
+  "checks_passed": 34,
+  "checks_total": 34,
+  "passed": true
+}

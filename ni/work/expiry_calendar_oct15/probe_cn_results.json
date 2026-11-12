@@ -1,0 +1,47 @@
+[
+  {
+    "url": "http://www.cffex.com.cn/cn/hs300/",
+    "retrieved_at": "2026-10-16T00:15:34.780695+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/error_page/error_404.html",
+    "sha256": "7f3f0a9c9177e8f4b6cc3b0453f50d20febff1bc9e1097e916c38e8e9ca6eb4b",
+    "raw_path": "probe_7f3f0a9c9177e8f4.html",
+    "bytes": 2132
+  },
+  {
+    "url": "http://www.cffex.com.cn/cn/jystz/20231208/35606.html",
+    "retrieved_at": "2026-10-16T00:15:34.781215+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/cn/jystz/20231208/35606.html",
+    "sha256": "60d3c8994d3a377330bdd41bc895f5ed24b307643ea102086b36e7850530d89c",
+    "raw_path": "probe_60d3c8994d3a3773.html",
+    "bytes": 34887
+  },
+  {
+    "url": "http://www.cffex.com.cn/cn/jystz/20250110/42236.html",
+    "retrieved_at": "2026-10-16T00:15:34.781332+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/cn/jystz/20250110/42236.html",
+    "sha256": "a9154155dc01f358ca9a4bbbcdce2f9225ca69fb079b99af5c69f3eb02422a14",
+    "raw_path": "probe_a9154155dc01f358.html",
+    "bytes": 34910
+  },
+  {
+    "url": "http://www.cffex.com.cn/cn/jystz/",
+    "retrieved_at": "2026-10-16T00:15:34.781385+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/error_page/error_404.html",
+    "sha256": "7f3f0a9c9177e8f4b6cc3b0453f50d20febff1bc9e1097e916c38e8e9ca6eb4b",
+    "raw_path": "probe_7f3f0a9c9177e8f4.html",
+    "bytes": 2132
+  },
+  {
+    "url": "http://www.cffex.com.cn/cn/",
+    "retrieved_at": "2026-10-16T00:15:34.781437+00:00",
+    "status": 200,
+    "final_url": "http://www.cffex.com.cn/cn/",
+    "sha256": "a22c309c8050f4859218e10dd6c841ca2f297bf18ef7eec819915f74429a46ba",
+    "raw_path": "probe_a22c309c8050f485.html",
+    "bytes": 99063
+  }
+]

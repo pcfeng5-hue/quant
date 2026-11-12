@@ -1,0 +1,633 @@
+{
+  "audit_scope": "independent local source comparison; read-only; no browser, network, model approval or modifications",
+  "as_of_client_date": "2026-10-22",
+  "created_at_utc": "2026-10-22T17:30:18.987874+00:00",
+  "sha256_before": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "a993331bea98f8d83d480e5a25e158534a7e9f3b891e1fe28a64c7c78b902ec7",
+    "outputs/统一数据底座_20261022/受限字段隔离.sqlite": "2fb87799d2dbc1b5206fe441e7f06d86828bfe80d4d339e9f1a9da4aff4ffc42",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749"
+  },
+  "checks": [
+    {
+      "check": "all_databases_quick_check_ok",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "market_total_37714",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "market_collection_accounting",
+      "passed": true,
+      "details": {
+        "legacy_main": 15701,
+        "market_industry_oct21": 11600,
+        "warmup_oct16": 10413
+      }
+    },
+    {
+      "check": "all_market_source_values_exact",
+      "passed": true,
+      "details": {
+        "field_comparisons": 377140,
+        "errors": [],
+        "error_count": 0
+      }
+    },
+    {
+      "check": "stock_raw_reference_exact_dates_and_close",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "reference_split_918_research_242_warmup",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "market_reference_preserves_explicit_source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "reference_not_model_approval",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "conditions_915_payloads_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "conditions_all_current_bars_available",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "oct16_context_supplement_preserves_original",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "first_previous_close_matches_warmup",
+      "passed": true,
+      "details": {
+        "trade_date": "2023-01-03",
+        "previous_close_date": "2022-12-30",
+        "previous_close_unadjusted_candidate": 11.0,
+        "limit_reference_price": null
+      }
+    },
+    {
+      "check": "conditions_no_upgrade_to_official_limits_or_executability",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "exdate_reference_not_naively_computed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "blocked_field_keys_absent_even_in_encoded_source_json",
+      "passed": true,
+      "details": {
+        "hits": [],
+        "rows_scanned": 11364
+      }
+    },
+    {
+      "check": "all_restricted_cells_recoverable_exact_multiset",
+      "passed": true,
+      "details": {
+        "expected_cells": 6133,
+        "actual_cells": 6133,
+        "missing_cells": 0,
+        "unexpected_cells": 0
+      }
+    },
+    {
+      "check": "legacy4094_clean_payloads_and_wrapper_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarantine6133_is_cells_not_labels",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "filings312_pages4253_finance135",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_document_page_records_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_financial_original_observations_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "events67_episode59_original_payloads_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "event_first_publication_and_model_gates_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "three_distributions_not11_distinct_episodes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_indexed_file_assets_exist_and_match_current_hash",
+      "passed": true,
+      "details": {
+        "files": 5390,
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "check": "all_market_source_sha_references_resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_market_typed_retrieval_timestamps_populated",
+      "passed": false,
+      "details": [
+        {
+          "collection": "legacy_main",
+          "rows": 15701,
+          "no_request_sha_reference": 0,
+          "typed_retrieved_at_missing": 0,
+          "missing_but_recoverable_from_request": 0,
+          "time_unrecoverable": 0
+        },
+        {
+          "collection": "market_industry_oct21",
+          "rows": 11600,
+          "no_request_sha_reference": 0,
+          "typed_retrieved_at_missing": 11600,
+          "missing_but_recoverable_from_request": 11600,
+          "time_unrecoverable": 0
+        },
+        {
+          "collection": "warmup_oct16",
+          "rows": 10413,
+          "no_request_sha_reference": 0,
+          "typed_retrieved_at_missing": 0,
+          "missing_but_recoverable_from_request": 0,
+          "time_unrecoverable": 0
+        }
+      ]
+    },
+    {
+      "check": "chip_accepted_dates_and_gates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "chip_accepted_capture_dates_synchronized",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all950_standard_chip_attempt_payloads_preserved",
+      "passed": true,
+      "details": {
+        "base_source_observations": 950
+      }
+    },
+    {
+      "check": "round1_four_observations_in_typed_store",
+      "passed": false,
+      "details": {
+        "round1_source_count": 4
+      }
+    },
+    {
+      "check": "dedicated_chip_evidence_files_table_present",
+      "passed": false,
+      "details": null
+    },
+    {
+      "check": "nonempty_market_unit_labels",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_audited_databases_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "findings": [
+    {
+      "severity": "needs_fix",
+      "topic": "chip_file_lineage",
+      "details": "v1 round2 evidence_directory is flat filename stem, not directory; dedicated exact file paths needed. Round1 remains generic only."
+    }
+  ],
+  "semantics": [
+    "market_reference and stock references are explicit browsing selections; model_input_approved remains0. Source conflict flags are not recommendations.",
+    "37714 is version/source rows, not independent outcomes. 1160dates include242warmup; research dates918, not918 independent trials.",
+    "previous_close_unadjusted_candidate is raw previous close only; ex-rights exchange reference and official daily limits remain null.",
+    "6133 quarantined cells include3054 duplicated tuples, unknown-formula fields, and one null; not6133 result labels or independent samples.",
+    "retrieved_at is acquisition metadata, not first publication. Current official notice existence does not prove a historical pre-event timestamp.",
+    "Names amount_cny/turnover_pct express normalized locations; accompanying source unit labels keep unverified index scope/definitions visible.",
+    "5390file index verifies its registered scope, not a proof every project file or all historical market data is covered.",
+    "Financial numeric facts and page/OCR text retain existing verification boundaries; no whole-dataset historical input approval follows from exact copying."
+  ],
+  "build_metadata": {
+    "build": {
+      "build_version": "unified-observation-v1",
+      "client_date": "2026-10-22",
+      "created_at_utc": "2026-10-22T17:25:40.238040+00:00",
+      "baseline_main_sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+      "table_counts": {
+        "metadata": 0,
+        "ingestion_sources": 20,
+        "file_assets": 5390,
+        "source_requests": 204,
+        "source_records": 11364,
+        "market_daily": 37714,
+        "chip_observations": 950,
+        "filings": 312,
+        "document_pages": 4253,
+        "ocr_pages": 185,
+        "financial_report_observations": 135,
+        "corporate_actions": 3,
+        "capital_snapshots": 8,
+        "trade_conditions": 915,
+        "trade_rules": 3,
+        "fee_components": 7,
+        "events": 67,
+        "trading_calendar": 1384,
+        "conflicts": 450,
+        "gaps": 8,
+        "daily_coverage": 1160
+      },
+      "restricted_values_isolated": 6133,
+      "source_originals_unchanged": true,
+      "context_corrections": [
+        {
+          "trade_date": "2026-10-16",
+          "change": "current bar source now present",
+          "original_observation_unchanged": true
+        }
+      ],
+      "model_input_approved": false,
+      "date_basis": "observed provider dates; official calendar only where separately present",
+      "core_scope": "raw observations, time and quality organization; no technical indicators or probability model"
+    },
+    "restricted_field_definitions": [
+      {
+        "dataset": "financial_main",
+        "field_name": "FCFF_FORWARD",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 15,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "dividends",
+        "field_name": "D10_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 3,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "dividends",
+        "field_name": "D30_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 2,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "margin",
+        "field_name": "RCHANGE10DCP",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 500,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "margin",
+        "field_name": "RCHANGE3DCP",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 500,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "margin",
+        "field_name": "RCHANGE5DCP",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 500,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "block_trade",
+        "field_name": "CHANGE_RATE_10DAYS",
+        "reason": "forward_return_statistic",
+        "non_null_records": 72,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "block_trade",
+        "field_name": "CHANGE_RATE_1DAYS",
+        "reason": "forward_return_statistic",
+        "non_null_records": 72,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "block_trade",
+        "field_name": "CHANGE_RATE_20DAYS",
+        "reason": "forward_return_statistic",
+        "non_null_records": 72,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "block_trade",
+        "field_name": "CHANGE_RATE_5DAYS",
+        "reason": "forward_return_statistic",
+        "non_null_records": 72,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "institution_seats",
+        "field_name": "D10_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 5,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "institution_seats",
+        "field_name": "D1_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 5,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "institution_seats",
+        "field_name": "D2_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 5,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "institution_seats",
+        "field_name": "D3_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 5,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "institution_seats",
+        "field_name": "D5_CLOSE_ADJCHRATE",
+        "reason": "forward_return_statistic",
+        "non_null_records": 5,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "margin_page2",
+        "field_name": "RCHANGE10DCP",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 413,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "margin_page2",
+        "field_name": "RCHANGE3DCP",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 413,
+        "audit_version": "supplement-audit-v1"
+      },
+      {
+        "dataset": "margin_page2",
+        "field_name": "RCHANGE5DCP",
+        "reason": "formula_and_historical_availability_unknown",
+        "non_null_records": 413,
+        "audit_version": "supplement-audit-v1"
+      }
+    ],
+    "selection_policy": {
+      "reference_collection": "market_industry_oct21",
+      "reference_provider": "eastmoney",
+      "purpose": "explicit browsing reference only; source conflicts preserved; not a model approval",
+      "no_provider_averaging": true
+    }
+  },
+  "quarantine_cell_counts": [
+    {
+      "reason": "formula_and_historical_availability_unknown",
+      "cells": 5501,
+      "null_cells": 0
+    },
+    {
+      "reason": "forward_return_statistic",
+      "cells": 632,
+      "null_cells": 1
+    }
+  ],
+  "quarantine_distinct_cell_tuples": 3079,
+  "quarantine_duplicate_cells": 3054,
+  "assets_changed_since_prior_audit": [
+    {
+      "path": "work/market_warmup_finalize_oct22/summary.json",
+      "before_sha256": "39c572fdc8f3c44d11f5535739653f6635c94ed534d9fe45c6af0d137f73e693",
+      "indexed_sha256": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/verify_and_supplement.py",
+      "before_sha256": "89b2588d73564b44497174de2c72000d0688c24ed8e62012eb74675827e82208",
+      "indexed_sha256": "54e11c2c35777c0d5cbe3814e7ac6576d4fc96210eb17fcb3ff1bfe0d44bb3a8"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/行情预热与末日核对.md",
+      "before_sha256": "9ea933f7181020a5267014eebdbf5afd8273674c6ef482a6dde7baf387a8f710",
+      "indexed_sha256": "5b8b39d169661a093febdfaff4387048833f542864db399380dc809fc0404078"
+    }
+  ],
+  "market_temporal_reference_checks": [
+    {
+      "collection": "legacy_main",
+      "rows": 15701,
+      "no_request_sha_reference": 0,
+      "typed_retrieved_at_missing": 0,
+      "missing_but_recoverable_from_request": 0,
+      "time_unrecoverable": 0
+    },
+    {
+      "collection": "market_industry_oct21",
+      "rows": 11600,
+      "no_request_sha_reference": 0,
+      "typed_retrieved_at_missing": 11600,
+      "missing_but_recoverable_from_request": 11600,
+      "time_unrecoverable": 0
+    },
+    {
+      "collection": "warmup_oct16",
+      "rows": 10413,
+      "no_request_sha_reference": 0,
+      "typed_retrieved_at_missing": 0,
+      "missing_but_recoverable_from_request": 0,
+      "time_unrecoverable": 0
+    }
+  ],
+  "market_unit_profiles": [
+    {
+      "collection": "legacy_main",
+      "symbol": "0.399001",
+      "volume_unit": "provider_hands",
+      "amount_unit": "CNY_per_source_mapping",
+      "turnover_unit": "provider_pct",
+      "rows": 1824
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "0.399001",
+      "volume_unit": "provider_native_index_volume",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 914
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "002414.SZ",
+      "volume_unit": "provider_hands",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 2011
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "002414.SZ",
+      "volume_unit": "provider_hands",
+      "amount_unit": "CNY_per_source_mapping",
+      "turnover_unit": "provider_pct",
+      "rows": 8214
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "1.000001",
+      "volume_unit": "provider_hands",
+      "amount_unit": "CNY_per_source_mapping",
+      "turnover_unit": "provider_pct",
+      "rows": 1824
+    },
+    {
+      "collection": "legacy_main",
+      "symbol": "1.000001",
+      "volume_unit": "provider_native_index_volume",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 914
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "000001.SH",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 1160
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "000001.SH",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "amount_unit": "provider_CNY",
+      "turnover_unit": "provider_pct_definition_unverified",
+      "rows": 1160
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "002414.SZ",
+      "volume_unit": "provider_stock_hands_convention_not_formal_API_specification",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 2320
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "002414.SZ",
+      "volume_unit": "provider_stock_hands_convention_not_formal_API_specification",
+      "amount_unit": "provider_CNY",
+      "turnover_unit": "provider_pct_definition_unverified",
+      "rows": 2320
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399001.SZ",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 1160
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399001.SZ",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "amount_unit": "provider_CNY",
+      "turnover_unit": "provider_pct_definition_unverified",
+      "rows": 1160
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399967.SZ",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 1160
+    },
+    {
+      "collection": "market_industry_oct21",
+      "symbol": "399967.SZ",
+      "volume_unit": "provider_native_index_volume_unit_and_scope_unverified",
+      "amount_unit": "provider_CNY",
+      "turnover_unit": "provider_pct_definition_unverified",
+      "rows": 1160
+    },
+    {
+      "collection": "warmup_oct16",
+      "symbol": "002414.SZ",
+      "volume_unit": "hands_per_AKShare_SDK_mapping_not_vendor_certified",
+      "amount_unit": "ten_thousand_CNY_per_AKShare_SDK_mapping",
+      "turnover_unit": "percent_per_normalization",
+      "rows": 3471
+    },
+    {
+      "collection": "warmup_oct16",
+      "symbol": "002414.SZ",
+      "volume_unit": "provider_numeric; stock hands convention supported by existing cross-source comparison; formal vendor API unit specification not obtained",
+      "amount_unit": null,
+      "turnover_unit": null,
+      "rows": 3471
+    },
+    {
+      "collection": "warmup_oct16",
+      "symbol": "002414.SZ",
+      "volume_unit": "provider_numeric; stock hands convention supported by existing cross-source comparison; formal vendor API unit specification not obtained",
+      "amount_unit": "CNY_per_normalization",
+      "turnover_unit": "percent_per_normalization",
+      "rows": 3471
+    }
+  ],
+  "sha256_after": {
+    "outputs/统一数据底座_20261022/统一数据底座.sqlite": "a993331bea98f8d83d480e5a25e158534a7e9f3b891e1fe28a64c7c78b902ec7",
+    "outputs/统一数据底座_20261022/受限字段隔离.sqlite": "2fb87799d2dbc1b5206fe441e7f06d86828bfe80d4d339e9f1a9da4aff4ffc42",
+    "outputs/高德红外数据库/高德红外_2023起.sqlite": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749"
+  },
+  "checks_passed": 31,
+  "checks_total": 34,
+  "all_checks_passed": false
+}

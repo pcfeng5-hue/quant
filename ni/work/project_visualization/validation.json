@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-10-15T18:23:06.062Z",
+  "checks": {
+    "initial_step": true,
+    "step_count": true,
+    "each_step_updates_purpose_and_effect": true,
+    "no_root_horizontal_overflow": true,
+    "data_rows": true,
+    "week_rows": true,
+    "timeline_rows": true,
+    "tab_interaction": true,
+    "no_javascript_exceptions": true
+  },
+  "layout": [
+    {
+      "outer_width": 768,
+      "tab": "aq-flow-tab",
+      "client": 736,
+      "scroll": 736,
+      "body": 736,
+      "whole": 736,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 768,
+      "tab": "aq-data-tab",
+      "client": 736,
+      "scroll": 736,
+      "body": 736,
+      "whole": 736,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 768,
+      "tab": "aq-plan-tab",
+      "client": 736,
+      "scroll": 736,
+      "body": 736,
+      "whole": 736,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 392,
+      "tab": "aq-flow-tab",
+      "client": 360,
+      "scroll": 360,
+      "body": 360,
+      "whole": 360,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 392,
+      "tab": "aq-data-tab",
+      "client": 360,
+      "scroll": 360,
+      "body": 360,
+      "whole": 360,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 392,
+      "tab": "aq-plan-tab",
+      "client": 360,
+      "scroll": 360,
+      "body": 360,
+      "whole": 360,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 352,
+      "tab": "aq-flow-tab",
+      "client": 320,
+      "scroll": 320,
+      "body": 320,
+      "whole": 320,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 352,
+      "tab": "aq-data-tab",
+      "client": 320,
+      "scroll": 320,
+      "body": 320,
+      "whole": 320,
+      "root_fits": true,
+      "document_fits": true
+    },
+    {
+      "outer_width": 352,
+      "tab": "aq-plan-tab",
+      "client": 320,
+      "scroll": 320,
+      "body": 320,
+      "whole": 320,
+      "root_fits": true,
+      "document_fits": true
+    }
+  ],
+  "errors": [],
+  "scope": "New project roadmap visualization only; database browser not opened or previewed.",
+  "source_sha256": "106791cc5ac0a4924791b195df51c8d2eca2f82a42f759b9d69ae4db42479145"
+}

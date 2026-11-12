@@ -1,0 +1,271 @@
+{
+  "checked_at_utc": "2026-10-14T19:41:37.128722+00:00",
+  "scope": "read-only independent data-quality check; no price pattern, technical indicators, or return research",
+  "database_relative_path": "outputs/高德红外数据库/高德红外_2023起.sqlite",
+  "dataset": "em_daily_0",
+  "row_count": 912,
+  "min_date": "2023-01-03",
+  "max_date": "2026-10-13",
+  "snapshot_ids": [
+    "em_daily_0:7c87ea1e97248a8ae0f203a5cd9b2200618f12aced19c1c27a4319b98f7c7272"
+  ],
+  "assumptions": {
+    "volume": "provider_hands; 1 hand assumed 100 shares",
+    "amount": "provider CNY, same traded universe as volume assumed but not independently tick-certified",
+    "unadjusted_prices": "em_daily_0 adjustment=0",
+    "price_precision": "stored OHLC 2 decimals CNY; strict check reported separately from 0.005 CNY tolerance check",
+    "turnover": "provider_pct; assume nearest 0.01 percentage-point rounding, compatibility window +/-0.005 pp; actual vendor rounding and denominator formula unconfirmed",
+    "capital_comparison": "Compare each daily row independently to set of 8 documented period-end unlimited_shares. Does not assign dates, fill forward/backward, or authenticate vendor daily float."
+  },
+  "volume_amount_price": {
+    "strict_inside_range_count": 909,
+    "strict_outside_count": 3,
+    "inside_with_half_cent_tolerance_count": 912,
+    "anomaly_examples_max20": [
+      {
+        "trade_date": "2024-03-11",
+        "low": 7.5,
+        "high": 7.5,
+        "volume_hands": 190534.0,
+        "amount_cny": 142900845.0,
+        "calculated_average_cny_per_share": "7.500018107004524126927477511",
+        "amount_difference_from_flat_price_cny": "345.00",
+        "shares_implied_at_flat_price_not_certified": "19053446",
+        "difference_from_reported_hands_converted_shares": "46.0",
+        "compatible_with_volume_rounded_to_nearest_hand_hypothesis": true,
+        "resolution_status": "precision-compatible; actual provider aggregation and rounding convention unconfirmed; raw retained"
+      },
+      {
+        "trade_date": "2024-08-05",
+        "low": 6.84,
+        "high": 6.84,
+        "volume_hands": 228398.0,
+        "amount_cny": 156224409.84,
+        "calculated_average_cny_per_share": "6.840007786407937022215606091",
+        "amount_difference_from_flat_price_cny": "177.840",
+        "shares_implied_at_flat_price_not_certified": "22839826",
+        "difference_from_reported_hands_converted_shares": "26.0",
+        "compatible_with_volume_rounded_to_nearest_hand_hypothesis": true,
+        "resolution_status": "precision-compatible; actual provider aggregation and rounding convention unconfirmed; raw retained"
+      },
+      {
+        "trade_date": "2026-07-09",
+        "low": 13.31,
+        "high": 13.31,
+        "volume_hands": 207844.0,
+        "amount_cny": 276639978.01,
+        "calculated_average_cny_per_share": "13.30998142886010661842535748",
+        "amount_difference_from_flat_price_cny": "-385.990",
+        "shares_implied_at_flat_price_not_certified": "20784371",
+        "difference_from_reported_hands_converted_shares": "-29.0",
+        "compatible_with_volume_rounded_to_nearest_hand_hypothesis": true,
+        "resolution_status": "precision-compatible; actual provider aggregation and rounding convention unconfirmed; raw retained"
+      }
+    ],
+    "no_certification": "amount/(volume*100) is aggregate-derived average, not verified tick VWAP or full trading universe",
+    "interpretation": "Three flat-price days deviate by <0.00002 CNY/share; each implied-share difference is <50 shares, numerically compatible with daily volume rounded to whole hands. This is a hypothesis, not correction or proof of ticks."
+  },
+  "turnover_capital_set_compatibility": {
+    "candidate_periods_count": 8,
+    "candidate_unlimited_shares_values": [
+      2613872358,
+      3398046737,
+      3398612429,
+      3398612431
+    ],
+    "at_least_one_candidate_compatible_rows": 912,
+    "no_candidate_compatible_rows": 0,
+    "multi_candidate_compatible_rows": 801,
+    "exception_examples_max20": [],
+    "limitation": "A numerical match against some period is only a consistency clue; no daily share-count value is assigned. Multiple close period figures are indistinguishable at displayed turnover precision."
+  },
+  "same_period_end_exact_date_only": [
+    {
+      "observation_id": "002414.SZ_capital_period_2022-12-31",
+      "period_end": "2022-12-31",
+      "provider_notice_date": "2023-04-20",
+      "unlimited_shares": 2613872358,
+      "limited_shares": 671309264,
+      "total_shares": 3285181622,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": false,
+      "status": "no_same_date_bar_no_adjacent_date_substitution"
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2023-06-30",
+      "period_end": "2023-06-30",
+      "provider_notice_date": "2023-08-31",
+      "unlimited_shares": 3398046737,
+      "limited_shares": 872689371,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": true,
+      "volume_hands": 154402.0,
+      "reported_turnover_pct": 0.45,
+      "calculated_turnover_pct": "0.4543845684015381451770773570",
+      "compatible_with_assumed_two_decimal_rounding": true
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2023-12-31",
+      "period_end": "2023-12-31",
+      "provider_notice_date": "2024-04-16",
+      "unlimited_shares": 3398612429,
+      "limited_shares": 872123679,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": false,
+      "status": "no_same_date_bar_no_adjacent_date_substitution"
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2024-06-30",
+      "period_end": "2024-06-30",
+      "provider_notice_date": "2024-08-27",
+      "unlimited_shares": 3398612431,
+      "limited_shares": 872123677,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": false,
+      "status": "no_same_date_bar_no_adjacent_date_substitution"
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2024-12-31",
+      "period_end": "2024-12-31",
+      "provider_notice_date": "2025-04-25",
+      "unlimited_shares": 3398612431,
+      "limited_shares": 872123677,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": true,
+      "volume_hands": 300639.0,
+      "reported_turnover_pct": 0.88,
+      "calculated_turnover_pct": "0.8845933630376931908538646783",
+      "compatible_with_assumed_two_decimal_rounding": true
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2025-06-30",
+      "period_end": "2025-06-30",
+      "provider_notice_date": "2025-08-26",
+      "unlimited_shares": 3398612431,
+      "limited_shares": 872123677,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": true,
+      "volume_hands": 1511037.0,
+      "reported_turnover_pct": 4.45,
+      "calculated_turnover_pct": "4.446040937817072322713457409",
+      "compatible_with_assumed_two_decimal_rounding": true
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2025-12-31",
+      "period_end": "2025-12-31",
+      "provider_notice_date": "2026-04-15",
+      "unlimited_shares": 3398612431,
+      "limited_shares": 872123677,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": true,
+      "volume_hands": 570727.0,
+      "reported_turnover_pct": 1.68,
+      "calculated_turnover_pct": "1.679294157798600719588787969",
+      "compatible_with_assumed_two_decimal_rounding": true
+    },
+    {
+      "observation_id": "002414.SZ_capital_period_2026-06-30",
+      "period_end": "2026-06-30",
+      "provider_notice_date": "2026-08-26",
+      "unlimited_shares": 3398612431,
+      "limited_shares": 872123677,
+      "total_shares": 4270736108,
+      "daily_float_pit_eligible": false,
+      "historical_input_eligible": false,
+      "same_date_bar_available": true,
+      "volume_hands": 473918.0,
+      "reported_turnover_pct": 1.39,
+      "calculated_turnover_pct": "1.394445555713322229062369954",
+      "compatible_with_assumed_two_decimal_rounding": true
+    }
+  ],
+  "corporate_actions": [
+    {
+      "art_code": "AN202306121590866740",
+      "record_date": "2023-06-19",
+      "ex_date": "2023-06-20",
+      "total_shares_before": "3285181622",
+      "total_shares_after": "4270736108",
+      "transfer_shares_per_10": "3"
+    },
+    {
+      "art_code": "AN202405151633180433",
+      "record_date": "2024-05-23",
+      "ex_date": "2024-05-24",
+      "total_shares_before": "4270736108",
+      "total_shares_after": "4270736108",
+      "transfer_shares_per_10": "0"
+    },
+    {
+      "art_code": "AN202609141829372726",
+      "record_date": "2026-09-21",
+      "ex_date": "2026-09-22",
+      "total_shares_before": "4270736108",
+      "total_shares_after": "4270736108",
+      "transfer_shares_per_10": "0"
+    }
+  ],
+  "existing_capital_reconciliation_issues": [
+    {
+      "observation_id": "distribution_table_1share_vs_report",
+      "status": "unresolved",
+      "details": "实施公告表列限售872689370、无限售3398046738；中报期末限售872689371、无限售3398046737；总股本一致。实施公告明确最终股本变动情况以中登登记股本结构为准。差1股的精确生效日及原因未取得证据，不能将2023-06-30报告日机械当交易生效日。"
+    },
+    {
+      "observation_id": "yearend_to_next_report_opening_2shares",
+      "status": "unresolved",
+      "details": "2023年报期末限售872123679、无限售3398612429；2024中报期初和期末均为限售872123677、无限售3398612431，变动栏均为横线。不能据此认定2024-06-30实际解锁2股，也不能回填2023-12-31覆盖原报告。"
+    },
+    {
+      "observation_id": "baseline_to_implementation_9748shares",
+      "status": "unresolved",
+      "details": "2022年报期末限售671309264、无限售2613872358；实施公告本次变动前限售671299516、无限售2613882106。供应商股本记录日期2023-06-12、差9748股，但本次核对未取得能证明该具体日为股份性质变更生效日的原件。"
+    }
+  ],
+  "unit_misuse_controls": {
+    "amount_div_volume_no_100_hands_conversion": {
+      "outside_range_count": 912,
+      "rows": 912
+    },
+    "volume_treated_as_shares_turnover_match_any_period": {
+      "matching_rows": 0,
+      "rows": 912
+    },
+    "turnover_pct_treated_as_fraction_match_any_period": {
+      "matching_rows": 0,
+      "rows": 912
+    },
+    "both_factors_100_wrongly_removed_match_any_period": {
+      "matching_rows": 0,
+      "rows": 912
+    }
+  },
+  "source_units": {
+    "volume": [
+      "provider_hands"
+    ],
+    "turnover": [
+      "provider_pct"
+    ]
+  },
+  "unresolved": [
+    "vendor daily free-float denominator and rounding formula",
+    "precise share-nature change effective dates between period-end observations",
+    "1-share, 2-share, 9748-share disclosure reconciliation differences remain unresolved",
+    "amount/volume coverage equality and true tick data are not certified",
+    "cannot establish daily point-in-time float from this check"
+  ]
+}

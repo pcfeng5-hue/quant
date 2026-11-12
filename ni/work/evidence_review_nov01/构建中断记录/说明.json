@@ -1,0 +1,4 @@
+{
+  "reason": "Readable report attempted numeric formatting on string values intentionally preserved from saved CSV; presentation conversion fixed, no model or scores changed",
+  "retained_partial_database": true
+}

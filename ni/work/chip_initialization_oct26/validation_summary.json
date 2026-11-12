@@ -1,0 +1,695 @@
+{
+  "algorithm_version": "common-origin-partial-identification-chip-v2",
+  "all_technical_checks_passed": true,
+  "checks": [
+    {
+      "checked_daily_states": 3192,
+      "max_absolute_error": 6.661338147750939e-16,
+      "name": "known_plus_unknown_mass_conserved_without_renormalizing_known",
+      "passed": true
+    },
+    {
+      "name": "observed_mass_nonnegative",
+      "passed": true
+    },
+    {
+      "includes_common_origin_first_day": true,
+      "max_error": 1.3877787807814457e-17,
+      "name": "unknown_equals_product_of_one_minus_turnover",
+      "passed": true
+    },
+    {
+      "actions_preserve_unknown_weight": true,
+      "name": "unknown_monotone_in_absence_of_external_mass_events",
+      "passed": true
+    },
+    {
+      "name": "prefix_invariance_all_36_fixed_results",
+      "passed": true,
+      "proofs": [
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-01-03",
+          "full_sha256": "ec2aad654f7f3f0a286e222688629a8cf39d607830042bdd297f891530303d06",
+          "prefix_sha256": "ec2aad654f7f3f0a286e222688629a8cf39d607830042bdd297f891530303d06"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-06-19",
+          "full_sha256": "124e4455ada08fc578d14ee54d3c167d9dc071baf4ba7e7d1ec310747b411209",
+          "prefix_sha256": "124e4455ada08fc578d14ee54d3c167d9dc071baf4ba7e7d1ec310747b411209"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-06-20",
+          "full_sha256": "c3bc6e44c5e418bc4a21bdcb15aa8394283ee5ee9ba392c441aef934f0d9c05f",
+          "prefix_sha256": "c3bc6e44c5e418bc4a21bdcb15aa8394283ee5ee9ba392c441aef934f0d9c05f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-06-21",
+          "full_sha256": "4786bf994f723afab8e36499340d00e519181df83083bfcbeff17f858225940f",
+          "prefix_sha256": "4786bf994f723afab8e36499340d00e519181df83083bfcbeff17f858225940f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2024-05-23",
+          "full_sha256": "14aa5dacdd5f6e1e4c2ca39cc8280a1f2823a740d202d121f1706a82389514cc",
+          "prefix_sha256": "14aa5dacdd5f6e1e4c2ca39cc8280a1f2823a740d202d121f1706a82389514cc"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2024-05-24",
+          "full_sha256": "d4ed66c7428f289b14aa088a4b4336a9c2254ebeff2e6b43842a2fa360bfed7f",
+          "prefix_sha256": "d4ed66c7428f289b14aa088a4b4336a9c2254ebeff2e6b43842a2fa360bfed7f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2024-05-27",
+          "full_sha256": "ce7cf17802f7488150505c9d3af2cf485f83fc4318e2db655f2d3c84062822ef",
+          "prefix_sha256": "ce7cf17802f7488150505c9d3af2cf485f83fc4318e2db655f2d3c84062822ef"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-09-21",
+          "full_sha256": "7aecabe3cc25311a23808f7bb9e927d3cf80754314f131f7fc1c24000e27e168",
+          "prefix_sha256": "7aecabe3cc25311a23808f7bb9e927d3cf80754314f131f7fc1c24000e27e168"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-09-22",
+          "full_sha256": "475c07af80ffff7d63baf03253266d8a480b6622464640277aa22d534b7cf383",
+          "prefix_sha256": "475c07af80ffff7d63baf03253266d8a480b6622464640277aa22d534b7cf383"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-09-23",
+          "full_sha256": "c55171ca189943c3d64b58393a77c54962a4478117800dbae1409c83a8ad6dcc",
+          "prefix_sha256": "c55171ca189943c3d64b58393a77c54962a4478117800dbae1409c83a8ad6dcc"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-10-16",
+          "full_sha256": "c2d01bdb34c160c5400042383eb165a4ff243c16d7be0fe99da6b7dc327600fb",
+          "prefix_sha256": "c2d01bdb34c160c5400042383eb165a4ff243c16d7be0fe99da6b7dc327600fb"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-10-21",
+          "full_sha256": "7dee4b2a4674856fd6731f5e484e7a4887a4306664b148a13593528749056493",
+          "prefix_sha256": "7dee4b2a4674856fd6731f5e484e7a4887a4306664b148a13593528749056493"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-01-03",
+          "full_sha256": "bce44ddde3f04a438f0d4010570daf0266ef93ca4d2d0cca6e1c36e4928ef279",
+          "prefix_sha256": "bce44ddde3f04a438f0d4010570daf0266ef93ca4d2d0cca6e1c36e4928ef279"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-06-19",
+          "full_sha256": "a060f47e4a11bde5ed09a6b346fd6fcbcb6e5b1dfc89fd672302292f15ba27f9",
+          "prefix_sha256": "a060f47e4a11bde5ed09a6b346fd6fcbcb6e5b1dfc89fd672302292f15ba27f9"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-06-20",
+          "full_sha256": "0a10205d0b8627368179bf342062609d6fffb1da245783aed87462a5bb1886c9",
+          "prefix_sha256": "0a10205d0b8627368179bf342062609d6fffb1da245783aed87462a5bb1886c9"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-06-21",
+          "full_sha256": "a053a04790ca91ce4e50bd95ab11d054913e898e905d09318d16848ca548ca61",
+          "prefix_sha256": "a053a04790ca91ce4e50bd95ab11d054913e898e905d09318d16848ca548ca61"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2024-05-23",
+          "full_sha256": "583a9c5eb7e671778dd97cbe5c6bec543cd7905ba8056bada63615c77cafcd44",
+          "prefix_sha256": "583a9c5eb7e671778dd97cbe5c6bec543cd7905ba8056bada63615c77cafcd44"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2024-05-24",
+          "full_sha256": "6275d531b17e9992895f9272aaed9c0cdc8878101c456b3c165c0be3bdfd16da",
+          "prefix_sha256": "6275d531b17e9992895f9272aaed9c0cdc8878101c456b3c165c0be3bdfd16da"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2024-05-27",
+          "full_sha256": "da1f693de2a7d3d4e7b459aa49028818fd7a3578f31f3afb349aeaf969e1eb0a",
+          "prefix_sha256": "da1f693de2a7d3d4e7b459aa49028818fd7a3578f31f3afb349aeaf969e1eb0a"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-09-21",
+          "full_sha256": "c0ca7716f92f853c7bba987debc460d1f908162ad803ed7e47549e6aff9be89d",
+          "prefix_sha256": "c0ca7716f92f853c7bba987debc460d1f908162ad803ed7e47549e6aff9be89d"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-09-22",
+          "full_sha256": "bc92aa84c0a2d765dd1ca42210f6dbcb8170dca7bd0c9fae59e5f096519056ad",
+          "prefix_sha256": "bc92aa84c0a2d765dd1ca42210f6dbcb8170dca7bd0c9fae59e5f096519056ad"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-09-23",
+          "full_sha256": "a2b42966de1af39119b407654d406afe813821fbaef134458cf280e2b65e175d",
+          "prefix_sha256": "a2b42966de1af39119b407654d406afe813821fbaef134458cf280e2b65e175d"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-10-16",
+          "full_sha256": "1d2dac971b590fd9bcbc1a266c00d4b486a932ea8c3aa119561ed95a8a1f53a9",
+          "prefix_sha256": "1d2dac971b590fd9bcbc1a266c00d4b486a932ea8c3aa119561ed95a8a1f53a9"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-10-21",
+          "full_sha256": "df39c2dce69be5b293ec553501fa6eb779bf7ce082f272dd197187ab1fabde01",
+          "prefix_sha256": "df39c2dce69be5b293ec553501fa6eb779bf7ce082f272dd197187ab1fabde01"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-01-03",
+          "full_sha256": "5e9201495fa04ac389e7786161e77ea2c0fc4ff805d48c7123fee9b36f338f54",
+          "prefix_sha256": "5e9201495fa04ac389e7786161e77ea2c0fc4ff805d48c7123fee9b36f338f54"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-06-19",
+          "full_sha256": "fc0acf4510b0d23ca8fee72c188c1f2676e8428e09d431ca055b5118dd3143ef",
+          "prefix_sha256": "fc0acf4510b0d23ca8fee72c188c1f2676e8428e09d431ca055b5118dd3143ef"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-06-20",
+          "full_sha256": "3d5bfc332089cf1962fc7184b5363ee56727e01d9f37b2d1138f095a39c7170d",
+          "prefix_sha256": "3d5bfc332089cf1962fc7184b5363ee56727e01d9f37b2d1138f095a39c7170d"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-06-21",
+          "full_sha256": "5a520235d4cf28c1db08cbbc759bff3f095ecd41fbc21e0ec2f523e90f41ce30",
+          "prefix_sha256": "5a520235d4cf28c1db08cbbc759bff3f095ecd41fbc21e0ec2f523e90f41ce30"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2024-05-23",
+          "full_sha256": "8b42926837b451bbdeefa11b9fcef6d9b54779819a55e7152da8883085ef8f84",
+          "prefix_sha256": "8b42926837b451bbdeefa11b9fcef6d9b54779819a55e7152da8883085ef8f84"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2024-05-24",
+          "full_sha256": "419a0f518f1e6715bf97bd22177294b91d664ecef194b6a46b0cd4c5f40d0202",
+          "prefix_sha256": "419a0f518f1e6715bf97bd22177294b91d664ecef194b6a46b0cd4c5f40d0202"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2024-05-27",
+          "full_sha256": "ee3f93e686e1f115b2830566c0033f31bca9b3bc24771af4e2184fc1c5f40a0b",
+          "prefix_sha256": "ee3f93e686e1f115b2830566c0033f31bca9b3bc24771af4e2184fc1c5f40a0b"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-09-21",
+          "full_sha256": "4d05c5d3c2903f007438985d28f8107a64455612c657185cba0b71cc9f40167f",
+          "prefix_sha256": "4d05c5d3c2903f007438985d28f8107a64455612c657185cba0b71cc9f40167f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-09-22",
+          "full_sha256": "b27dc0989613b293ed20b3772ffe0cb44af78fd6a9c7af662da61ef1628c8ef6",
+          "prefix_sha256": "b27dc0989613b293ed20b3772ffe0cb44af78fd6a9c7af662da61ef1628c8ef6"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-09-23",
+          "full_sha256": "ddf187be861875afe5ab61874620bbb10a1e48cb593baacc0893aa5e5910f63f",
+          "prefix_sha256": "ddf187be861875afe5ab61874620bbb10a1e48cb593baacc0893aa5e5910f63f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-10-16",
+          "full_sha256": "fd4b73dc56630c73deadaaa67b59fc33bc5fc713e0e2c47ca9c0b9a99161de3a",
+          "prefix_sha256": "fd4b73dc56630c73deadaaa67b59fc33bc5fc713e0e2c47ca9c0b9a99161de3a"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-10-21",
+          "full_sha256": "632800438119157f436ba958cb65a60826467c90d03e6a7b93d7c2df39510f0c",
+          "prefix_sha256": "632800438119157f436ba958cb65a60826467c90d03e6a7b93d7c2df39510f0c"
+        }
+      ]
+    },
+    {
+      "future_returns_loaded": false,
+      "name": "future_price_turnover_and_action_mutation_invariance",
+      "passed": true,
+      "proofs": [
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-01-03",
+          "future_poison_sha256": "ec2aad654f7f3f0a286e222688629a8cf39d607830042bdd297f891530303d06",
+          "original_sha256": "ec2aad654f7f3f0a286e222688629a8cf39d607830042bdd297f891530303d06"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-06-19",
+          "future_poison_sha256": "124e4455ada08fc578d14ee54d3c167d9dc071baf4ba7e7d1ec310747b411209",
+          "original_sha256": "124e4455ada08fc578d14ee54d3c167d9dc071baf4ba7e7d1ec310747b411209"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-06-20",
+          "future_poison_sha256": "c3bc6e44c5e418bc4a21bdcb15aa8394283ee5ee9ba392c441aef934f0d9c05f",
+          "original_sha256": "c3bc6e44c5e418bc4a21bdcb15aa8394283ee5ee9ba392c441aef934f0d9c05f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2023-06-21",
+          "future_poison_sha256": "4786bf994f723afab8e36499340d00e519181df83083bfcbeff17f858225940f",
+          "original_sha256": "4786bf994f723afab8e36499340d00e519181df83083bfcbeff17f858225940f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2024-05-23",
+          "future_poison_sha256": "14aa5dacdd5f6e1e4c2ca39cc8280a1f2823a740d202d121f1706a82389514cc",
+          "original_sha256": "14aa5dacdd5f6e1e4c2ca39cc8280a1f2823a740d202d121f1706a82389514cc"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2024-05-24",
+          "future_poison_sha256": "d4ed66c7428f289b14aa088a4b4336a9c2254ebeff2e6b43842a2fa360bfed7f",
+          "original_sha256": "d4ed66c7428f289b14aa088a4b4336a9c2254ebeff2e6b43842a2fa360bfed7f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2024-05-27",
+          "future_poison_sha256": "ce7cf17802f7488150505c9d3af2cf485f83fc4318e2db655f2d3c84062822ef",
+          "original_sha256": "ce7cf17802f7488150505c9d3af2cf485f83fc4318e2db655f2d3c84062822ef"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-09-21",
+          "future_poison_sha256": "7aecabe3cc25311a23808f7bb9e927d3cf80754314f131f7fc1c24000e27e168",
+          "original_sha256": "7aecabe3cc25311a23808f7bb9e927d3cf80754314f131f7fc1c24000e27e168"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-09-22",
+          "future_poison_sha256": "475c07af80ffff7d63baf03253266d8a480b6622464640277aa22d534b7cf383",
+          "original_sha256": "475c07af80ffff7d63baf03253266d8a480b6622464640277aa22d534b7cf383"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-09-23",
+          "future_poison_sha256": "c55171ca189943c3d64b58393a77c54962a4478117800dbae1409c83a8ad6dcc",
+          "original_sha256": "c55171ca189943c3d64b58393a77c54962a4478117800dbae1409c83a8ad6dcc"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x0.5:2026-10-16",
+          "future_poison_sha256": "c2d01bdb34c160c5400042383eb165a4ff243c16d7be0fe99da6b7dc327600fb",
+          "original_sha256": "c2d01bdb34c160c5400042383eb165a4ff243c16d7be0fe99da6b7dc327600fb"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-01-03",
+          "future_poison_sha256": "bce44ddde3f04a438f0d4010570daf0266ef93ca4d2d0cca6e1c36e4928ef279",
+          "original_sha256": "bce44ddde3f04a438f0d4010570daf0266ef93ca4d2d0cca6e1c36e4928ef279"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-06-19",
+          "future_poison_sha256": "a060f47e4a11bde5ed09a6b346fd6fcbcb6e5b1dfc89fd672302292f15ba27f9",
+          "original_sha256": "a060f47e4a11bde5ed09a6b346fd6fcbcb6e5b1dfc89fd672302292f15ba27f9"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-06-20",
+          "future_poison_sha256": "0a10205d0b8627368179bf342062609d6fffb1da245783aed87462a5bb1886c9",
+          "original_sha256": "0a10205d0b8627368179bf342062609d6fffb1da245783aed87462a5bb1886c9"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2023-06-21",
+          "future_poison_sha256": "a053a04790ca91ce4e50bd95ab11d054913e898e905d09318d16848ca548ca61",
+          "original_sha256": "a053a04790ca91ce4e50bd95ab11d054913e898e905d09318d16848ca548ca61"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2024-05-23",
+          "future_poison_sha256": "583a9c5eb7e671778dd97cbe5c6bec543cd7905ba8056bada63615c77cafcd44",
+          "original_sha256": "583a9c5eb7e671778dd97cbe5c6bec543cd7905ba8056bada63615c77cafcd44"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2024-05-24",
+          "future_poison_sha256": "6275d531b17e9992895f9272aaed9c0cdc8878101c456b3c165c0be3bdfd16da",
+          "original_sha256": "6275d531b17e9992895f9272aaed9c0cdc8878101c456b3c165c0be3bdfd16da"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2024-05-27",
+          "future_poison_sha256": "da1f693de2a7d3d4e7b459aa49028818fd7a3578f31f3afb349aeaf969e1eb0a",
+          "original_sha256": "da1f693de2a7d3d4e7b459aa49028818fd7a3578f31f3afb349aeaf969e1eb0a"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-09-21",
+          "future_poison_sha256": "c0ca7716f92f853c7bba987debc460d1f908162ad803ed7e47549e6aff9be89d",
+          "original_sha256": "c0ca7716f92f853c7bba987debc460d1f908162ad803ed7e47549e6aff9be89d"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-09-22",
+          "future_poison_sha256": "bc92aa84c0a2d765dd1ca42210f6dbcb8170dca7bd0c9fae59e5f096519056ad",
+          "original_sha256": "bc92aa84c0a2d765dd1ca42210f6dbcb8170dca7bd0c9fae59e5f096519056ad"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-09-23",
+          "future_poison_sha256": "a2b42966de1af39119b407654d406afe813821fbaef134458cf280e2b65e175d",
+          "original_sha256": "a2b42966de1af39119b407654d406afe813821fbaef134458cf280e2b65e175d"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1:2026-10-16",
+          "future_poison_sha256": "1d2dac971b590fd9bcbc1a266c00d4b486a932ea8c3aa119561ed95a8a1f53a9",
+          "original_sha256": "1d2dac971b590fd9bcbc1a266c00d4b486a932ea8c3aa119561ed95a8a1f53a9"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-01-03",
+          "future_poison_sha256": "5e9201495fa04ac389e7786161e77ea2c0fc4ff805d48c7123fee9b36f338f54",
+          "original_sha256": "5e9201495fa04ac389e7786161e77ea2c0fc4ff805d48c7123fee9b36f338f54"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-06-19",
+          "future_poison_sha256": "fc0acf4510b0d23ca8fee72c188c1f2676e8428e09d431ca055b5118dd3143ef",
+          "original_sha256": "fc0acf4510b0d23ca8fee72c188c1f2676e8428e09d431ca055b5118dd3143ef"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-06-20",
+          "future_poison_sha256": "3d5bfc332089cf1962fc7184b5363ee56727e01d9f37b2d1138f095a39c7170d",
+          "original_sha256": "3d5bfc332089cf1962fc7184b5363ee56727e01d9f37b2d1138f095a39c7170d"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2023-06-21",
+          "future_poison_sha256": "5a520235d4cf28c1db08cbbc759bff3f095ecd41fbc21e0ec2f523e90f41ce30",
+          "original_sha256": "5a520235d4cf28c1db08cbbc759bff3f095ecd41fbc21e0ec2f523e90f41ce30"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2024-05-23",
+          "future_poison_sha256": "8b42926837b451bbdeefa11b9fcef6d9b54779819a55e7152da8883085ef8f84",
+          "original_sha256": "8b42926837b451bbdeefa11b9fcef6d9b54779819a55e7152da8883085ef8f84"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2024-05-24",
+          "future_poison_sha256": "419a0f518f1e6715bf97bd22177294b91d664ecef194b6a46b0cd4c5f40d0202",
+          "original_sha256": "419a0f518f1e6715bf97bd22177294b91d664ecef194b6a46b0cd4c5f40d0202"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2024-05-27",
+          "future_poison_sha256": "ee3f93e686e1f115b2830566c0033f31bca9b3bc24771af4e2184fc1c5f40a0b",
+          "original_sha256": "ee3f93e686e1f115b2830566c0033f31bca9b3bc24771af4e2184fc1c5f40a0b"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-09-21",
+          "future_poison_sha256": "4d05c5d3c2903f007438985d28f8107a64455612c657185cba0b71cc9f40167f",
+          "original_sha256": "4d05c5d3c2903f007438985d28f8107a64455612c657185cba0b71cc9f40167f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-09-22",
+          "future_poison_sha256": "b27dc0989613b293ed20b3772ffe0cb44af78fd6a9c7af662da61ef1628c8ef6",
+          "original_sha256": "b27dc0989613b293ed20b3772ffe0cb44af78fd6a9c7af662da61ef1628c8ef6"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-09-23",
+          "future_poison_sha256": "ddf187be861875afe5ab61874620bbb10a1e48cb593baacc0893aa5e5910f63f",
+          "original_sha256": "ddf187be861875afe5ab61874620bbb10a1e48cb593baacc0893aa5e5910f63f"
+        },
+        {
+          "equal": true,
+          "estimate_id": "turnover_x1.5:2026-10-16",
+          "future_poison_sha256": "fd4b73dc56630c73deadaaa67b59fc33bc5fc713e0e2c47ca9c0b9a99161de3a",
+          "original_sha256": "fd4b73dc56630c73deadaaa67b59fc33bc5fc713e0e2c47ca9c0b9a99161de3a"
+        }
+      ]
+    },
+    {
+      "audited_applications": 63,
+      "max_first_moment_error": 1.7763568394002505e-15,
+      "name": "three_corporate_actions_preserve_known_and_unknown_mass_and_first_moment",
+      "passed": true
+    },
+    {
+      "multipliers": [
+        0.5,
+        1.0,
+        1.5
+      ],
+      "name": "all_three_turnover_multipliers_and_ordering",
+      "passed": true
+    },
+    {
+      "checked_early_results": 12,
+      "name": "early_history_never_certified_or_unknown_hidden",
+      "passed": true
+    },
+    {
+      "name": "no_total_mean_or_unknown_support_invented",
+      "passed": true
+    },
+    {
+      "name": "cdf_profit_bounds_and_tv_width_equal_unknown",
+      "passed": true
+    },
+    {
+      "name": "unrestricted_unknown_cdf_envelope_attained_by_extreme_atoms",
+      "passed": true,
+      "tv_between_extreme_unknown_atoms": 0.4,
+      "unknown_mass": 0.4
+    },
+    {
+      "bounds": [
+        {
+          "lower": {
+            "kind": "negative_infinity",
+            "value_cny": null
+          },
+          "q": 0.05,
+          "unknown_initial_price_support_assumed": false,
+          "upper": {
+            "kind": "finite",
+            "value_cny": 0.01
+          }
+        },
+        {
+          "lower": {
+            "kind": "finite",
+            "value_cny": 0.01
+          },
+          "q": 0.5,
+          "unknown_initial_price_support_assumed": false,
+          "upper": {
+            "kind": "finite",
+            "value_cny": 0.02
+          }
+        },
+        {
+          "lower": {
+            "kind": "finite",
+            "value_cny": 0.03
+          },
+          "q": 0.95,
+          "unknown_initial_price_support_assumed": false,
+          "upper": {
+            "kind": "positive_infinity",
+            "value_cny": null
+          }
+        }
+      ],
+      "name": "quantile_bounds_include_unbounded_tail_cases",
+      "passed": true
+    },
+    {
+      "first_day_summary": {
+        "asof_date": "2022-06-01",
+        "cdf_bound_max_width": 0.992,
+        "close_raw_cny": 11.72,
+        "common_origin_pretrade_date": "2022-06-01",
+        "complete_corporate_action_coverage_certified": false,
+        "early_history_warning": true,
+        "estimate_status": "partial_identification_diagnostic_only",
+        "historical_first_seen_certified": false,
+        "initialization_total_variation_diameter_upper_bound": 0.992,
+        "known_conditional_semantics": "conditional on turnover-created observed component under this model, not the total holder distribution",
+        "known_coordinate_events_applied": 0,
+        "known_observed_contribution_mass": 0.008000000000000002,
+        "known_only_conditional_mean_cny": 11.69916716517115,
+        "known_only_conditional_median_cny": 11.69,
+        "known_only_conditional_profit_fraction": 0.6441176470588236,
+        "known_only_saved_grid_max_cny": 11.89,
+        "known_plus_unknown_mass": 1.0,
+        "model_input_approved": false,
+        "native_supplier_bins_acquired": false,
+        "observed_trading_days": 1,
+        "prediction_reliability_certified": false,
+        "profit_bound_width": 0.992,
+        "profit_mass_lower": 0.00515294117647059,
+        "profit_mass_upper": 0.9971529411764706,
+        "total_distribution_mass_outside_saved_known_grid": "unknown; at most unknown_initial_mass",
+        "total_distribution_mean_cny": null,
+        "total_mean_identification": "no finite bounds without bounded unknown support or moment restrictions",
+        "total_quantile_bounds": [
+          {
+            "lower": {
+              "kind": "negative_infinity",
+              "value_cny": null
+            },
+            "q": 0.05,
+            "unknown_initial_price_support_assumed": false,
+            "upper": {
+              "kind": "positive_infinity",
+              "value_cny": null
+            }
+          },
+          {
+            "lower": {
+              "kind": "negative_infinity",
+              "value_cny": null
+            },
+            "q": 0.15,
+            "unknown_initial_price_support_assumed": false,
+            "upper": {
+              "kind": "positive_infinity",
+              "value_cny": null
+            }
+          },
+          {
+            "lower": {
+              "kind": "negative_infinity",
+              "value_cny": null
+            },
+            "q": 0.5,
+            "unknown_initial_price_support_assumed": false,
+            "upper": {
+              "kind": "positive_infinity",
+              "value_cny": null
+            }
+          },
+          {
+            "lower": {
+              "kind": "negative_infinity",
+              "value_cny": null
+            },
+            "q": 0.85,
+            "unknown_initial_price_support_assumed": false,
+            "upper": {
+              "kind": "positive_infinity",
+              "value_cny": null
+            }
+          },
+          {
+            "lower": {
+              "kind": "negative_infinity",
+              "value_cny": null
+            },
+            "q": 0.95,
+            "unknown_initial_price_support_assumed": false,
+            "upper": {
+              "kind": "positive_infinity",
+              "value_cny": null
+            }
+          }
+        ],
+        "unbridged_large_gap_count_since_common_origin": 0,
+        "unknown_initial_mass": 0.992,
+        "unknown_initial_price_support_assumed": false,
+        "variant": "turnover_x1",
+        "warmup_sufficiency_certified": false
+      },
+      "name": "first_day_turnover_not_an_implicit_unit_seed",
+      "passed": true
+    },
+    {
+      "name": "fixed_grid_flat_day_preserves_unit_mass_and_price",
+      "passed": true
+    },
+    {
+      "complete_corporate_action_coverage_certified": false,
+      "name": "source_start_avoids_unbridged_20220526_without_claiming_full_action_coverage",
+      "passed": true,
+      "prior_20220526_jump_not_crossed": true
+    },
+    {
+      "name": "all_918_days_diagnostics_only_each_multiplier",
+      "passed": true,
+      "research_daily_diagnostic_rows": 2754,
+      "saved_full_distribution_dates": [
+        "2023-01-03",
+        "2023-06-19",
+        "2023-06-20",
+        "2023-06-21",
+        "2024-05-23",
+        "2024-05-24",
+        "2024-05-27",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-10-16",
+        "2026-10-21"
+      ]
+    },
+    {
+      "name": "gate_flags_remain_false",
+      "passed": true
+    },
+    {
+      "first_sha256": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc",
+      "name": "sqlite_deterministic_byte_rerun",
+      "passed": true,
+      "repeat_sha256": "601198bc50663b005ec08fda6b7e97364fc8a37bcb84a23bc90a3683559f00fc"
+    },
+    {
+      "changed_files": [],
+      "checked_files": 34,
+      "name": "old_originals_database_script_and_outputs_hashes_unchanged",
+      "passed": true
+    }
+  ],
+  "future_returns_read": false,
+  "model_input_approved": false,
+  "native_supplier_bins_acquired": false,
+  "research_918_daily_diagnostic_rows": 2754,
+  "saved_daily_diagnostic_rows": 3192,
+  "saved_full_distribution_dates": [
+    "2023-01-03",
+    "2023-06-19",
+    "2023-06-20",
+    "2023-06-21",
+    "2024-05-23",
+    "2024-05-24",
+    "2024-05-27",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-10-16",
+    "2026-10-21"
+  ],
+  "saved_full_distribution_runs": 36
+}

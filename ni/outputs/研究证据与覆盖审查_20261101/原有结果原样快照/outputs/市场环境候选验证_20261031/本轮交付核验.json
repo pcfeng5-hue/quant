@@ -1,0 +1,230 @@
+{
+  "all_checks_passed": true,
+  "passed": 28,
+  "total": 28,
+  "checks": [
+    {
+      "check": "frozen_model_and_contract",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_25_protected_sources_unchanged_before_release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sixteen_core_files_exist",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "frozen_producer_full_rerun_exit_zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "sixteen_core_files_byte_identical_after_full_rerun",
+      "passed": true,
+      "details": {
+        "概率评分.csv": "f3aa92488c229842aa9e4f4313161b7266ad8f026942ca668729fe0246cecffe",
+        "同日模型对照.csv": "e96e638650a99141b070e5613464b191e09e106cc77e6cae310ee0db6e4a5d80",
+        "选定市场输入_仅开发期.csv": "d30b8cb69c6b13f6691cff90f90a9ddb49b0c70768cd22803728f6e21360028e",
+        "每折模型与两组参数.csv": "e9c460152ca0dab3aa15e9fa0b81f6b510b1d82352aa6001fd9da2def986032f",
+        "沿用标签预排除.csv": "76407a21c5e095a4e3229c5648ca6c2c7b561da9549c89ce00303b6203f84aa0",
+        "训练与验证弃答台账.csv": "2e93c02acd8b56b2dbb2b5a310b248fd355d33f95d8a1a5b63464e42363e0b8c",
+        "逐日配对误差差.csv": "28848173b9d2c912e1614bafd1f7fc8f546a697db650389cf2cee8093df421ca",
+        "逐日概率与实际结果_仅开发期.csv": "370b8d0de519657f367b19676a84e62c95a377336da16cbfc0ea683c71a833ec",
+        "共同训练成员.csv": "9ccd75dd45a84df6266148672643388d95597ab69e3bc11375ace5544d67ce12",
+        "固定分箱校准诊断.csv": "b6a4244ed73e3272c38337c06a3d6b02717cafcefddbf632a26290761936abea",
+        "六折训练与覆盖.csv": "048e6e91e8a8fa44719d0ae7f9318e387fa77a8e99117c69cfd98041b8537867",
+        "市场状态候选开发验证.sqlite": "f9cb36204ced3a00ce972a9d6075e0d780d427d92106c0ef15d8c2795fb2c08f",
+        "预登记研究协议.json": "11db8f9c59d5cb494c25c4722b542da7147dd23c3c492442d5172ab842e82fc2",
+        "运行与输入记录.json": "279e4457ba62a976d3de4a016816b612f0c0c64ce298fdf6183de4b6c7368884",
+        "描述性开发筛选.json": "466bdc1fab0ab99b5af9382c48114de5676459eb6e72ceb4489ad94294f1f961",
+        "实现验证结果.json": "43c41bd267d127cfa4cd46a4e01559e2bc39b78550b673cbcf05f174c0d524c5"
+      }
+    },
+    {
+      "check": "producer_31_checks_passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "input_22_independent_checks_passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "prefreeze_static_14_checks_passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_47_checks_and_final_guard_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "independent_frozen_fingerprints_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "output_sqlite_quick_check",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_fold_identity_guard_14_checks_passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "strict_screen_matches_frozen_result",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "331_dates_662_predictions_and_shared_models",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "66_original_grid_dates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "six_folds_and_18_fitted_rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_484_selected_features_and_15_source_exclusions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "coverage_366_validation_anchors_331_scores_35_exclusions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_training_and_scoring_maturity_boundaries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_later_target_dates_or_approved_flags",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "failed_screen_retained_no_upgrade",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "cumulative_16_preserves_previous_15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_audit_copies_byte_identical",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "state_and_report_saved_and_json_reloadable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "pointer_resolves_to_saved_verified_state",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "manual_batch_not_counted_as_night_completion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_25_protected_sources_unchanged_after_release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_delivery_files_saved",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "core_sha256_before_rerun": {
+    "概率评分.csv": "f3aa92488c229842aa9e4f4313161b7266ad8f026942ca668729fe0246cecffe",
+    "同日模型对照.csv": "e96e638650a99141b070e5613464b191e09e106cc77e6cae310ee0db6e4a5d80",
+    "选定市场输入_仅开发期.csv": "d30b8cb69c6b13f6691cff90f90a9ddb49b0c70768cd22803728f6e21360028e",
+    "每折模型与两组参数.csv": "e9c460152ca0dab3aa15e9fa0b81f6b510b1d82352aa6001fd9da2def986032f",
+    "沿用标签预排除.csv": "76407a21c5e095a4e3229c5648ca6c2c7b561da9549c89ce00303b6203f84aa0",
+    "训练与验证弃答台账.csv": "2e93c02acd8b56b2dbb2b5a310b248fd355d33f95d8a1a5b63464e42363e0b8c",
+    "逐日配对误差差.csv": "28848173b9d2c912e1614bafd1f7fc8f546a697db650389cf2cee8093df421ca",
+    "逐日概率与实际结果_仅开发期.csv": "370b8d0de519657f367b19676a84e62c95a377336da16cbfc0ea683c71a833ec",
+    "共同训练成员.csv": "9ccd75dd45a84df6266148672643388d95597ab69e3bc11375ace5544d67ce12",
+    "固定分箱校准诊断.csv": "b6a4244ed73e3272c38337c06a3d6b02717cafcefddbf632a26290761936abea",
+    "六折训练与覆盖.csv": "048e6e91e8a8fa44719d0ae7f9318e387fa77a8e99117c69cfd98041b8537867",
+    "市场状态候选开发验证.sqlite": "f9cb36204ced3a00ce972a9d6075e0d780d427d92106c0ef15d8c2795fb2c08f",
+    "预登记研究协议.json": "11db8f9c59d5cb494c25c4722b542da7147dd23c3c492442d5172ab842e82fc2",
+    "运行与输入记录.json": "279e4457ba62a976d3de4a016816b612f0c0c64ce298fdf6183de4b6c7368884",
+    "描述性开发筛选.json": "466bdc1fab0ab99b5af9382c48114de5676459eb6e72ceb4489ad94294f1f961",
+    "实现验证结果.json": "43c41bd267d127cfa4cd46a4e01559e2bc39b78550b673cbcf05f174c0d524c5"
+  },
+  "core_sha256_after_rerun": {
+    "概率评分.csv": "f3aa92488c229842aa9e4f4313161b7266ad8f026942ca668729fe0246cecffe",
+    "同日模型对照.csv": "e96e638650a99141b070e5613464b191e09e106cc77e6cae310ee0db6e4a5d80",
+    "选定市场输入_仅开发期.csv": "d30b8cb69c6b13f6691cff90f90a9ddb49b0c70768cd22803728f6e21360028e",
+    "每折模型与两组参数.csv": "e9c460152ca0dab3aa15e9fa0b81f6b510b1d82352aa6001fd9da2def986032f",
+    "沿用标签预排除.csv": "76407a21c5e095a4e3229c5648ca6c2c7b561da9549c89ce00303b6203f84aa0",
+    "训练与验证弃答台账.csv": "2e93c02acd8b56b2dbb2b5a310b248fd355d33f95d8a1a5b63464e42363e0b8c",
+    "逐日配对误差差.csv": "28848173b9d2c912e1614bafd1f7fc8f546a697db650389cf2cee8093df421ca",
+    "逐日概率与实际结果_仅开发期.csv": "370b8d0de519657f367b19676a84e62c95a377336da16cbfc0ea683c71a833ec",
+    "共同训练成员.csv": "9ccd75dd45a84df6266148672643388d95597ab69e3bc11375ace5544d67ce12",
+    "固定分箱校准诊断.csv": "b6a4244ed73e3272c38337c06a3d6b02717cafcefddbf632a26290761936abea",
+    "六折训练与覆盖.csv": "048e6e91e8a8fa44719d0ae7f9318e387fa77a8e99117c69cfd98041b8537867",
+    "市场状态候选开发验证.sqlite": "f9cb36204ced3a00ce972a9d6075e0d780d427d92106c0ef15d8c2795fb2c08f",
+    "预登记研究协议.json": "11db8f9c59d5cb494c25c4722b542da7147dd23c3c492442d5172ab842e82fc2",
+    "运行与输入记录.json": "279e4457ba62a976d3de4a016816b612f0c0c64ce298fdf6183de4b6c7368884",
+    "描述性开发筛选.json": "466bdc1fab0ab99b5af9382c48114de5676459eb6e72ceb4489ad94294f1f961",
+    "实现验证结果.json": "43c41bd267d127cfa4cd46a4e01559e2bc39b78550b673cbcf05f174c0d524c5"
+  },
+  "saved_delivery_sha256": {
+    "outputs/市场环境候选验证_20261031/本轮推进报告.md": "1fe1c113aebf68433042174774ba758f40eed40c44611a86c51ea3fd55b4b12b",
+    "outputs/市场环境候选验证_20261031/本轮状态与续作断点.json": "1a8f43a28c1197a8cc5516b9b07618e5b02ce894bef4647ab5ad571bef1e4758",
+    "outputs/市场环境候选验证_20261031/复算说明.md": "a322c42f92342873a5dc81f53a5806a9e41ef27a51a6b6d0fec8edb94e4e40d9",
+    "outputs/市场环境候选验证_20261031/累计研究与本轮结论台账.json": "0b4523ad2a4c3dfec831fe2420e4afc7c7e2fd91efbc3408cc2e865f0a15b7f5",
+    "outputs/市场环境候选验证_20261031/筛选身份与完整性严格复核.json": "4d9e1f49caf893f5eb5fe4237cdcdf6b157af71bbbc0ff6ca822d314d4ed67a9",
+    "outputs/项目进度与交易需求档案.md": "08c6195b7f29077a69cbcc26553c5deddef216ecfaa663bc0e21f9b66a8d2f50",
+    "outputs/夜间自动推进_20261028/最新续作指针.json": "dff54fd633de23a94036fb5cfb43963d61ebcacd18e1dda8e22200bad0477788",
+    "outputs/夜间自动推进_20261028/执行日志/20261031_人工协作市场环境候选验证.json": "21a7bd7722c2f2736848fedc753866f4dd47f415ef0c2f13fb8d0223d084c5ae",
+    "outputs/市场环境候选验证_20261031/登记回执.json": "2d05fe8b84ab06a96374264ab38892dcb0ec6bfee04184af6da04f35e07b2afe",
+    "outputs/市场环境候选验证_20261031/选定市场输入独立核查.json": "decfa5457fc2f694622d8d3b1986a7f99ebd0450fe7b6d5036cca72c76c3977b",
+    "outputs/市场环境候选验证_20261031/选定市场输入独立核查.md": "be058ed9e326a0bbab8ab0cf21440379fd89d3e176a58f35d513044d94256987",
+    "outputs/市场环境候选验证_20261031/冻结前设计核查.json": "3241c63891ab830ec54fd2e4cb5b502482b514c587b7eb0281bce719777f032b",
+    "outputs/市场环境候选验证_20261031/冻结前设计核查.md": "5ac0c949c021d4018884d1c818ccaeee6fd63c4e90b072836fedca3171bfc357",
+    "outputs/市场环境候选验证_20261031/后续研究审查建议.md": "a02c75ffd1e92e1b5af7893bd7adb5001cd32311ff3d9889f1493e8e5bd128de",
+    "outputs/市场环境候选验证_20261031/独立复核.json": "698a7ee0cfc45bb4124b2538fdf422247d4507af6160b16588fa57e16a1d7eb9",
+    "outputs/市场环境候选验证_20261031/独立复核.md": "c92a9df0a90e73df37b7c21ea63a6d0eb2e78fbf9f040cdcaa3cacd11507d16b"
+  },
+  "verification_counts": {
+    "producer": 31,
+    "input_independent": 22,
+    "prefreeze_static": 14,
+    "model_independent": 47,
+    "strict_publication_guard": 14
+  },
+  "producer_code_sha256": "e0cba20bec850e61e97f1fc37b834a07044b1bc93d4871df9ffdd238044986c0",
+  "contract_sha256": "fab9092c429298b020037a6c62277b059bf6de15d75d361572f73aadc7bf21e8",
+  "strict_publication_guard_sha256": "0b6fc0e78dbf105ec11708cb2a384a87cb71913411d790ef9fa1e55230527ab4",
+  "phase_promotion_approved": false,
+  "outcomes_2025_2026_opened": false
+}

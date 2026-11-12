@@ -1,0 +1,23 @@
+{
+  "automation_id": "a",
+  "checked_at_local": "2026-11-01T09:53:10.111500-05:00",
+  "recorded_out_of_window_dates": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+  ],
+  "recorded_out_of_window_events": 6,
+  "completed_nightly_batches_in_latest_pointer": 0,
+  "last_verified_research_state": "outputs/市场环境候选验证_20261031/本轮状态与续作断点.json",
+  "observed_issue": "Recorded triggers were processed outside the authorized window; no completed nightly batch is recorded in the continuation pointer.",
+  "cause": "not_diagnosed; do not infer device, network, or scheduler cause from timestamps alone",
+  "research_started_this_turn": false,
+  "research_pointer_unchanged": true,
+  "three_date_no_completed_batch_warning_recorded": true,
+  "notification_decision_for_this_turn": "NOTIFY_prior_save_request_complete",
+  "authorized_window_unchanged": true,
+  "last_verified_full_archive": "/Users/puchun/Documents/Codex/项目归档/ni/20261031_市场环境候选验证完整保存/A股概率研究项目_市场环境候选验证全部本地资料_20261031.zip",
+  "last_verified_full_archive_sha256": "7a01b22bde7e05caf8c752502e9eda1a7a876de2a150a0b89849ed1d0d11b137",
+  "latest_trigger_processed_outside_window": true
+}

@@ -1,0 +1,17 @@
+{
+  "pages": 4,
+  "removed_topics_present": {
+    "自动": false,
+    "接口": false,
+    "QMT": false,
+    "开户": false,
+    "券商": false,
+    "资格": false,
+    "报备": false
+  },
+  "has_chip_focus": true,
+  "has_combination_focus": true,
+  "states_unvalidated": true,
+  "risk_preserved": true,
+  "json_protocol_valid": true
+}

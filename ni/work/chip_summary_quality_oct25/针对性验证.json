@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "954_equals_943_plus_11": true,
+    "accepted_dates_915": true,
+    "collection_counts_reconcile": true,
+    "943_accepted_date_sync": true,
+    "930_accepted_post_sync": true,
+    "late_rollover_rejection_preserved": true,
+    "rejected_round2_missing_three_roles": true,
+    "five_version_dates_reconcile": true,
+    "version_counts_2_2_4_3_3": true,
+    "display_matches_all_954": true,
+    "953_html_summaries_match": true,
+    "940_kline_html_dates_match": true,
+    "940_record_payloads_match": true,
+    "no_existing_evidence_hash_mismatch": true,
+    "4753_evidence_link_hashes_match": true,
+    "asset_catalog_gap_separated_from_hash_conflict": true,
+    "ratio_boundaries_preserved": true,
+    "six_source_index_links_match": true,
+    "18_comparisons_all_equal": true,
+    "902_single_dates_not_marked_stable": true,
+    "every_915_date_uncertified": true,
+    "four_missing_times_preserved": true,
+    "db_before_after_identical": true,
+    "coverage_and_conflicts_reconcile": true,
+    "no_average_or_selected_version": true
+  },
+  "passed": 25,
+  "failed": 0
+}

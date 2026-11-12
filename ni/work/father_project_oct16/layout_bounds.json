@@ -1,0 +1,34 @@
+[
+  {
+    "page": 1,
+    "body_top": 64.04,
+    "body_bottom": 650.92,
+    "body_left": 54.0,
+    "body_right": 538.75,
+    "replacement_glyphs": 0
+  },
+  {
+    "page": 2,
+    "body_top": 64.04,
+    "body_bottom": 629.72,
+    "body_left": 54.0,
+    "body_right": 538.23,
+    "replacement_glyphs": 0
+  },
+  {
+    "page": 3,
+    "body_top": 64.04,
+    "body_bottom": 638.32,
+    "body_left": 54.0,
+    "body_right": 539.92,
+    "replacement_glyphs": 0
+  },
+  {
+    "page": 4,
+    "body_top": 64.04,
+    "body_bottom": 666.47,
+    "body_left": 54.0,
+    "body_right": 542.5,
+    "replacement_glyphs": 0
+  }
+]

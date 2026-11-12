@@ -1,0 +1,25 @@
+{
+  "event_id": "002414.SZ_2023_capital_registration",
+  "event_type": "administrative_registration_of_same_capital_transfer",
+  "same_economic_event_id": "002414.SZ_distribution_20230620",
+  "administrative_registration_date": "2023-06-26",
+  "date_source_type": "later_annual_report_retrospective_explicit_statement",
+  "source_id": "AN202404151630235965",
+  "source_notice_date": "2024-04-16",
+  "exact_first_publication_timestamp": null,
+  "known_on_2023_06_26_certified": false,
+  "equity_market_effective_date": "2023-06-20",
+  "is_new_capital_issuance": false,
+  "field_evidence": [
+    {
+      "evidence_id": "AN202404151630235965:114",
+      "field": "capital_and_administrative_dates",
+      "quote_compacted": "2023年6月20日公司以资本公积转增股本98555.45万元并于2023年6月26日在武汉市市场监督管理局办理了变更手续。"
+    },
+    {
+      "evidence_id": "AN202306281591781833:1",
+      "field": "contemporaneous_notice_only_says_recently",
+      "quote_compacted": "近日公司已完成注册资本变更"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "checked_at": "2026-10-15T17:46:43.341288+00:00",
+  "database": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/高德红外_2023起.sqlite",
+  "backup": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/备份/高德红外_20261013_v0.4.sqlite",
+  "mode": "read_only",
+  "checks": [
+    {
+      "name": "all_old_snapshots_retained_byte_equivalent_metadata",
+      "passed": true,
+      "detail": {
+        "backup": 59,
+        "current": 96,
+        "missing_ids": [],
+        "changed_metadata_ids": []
+      }
+    },
+    {
+      "name": "all_old_source_records_retained_unchanged",
+      "passed": true,
+      "detail": {
+        "backup_records": 2355,
+        "current_records": 4094
+      }
+    },
+    {
+      "name": "margin_current_pages_913_unique_dates",
+      "passed": true,
+      "detail": {
+        "rows": 913,
+        "unique_dates": 913,
+        "min_date": "2023-01-03",
+        "max_date": "2026-10-14",
+        "snapshot_ids": [
+          "margin:4bb148af772b70b7265e6aee67c0b3e3934596a9895ef601fe2b1c8781430c75:refresh-20261015-v1",
+          "margin_page2:3fb8fb263e01287ff73be566481144c360f1087ed376cbbab80fb42672df0e3a:refresh-20261015-v1"
+        ],
+        "page_sizes": {
+          "margin": 500,
+          "margin_page2": 413
+        }
+      }
+    },
+    {
+      "name": "flow_latest_window_120_normalized_240_retained_122",
+      "passed": true,
+      "detail": {
+        "current_raw_window": 120,
+        "normalized_versions": 240,
+        "retained_latest_dates": 122,
+        "raw_min": "2026-04-17",
+        "raw_max": "2026-10-15",
+        "retained_min": "2026-04-15",
+        "retained_max": "2026-10-15"
+      }
+    },
+    {
+      "name": "flow_rolled_out_dates_preserved",
+      "passed": true,
+      "detail": [
+        {
+          "trade_date": "2026-04-15",
+          "snapshot_id": "fund_flow_proxy:31211f1e6d641c3d168a8fa474c91a8df0bfbc9b455b7c2ee8a966f56f2cb16b",
+          "retrieved_at": "2026-10-13T18:43:15.483693+00:00"
+        },
+        {
+          "trade_date": "2026-04-16",
+          "snapshot_id": "fund_flow_proxy:31211f1e6d641c3d168a8fa474c91a8df0bfbc9b455b7c2ee8a966f56f2cb16b",
+          "retrieved_at": "2026-10-13T18:43:15.483693+00:00"
+        }
+      ]
+    },
+    {
+      "name": "flow_deduplicated_selects_latest_successful_retrieval",
+      "passed": true,
+      "detail": {
+        "incorrect_rows": []
+      }
+    },
+    {
+      "name": "all_normalized_flow_fields_match_retained_original_rows",
+      "passed": true,
+      "detail": {
+        "checked": 240,
+        "failures": []
+      }
+    },
+    {
+      "name": "all_current_records_temporal_audited_and_zero_eligible",
+      "passed": true,
+      "detail": {
+        "current_records": 1981,
+        "missing_audits": [],
+        "eligible_or_null": []
+      }
+    },
+    {
+      "name": "forward_return_318_values_restricted_by_field",
+      "passed": true,
+      "detail": {
+        "total_restricted_non_null": 318,
+        "fields": 11,
+        "restrictions": [
+          {
+            "dataset": "dividends",
+            "field_name": "D10_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 3,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "dividends",
+            "field_name": "D30_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 2,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "block_trade",
+            "field_name": "CHANGE_RATE_10DAYS",
+            "reason": "forward_return_statistic",
+            "non_null_records": 72,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "block_trade",
+            "field_name": "CHANGE_RATE_1DAYS",
+            "reason": "forward_return_statistic",
+            "non_null_records": 72,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "block_trade",
+            "field_name": "CHANGE_RATE_20DAYS",
+            "reason": "forward_return_statistic",
+            "non_null_records": 72,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "block_trade",
+            "field_name": "CHANGE_RATE_5DAYS",
+            "reason": "forward_return_statistic",
+            "non_null_records": 72,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "institution_seats",
+            "field_name": "D10_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 5,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "institution_seats",
+            "field_name": "D1_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 5,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "institution_seats",
+            "field_name": "D2_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 5,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "institution_seats",
+            "field_name": "D3_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 5,
+            "audit_version": "supplement-audit-v1"
+          },
+          {
+            "dataset": "institution_seats",
+            "field_name": "D5_CLOSE_ADJCHRATE",
+            "reason": "forward_return_statistic",
+            "non_null_records": 5,
+            "audit_version": "supplement-audit-v1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "unchanged_trade_payloads_still_record_oct15_retrieval",
+      "passed": true,
+      "detail": [
+        {
+          "dataset": "block_trade",
+          "old_sha256": "0f53c7082c4ad7c8a8262d65bde2b4d8a0ff930a5229d1fc38a261119202fc54",
+          "latest_sha256": "0f53c7082c4ad7c8a8262d65bde2b4d8a0ff930a5229d1fc38a261119202fc54",
+          "retrieved_at": "2026-10-15T17:33:38.756930+00:00",
+          "matching_retrieval_attempts": 1,
+          "snapshot_id": "block_trade:0f53c7082c4ad7c8a8262d65bde2b4d8a0ff930a5229d1fc38a261119202fc54:refresh-20261015-v1"
+        },
+        {
+          "dataset": "billboard",
+          "old_sha256": "b10395b548c7a3741869ea2cc8b4200f78fa1a52e0d9e48b1342fbbe29ea3f3c",
+          "latest_sha256": "b10395b548c7a3741869ea2cc8b4200f78fa1a52e0d9e48b1342fbbe29ea3f3c",
+          "retrieved_at": "2026-10-15T17:33:38.757057+00:00",
+          "matching_retrieval_attempts": 1,
+          "snapshot_id": "billboard:b10395b548c7a3741869ea2cc8b4200f78fa1a52e0d9e48b1342fbbe29ea3f3c:refresh-20261015-v1"
+        },
+        {
+          "dataset": "institution_seats",
+          "old_sha256": "88ab7cd59d0e2d804f4954744a4f5c94ee27de4077967f917231484bba4ccba1",
+          "latest_sha256": "88ab7cd59d0e2d804f4954744a4f5c94ee27de4077967f917231484bba4ccba1",
+          "retrieved_at": "2026-10-15T17:33:40.631195+00:00",
+          "matching_retrieval_attempts": 1,
+          "snapshot_id": "institution_seats:88ab7cd59d0e2d804f4954744a4f5c94ee27de4077967f917231484bba4ccba1:refresh-20261015-v1"
+        }
+      ]
+    },
+    {
+      "name": "new_snapshot_archived_raw_files_match_hash",
+      "passed": true,
+      "detail": {
+        "failures": []
+      }
+    },
+    {
+      "name": "sqlite_integrity_ok",
+      "passed": true,
+      "detail": {
+        "integrity": "ok"
+      }
+    }
+  ],
+  "all_passed": true,
+  "critical_script_findings": [],
+  "script_review_notes": [
+    "Batch-specific snapshot IDs preserve repeat retrievals when content hash is unchanged.",
+    "Existing source snapshots and source-record payloads remain unchanged.",
+    "Latest-available flow view selects latest acquired version per date; rolled-out raw dates remain retained."
+  ],
+  "limits": [
+    "Latest-available view assumes at most one normalized row per date within a source snapshot; current independent uniqueness checks passed.",
+    "Successful public-source acquisition does not certify historical first availability or complete issuer event history."
+  ]
+}

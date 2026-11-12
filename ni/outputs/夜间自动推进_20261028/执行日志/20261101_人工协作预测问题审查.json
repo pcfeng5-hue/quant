@@ -1,0 +1,14 @@
+{
+  "origin": "direct_human_request",
+  "client_date": "2026-11-01",
+  "status": "step_2_prediction_question_and_label_design_review_complete_independently_checked",
+  "counts_as_completed_nightly_batch": false,
+  "report": "outputs/预测问题与标签适用性审查_20261101/预测问题与标签适用性审查_v1.md",
+  "state": "outputs/预测问题与标签适用性审查_20261101/本轮状态与续作断点.json",
+  "review_steps_completed": 2,
+  "new_real_market_targets": 0,
+  "new_models_scored": 0,
+  "cumulative_registered_variants": 16,
+  "outcomes_2025_2026_opened": false,
+  "user_confirmed_first_use_case": "收盘后判断回落时该买入还是继续等待"
+}

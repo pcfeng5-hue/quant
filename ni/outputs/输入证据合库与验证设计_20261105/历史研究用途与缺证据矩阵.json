@@ -1,0 +1,371 @@
+{
+  "client_date": "2026-11-05",
+  "status": "use_specific_inventory_not_new_market_data_or_formal_promotion",
+  "bounded_source_pass_finished": true,
+  "content_reextracted": false,
+  "extra_domain_source_paths": 0,
+  "row_count": 14,
+  "rows": [
+    {
+      "item": "002414.SZ::eastmoney::raw_open",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[6]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::eastmoney::raw_high",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[6]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::eastmoney::raw_low",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[6]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::eastmoney::raw_close",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": true,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[6]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::eastmoney::raw_volume",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[6]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::tencent::raw_open",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[7]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::tencent::raw_high",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[7]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::tencent::raw_low",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[7]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::tencent::raw_close",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": true,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[7]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "002414.SZ::tencent::raw_volume",
+      "history_metadata_traceable": true,
+      "old_restricted_snapshot_engineering": "existing scope only, do not newly certify retrospective PIT or execute a new experiment",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "selected_for_BW17": false,
+      "evidence_available": [
+        "saved request/completion stamps",
+        "saved manifest and project-definition references",
+        "recorded raw-path/SHA, not rehashed"
+      ],
+      "missing": [
+        "historical first-availability and revision chain",
+        "native field position/code mapping",
+        "provider or equivalent independently validated unit evidence"
+      ],
+      "minimum_next_proof": [
+        "versioned original with per-field mapping and validated units",
+        "proof of version availability at each selected historical decision time, or explicitly limited retrospective scenario only under a new protocol"
+      ],
+      "reference": {
+        "path": "work/market_industry_oct22/manifest.json",
+        "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0",
+        "json_locator": "$.results[7]",
+        "reference_type": "saved_metadata_document"
+      }
+    },
+    {
+      "item": "planned_calendar_2023_2024",
+      "history_metadata_traceable": true,
+      "scope": "729 natural dates;484 planned open;245 planned closed;2 contextual dates separate",
+      "permitted": "planned calendar provenance and old scope engineering comparison",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "missing": [
+        "proof calendar version known at decision time",
+        "exceptional closures/revisions history",
+        "not a stock-observation calendar"
+      ],
+      "minimum_next_proof": [
+        "archive applicable SZSE notice originals and revisions with publication/receipt evidence",
+        "separately document exceptional closures and do not shift T on missing stock bars"
+      ]
+    },
+    {
+      "item": "daily_stock_status_and_rules",
+      "history_metadata_traceable": true,
+      "scope": "484 existing condition links;0 newly certified normal/official-limit/executable rows",
+      "permitted": "trace saved condition flags and unknowns",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "missing": [
+        "daily ST/halt and applicable rules chain",
+        "official daily limit/quantity references and time availability",
+        "queue/order/partial/cancel execution model"
+      ],
+      "minimum_next_proof": [
+        "date-specific evidence with validity/publication versions",
+        "explicit validated counterfactual execution assumptions; never infer fills fromOHLC"
+      ]
+    },
+    {
+      "item": "corporate_actions_fees_and_execution",
+      "history_metadata_traceable": true,
+      "scope": "2 corporate-action date indexes;not full cash/stock/rights ledger",
+      "permitted": "event date provenance only; existing reports retain prior scope",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "missing": [
+        "share/cash rights terms, available dates and tax liabilities",
+        "fee package/minimum/rounding/upper bound",
+        "counterfactual fill/cancel specification"
+      ],
+      "minimum_next_proof": [
+        "complete date-sensitive ledger rules and source terms",
+        "bounded validated fee/execution model for declared study; actual account costs needed only if making account-specific claims"
+      ]
+    },
+    {
+      "item": "optional_chips_news_industry_and_large_orders",
+      "history_metadata_traceable": null,
+      "scope": "not selected forBW17, older provenance limits retained",
+      "permitted": "existing source evidence/estimated-vs-native labels only",
+      "new_formal_historical_action_input": false,
+      "current_or_runtime_input": false,
+      "missing": [
+        "no new optional-feature review attempted"
+      ],
+      "minimum_next_proof": [
+        "only if selected later, register new definition and independently close its use-specific gaps"
+      ],
+      "not_an_additional_gate_on_independent_core_evidence_work": true
+    }
+  ],
+  "new_formal_data_gaps_closed": 0,
+  "original_36_gap_inventory_preserved": true,
+  "what_can_be_done_now": [
+    "query and reproduce metadata/source lineage",
+    "inspect saved engineering/snapshot research with its old limitations; preserve negative results",
+    "design future first-receipt evidence without calling it historical PIT",
+    "define/freeze this unrun single candidate"
+  ],
+  "what_is_not_authorized": [
+    "new true historical policy labels without admission",
+    "2025/2026 target generation or read",
+    "model fitting/scoring orcurrent forecasts",
+    "simulation clock, account use or trading"
+  ],
+  "one_pass_conclusion": "The fixed local source set does not establish the missing time/units/execution evidence; this is not proof that every external archive could never recover it. End repeated broad search over these same unchanged files."
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "art_code": "AN202306121590866740",
+    "record_date": "2023-06-19",
+    "ex_date": "2023-06-20",
+    "cash_cny_per_10_shares": "1.3",
+    "transfer_shares_per_10": "3",
+    "source_sha256": "1c7e832f7d0dbe255146536ffd2168ddd9a5e1d495587341f948f7d21616bab0",
+    "availability_status": "original_implementation_terms_checked_first_public_time_unverified"
+  },
+  {
+    "art_code": "AN202405151633180433",
+    "record_date": "2024-05-23",
+    "ex_date": "2024-05-24",
+    "cash_cny_per_10_shares": "0.14",
+    "transfer_shares_per_10": "0",
+    "source_sha256": "b5e3358473683acd9c73bb0f08c7d6f7cd846c0b1fe4ffd2d5be905b19eee737",
+    "availability_status": "original_implementation_terms_checked_first_public_time_unverified"
+  },
+  {
+    "art_code": "AN202609141829372726",
+    "record_date": "2026-09-21",
+    "ex_date": "2026-09-22",
+    "cash_cny_per_10_shares": "1",
+    "transfer_shares_per_10": "0",
+    "source_sha256": "29fa3a637cb16117f3e892737c4198aa3e1b1eafa766fcaef050921e6ddc5d15",
+    "availability_status": "original_implementation_terms_checked_first_public_time_unverified"
+  }
+]

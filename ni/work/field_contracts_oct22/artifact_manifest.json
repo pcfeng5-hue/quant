@@ -1,0 +1,166 @@
+{
+  "source_manifest": [
+    {
+      "path": "work/market_industry_oct22/market_rows_unique.json",
+      "bytes": 11232706,
+      "sha256": "b40019f5b0867deb32f2936d88ac91556f772f904a2a5a00ee3cca26106dcfee"
+    },
+    {
+      "path": "work/market_industry_oct22/manifest.json",
+      "bytes": 21297,
+      "sha256": "17e2b11911ea862dcd275d84c12ddf4785f47c89b249067f9d2fb07d283c3cf0"
+    },
+    {
+      "path": "work/market_industry_oct22/input_admission.json",
+      "bytes": 1043,
+      "sha256": "dcfce673a97e23a7910c6e9bd1bc48e68b35055880d8afb8310c80072904f668"
+    },
+    {
+      "path": "work/market_industry_oct22/industry_proxy_identity.json",
+      "bytes": 849,
+      "sha256": "f94f53e34155fff0abf7f37a3c9254dfe53e940a907c6799549e6da5242a319e"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/market_rows_all_endpoints.json",
+      "bytes": 10831786,
+      "sha256": "3c40c093322fd84d0de8b640ce29e209e75dfce7a6a7fa41d98558349e1c312a"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/summary.json",
+      "bytes": 11922,
+      "sha256": "878cb6fa49c6e38fb0de3c0e372d992a6b72d9a5da31d1cd77da759d9273a924"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/tencent_new_cross_source_daily_comparison.json",
+      "bytes": 1825549,
+      "sha256": "3295f0adec138ca4e32b9ef609825ff899cd4f6d6e85d3b56e9ecd4cf3651c57"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/verify_and_supplement.py",
+      "bytes": 20685,
+      "sha256": "54e11c2c35777c0d5cbe3814e7ac6576d4fc96210eb17fcb3ff1bfe0d44bb3a8"
+    },
+    {
+      "path": "work/market_warmup_finalize_oct22/行情预热与末日核对.md",
+      "bytes": 4482,
+      "sha256": "5b8b39d169661a093febdfaff4387048833f542864db399380dc809fc0404078"
+    },
+    {
+      "path": "work/conditions_finish_oct22/daily_trade_conditions_915.json",
+      "bytes": 1691776,
+      "sha256": "73f94c2b3ab15751c4aa39a9ffca551f255f81080bcf1235ea70cbd2ffef9047"
+    },
+    {
+      "path": "work/conditions_finish_oct22/monthly_report_observations.json",
+      "bytes": 79947,
+      "sha256": "044c5084459b4325a99ddc135692c9b5b29fbde06df73c1833193cc37115a7c4"
+    },
+    {
+      "path": "work/conditions_finish_oct22/fee_schedule.json",
+      "bytes": 2303,
+      "sha256": "c2faa6e5ff0e431de9b21bb62454a5eef28a6ab7df5804178bae78f8dba00a52"
+    },
+    {
+      "path": "work/conditions_finish_oct22/rule_regimes.json",
+      "bytes": 2020,
+      "sha256": "08d1b9a6bb8e120fd147950d1e4b16a47782ef4834b2f5e0762a0f040cf0acef"
+    },
+    {
+      "path": "work/conditions_finish_oct22/commission_accounting_contract.json",
+      "bytes": 804,
+      "sha256": "a53651fbbd326e21d2c6dd6b8b3375acad42161de8d87567dfa7a8748b70cc32"
+    },
+    {
+      "path": "work/events_publication_oct22/normalized_events.json",
+      "bytes": 98035,
+      "sha256": "caa9c0e2e941fde883c0fec0de2fdcaa1b7db42b67404688399e588f596e94c5"
+    },
+    {
+      "path": "work/events_publication_oct22/announcement_time_ledger_current.json",
+      "bytes": 947891,
+      "sha256": "64794b4a832dcf6a230de02484f92a1218bf24eeba5e4acf503d4025d92f3247"
+    },
+    {
+      "path": "work/events_publication_oct22/summary.json",
+      "bytes": 6000,
+      "sha256": "59a3d016853f204c92bc6c2c6d86b03029db6e4dcace40c7a11f05c2bc0d51d9"
+    },
+    {
+      "path": "work/corporate_actions_refine_oct17/corporate_actions.json",
+      "bytes": 13584,
+      "sha256": "8ada73c9e6a0b1df6b3849f6e6ed20109e08a5ccbc895f93ad17037107b0a5e1"
+    },
+    {
+      "path": "work/corporate_actions_refine_oct17/non_distribution_decisions.json",
+      "bytes": 3617,
+      "sha256": "2e54eae7a234d4865b5781d5f5fe68a8d18a70bcc38519e3b8aa03ef80045e47"
+    },
+    {
+      "path": "work/corporate_actions_refine_oct17/capital_period_observations.json",
+      "bytes": 8121,
+      "sha256": "a1fc7d3b76cf7989edb630e8d04cf345c42837785f8566d1f5bda9b64f9ff667"
+    },
+    {
+      "path": "work/corporate_actions_refine_oct17/nontrade_transfers.json",
+      "bytes": 4214,
+      "sha256": "c32af233d16e0c676aa8362da76fbe3764fb14b25b5101068e74532f43925dad"
+    },
+    {
+      "path": "work/corporate_actions_refine_oct17/cash_total_scope_difference.json",
+      "bytes": 775,
+      "sha256": "07a53596490725bcd42af89ad6932e327a1269572519d6ec22639dbde198e957"
+    },
+    {
+      "path": "outputs/高德红外数据库/历史筹码采集_20261017/每日筹码摘要_915日.csv",
+      "bytes": 149336,
+      "sha256": "2d3bc56d4a32060a01235c8eca976fff708a2c814f4b90c0e89da27727fbbab5"
+    },
+    {
+      "path": "outputs/五项数据补缺_20261022/行情预热核对.md",
+      "bytes": 4439,
+      "sha256": "9ea933f7181020a5267014eebdbf5afd8273674c6ef482a6dde7baf387a8f710"
+    },
+    {
+      "path": "outputs/五项数据补缺_20261022/阶段报告.md",
+      "bytes": 3089,
+      "sha256": "4621ae50f12cfa0b4c6aea811aad334f47b664ad8f53b365f83d92b6b7bffc3e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "work/field_contracts_oct22/admission_contracts.json",
+      "bytes": 20181,
+      "sha256": "74224a196170656805696505211a3e345929d0cc9b30a761ec50c35424c50719"
+    },
+    {
+      "path": "work/field_contracts_oct22/build_contracts.py",
+      "bytes": 57798,
+      "sha256": "7b8985b02acdccde6a9af1287e86afe18091e72050350b843236f52c521849c9"
+    },
+    {
+      "path": "work/field_contracts_oct22/field_dictionary.json",
+      "bytes": 521470,
+      "sha256": "d615bdd36477690774cd3659bb95ae412d937679d86068aa860252ec8a4677ca"
+    },
+    {
+      "path": "work/field_contracts_oct22/issues.json",
+      "bytes": 6778,
+      "sha256": "fdcc292c9ebb5d9cc385f064142fc4fcddc99c1c6ab4641d9f5d84eae671cd6f"
+    },
+    {
+      "path": "work/field_contracts_oct22/summary.json",
+      "bytes": 434,
+      "sha256": "66eaaa454e5134bd559b8b8e1a6abb9a69bfc6110184590a4068c9d39a50e015"
+    },
+    {
+      "path": "work/field_contracts_oct22/verification.json",
+      "bytes": 1268,
+      "sha256": "b4acf62ff7330cd776f312eddc13cc86570d6e554ea1bf95ab3522b61621949b"
+    },
+    {
+      "path": "work/field_contracts_oct22/字段与准入整理说明.md",
+      "bytes": 3127,
+      "sha256": "830543c97ebbbc7b9d3cb0f11d2c3e9d76ff42ca76ca87369f45c649ad8927fe"
+    }
+  ]
+}

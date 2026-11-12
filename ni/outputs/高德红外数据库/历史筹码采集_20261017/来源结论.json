@@ -1,0 +1,64 @@
+{
+  "checked_at_user_date": "2026-10-17",
+  "scope": "bounded_public_primary_document_review",
+  "search_groups": 2,
+  "browser_interaction": false,
+  "paid_service_used": false,
+  "credentials_used": false,
+  "market_rows_collected": 0,
+  "eastmoney_price_bin_public_export_verified": false,
+  "eastmoney_algorithm_initialization_verified": false,
+  "supplier_candidate": {
+    "name": "Tushare",
+    "endpoint": "cyq_chips",
+    "official_document": "https://tushare.pro/document/2?doc_id=294",
+    "documented_history_start_year": 2018,
+    "documented_fields": [
+      "ts_code",
+      "trade_date",
+      "price",
+      "percent"
+    ],
+    "documented_max_rows_per_request": 6000,
+    "documented_min_points": 5000,
+    "actual_002414_sample_obtained": false,
+    "full_coverage_verified": false,
+    "same_as_eastmoney": false,
+    "algorithm_class": "supplier modeled distribution; public description triangular intraday allocation with historical chip migration/decay",
+    "unresolved": [
+      "initialization",
+      "price_grid",
+      "corporate_actions",
+      "adjustment_basis",
+      "historical_revision_policy",
+      "point_in_time_availability"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://choice.eastmoney.com/School/Help",
+      "kind": "official_product_help",
+      "finding": "chip viewing and general export documented separately; price-bin export not verified"
+    },
+    {
+      "url": "https://tushare.pro/document/2?doc_id=294",
+      "kind": "supplier_primary_document",
+      "finding": "historical price/percent chip product exists in documentation; permission required"
+    },
+    {
+      "url": "https://tushare.pro/document/2?doc_id=293",
+      "kind": "supplier_primary_document",
+      "finding": "separate summary product opened; do not interpret product label as predictive probability"
+    },
+    {
+      "url": "https://caifuhao.eastmoney.com/news/20200619165311015326980",
+      "kind": "hosted_community_article_unverified_author_identity",
+      "finding": "not sufficient as official computation specification"
+    },
+    {
+      "url": "https://choice.eastmoney.com/FileDownload/Guide/Choice金融终端使用指南.pdf",
+      "kind": "old_guide_link",
+      "finding": "redirected to https://choice.eastmoney.com/ during open"
+    }
+  ]
+}

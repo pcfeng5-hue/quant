@@ -1,0 +1,1379 @@
+[
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_fee_list_a442b6304f6d9cb7.html",
+    "bytes": 2341,
+    "sha256": "a442b6304f6d9cb70bf6faa5f69960fc692d72e04cf5eeb74f95453390cf4643",
+    "url": "https://www.chinaclear.cn/zdjs/fbzyls/service_tlist/code_0.shtml",
+    "retrieved_at": "2026-10-18T03:12:00.937289+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_fees_2026_dff4a06ce20e180f.pdf",
+    "bytes": 114722,
+    "sha256": "dff4a06ce20e180f4a85ddae138211dcf7dd3246fb84775453cfd21cbaec6573",
+    "url": "https://www.chinaclear.cn/zdjs/fbzyls/202512/a59388fbfa714c5fa546784891a42e30/files/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%9C%BA%E8%AF%81%E5%88%B8%E7%99%BB%E8%AE%B0%E7%BB%93%E7%AE%97%E4%B8%9A%E5%8A%A1%E6%94%B6%E8%B4%B9%E5%8F%8A%E4%BB%A3%E6%94%B6%E7%A8%8E%E8%B4%B9%E4%B8%80%E8%A7%88%E8%A1%A8.pdf",
+    "retrieved_at": "2026-10-18T03:12:00.325422+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_history_9e094cdae3f75a3d.html",
+    "bytes": 815671,
+    "sha256": "9e094cdae3f75a3da33945f653e7c87a03bc676b614a71549091e547e1b3093c",
+    "url": "https://m.chinaclear.cn/zdjs/dsj/about_dsj.shtml",
+    "retrieved_at": "2026-10-18T03:10:51.145954+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/chinaclear_original_publisher_transfer_notice_89c74c297ab5cb0d.html",
+    "bytes": 33511,
+    "sha256": "89c74c297ab5cb0d8791847fcc40c9e9296e3f46353f3ec9ab2f20f59bb8131b",
+    "url": "https://finance.sina.cn/2022-04-28/detail-imcwipii6993883.d.html?wm=3049_0015",
+    "retrieved_at": "2026-10-18T03:13:27.907951+00:00",
+    "original_preserved": true,
+    "classification_override": "ChinaClear-attributed republication on Sina; not official-host primary"
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/dividend_personal_tax_2015_e131973c0f545d01.html",
+    "bytes": 26556,
+    "sha256": "e131973c0f545d01eca469233d820b90a1bb5a658629f950ec06fe6e6f3d7099",
+    "url": "https://www.chinatax.gov.cn/n810341/n810755/c1797427/content.html",
+    "retrieved_at": "2026-10-18T03:13:27.976015+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/fee_reduction_2023_e281273a3bb3d069.html",
+    "bytes": 19662,
+    "sha256": "e281273a3bb3d06903831049ffbc0d38c5d735627e98a6dbf9f3d05cc6af56e0",
+    "url": "https://www.szse.cn/disclosure/notice/t20230818_602805.html",
+    "retrieved_at": "2026-10-18T03:10:48.911322+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/fees_current_fbd7df3dfa07778b.html",
+    "bytes": 90980,
+    "sha256": "fbd7df3dfa07778b1318564563d22992f19d06bde415144fef248f27674f03c7",
+    "url": "https://investor.szse.cn/marketServices/deal/payFees/index.html",
+    "retrieved_at": "2026-10-18T03:10:49.004790+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/first_registered_mainboard_20230410_16f953ac2bd11a0b.html",
+    "bytes": 16457,
+    "sha256": "16f953ac2bd11a0bf72bb81ba20d10aaaa0a0b6d2456018c337340c91524c243",
+    "url": "https://www.szse.cn/aboutus/trends/news/t20230410_599854.html",
+    "retrieved_at": "2026-10-18T03:12:00.080143+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-01_2e16a2ab7334c44f.html",
+    "bytes": 20107,
+    "sha256": "2e16a2ab7334c44f25f506d70de66b357379889b86581c5e662705ae6a445874",
+    "url": "https://www.szse.cn/market/periodical/month/t20230202_598541.html",
+    "retrieved_at": "2026-10-18T03:12:14.106697+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-02_20ae618d82c2f980.html",
+    "bytes": 21427,
+    "sha256": "20ae618d82c2f980d56a5d0d5970a37f4139f8dbeb2909c8096609f3f40405d5",
+    "url": "https://www.szse.cn/market/periodical/month/t20230313_599196.html",
+    "retrieved_at": "2026-10-18T03:12:14.102177+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-03_e61399bf708320f5.html",
+    "bytes": 20991,
+    "sha256": "e61399bf708320f52087eaa78c990dbeca0de4857bed812f4a51fcf8af299af0",
+    "url": "https://www.szse.cn/market/periodical/month/t20230411_599864.html",
+    "retrieved_at": "2026-10-18T03:12:14.095352+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-04_3b7e143a62edff52.html",
+    "bytes": 24316,
+    "sha256": "3b7e143a62edff52380ae0e661a01b5cf5525ed5d76d851bb487ea7410f2a14b",
+    "url": "https://www.szse.cn/market/periodical/month/t20230509_600312.html",
+    "retrieved_at": "2026-10-18T03:12:13.243473+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-05_e1b300f581c6d61f.html",
+    "bytes": 20107,
+    "sha256": "e1b300f581c6d61f9fb55a1ac1146b80627a9dfc9170c76a0ca469651e52a679",
+    "url": "https://www.szse.cn/market/periodical/month/t20230607_601029.html",
+    "retrieved_at": "2026-10-18T03:12:13.237392+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-06_1d48d96359704102.html",
+    "bytes": 20932,
+    "sha256": "1d48d963597041021b07b5bcd6df2acdb4c3a8555fefe6d7058040138188f79e",
+    "url": "https://www.szse.cn/market/periodical/month/t20230710_601663.html",
+    "retrieved_at": "2026-10-18T03:12:13.232804+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-07_03e5882cd42cd5ec.html",
+    "bytes": 20654,
+    "sha256": "03e5882cd42cd5ec7359ea4800236cff5afaf70120805eed90b2b17b00630184",
+    "url": "https://www.szse.cn/market/periodical/month/t20230808_602544.html",
+    "retrieved_at": "2026-10-18T03:12:12.352717+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-08_d625e1064b990f4c.html",
+    "bytes": 21453,
+    "sha256": "d625e1064b990f4c31c41e54da5ca530a82798084e3b6d4ee81bc89e820ee677",
+    "url": "https://www.szse.cn/market/periodical/month/t20230912_603474.html",
+    "retrieved_at": "2026-10-18T03:12:12.334902+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-09_87cc54eb7f6d80d9.html",
+    "bytes": 20107,
+    "sha256": "87cc54eb7f6d80d9c21ae68efc0e674d2a4879cb016982b6e53d5b0f603351c2",
+    "url": "https://www.szse.cn/market/periodical/month/t20231010_603950.html",
+    "retrieved_at": "2026-10-18T03:12:12.306499+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-10_fc2b179e6297ea9b.html",
+    "bytes": 20272,
+    "sha256": "fc2b179e6297ea9b766243da7e4cd7d6b2a4d283b9047f8d09827bcfd48461b6",
+    "url": "https://www.szse.cn/market/periodical/month/t20231109_604553.html",
+    "retrieved_at": "2026-10-18T03:12:11.493675+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-11_c0180f575e57f000.html",
+    "bytes": 20603,
+    "sha256": "c0180f575e57f0000759df33f3c9093078c4f87c5674812b9b90a3d47e17bf57",
+    "url": "https://www.szse.cn/market/periodical/month/t20231207_604888.html",
+    "retrieved_at": "2026-10-18T03:12:11.450483+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2023-12_3b5f642c3545622f.html",
+    "bytes": 20272,
+    "sha256": "3b5f642c3545622f95a1fa374d7f639be1bd7e2866ef1c250b2ed6430b7e0eec",
+    "url": "https://www.szse.cn/market/periodical/month/t20240115_605628.html",
+    "retrieved_at": "2026-10-18T03:12:11.444822+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-01_09f13232653d8899.html",
+    "bytes": 20107,
+    "sha256": "09f13232653d889979714ebf4d53f37560a6d68ab482a33d40946003b0ca752c",
+    "url": "https://www.szse.cn/market/periodical/month/t20240207_606015.html",
+    "retrieved_at": "2026-10-18T03:12:10.610379+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-02_2a6c8aa7e3d4824d.html",
+    "bytes": 20437,
+    "sha256": "2a6c8aa7e3d4824daee3171b7e928dff805c5fdf02272360cbe085d387d48a7c",
+    "url": "https://www.szse.cn/market/periodical/month/t20240312_606257.html",
+    "retrieved_at": "2026-10-18T03:12:10.595264+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-03_567d82dbde2461d1.html",
+    "bytes": 20272,
+    "sha256": "567d82dbde2461d1b9a0a6b66132a439724d90c61c8705ad60825598df305a4b",
+    "url": "https://www.szse.cn/market/periodical/month/t20240411_606807.html",
+    "retrieved_at": "2026-10-18T03:12:10.590405+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-04_d490f27218c25e49.html",
+    "bytes": 20932,
+    "sha256": "d490f27218c25e49ee5cb27457b2896e2d0eef4f5ca2be501b5d436372a73d88",
+    "url": "https://www.szse.cn/market/periodical/month/t20240513_607186.html",
+    "retrieved_at": "2026-10-18T03:12:09.759722+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-05_4b7d2892400e8ef3.html",
+    "bytes": 20107,
+    "sha256": "4b7d2892400e8ef3e5f3f4915806546cb4abbe1959f66dfc27998bb6818debd7",
+    "url": "https://www.szse.cn/market/periodical/month/t20240607_607623.html",
+    "retrieved_at": "2026-10-18T03:12:09.735649+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-06_9a81f4b242672e56.html",
+    "bytes": 20107,
+    "sha256": "9a81f4b242672e567509cecf35448b076ca4f25e07ba5f3e8da4ce27a22a3eb3",
+    "url": "https://www.szse.cn/market/periodical/month/t20240705_608038.html",
+    "retrieved_at": "2026-10-18T03:12:09.725278+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-07_f040a175044d0e77.html",
+    "bytes": 20107,
+    "sha256": "f040a175044d0e77cd2d8846e8d225214c6382fb328e4a3aebc6695bc538f813",
+    "url": "https://www.szse.cn/market/periodical/month/t20240807_608544.html",
+    "retrieved_at": "2026-10-18T03:12:08.895482+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-08_23a82d00f4001cea.html",
+    "bytes": 22252,
+    "sha256": "23a82d00f4001cead780957b5045ef00784dba020f89060c6f3834114d4d73ee",
+    "url": "https://www.szse.cn/market/periodical/month/t20240909_609280.html",
+    "retrieved_at": "2026-10-18T03:12:08.890430+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-09_3bee4aa86db6476b.html",
+    "bytes": 20767,
+    "sha256": "3bee4aa86db6476bba24d7be03bf558861570b5fa31d19a7d2d7874a2ecdd373",
+    "url": "https://www.szse.cn/market/periodical/month/t20241014_609963.html",
+    "retrieved_at": "2026-10-18T03:12:08.856347+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-10_54a9a32232d47a40.html",
+    "bytes": 20602,
+    "sha256": "54a9a32232d47a405b953a72cb552cdfdba2cfa79240fedf94da97dbcf94267d",
+    "url": "https://www.szse.cn/market/periodical/month/t20241105_610380.html",
+    "retrieved_at": "2026-10-18T03:12:08.039790+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-11_a20e8ac818b52da2.html",
+    "bytes": 20767,
+    "sha256": "a20e8ac818b52da2f0ae7b33495650ea2984f58eb2f54b42537e7d59557cfb1c",
+    "url": "https://www.szse.cn/market/periodical/month/t20241204_610800.html",
+    "retrieved_at": "2026-10-18T03:12:08.035091+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2024-12_5660f0a43ce375ee.html",
+    "bytes": 20107,
+    "sha256": "5660f0a43ce375eee9e68840703a2948fc1bc261024ce66e1154383b067fe3e7",
+    "url": "https://www.szse.cn/market/periodical/month/t20250106_611421.html",
+    "retrieved_at": "2026-10-18T03:12:08.002056+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-01_03a1ea047573b039.html",
+    "bytes": 20434,
+    "sha256": "03a1ea047573b039cc0ef349107b8bebd4c642b6bcadca1c08dbd7e90bc0fc13",
+    "url": "https://www.szse.cn/market/periodical/month/t20250205_611796.html",
+    "retrieved_at": "2026-10-18T03:12:07.185418+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-02_87d45185f7c10887.html",
+    "bytes": 21717,
+    "sha256": "87d45185f7c10887a15e175cf5d62888daf906cf973747e7afeca8b4689988cc",
+    "url": "https://www.szse.cn/market/periodical/month/t20250306_612208.html",
+    "retrieved_at": "2026-10-18T03:12:07.167817+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-03_b3c104517da09d2e.html",
+    "bytes": 20104,
+    "sha256": "b3c104517da09d2e6d7e23146c025e0d57668b38027490830b7a2ffb5d970096",
+    "url": "https://www.szse.cn/market/periodical/month/t20250402_612753.html",
+    "retrieved_at": "2026-10-18T03:12:07.154171+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-04_5331c8e5594b5bc7.html",
+    "bytes": 20104,
+    "sha256": "5331c8e5594b5bc7b6f90a863f4646a89f2602700d5822023db0ddff78f1164b",
+    "url": "https://www.szse.cn/market/periodical/month/t20250513_613468.html",
+    "retrieved_at": "2026-10-18T03:12:06.320883+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-05_66a3de9d44ff3460.html",
+    "bytes": 20599,
+    "sha256": "66a3de9d44ff34603ab9902415c575ced90804418d2bf71c7007e2331c0f22ba",
+    "url": "https://www.szse.cn/market/periodical/month/t20250609_613960.html",
+    "retrieved_at": "2026-10-18T03:12:06.305324+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-06_e9a8f7d32d3306fd.html",
+    "bytes": 21424,
+    "sha256": "e9a8f7d32d3306fdbfac04ed5640c45998e2c18819d3774cabd8c93cb22d5d12",
+    "url": "https://www.szse.cn/market/periodical/month/t20250704_614727.html",
+    "retrieved_at": "2026-10-18T03:12:06.293998+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-07_14327872550bab75.html",
+    "bytes": 22137,
+    "sha256": "14327872550bab75dbb71461c49e13088a7a136512da38fc86e7dfccd69fccb3",
+    "url": "https://www.szse.cn/market/periodical/month/t20250805_615341.html",
+    "retrieved_at": "2026-10-18T03:12:05.460296+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-08_fe16ff3473398ddb.html",
+    "bytes": 20599,
+    "sha256": "fe16ff3473398ddbfa5716fa9180fdadf73c09855400720dd4b4fbeecb998ed7",
+    "url": "https://www.szse.cn/market/periodical/month/t20250905_615827.html",
+    "retrieved_at": "2026-10-18T03:12:05.453623+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-09_6b4a0a99c8389d6b.html",
+    "bytes": 21919,
+    "sha256": "6b4a0a99c8389d6b22df6d1e3f4b4cb1ae5688278b344707a0326ec1504d75f2",
+    "url": "https://www.szse.cn/market/periodical/month/t20251013_616459.html",
+    "retrieved_at": "2026-10-18T03:12:05.430881+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-10_1a576045f2567971.html",
+    "bytes": 20767,
+    "sha256": "1a576045f2567971a3dd40655f214b9014220fc6ec5e1fad27aef1a3bb819dc2",
+    "url": "https://www.szse.cn/market/periodical/month/t20251106_617088.html",
+    "retrieved_at": "2026-10-18T03:12:04.612822+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-11_4c3267ef13d496e4.html",
+    "bytes": 22693,
+    "sha256": "4c3267ef13d496e4f4489cf2ac427835d609a983dd7967f9e47ab2afc6c84e41",
+    "url": "https://www.szse.cn/market/periodical/month/t20251203_617676.html",
+    "retrieved_at": "2026-10-18T03:12:04.602874+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2025-12_202304c774008d6d.html",
+    "bytes": 20272,
+    "sha256": "202304c774008d6d9a46c5413a596ae96a2926e225019debee9363b711bfd259",
+    "url": "https://www.szse.cn/market/periodical/month/t20260107_618297.html",
+    "retrieved_at": "2026-10-18T03:12:04.574570+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-01_055cf4954737cacf.html",
+    "bytes": 20463,
+    "sha256": "055cf4954737cacf8fc8746b23e8961931145247d17d1ad114627f626c856154",
+    "url": "https://www.szse.cn/market/periodical/month/t20260204_618927.html",
+    "retrieved_at": "2026-10-18T03:12:03.761529+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-02_85932e9e4985908d.html",
+    "bytes": 20602,
+    "sha256": "85932e9e4985908ddae137fea973ab45dafe14047ec48db83bdde47facf6de1c",
+    "url": "https://www.szse.cn/market/periodical/month/t20260304_619294.html",
+    "retrieved_at": "2026-10-18T03:12:03.748292+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-03_efe639693609fc1f.html",
+    "bytes": 20272,
+    "sha256": "efe639693609fc1ff733391dca977288aa63b044e73f916f7105e3d9c69e6439",
+    "url": "https://www.szse.cn/market/periodical/month/t20260403_619833.html",
+    "retrieved_at": "2026-10-18T03:12:03.718408+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-04_2478bffbab06a0e2.html",
+    "bytes": 20107,
+    "sha256": "2478bffbab06a0e23943d42621df34bbfd986b92777b8a3d85375a84dfdb215d",
+    "url": "https://www.szse.cn/market/periodical/month/t20260511_620438.html",
+    "retrieved_at": "2026-10-18T03:12:02.897699+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-05_fbacf9d40f7584f0.html",
+    "bytes": 20932,
+    "sha256": "fbacf9d40f7584f0937631cb9275cf9bc6af6ff5c8525ecab02c08ad0503b7c5",
+    "url": "https://www.szse.cn/market/periodical/month/t20260605_620906.html",
+    "retrieved_at": "2026-10-18T03:12:02.881556+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-06_ba9f8ef6c43969ad.html",
+    "bytes": 20107,
+    "sha256": "ba9f8ef6c43969adea7102af610500a41c177513f485c39902f791d1601996c3",
+    "url": "https://www.szse.cn/market/periodical/month/t20260706_621517.html",
+    "retrieved_at": "2026-10-18T03:12:02.874447+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-07_8b7dcc3b00597abc.html",
+    "bytes": 20107,
+    "sha256": "8b7dcc3b00597abce973fd8c82e561ffa58b217a82a433aa6d9ccca2c1583418",
+    "url": "https://www.szse.cn/market/periodical/month/t20260806_622028.html",
+    "retrieved_at": "2026-10-18T03:12:02.017138+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-08_dc81a5095bf98fa6.html",
+    "bytes": 20272,
+    "sha256": "dc81a5095bf98fa696a183450ebc8e9f721e29b49f6868a1078992e968a8620c",
+    "url": "https://www.szse.cn/market/periodical/month/t20260903_622679.html",
+    "retrieved_at": "2026-10-18T03:12:02.012618+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/month_catalog_2026-09_be1e3679fb3cbca4.html",
+    "bytes": 23078,
+    "sha256": "be1e3679fb3cbca452f4c125eac2c62a501e7ec84453527b7d3a709e875e3931",
+    "url": "https://www.szse.cn/market/periodical/month/t20261013_623294.html",
+    "retrieved_at": "2026-10-18T03:12:02.012346+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2021_pdf_2540ea6c44b6c624.pdf",
+    "bytes": 540362,
+    "sha256": "2540ea6c44b6c624089bbac4ea08d161e88dde929858db68caf7282733521632",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020210331716400647184.pdf",
+    "retrieved_at": "2026-10-18T03:10:48.262541+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2023_pdf_repeal_3a7e3e378b169248.pdf",
+    "bytes": 287964,
+    "sha256": "3a7e3e378b169248bb9314accd749586a10af24028909e66ae0f1759d5151c3d",
+    "url": "https://www.szse.cn/lawrules/rule/repeal/rules/P020231230545143336292.pdf",
+    "retrieved_at": "2026-10-18T03:13:25.541430+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2026_notice_retry_0dcb0971ac96123f.html",
+    "bytes": 19302,
+    "sha256": "0dcb0971ac96123f369178ce8f5397d948190d41281175694664de1d1dd4dce5",
+    "url": "https://www.szse.cn/lawrules/rule/trade/t20260424_620190.html",
+    "retrieved_at": "2026-10-18T03:11:59.216743+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/rules_2026_pdf_9b66f8b0db70f84a.pdf",
+    "bytes": 282084,
+    "sha256": "9b66f8b0db70f84a25ef1ccb4ee2351001724e408117552d75f6d8993483c586",
+    "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+    "retrieved_at": "2026-10-18T03:10:48.263155+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-01_b02ce44134e78408.html",
+    "bytes": 1559210,
+    "sha256": "b02ce44134e784089c5e56d1635f78e7d71e785710961de829e09c50e3396847",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230202548760230493.html",
+    "retrieved_at": "2026-10-18T03:14:38.615287+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-02_3fbd20425da74fc3.html",
+    "bytes": 1570305,
+    "sha256": "3fbd20425da74fc3a32a85348d44833d910be298395bdc171b21512412758431",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230313549109981872.html",
+    "retrieved_at": "2026-10-18T03:14:37.522698+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-03_307d1f0c5e12d72c.html",
+    "bytes": 1583521,
+    "sha256": "307d1f0c5e12d72c74a3fc20149fe43f955b06ce0f69054086d19acca9ff7347",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230411506512787613.html",
+    "retrieved_at": "2026-10-18T03:14:35.794441+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-04_a9b1b9987bbda55f.html",
+    "bytes": 1595684,
+    "sha256": "a9b1b9987bbda55f214aaf8e94935aa6ab381a271a3e01985ab1df0f1b2e05c4",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230509551829409620.html",
+    "retrieved_at": "2026-10-18T03:14:32.646362+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-05_a220b3d84f4a84a5.html",
+    "bytes": 1603284,
+    "sha256": "a220b3d84f4a84a5e68722429b9bb4f2d0ae6dc1f7fd09868c93276e1cd73ee7",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230607362728407872.html",
+    "retrieved_at": "2026-10-18T03:14:24.994375+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-06_0cf028129e0964c9.html",
+    "bytes": 1610761,
+    "sha256": "0cf028129e0964c9aeefae879544d39dad88d96028c5d15f44321c3be4e1d9bf",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230710387877155204.html",
+    "retrieved_at": "2026-10-18T03:14:19.245938+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-07_9545492509db938c.html",
+    "bytes": 1626353,
+    "sha256": "9545492509db938c74ebbae190063ac2d7661a7350693e5570b84d5a9bc53250",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230808525915412622.html",
+    "retrieved_at": "2026-10-18T03:14:14.919394+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-08_a72af1cf55cb0c56.html",
+    "bytes": 1637662,
+    "sha256": "a72af1cf55cb0c56d126a006220c1c5bc0f08e987efccab1952aebdfb8141774",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230912344258785195.html",
+    "retrieved_at": "2026-10-18T03:14:14.302979+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-09_385b17fc32771fd9.html",
+    "bytes": 1639911,
+    "sha256": "385b17fc32771fd990b07a7415a847cea730ac14d45be82942c698ed7ef3fafa",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020231010359634667134.html",
+    "retrieved_at": "2026-10-18T03:14:11.875308+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-10_658988504c3fece5.html",
+    "bytes": 1646083,
+    "sha256": "658988504c3fece572c292e4e1aec28027ac45d1aedc6f30edbe75787bb7dcad",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020231109584427926277.html",
+    "retrieved_at": "2026-10-18T03:14:10.131163+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-11_d20493ed600ad0b3.html",
+    "bytes": 1659065,
+    "sha256": "d20493ed600ad0b32045905fa3fdeca2433392d5d98af133357a7b2086e3ea95",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020231207599964408051.html",
+    "retrieved_at": "2026-10-18T03:14:09.216055+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2023-12_ea2962c40ad05d0b.html",
+    "bytes": 1666820,
+    "sha256": "ea2962c40ad05d0b1c25d36d8737410b01631c25fbe7bc22bcd99eb79c16b3ac",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240115343587309162.html",
+    "retrieved_at": "2026-10-18T03:14:05.850176+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-01_6d3e79cd6ece52aa.html",
+    "bytes": 1663222,
+    "sha256": "6d3e79cd6ece52aac0db82331d5e2daab8536179584f6fced3b28524cab3745c",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240207349092620268.html",
+    "retrieved_at": "2026-10-18T03:14:01.281384+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-02_9c5552defb07e836.html",
+    "bytes": 1664946,
+    "sha256": "9c5552defb07e836e1d31fb91d374d04a7ee94914f6856ede2296229eeb45eb9",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240312338262851750.html",
+    "retrieved_at": "2026-10-18T03:13:57.406356+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-03_243cba7b7e46ecb2.html",
+    "bytes": 1674428,
+    "sha256": "243cba7b7e46ecb296ca02fa920a019f4d0a5a83cc31a64c26fd400dc37a42fc",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240411655272951279.html",
+    "retrieved_at": "2026-10-18T03:13:52.488835+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-04_abb74220e95eda15.html",
+    "bytes": 1677785,
+    "sha256": "abb74220e95eda15f0b414eb32e80a78ca0f9f144049a59f191d9c9609c238ac",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240513367375224505.html",
+    "retrieved_at": "2026-10-18T03:13:50.782588+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-05_72417564edb66863.html",
+    "bytes": 1680367,
+    "sha256": "72417564edb66863504dbefa40645c7960d1aa29cb5ca32040f2e9970c67dcca",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240607344713637471.html",
+    "retrieved_at": "2026-10-18T03:13:47.964707+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-06_9d407d54b3f8761f.html",
+    "bytes": 1686997,
+    "sha256": "9d407d54b3f8761feabdcd56e494916a6ee775949a65575fc8e17cd3b038f141",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240705335395373654.html",
+    "retrieved_at": "2026-10-18T03:13:47.464895+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-07_b6a5c8807c5d8519.html",
+    "bytes": 1686585,
+    "sha256": "b6a5c8807c5d8519022176531faa2bd87cdf71959740132b1cd6d7b3cf26dad1",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240807524546403377.html",
+    "retrieved_at": "2026-10-18T03:13:40.745829+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-08_0844bf40a84a0ac7.html",
+    "bytes": 1685490,
+    "sha256": "0844bf40a84a0ac7b6add4725d23facc36ca0c13bad08489f277bbdcd2e9c391",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240909360101124659.html",
+    "retrieved_at": "2026-10-18T03:13:38.542181+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-09_a7a2f640b08e8ed7.html",
+    "bytes": 1687096,
+    "sha256": "a7a2f640b08e8ed742ad5c99d998b4d85b7e3d05aff6dfc0b6a46aa7a8cf7477",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020241014330936001088.html",
+    "retrieved_at": "2026-10-18T03:13:37.849895+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-10_386245a1d97c0d5f.html",
+    "bytes": 1695053,
+    "sha256": "386245a1d97c0d5fe6f819a0e453cd841fe249dee443df8218b105c3875924b2",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020241105394799447943.html",
+    "retrieved_at": "2026-10-18T03:13:31.412197+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-11_256a8c5b85f9e9cf.html",
+    "bytes": 1701119,
+    "sha256": "256a8c5b85f9e9cfe77f2123f0316636f9259d56836a5c7efc18542a5d8cc71e",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020241204353991896313.html",
+    "retrieved_at": "2026-10-18T03:13:30.285255+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2024-12_abb22e2d4656353c.html",
+    "bytes": 1706810,
+    "sha256": "abb22e2d4656353c7bf6dce6b4cf61eab37a1b174ccb25cdcaf46f5a61a202e2",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250106355093684651.html",
+    "retrieved_at": "2026-10-18T03:13:27.220537+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-01_3d9700ef2fc70127.html",
+    "bytes": 1691332,
+    "sha256": "3d9700ef2fc7012781cdb84fbaf2a89a48ee7d2d4843babb9245b58c59a3722f",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250205525147660072.html",
+    "retrieved_at": "2026-10-18T03:13:22.216642+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-02_dd560f93c57ce703.html",
+    "bytes": 1697312,
+    "sha256": "dd560f93c57ce703b31f03ed1d187fefaf707bc89a2c5063251f202f9d653592",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250306525471902645.html",
+    "retrieved_at": "2026-10-18T03:13:18.154381+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-03_0f4668355e72ffa0.html",
+    "bytes": 1707226,
+    "sha256": "0f4668355e72ffa062ba2b6c212350ae9249a29204935897556ee1eb36bcbf61",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250402560972591550.html",
+    "retrieved_at": "2026-10-18T03:13:16.644139+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-04_1d3966c18eb8e5d2.html",
+    "bytes": 1717379,
+    "sha256": "1d3966c18eb8e5d22d06502edab8c26f447eb971de0d3f3fc930f1a0bcd96510",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250513504906367587.html",
+    "retrieved_at": "2026-10-18T03:13:12.922476+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-05_5ee68cafb06d8b1a.html",
+    "bytes": 1717792,
+    "sha256": "5ee68cafb06d8b1ac59283ad8ca6774b72664b45532e8db8f41db2a76a17a668",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250609367176549311.html",
+    "retrieved_at": "2026-10-18T03:13:11.318436+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-06_24d38f8509b223ac.html",
+    "bytes": 1723194,
+    "sha256": "24d38f8509b223acb8fceaf5648e89a35259c163cc123db13d2948e8847dd7dd",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250704340863903333.html",
+    "retrieved_at": "2026-10-18T03:13:02.856797+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-07_fb55047d248fc7fe.html",
+    "bytes": 1737630,
+    "sha256": "fb55047d248fc7fe99506caac75cb0d375639d45cd0bea719f08295de13272c7",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250805527892907072.html",
+    "retrieved_at": "2026-10-18T03:12:59.734729+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-08_72f842633dc83633.html",
+    "bytes": 1742567,
+    "sha256": "72f842633dc8363343f776bf5bbed3836b19a7ba7fbb019e3b4641601db4cab8",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250905347572098528.html",
+    "retrieved_at": "2026-10-18T03:12:58.651877+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-09_9b17b309596399f8.html",
+    "bytes": 1751130,
+    "sha256": "9b17b309596399f87b8e780e670d527ebf5768930e8c11babc88e154ff0bed1e",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020251013318287637290.html",
+    "retrieved_at": "2026-10-18T03:12:55.309126+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-10_a4c0192c48ff3133.html",
+    "bytes": 1745105,
+    "sha256": "a4c0192c48ff3133ef8af7627b67c8018dbfa91b4007e14dbafcec4ad59e24ca",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020251106333385206070.html",
+    "retrieved_at": "2026-10-18T03:12:50.954546+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-11_a93b3ac2217a154d.html",
+    "bytes": 1749564,
+    "sha256": "a93b3ac2217a154d92c62ab40ee6bf340c38baa756447a933e588df0a9a33f5e",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020251203531511344795.html",
+    "retrieved_at": "2026-10-18T03:12:45.087644+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2025-12_643681cf9939ae77.html",
+    "bytes": 1754243,
+    "sha256": "643681cf9939ae7787dc37fcffd72ceb29e15f4b1fb61d605dbce705deaded7e",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260107516673721048.html",
+    "retrieved_at": "2026-10-18T03:12:43.325509+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-01_b541751cff0af002.html",
+    "bytes": 1746600,
+    "sha256": "b541751cff0af002de19ac15f4786cdf1ad3746aa1621a49330d0d9ee0fb4b1e",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260204330568625238.html",
+    "retrieved_at": "2026-10-18T03:12:40.512057+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-02_97f946d41a51d3ca.html",
+    "bytes": 1749046,
+    "sha256": "97f946d41a51d3ca20c416c85d573ce49795076d7d3b8d92c49deaf39cd80e00",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260304555325395161.html",
+    "retrieved_at": "2026-10-18T03:12:37.233993+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-03_6f0849b4a26909b4.html",
+    "bytes": 1763202,
+    "sha256": "6f0849b4a26909b41c57a712205639ef96e381bd348b21fe693a22e35a21d3aa",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260403534498852413.html",
+    "retrieved_at": "2026-10-18T03:12:27.579713+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-04_62d5131b36758bca.html",
+    "bytes": 1770480,
+    "sha256": "62d5131b36758bca3b7a18f874d54709401d6980f07f8b9c205e76d19cc412d6",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260511542158758559.html",
+    "retrieved_at": "2026-10-18T03:12:24.627799+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-05_e122b755ef75abb7.html",
+    "bytes": 1778210,
+    "sha256": "e122b755ef75abb7461e006c2a56b4acf09df3b50dd26ffc4b5eb3e59f3e8752",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260605534754276075.html",
+    "retrieved_at": "2026-10-18T03:12:20.348588+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-06_ae9d263e8b1931e0.html",
+    "bytes": 1790729,
+    "sha256": "ae9d263e8b1931e0c05146f59dfe93010fff06531eb4314bf275ea02c9f716ed",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260706503109228652.html",
+    "retrieved_at": "2026-10-18T03:12:19.019941+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-07_c70ea7ceb4fedcf8.html",
+    "bytes": 1794868,
+    "sha256": "c70ea7ceb4fedcf8e06593bef14d15998c8c80c0b7bf952d9449bd19a37bf6dc",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260806351615299787.html",
+    "retrieved_at": "2026-10-18T03:12:17.778024+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-08_e510a9c79be549e6.html",
+    "bytes": 1801950,
+    "sha256": "e510a9c79be549e6cf5e96bcfae2bb17225f588b11ad4c38164cbb4fe31a1711",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260903544742092263.html",
+    "retrieved_at": "2026-10-18T03:12:16.091891+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/security_stats_2026-09_4b683740f0dac99c.html",
+    "bytes": 1815847,
+    "sha256": "4b683740f0dac99c9688f0ce38fc4ee78e47e7e1482c950c348e14dbdb12a3f5",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020261013601723655345.html",
+    "retrieved_at": "2026-10-18T03:12:14.987753+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/stamp_law_2021_767e184c21428868.html",
+    "bytes": 64308,
+    "sha256": "767e184c214288684f7678b7c5eaea9a9d71946047cda0de4e711f857153f7b3",
+    "url": "https://www.hengqin.gov.cn/lab/flfg/fl/content/post_3517835.html",
+    "retrieved_at": "2026-10-18T03:12:00.088389+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/stamp_reduction_2023_bacf8e1dc1ee1ac1.html",
+    "bytes": 27794,
+    "sha256": "bacf8e1dc1ee1ac11ca8df7d60ec2db6edb581c40aa7f08735e1ea6657c38323",
+    "url": "https://shanxi.chinatax.gov.cn/web/detail/sx-11400-545-1780448",
+    "retrieved_at": "2026-10-18T03:10:50.043953+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-01_c90dc57432c96e5e.html",
+    "bytes": 5921,
+    "sha256": "c90dc57432c96e5efcc6794e58200d6b1f51aa36aeb6d6f06248575c20c7a4f3",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230202548759938270.html",
+    "retrieved_at": "2026-10-18T03:14:37.801097+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-02_62ae9375ccbc26bc.html",
+    "bytes": 4447,
+    "sha256": "62ae9375ccbc26bc14c551d212715955bdfc38935553dde07bd8394d04b49b1f",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230313549109714209.html",
+    "retrieved_at": "2026-10-18T03:14:36.789280+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-03_e82216442b63dc0a.html",
+    "bytes": 3775,
+    "sha256": "e82216442b63dc0aef06e2e966800f54d58fa9449388fa219e12f8b9c06ea931",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230411506512635358.html",
+    "retrieved_at": "2026-10-18T03:14:33.989597+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-04_3727d8200d769a2c.html",
+    "bytes": 18777,
+    "sha256": "3727d8200d769a2c22282d076f3688e4559f1e293493c4c48eb1e576fb60b825",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230509551829252290.html",
+    "retrieved_at": "2026-10-18T03:14:25.851611+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-05_acaffcf20f996ad3.html",
+    "bytes": 22532,
+    "sha256": "acaffcf20f996ad35cfc1022dccc63bb5924ff57e84b7b5ac300b017cd24c2ad",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230607362728234975.html",
+    "retrieved_at": "2026-10-18T03:14:22.049322+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-06_01186fc7b1b70a18.html",
+    "bytes": 8506,
+    "sha256": "01186fc7b1b70a18f04dcd5586cf8d627a29b8e215d14f473329ea51d4aff8b9",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230710387876992911.html",
+    "retrieved_at": "2026-10-18T03:14:17.557319+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-07_dee24e5f4ec5904b.html",
+    "bytes": 3649,
+    "sha256": "dee24e5f4ec5904b2d89bef1dbe0eae76ae5081e36282ab8ad951b6f80d9f280",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230808524522984624.html",
+    "retrieved_at": "2026-10-18T03:14:14.558179+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-08_7388f5b2ea7543a0.html",
+    "bytes": 2976,
+    "sha256": "7388f5b2ea7543a001fbc7f81df24f889fbc03d36ef3936d0040c3c003f9b2d6",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230912344258642105.html",
+    "retrieved_at": "2026-10-18T03:14:12.785517+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-09_8544a23a29a59053.html",
+    "bytes": 3919,
+    "sha256": "8544a23a29a59053304ac710c3cbb9f4ce8abefda09632b1e8ecc2a56d8f87fb",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020231010359634505347.html",
+    "retrieved_at": "2026-10-18T03:14:11.770913+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-10_24f17e9cf0f6da92.html",
+    "bytes": 3734,
+    "sha256": "24f17e9cf0f6da92f69b500b8386d80d5723a5aa8e4ad027b685064e031a4473",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020231109584427762243.html",
+    "retrieved_at": "2026-10-18T03:14:09.650212+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-11_c079c57c9f885334.html",
+    "bytes": 5972,
+    "sha256": "c079c57c9f88533454d75691f223e035ba2d2a3a6eb9f727ca3e76c2cda5e413",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020231207599964240990.html",
+    "retrieved_at": "2026-10-18T03:14:08.117625+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2023-12_2781b16017e7cc88.html",
+    "bytes": 7802,
+    "sha256": "2781b16017e7cc88695bb8274f4c084a884ac184269bf509925874c188ff3cef",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240115343587084719.html",
+    "retrieved_at": "2026-10-18T03:14:04.424290+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-01_e3e1d740224bfde7.html",
+    "bytes": 3593,
+    "sha256": "e3e1d740224bfde76fa43169cf83c08454a3dce84b16df0a039f9ab7622409d3",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240207349092453652.html",
+    "retrieved_at": "2026-10-18T03:13:58.829219+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-02_8532a840de07c44e.html",
+    "bytes": 2685,
+    "sha256": "8532a840de07c44eca27322cdc048a0fd1a7d9b43cea9842203771815f0c34b3",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240312338262679835.html",
+    "retrieved_at": "2026-10-18T03:13:56.985730+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-03_01ba33a53be66825.html",
+    "bytes": 3835,
+    "sha256": "01ba33a53be6682567c2d91f0be264d1d0ebd65a43bde9d33746a483a8b3c10f",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240411655272759866.html",
+    "retrieved_at": "2026-10-18T03:13:51.235472+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-04_6e1fb8083756f714.html",
+    "bytes": 28250,
+    "sha256": "6e1fb8083756f714fa2b9b1120be0c5240d60192c0a28a39e24c46c684b6afc3",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240513367375059769.html",
+    "retrieved_at": "2026-10-18T03:13:49.430915+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-05_0afac87ca0398edb.html",
+    "bytes": 7752,
+    "sha256": "0afac87ca0398edb6ab48c7b44a4f5f7cf849549ac7a1f30cb0492fd92eb97bb",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240607344713407827.html",
+    "retrieved_at": "2026-10-18T03:13:47.784231+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-06_f795e7d552d3dc62.html",
+    "bytes": 6409,
+    "sha256": "f795e7d552d3dc62e22f15d1458a5e0c299b64a1af9ca47533959b43ecc9e174",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240705335395162563.html",
+    "retrieved_at": "2026-10-18T03:13:46.438236+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-07_582fd055800f6b72.html",
+    "bytes": 7526,
+    "sha256": "582fd055800f6b723bcb0b8070873a90594dde70144632779b06a69859c7d1b3",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240807524546197486.html",
+    "retrieved_at": "2026-10-18T03:13:39.122501+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-08_47616a0e96faebdd.html",
+    "bytes": 3717,
+    "sha256": "47616a0e96faebdd64452897f8feccee355a6007ab4a559fb8cb24b8514907cb",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020240909360100851548.html",
+    "retrieved_at": "2026-10-18T03:13:38.117306+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-09_1e12216725e2d582.html",
+    "bytes": 4626,
+    "sha256": "1e12216725e2d5821bbcb88c5d69e6a125641432d0caad428880408faa950a38",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020241014330935790784.html",
+    "retrieved_at": "2026-10-18T03:13:37.033482+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-10_0736273d702aa8b5.html",
+    "bytes": 5720,
+    "sha256": "0736273d702aa8b5b41be2861a34dcf17afa589c36e04546f6d15ab756c44487",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020241105386663787584.html",
+    "retrieved_at": "2026-10-18T03:13:30.378352+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-11_7312d8dc86dc84d0.html",
+    "bytes": 5891,
+    "sha256": "7312d8dc86dc84d0233d410c01f9549d6e770646d2b2aec5795d69faa1cd94d6",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020241204353991708193.html",
+    "retrieved_at": "2026-10-18T03:13:30.015206+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2024-12_faffcc7d9567654d.html",
+    "bytes": 8587,
+    "sha256": "faffcc7d9567654d08f189a1cd5513f106b909de1101d1f7c091e18092514121",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250106355093494057.html",
+    "retrieved_at": "2026-10-18T03:13:26.133660+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-01_c27006276fe1cf13.html",
+    "bytes": 5983,
+    "sha256": "c27006276fe1cf134367d3a9b383f288a773b0b873659f3c3db12a81dca1c440",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250205525147487197.html",
+    "retrieved_at": "2026-10-18T03:13:21.303963+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-02_65d607d9cb526106.html",
+    "bytes": 3266,
+    "sha256": "65d607d9cb52610694b65720b5535b28dfd0d9c53c4bf5ec81e241e44c8a51a5",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250306525471706945.html",
+    "retrieved_at": "2026-10-18T03:13:17.107896+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-03_918e44ec81018d63.html",
+    "bytes": 11299,
+    "sha256": "918e44ec81018d63f4ee9a0e991e94f8f0d5cf01ca6a04b03da6be0ca116268d",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250402560972420752.html",
+    "retrieved_at": "2026-10-18T03:13:13.950496+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-04_43d58eac821bee70.html",
+    "bytes": 41782,
+    "sha256": "43d58eac821bee704c6ca4bfa819e9df15b647515116a148b51f9fdf508c71d1",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250513504903042042.html",
+    "retrieved_at": "2026-10-18T03:13:11.456306+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-05_ef38c68ce485ec54.html",
+    "bytes": 10789,
+    "sha256": "ef38c68ce485ec548e4c29a8448091438d003dff9b45ce739e43d043b808a40a",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250609367176360547.html",
+    "retrieved_at": "2026-10-18T03:13:06.606925+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-06_335f98b60af074ab.html",
+    "bytes": 10053,
+    "sha256": "335f98b60af074ab4c93b1c6964b282855d7c37d8be33b12db9c28bd365fa14a",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250704340863755711.html",
+    "retrieved_at": "2026-10-18T03:13:00.042638+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-07_0654239de38bb1a1.html",
+    "bytes": 8974,
+    "sha256": "0654239de38bb1a10299abedaf2605e7e6563cabc4536cb46fd5b48a636ca739",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250805527892740980.html",
+    "retrieved_at": "2026-10-18T03:12:59.110164+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-08_1faab30c12a1459d.html",
+    "bytes": 5483,
+    "sha256": "1faab30c12a1459de124510529050382c34dfc8a5f0fbffc98c9e275b69a57c8",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020250905347571947097.html",
+    "retrieved_at": "2026-10-18T03:12:58.090603+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-09_329f0f47691d0006.html",
+    "bytes": 7572,
+    "sha256": "329f0f47691d0006a8a4fa30959178b62acc45564c6224ed23f6807227bd61f2",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020251013318287409109.html",
+    "retrieved_at": "2026-10-18T03:12:52.697391+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-10_7521e8df17baeea6.html",
+    "bytes": 5841,
+    "sha256": "7521e8df17baeea62d91fd2b64b0cb4a11d8946a02cbfd48dfc32c9557f44f51",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020251106333385028085.html",
+    "retrieved_at": "2026-10-18T03:12:47.570612+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-11_39e4ed374e7d516b.html",
+    "bytes": 8288,
+    "sha256": "39e4ed374e7d516b18302c2d421ce5ebb5826c7608338bfab6dc9ed8cc38bbaa",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020251203531511185547.html",
+    "retrieved_at": "2026-10-18T03:12:44.061624+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2025-12_8e013bd400135663.html",
+    "bytes": 14830,
+    "sha256": "8e013bd400135663214b4dfe117c2964c14ca051fed8f327d96f07c2a59aa181",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260107516673514910.html",
+    "retrieved_at": "2026-10-18T03:12:43.053687+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-01_c3f2db9c42282057.html",
+    "bytes": 9975,
+    "sha256": "c3f2db9c42282057c9db0e2f97cd64531eb1b9dede61132a0e4faa0079af4ef9",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260204330568435092.html",
+    "retrieved_at": "2026-10-18T03:12:40.002805+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-02_a31fa41fd3d472c0.html",
+    "bytes": 6205,
+    "sha256": "a31fa41fd3d472c0925cd80468a63d7f98fc1c070c4b8c97f16b1658c0069f9f",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260304555325249520.html",
+    "retrieved_at": "2026-10-18T03:12:35.475790+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-03_06ee458fe7878dbb.html",
+    "bytes": 6491,
+    "sha256": "06ee458fe7878dbb4711b9c227e11079a7942f38ab6b3db1feee386a3c63d197",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260403534498695444.html",
+    "retrieved_at": "2026-10-18T03:12:26.555484+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-04_020a4edf79443991.html",
+    "bytes": 37967,
+    "sha256": "020a4edf794439919ef42ed37cfb3b8e8d7aa7790d69459f8604c4a1f378df1c",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260511542158556516.html",
+    "retrieved_at": "2026-10-18T03:12:22.502146+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-05_72ea7ee8187bc933.html",
+    "bytes": 8017,
+    "sha256": "72ea7ee8187bc933ee49ba628206e0f3b8ffa6c45924e52b6484008e1dcea5ae",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260605534754002075.html",
+    "retrieved_at": "2026-10-18T03:12:19.349477+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-06_06987c345df8af15.html",
+    "bytes": 10770,
+    "sha256": "06987c345df8af15349cbd291d0648f8a1f5cf85a80e37601a875ee4cca559d6",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260706503109040008.html",
+    "retrieved_at": "2026-10-18T03:12:18.974281+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-07_5e1657ecd3c5c67d.html",
+    "bytes": 7493,
+    "sha256": "5e1657ecd3c5c67d62e986b9bb3c8be9bd3a8b347fead27b6fc9c5b877a69275",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260806351615093691.html",
+    "retrieved_at": "2026-10-18T03:12:16.105249+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-08_f82f75a52f61f08c.html",
+    "bytes": 7505,
+    "sha256": "f82f75a52f61f08c2223fd6329fb25d0b04f75fb1857c81959cfb06e64b6ac23",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020260903544741911834.html",
+    "retrieved_at": "2026-10-18T03:12:14.996398+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/suspension_2026-09_05d8c033bda2c595.html",
+    "bytes": 5631,
+    "sha256": "05d8c033bda2c595fe5b50f517b472773888874859ea4adf76409fa2c9f0ef5b",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020261013601723417345.html",
+    "retrieved_at": "2026-10-18T03:12:14.987556+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/szse_month_index_7b362a54f891546b.html",
+    "bytes": 122297,
+    "sha256": "7b362a54f891546b1cec476a5562e425c2f7459c79a37c2d62717b94552600a2",
+    "url": "https://www.szse.cn/market/periodical/month/index.html",
+    "retrieved_at": "2026-10-18T03:10:51.096691+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/historical_trade_conditions_oct17/raw/szse_suspension_202301_c90dc57432c96e5e.html",
+    "bytes": 5921,
+    "sha256": "c90dc57432c96e5efcc6794e58200d6b1f51aa36aeb6d6f06248575c20c7a4f3",
+    "url": "https://docs.static.szse.cn/www/market/periodical/month/W020230202548759938270.html",
+    "retrieved_at": "2026-10-18T03:10:50.044603+00:00",
+    "original_preserved": true,
+    "classification_override": null
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/高德红外_2023起.sqlite",
+    "bytes": 34697216,
+    "sha256": "c7329e3bcb67901bb5a310ef0df6aca2777fc9535013727f42935e4b20543749",
+    "classification": "database_readonly_input"
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/outputs/高德红外数据库/历史筹码采集_20261017/每日筹码摘要_915日.csv",
+    "bytes": 149336,
+    "sha256": "2d3bc56d4a32060a01235c8eca976fff708a2c814f4b90c0e89da27727fbbab5",
+    "classification": "input"
+  },
+  {
+    "path": "/Users/puchun/Documents/Codex/2026-10-07/ni/work/conditions_finish_oct22/web_official_rule_search.json",
+    "bytes": 30272,
+    "sha256": "2a30946e99d298c8878be10087559b7e9c4fa031eac571e12144a31977d4f9a6",
+    "classification": "input"
+  }
+]

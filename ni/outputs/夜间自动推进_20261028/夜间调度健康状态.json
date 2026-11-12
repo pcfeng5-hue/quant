@@ -1,0 +1,24 @@
+{
+  "automation_id": "a",
+  "checked_at_local": "2026-11-04T00:57:47.082797-05:00",
+  "recorded_out_of_window_dates": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+  ],
+  "recorded_out_of_window_events": 6,
+  "completed_nightly_batches_in_latest_pointer": 1,
+  "last_verified_research_state": "outputs/下一阶段路线决策_20261104/本轮状态与续作断点.json",
+  "observed_issue": "A verified nightly route-review batch has now completed; earlier outside-window skips remain historical records.",
+  "cause": "Earlier scheduling/timing causes remain undiagnosed",
+  "research_started_this_turn": true,
+  "research_pointer_unchanged": false,
+  "three_date_no_completed_batch_warning_recorded": true,
+  "notification_decision_for_this_turn": "NOTIFY_route_review_completed",
+  "authorized_window_unchanged": true,
+  "last_verified_full_archive": "/Users/puchun/Documents/Codex/项目归档/ni/20261031_市场环境候选验证完整保存/A股概率研究项目_市场环境候选验证全部本地资料_20261031.zip",
+  "last_verified_full_archive_sha256": "7a01b22bde7e05caf8c752502e9eda1a7a876de2a150a0b89849ed1d0d11b137",
+  "latest_trigger_processed_outside_window": true,
+  "last_completed_batch_id": "a_20261104_route_decision_v1"
+}

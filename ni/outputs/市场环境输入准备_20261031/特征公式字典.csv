@@ -1,0 +1,17 @@
+﻿feature_id,role,subject_symbol,formula,value_unit,preparation_only,model_input_approved,runtime_usable
+000001.SH:past_return_1,candidate_context_feature,000001.SH,C[t]/C[t-1]-1; exact dependency closes t and t-1,fraction,1,0,0
+000001.SH:past_return_5,candidate_context_feature,000001.SH,C[t]/C[t-5]-1; exact dependency closes t and t-5,fraction,1,0,0
+000001.SH:past_return_20,candidate_context_feature,000001.SH,C[t]/C[t-20]-1; exact dependency closes t and t-20,fraction,1,0,0
+000001.SH:close_over_ma20_minus_one,candidate_context_feature,000001.SH,C[t]/mean(C[t-19:t] inclusive)-1; 20 exact dependency closes including current,fraction,1,0,0
+399001.SZ:past_return_1,candidate_context_feature,399001.SZ,C[t]/C[t-1]-1; exact dependency closes t and t-1,fraction,1,0,0
+399001.SZ:past_return_5,candidate_context_feature,399001.SZ,C[t]/C[t-5]-1; exact dependency closes t and t-5,fraction,1,0,0
+399001.SZ:past_return_20,candidate_context_feature,399001.SZ,C[t]/C[t-20]-1; exact dependency closes t and t-20,fraction,1,0,0
+399001.SZ:close_over_ma20_minus_one,candidate_context_feature,399001.SZ,C[t]/mean(C[t-19:t] inclusive)-1; 20 exact dependency closes including current,fraction,1,0,0
+399967.SZ:past_return_1,candidate_context_feature,399967.SZ,C[t]/C[t-1]-1; exact dependency closes t and t-1,fraction,1,0,0
+399967.SZ:past_return_5,candidate_context_feature,399967.SZ,C[t]/C[t-5]-1; exact dependency closes t and t-5,fraction,1,0,0
+399967.SZ:past_return_20,candidate_context_feature,399967.SZ,C[t]/C[t-20]-1; exact dependency closes t and t-20,fraction,1,0,0
+399967.SZ:close_over_ma20_minus_one,candidate_context_feature,399967.SZ,C[t]/mean(C[t-19:t] inclusive)-1; 20 exact dependency closes including current,fraction,1,0,0
+002414.SZ:past_return_5_aux,auxiliary_calculation,002414.SZ,"stock_past_return_5=Cstock[t]/Cstock[t-5]-1, only when both observations are within one known raw-price segment",fraction,1,0,0
+002414.SZ:minus_000001.SH:past_return_5,candidate_context_feature,002414.SZ,"stock_past_return_5 minus index_past_return_5; signed fraction difference, not a portfolio return, beta-adjusted alpha or causal effect",difference_of_return_fractions,1,0,0
+002414.SZ:minus_399001.SZ:past_return_5,candidate_context_feature,002414.SZ,"stock_past_return_5 minus index_past_return_5; signed fraction difference, not a portfolio return, beta-adjusted alpha or causal effect",difference_of_return_fractions,1,0,0
+002414.SZ:minus_399967.SZ:past_return_5,candidate_context_feature,002414.SZ,"stock_past_return_5 minus index_past_return_5; signed fraction difference, not a portfolio return, beta-adjusted alpha or causal effect",difference_of_return_fractions,1,0,0

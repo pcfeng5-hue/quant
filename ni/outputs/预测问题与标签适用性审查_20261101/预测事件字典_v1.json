@@ -1,0 +1,179 @@
+{
+  "status": "design_review_not_frozen_for_market_labels",
+  "user_first_use_case_confirmed": true,
+  "events": [
+    {
+      "id": "L00",
+      "name": "既有五观察日原价标签",
+      "status": "old_engineering_definition_unchanged",
+      "formula": "C[t+5]/O[t+1]-1",
+      "positive": ">0",
+      "zero": "=0",
+      "negative": "<0",
+      "binary_zero_group": "nonpositive",
+      "clock": "observed_stock_bars",
+      "can_answer": "该原价窗口正、零、负的开发诊断",
+      "cannot_answer": [
+        "实际成交收益",
+        "等待优于直接买入",
+        "期间风险",
+        "已校准当前买卖概率"
+      ]
+    },
+    {
+      "id": "L01",
+      "name": "下一允许窗口买入的费用后结果",
+      "status": "design_only_not_generated",
+      "formula": "(W_now(T)-B)/B",
+      "requires": [
+        "相同t0初始状态",
+        "已冻结分配、执行和费用",
+        "有效共同T",
+        "权益及税务口径",
+        "NAV或清算口径明确"
+      ],
+      "positive_event": "W_now(T)>B; 不同于原价上涨",
+      "unknown_if": [
+        "费用未知",
+        "成交未知",
+        "终点口径未明"
+      ]
+    },
+    {
+      "id": "L02",
+      "name": "预定确认后等待方案结果",
+      "status": "design_only_not_generated",
+      "formula": "(W_wait(T)-B)/B",
+      "requires": [
+        "t0前固定回落与确认定义",
+        "最大等待及末次确认/入场",
+        "逐时实际可得信息",
+        "共同T不随等待改变"
+      ],
+      "no_confirmation": "显式持币路径，不伪造交易收益0",
+      "unknown_if": [
+        "事后选择最低点",
+        "确认时使用尚未可得信息",
+        "假定同确认收盘成交"
+      ]
+    },
+    {
+      "id": "L03",
+      "name": "等待相对立即买入的财富优势",
+      "status": "proposed_primary_target_not_generated",
+      "formula": "Delta_W=W_wait(T)-W_now(T)",
+      "definition_only_event": "Delta_W>0; ties separately recorded",
+      "material_advantage_threshold": null,
+      "requires": [
+        "同一B和t0信息",
+        "同一预定分配规则与共同T",
+        "同一财富及现金利息口径",
+        "两条执行路径有依据或明确限为假设"
+      ],
+      "probability_condition": "仅t0已知信息；未来确认过程是策略路径，不是t0输入",
+      "causal_identification_from_daily_bars": false
+    },
+    {
+      "id": "L04",
+      "name": "纯持币参考",
+      "status": "design_only_not_generated",
+      "formula": "cash_B(T) under explicitly declared cash-return assumptions",
+      "trade_return": null,
+      "remarks": "零利息只是合成假设；未成交不代表存在零收益交易，订单费用/部分成交另记"
+    },
+    {
+      "id": "L05",
+      "name": "费用后盈利、持平、亏损",
+      "status": "design_only_not_generated",
+      "events": [
+        "W(T)>B",
+        "W(T)=B",
+        "W(T)<B"
+      ],
+      "economic_neutral_band": null,
+      "remarks": "有可评估结果时三类互斥完备；不可评估和未成熟不进入零类"
+    },
+    {
+      "id": "L06",
+      "name": "未来幅度分布与不确定性",
+      "status": "design_only_not_estimated",
+      "outputs": [
+        "费用后结果分位数",
+        "期望净结果",
+        "Delta_W分布",
+        "估计不确定性"
+      ],
+      "remarks": "未来结果区间与估计误差区间不同；历史10%/90%分位数不自动获得未来覆盖保证"
+    },
+    {
+      "id": "L07",
+      "name": "持有期间风险",
+      "status": "design_only_not_generated",
+      "outputs": [
+        "入场后价格最大不利变化",
+        "资金曲线回撤",
+        "跳空/不能退出风险",
+        "资金占用"
+      ],
+      "remarks": "价格MAE、账户回撤、已实现亏损分别定义；两策略在共同T比较财富，同时报告实际入场后风险及空仓暴露差异"
+    },
+    {
+      "id": "L08",
+      "name": "先触及风险线或目标线",
+      "status": "design_only_not_generated",
+      "barriers": null,
+      "same_daily_bar_both_touched": "ORDER_UNKNOWN，不默认有利顺序",
+      "touch_equals_fill": false,
+      "remarks": "需检查可卖数量、订单及实际成交；开盘跳空可能越线，不能以线价保证退出"
+    },
+    {
+      "id": "L09",
+      "name": "终点估值与实际变现",
+      "status": "design_only_not_generated",
+      "NAV": "cash_T+q_T*validated_mark_T+validated_rights_receivables_T-unpaid_tax_fee_and_other_liabilities_T",
+      "cash": "实际卖出成交后现金及其他明确现金流",
+      "remarks": "cash已扣已付费用；已到账股息不重复计应收，未知税费负债不填0。未成交退出可有有效NAV，清算结果仍不可评估；不顺延共同T隐藏失败"
+    },
+    {
+      "id": "L10",
+      "name": "持有与卖出后持币",
+      "status": "later_separate_question_not_this_primary_scope",
+      "formula": "W_sell_to_cash(T)-W_hold(T)",
+      "requires": [
+        "已有持仓及可卖数量",
+        "同一当前净资产",
+        "同终点和未来增量费用/权益"
+      ],
+      "remarks": "历史买价及已实现亏损账本保留，但两动作的未来增量比较不重复扣历史沉没费用；不等于1-买入上涨概率"
+    },
+    {
+      "id": "L11",
+      "name": "盘中做T",
+      "status": "deferred_not_identifiable_from_current_daily_inputs",
+      "requires": [
+        "分钟/更细数据及可得时戳",
+        "底仓可卖批次与资金",
+        "盘中信号与执行协议"
+      ],
+      "remarks": "日K高低/收盘后筹码不能证明盘中时点；没有盘中预测能力承诺"
+    }
+  ],
+  "pending_freeze": {
+    "pullback_eligibility_rule": null,
+    "confirmation_rule": null,
+    "main_horizon_planned_exchange_sessions": null,
+    "decision_datetime_and_information_cutoff": null,
+    "validated_exchange_planned_calendar": null,
+    "maximum_wait_sessions": null,
+    "last_confirmation_and_last_entry": null,
+    "entry_order_price_validity_and_cancellation_policy": null,
+    "terminal_NAV_or_executable_cash_policy": null,
+    "allocation_quantity_and_cash_interest_policy": null,
+    "fees_slippage_and_dividend_tax": null,
+    "economic_neutral_band_and_material_advantage": null,
+    "risk_barriers_and_action_thresholds": null,
+    "statistical_and_economic_acceptance": null,
+    "user_risk_limits_beyond_existing_realized_pause": null
+  },
+  "new_real_labels_generated": false
+}

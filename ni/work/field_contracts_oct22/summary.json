@@ -1,0 +1,15 @@
+{
+  "client_as_of_date": "2026-10-22",
+  "dictionary_groups": 16,
+  "normalized_field_definitions": 188,
+  "legacy_tables_profiled": 39,
+  "legacy_source_datasets_profiled": 30,
+  "raw_field_profiles": 994,
+  "missing_reason_codes": 21,
+  "issues": 4,
+  "source_files_hashed": 25,
+  "main_database_unchanged": true,
+  "no_network_or_browser": true,
+  "no_indicators_or_probabilities": true,
+  "historical_predictive_release": false
+}

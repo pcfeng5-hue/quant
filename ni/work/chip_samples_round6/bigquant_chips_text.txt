@@ -1,0 +1,1228 @@
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        筹码分布数据获取-BigQuant量化交易数据库
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    
+
+
+
+
+
+
+    
+
+        (() => {
+            var htmlRoot = document.getElementById('htmlRoot');
+            var theme = window.localStorage.getItem('__APP__DARK__MODE__');
+            if (htmlRoot && theme) {
+                htmlRoot.setAttribute('data-theme', theme);
+                theme = htmlRoot = null;
+            }
+        })();
+    
+
+    
+
+        
+
+            #app {
+                overflow: hidden;
+            }
+
+            .index {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #f5f5f5;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .preload-c-header {
+                --text-color: #000;
+                --bg-color: #fff;
+                --b-border-color: #757a8826;
+                --header-shadow: 0px 5px 10px 0px #757a882e;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 56px;
+                background-color: var(--bg-color);
+                font-size: 14px;
+                color: var(--text-color);
+                box-shadow: var(--header-shadow);
+                z-index: 501;
+          font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, \'Helvetica Neue\',
+            Arial, \'Noto Sans\', sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\',
+            \'Noto Color Emoji\';
+            }
+
+            .preload-c-header a {
+                color: unset;
+            }
+
+            .preload-c-header-wrapper {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                padding: 0 22px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .preload-c-header-left {
+                display: flex;
+                height: 100%;
+                align-items: center;
+            }
+
+            .preload-c-header-b {
+                margin-left: 11px;
+                display: inline-block;
+                padding: 0 12px 0 11px;
+                height: 28px;
+                line-height: 28px;
+                border-radius: 16px;
+                font-size: 12px;
+                cursor: pointer;
+                border-radius: 16px;
+                border: 1px solid var(--b-border-color);
+                color: var(--text-color);
+            }
+
+            .preload-c-header-b>span {
+                display: block;
+            }
+
+            .preload-c-header-center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 100%;
+            }
+
+            .preload-c-header-nav {
+                height: 100%;
+            }
+
+            .preload-c-header-nav-ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                height: calc(56px + 8px);
+                transform: translateY(-4px);
+          gap: 24px;
+            }
+
+            .preload-c-header-nav-li {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                /* width: 100px; */
+                cursor: pointer;
+                opacity: 0.9;
+            }
+
+            .preload-c-header-nav-li:hover {
+                opacity: 1;
+            }
+
+            .preload-c-header-nav-li-span {
+                display: flex;
+                align-items: center;
+            }
+
+            .preload-c-header-nav-li-span .preload-kb-icon {
+                margin-left: 2px;
+            }
+
+            .preload-kb-menu-arrow {
+                transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+
+            .preload-c-header-nav-li:hover .preload-kb-menu-arrow {
+                transform: rotate(-180deg);
+            }
+
+
+            .preload-c-header-nav-li-span:hover>a {
+                font-weight: bold;
+            }
+
+            @keyframes showMenu {
+                0% {
+                    opacity: 0;
+                    transform: translateY(25px);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .preload-c-header-right {
+                display: flex;
+            }
+
+
+            .preload-bq-header-btn {
+                min-width: 90px;
+                height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border: 1px solid #757a8826;
+                border-radius: 18px;
+                background-color: transparent;
+                transition: all 0.3s;
+                font-size: 14px;
+                color: #000;
+            }
+
+            .preload-bq-header-btn.preload-bq-header-btn-primary {
+                background-color: #e74c3c;
+                border-color: #e74c3c;
+                color: #fff;
+            }
+
+            .preload-bq-header-btn+.preload-bq-header-btn {
+                margin-left: 12px;
+            }
+
+            .preload-bq-header-btn:hover {
+                border-color: #e74c3c;
+                background-color: #e74c3c;
+                color: #fff;
+            }
+
+            .preload-bq-header-btn.preload-bq-header-btn-primary:hover {
+                background-color: #e74c3cd9;
+          border-color: #e74c3c;
+          color: #fff;
+            }
+
+            .preload-header-logo {
+                display: flex;
+                align-items: center;
+            }
+
+            .preload-header-logo__svg .preload-header-logo__bg {
+                fill: #f5222d;
+                transition: all 0.3s;
+            }
+
+            .preload-header-logo__svg .preload-header-logo__text {
+                fill: #fff;
+                transition: all 0.3s;
+            }
+
+            .preload-header-logo__title {
+                width: 100px;
+                height: 32px;
+                margin-left: 8px;
+            }
+
+            .preload-header-logo__title path {
+                fill: #000;
+                transition: all 0.3s;
+            }
+
+            .preload-kb-icon {
+                width: 1em;
+                height: 1em;
+                vertical-align: -0.15em;
+                fill: currentColor;
+                overflow: hidden;
+            }
+
+            @media screen and (min-width: 1100px) {
+                .preload-c-header-center {
+                    width: 550px;
+                }
+            }
+
+            @media screen and (min-width: 1200px) {
+                .preload-c-header-center {
+                    width: 594px;
+                }
+            }
+
+            @media screen and (min-width: 1250px) {
+                .preload-c-header-center {
+                    width: 600px;
+                }
+            }
+
+            @media screen and (min-width: 1300px) {
+                .preload-c-header-center {
+                    width: 650px;
+                }
+            }
+
+            @media screen and (min-width: 1400px) {
+                .preload-c-header-wrapper {
+                    width: 1356px;
+                }
+
+                .preload-c-header-center {
+                    width: 750px;
+                }
+            }
+
+            .preload-menu {
+                display: none;
+                font-size: 24px;
+            }
+
+            @media screen and (max-width:1150px) {
+
+                .preload-c-header-center,
+                .preload-bq-header-btn {
+                    display: none;
+                }
+
+                .preload-c-header-wrapper {
+                    padding: 0 20px;
+                }
+
+                .preload-menu {
+                    display: block;
+                }
+            }
+
+            main {
+                display: flex;
+                gap: 30px;
+                padding-top: 50px;
+            }
+
+            .main-left {
+                width: 200px;
+            }
+
+            .main-right {
+                flex: 1;
+            }
+
+            li {
+                list-style: none
+            }
+        
+
+        
+
+            
+
+                
+
+                    
+
+                                
+logo
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                                
+
+                                                    
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                                
+
+                            
+了解企业版
+
+                    
+
+                        
+
+                            
+
+                                
+首页
+
+                                
+编写策略
+
+                          
+
+                                
+
+                                
+数据平台
+
+                                
+
+                                
+策略社区
+
+                          
+
+                                
+
+                                
+我的交易
+
+                                
+
+                                
+宽客学院
+
+                          
+
+                        
+
+                      
+
+                                
+
+                                
+知识库
+
+                          
+
+                                
+
+                                
+Pro会员
+
+                                
+
+                            
+
+                        
+
+                    
+
+                    
+免费注册
+登录
+
+                        
+
+                            
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    筹码分布
+                    (cn_stock_chips_distribution)
+                
+
+                
+
+                    数据描述：
+                    股票的筹码分布数据是一种反映不同价位上投资者持仓成本的统计分析工具，主要用于分析市场参与者的平均持仓价格分布情况。它通过图表形式展示在特定时间点，持有某只股票的投资者在不同价格区间的筹码（股票数量或比例）积累情况，帮助判断支撑位、压力位以及主力资金的动向。
+                
+
+                
+
+                    
+文档
+
+                    
+
+                        数据简介
+                        
+
+                            ## 一、数据简介
+
+股票的筹码分布数据是一种反映不同价位上投资者持仓成本的统计分析工具，主要用于分析市场参与者的平均持仓价格分布情况。它通过图表形式展示在特定时间点，持有某只股票的投资者在不同价格区间的筹码（股票数量或比例）积累情况，帮助判断支撑位、压力位以及主力资金的动向。
+
+* 数据起始时间：2006-01-01
+* 数据更新频率：交易日
+* 表主键如下：
+
+| 关键字 | 释意 |
+| --- | --- |
+| date | 日期 |
+| instrument | 股票代码 |
+| price | 筹码价格 |
+
+## 二、筹码分布计算规则
+
+如果把上市公司发行的股票理解成筹码，发行一股股票就代表一份筹码，发行100万股股票就代表100万份筹码。你以什么价格买入该股票，就会标记为你持有的筹码是什么价格。
+
+（1）现在假设某股票最初以10元发行了1000股。则最初的筹码分布如下，在10元的地方有1000股的股票，其他价格上的股票数量都为0。
+
+    | 筹码价格 | 筹码量 |
+    | --- | --- |
+    | 10.5 | 0 |
+    | 10.3 | 0 |
+    | 10.0 | 1000 |
+
+（2）当股票开始交易后，假设第一笔交易以10.3的价格成交了300股。此时的筹码分布比较清晰，如下所示。
+
+    | 筹码价格 | 筹码量 |
+    | --- | --- |
+    | 10.5 | 0 |
+    | 10.3 | 300 |
+    | 10.0 | 700 |
+
+（3）再看第二笔交易，假设以10.5的价格又成交了200股，此时筹码分布又该如何变化？我们需要在10.5的价格上增加200股，在10.3和10元处共需减少200股。此时，计算筹码分布会出现一个，即但这200股中，有多少持有成本是10元，又有多少是10.3元呢？这个数据除非我们能获取市场上所有交易账户的买卖记录，否则我们也无法精确得知。因此，在计算筹码分布时，我们干脆一刀切，10.5元成交了200股，占总股本的20%，就意味着这笔交易的换手率就是20%。我们就根据换手率默认10.3元和10元处的股票都卖出了20%。此时的筹码分布如下所示。
+
+    | 筹码价格 | 筹码量 |
+    | --- | --- |
+    | 10.5 | 200 |
+    | 10.3 | 240 |
+    | 10.0 | 560 |
+
+（4）按上述逻辑即可在每笔交易后，不断画出新的筹码分布图。
+
+以上就是计算筹码分布的一个简单清晰的例子。**简而言之，计算筹码分布的核心步骤如下**：
+
+    * 找到 **初始化筹码分布**，一般以上市时的 **IPO价格** 和 **自由流通股本** 作为初始筹码分布。
+    * 计算 **当前交易日的换手率**，以该换手率更新上一交易日的筹码分布作为当前交易日的筹码分布。
+    * 增加 **当前交易日的筹码量**，计算该交易日的平均价格作为筹码价格，该价格的筹码量增加。
+    * 减少 **其他筹码价格的筹码量**，按照换手率减少该筹码价格的筹码量。
+
+## 三、注意事项
+
+虽然给出了筹码分布的核心计算逻辑，但在实际构建上还会遇到很多细节问题。这里，我们罗列出比较重要的点：
+
+（1）筹码分布数据使用 **未复权行情（cn_stock_real_bar1d）** 计算，考虑了除权除息的情况。
+
+（2）如何获取初始化筹码分布？
+    
+    正如前文说明，我们希望以上市时的“IPO价格”和“自由流通股本”作为初始筹码分布。但由于“历史数据缺失“和”计算资源消耗”两个原因，我们无法获取到2015年之前的分钟行情数据。因此，我们 **以2006-01-01作为起始原点**，按照以下规则获取 **初始筹码分布** 数据：
+    * 2006-01-01 之前上市的股票，以2006-01-01之前最后一个交易日的收盘价和自由流通股本作为初始筹码分布。
+    * 2006-01-01 之后上市的股票，以上市时的“IPO价格”和“自由流通股本”作为初始筹码分布。
+
+（3）是否需要固定间隔距离筹码价格？
+
+    如果以每交易日的平均价作为筹码价格，会使其筹码价格数量过多，导致**数据计算和存储的代价过大**。因此，按照**一定的价格区间统计该区间的筹码量**，每个交易日最多不超过**200个价格区间**。
+
+（4）如何处理等比例减少导致的筹码量指数衰减的问题？
+
+    * 正如前文介绍的，我们会按照当前交易日的换手率减少其他筹码价格的筹码量，但这样会导致一个问题！比如：假设换手率为10%，若该价格的筹码量为1000股，则减少量为100股；但若该价格筹码量为10股，则减少量为1股。这种**指数衰减**的状况会使得该价格的筹码量随着时间的推移，减少速度越来越慢，计算长期不在该价格上进行交易，该价格上始终会有筹码。显然，这是不符合预期的！
+    * 因此，我们按照当日**自由流通股本的0.001%**作为截断值，当筹码量少于这个数值时，则把该价格剔除，并把其剩余筹码量等比例分配给其他价格上，保证**股本不变**。
+
+
+## 四、指标说明
+
+计算完筹码分布数据后，我们可以统计一些简单的指标：
+
+* 平均筹码（avg_cost）：当前交易日的筹码分布中，按照筹码量加权平均价格。
+* 筹码占比（chips_ratio）：当前交易日的筹码分布中，每个筹码价格的筹码占比。
+* 获利比例（win_percent）：当前交易日的筹码分布中，计算小于当前分州收盘价的筹码占比总和。
+* 区间成本（upper/lower_n）：当前交易日的筹码分布中，计算 n% 分位数上的筹码价格。
+* 集中度（concentration）：当前交易日的筹码分布中，计算 90% 分位数的集中程度=(upper_90 - lower_90) / (upper_90 + lower_90)
+
+## 五、筹码分布数据可视化
+
+如果你想查看某只股票某交易日的筹码分布图，可以运用下面的代码。其他筹码分布图和第三方的具有一定的可比性。
+
+```python
+import dai
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = dai.query("""
+SELECT price, chips
+FROM cn_stock_chips_distribution
+""", filters={
+    "instrument": ["000002.SZ"],
+    "date": ["2025-06-23", "2025-06-23"]
+}).df()
+
+# 按price排序以确保折线连续
+df = df.sort_values('price')
+
+# 创建水平柱状图
+plt.figure(figsize=(10, 6))
+plt.barh(df['price'], df['chips'], height=0.1, color='skyblue')
+plt.xlabel('Chips')  # x轴标签
+plt.ylabel('Price')   # y轴标签
+plt.title('Price vs Chips (Horizontal Bar Chart)')
+plt.grid(axis='x', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
+```
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+用例
+
+                    
+
+                        
+                    
+
+                
+
+                
+
+                    
+表结构
+
+                    
+
+                        
+
+                            
+字段
+
+                            
+字段类型
+
+                            
+字段描述
+
+                        
+
+
+                                
+
+                                    
+chips_ratio
+
+                                    
+double
+
+                                    
+
+                                        筹码占比
+                                    
+
+                                
+
+                                
+
+                                    
+price
+
+                                    
+double
+
+                                    
+
+                                        筹码价格
+                                    
+
+                                
+
+                                
+
+                                    
+concentration
+
+                                    
+double
+
+                                    
+
+                                        筹码集中度
+                                    
+
+                                
+
+                                
+
+                                    
+__PARTITION__
+
+                                    
+int64
+
+                                    
+
+                                        -
+                                    
+
+                                
+
+                                
+
+                                    
+date
+
+                                    
+timestamp[ns]
+
+                                    
+
+                                        日期
+                                    
+
+                                
+
+                                
+
+                                    
+win_percent
+
+                                    
+double
+
+                                    
+
+                                        获利比率
+                                    
+
+                                
+
+                                
+
+                                    
+instrument
+
+                                    
+string
+
+                                    
+
+                                        证券代码
+                                    
+
+                                
+
+                                
+
+                                    
+chips
+
+                                    
+int64
+
+                                    
+
+                                        筹码数量
+                                    
+
+                                
+
+                                
+
+                                    
+avg_cost
+
+                                    
+double
+
+                                    
+
+                                        平均成本
+                                    
+
+                                
+
+                                
+
+                                    
+lower_70
+
+                                    
+double
+
+                                    
+
+                                        70%筹码成本下限
+                                    
+
+                                
+
+                                
+
+                                    
+lower_90
+
+                                    
+double
+
+                                    
+
+                                        90%筹码成本下限
+                                    
+
+                                
+
+                                
+
+                                    
+upper_70
+
+                                    
+double
+
+                                    
+
+                                        70%筹码成本上限
+                                    
+
+                                
+
+                                
+
+                                    
+upper_90
+
+                                    
+double
+
+                                    
+
+                                        90%筹码成本上限
+                                    
+
+                                
+
+
+                    
+
+                
+
+                
+表名：cn_stock_chips_distribution
+
+                
+起始时间：
+2025-07-29T18:25:36.495379+08:00
+
+                
+最近更新时间：
+2026-10-15T17:22:00.146065+08:00
+
+            
+
+            
+
+                
+数据平台
+
+                
+
+                        
+通用数据
+
+                        
+股票数据
+
+                        
+
+                            
+股票行情
+
+                            
+分钟行情
+
+                            
+股票信息
+
+                        
+
+                        
+财务数据
+
+                        
+
+                            
+原始数据
+
+                            
+衍生数据
+
+                            
+财务分析
+
+                            
+盈利预期
+
+                        
+
+                        
+指数数据
+
+                        
+
+                            
+指数行情
+
+                            
+指数信息
+
+                        
+
+                        
+行业板块
+
+                        
+
+                            
+行业行情
+
+                            
+行业信息
+
+                        
+
+                        
+期货数据
+
+                        
+
+                            
+期货行情
+
+                            
+期货信息
+
+                        
+
+                        
+期权数据
+
+                        
+
+                            
+期权行情
+
+                            
+期权信息
+
+                        
+
+                        
+基金数据
+
+                        
+
+                            
+基金行情
+
+                            
+基金信息
+
+                        
+
+                        
+可转债数据
+
+                        
+
+                            
+可转债行情
+
+                            
+可转债信息
+
+                        
+
+                        
+债券数据
+
+                        
+
+                            
+债券行情
+
+                        
+
+                        
+宏观行业
+
+                        
+
+                            
+生猪
+
+                            
+综合
+
+                            
+人口统计
+
+                            
+就业统计
+
+                            
+对外经贸
+
+                            
+白糖
+
+                            
+价格指数
+
+                            
+国民经济
+
+                            
+汽车业
+
+                            
+人民生活
+
+                            
+黄金
+
+                            
+工农业
+
+                        
+
+                        
+量化因子
+
+                        
+
+                            
+股票因子
+
+                            
+基本信息
+
+                            
+公开因子
+
+                            
+股本股东
+
+                            
+风格行业
+
+                            
+研报因子
+
+                            
+技术分析指标
+
+                            
+期货因子
+
+                        
+
+                        
+另类数据
+
+                        
+
+                            
+新闻舆情
+
+                            
+专利数据
+
+                            
+股吧数据
+
+                            
+公告舆情
+
+                        
+
+                        
+海外数据
+
+                        
+
+                            
+行情数据
+
+                            
+信息数据
+
+                            
+基本信息
+
+                        
+
+                        
+风险因子
+
+                        
+
+                            
+BQ
+
+                            
+CERM
+
+                        
+
+                        
+用户分享因子数据
+
+                        
+用户分享数据
+
+                        
+
+                            
+其他
+
+                            
+数字货币
+
+                            
+债券数据
+
+                            
+基金数据
+
+                            
+行业数据
+
+                            
+基金模型
+
+                            
+指数数据
+
+                            
+可转债数据
+
+                            
+另类数据
+
+                            
+海外数据
+
+                            
+股票数据
+
+                            
+财务数据
+
+                            
+宏观数据
+
+                            
+港股数据
+
+                            
+研报
+
+                            
+期货数据
+
+                            
+alpha_flash
+
+                        
+
+                        
+宏观数据
+
+                        
+
+                            
+国民经济
+
+                            
+对外经贸
+
+                        
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        const bigquantReg = /bigquant\.com|bigquant\.ai/g;
+        const pocReg = /poc/g;
+        if (pocReg.test(window.location.origin) || !bigquantReg.test(window.location.origin)) {
+            const indexEle = document.querySelector('.page');
+            if (indexEle) {
+                indexEle.style.display = 'none';
+            }
+        }
+    
+
+    
+
+
+
+
